@@ -118,7 +118,8 @@
 		.slideshow img{
 			width:100%;
 			height: auto;
-			cursor:pointer;
+			cursor:-webkit-zoom-in;
+			cursor:-moz-zoom-in;
 		}
 
 	/* CAPTION */
