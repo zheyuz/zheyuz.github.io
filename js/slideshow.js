@@ -15,4 +15,10 @@
                 var imgurl=$(this).attr('src');
                 window.open(imgurl,"showpic","width=800,height=400");
             });
+
+            //
+            $('#slideclose').click(function(){
+                $('.slidess,.slide_c').fadeOut();
+                $('.slide_c').html('');
+            });
     });
