@@ -1,0 +1,431 @@
+@charset "UTF-8";
+body,html{
+	width:100%;
+	height:100%;
+  background-color: #ec6e5f;
+  overflow: hidden;
+
+  /* font setting */
+	color:#000000;
+	font-family: 'FuturaTEELig';
+  font-size:16px;
+  line-height: 160%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* { 
+ -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+ -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+ box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+    /* Let's get this party started */
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+     
+    /* Track */
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0); 
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(255,255,255,0); 
+        -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0); 
+    }
+    ::-webkit-scrollbar-thumb:window-inactive {
+      background: rgba(255,255,255,0); 
+    }
+
+
+a{
+  text-decoration: none;
+  color:#000000;
+  cursor:pointer;
+}
+a:hover{
+  text-decoration: underline;
+}
+/* Futura Tee */
+@font-face {
+  font-family: 'FuturaTEE';
+  src: url('futuratee/FuturaTEE.eot'); /* IE9 Compat Modes */
+  src: url('futuratee/FuturaTEE.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('futuratee/FuturaTEE.woff') format('woff'), /* Modern Browsers */
+       url('futuratee/FuturaTEE.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('futuratee/FuturaTEE.svg#3510b32456bd594efa3519ff4006d33d') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+/* Futura Light */
+@font-face {
+  font-family: 'FuturaTEELig';
+  src: url('futurali/FuturaTEELig.eot'); /* IE9 Compat Modes */
+  src: url('futurali/FuturaTEELig.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('futurali/FuturaTEELig.woff') format('woff'), /* Modern Browsers */
+       url('futurali/FuturaTEELig.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('futurali/FuturaTEELig.svg#79a0f9815990e9057e7f6019ffa5946f') format('svg'); /* Legacy iOS */
+  font-style:   normal;
+  font-weight:  400;
+}
+/* Futura Medium */
+@font-face {
+  font-family: 'Futura-Medium';
+  src: url('futuram/FuturaMedium.eot'); /* IE9 Compat Modes */
+  src: url('futuram/FuturaMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('futuram/FuturaMedium.woff') format('woff'), /* Modern Browsers */
+       url('futuram/FuturaMedium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('futuram/FuturaMedium.svg#6e1e5153b1feaeba3722775467f6cd3b') format('svg'); /* Legacy iOS */
+  font-style:   normal;
+  font-weight:  400;
+}
+
+/* Futura BT Medium */
+@font-face {
+  font-family: 'Futura Md BT';
+  src: url('futurabt-m/Futura_Medium_BT.eot'); /* IE9 Compat Modes */
+  src: url('futurabt-m/Futura_Medium_BT.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('futurabt-m/Futura_Medium_BT.woff') format('woff'), /* Modern Browsers */
+       url('futurabt-m/futurabt-m/Futura_Medium_BT.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('futurabt-m/Futura_Medium_BT.svg#75529023e858c4637d1c4cf773e7b6bc') format('svg'); /* Legacy iOS */
+  font-style:   normal;
+  font-weight:  400;
+}
+/*------ ERROR ------*/
+.error{
+  /* alignment */
+  /* Firefox */
+  display:-moz-box;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+  /* Safari, Chrome, and Opera */
+  display:-webkit-box;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+  /* W3C */
+  display:box;
+  box-pack:center;
+  box-align:center;
+  width:100%;
+  height:100%;
+  
+  /* font */
+  text-transform: uppercase;
+  text-align: center;
+  font-size:13px;
+  letter-spacing: 1.1px;
+  font-family: 'Futura-Medium';
+}
+/*------ Border ------*/
+.border{
+  width: 100%;
+  height: 100%;
+  border:9px solid #232728;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index:4;
+}
+/*------ Header ------*/
+#zheyuz{
+  width:200px;
+  height:100px;
+  position: fixed;
+  top:15%;
+  left:10%;
+  z-index:4;
+}
+/*------ Menu ------*/
+nav{
+  width:90px;
+  position: fixed;
+  top:34%;
+  left:10%;
+  z-index: 5;
+}
+    .menu{
+      text-transform: uppercase;
+      font-family: 'Futura Md BT';
+      font-size:13px;
+      letter-spacing: 3px;
+    }
+    .menu a{
+      text-decoration: underline;
+    }
+    .menu a:hover{
+      font-size: 14px;
+      color:#f9de19;
+    }
+    .menu:nth-of-type(2){
+      margin-top: 10px;
+    }
+
+/*------ Social ------*/
+#pinterest, #facebook, #instagram, #gmail{
+  cursor:pointer;
+}
+    #pinterest{
+      width:90px;
+      height:30px;
+      position: fixed;
+      top:3%;
+      right:3%;
+      z-index:5;
+    }
+    #facebook{
+      width:80px;
+      height:30px;
+      position: fixed;
+      top:3%;
+      left:3%;
+      z-index:5;
+    }
+    #instagram{
+      width:90px;
+      height:30px;
+      position: fixed;
+      bottom:3%;
+      right:3%;
+      z-index:5;
+    }
+    #gmail{
+      width:50px;
+      height:30px;
+      position: fixed;
+      bottom:3%;
+      left:3%;
+      z-index:5;
+}
+/*------ Content ------*/
+.content{
+  width:70%;
+  height:100%;
+  position: absolute;
+  left:16%;
+  z-index:5;
+}
+/*------ SLIDES ------*/
+.slidess{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 6;
+  background-image:url('../img/border-bg.png');
+  display: none;
+}
+  /* SLIDE CONTENT */
+  .slide_c{
+    width:70%;
+    height: 80%;
+    position: absolute;
+    top:10%;
+    left:15%;
+    background-color: #ffffff;
+    display: none;
+  }
+  /* CLOSE UP */
+  .slidess aside{
+    width:20px;
+    height:20px;
+    position: absolute;
+    top:12%;
+    right:16%;
+  }
+  .slidess aside:hover{
+    -webkit-animation: oo 1.5s;
+    -o-animation: oo 1.5s;
+    animation: oo 1.5s;
+    cursor:pointer;
+  }
+  /* GO WEB */
+  .gosite{
+    width:50px;
+    height:20px;
+    position: absolute;
+    top:12%;
+    right:-0.2%;
+      -webkit-transform: rotate(90deg);
+       -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+         -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .gosite:hover{
+    cursor:pointer;
+    background-color: F95E21;
+    -moz-background-clip: border-box;        /*for Firefox*/
+    -webkit-background-clip: border-box;        /*for Google Chrome、Safari*/
+    -o-background-clip: border-box;        /*for Opera*/
+    background-clip: border-box;        /*for IE*/
+    margin:5px 0 0 0;
+  }
+/*------ GMAIL ME ------*/
+.gmailme{
+  width:48%;
+  min-width: 390px;
+  height: auto;
+  position: absolute;
+  top:25%;
+  left:25%;
+  z-index:6;
+  background: #73bfb9;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  -o-background-clip: padding-box;
+  background-clip: padding-box;
+  display: none;
+}
+    /* ERROR */
+    .gmailme .error_message{
+      margin:5px;
+      font-family: 'Futura Md BT';
+      font-weight: 500;
+      font-size:13px;
+      text-transform: uppercase;
+      color:#f9de19;
+    }
+    /* INFO */
+    .asinfo{
+      font-size:13px;
+      font-family: 'Futura-Medium';
+      color:#555555;
+    }
+    /* AREA STYLING */
+    .gmailme input,textarea{
+    background:rgba(129,299,212,0.5);
+    border:2px solid #666;
+    color:#000000;
+    }
+    /* DESCRIPTION FONT */
+    .firstname span, .lastname span, .inpemail span{
+      font-family: 'Futura Md BT';
+      font-size: 12px;
+      letter-spacing: 1.2px;
+    }
+    /* DIVS */
+    .names div{
+      float:left;
+      margin:0 0 0 10px;
+    }
+    .names div:nth-of-type(1){
+      margin:0;
+    }
+    /* TEXTAREA */
+    .ss-q-long{
+      width:94%;
+      margin:15px 0 10px 0;
+    }
+    /* SEND BUTTON */
+    .mesend{
+      background: #73bfb9;
+        font-family: 'Futura Md BT';
+        font-weight: 500;
+        font-size:13px;
+        box-shadow: 5px 5px 0px #81c7d4;
+    }
+    .mesend:hover{
+      box-shadow: 2px 2px 0px #81c7d4;
+    }
+    #leavexx{
+      width:90px;
+      height:30px;
+      vertical-align: middle;
+      margin-left:50px;
+      cursor:pointer;
+    }
+/*------ 360 -----*/
+@-webkit-keyframes oo {
+  0% { -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+          transform: rotate(180deg); }
+  100% { -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+          transform: rotate(360deg); }
+}
+@-moz-keyframes oo {
+  0% { -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+          transform: rotate(180deg); }
+  100% { -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+          transform: rotate(360deg); }
+}
+@-ms-keyframes oo {
+  0% { -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+          transform: rotate(180deg); }
+  100% { -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+          transform: rotate(360deg); }
+}
+@-o-keyframes oo {
+  0% { -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+          transform: rotate(180deg); }
+  100% { -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+          transform: rotate(360deg); }
+}
+@keyframes oo {
+  0% { -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+          transform: rotate(180deg); }
+  100% { -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+          transform: rotate(360deg); }
+}
+/*------ FADE ------*/
+.fade{
+  -webkit-animation: fade 1.5s;
+  -o-animation: fade 1.5s;
+  animation: fade 1.5s;
+}
+  /* ANIMATE */
+    @-webkit-keyframes fade {
+      0% { opacity:0; }
+      100% { opacity:1; }
+    }
+    @-moz-keyframes fade {
+      0% { opacity:0; }
+      100% { opacity:1; }
+    }
+    @-ms-keyframes fade {
+      0% { opacity:0; }
+      100% { opacity:1; }
+    }
+    @-o-keyframes fade {
+      0% { opacity:0; }
+      100% { opacity:1; }
+    }
+    @keyframes fade {
+      0% { opacity:0; }
+      100% { opacity:1; }
+    }

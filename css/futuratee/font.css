@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'FuturaTEE';
+  src: url('FuturaTEE.eot'); /* IE9 Compat Modes */
+  src: url('FuturaTEE.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('FuturaTEE.woff') format('woff'), /* Modern Browsers */
+       url('FuturaTEE.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('FuturaTEE.svg#3510b32456bd594efa3519ff4006d33d') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

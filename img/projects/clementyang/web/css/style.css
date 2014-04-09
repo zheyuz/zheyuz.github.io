@@ -1,0 +1,702 @@
+/**
+  Theme Name: tymote.jp
+  Theme URI: http://tymote.jp
+  Version: 1.0
+  Author: yang02
+  Author URI: http://yang02.org
+  Tags: tymote
+  Licence: GPL
+  
+  Description: Original theme for tymote.jp
+
+*/
+
+/* Normalizes margin, padding */
+ #xuelogo{
+	position: absolute;
+	left:67px;
+	top:25px;
+	display:block;
+	z-index:6000;
+	 position:fixed;
+}
+
+
+ #kidsmenu{
+	 float:right;
+	 margin-top:7px;
+	 right:60px;
+	 top:32px;
+	 position:fixed;
+	 z-index:6000;
+padding-top:5px;
+}
+#kdm{
+padding-right:5px;
+}
+
+#back{
+margin-top:7px;right:60px;top:20px;position:fixed;	 z-index:6000;
+}
+.kidsmenu2{
+	z-index: 500;
+	position:absolute;
+	top:7px;
+	right:60px;
+}
+
+
+
+#xuelogo a:hover img{
+	opacity:1;
+}
+
+
+
+
+
+
+.kvword-t{
+	z-index: 500;
+	position:absolute;
+	top:9px;
+	left:123px;
+}
+
+
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+/* Normalizes font-size for headers */
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0.1px;
+	font-size: 0.1em;
+	line-height: 0;
+	clear: both;
+}
+
+
+
+
+h1  {
+	margin: 0;
+	padding-bottom: 10px;
+	font-family: Arial, sans-serif ;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #000;
+	line-height: 1em;
+}
+h1 a:link {
+	color: #000;
+	text-decoration: none;
+}
+h1 a:hover {
+	color: #000;
+	text-decoration: none;
+}
+h1 a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+h2{
+}
+
+h3, h4{
+	font-size: 12px;
+	font-weight: normal;
+	padding-bottom: 4px;
+}
+
+
+/* Removes list-style from lists */
+
+ol,ul {
+	list-style: none;
+}
+
+/* Normalizes font-style and font-weight to normal */
+
+address, caption, cite, code, dfn, em, strong, th, var {
+}
+
+/* Removes list-style from lists */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Removes border from fieldset and img */
+
+fieldset,img {
+	border: 0;
+}
+
+/* Left-aligns text in caption and th */
+
+caption,th {
+	text-align: left;
+}
+
+/* Removes quotation marks from q */
+
+q:before, q:after {
+	content: '';
+}
+
+/* @end */
+
+
+
+
+.commentmetadata {
+}
+
+.indextitle, .worktitle {
+}
+
+
+.indextitle a, .worktitle a {
+	color: #ddd;
+}
+
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:focus{ outline: none; }
+
+a:hover img {
+filter:alpha(opacity=60); 
+-moz-opacity:0.60;
+-khtml-opacity: 0.6;
+opacity:0.60;
+}
+
+
+
+blockquote {
+}
+
+body {
+	 background:url(../img/A03.gif);
+	color: #000;
+	font-family: Arial;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	line-height: 1.6em;
+	
+}
+
+iframe.bgm{
+	border: 0;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+}
+
+cite {
+	font-size: 90%;
+	font-style: normal;
+}
+
+.left{ float: left; }
+.right{ float: right; }
+
+::selection {color:#fff; background: #000;}
+::-moz-selection {color:#fff; background: #000;}
+
+
+/* classes used by the_meta() */
+#post{
+	z-index: 5;
+}
+
+ul.post-meta {
+	list-style: none;
+	margin-bottom:5px;
+}
+
+.meta_image img{
+	margin-bottom: 5px;
+}
+
+
+
+ul.post-meta span.post-meta-key {
+}
+
+#credit {
+	color: #444;
+	font-size: .9em;
+	text-align: right;
+	margin: 60px 0;
+	line-height: 1.6em;
+	display:block; 
+}
+
+#credit a:link, #credit a:hover .credit a:visited {
+	color: #444;
+}
+
+.feedback {
+	color: #ccc;
+	text-align: right;
+	clear: both;
+}
+
+.meta {
+	border-top: dotted 1px #bbb;
+	font-weight: normal;
+	font-size:.9em;
+	padding-top:5px;
+	margin: 10px 100px 70px 0;
+	line-height: 1em;
+}
+
+.index_meta {
+	font-family:Arial, sans-serif;
+	font-size:1.1em;
+	position: absolute;
+	top:-1px;
+	left: 23px;
+	padding: 0 20px 10px 15px;
+	line-height: 1.1em;
+	overflow: hidden;
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity: 0;
+	opacity:0;
+	width: 190px;
+}
+.index_meta a {
+	color: #000;
+	background: transparent;
+	cursor: pointer;
+	padding: ;
+}
+.index_meta p, .info p{
+	font-size: 0.8em;
+	line-height: 1.4em;
+}
+
+.meta li, ul.post-meta li {
+	display: inline;
+}
+
+.meta ul {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.meta, .meta a {
+	color: #808080;
+	font-weight: normal;
+	letter-spacing: 0;
+}
+
+.storytitle {
+	margin: 0;
+}
+
+.storytitle a {
+	text-decoration: none;
+}
+
+.date {
+	text-align: right;
+	font-size: 1.1em;
+	color: #444;
+	float: right;
+	font-weight: bold;
+	display:inline;
+}
+
+#commentform #author, #commentform #email, #commentform #url, #commentform textarea {
+	background: #fff;
+	border: 1px solid #333;
+	padding: .2em;
+}
+
+#commentform textarea {
+}
+
+#commentlist li ul {
+	list-style-type: none;
+}
+
+#commentlist li .avatar {
+	float: right;
+	margin-right: 25px;
+	border: 1px dotted #ccc;
+	padding: 2px;
+}
+
+
+#content_wrapper {
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+}	
+
+#content_wrapper_single {
+	width: 100%;
+}
+#content_single{
+	padding-right: 50px;
+}
+
+#content {
+	margin: 0;
+	padding-left: 50px;
+	font-size: 0.8em;
+	color: #444;
+	display:block;
+}
+#content ul#test{
+	margin: 360px 0 0 0;
+	padding: 0;
+	overflow: visible;
+}
+#content ul#test li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	height:600px;
+	width:230px;
+	overflow: visible;
+	float: left;
+}
+
+.content p{
+	height: 480px;
+}
+.content p div.imgs span{
+	display: block;
+	width: 640px;
+}
+.imgs{
+	padding-left: 50px;
+}
+
+
+.info{
+	position: fixed;
+	height: 75px;
+	left: 50px;
+	bottom: 0px;
+}
+#content_footer{
+	position: fixed;
+	height: 75px;
+	left: 200px;
+	bottom: 0px;
+}
+
+#content_footer ul li{
+	float: left;
+	padding-right: 15px;
+}
+
+.post {
+	width: 230px;
+	height: 70px;
+	display:block;
+	float:left;
+	margin: 0;
+	position: relative;
+}
+.m a img{
+	display: none;
+}
+
+
+
+
+
+
+#content_single {
+	font-size: .7em;
+	color: #444;
+	height: 480px;
+}
+
+#cntrl{
+	display: none;
+	z-index: 6;
+}
+#prevBtn{
+	position: fixed;
+	font-size:17px;
+	font-weight:bold;
+	left: 70px;
+	top: 307px;
+}
+#nextBtn{
+	position: fixed;
+	font-size:17px;
+	font-weight:bold;
+	right: 70px;
+	top: 307px;
+}
+
+
+
+
+#sound {
+	height: 480px;
+	width: 1600px;
+	padding-left: 50px;
+}
+
+.title {
+	width: 200px;
+	height: 480px;
+	float: left;
+}
+
+dl{
+	padding: 35px 0 55px;;
+	width: 300px;
+}
+
+li#information #uma{ padding: 75px 0 0 70px; }
+li#information dl dt{
+	float: left;
+	clear:both;
+	padding-bottom: 4px;
+}
+li#information dl dd{
+	padding-bottom: 4px;
+}
+li#information dl#company dt{ width: 80px; }
+li#information dl#company dd{ margin-left: 80px; }
+li#information dl#member dt{ width: 150px; }
+li#information dl#member dd{ margin-left: 150px; }
+
+li#contact div#map{
+	width: 400px;
+}
+li#contact div#contact_info{
+	width: 400px;
+}
+li#contact div#contact_info div{
+	height: 75px;
+	padding: 15px 0 75px;
+}
+
+
+.header_wrapper {
+	width: 100%;
+	/*background: url(_img/header_bg.png) repeat;*/
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+#header{
+	max-width:1200px;
+	min-width:1200px;
+	background-color: transparent;
+	font-family:Arial, sans-serif ;
+	margin: 0; 
+	position: absolute;
+	top: 0;
+	left: 50px;
+}
+#header_title{
+	width: 200px;
+}
+
+
+
+
+#menu {
+	padding-top: 20px;
+	height:55px;
+}
+#menu ul {
+}
+#menu ul li.item {
+	width: 200px;
+	height: 45px;
+	float: left;
+	position: relative;
+}
+#menu ul li a{
+}
+#menu ul li img.underbar{
+	padding-top: 20px;
+	display: none;
+}
+#menu ul li img.spacer{
+	position: absolute;
+	top: 0;
+	left: 0;
+	filter:alpha(opacity=0); 
+	-moz-opacity:0;
+	-khtml-opacity: 0;
+	opacity:0;
+}
+
+#menu ul li ul{
+	padding-top: 5px;
+	height: 20px;
+	display: none;
+}
+#menu ul li ul li{
+	padding-right:1em;
+}
+
+#music{
+	position: fixed;
+	right: 50px;
+	top: 20px;
+	display: none;
+	z-index: 100;
+}
+#music_pop{
+	padding:20px;
+}
+#music_pop li{
+	float: left;
+	padding-right: 10px;
+}
+#back_top{
+	position: fixed;
+	top: 20px;
+	right: 20px;
+}
+
+
+
+
+
+/* Captions & aligment */
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+
+
+/* End captions & aligment */
+
+h7 {font-size: 1.3em; font-weight: bold;}
+
+		/*Supersize Plugin Styles*/
+		#load {
+			position: fixed;
+			top: 360px; 
+			left: 65px;
+			z-index: 11;
+		}
+		#supersize{
+			position:fixed;
+			top: 0;
+			left: 0;
+		}
+		#supersize img, #supersize a{
+			height:100%;
+			width:100%;
+			position:absolute;
+			z-index: 0;
+			display: none;
+		}
+		#supersize .prevslide, #supersize .prevslide img{
+			z-index: 1;
+		}
+		#supersize .activeslide, #supersize .activeslide img{
+			z-index: 2;
+		}
+
+
+/*////////// droppy //////////*/
+/* Basic code - don't modify */
+ 
+ #nav { display: block; margin: 0; padding: 0; position: relative; }
+  #nav li { display: block; list-style: none; margin: 0; padding: 0; float: left; position: relative; }
+  #nav a { display: block; }
+  #nav ul { display: none; position: absolute; left: 0; margin: 0; padding: 0; }
+  * html #nav ul { line-height: 0; } /* IE6 "fix" */
+  	#nav ul a { zoom: 1; } /* IE6/7 fix */
+    #nav ul li { float: none; }
+    #nav ul ul { top: 0; }
+    
+/* Everything else is theming */
+ 
+#nav *:hover { background-color: none; }
+#nav ul { top: 25px;  width: 140px; padding-bottom: 10px; }
+#nav ul li { background-color: #000; padding: 4px 0 4px 12px; border-bottom: 1px dotted #444; }
+#nav ul li a { color: #fff; }
+#nav ul a.hover { background-color: ; }
+#nav ul a { opacity: 0.9; filter: alpha(opacity=90); }
+/* #nav ul a { border-bottom: none; } - I also needed this for IE6/7 */
+
+
+.kvword{
+	z-index: -50;
+	position:absolute;
+	top:130px;
+}
+
+#footer{
+	width:100%;
+	text-align:center;
+	padding:11px 0;
+	bottom:0;
+	clear:both;
+	display:block;
+	position:fixed;
+	background:rgba(3%,3%,3%,0.3);
+	color:#fff;
+	font-size:12px;
+}
+
+
+#footer a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#footer a:hover{
+	color:#ccc;
+}
+
+

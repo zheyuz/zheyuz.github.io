@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/*------ PROFILE ------*/
+.profile_inner{
+	width:100%;
+	min-height:300px;
+	position: absolute;
+	top:40%;
+	left:15%;
+}
+	.ppicture, .ptext{
+		float:left;
+	}
+	/* PICTURE */
+	.ppicture{
+		width:200px;
+		height: 200px;
+		background: url('../img/profile.png') no-repeat;
+		background-position: 80% 40%;
+		background-size:cover;
+		opacity:0.7;
+		box-shadow: 8px 8px 0px #69b0ac;
+		-webkit-transform: rotate(-45deg);
+		   -moz-transform: rotate(-45deg);
+		    -ms-transform: rotate(-45deg);
+		     -o-transform: rotate(-45deg);
+		        transform: rotate(-45deg);
+	}
+	.ppicture:hover{
+		box-shadow: 5px 5px 0px #81c7d4;
+	}
+	.ptext h1{
+	  	font-family: 'Futura-Medium';
+	  	font-size:16px;
+	  	margin:0;
+	}
+	/* PICTURE FOLLOWING TEXT BLOCK */
+	.profile_inner div:nth-of-type(2){
+		width:500px;
+		margin:-55px 0 0 70px;
+	}
+	.profile_inner div:nth-of-type(3){
+		width:500px;
+		margin:80px 0 0 55px;
+	}
+
+
+/*------ Projects ------*/
+.projects_inner{
+	width:100%;
+	min-height:300px;
+	position: absolute;
+	top:15%;
+	left:15%;
+}
+	/* GRIDS */
+	.projects_inner figure{
+		width:150px;
+		height:150px;
+		background:url('../img/projects/gridsbg/green.png');
+		opacity:0.8;
+		box-shadow: 8px 8px 0px #dbd2a9;
+		-webkit-transform: rotate(-45deg);
+		   -moz-transform: rotate(-45deg);
+		    -ms-transform: rotate(-45deg);
+		     -o-transform: rotate(-45deg);
+		        transform: rotate(-45deg);
+		float:left;
+		margin:50px 70px 50px 70px;
+	}
+		/* SHADOW */
+		.projects_inner figure:hover{
+			box-shadow: 5px 5px 0px #90b4da;
+			color:#7b98b7;
+			cursor:pointer;
+		}
+
+	/* CAPTION */
+	.projects_inner figcaption{
+		display: block;
+		position: absolute;
+		top:30px;
+		left:-120px;
+		width:180px;
+		-webkit-transform: rotate(45deg);
+		   -moz-transform: rotate(45deg);
+		    -ms-transform: rotate(45deg);
+		     -o-transform: rotate(45deg);
+		        transform: rotate(45deg);
+		text-transform: uppercase;
+	    font-family: 'FuturaTEE';
+		font-size:12px;
+		line-height: 150%;
+		letter-spacing: 1.1px;
+	}
+		/* CAPTION TITLE */
+		.projects_inner figcaption p:nth-of-type(1){
+			display: block;
+			font-family: 'Futura Md BT';
+			font-size:12px;
+			line-height: 20%;
+			letter-spacing: 1.2px;
+		}
+
+/*----- Project Content -----*/
+.project_content{
+	width:95%;
+	height: 95%;
+	margin:2.5% 2.5%;
+}
+	/* SLIDE SHOW */
+	.slideshow{
+		width:80%;
+		height: 72%;
+		margin:4% 10% 0% 10%;
+		overflow: hidden;
+		}
+		/* IMG */
+		.slideshow img{
+			width:100%;
+			height: auto;
+			cursor:pointer;
+		}
+
+	/* CAPTION */
+	.scaption{
+		width:100%;
+		height: 18%;
+		font-size:14px;
+		margin:5% 0 2% 0;
+		letter-spacing: 1.2px;
+		overflow-y: scroll;
+	}
+	.scaption span{
+		font-family: 'Futura Md BT';
+		font-size:12px;
+		letter-spacing: 1.2px;
+		text-transform: uppercase;
+	}
+	/* WORK TEAM */
+	.workteam{
+	    font-family: 'FuturaTEE' !important;
+	    font-size:11px;
+		letter-spacing: 1.2px;
+	}
