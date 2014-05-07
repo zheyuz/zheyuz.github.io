@@ -2,6 +2,7 @@
 /*------ PROFILE ------*/
 .profile_inner{
 	width:100%;
+	max-width: 896px;
 	min-height:300px;
 	position: absolute;
 	top:40%;
