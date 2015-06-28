@@ -9,6 +9,4 @@ document.write('<div id="fb-root"></div>');
 }(document, 'script', 'facebook-jssdk'));
 
 var url=location.href;
-document.write('<div style="clear:both"></div>
-<div class="fb-like" data-href="'+url+'" data-width="The pixel width of the plugin100" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true">
-</div><div style="clear:both"></div>');
+document.write('<div style="clear:both"></div><div class="fb-like" data-href="'+url+'" data-width="The pixel width of the plugin100" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><div style="clear:both"></div>');
