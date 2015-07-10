@@ -120,8 +120,8 @@
 		}
 		/* IMG */
 		.slideshow img{
-			width:100%;
-			height: auto;
+			width:auto;
+			height: 100%;
 			cursor:-webkit-zoom-in;
 			cursor:-moz-zoom-in;
 		}
