@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>訂購單 (主購頁-訂單取消)</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+
+	<link href="../css/layout.css" rel="stylesheet" type="text/css">
+	<link href="../css/event.css" rel="stylesheet" type="text/css">
+
+
+	<script src="../js/jquery-2.1.4.min.js"></script>
+	<script src="../js/jquery.mobile-1.4.5.min.js"></script>
+
+	<!-- go to Top -->
+	<script type="text/javascript">
+	$(function(){
+		$("#go_top").click(function(){
+			jQuery("html,body").animate({
+				scrollTop:0
+			},1000);
+		});
+		$(window).scroll(function() {
+			if ( $(this).scrollTop() > 300){
+				$('#go_top').fadeIn("fast");
+			} else {
+				$('#go_top').stop().fadeOut("fast");
+			}
+		});
+	});
+	</script>
+	<!-- go to Top_END -->
+
+	<script type="text/javascript">
+	$(function(){
+		//TAB_click
+		$(".order_main_tabs li").click(function(){
+			$(".order_main_tabs li").removeClass("target");
+			$(this).addClass("target");
+		});
+		//換頁demo
+		$(".unionDetail_box").hide();
+		$(".unionMail_box").hide();
+		$(".order_main_tabs").children(".unionPayment_li").click(function(){
+			$(".unionMail_box").hide();
+			$(".unionDetail_box").hide();
+			$(".unionPayment_box").show();
+		});
+		$(".order_main_tabs").children(".unionDetail_li").click(function(){
+			$(".unionMail_box").hide();
+			$(".unionPayment_box").hide();
+			$(".unionDetail_box").show();
+		})
+		$(".order_main_tabs").children(".unionMail_li").click(function(){
+			$(".unionPayment_box").hide();
+			$(".unionDetail_box").hide();
+			$(".unionMail_box").show();
+		})
+
+		// 修改工具列
+		$(".moreTool_popup").hide();
+		$("a.more_tool").click(function(){
+			$(".moreTool_popup").show();
+		});
+		$("a.tool_item").click(function(){
+			$(".moreTool_popup").hide();
+		});
+
+		// 選擇帳戶
+		$(".atmChoose_Popup_content").hide();
+		$("p.pay_mode_atm").click(function(){
+			$(".atmChoose_Popup_content").fadeIn("fast");
+		});
+		$("a.ok_btn").click(function(){
+			$(".atmChoose_Popup_content").fadeOut("fast");
+		});
+		$("a.popup_cancel_btn").click(function(){
+			$(".atmChoose_Popup_content").fadeOut("fast");
+		});
+
+
+		// 固定左側選單
+		$("a.memu_btn").click(function(){
+			$("div.wrapper").css({"max-height":"920px", "overflow-y":"hidden"});
+		});
+		$(".ui-panel-dismiss, .ui-panel-wrapper, footer.footer_wrp, .cart_box, .store_union_box, ul.my_account").click(function(){
+			$("div.wrapper").css({"max-height":"none", "overflow-y":"auto"});
+		});
+
+	})
+	</script>
+
+</head>
+<body>
+
+<div class="wrapper" data-role="page">
+	<a id="go_top" class="gotop_btn" href="#"></a>
+
+	<header class="top_menu login_none" data-role="header" data-position="fixed">
+		<a href="#bars" class="memu_btn" ></a>
+		<ul class="my_account">
+			<li class="li_account my_calendar"><a href="">日曆</a></li>
+			<li class="li_account my_order">
+				<p class="unread">2</p>
+				<a href="">訂單</a>
+			</li>
+			<li class="li_account my_mail">
+				<p class="unread">8</p>
+				<a href="">信箱</a>
+			</li>
+			<li class="li_account my_club">
+				<p class="unread">3</p>
+				<a href="">家族</a>
+			</li>
+		</ul>
+	</header><!-- /header -->
+
+	<div role="main" class="ui-content mails_main">
+		
+		<!-- 商店標題_開始 -->
+		<article class="store_title">
+			<h1 class="title_h1"><a href="#">ORIGINAL義廚 提拉米蘇</a></h1>
+		</article>
+		<!-- 商店標題_結束 -->
+
+		<article class="storeName_title">
+			<div class="store_img"><img src="http://photo.ihergo.com/photo/user/61/100_203061_9315.png.jpg"></div>
+			<div class="store_infor">
+				<p class="store_id">ORIGINALTIRAMISU<span>(205)</span></p>
+				<p class="store_phone">0916095212</p>
+			</div>
+			<!-- 修改工具列_開始 -->
+			<div class="user_tool_box"></div>
+			<!-- 修改工具列_結束 -->
+		</article>
+
+		<article class="unionInfo_content">
+			<ul class="order_main_tabs">
+				<li class="tab_item unionPayment_li target">付款資訊</li>
+				<li class="tab_item unionDetail_li">訂購內容</li>
+				<li class="tab_item unionMail_li">訂購信件<span>(1)</span></li>
+				<br class="CLEAR">
+			</ul>
+
+			<!-- ========== 付款資訊_開始 ========== -->
+			<section class="unionPayment_box">
+				<!-- 付款狀態_開始 -->
+				<div class="main_content_box payment_status">
+					<table class="main_table_box">
+						<tr>
+							<td class="form_left_box">付款狀態</td>
+							<td class="form_right_box r_status"><p class="listmail_gray">訂單取消</p></td>
+						</tr>
+						<tr>
+							<td class="form_left_box">應付金額</td>
+							<td class="form_right_box">$235</td>
+						</tr>
+						<tr>
+							<td class="form_left_box">付款期限</td>
+							<td class="form_right_box">2015/09/02 23:59</td>
+						</tr>
+					</table>
+				</div>
+				<!-- 付款狀態_結束 -->
+				
+			</section>
+			<!-- ========== 付款資訊_結束 ========== -->
+
+			<!-- ========== 合購內容_開始 ========== -->
+			<section class="unionDetail_box">
+				<!-- 合購付款狀態_開始 -->
+				<div class="main_content_box">
+					<p class="paymode_status paymode_gray">訂單取消</p>
+					<div class="paymode_user_info">
+						<div class="l_user_box"><img src="http://photo.ihergo.com/photo/user/74/100_923874_3797.png"></div>
+						<div class="r_user_box">
+							<p class="user_id">yoyoChen<span>(89)</span></p>
+							<p class="user_name">陳豫依</p>
+						</div>
+						<br class="CLEAR">
+					</div>
+					<br class="CLEAR">
+				</div>
+				<!-- 合購付款狀態_結束 -->
+				<!-- 面交資訊_開始 -->
+				<table class="main_table_box">
+					<tr>
+						<td class="form_left_box">訂單編號</td>
+						<td class="form_right_box">101568</td>
+					</tr>
+				</table>
+				<!-- 面交資訊_結束 -->
+
+				<p class="orderCancel_remind">您的訂單已經取消</p>
+
+			</section>
+			<!-- ========== 合購內容_結束 ========== -->
+
+			<!-- ========== 合購信件_開始 ========== -->
+			<section class="unionMail_box">
+				<div class="main_content_box">
+					<!-- 一封系統信件_開始 -->
+					<div class="mail_box mail_close">
+						<div class="l_mail_box"><img class="sender_pic" src="../images/user/mails/system_100.gif"></div>
+						<div class="r_mail_box">
+							<div class="sender_infor">
+								<p class="system_id">ihergo system</p>
+								<p class="sent_time">08/25 22:31</p>
+								<br class="CLEAR">
+							</div>
+							<p class="mail_header">您的訂單已經成功送出！若需取消訂單或有任何問題可以點選下方「回覆店長」, 若要修改訂單, 請點選「修改商品明細」或「修改訂購人資料」按鈕。</p>
+						</div>
+					</div>
+					<!-- 一封系統信件_結束 -->
+					<!-- 一封系統信件_開始 -->
+					<div class="mail_box mail_open">
+						<div class="l_mail_box"><img class="sender_pic" src="../images/user/mails/system_100.gif"></div>
+						<div class="r_mail_box">
+							<div class="sender_infor">
+								<p class="system_id">ihergo system</p>
+								<p class="sent_time">08/31 22:31</p>
+								<br class="CLEAR">
+							</div>
+							<p class="mail_handle">寄給主購</p>
+						</div>
+						<div class="notify_body">
+							<p>您的訂單最後付款期限至2015/09/08 11:59, 需盡快完成付款流程。</p><br>
+						</div>
+					</div>
+					<!-- 一封系統信件_結束 -->
+					<!-- 一封系統信件_開始 -->
+					<div class="mail_box mail_close no_read">
+						<div class="l_mail_box"><img class="sender_pic" src="../images/user/mails/system_100.gif"></div>
+						<div class="r_mail_box">
+							<div class="sender_infor">
+								<p class="system_id">ihergo system</p>
+								<p class="sent_time">08/31 22:31</p>
+								<br class="CLEAR">
+							</div>
+							<p class="mail_header">主購已下單訂購, 店長完成訂單確認, 贈送ihergo紅利2元</p>
+						</div>
+					</div>
+					<!-- 一封系統信件_結束 -->
+					<!-- 一封系統信件_開始 -->
+					<div class="mail_box mail_close">
+						<div class="l_mail_box"><img class="sender_pic" src="http://photo.ihergo.com/photo/user/61/100_203061_9315.png.jpg"></div>
+						<div class="r_mail_box">
+							<div class="sender_infor">
+								<p class="user_id">ORIGINALTIRAMISU<span>(205)</span></p>
+								<p class="sent_time">08/31 22:31</p>
+								<br class="CLEAR">
+							</div>
+							<p class="mail_header">您好~感謝購買, 有現貨喔!! 明天下午3:00錢匯款, 可當天寄出喔~</p>
+						</div>
+					</div>
+					<!-- 一封系統信件_結束 -->
+					<!-- 一封信件_開始 -->
+					<div class="mail_box mail_open">
+						<div class="l_mail_box"><img class="sender_pic" src="http://photo.ihergo.com/photo/user/61/100_203061_9315.png.jpg"></div>
+						<div class="r_mail_box">
+							<div class="sender_infor">
+								<p class="user_id">ORIGINALTIRAMISU<span>(205)</span></p>
+								<a class="reply_btn" href="#" alt="回覆"></a>
+								<br class="CLEAR">
+							</div>
+							<p class="mail_handle">寄給主購</p>
+							<p class="sent_time">08/31 22:31</p>
+						</div>
+						<div class="notify_body">
+							<p>商品已經寄出, 明天就會到貨喔~<br>感謝您的訂購</p>
+						</div>
+					</div>
+					<!-- 一封信件_結束 -->
+					<!-- 一封信件_開始 -->
+					<div class="mail_box mail_open">
+						<div class="l_mail_box"><img class="sender_pic" src="http://photo.ihergo.com/photo/user/74/100_923874_3797.png"></div>
+						<div class="r_mail_box">
+							<div class="sender_infor">
+								<p class="user_id">yoyoChen<span>(98)</span></p>
+								<a class="reply_btn" href="#" alt="回覆"></a>
+								<br class="CLEAR">
+							</div>
+							<p class="mail_handle">寄給店長</p>
+							<p class="sent_time">08/31 22:31</p>
+						</div>
+						<div class="notify_body">
+							<p>商品收到, 但是還少一個藍莓蛋糕<br>煩請盡快處理或是退款<br>謝謝</p>
+						</div>
+					</div>
+					<!-- 一封信件_結束 -->
+
+				</div>
+				<a class="reply_order_btn" href="#">回覆店長</a>
+			</section>
+			<!-- ========== 合購信件_結束 ========== -->
+
+		</article>
+
+		<!-- google廣告放置_開始 -->
+		<div class="ad_event_block">
+			<div class="ad_iframe_box">
+				<img src="../images/image/google_ad_img.jpg" style="width:100%; max-width:320px; margin:0 auto;">
+			</div>
+		</div>
+		<!-- google廣告放置_結束 -->
+		
+	</div><!-- /content -->
+
+	<footer class="footer_wrp">
+		<p class="text_ch">愛合購股份有限公司版權所有</p>
+		<p class="text_en">Copyright © 2007-2015 ihergo Inc. All Rights Reserved.</p>
+	</footer>
+	<!-- /footer -->
+
+	<!-- ==================== 選擇匯款銀行POPUP_開始 ==================== -->
+	<div class="popup_window atmChoose_Popup_content">
+		<div class="popup_window2 atmChoose_box">
+			<div class="popup_title">
+				<h4>選擇匯款銀行</h4>
+				<a class="popup_cancel_btn" href="#"></a>
+				<br class="CLEAR">
+			</div>
+			<div class="popup_main">
+				<div class="atm_select_box">
+					<select class="atm_select">
+						<option>國泰世華</option>
+						<option>合作金庫</option>
+					</select>
+				</div>
+			</div>
+			<div class="popup_footer">
+				<a class="ok_btn" href="#">確認</a>
+			</div>
+		</div>
+	</div>
+	<!-- ==================== 選擇匯款銀行POPUP_結束 ==================== -->
+
+
+	<!-- 左側滑出選單_開始 -->
+	<div class="panel_navi" data-role="panel" id="bars">
+		<!-- 個人帳號＿開始 -->
+		<div class="navi_user_wrp">
+			<img class="user_photo" src="http://photo.ihergo.com/photo/user/74/100_923874_3797.png">
+			<div class="user_info">
+				<p class="user_name">Yoyo Chen</p>
+				<p class="user_text">評比 (95)</p>
+			</div>
+		</div>
+		<!-- 個人帳號＿結束 -->
+		<ul class="navi_ul">
+			<li class="navi_li li_home "><a  href="#"><span>找合購</span></a></li>
+			<li class="navi_li li_store"><a href="#"><span>商店街</span></a></li>
+			<li class="navi_li li_union union_active"><a  href="#" class="active"><span>大合購</span></a></li>
+		</ul>
+		<p class="navi_ul_title">個人資料</p>
+		
+		<ul class="navi_ul">
+			<li class="navi_li li_bonus">
+				<p class="navi_li_no">尚有<span>41</span>元</p>
+				<a href="#"><span>紅利金</span></a>
+			</li>
+			<li class="navi_li li_count">
+				<p class="navi_li_no">尚有<span class="light">0</span>元</p>
+				<a href="#"><span>ihergo點數</span></a>
+			</li>
+			<!-- <li class="navi_li li_family"><a href="#"><span>家族</span></a></li> -->
+			<!-- <li class="navi_li li_mystore"><a href="#"><span>商店</span></a></li> -->
+			<li class="navi_li li_logout"><a href="#"><span>登出</span></a></li>
+		</ul>
+		<div class="panel_footer">
+			<p class="panel_footer_txt"><span>手機板</span>/<a href="#">電腦版</a>/<a href="#">APP下載</a></p>
+		</div>
+	</div>
+	<!-- 左側滑出選單_結束 -->
+
+</div><!-- /page -->
+
+</body>
+</html>

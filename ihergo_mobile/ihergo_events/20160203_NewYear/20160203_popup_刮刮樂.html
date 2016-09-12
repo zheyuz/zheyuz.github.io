@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>popup_手機版刮刮樂</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../css/jquery.mobile-1.4.5.min.css" />
+
+	<link href="../../css/layout.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+
+	<script src="../../js/jquery-2.1.4.min.js"></script>
+	<script src="../../js/jquery.mobile-1.4.5.min.js"></script>
+	
+	<!-- 手機版刮刮樂示範效果_開始 -->
+	<script type="text/javascript">
+	$(function(){
+		
+		$(".sec_img").hide();
+		$("a.start_img").show();
+		$("a.start_img").click(function(){
+			$(".get_1").show();
+			$("a.start_img").hide();
+		});
+	})
+	</script>
+	<!-- 手機版刮刮樂示範效果_結束 -->
+
+</head>
+<body>
+	<div class="wrapper" data-role="page">
+		<div class="popup_window new_year_window">
+			<div class="popup_window2" style="width:85%;">
+				<!-- popup標題 -->
+				<div class="popup_title">
+					<h4>試手氣刮紅利金，愈刮愈幸運！</h4>
+					<br class="CLEAR">
+				</div>
+
+				<!-- popup內容 -->
+				<div class="popup_main">
+					<div class="new_year_box">
+						<a href="#" class="start_img"><img src="images/00.gif"></a>
+						<div class="sec_img get_1"><img src="images/1.gif"></div>
+						<div class="sec_img get_10"><img src="images/10.gif"></div>
+						<div class="sec_img get_100"><img src="images/100.gif"></div>
+						<div class="sec_img get_500"><img src="images/500.gif"></div>
+					</div>
+				</div>
+
+				<!-- popup尾部 -->
+				<div class="popup_footer">
+					<a class="footer_close_btn" href="#">關閉</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+
+
+

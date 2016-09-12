@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ihergo愛合購 - 幫你找人一起買</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+
+	<link href="../css/layout.css" rel="stylesheet" type="text/css">
+	<link href="../css/status.css" rel="stylesheet" type="text/css">
+
+
+	<script src="../js/jquery-2.1.4.min.js"></script>
+	<script src="../js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="../js/tab.js"></script>
+
+	<!-- go to Top -->
+	<script type="text/javascript">
+	$(function(){
+		$("#go_top").click(function(){
+			jQuery("html,body").animate({
+				scrollTop:0
+			},1000);
+		});
+		$(window).scroll(function() {
+			if ( $(this).scrollTop() > 300){
+				$('#go_top').fadeIn("fast");
+			} else {
+				$('#go_top').stop().fadeOut("fast");
+			}
+		});
+	});
+	</script>
+	<!-- go to Top_END -->
+
+	<!-- 關鍵字切換 -->
+	<script type="text/javascript">
+		$(function(){
+			$(".keyword_box input.keyword_input").keydown(function(){
+				$(".keyword_box a.keyword_delete").show();
+			});
+			$(".keyword_box a.keyword_delete").click(function(){
+					$(".keyword_box input.keyword_input").val("");
+				$(".keyword_box a.keyword_delete").hide();
+			});
+	   })
+
+	</script>
+	<!-- 關鍵字切換_END -->
+
+	<script type="text/javascript">
+		$(function(){
+			// 固定左側選單
+			$("a.memu_btn").click(function(){
+				$("div.wrapper").css({"max-height":"920px", "overflow-y":"hidden"});
+			});
+			$(".ui-panel-dismiss, .ui-panel-wrapper, footer.footer_wrp, ul.my_account").click(function(){
+				$("div.wrapper").css({"max-height":"none", "overflow-y":"auto"});
+			});
+		})
+	</script>
+
+</head>
+<body>
+
+<div class="wrapper" data-role="page">
+	<a id="go_top" class="gotop_btn" href="#"></a>
+
+	<header class="top_menu login_none" data-role="header" data-position="fixed">
+		<a href="#bars" class="memu_btn" ></a>
+		<ul class="my_account">
+			<li class="li_account my_calendar"><a href="">日曆</a></li>
+			<li class="li_account my_order">
+				<p class="unread">2</p>
+				<a href="">訂單</a>
+			</li>
+			<li class="li_account my_mail">
+				<p class="unread">8</p>
+				<a href="">信箱</a>
+			</li>
+			<li class="li_account my_club">
+				<p class="unread">3</p>
+				<a href="">家族</a>
+			</li>
+		</ul>
+	</header><!-- /header -->
+
+	<div role="main" class="ui-content">
+			<!-- 合購篩選_開始 -->
+			<article class="filter_box">
+				<section class="keyword_box">
+					<input class="keyword_input" type="text" name="text-basic" id="text-basic" value="" placeholder="搜尋合購標題、主購帳號或商品名稱...">
+					<a href="#" class="keyword_delete"></a>
+				</section>
+				<section class="filter_items_box">
+					<!-- 面交點 篩選 -->
+					<a href="#" class="filter_item location_item">
+						<p class="item_title">面交地點</p>
+						<!-- <p class="item_main"><span class="text">台北市中正區</span><span class="arrow_down"></span></p> -->
+
+						<!-- 勾選兩個以上面交點，就顯示下方這行HTML -->
+						<p class="item_main"><span class="text"><span class="text_no">3</span>個面交點</span><span class="arrow_down"></span></p>
+					</a>
+					<!-- 合購類別 篩選 -->
+					<a href="#" class="filter_item category_item">
+						<p class="item_title">合購類別</p>
+						<p class="item_main"><span class="text">甜點蛋糕</span><span class="arrow_down"></span></p>
+					</a>
+					<!-- 排序/進階條件 篩選 -->
+					<a href="#" class="filter_item sort_item">
+						<p class="item_title">排序/進階條件</p>
+						<p class="item_main"><span class="text">熱門合購,我追蹤對象發起</span><span class="arrow_down"></span></p>
+					</a>
+
+				</section>
+			</article>
+			<!-- 合購篩選_結束 -->
+
+			<article class="status_content union_status_content">
+				<!-- 一則合購動態_開始 -->
+				<div class="one_union_status">
+					<div class="grouping_wrp">
+						<div class="user_wrp">
+							<div class="member_img"><a href="#"><img src="http://photo.ihergo.com/photo/user/26/100_958826_4902.png"></a></div>
+							<div class="account_box">
+								<p class="account">林秀秀(225)<span>8小時前開團</span></p>
+								<p class="group_title"><a href="#">花蓮在地的好滋味！吳媽媽包子店全館商品一顆最低7元起，CP值超高！</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="goods_pic">
+						<a href="#"><img src="http://photo.ihergo.com/photo/product/11/300_11_1463372222119.jpg" alt="三角黑糖包"></a>
+						<div class="pic_line"></div>
+						<a href="#"><img src="http://photo.ihergo.com/photo/product/11/300_11_1463373272992.jpg" alt="鮮肉包"></a>
+					</div>
+					<div class="location_box">
+						<p class="txt_location">[台北市][中正區] 衡陽路51號</p>
+						<p class="txt_location">[新北市][五股區] 民義路一段109號（全家五義店門口）請電話確認取貨日及時間</p>
+						<p>總共<span class="location_number">4</span>個面交點</p>
+					</div>
+					<div class="union_info_box">
+						<p class="union_amount">累積<span>7</span>人<span>24</span>份<span>2248</span>元</p>
+						<!-- <p class="club_amount"><span>5</span>個家族</p> -->
+						<br class="CLEAR">
+					</div>
+					
+				</div>
+				<!-- 一則合購動態_結束 -->
+				<!-- 一則合購動態(只有一個商品)_開始 -->
+				<div class="one_union_status">
+					<div class="grouping_wrp">
+						<div class="user_wrp">
+							<div class="member_img">
+								<a href="#"><img src="http://photo.ihergo.com/photo/user/96/100_655596_3576.png"></a></div>
+							<div class="account_box">
+								<p class="account">nicemichelle6969(399)<span>1天前開團</span></p>
+								<p class="group_title"><a href="#">以前都是20組才打95折，這次12組就可以打折了！大家快來搶購吧~</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="goods_pic">
+						<a href="#"><img src="http://photo.ihergo.com/photo/product/11/300_11_1441100830476.jpg" alt="阿舍乾麵 炸醬"></a>
+						<!-- <div class="pic_line"></div> -->
+						<!-- <a href="#"><img src="http://photo.ihergo.com/photo/product/11/300_11_1463373272992.jpg" alt="鮮肉包"></a> -->
+					</div>
+					<div class="location_box">
+						<p class="txt_location">[台北市][中正區] 衡陽路51號</p>
+						<p class="txt_location">[新北市][五股區] 忠孝東路六段438號(麥當勞門口)</p>
+						<p class="txt_location">[新北市][五股區] 工商路155巷(黑糖剉冰巷口)</p>
+					</div>
+					<div class="union_info_box">
+						<p class="union_amount">累積<span>2</span>人<span>6</span>份<span>315</span>元</p>
+						<!-- <p class="club_amount"><span>1</span>個家族</p> -->
+						<br class="CLEAR">
+					</div>
+					
+				</div>
+				<!-- 一則合購動態(只有一個商品)_結束 -->
+				<!-- 一則合購動態(所有商品都沒有圖片)_開始 -->
+				<div class="one_union_status">
+					<div class="grouping_wrp">
+						<div class="user_wrp">
+							<div class="member_img"><a href="#"><img src="http://photo.ihergo.com/photo/user/74/100_923874_3797.png"></a></div>
+							<div class="account_box">
+								<p class="account">evonne_chen(145)<span>2天前開團</span></p>
+								<p class="group_title"><a href="#">[私人辦公室團] 公司下午茶吃樂芙軟式可麗餅，星期二晚上六點截止哦~</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="goods_pic"></div>
+					<div class="location_box">
+						<p class="txt_location">[台北市][中正區] 衡陽路51號</p>
+					</div>
+					<div class="union_info_box">
+						<p class="union_amount">累積<span>19</span>人<span>28</span>份<span>1956</span>元</p>
+						<!-- <p class="club_amount"><span>1</span>個家族</p> -->
+						<br class="CLEAR">
+					</div>
+					
+				</div>
+				<!-- 一則合購動態(所有商品都沒有圖片)_結束 -->
+
+				<!-- 一則合購動態_開始 -->
+				<div class="one_union_status">
+					<div class="grouping_wrp">
+						<div class="user_wrp">
+							<div class="member_img"><a href="#"><img src="http://photo.ihergo.com/photo/user/05/100_395105_8533.png"></a></div>
+							<div class="account_box">
+								<p class="account">skyfilmas(372)<span>3天前開團</span></p>
+								<p class="group_title"><a href="#">這家的咖哩口味超優啦～花蓮隱藏好料理不常開賣喜歡的快點來唷！</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="goods_pic">
+						<a href="#"><img src="http://photo.ihergo.com/photo/product/11/300_11_1432691845521.jpg" alt="《花蓮家咖哩》咖哩乾拌麵醬(甘味)"></a>
+						<div class="pic_line"></div>
+						<a href="#"><img src="http://photo.ihergo.com/photo/product/11/300_11_1441168729460.jpg" alt="《花蓮家咖哩》咖哩乾拌麵醬(香辣)"></a>
+					</div>
+					<div class="location_box">
+						<p class="txt_location">[台北市][中正區] 衡陽路51號</p>
+						<p class="txt_location">[台北市][中正區] 衡陽路51號2樓大廳</p>
+					</div>
+					<div class="union_info_box">
+						<p class="union_amount">累積<span>7</span>人<span>24</span>份<span>2248</span>元</p>
+						<!-- <p class="club_amount"><span>2</span>個家族</p> -->
+						<br class="CLEAR">
+					</div>
+					
+				</div>
+				<!-- 一則合購動態_結束 -->
+				<!-- 一則合購動態_開始 -->
+				<div class="one_union_status">
+					<div class="grouping_wrp">
+						<div class="user_wrp">
+							<div class="member_img"><a href="#"><img src="http://photo.ihergo.com/photo/user/18/100_825718_4523.png"></a></div>
+							<div class="account_box">
+								<p class="account">lisa761111(102)<span>5天前開團</span></p>
+								<p class="group_title"><a href="#">這家的咖哩口味超優啦～花蓮隱藏好料理不常開賣喜歡的快點來唷！</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="goods_pic">
+						<a href="#"><img src="http://photo.ihergo.com/photo/product/11/300_11_1456126454128.jpg" alt="【大妹子】玉米雞肉手工水餃"></a>
+						<div class="pic_line"></div>
+						<a href="#"><img src="http://photo.ihergo.com/photo/product/11/300_11_1456126417087.jpg" alt="【大妹子】宜蘭蔥豬肉手工水餃"></a>
+					</div>
+					<div class="location_box">
+						<p class="txt_location">[台北市][中正區] 衡陽路51號</p>
+						<p class="txt_location">[台北市][中正區] 衡陽路51號2樓大廳</p>
+					</div>
+					<div class="union_info_box">
+						<p class="union_amount">累積<span>7</span>人<span>24</span>份<span>2248</span>元</p>
+						<!-- <p class="club_amount"><span>2</span>個家族</p> -->
+						<br class="CLEAR">
+					</div>
+					
+				</div>
+				<!-- 一則合購動態_結束 -->
+				<!-- 一則合購動態(所有商品都沒有圖片)_開始 -->
+				<div class="one_union_status">
+					<div class="grouping_wrp">
+						<div class="user_wrp">
+							<div class="member_img">
+								<a href="#"><img src="http://photo.ihergo.com/photo/user/81/100_928681_2746.png"></a></div>
+							<div class="account_box">
+								<p class="account">小安(189)<span>7天前開團</span></p>
+								<p class="group_title"><a href="#">[辦公室限定] 05/27動動腦喝一手私藏世界紅茶</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="goods_pic"></div>
+					<div class="location_box">
+						<p class="txt_location">[台北市][中正區] 衡陽路51號7樓電梯口(西側)</p>
+					</div>
+					<div class="union_info_box">
+						<p class="union_amount">累積<span>21</span>人<span>23</span>份<span>1210</span>元</p>
+						<!-- <p class="club_amount"><span>1</span>個家族</p> -->
+						<br class="CLEAR">
+					</div>
+					
+				</div>
+				<!-- 一則合購動態(所有商品都沒有圖片)_結束 -->
+				<!-- 一則合購動態(只有一個商品)_開始 -->
+				<div class="one_union_status">
+					<div class="grouping_wrp">
+						<div class="user_wrp">
+							<div class="member_img">
+								<a href="#"><img src="http://photo.ihergo.com/photo/user/96/100_655596_3576.png"></a></div>
+							<div class="account_box">
+								<p class="account">nicemichelle6969(399)<span>6天前開團</span></p>
+								<p class="group_title"><a href="#">這家手工餅乾好好吃～不添加防腐劑，不添加人工香料喔~預計5/12到貨</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="goods_pic">
+						<a href="#"><img src="http://photo.ihergo.com/photo/product/11/300_11_1463648775556.jpg" alt="香桔奶酥"></a>
+						<!-- <div class="pic_line"></div> -->
+						<!-- <a href="#"><img src="http://photo.ihergo.com/photo/product/11/300_11_1463373272992.jpg" alt="鮮肉包"></a> -->
+					</div>
+					<div class="location_box">
+						<p class="txt_location">[台北市][中正區] 衡陽路51號</p>
+						<p class="txt_location">[新北市][五股區] 工商路155巷(黑糖剉冰巷口)</p>
+					</div>
+					<div class="union_info_box">
+						<p class="union_amount">累積<span>3</span>人<span>5</span>份<span>500</span>元</p>
+						<!-- <p class="club_amount"><span>1</span>個家族</p> -->
+						<br class="CLEAR">
+					</div>
+					
+				</div>
+				<!-- 一則合購動態(只有一個商品)_結束 -->
+
+
+				<!-- 一則合購動態_開始 -->
+				<!-- <div class="one_status"> -->
+					<!-- <h2 class="status_title"><a href="#">麥之鄉烘焙坊</a></h2>
+					<div class="store_info_box">
+						<p class="stf_star">
+							<span class="fraction">4.1</span>
+							<img src="../images/image/star_80.gif">
+							<span class="comment_txt">(共32人評論)</span>
+						</p>
+					</div>
+					<div class="goods_pic">
+						<div class="goodspic_wrp">
+							<div class="pic_content">
+								<ul class="ul_box">
+								<li><a href="#"><img src="http://photo.ihergo.com/photo/product/35/300_359535_1369015293120.jpg" alt="超人氣雙合組"></a></li>
+								<li><a href="#"><img src="http://photo.ihergo.com/photo/product/35/300_359535_1373256264068.jpg" alt="法式楓糖烤布丁"></a></li>
+								<li><a href="#"><img src="http://photo.ihergo.com/photo/product/35/300_359535_1373247257783.jpg" alt="特調香蒜奶油醬"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div> -->
+					<!-- 喜歡_開始 -->
+					<!-- <div class="like_box">
+						<a class="like_btn " href="#">許願</a>
+						<p class="like_text">Terry和其他10人都請主購開團</p>
+						<br class="CLEAR">
+					</div> -->
+					<!-- 喜歡_結束 -->
+					
+					<!-- 主購開團_開始 -->
+					<!-- <div class="grouping_wrp">
+						<div class="user_wrp">
+							<div class="member_img"><a href="#"><img src="http://photo.ihergo.com/photo/user/80/100_707280_1241.png"></a></div>
+							<div class="account_box">
+								<p class="account">p0916095212(205) 發起的合購</p>
+								<p class="group_title"><a href="#">[限定] (預計7/22) 法式楓糖烤布丁 美味再一團~2000元以上</a></p>
+							</div>
+							<br class="CLEAR">
+						</div>
+						<div class="location_box">
+							<p class="txt_location">[台北市][中正區] 衡陽路51號</p>
+							<p class="txt_location">[台北市][中正區] 衡陽路51號2樓(西側電梯旁)</p>
+							<p class="txt_location">[新北市][五股區] 工商路155巷(黑糖剉冰巷口)</p>
+						</div>
+					</div>
+					<a class="look_all" href="#">查看全部面交點</a> -->
+					<!-- 主購開團_結束 -->
+				<!-- </div> -->
+				<!-- 一則合購動態_結束 -->
+			</article>
+
+	</div>
+	<!-- /content -->
+
+	<!-- <footer class="footer_wrp">
+		<p class="text_ch">愛合購股份有限公司版權所有</p>
+		<p class="text_en">Copyright © 2007-2015 ihergo Inc. All Rights Reserved.</p>
+	</footer> -->
+	<!-- /footer -->
+
+
+
+	<!-- 左側滑出選單_開始 -->
+	<div class="panel_navi" data-role="panel" id="bars">
+		<!-- 個人帳號＿開始 -->
+		<div class="navi_user_wrp">
+			<img class="user_photo" src="http://photo.ihergo.com/photo/user/74/100_923874_3797.png">
+			<div class="user_info">
+				<p class="user_name">Yoyo Chen</p>
+				<p class="user_text">評比 (95)</p>
+			</div>
+		</div>
+		<!-- 個人帳號＿結束 -->
+		<ul class="navi_ul">
+			<li class="navi_li li_home home_active"><a class="active" href="#"><span>找合購</span></a></li>
+			<li class="navi_li li_store"><a href="#"><span>商店街</span></a></li>
+			<li class="navi_li li_union"><a  href="#" ><span>大合購</span></a></li>
+		</ul>
+		<p class="navi_ul_title">個人資料</p>
+		
+		<ul class="navi_ul">
+			<li class="navi_li li_notify "><a href="#" ><span>個人通知</span></a></li>
+			<li class="navi_li li_bonus">
+				<p class="navi_li_no">尚有<span>41</span>元</p>
+				<a href="#"><span>紅利金</span></a>
+			</li>
+			<li class="navi_li li_count">
+				<p class="navi_li_no">尚有<span>3200</span>元</p>
+				<a href="#"><span>ihergo點數</span></a>
+			</li>
+			<!-- <li class="navi_li li_family"><a href="#"><span>家族</span></a></li> -->
+			<!-- <li class="navi_li li_mystore"><a href="#"><span>商店</span></a></li> -->
+			<li class="navi_li li_logout"><a href="#"><span>登出</span></a></li>
+		</ul>
+		<div class="panel_footer">
+			<p class="panel_footer_txt"><span>手機板</span>/<a href="#">電腦版</a>/<a href="#">APP下載</a></p>
+		</div>
+	</div>
+	<!-- 左側滑出選單_結束 -->
+
+</div><!-- /page -->
+
+</body>
+</html>

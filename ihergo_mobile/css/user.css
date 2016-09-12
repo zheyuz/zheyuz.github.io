@@ -1,0 +1,350 @@
+@charset "UTF-8";
+/*======================================== 信件匣_開始 ========================================*/
+/* ----- 郵件列表_開始 ----- */
+.wrapper .mails_main .store_title .title_h1{ display: inline-block;}
+.wrapper .mails_main .store_title .title_h1 a.go_point{ display:block; display:none; background: url(../images/user/mails/icon_left_w.png) no-repeat 95% center / 16px 16px; width:16px; height:16px; float:left; padding-top:45px;}
+.wrapper .mails_main .store_title .title_h1 a.point{ float:left; margin-left:5px;}
+.wrapper .mails_main .email_title{ background-color: #fff; height: 100%; padding: 20px 0;}
+.wrapper .mails_main .email_title .title_h1{ color: #555; line-height: 28px; font-size: 1.1rem; margin: 0 15px; white-space: normal; max-width: 100%; display: inline-block;}
+.wrapper .mail_tools_box{ float:right; height:60px;}
+.wrapper .mail_tools_box a.mailSearch_btn{ display:block; float:left; background:url(../images/user/mails/icon_search.png) no-repeat center center / 24px 24px transparent; width:24px; height:50px; padding:5px;}
+.wrapper .mail_tools_box a.mailWrite_btn{ display:block; float:left; background:url(../images/user/mails/icon_write.png) no-repeat center center / 24px 24px transparent; width:24px; height:50px; padding:5px;}
+.wrapper .mail_tools_box a.moreTools_btn{ display:block; float:left; background:url(../images/user/mails/icon_more_tools.png) no-repeat center center / 24px 24px transparent; width:24px; height:50px; padding:5px;}
+.wrapper .mail_tools_box a{ margin-right:15px;}
+.wrapper .mail_tools_box a:active{ opacity:0.8;}
+.wrapper .moreTool_popup{ background-color: #f9f9f9; border-radius: 5px; border: 1px solid #ddd; box-shadow: 1px 1px 6px rgba(0,0,0,0.2); position:absolute; top: 50px; right:10px; width:140px; z-index:5;}
+.wrapper .moreTool_popup a.tool_item{ display: block; text-align: center; font-size: 0.85rem; color: #105cb6; line-height: 35px; text-decoration: none; border-top: 1px solid #e0e0e0; margin:0;}
+.wrapper .moreTool_popup a.tool_item:active{ background-color: #f3f3f3; border-radius: 5px;}
+.wrapper .moreTool_popup a.firs_tool{ border-top:0px;}
+
+/*沒有信件提示*/
+.wrapper p.remind_no_mail{ color: #888; font-size: 1.1rem; font-weight: bold; line-height: 40px; margin: 40px auto; text-align: center; text-shadow: 1px 1px 0 #fff;}
+
+/* 信件匣_查詢 */
+.open_search{ margin:0 0 0 10px;}
+.open_search .ui-input-text{ float:left; width:80%; border-radius: 25px; margin:10px 0; background-color:rgba(255,255,255,0.5); box-shadow:0 0 0 rgba(0, 0, 0, 0) inset;}
+.open_search .mail_search_input{ padding:5px 10px;}
+.open_search a.mailSearch_btn{ float:left; display:block; background:url(../images/user/mails/icon_search.png) no-repeat center center / 24px 24px transparent; width:50px; height:60px;}
+.open_search a.mailSearch_btn:active{ opacity: 0.8;}
+.open_search a.mailDelete_btn{ float:left; display:block; background:url(../images/user/mails/icon_circle_delete.png) no-repeat center center / 24px 24px transparent; width:50px; height:60px;}
+.open_search a.mailDelete_btn:active{ opacity: 0.8;}
+@media screen and ( max-width:521px) { .open_search .ui-input-text{width:75%;}}
+@media screen and ( max-width:410px) { .open_search .ui-input-text{width:70%;}}
+@media screen and ( max-width:351px) { .open_search .ui-input-text{width:65%;}}
+@media screen and ( max-width:321px) { .open_search .ui-input-text{width:62%;}}
+
+/* 信件匣_分類 */
+.wrapper .mailList_search{ margin:15px 10px;}
+.wrapper .mailList_search .ui-select .ui-btn { color:#555; background-color: #fff; border: 1px solid #ccc; text-align: left; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);}
+.wrapper .mailList_search .ui-select .ui-btn-active{ color:#555;}
+
+.mails_main .mailList_content{ border-top:1px solid #ddd;}
+.mails_main .mailList_content .main_content_box{ border: 0; background: transparent; padding: 0;}
+.mails_main .mailList_content .mail_box{ background-color:#fff; border-bottom:1px solid #ddd; padding:10px; cursor:pointer; position:relative;}
+.mails_main .mailList_content .mail_box:active{ background-color:#f9f9f9;}
+.mails_main .mailList_content .no_read{ background-color:#fffaee;}
+.mails_main .mailList_content .mail_box .l_mail_box{ float:left; width:50px; margin-right:10px;}
+.mails_main .mailList_content .mail_box .l_mail_box img.sender_pic{ width:50px; height:50px; border-radius:50%;}
+.mails_main .mailList_content .mail_box .r_mail_box{ }
+.mails_main .mailList_content .mail_box .sender_infor{ height:25px;}
+.mails_main .mailList_content .mail_box .sender_infor p.user_id{ float:left; line-height:25px; font-size:0.8rem; color:#105CB6; font-weight:bold;}
+.mails_main .mailList_content .mail_box .sender_infor p.user_id span{ color:#999; margin-left:3px;}
+.mails_main .mailList_content .mail_box .sender_infor p.system_id{ float:left; line-height:25px; font-size:0.8rem; color:#6d9b00; font-weight:bold;}
+.mails_main .mailList_content .mail_box .sender_infor p.sent_time{ float:right; line-height:25px; font-size:0.75rem; color:#aaa;}
+.mails_main .mailList_content .mail_box .r_mail_box p.mail_keynote{ font-size:0.9rem; line-height:25px; color:#38c; font-weight:bold; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+.mails_main .mailList_content .mail_box .r_mail_box p.mail_header{ font-size:0.8rem; line-height:20px; color:#888; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+
+.mails_main .mailList_content .order_box{ background-color:#fff; border-bottom:1px solid #ddd; padding:10px; cursor:pointer; position:relative;}
+.mails_main .mailList_content .order_box:active{ background-color:#f9f9f9;}
+.mails_main .mailList_content .no_read{ background-color:#fffaee;}
+.mails_main .mailList_content .order_box .l_order_box{ float:left; width:50px; margin-right:10px;}
+.mails_main .mailList_content .order_box .l_order_box img.sender_pic{ width:50px; height:50px; border-radius:50%;}
+.mails_main .mailList_content .order_box .r_order_box{ margin-left: 60px; position:relative; min-height:100px;}
+.mails_main .mailList_content .order_box .order_user_info p.user_id{ display:inline-block; line-height:25px; font-size:0.8rem; color:#105CB6; font-weight:bold;}
+.mails_main .mailList_content .order_box .order_user_info p.user_id span{ color:#999; margin-left:3px;}
+.mails_main .mailList_content .order_box .order_user_info p.user_time{ float:right; line-height:25px; font-size:0.75rem; color:#bbb;}
+.mails_main .mailList_content .order_box .r_order_box p.order_keynote{ font-size:0.9rem; line-height:25px; color:#38c; font-weight:bold; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+.mails_main .mailList_content .order_box .r_order_box p.order_detail{ font-size:0.8rem; line-height:20px; color:#888; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+.mails_main .mailList_content .order_box .r_order_box p.un_paynotice{ position:absolute; right:0; bottom:0; font-size:0.8rem; font-weight:normal; line-height:30px; width:100px; text-align:center; border-radius:15px;}
+
+.mails_main .mailList_content .order_box .r_order_box p.un_paynotice_black{ background-color:#666; color:#fff;}
+.mails_main .mailList_content .order_box .r_order_box p.un_paynotice_green{ background-color:#00b85b; color:#fff;}
+.mails_main .mailList_content .order_box .r_order_box p.un_paynotice_red{ background-color:#ed6354; color:#fff;}
+.mails_main .mailList_content .order_box .r_order_box p.un_paynotice_blue{ background-color:#1EB2F2; color:#fff;}
+.mails_main .mailList_content .order_box .r_order_box p.un_paynotice_gray{ background-color:#aaa; color:#fff;}
+
+/*Checkbox選擇頁面*/
+.mails_main .mailList_content .checkbox_content{ padding: 0 0 50px 0; border: 0;}
+.mails_main .mailList_content .checkbox_show .left_ckeckbox{ position:absolute;}
+.mails_main .mailList_content .checkbox_show .left_ckeckbox .ui-checkbox .ui-btn{ background-color:#fff; border:0; padding: 10px 10px; height:20px; width:20px;}
+.mails_main .mailList_content .no_read .left_ckeckbox .ui-checkbox .ui-btn{ background-color:#fffaee;}
+.mails_main .mailList_content .checkbox_show .l_mail_box{ margin-left:45px;}
+.mails_main .mailList_content .checkbox_show .l_order_box{ margin-left:45px;}
+.mails_main .mailList_content .checkbox_show .r_order_box{ margin-left:105px;}
+.mails_main .mailList_content a.submit_checkbox{ display:block; background-color:#444; padding: 15px 0; position:fixed; bottom:0; width:100%; color:#fff; text-decoration:none; text-align: center; cursor:pointer; z-index:10;}
+.mails_main .mailList_content a.submit_checkbox:active{ background-color:#555;}
+
+
+
+/* ----- 郵件列表_結束 ----- */
+
+/* ----- 寫新郵件_開始 ----- */
+.writeMail_content .inputbox_text{ background-color:#fff; border-bottom:1px solid #ddd; padding:10px 0; font-size:0.9rem; color:#666; position:relative;}
+.writeMail_content .inputbox_text input{ background-color:#fff; border:0; font-size:0.85rem;}
+.writeMail_content .inputbox_text span.title_text{ float:left; line-height:43px; font-weight:bold; margin-left:10px;}
+.writeMail_content .addressee_text .ui-input-text{ margin:0 10px 0 70px;}
+.writeMail_content .keynote_text .ui-input-text{ margin:0 10px 0 55px;}
+.writeMail_content .letter_main{ background-color:#fff; padding:10px; font-size:0.85rem; color:#666; margin-bottom:50px;}
+.writeMail_content .letter_main textarea.letter_textarea{ border:0; box-shadow:0 0 0 #fff; min-height:300px; padding:0;}
+.writeMail_content a.submit_letter{ display:block; width:100%; font-size:1rem; line-height:50px; margin:0 auto; background-color:#ffc94d; color:#fff; text-decoration:none; text-align:center; position:fixed; bottom:0; z-index:2;}
+.writeMail_content a.submit_letter:active{ color: #fff; background-color: #ffce5e;}
+
+/*選擇收件人*/
+.writeMail_content .addressee_text ul.addressee_selectList{ position:absolute; width:100%; border-top:1px solid #bbc9e8; z-index:1;}
+.writeMail_content .addressee_text ul.addressee_selectList li{ background-color:#f0f5ff; border-bottom:1px solid #bbc9e8; padding:5px; font-size:0.85rem; cursor:pointer;}
+.writeMail_content .addressee_text ul.addressee_selectList li:active{ background-color:#e2ecff;}
+.writeMail_content .addressee_text ul.addressee_selectList p.user_name{ line-height:20px; color:#105cb6;}
+.writeMail_content .addressee_text ul.addressee_selectList p.user_id{ line-height:20px; color:#888;}
+.writeMail_content .addressee_text ul.addressee_selectList p.user_photo{ float:left; width:40px; margin-right: 10px; display:inline-block;}
+.writeMail_content .addressee_text ul.addressee_selectList p.user_photo img{ width:40px; border-radius: 50%;}
+/* ----- 寫新郵件_結束 ----- */
+
+/* ----- 郵件內容_開始 ----- */
+.mails_main .mailDetail_content{ }
+.mails_main .mailDetail_content .main_content_box{ border: 0; border-top: 1px solid #ddd; padding: 0;}
+.mails_main .mailDetail_content .mail_box{ background-color:#fff; border-bottom:1px solid #ddd; padding:10px; cursor:pointer;}
+.mails_main .mailDetail_content .mail_box:active{ background-color:#fff;}
+.mails_main .mailDetail_content .mail_close{ background-color:#fafafa;}
+.mails_main .mailDetail_content .no_read{ background-color:#fffaee;}
+.mails_main .mailDetail_content .main_content_box img{ max-width: 100%;}
+
+.mails_main .mailDetail_content .mail_box .l_mail_box{ float:left; width:50px; margin-right:10px;}
+.mails_main .mailDetail_content .mail_box .l_mail_box img.sender_pic{ width:50px; height:50px; border-radius:50%;}
+.mails_main .mailDetail_content .mail_box .r_mail_box{}
+.mails_main .mailDetail_content .mail_box .sender_infor{ height:25px;}
+.mails_main .mailDetail_content .mail_box .sender_infor p.user_id{ float:left; line-height:25px; font-size:0.85rem; color:#105CB6; font-weight:bold;}
+.mails_main .mailDetail_content .mail_box .sender_infor p.user_id span{ color:#999; margin-left:3px;}
+.mails_main .mailDetail_content .mail_box .sender_infor p.system_id{ float:left; line-height:25px; font-size:0.85rem; color:#6d9b00; font-weight:bold;}
+.mails_main .mailDetail_content .mail_box .sender_infor p.sent_time{ float:right; line-height:25px; font-size:0.75rem; color:#aaa;}
+.mails_main .mailDetail_content .mail_open .r_mail_box p.sent_time{ font-size:0.75rem; color:#aaa; padding-left:61px;}
+.mails_main .mailDetail_content .mail_open .two_tool p.user_id{ max-width:170px; overflow: hidden; text-overflow:ellipsis;}
+.mails_main .mailDetail_content .mail_open .one_tool p.user_id{ max-width:170px; overflow: hidden; text-overflow:ellipsis;}
+.mails_main .mailDetail_content .mail_box .r_mail_box p.mail_header{ font-size:0.85rem; line-height:25px; color:#888; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+.mails_main .mailDetail_content .mail_box .r_mail_box p.mail_handle{ font-size:0.85rem; line-height:25px; color:#aaa;}
+
+.mails_main .mailDetail_content .mail_box .notify_body{ font-size:0.9rem; line-height:22px; color:#888; margin-top:10px; color:#777; padding-bottom:10px;}
+.mails_main .mailDetail_content .mail_box .notify_body a{ font-size:0.9rem;}
+.mails_main .mailDetail_content .mail_box .r_mail_box a.reply_btn{ float:right; display:inline-block; background:url(../images/user/mails/icon_reply.png) no-repeat center center / 16px 16px #f5f5f5; border:1px solid #ddd; color:#fff; text-decoration:none; width:40px; height:30px; text-align: center; border-radius:3px; text-indent:-9999px; margin-left:10px; cursor:pointer;}
+.mails_main .mailDetail_content .mail_box .r_mail_box a.reply_btn:active{ background:url(../images/user/mails/icon_reply.png) no-repeat center center / 16px 16px #fff;}
+.mails_main .mailDetail_content .mail_box .r_mail_box a.delete_btn{ float:right; display:inline-block; background:url(../images/user/mails/icon_delete.png) no-repeat center center / 16px 16px #f5f5f5; border:1px solid #ddd; color:#fff; text-decoration:none; width:40px; height:30px; text-align: center; border-radius:3px; text-indent:-9999px; margin-left:10px; cursor:pointer;}
+.mails_main .mailDetail_content .mail_box .r_mail_box a.delete_btn:active{ background:url(../images/user/mails/icon_delete.png) no-repeat center center / 16px 16px #fff;}
+.mails_main .mailDetail_content .mail_box .notify_body .btn a.go{ background-color: #ffc94d; color: #fff; text-decoration: none; text-align: center; padding: 8px; line-height: 25px; margin: 15px auto; border-radius: 5px; width: 150px; display: block;}
+.mails_main .mailDetail_content .mail_box .notify_body .btn a.go:active{ opacity: 0.8;}
+
+/*家族通知信*/
+.mails_main .mailDetail_content .mail_box .notify_body .recommend_club .weekForm_box{ margin: 20px 0 0;}
+.mails_main .mailDetail_content .mail_box .notify_body .recommend_club .weekForm_box p.week_txt{ font-weight: bold; font-size: 0.95rem; line-height: 25px; color: #555;}
+.mails_main .mailDetail_content .mail_box .notify_body .recommend_club .weekForm_box table{ width: 100%; max-width: 400px; font-size: 0.85rem;}
+.mails_main .mailDetail_content .mail_box .notify_body .recommend_club .weekForm_box table.familyNum_tb th{ border-bottom: 2px solid #eee; padding: 5px 0;}
+.mails_main .mailDetail_content .mail_box .notify_body .recommend_club .weekForm_box table.familyNum_tb td{ border-bottom: 1px solid #eee; padding: 5px 0;}
+.mails_main .mailDetail_content .mail_box .notify_body .recommend_club .weekForm_box table.familyNum_tb td.left_text{ min-width: 110px; padding-left: 1px;}
+.mails_main .mailDetail_content .mail_box .notify_body .recommend_club .weekForm_box table.familyNum_tb td.td_text{ text-align: center;}
+.mails_main .mailDetail_content .mail_box .notify_body .culb_notice_text{ background-color: #f9f9f9; padding: 15px; margin: 15px 0 20px; border-radius: 5px; font-size: 0.8rem; color: #999; text-align: center;}
+.mails_main .mailDetail_content .mail_box .notify_body .culb_notice_text p.light{ line-height: 20px; font-weight: bold; color: #777; margin-bottom: 5px; }
+.mails_main .mailDetail_content .mail_box .notify_body .culb_notice_text p span.add_numer{ color: #e55e5e; padding: 0 4px; font-weight: bold;}
+.mails_main .mailDetail_content .mail_box .notify_body .culb_notice_text span.note_txt{ font-size: 0.8rem; color: #aaa;}
+.mails_main .mailDetail_content .mail_box .notify_body .culb_notice_text a.go_btn{ background-color: #ffc94d; color: #fff; font-size: 0.8rem; text-decoration: none; text-align: center; padding: 5px; line-height: 20px; margin: 7px auto; border-radius: 3px; width: 100px; display: block;}
+.mails_main .mailDetail_content .mail_box .notify_body .culb_notice_text a.go_btn:active{ opacity: 0.8;}
+.mails_main .mailDetail_content .mail_box .notify_body .culb_notice_text a.goUnion{ background-color: #69bdfd;}
+.mails_main .mailDetail_content .mail_box .notify_body .map{ margin-top: 10px; }
+.mails_main .mailDetail_content .mail_box .notify_body .map img{ border: 1px solid #e9e9e9;}
+.mails_main .mailDetail_content .mail_box .notify_body .club_description{ background-color: #f9f9f9; border-radius: 5px; padding: 10px 10px 15px; }
+.mails_main .mailDetail_content .mail_box .notify_body .club_description a{ display: inline-block;}
+.mails_main .mailDetail_content .mail_box .notify_body .club_description img.user{ width: 30px; height: 30px; border-radius: 50%; position: relative; top: 8px;}
+
+@media screen and ( max-width:401px) {.mails_main .mailDetail_content .mail_open .two_tool p.user_id{ max-width:150px;} }
+@media screen and ( max-width:371px) {.mails_main .mailDetail_content .mail_open .two_tool p.user_id{ max-width:130px;} }
+@media screen and ( max-width:351px) {.mails_main .mailDetail_content .mail_open .two_tool p.user_id{ max-width:110px;} .mailDetail_content .mail_open .one_tool p.user_id{ max-width:160px;}}
+
+.mails_main .mailDetail_content a.reply_all_btn{ display: block; font-size:0.85rem; background: url(../images/user/mails/icon_right_w.png) no-repeat 95% center / 16px 16px #637dbb; border:1px solid #315790; color:#fff; line-height: 40px; text-decoration:none; margin: 20px auto; padding-right:10px; width:130px; text-align: center; border-radius:5px;}
+.mails_main .mailDetail_content a.reply_all_btn:active{ background-color:#6a85c4; border:1px solid #4469a1;}
+.mails_main .mailDetail_content a.reply_heads_btn{ display: block; font-size:0.85rem; background: url(../images/user/mails/icon_right_w.png) no-repeat 95% center / 16px 16px #637dbb; border:1px solid #315790; color:#fff; line-height: 40px; text-decoration:none; margin: 20px auto; padding-right:10px; width:100px; text-align: center; border-radius:5px;}
+.mails_main .mailDetail_content a.reply_heads_btn:active{ background-color:#6a85c4; border:1px solid #4469a1;}
+
+/*合購通知信件*/
+.mails_main .mailDetail_content .mail_box .family_mail_box{ margin-top:10px;}
+.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box .event_subject{ font-size:0.9rem; line-height:22px; color:#777;}
+.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box .event_subject a.group_title{ font-size:0.9rem; line-height:22px;}
+.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box h3{ margin-top:10px; line-height:18px;}
+.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box h3 a.store_name{ font-size:0.9rem; font-weight:bold; color:#555}
+.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box h3 img.store_img{ position:relative; top:3px; margin-right:2px;}
+.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box .host_box_content{ background-color:#f8f8f8; padding:15px; margin-top:10px; border-radius:5px;}
+.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box .host_box_content .location_box p.txt_G12{ float:left; font-weight:bold; color:#999; font-size:0.8rem; line-height:22px;}
+.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box .host_box_content .location_box .txt_location{ font-size:0.8rem; line-height:22px; color:#777; padding-left:40px;}
+.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box .host_box_content br.CLEAR{ display:none;}
+.mails_main .mailDetail_content .mail_box .family_mail_box .pic_box{ width:100%; margin:15px auto 0px;}
+.mails_main .mailDetail_content .mail_box .family_mail_box .pic_box img{ width:100%;}
+/*--- 20160427 系統廣告信修正 ---*/
+.mails_main .mailDetail_content .mail_box .notify_body table td img{ max-width: 100%;}
+/* ----- 郵件內容_結束 ----- */
+/*======================================== 信件匣_結束 ========================================*/
+
+/*======================================== 訂單_開始 ========================================*/
+.mails_main .orderList_content{ border-top:1px solid #ddd;}
+.mails_main .orderList_content .order_box{ background-color:#fff; border-bottom:1px solid #ddd; padding:10px; cursor:pointer; position:relative;}
+.mails_main .orderList_content .order_box:active{ background-color:#f9f9f9;}
+.mails_main .orderList_content .no_read{ background-color:#fffaee;}
+.mails_main .orderList_content .order_box .l_order_box{ float:left; width:50px; margin-right:10px;}
+.mails_main .orderList_content .order_box .l_order_box img.sender_pic{ width:50px; height:50px; border-radius:50%;}
+.mails_main .orderList_content .order_box .r_order_box{ margin-left: 60px; position:relative; min-height:100px;}
+.mails_main .orderList_content .order_box .order_user_info p.user_id{ display:inline-block; line-height:25px; font-size:0.8rem; color:#105CB6; font-weight:bold;}
+.mails_main .orderList_content .order_box .order_user_info p.user_id span{ color:#999; margin-left:3px;}
+.mails_main .orderList_content .order_box .order_user_info p.user_time{ float:right; line-height:25px; font-size:0.75rem; color:#bbb;}
+.mails_main .orderList_content .order_box .r_order_box p.order_keynote{ font-size:0.9rem; line-height:30px; color:#38c; font-weight:bold; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+.mails_main .orderList_content .order_box .r_order_box p.order_detail{ font-size:0.8rem; line-height:20px; color:#888; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+.mails_main .orderList_content .order_box .r_order_box p.un_paynotice{ position:absolute; right:0; bottom:0; font-size:0.8rem; font-weight:normal; line-height:30px; width:100px; text-align:center; border-radius:15px;}
+.mails_main .orderList_content .order_box .r_order_box p.un_paynotice_black{ background-color:#666; color:#fff;}
+.mails_main .orderList_content .order_box .r_order_box p.un_paynotice_green{ background-color:#00b85b; color:#fff;}
+.mails_main .orderList_content .order_box .r_order_box p.un_paynotice_red{ background-color:#ed6354; color:#fff;}
+.mails_main .orderList_content .order_box .r_order_box p.un_paynotice_blue{ background-color:#1EB2F2; color:#fff;}
+.mails_main .orderList_content .order_box .r_order_box p.un_paynotice_gray{ background-color:#aaa; color:#fff;}
+.mails_main .orderList_content .one_unionItem p.order_keynote{ background:url(../images/user/mails/icon_union.png) no-repeat left center / 20px 20px; padding-left:25px;}
+.mails_main .orderList_content .one_orderItem p.order_keynote{ background:url(../images/user/mails/icon_order.png) no-repeat left center / 20px 20px; padding-left:25px;}
+
+/*沒有訂單提示*/
+.wrapper .mails_main p.remind_no_order{ color: #888; font-size: 1.1rem; font-weight: bold; line-height: 40px; margin: 40px auto; text-align: center; text-shadow: 1px 1px 0 #fff;}
+
+/*======================================== 訂單_開始 ========================================*/
+
+/*======================================== 日曆_開始 ========================================*/
+.ui_main_calendar .calendar_month_tab{ background-color:#fff; padding:10px 15px; margin-bottom:15px; position:relative;}
+.ui_main_calendar .calendar_month_tab a.pre_month{ display: inline-block; float:left; background:url("../images/store/icon_left.png") no-repeat scroll center center / 20px 20px #fff; border:1px solid #d5d5d5; border-radius:3px; height:30px; width:30px; padding:3px;}
+.ui_main_calendar .calendar_month_tab a.next_month{ display: inline-block; float:right; background:url("../images/store/icon_right.png") no-repeat scroll center center / 20px 20px #fff; border:1px solid #d5d5d5; border-radius:3px; height:30px; width:30px; padding:3px;}
+.ui_main_calendar .calendar_month_tab a:active{ background-color:#f9f9f9;}
+.ui_main_calendar .calendar_month_tab p.month_txt{ display: inline-block; line-height: 40px; position: relative; text-align: center; position:absolute; left:0; right:0; width:160px; margin:0 auto;}
+
+.ui_main_calendar .calendar_day_main{ background-color:#fff; padding:10px 10px 20px;}
+.ui_main_calendar table.calender_table{ margin:0 auto; min-width:240px; max-width:360px; width:100%; font-size: 0.9rem; text-align: center; text-shadow: 1px 1px 0 #fff;}
+.ui_main_calendar table.calender_table th{ background-color:#fff; color:#333; font-weight:bold; font-size:0.9rem; width: 40px; height: 30px;}
+.ui_main_calendar table.calender_table th.holiday{ color:#c00;}
+.ui_main_calendar table.calender_table tr.day_tr{ background-color: #f3f3f3; color: #888;}
+.ui_main_calendar table.calender_table td{ background-color:#f9f9f9; color:#555; font-size:0.9rem; padding:0 5px 10px; height:30px; cursor:pointer; position:relative; }
+.ui_main_calendar table.calender_table td.today{ background-color:#fff; text-decoration:underline; color:#333;}
+.ui_main_calendar table.calender_table td.holiday{ background-color:#fce2e2; color:#e98888;}
+.ui_main_calendar table.calender_table td.gray_day{ background-color:#eee; color:#aaa;}
+.ui_main_calendar table.calender_table td.gray_holiday{ background-color:#fce2e2; color:#e98888;}
+.ui_main_calendar table.calender_table td.focus{ background-color:#ffc94d; color:#fff; text-shadow:0 0 0 #fff;}
+.ui_main_calendar table.calender_table td:active{ background-color:#ffc94d; color:#fff; text-shadow:0 0 0 #fff;}
+.ui_main_calendar table.calender_table .points{ position:absolute; height:6px; bottom:0; left:0; right:0; height:22px;}
+.ui_main_calendar table.calender_table span{ display: inline-block; height:6px; width:6px; border-radius:50%; position:relative; margin:0 2px;}
+.ui_main_calendar table.calender_table span.blue_point{ background-color:#637dbb;}
+.ui_main_calendar table.calender_table span.red_point{ background-color:#f36d62;}
+.ui_main_calendar table.calender_table span.black_point{ background-color:#555;}
+
+.calendar_todo_box{ display:block; border:1px solid #ddd; background-color:#fff; padding:10px; margin:10px; cursor:pointer; text-decoration:none;}
+.union_todo{ border-left:5px solid #637dbb;}
+.order_todo{ border-left:5px solid #f36d62;}
+.custom_todo{ border-left:5px solid #555;}
+.calendar_todo_box:active{ background-color:#f9f9f9;}
+.calendar_todo_box p.infor_text{ color:#444; font-size:0.9rem; line-height:25px; font-weight:normal;}
+.calendar_todo_box p.union_blue{ color:#637dbb; line-height:30px; font-weight:bold;}
+.calendar_todo_box p.order_red{ color:#f36d62; line-height:30px; font-weight:bold;}
+.calendar_todo_box p.custom_black{ color:#555; line-height:30px; font-weight:bold;}
+.calendar_todo_box p.time_text{ font-size:0.9rem; color:#999; margin-top:3px; font-weight:normal;}
+
+/*日曆明細*/
+.mails_main .date_infor_box{display:block; margin:15px 15px; height:100px;}
+.mails_main .date_infor_box .meeting_date{ float:left; border-radius:50%; height:70px; width:70px; text-align:center; padding:15px;}
+.mails_main .date_infor_box .date_union_img{ background-color:#637dbb; color:#fff;}
+.mails_main .date_infor_box .date_order_img{ background-color:#f36d62; color:#fff;}
+.mails_main .date_infor_box .date_custom_img{ background-color:#555; color:#fff;}
+.mails_main .date_infor_box .meeting_date p.year_txt{ font-size:0.8rem; line-height:25px; margin-top:2px;}
+.mails_main .date_infor_box .meeting_date p.date_txt{ font-size:0.9rem; line-height:30px;}
+.mails_main .date_infor_box .meeting_date_text{ margin-left:115px;}
+.mails_main .date_infor_box .meeting_date_text p.union_blue{ color:#637dbb; font-size:0.98rem; font-weight:bold; line-height:30px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.mails_main .date_infor_box .meeting_date_text p.order_red{ color:#f36d62; font-size:0.98rem; font-weight:bold; line-height:30px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.mails_main .date_infor_box .meeting_date_text p.custom_black{ color:#555; font-size:0.98rem; font-weight:bold; line-height:30px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.mails_main .date_infor_box .meeting_date_text p.union_name{ color:#666; font-size:0.95rem; font-weight:bold; line-height:25px; max-height: 75px; overflow: hidden;}
+.mails_main .date_infor_box .meeting_date_text p.custom_name{ color:#888; font-size:0.95rem; font-weight:bold; line-height:25px; max-height: 75px; overflow: hidden;}
+
+.mails_main .calendar_content .main_content_box{ border:1px solid #ddd; background-color:#fff; margin: 10px 15px; padding: 0;}
+.mails_main .calendar_content .main_content_box.full{ border:1px solid #ddd; background-color:#fff; margin: 20px 0px; padding: 0;}
+.mails_main .calendar_content .calendar_infor_box{ border-bottom:1px solid #ddd; padding:10px 15px;}
+.mails_main .calendar_content .calendar_infor_box.h30{ height:30px; border-bottom:1px solid #ddd; padding:10px 15px;}
+.mails_main .calendar_content .calendar_infor_box h5.infor_title{ font-size:0.95rem; color:#555; line-height:30px;}
+.mails_main .calendar_content .calendar_infor_box h5.infor_title.float{ float:left; font-size:0.95rem; color:#555; line-height:30px;}
+.mails_main .calendar_content .calendar_infor_box .on_off_btn{ width:70px; float:right; margin:-10px 0 0 0;}
+.mails_main .calendar_content .calendar_infor_box .on_off_btn .ui-slider{ border-radius:30px; width:58px; height:34px; border: 1.5px solid #e6e6e6; background-color: #ffffff; box-shadow: none;}
+.mails_main .calendar_content .calendar_infor_box .on_off_btn .ui-slider-handle{ margin: -1px 0px 0px -15px; width: 33px; height: 33px; background-color:#fff; box-shadow: 0px 2px 5px rgba(30, 30, 30, 0.3) !important;}
+.mails_main .calendar_content .calendar_infor_box .on_off_btn .ui-slider span.ui-slider-label.ui-btn-active{ background-color:#a5ebb1;}
+.mails_main .calendar_content .calendar_infor_box p.infor_text{ font-size:0.9rem; color:#777; line-height:25px;}
+.mails_main .calendar_content .calendar_infor_box p.meeting_time{ color:#e2224e;}
+.mails_main .calendar_content a.go_union_btn{ display: block; font-size:0.9rem; background: url(../images/user/mails/icon_right_w.png) no-repeat 95% center / 16px 16px #637dbb; border:1px solid #315790; color:#fff; line-height: 40px; text-decoration:none; margin: 20px auto; padding-right:10px; width:130px; text-align: center; border-radius:5px;}
+.mails_main .calendar_content a.go_union_btn:active{ background-color:#6a85c4; border:1px solid #4469a1;}
+.mails_main .calendar_content a.go_order_btn{ display: block; font-size:0.9rem; background: url(../images/user/mails/icon_right_w.png) no-repeat 95% center / 16px 16px #f36d62; border:1px solid #d15333; color:#fff; line-height: 40px; text-decoration:none; margin: 20px auto; padding-right:10px; width:130px; text-align: center; border-radius:5px;}
+.mails_main .calendar_content a.go_order_btn:active{ background-color:#f7796e; border:1px solid #da5d3d;}
+.mails_main .calendar_content .description_box{ padding: 0px 15px 10px 15px;}
+.mails_main .calendar_content .description_box p.infor_title{ font-size: 0.8rem; color:#666;}
+.mails_main .calendar_content p.version{float: right; line-height: 30px; color: rgb(153, 153, 153); font-size: 0.8rem; display: block; margin-right: 12px;}
+
+.popup_main .date_infor_box{display:block; margin:15px 15px; height:100px;}
+.popup_main .date_infor_box .meeting_date{ float:left; border-radius:50%; height:70px; width:70px; text-align:center; padding:15px;}
+.popup_main .date_infor_box .date_union_img{ background-color:#637dbb; color:#fff;}
+.popup_main .date_infor_box .date_order_img{ background-color:#f36d62; color:#fff;}
+.popup_main .date_infor_box .date_custom_img{ background-color:#555; color:#fff;}
+.popup_main .date_infor_box .meeting_date p.year_txt{ font-size:0.8rem; line-height:25px; margin-top:2px;}
+.popup_main .date_infor_box .meeting_date p.date_txt{ font-size:0.9rem; line-height:30px;}
+.popup_main .date_infor_box .meeting_date_text{ margin-left:115px;}
+.popup_main .date_infor_box .meeting_date_text p.union_blue{ color:#637dbb; font-size:0.98rem; font-weight:bold; line-height:30px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.popup_main .date_infor_box .meeting_date_text p.order_red{ color:#f36d62; font-size:0.98rem; font-weight:bold; line-height:30px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.popup_main .date_infor_box .meeting_date_text p.custom_black{ color:#555; font-size:0.98rem; font-weight:bold; line-height:30px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.popup_main .date_infor_box .meeting_date_text p.union_name{ color:#666; font-size:0.95rem; font-weight:bold; line-height:25px; max-height: 75px; overflow: hidden;}
+.popup_main .date_infor_box .meeting_date_text p.custom_name{ color:#888; font-size:0.95rem; font-weight:bold; line-height:25px; max-height: 75px; overflow: hidden;}
+.popup_main .calendar_content{ padding-top:55px;}
+.popup_main .calendar_content .main_content_box{ border:1px solid #ddd; background-color:#fff; margin: 10px 15px; padding: 0;}
+.popup_main .calendar_content .calendar_infor_box{ border-bottom:1px solid #ddd; padding:10px 15px;}
+.popup_main .calendar_content .calendar_infor_box h5.infor_title{ font-size:0.95rem; color:#555; line-height:30px;}
+.popup_main .calendar_content .calendar_infor_box p.infor_text{ font-size:0.9rem; color:#777; line-height:25px;}
+.popup_main .calendar_content .calendar_infor_box p.meeting_time{ color:#e2224e;}
+.popup_main .calendar_content a.go_union_btn{ display: block; font-size:0.9rem; background: url(../images/user/mails/icon_right_w.png) no-repeat 95% center / 16px 16px #637dbb; border:1px solid #315790; color:#fff; line-height: 40px; text-decoration:none; margin: 20px auto; padding-right:10px; width:130px; text-align: center; border-radius:5px;}
+.popup_main .calendar_content a.go_union_btn:active{ background-color:#6a85c4; border:1px solid #4469a1;}
+.popup_main .calendar_content a.go_order_btn{ display: block; font-size:0.9rem; background: url(../images/user/mails/icon_right_w.png) no-repeat 95% center / 16px 16px #f36d62; border:1px solid #d15333; color:#fff; line-height: 40px; text-decoration:none; margin: 20px auto; padding-right:10px; width:130px; text-align: center; border-radius:5px;}
+.popup_main .calendar_content a.go_order_btn:active{ background-color:#f7796e; border:1px solid #da5d3d;}
+
+/*======================================== 日曆_結束 ========================================*/
+
+
+/*======================================== 點數儲值_開始 ========================================*/
+.mails_main .point_content .main_content_box{ border:1px solid #ddd; background-color:#fff; padding: 0; border-bottom:1px solid #ddd; padding:10px 15px;}
+.mails_main .point_content .main_content_box.no_padding{ padding:0px 15px;}
+.mails_main .point_content .main_content_box .point_box{ text-align:center; padding: 15px 0px;}
+.mails_main .point_content .main_content_box .point_box .box_title{ font-size: 0.9rem; color:#a2a6a7; font-weight:bold;}
+.mails_main .point_content .main_content_box .point_box .how_many_point{ height:48px; margin:15px;}
+.mails_main .point_content .main_content_box .point_box .how_many{ font-size: 2.2rem; color: #53585b; margin-left:6px; display: inline-block; position:relative;  background-image:url(../images/user/mails/icon_point.png);  background-repeat: no-repeat; background-size:50px; padding-left:60px;}
+.mails_main .point_content .main_content_box .point_box .dollar{ margin: 15px 0 0 2px; display: inline-block; position:relative; top:-8px;}
+.mails_main .point_content .deposit{ padding: 10px 15px; height:30px; line-height:30px; background-color:#ededed; border-bottom:1px solid #ddd;}
+.mails_main .point_content .deposit .text_title{ color:#999d9f; font-weight:bold; font-size: 0.9rem;}
+.mails_main .point_content .main_content_box .point_list{ border-bottom:1px solid #ddd; height: 52px; line-height: 44px; padding-top: 10px; }
+.mails_main .point_content .main_content_box .point_list.no_border{ border-bottom:none;}
+.mails_main .point_content .main_content_box .point_list .point_pic_s{ width:28px; height:28px; float:left; margin-top:8px;}
+.mails_main .point_content .main_content_box .point_list .how_many{float: left; margin-left:10px; font-size:1rem; background-image: url(../images/user/mails/icon_point.png); background-repeat: no-repeat; background-size: 25px; background-position: 0 10px; padding-left: 35px;}
+.mails_main .point_content .main_content_box .point_list .dollar{ display:block; width:88px; height:42px; background-color:#00bc92; float:right; text-align:center; margin-right:10px; border-radius:5px; color:#fff; font-weight:normal; text-decoration:none; font-size:0.9rem; line-height:42px;}
+.mails_main .point_content .description{ padding: 10px 15px; height:70px;}
+.mails_main .point_content .description .text{ color:#999d9f; font-size: 0.8rem;}
+
+.mails_main .point_content.transfer .main_content_box{ background-image:url(../images/user/mails/bg_point.jpg); padding:17px 15px; border:none;}
+.mails_main .point_content.transfer .main_content_box.transfer{ background-image:none; padding:0 15px; background-color:#f5f5f5; border-bottom:1px solid #ddd;}
+.mails_main .point_content.transfer .main_content_box.transfer .howtopay{ font-size:0.8rem; color:#666; padding:10px 0; line-height:25px;}
+.mails_main .point_content.transfer .main_content_box .point_box{ text-align:left;}
+.mails_main .point_content.transfer .main_content_box .point_box .box_title{ color:#fff; font-size:1.3rem;}
+.mails_main .point_content.transfer .main_content_box .point_box .box_text{margin-top: 15px; font-size:0.85rem; color:#fff;}
+.mails_main .point_content.transfer .transfer_list{ border-bottom:1px solid #ddd; font-size:0.85rem; height:40px; line-height:40px; color:#666;}
+.mails_main .point_content.transfer .transfer_list .left_row{ float:left; width:65px; height:40px;}
+.mails_main .point_content.transfer .transfer_list .left_row .title{text-align: justify; height:40px;}
+.mails_main .point_content.transfer .transfer_list .left_row .title::after{content: ''; display: inline-block; width: 100%;}
+.mails_main .point_content.transfer .transfer_list .right_row .text span{ color:#ff2e55; font-weight:bold;}
+.mails_main .point_content.transfer .deadline{ font-size:0.8rem; color:#9ba2a7; padding:15px 0;}
+.mails_main .point_content.transfer .cancel_btn_box{ text-align:center; margin-bottom:20px;}
+.mails_main .point_content.transfer .cancel_btn_box .cancel_btn{ width:100px; height:40px; line-height:38px; margin:0 auto; background-color:#fff; border:2px solid #eee; border-radius:10px;}
+.mails_main .point_content.transfer .cancel_btn_box .cancel_btn a{ color:#999; text-decoration:none; font-size:0.85rem;}
+/*======================================== 點數儲值_結束 ========================================*/

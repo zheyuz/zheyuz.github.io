@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ihergo愛合購 - 幫你找人一起買</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="../css/jqm-datebox-1.4.5.css" />
+
+	<link href="../css/layout.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script> 
+	<script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js"></script>     
+    <script type="text/javascript" src="../js/jqm-datebox-1.4.5.min.js"></script>
+    <script type="text/javascript">
+    jQuery.extend(jQuery.mobile,
+    {
+      ajaxEnabled: false
+    });
+    </script>
+
+</head>
+
+<body>
+<main class="popup_main slide_popup_main">
+	<article class="popup_topbar">
+		<a class="close_btn" href="#"></a>
+		<p>設定面交地點</p>
+	</article>
+
+	<!-- ========== 設定面交地點_開始 ========== -->
+	<article class="setting_location_block popup_main_block">
+		<!-- 區域選擇_開始 -->
+		<div class="location_select_box">
+			<select class="location_select">
+				<option>選縣市</option>
+				<option>台北市</option>
+				<option>新北市</option>
+				<option>基隆</option>
+				<option>桃園</option>
+				<option>宜蘭</option>
+				<option>新竹</option>
+				<option>苗栗</option>
+				<option>台中</option>
+				<option>彰化</option>
+				<option>南投</option>
+				<option>雲林</option>
+				<option>嘉義</option>
+				<option>台南</option>
+				<option>高雄</option>
+				<option>屏東</option>
+				<option>花蓮</option>
+				<option>台東</option>
+				<option>澎湖</option>
+				<option>金門</option>
+				<option>馬祖</option>
+			</select>
+			<select class="location_select">
+				<option>選區域</option>
+				<option>中正區</option>
+				<option>大同區</option>
+				<option>中山區</option>
+				<option>松山區</option>
+				<option>大安區</option>
+				<option>北投區</option>
+				<option>士林區</option>
+				<option>內湖區</option>
+				<option>南港區</option>
+				<option>文山區</option>
+			</select>
+			<br class="CLEAR">
+		</div>
+		<!-- 區域選擇_結束 -->
+		<!-- 地址搜尋_開始 -->
+		<div class="address_detail">
+			<input class="name_input" type="text" name="text-basic" id="text-basic" value="" placeholder="地點">
+			<a class="address_search_btn" href="#"></a>
+			<br class="CLEAR">
+		</div>
+		<!-- 地址搜尋_結束 -->
+		<!-- 面交時間設定_開始 -->
+		<div class="meetTime_box">
+			<input class="day_input" name="mode2" id="mode2" type="text" data-role="datebox" data-options='{"mode":"calbox", "afterToday" : "true", "useButton" : "false", "useFocus" : "true", "overrideDateFormat" : "%Y/%m/%d", "popupPosition" : "window", "calOnlyMonth" : "true"}' placeholder="面交日期"/>
+			<input class="time_input" type="text" name="text-basic" id="text-basic" value="" placeholder="時間 (例:晚上7點)">
+			<br class="CLEAR">
+		</div>
+		<!-- 面交時間設定_結束 -->
+
+		<iframe src="../store/map.html" height="420" seamless=""></iframe>
+
+		<a class="editEnd_btn" href="#">編輯地點完成</a>
+	</article>
+	<!-- ========== 設定面交地點_結束 ========== -->
+
+
+</main>
+
+</body>
+
+</html>

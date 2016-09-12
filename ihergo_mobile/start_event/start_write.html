@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>我要開團</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="../css/jqm-datebox-1.4.5.css" />
+
+	<link href="../css/layout.css" rel="stylesheet" type="text/css">
+	<link href="../css/event.css" rel="stylesheet" type="text/css">
+
+
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script> 
+	<script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js"></script>     
+    <script type="text/javascript" src="../js/jqm-datebox-1.4.5.min.js"></script>
+    <script type="text/javascript">
+    jQuery.extend(jQuery.mobile,
+    {
+      ajaxEnabled: false
+    });
+    </script>
+
+	<!-- go to Top -->
+	<script type="text/javascript">
+	$(function(){
+		$("#go_top").click(function(){
+			jQuery("html,body").animate({
+				scrollTop:0
+			},1000);
+		});
+		$(window).scroll(function() {
+			if ( $(this).scrollTop() > 300){
+				$('#go_top').fadeIn("fast");
+			} else {
+				$('#go_top').stop().fadeOut("fast");
+			}
+		});
+	});
+	</script>
+	<!-- go to Top_END -->
+
+	<script type="text/javascript">
+	$(function(){
+
+		// 固定左側選單
+		$("a.memu_btn").click(function(){
+			$("div.wrapper").css({"max-height":"920px", "overflow-y":"hidden"});
+		});
+		$(".ui-panel-dismiss, .ui-panel-wrapper, footer.footer_wrp, .cart_box, .store_union_box, ul.my_account").click(function(){
+			$("div.wrapper").css({"max-height":"none", "overflow-y":"auto"});
+		});
+	})
+	</script>
+
+
+</head>
+<body>
+
+<div class="wrapper" data-role="page">
+	<a id="go_top" class="gotop_btn" href="#"></a>
+	
+
+	<header class="top_menu login_none" data-role="header" data-position="fixed">
+		<a href="#bars" class="memu_btn" ></a>
+		<ul class="my_account">
+			<li class="li_account my_calendar"><a href="">日曆</a></li>
+			<li class="li_account my_order">
+				<p class="unread">2</p>
+				<a href="">訂單</a>
+			</li>
+			<li class="li_account my_mail">
+				<p class="unread">8</p>
+				<a href="">信箱</a>
+			</li>
+			<li class="li_account my_club">
+				<p class="unread">3</p>
+				<a href="">家族</a>
+			</li>
+		</ul>
+	</header><!-- /header -->
+
+	<div role="main" class="ui-content event_main">
+		
+		<!-- 商店標題_開始 -->
+		<article class="store_title">
+			<h1 class="title_h1">我要開團</h1>
+		</article>
+		<!-- 商店標題_結束 -->
+		<article class="event_content">
+
+			<!-- ============================== 填寫發起合購_開始 ============================== -->
+			<section class="form_content">
+				<h3 class="s_title">填寫合購設定</h3>
+				<div class="form_item group_goal">
+					<p class="item_title"><span class="light">*</span>合購邀請</p>
+					<div class="item_text">
+						<input class="name_input" type="text" name="text-basic" id="text-basic" value="" placeholder="例：超級好吃，不買會後悔！">
+					</div>
+				</div>
+				<div class="form_item group_phone">
+					<p class="item_title"><span class="light">*</span>連絡電話</p>
+					<div class="right_text">
+						<div class="item_text">
+							<input type="text" name="text-basic" id="text-basic" value="" placeholder="">
+						</div>
+					</div>
+				</div>
+				<div class="form_item group_closeTime">
+					<p class="item_title"><span class="light">*</span>截止時間</p>
+					<div class="right_text">
+						<div class="item_text">
+							<input class="day_input" name="mode2" id="mode2" type="text" data-role="datebox" data-options='{"mode":"calbox", "afterToday" : "true", "useButton" : "false", "useFocus" : "true", "overrideDateFormat" : "%Y/%m/%d", "popupPosition" : "window", "calOnlyMonth" : "true"}' placeholder="截止日"/>
+							<div class="time_select">
+								<select class="time_hour">
+									<option>00</option>
+									<option>01</option>
+									<option>02</option>
+									<option>03</option>
+									<option>04</option>
+									<option>05</option>
+									<option>06</option>
+									<option>07</option>
+									<option>08</option>
+									<option>09</option>
+									<option>10</option>
+									<option>11</option>
+									<option>12</option>
+									<option>13</option>
+									<option>14</option>
+									<option>15</option>
+									<option>16</option>
+									<option>17</option>
+									<option>18</option>
+									<option>19</option>
+									<option>20</option>
+									<option>21</option>
+									<option>22</option>
+									<option>23</option>
+								</select>
+								<span class="select_txt">時</span>
+								<select class="time_min">
+									<option>00</option>
+									<option>10</option>
+									<option>20</option>
+									<option>30</option>
+									<option>40</option>
+									<option>50</option>
+								</select>
+								<span class="select_txt">分</span>
+							</div>
+						</div>
+					</div>
+					<br class="CLEAR">
+				</div>
+				<div class="form_item group_closeSetting">
+					<p class="item_title"><span class="light">*</span>自動截止設定</p>
+					<p class="item_title_note">( 設定後合購將會在到達門檻時自動截止 )</p>
+					<div class="right_text">
+						<div class="item_text">
+							<div class="close_noset">
+								<label><input type="radio" name="radio-choice-0" id="radio-choice-0a" checked="checked">不設定</label>
+							</div>
+							<div class="close_money">
+								<label class="text_radio"><input type="radio" name="radio-choice-0" id="radio-choice-0a"></label>
+								<input class="text_input" type="text" name="text-basic" id="text-basic" value="" placeholder="">
+								<span class="text_span">元截止</span>
+								<br class="CLEAR">
+							</div>
+							<div class="close_copies">
+								<label class="text_radio"><input type="radio" name="radio-choice-0" id="radio-choice-0a"></label>
+								<input class="text_input" type="text" name="text-basic" id="text-basic" value="" placeholder="">
+								<span class="text_span">份截止</span>
+								<br class="CLEAR">
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="form_item group_payment">
+					<p class="item_title"><span class="light">*</span>付款方式</p>
+					<div class="right_text">
+						<div class="item_text">
+							<label><input type="checkbox" name="checkbox-0 ">ihergo點數</label>
+							<label><input type="checkbox" name="checkbox-0 ">匯款轉帳</label>
+							<label><input type="checkbox" name="checkbox-0 ">面交付款</label>
+							<br class="CLEAR">
+						</div>
+					</div>
+				</div>
+				<div class="form_item group_charge">
+					<p class="item_title">雜費</p>
+					<div class="right_text">
+						<div class="item_text">
+							<input class="text_input" type="text" name="text-basic" id="text-basic" value="" placeholder="">
+							<span class="text_span">元</span>
+							<br class="CLEAR">
+						</div>
+					</div>
+				</div>
+				<div class="form_item group_product">
+					<p class="item_title">商品設定</p>
+					<div class="right_text">
+						<div class="item_text">
+							<label><input type="checkbox" name="checkbox-0 ">開放團員自訂合購商品</label>
+							<br class="CLEAR">
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ============================== 填寫發起合購_結束 ============================== -->
+
+			<!-- ============================== 設定面交地點_開始 ============================== -->
+			<section class="form_content">
+				<h3 class="s_title">面交地點<a class="add_location" href=""></a></h3>
+
+				<!-- 一則家族面交地點_開始 -->
+				<div class="one_location familiy_location">
+					<label><input type="checkbox" name="checkbox-0 "></label>
+					<div class="pint_img pint_img_home"></div>
+					<div class="location_infor_box">
+						<p class="adress_text">[台北市][中正區] 衡陽路51號</p>
+						<p class="family_name_text">家族名稱：衡陽路51號 世紀羅浮</p>
+						<!-- <p class="time_text"><span class="day_txt">日期未定</span>18:30~18:40</p> -->
+					</div>
+					<br class="CLEAR">
+				</div>
+				<!-- 一則家族面交地點_結束 -->
+
+				<!-- 一則面交地點_開始 -->
+				<div class="one_location">
+					<label><input type="checkbox" name="checkbox-0 "></label>
+					<div class="pint_img"></div>
+					<div class="location_infor_box">
+						<p class="adress_text">[台北市][南港區] 同德路跟成福路口(全國電子門口)</p>
+						<!-- <p class="time_text"><span class="day_txt">日期未定</span>18:30~18:40</p> -->
+					</div>
+					<a class="delete_location" href="#"></a>
+					<a class="edit_location" href="#"></a>
+					<br class="CLEAR">
+				</div>
+				<!-- 一則面交地點_結束 -->
+				<!-- 一則面交地點_開始 -->
+				<div class="one_location">
+					<label><input type="checkbox" name="checkbox-0 "></label>
+					<div class="pint_img"></div>
+					<div class="location_infor_box">
+						<p class="adress_text">[台北市][南港區] 南港家樂福1樓廣場(麥當勞旁邊空地)</p>
+						<!-- <p class="time_text"><span class="day_txt">日期未定</span>18:30~18:40</p> -->
+					</div>
+					<a class="delete_location" href="#"></a>
+					<a class="edit_location" href="#"></a>
+					<br class="CLEAR">
+				</div>
+				<!-- 一則面交地點_結束 -->
+				<!-- 一則面交地點_開始 -->
+				<div class="one_location">
+					<label><input type="checkbox" name="checkbox-0 "></label>
+					<div class="pint_img"></div>
+					<div class="location_infor_box">
+						<p class="adress_text">[台北市][南港區] 忠孝東路6段448號(昆陽站4號出口對面7-11)</p>
+						<!-- <p class="time_text"><span class="day_txt">日期未定</span>18:30~18:40</p> -->
+					</div>
+					<a class="delete_location" href="#"></a>
+					<a class="edit_location" href="#"></a>
+					<br class="CLEAR">
+				</div>
+				<!-- 一則面交地點_結束 -->
+				<!-- 一則面交地點_開始 -->
+				<div class="one_location">
+					<label><input type="checkbox" name="checkbox-0 "></label>
+					<div class="pint_img"></div>
+					<div class="location_infor_box">
+						<p class="adress_text">[台北市][信義區] 忠孝東路5段386(7-11門口)</p>
+						<!-- <p class="time_text"><span class="day_txt">日期未定</span>18:30~18:40</p> -->
+					</div>
+					<a class="delete_location" href="#"></a>
+					<a class="edit_location" href="#"></a>
+					<br class="CLEAR">
+				</div>
+				<!-- 一則面交地點_結束 -->
+				<!-- 一則面交地點_開始 -->
+				<div class="one_location">
+					<label><input type="checkbox" name="checkbox-0 "></label>
+					<div class="pint_img"></div>
+					<div class="location_infor_box">
+						<p class="adress_text">[宜蘭][羅東鎮] 維揚路132號(羅東老人養護院門口)</p>
+						<!-- <p class="time_text"><span class="day_txt">日期未定</span>18:30~18:40</p> -->
+					</div>
+					<a class="delete_location" href="#"></a>
+					<a class="edit_location" href="#"></a>
+					<br class="CLEAR">
+				</div>
+				<!-- 一則面交地點_結束 -->
+				<!-- 一則面交地點_開始 -->
+				<div class="one_location">
+					<label><input type="checkbox" name="checkbox-0 "></label>
+					<div class="pint_img pint_img_disabled"></div>
+					<div class="location_infor_box">
+						<p class="adress_text">[台北市][中正區] 衡陽路51號7樓電梯口(西側)</p>
+						<!-- <p class="time_text"><span class="day_txt">日期未定</span>18:30~18:40</p> -->
+					</div>
+					<a class="delete_location" href="#"></a>
+					<a class="edit_location" href="#"></a>
+					<br class="CLEAR">
+				</div>
+				<!-- 一則面交地點_結束 -->
+				<!-- 郵寄_開始 -->
+				<div class="one_location post_item">
+					<label><input type="checkbox" name="checkbox-0 "></label>
+					<span class="text_span">可幫忙郵寄，郵資</span>
+					<input class="text_input" type="text" name="text-basic" id="text-basic" value="" placeholder="">
+					<span class="text_span">元</span>
+					<br class="CLEAR">
+				</div>
+				<!-- 郵寄_結束 -->
+
+				<p class="nothing_alarm_text">目前沒有任何面交點</p>
+
+			</section>
+			<!-- ============================== 設定面交地點_結束 ============================== -->
+
+			<!-- ============================== 合購說明_開始 ============================== -->
+			<section class="form_content">
+				<h3 class="s_title">合購說明</h3>
+				<div class="group_explain"><textarea ></textarea></div>
+				<div class="explain_text">
+					<p>儲存後下次開團時可直接引用</p>
+					<a class="save_btn" href="#">儲存</a>
+					<br class="CLEAR">
+				</div>
+				<p class="explain_modify_remind">此團合購說明包含HTML，若要修改請使用電腦版網站修改</p>
+			</section>
+			<!-- ============================== 合購說明_結束 ============================== -->
+
+			<!-- ============================== 家族通知限定_開始 ============================== -->
+			<section class="form_content">
+				<h3 class="s_title">家族通知與限定<a class="edit_family" href=""></a></h3>
+				<div class="family_list">
+					<p>ihergo台北市中正區合購家族</p>
+					<p>台北市衡陽路.西門町</p>
+					<p>不用擔心沒團跟家族</p>
+				</div>
+				<p class="nothing_alarm_text">目前沒有任何家族設定</p>
+			</section>
+			<!-- ============================== 家族通知限定_結束 ============================== -->
+		</article>
+		<a class="submit_btn" href="#">送出</a>
+	</div><!-- /content -->
+
+	
+	
+
+	<!-- 左側滑出選單_開始 -->
+	<div class="panel_navi" data-role="panel" id="bars">
+		<!-- 個人帳號＿開始 -->
+		<div class="navi_user_wrp">
+			<img class="user_photo" src="http://photo.ihergo.com/photo/user/74/100_923874_3797.png">
+			<div class="user_info">
+				<p class="user_name">Yoyo Chen</p>
+				<p class="user_text">評比 (95)</p>
+			</div>
+		</div>
+		<!-- 個人帳號＿結束 -->
+		<ul class="navi_ul">
+			<li class="navi_li li_home "><a  href="#"><span>找合購</span></a></li>
+			<li class="navi_li li_store"><a href="#"><span>商店街</span></a></li>
+			<li class="navi_li li_union union_active"><a  href="#" class="active"><span>大合購</span></a></li>
+		</ul>
+		<p class="navi_ul_title">個人資料</p>
+		
+		<ul class="navi_ul">
+			<li class="navi_li li_bonus">
+				<p class="navi_li_no">尚有<span>41</span>元</p>
+				<a href="#"><span>紅利金</span></a>
+			</li>
+			<li class="navi_li li_count">
+				<p class="navi_li_no">尚有<span class="light">0</span>元</p>
+				<a href="#"><span>ihergo點數</span></a>
+			</li>
+			<!-- <li class="navi_li li_family"><a href="#"><span>家族</span></a></li> -->
+			<!-- <li class="navi_li li_mystore"><a href="#"><span>商店</span></a></li> -->
+			<li class="navi_li li_logout"><a href="#"><span>登出</span></a></li>
+		</ul>
+		<div class="panel_footer">
+			<p class="panel_footer_txt"><span>手機板</span>/<a href="#">電腦版</a>/<a href="#">APP下載</a></p>
+		</div>
+	</div>
+	<!-- 左側滑出選單_結束 -->
+
+</div><!-- /page -->
+
+</body>
+</html>

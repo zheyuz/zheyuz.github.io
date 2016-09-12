@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>新增更多家族</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+	<link href="../css/layout.css" rel="stylesheet" type="text/css">
+	<link href="../css/club.css" rel="stylesheet" type="text/css">
+
+
+	<script src="../js/jquery-2.1.4.min.js"></script>
+	<script src="../js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="../js/mobile.js"></script>
+
+	<!--jQuery * Required *--><script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".searchPlace_Popup_content").hide();
+			$(".pin_infor_box").hide();
+			$("p.add_club_tour, p.gmap_search_tour").show();
+			$("body").click(function(){
+				$("p.add_club_tour, p.gmap_search_tour").hide();
+			});
+			
+		});
+		$(function(){
+			$("a.place_pin").click(function(){
+				$(".pin_infor_box").show();
+				$("a.template_pin").addClass("pin_focus");
+				$("p.add_club_tour, p.gmap_search_tour").hide();
+			});
+
+			// 搜尋設定
+			$("a.gmap_search_btn").click(function(){
+				$(".searchPlace_Popup_content").fadeIn("fast");
+			});
+			$("a.ok_btn").click(function(){
+				$(".searchPlace_Popup_content").fadeOut("fast");
+			});
+			$("a.popup_cancel_btn").click(function(){
+				$(".searchPlace_Popup_content").fadeOut("fast");
+			});
+
+			// 已加入家族
+			$(".pin_infor_box a.add_family_btn").click(function(){
+				$(".pin_infor_box a.add_family_btn").addClass("joined");
+			});
+		})
+
+	</script>
+
+</head>
+
+<body>
+<main class="popup_main addMore_club_popup">
+
+	<article class="popup_topbar">
+		<a class="close_btn" href="club_list(家族列表).html"></a>
+		<p>根據您的位置, 找到以下家族：</p>
+		<a href="#" class="gmap_search_btn">搜尋</a>
+		<p class="gmap_search_tour">這裡可以選擇要搜尋的區域</p>
+	</article>
+
+	<!-- ========== 面交點地圖_開始 ========== -->
+	<article class="content add_family_content">
+		<section class="google_map_box">
+			<!-- 嵌入地圖_開始 -->
+			<div class="gmap_box">
+			    <img src="../images/register/google_map.jpg" style="width:100%; height:100%;">
+			</div>
+			<!-- 嵌入地圖_結束 -->
+
+			<a href="#" class="place_pin" style="top:87px; left:150px;"></a>
+			<a href="#" class="place_pin" style="top:260px; left:75px;"></a>
+			<a href="#" class="place_pin" style="top:100px; left:380px;"></a>
+			<a href="#" class="place_pin" style="top:250px; left:290px;"></a>
+			<a href="#" class="place_pin" style="top:165px; left:185px;"></a>
+			<a href="#" class="place_pin template_pin" style="top:190px; left:240px;"></a>
+			<p class="add_club_tour" style="top: 238px; left: 187px;">請點擊地圖上的座標來加入家族</p>
+		</section>
+		<section class="pin_infor_box">
+			<p class="info_familyName">台北信義品茗小茶舍(合購家族)</p>
+			<p class="info_familyAddress">[台北市][信義區] 松山路240項3弄255號1F</p>
+			<p class="info_familyOther">成員：1253人｜進行中合購：37團</p>
+			<a href="#" class="add_family_btn">加入</a>
+		</section>
+	</article>
+	<!-- ========== 面交點地圖_結束 ========== -->
+
+</main>
+
+<!-- ==================== 新增常用地點POPUP_開始 ==================== -->
+	<div class="popup_window searchPlace_Popup_content" style="display: none;">
+		<div class="popup_window2 searchPlace_box">
+			<div class="popup_title">
+				<h4>搜尋設定</h4>
+				<a class="popup_cancel_btn" href="#"></a>
+				<br class="CLEAR">
+			</div>
+			<div class="popup_main">
+				<div class="location_box">
+					<select class="location_select">
+						<option>選縣市</option>
+						<option>台北市</option>
+						<option>新北市</option>
+						<option>基隆</option>
+						<option>桃園</option>
+						<option>新竹</option>
+						<option>苗栗</option>
+						<option>彰化</option>
+						<option>南投</option>
+						<option>嘉義</option>
+						<option>台南</option>
+						<option>高雄</option>
+						<option>屏東</option>
+						<option>台東</option>
+						<option>花蓮</option>
+						<option>宜蘭</option>
+						<option>澎湖</option>
+						<option>金門</option>
+						<option>馬祖</option>
+					</select>
+					<select class="location_select">
+						<option>選區域</option>
+						<option>中正區</option>
+						<option>大同區</option>
+						<option>大安區</option>
+						<option>中山區</option>
+						<option>萬華區</option>
+						<option>士林區</option>
+						<option>北投區</option>
+						<option>信義區</option>
+						<option>松山區</option>
+						<option>內湖區</option>
+						<option>南港區</option>
+						<option>文山區</option>
+					</select>
+					<br class="CLEAR">
+				</div>
+				<input class="address_input" type="text" name="text-basic" id="text-basic" value="" placeholder="請輸入家族地址或路名..">
+			</div>
+			<div class="popup_footer">
+				<a class="ok_btn" href="#">確認</a>
+			</div>
+		</div>
+	</div>
+	<!-- ==================== 新增常用地點POPUP_結束 ==================== -->
+
+
+
+</body>
+
+</html>

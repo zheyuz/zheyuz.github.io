@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>關於家族</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+
+	<link href="../css/layout.css" rel="stylesheet" type="text/css">
+	<link href="../css/club.css" rel="stylesheet" type="text/css">
+
+
+	<script src="../js/jquery-2.1.4.min.js"></script>
+	<script src="../js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="../js/tab.js"></script>
+
+	<!-- go to Top -->
+	<script type="text/javascript">
+	$(function(){
+		$("#go_top").click(function(){
+			jQuery("html,body").animate({
+				scrollTop:0
+			},1000);
+		});
+		$(window).scroll(function() {
+			if ( $(this).scrollTop() > 300){
+				$('#go_top').fadeIn("fast");
+			} else {
+				$('#go_top').stop().fadeOut("fast");
+			}
+		});
+	});
+	</script>
+	<!-- go to Top_END -->
+
+
+	<script type="text/javascript">
+		$(function(){
+			// 分享家族
+			$(".sharing_Popup_content").hide();
+			$(".club_menu_block .item_share a").click(function(){
+				$(".sharing_Popup_content").fadeIn("fast");
+			});
+			$("a.footer_close_btn").click(function(){
+				$(".sharing_Popup_content").fadeOut("fast");
+			});
+
+			// 退出家族
+			$(".quitClub_Popup_content").hide();
+			$("a.quit_club_btn").click(function(){
+				$(".quitClub_Popup_content").fadeIn("fast");
+			});
+			$("a.footer_subimt_btn, a.footer_close_btn").click(function(){
+				$(".quitClub_Popup_content").fadeOut("fast");
+			});
+
+			// 固定左側選單
+			$("a.memu_btn").click(function(){
+				$("div.wrapper").css({"max-height":"920px", "overflow-y":"hidden"});
+			});
+			$(".ui-panel-dismiss, .ui-panel-wrapper, footer.footer_wrp, ul.my_account").click(function(){
+				$("div.wrapper").css({"max-height":"none", "overflow-y":"auto"});
+			});
+		})
+	</script>
+
+</head>
+<body>
+
+<div class="wrapper" data-role="page">
+	<a id="go_top" class="gotop_btn" href="#"></a>
+
+	<header class="top_menu login_none" data-role="header" data-position="fixed">
+		<a href="#bars" class="memu_btn" ></a>
+		<ul class="my_account">
+			<li class="li_account my_calendar"><a href="">日曆</a></li>
+			<li class="li_account my_order">
+				<p class="unread">2</p>
+				<a href="">訂單</a>
+			</li>
+			<li class="li_account my_mail">
+				<p class="unread">8</p>
+				<a href="">信箱</a>
+			</li>
+			<li class="li_account my_club">
+				<p class="unread">3</p>
+				<a href="club_list(家族列表).html">家族</a>
+			</li>
+		</ul>
+	</header><!-- /header -->
+
+	<div role="main" class="ui-content">
+			<!-- 家族Header_開始 -->
+			<article class="club_header_block" >
+				<div class="club_img">
+					<a href="club_union(家族合購).html"><img src="http://photo.ihergo.com/photo/club/03/100_80103_1947.png"></a>
+				</div>
+				<div class="club_info">
+					<div class="club_name_box">
+						<p class="name_text"><a class="" href="club_union(家族合購).html">衡陽路51號 世紀羅浮</a></p>
+					</div>
+					<div class="club_detail_box">
+						<p class="category_text">公開的家族</p>
+						<p class="member_no"><span>836</span>位成員</p>
+					</div>
+				</div>
+				<!-- <a class="join_club_btn" href="#">加入</a> -->
+			</article>
+			<!-- 家族Header_結束 -->
+
+
+			<!-- 家族Menu_開始 -->
+			<article class="club_menu_block">
+				<div class="club_menu_item item_union"><a class="" href="club_union(家族合購).html">合購</a></div>
+				<div class="club_menu_item item_share"><a class="" href="#">分享</a></div>
+				<div class="club_menu_item item_about"><a class="active" href="#">關於</a></div>
+			</article>
+			<!-- 家族Menu_結束 -->
+			
+			
+			<article class="club_content" >
+				<!-- 關於家族＿開始 -->
+				<section class="clubAbout_content">
+					<!-- 家族面交點 -->
+					<div class="club_location_item">
+						<p class="item_title">面交點</p>
+						<div class="item_main">
+							<a href="popup_location_view(家族面交點).html">[台北市][中正區]衡陽路51號</a>
+						</div>
+					</div>
+					<!-- 家族面交點-無設定 -->
+					<div class="club_location_item">
+						<p class="item_title">面交點</p>
+						<div class="item_main">
+							<p>無設定面交點</p>
+						</div>
+					</div>
+
+					<!-- 家長 -->
+					<div class="club_parents_item">
+						<p class="item_title">家長</p>
+						<div class="item_main">
+							<p class="one_parent"><img src="http://photo.ihergo.com/photo/user/05/100_395105_8533.png"><span>skyfilmas (324)</span></p>
+							<p class="one_parent"><img src="http://photo.ihergo.com/photo/user/26/100_958826_4902.png"><span>ihergo (1029)</span></p>
+						</div>
+					</div>
+
+					<!-- 家族合購數 -->
+					<div class="club_unions_item">
+						<p class="item_title">合購</p>
+						<div class="item_main">
+							<p>共<span>14</span>團合購進行中</p>
+						</div>
+					</div>
+					
+					<!-- 退出家族 -->
+					<div class="quit_club">
+						<a class="quit_club_btn" href="">退出家族</a>
+					</div>
+					
+				</section>
+				<!-- 關於家族＿結束 -->
+			</article>
+	</div>
+	<!-- /content -->
+
+	<!-- ==================== 退出家族POPUP_開始 ==================== -->
+	<div class="popup_window quitClub_Popup_content" style="display: none;">
+		<div class="popup_window2 quitClub_box">
+			<div class="popup_title"></div>
+			<div class="popup_main">
+				<p class="popup_info_text">您即將退出家族！</p>
+				<p>你確定要退出此家族？<br>退出家族後，你將無法收到此家族的合購與討論通知。</p>
+			</div>
+			<div class="popup_footer">
+				<a class="footer_close_btn" href="#">取消</a>
+				<a class="footer_subimt_btn" href="#">退出家族</a>
+			</div>
+		</div>
+	</div>
+	<!-- ==================== 退出家族POPUP_結束 ==================== -->
+	<!-- ==================== 分享家族POPUP_開始 ==================== -->
+	<div class="popup_window sharing_Popup_content" style="display: none;">
+		<div class="popup_window2 sharing_box">
+			<div class="popup_title"></div>
+			<div class="popup_main">
+				<p class="popup_sharing_text">分享家族</p>
+				<p>您可以將社團分享給其他好友，讓他們加入喔！</p>
+				<div class="share_btns">
+					<a class="fb_share" href="#" title="Facebook分享"></a>
+					<a class="line_share" href="#" title="LINE分享"></a>
+					<a class="email_share" href="#" title="E-mail分享"></a>
+				</div>
+			</div>
+			<div class="popup_footer">
+				<a class="footer_close_btn" href="#">關閉</a>
+			</div>
+		</div>
+	</div>
+	<!-- ==================== 分享家族POPUP_結束 ==================== -->
+
+
+	<!-- 左側滑出選單_開始 -->
+	<div class="panel_navi" data-role="panel" id="bars">
+		<!-- 個人帳號＿開始 -->
+		<div class="navi_user_wrp">
+			<img class="user_photo" src="http://photo.ihergo.com/photo/user/74/100_923874_3797.png">
+			<div class="user_info">
+				<p class="user_name">Yoyo Chen</p>
+				<p class="user_text">評比 (95)</p>
+			</div>
+		</div>
+		<!-- 個人帳號＿結束 -->
+		<ul class="navi_ul">
+			<li class="navi_li li_home home_active"><a class="active" href="#"><span>找合購</span></a></li>
+			<li class="navi_li li_store"><a href="#"><span>商店街</span></a></li>
+			<li class="navi_li li_union"><a  href="#" ><span>大合購</span></a></li>
+		</ul>
+		<p class="navi_ul_title">個人資料</p>
+		
+		<ul class="navi_ul">
+			<li class="navi_li li_notify "><a href="#" ><span>個人通知</span></a></li>
+			<li class="navi_li li_bonus">
+				<p class="navi_li_no">尚有<span>41</span>元</p>
+				<a href="#"><span>紅利金</span></a>
+			</li>
+			<li class="navi_li li_count">
+				<p class="navi_li_no">尚有<span>3200</span>元</p>
+				<a href="#"><span>ihergo點數</span></a>
+			</li>
+			<!-- <li class="navi_li li_family"><a href="#"><span>家族</span></a></li> -->
+			<!-- <li class="navi_li li_mystore"><a href="#"><span>商店</span></a></li> -->
+			<li class="navi_li li_logout"><a href="#"><span>登出</span></a></li>
+		</ul>
+		<div class="panel_footer">
+			<p class="panel_footer_txt"><span>手機板</span>/<a href="#">電腦版</a>/<a href="#">APP下載</a></p>
+		</div>
+	</div>
+	<!-- 左側滑出選單_結束 -->
+
+</div><!-- /page -->
+
+</body>
+</html>

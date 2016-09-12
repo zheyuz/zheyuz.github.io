@@ -1,0 +1,725 @@
+@charset "UTF-8";
+
+/* ================================== 填寫訂單資料_開始 ================================== */
+.wrapper .event_main .oreder_content{ background-color: #e5e5e5;}
+.wrapper .event_main .event_content{ margin-bottom:30px;}
+.wrapper .event_main h3.s_title{ margin: 0 15px; line-height: 46px; border-bottom: 1px solid #e6e6e6; font-size: 1rem; color: #333; padding-top: 5px; font-weight:900 !important;}
+
+.wrapper .event_main .form_content {background-color: #fff; padding-bottom: 20px; margin-bottom: 30px;}
+.wrapper .event_main .form_content .form_item {margin: 0 15px; padding: 15px 0; }
+.wrapper .event_main .form_content .form_item p.item_title{ font-size: 0.9rem; font-weight: bold; color: #555;}
+.wrapper .event_main .form_content .form_item .item_title span.light{ color: #f06354; padding-right: 5px;}
+.wrapper .event_main .form_content .form_item p.item_title_note{ font-size: 0.85rem; color:#aaa; margin-top: 5px;}
+.wrapper .event_main .form_content .form_item .right_text{ float: none; width: auto;}
+.wrapper .event_main .form_content .form_item .item_text{ margin-top: 10px;}
+.wrapper .event_main .form_content .form_item .ui-checkbox{ float: left; margin:5px 5px 5px 0;}
+.wrapper .event_main .form_content .form_item .item_text input[type="text"], input[type="password"]{ font-size: 0.9rem; padding: 8px 10px;}
+.wrapper .event_main .form_content .form_item .ui-select .ui-btn{ background-color:#fbfbfb; padding: 9px 35px 9px 15px; font-weight: normal; box-shadow: 0 0px 3px rgba(0, 0, 0, .10); border-color: #d6dbdb;}
+
+/*截止日設定*/
+.wrapper .event_main .form_content .group_closeTime .day_input{ border:0; background-color:transparent;}
+.wrapper .event_main .form_content .group_closeTime .day_input:active{ background-color:#f2f2f2}
+.wrapper .event_main .form_content .group_closeTime .ui-input-text{ float: left; width:200px; background-color:#f9f9f9; border:1px solid #d6dbdb; box-shadow: 0 0 0 rgba(0, 0, 0, 0) inset; padding-right:0;}
+.wrapper .event_main .form_content .group_closeTime .time_select{ float: left; margin-left: 20px;}
+.wrapper .event_main .form_content .group_closeTime .time_select .ui-select{ margin: 0 0 0 0; width: 85px; float: left;}
+.wrapper .event_main .form_content .group_closeTime .time_select .ui-select .ui-btn{ text-align: left; padding:9px 35px 9px 15px; font-weight: normal;}
+.wrapper .event_main .form_content .group_closeTime .time_select span.select_txt{ float: left; padding: 0 8px; line-height: 40px; color: #777; font-size: 0.9rem;}
+.wrapper .event_main .form_content .form_item .item_text .ui-select .ui-btn select{ font-size: 0.9rem; line-height: 20px;}
+
+@media screen and ( max-width:505px) {
+	.wrapper .event_main .form_content .group_closeTime .ui-input-text{ width:100%; float: none;}
+	.wrapper .event_main .form_content .group_closeTime .time_select{ float: none; margin-left:0; margin-top:10px; width:100%}
+	.wrapper .event_main .form_content .group_closeTime .time_select .ui-select{ width:40%;}
+}
+@media screen and ( max-width:360px) {
+	.wrapper .event_main .form_content .group_closeTime .time_select .ui-select{ width:38.5%;}
+}
+
+/*截止設定*/
+.wrapper .event_main .form_content .group_closeSetting .item_text{ display: inline-block; position:relative; left: -10px;}
+.wrapper .event_main .form_content .group_closeSetting .close_noset{ display: inline; height: 40px; overflow: hidden;}
+.wrapper .event_main .form_content .group_closeSetting .close_money{ display:inline-block; height: 40px;}
+.wrapper .event_main .form_content .group_closeSetting .close_copies{ display:inline-block; height: 40px;}
+.wrapper .event_main .form_content .group_closeSetting .ui-btn{ background-color: #fff; border: 0; color: #777; font-weight: normal;}
+.wrapper .event_main .form_content .group_closeSetting .ui-radio{ float: left; margin: 0; }
+.wrapper .event_main .form_content .group_closeSetting .close_money .ui-radio{  position: relative; top: 8px;}
+.wrapper .event_main .form_content .group_closeSetting .close_copies .ui-radio{  position: relative; top: 8px;}
+.wrapper .event_main .form_content .group_closeSetting label.text_radio{ padding-right: 0;}
+.wrapper .event_main .form_content .group_closeSetting .ui-input-text{ float: left;}
+.wrapper .event_main .form_content .group_closeSetting input.text_input{ float: left; width: 80px; padding: 8px 5px;}
+.wrapper .event_main .form_content .group_closeSetting span.text_span{ line-height: 45px; font-size: 0.85rem; padding-left: 5px; color: #777;}
+
+@media screen and ( max-width:506px) {
+	.wrapper .event_main .form_content .group_closeSetting .close_noset{ display: block;}
+	.wrapper .event_main .form_content .group_closeSetting .close_money{ display:block; margin-bottom:10px;}
+	.wrapper .event_main .form_content .group_closeSetting .close_copies{ display:block;}
+	.wrapper .event_main .form_content .group_closeSetting input.text_input{ width: 120px;}
+}
+
+/*付款方式*/
+.wrapper .event_main .form_content .group_product .ui-checkbox{ position:relative; left: -10px;}
+.wrapper .event_main .form_content .group_payment .ui-checkbox{ position:relative; left: -10px;}
+.wrapper .event_main .form_content .group_payment .ui-btn{ background-color: #fff; border: 0; padding: 5px 5px 5px 40px; color: #777; font-weight: normal;}
+.wrapper .event_main .form_content .group_product .ui-btn{ background-color: #fff; border: 0; padding: 5px 5px 5px 40px; color: #777; font-weight: normal;}
+.wrapper .event_main .form_content .group_charge .ui-btn{ background-color: #fff; border: 0; padding: 5px 5px 5px 40px; color: #777; font-weight: normal;}
+.wrapper .event_main .form_content .group_charge .ui-input-text{ float: left; width:150px;}
+.wrapper .event_main .form_content .group_charge span.text_span{ float: left; padding-left: 7px; line-height: 40px; color: #777; font-size: 0.9rem;}
+
+/*面交地點設定*/
+.wrapper .event_main .form_content .one_location{ padding: 20px 0; margin: 0 15px;}
+.wrapper .event_main .form_content .one_location .location_infor_box{ float:left; width: 55%; position:relative; min-height: 40px;}
+.wrapper .event_main .form_content .one_location .ui-btn{ background-color: #fff; border: 0; padding-right: 3px;}
+.wrapper .event_main .form_content .one_location .ui-checkbox{ background-color: #fff; border: 0;  float: left;  margin: 5px 0 5px -5px;}
+.wrapper .event_main .form_content .one_location .pint_img{ float:left; background: url(../images/image/icon_pint.png) no-repeat 0 center / 40px 40px transparent; width:40px; height:40px; display:inline-block; margin-right:5px;}
+.wrapper .event_main .form_content .one_location .pint_img_disabled{ background: url(../images/image/icon_pint_disabled.png) no-repeat 0 center / 40px 40px transparent;}
+.wrapper .event_main .form_content .one_location .pint_img_home{ background: url(../images/image/icon_pint_home.png) no-repeat 0 center / 40px 40px transparent;}
+.wrapper .event_main .form_content .one_location p.adress_text{ color: #777; font-size: 0.9rem; line-height:22px;}
+.wrapper .event_main .form_content .one_location p.time_text{ font-size: 0.9rem; margin-top: 5px; color:#999; line-height: 20px; white-space: nowrap;}
+.wrapper .event_main .form_content .one_location p.time_text span.day_txt { padding-right: 7px; margin-right: 7px; border-right: 1px solid #aaa;}
+.wrapper .event_main .form_content .one_location a.edit_location{ float: right; display: block; width: 40px; height: 40px; background: url(../images/start_event/icon_edit.png) no-repeat center center / 24px 24px transparent;}
+.wrapper .event_main .form_content .one_location a.edit_location:active{ background-color:#f7f7f7;}
+.wrapper .event_main .form_content .one_location a.delete_location{ float: right; display: block; width: 50px; min-height: 40px; background: url(../images/start_event/icon_trash.png) no-repeat center center / 24px 24px transparent;}
+.wrapper .event_main .form_content .one_location a.delete_location:active{ background-color:#f7f7f7;}
+.wrapper .event_main .form_content h3.s_title a.add_location{ float: right; height: 46px; width: 40px; background: url(../images/start_event/icon_add.png) no-repeat center center / 24px 24px transparent;}
+.wrapper .event_main .form_content h3.s_title a.add_location:active{ opacity: 0.6;}
+.wrapper .event_main .form_content .post_item{ padding: 10px 0;}
+.wrapper .event_main .form_content .post_item .ui-checkbox{ margin: 12px 0px 12px -5px;}
+.wrapper .event_main .form_content .one_location .ui-input-text { float: left; margin:0 7px; width: 70px; position: relative; top: 4px;}
+.wrapper .event_main .form_content .one_location span.text_span{ float: left; line-height: 40px; font-size: 0.9rem; position: relative; top: 4px; color: #777;}
+
+.wrapper .event_main p.nothing_alarm_text{ text-align: center; color:#bbb; line-height:35px; font-size:0.9rem; font-weight: bold; padding:15px 10px 0; margin: 0; background: transparent;}
+.wrapper .event_main .familiy_location p.family_name_text{ color:#5d8d92; font-size:0.8rem; margin-top:5px;}
+.wrapper .event_main .form_content .familiy_location .location_infor_box{ width: 70%;}
+.wrapper .event_main .form_content .post_item input[type="text"]{ font-size: 0.9rem; padding: 8px 10px; }
+
+@media screen and ( max-width:441px) { 
+	.wrapper .event_main .form_content .one_location .location_infor_box{ width: 60%;}
+	.wrapper .event_main .form_content .familiy_location .location_infor_box{ width: 74%;}
+	.wrapper .event_main .form_content .one_location p.adress_text{ font-size: 0.85rem;}
+	.wrapper .event_main .form_content .one_location p.time_text{ font-size: 0.85rem;}
+}
+@media screen and ( max-width:391px) { 
+	.wrapper .event_main .form_content .one_location .location_infor_box{ width: 55%;}
+	.wrapper .event_main .form_content .familiy_location .location_infor_box{ width: 70%;}
+}
+@media screen and ( max-width:351px) { 
+	.wrapper .event_main .form_content .one_location .location_infor_box{ width: 50%;}
+	.wrapper .event_main .form_content .familiy_location .location_infor_box{ width: 67%;}
+}
+
+
+/*合購說明*/
+.wrapper .event_main .form_content .group_explain{ margin:15px;}
+.wrapper .event_main .form_content .explain_text{ margin: 0 15px;}
+.wrapper .event_main .form_content .explain_text p{ float: left; font-size: 0.9rem; color: #888; width: 75%; position: relative; top:7px;}
+.wrapper .event_main .form_content .explain_text a.save_btn{ float: right; font-size: 0.85rem; line-height:35px; width: 60px; background-color:#f5f5f5; border: 1px solid #e0e0e0; color:#777; box-shadow: 0 0 2px rgba(0,0,0,0.1); text-align:center; text-decoration:none; border-radius: 4px; }
+.wrapper .event_main .form_content .explain_text a.save_btn:active{ box-shadow: 0 0 3px rgba(0,0,0,0.15); border: 1px solid #ddd;}
+.wrapper .event_main .form_content textarea{ border:1px solid #ddd; background-color:#f9f9f9; box-shadow:0 0 0 rgba(0,0,0,0) inset;}
+.wrapper .event_main .form_content .explain_text .ui-checkbox{ margin: 10px 0px 10px -8px;}
+.wrapper .event_main .form_content .explain_text .ui-btn{ background-color: #fff; border: 0; padding: 0 0 0 40px; color: #555; font-weight: normal;}
+.wrapper .event_main .form_content p.explain_modify_remind{ margin: 15px; font-size: 0.9rem; color: #777;}
+
+/*家族通知限定*/
+.wrapper .event_main .form_content .family_list{ margin: 10px 15px;}
+.wrapper .event_main .form_content .family_list p{ line-height: 30px; font-size: 0.9rem; color: #777;}
+.wrapper .event_main .form_content h3.s_title a.edit_family{ float: right; height: 46px; width: 40px; background: url(../images/start_event/icon_edit2.png) no-repeat center center / 24px 24px transparent;}
+.wrapper .event_main .form_content h3.s_title a.edit_family:active{ opacity: 0.6;}
+
+/*開團送出*/
+.wrapper .event_main a.submit_btn{ display: block; width: 95%; font-size: 1rem; font-weight: bold; color: #fff; background-color: #60B9F7; line-height: 50px; text-shadow:0 0 0 transparent; text-align: center; text-decoration: none; box-shadow: 0 3px 0px #4da8e7; margin-bottom: 30px; border-radius: 5px;}
+.wrapper .event_main a.submit_btn:active{ background-color: #6FC3FD; color:#fff;}
+
+/* ================================== 填寫訂單資料_結束 ================================== */
+
+
+/* ============================== 合購頁_開始 ============================== */
+.join_union_main .unionName_title{ padding: 15px; background-color: #fff; position:relative;}
+.join_union_main .unionName_title .user_img{ float: left; width:60px;}
+.join_union_main .unionName_title .user_img img{ border-radius:50%; width:60px;}
+.join_union_main .unionName_title .user_union{ margin-left:75px;}
+.join_union_main .unionName_title .user_union p.user_id{ font-size: 0.82rem; margin-bottom:5px; color:#888;}
+.join_union_main .unionName_title .user_union p.user_id span{ color: #105cb6; margin-right:5px;}
+.join_union_main .unionName_title .user_union p.union_name{ font-size: 0.9rem; color:#666; font-weight:bold; padding:7px; background-color:#f3f3f3; position: relative; border-radius:4px;}
+.join_union_main .unionName_title .user_union p.union_name:before { border-top: 6px solid rgba(0, 0, 0, 0); border-bottom: 6px solid rgba(0, 0, 0, 0); border-right: 7px solid #f1f1f1; position:absolute; left:-7px; top:10px; width: 0; height: 0; content: ""; display: block;}
+
+.join_union_main .unionName_title a.go_union_page{ margin:20px 0 5px; font-size:0.9rem; font-weight: bold; color:#69bdfd; background-color:#fff; border:1px solid #69bdfd; border-radius:4px; display:block; text-align:center; padding:6px; line-height:18px; cursor:pointer;}
+.join_union_main .unionName_title a.go_union_page:active{ color:#fff; background-color:#69bdfd;}
+.join_union_main .unionName_title p.nologin_remind{ text-align:center; font-size:0.8rem; color:#777; line-height:22px; margin:15px 0; background-color: #f3fafd; border: 1px solid #b5dce7; padding:15px 15px; border-radius:5px;}
+.join_union_main .unionName_title p.nologin_remind a.login_btn{ text-align:center; font-size:0.85rem; display:block; line-height:30px; text-decoration:none; background-color:#ffc94d; color:#fff; border-radius:5px; margin:10px auto 0; width: 110px;}
+.join_union_main .unionName_title p.nologin_remind a.login_btn:active{ opacity: 0.8;}
+.join_union_main .unionName_title p.nologin_remind a.register_btn{ text-align:center; font-size:0.85rem; display:block; line-height:30px; text-decoration:none; border:1px solid #ffc94d; color:#ffc94d; border-radius:5px; margin-top:10px;}
+.join_union_main .unionName_title p.nologin_remind a.register_btn:active{ background-color:#ffc94d; color:#fff;}
+.join_union_main .unionName_title p.nologin_remind span.light_txt{ font-weight:bold; color:#e55c67; padding: 0 1px;}
+.join_union_main .unionName_title p.nologin_remind span.blue_txt{ font-weight:bold; color:#105cb6; padding: 0 2px;}
+.join_union_main .unionName_title p.finish_remind{ text-align:center; font-size:0.8rem; color:#888; line-height:20px;  margin:15px 0; background-color:#f8f8f8; padding:10px 15px 15px; border-radius:5px;}
+.join_union_main .unionName_title p.finish_remind span{ font-weight: bold; color: #666; line-height: 30px;}
+.join_union_main .unionName_title p.finish_remind a{ padding: 0 4px;}
+.join_union_main .unionName_title .shareing_btns_box{ margin-top: 15px;}
+
+/*---------- 合購詳細資訊 ----------*/
+.wrapper .join_union_main .unionInfo_content{ margin-bottom:50px;}
+.wrapper .join_union_main .collapsible_item{ margin: 0;}
+.wrapper .join_union_main .collapsible_item .ui-collapsible-content{ padding: 0 0 15px;}
+.wrapper .join_union_main .collapsible_item h4.ui-collapsible-heading a{ padding-left: 45px;}
+.wrapper .join_union_main .collapsible_item h4.ui-collapsible-heading span.count_no{ font-weight:normal; font-size:0.75rem; line-height:25px; color:#999; margin-left:10px;}
+.wrapper .join_union_main .collapsible_item h4.ui-collapsible-heading span.count_no span{ padding:0 2px;}
+.wrapper .join_union_main .collapsible_item .ui-btn-icon-left:after{ left: 15px;}
+.wrapper .join_union_main .collapsible_item .ui-icon-plus:after{ background-image:url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20fill%3D%22%23FFF%22%20points%3D%229%2C7%209%2C0%205%2C0%205%2C7%200%2C7%207%2C14%2014%2C7%20%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");}
+.wrapper .join_union_main .collapsible_item .ui-icon-minus:after{ background-image:url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20fill%3D%22%23FFF%22%20points%3D%227%2C0%200%2C7%205%2C7%205%2C14%209%2C14%209%2C7%2014%2C7%20%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");}
+/*合購說明*/
+.wrapper .join_union_main .collapsible_item .gathers_box{ padding:10px 15px; position: relative;}
+.wrapper .join_union_main .collapsible_item .gathers_location:active{ background-color:#f9f9f9;}
+.wrapper .join_union_main .collapsible_item .gathers_box h5.ex_title{ line-height:25px; font-size:0.9rem; color:#666;}
+.wrapper .join_union_main .collapsible_item .gathers_box h5.ex_title span.red_txt{ color:#F64949; margin:0 3px; font-size:0.85rem;}
+.wrapper .join_union_main .collapsible_item .gathers_box p{ font-size:0.85rem; line-height:25px; color:#888;}
+.wrapper .join_union_main .collapsible_item .gathers_box a.see_all{ display: block; background:url(../images/start_event/icon_right.png) no-repeat right center / 24px 24px transparent; height:70px; width:100%; position:absolute; top:0; right:15px;}
+.wrapper .join_union_main .collapsible_item .gathers_box p.pay_mode_gopay{ padding:5px 0 5px 35px; background:url(../images/start_event/icon_gopay.png) no-repeat 0 center / 24px 24px transparent;}
+.wrapper .join_union_main .collapsible_item .gathers_box p.pay_mode_atm{ padding:5px 0 5px 35px; background:url(../images/start_event/icon_atm.png) no-repeat 0 center / 24px 24px transparent;}
+.wrapper .join_union_main .collapsible_item .gathers_box p.pay_mode_people{ padding:5px 0 5px 35px; background:url(../images/start_event/icon_people.png) no-repeat 0 center / 24px 24px transparent;}
+.wrapper .join_union_main .collapsible_item .gathers_box p.family_red_txt{ color:#F64949; line-height:20px;}
+.wrapper .join_union_main .collapsible_item .gathers_box p.one_family{ padding:12px 80px 12px 0; border-bottom:1px dotted #ddd; position:relative; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.wrapper .join_union_main .collapsible_item .gathers_box p.one_family span.family_name{ line-height:35px;}
+.wrapper .join_union_main .collapsible_item .gathers_box p.one_family a.add_family_btn{ position:absolute; right:0; background-color:#69BDFD; color:#fff; text-decoration:none; font-size:0.8rem; line-height:25px; padding: 5px 10px; border-radius:4px;}
+.wrapper .join_union_main .collapsible_item .gathers_box p.one_family a.add_family_btn:active{background-color: #7dc4fa;}
+.wrapper .join_union_main .collapsible_item .gathers_explain p{ width:90%; white-space:nowrap; overflow:hidden; text-overflow: ellipsis;}
+/*合購統計*/
+.wrapper .join_union_main .collapsible_item .goods_total{ width:100%; border:0; border-collapse:collapse; padding:0;}
+.wrapper .join_union_main .collapsible_item .goods_total th{ font-size:0.92rem; border-bottom:1px solid #e3e3e3; padding:10px 5px; color:#666; text-align:center;}
+.wrapper .join_union_main .collapsible_item .goods_total th.table_more{ width: 24px;}
+.wrapper .join_union_main .collapsible_item .goods_total tr.list_item{ cursor:pointer;}
+.wrapper .join_union_main .collapsible_item .goods_total tr.list_item:active{ background-color:#f8f8f8;}
+.wrapper .join_union_main .collapsible_item .goods_total td{ font-size:0.865rem; color:#777; padding:10px; border-bottom:1px dotted #ddd; text-align:center;}
+.wrapper .join_union_main .collapsible_item .goods_total td.table_name{ width:70%; text-align:left;}
+.wrapper .join_union_main .collapsible_item .goods_total td.table_amount{ width:13%;}
+.wrapper .join_union_main .collapsible_item .goods_total td.table_price{ width: 18%}
+.wrapper .join_union_main .collapsible_item .goods_total td.table_more a{ display:block; width: 20px; height: 80px; background:url(../images/start_event/icon_right.png) no-repeat center center / 20px 20px transparent; }
+.wrapper .join_union_main .collapsible_item .goods_total img.product_img{ float:left; width:80px;}
+.wrapper .join_union_main .collapsible_item .goods_total .product_info{ padding-left:10px; height:80px; position: relative; overflow:hidden;}
+.wrapper .join_union_main .collapsible_item .goods_total .product_info p.name_txt{ font-weight:bold; max-height:40px; overflow:hidden;}
+.wrapper .join_union_main .collapsible_item .goods_total .product_info p.specification_txt{ font-size:0.8rem; color:#aaa; position:absolute; bottom:20px; white-space:nowrap; overflow: hidden;}
+.wrapper .join_union_main .collapsible_item .goods_total .product_info p.price_txt{ font-size:0.85rem; font-weight:bold; color:#f06354; position:absolute; bottom:0;}
+.wrapper .join_union_main .collapsible_item p.no_member_text{ color:#bbb; font-size:0.92rem; font-weight:bold; line-height:25px; padding:30px 5px 20px; text-align:center;}
+/*合購商品列表*/
+.wrapper .join_union_main .collapsible_productList .select_box{ margin: 0 auto; padding: 10px 0 0; width: 97%;}
+.wrapper .join_union_main .collapsible_productList .select_box .ui-select .ui-btn { font-size:0.87rem; text-align: left; background-color: #f9f9f9; border: 1px solid #ccc; color:#777;}
+.wrapper .join_union_main .collapsible_item .product_item{ width: 100%; position: relative; height: 120px; padding:15px 0; border-bottom:1px dotted #ddd; cursor: pointer; box-shadow: 0 0 0;}
+.wrapper .join_union_main .collapsible_item .product_item .left_box{ width: 120px; float:left; position: absolute; margin-left:15px;}
+.wrapper .join_union_main .collapsible_item .product_item .left_box a.product_img{ display:block; height: 120px; }
+.wrapper .join_union_main .collapsible_item .product_item .left_box a.product_img:active{opacity: 0.8; background-color:transparent;}
+.wrapper .join_union_main .collapsible_item .product_item .left_box a.product_img img{ width:120px; height:120px; border: 1px solid #e9e9e9; box-sizing: border-box;}
+.wrapper .join_union_main .collapsible_item .product_item .right_box{ height:120px; padding:0 15px 0 145px;}
+.wrapper .join_union_main .collapsible_item .product_item .right_box h3.product_title{ height: 50px; width: 100%; height: 52px; overflow: hidden;}
+.wrapper .join_union_main .collapsible_item .product_item .right_box h3.product_title a{ font-size: 0.9rem; text-decoration: none; color: #555; line-height: 20px;}
+.wrapper .join_union_main .collapsible_item .product_item .right_box .p_text_box{ float: left; font-size: 0.9rem; width: 65%; margin: 0; position: relative; top: 20px;}
+.wrapper .join_union_main .collapsible_item .product_item .right_box .p_text_box p{ line-height: 24px; color: #888; font-size: 0.85rem;}
+.wrapper .join_union_main .collapsible_item .product_item .right_box .p_text_box p.buy_text{ float: none; }
+.wrapper .join_union_main .collapsible_item .product_item .right_box .p_text_box p.price_text{ float: none; font-weight: normal; color: #888;}
+.wrapper .join_union_main .collapsible_item .product_item .right_box .p_text_box p.price_text span{ color: #f36167;}
+.wrapper .join_union_main .collapsible_item .product_item .right_box p.buy_text{ float:right; color:#999;}
+.wrapper .join_union_main .collapsible_item .product_item .right_box a.add_cart{ float: right; display: block; background-color: #fe9f54; color: #fff; font-size: 0.85rem; line-height: 30px; text-decoration: none; text-align: center; text-shadow: 0 0 0 transparent; border-radius: 3px; width:50px; font-weight: normal; position: relative; top: 35px;}
+.wrapper .join_union_main .collapsible_item .product_item .right_box a.add_cart:active{ opacity:0.8;}
+.wrapper .join_union_main .collapsible_item .product_item .right_box a.closed{ background-color: #d0d0d0; color: #fff; width: 60px;}
+.wrapper .join_union_main .collapsible_item .product_item .left_box a.img_amount_text{ width: 120px; height:120px; background:url(../images/store/icon_addin.png) no-repeat center 30px / 36px 36px rgba(255,255,255,0.7); position:absolute; top:0; left:0; text-align:center; text-decoration:none; font-size:0.9rem; color:#22668d; }
+.wrapper .join_union_main .collapsible_item .product_item .left_box a.img_amount_text span.add_amount_txt{ position: relative; top:75px; text-shadow: 1px 1px 0px rgba(255,255,255,0.5);}
+
+
+
+/*============================== 合購頁_結束 ==============================*/
+
+
+/*======================================== 參與合購_開始 ========================================*/
+.joinGroup_block{ background-color:#f2f2f2;}
+.joinGroup_block .cart_content{ margin: 0;}
+.joinGroup_block .cart_item{ width: 100%; background-color: #fff; position: relative; height: 120px; padding: 15px 0; display: inline-block; border-bottom:1px solid #e5e5e5; }
+.joinGroup_block .cart_item .left_box{ height: 120px; width: 120px; position: absolute; margin-left: 10px;}
+.joinGroup_block .cart_item .left_box a{ display: block;}
+.joinGroup_block .cart_item .left_box a.product_img:active{opacity: 0.8; background-color:transparent}
+.joinGroup_block .cart_item .left_box a.product_img img{ width: 120px;}
+.joinGroup_block .cart_item .right_box{ padding: 0 0 0 140px;}
+.joinGroup_block .cart_item .right_box h3.product_title{ width: 100%; height: 50px; overflow: hidden;}
+.joinGroup_block .cart_item .right_box h3.product_title a{ font-size: 0.9rem; text-decoration: none; color: #555; line-height: 20px;}
+.joinGroup_block .cart_item .right_box .p_text_box{ width: 100%; margin: 5px 0 0; position: absolute; bottom: 15px;}
+.joinGroup_block .cart_item .right_box .p_text_box p{ font-size: 0.8rem; color: #888; line-height: 20px;}
+/*加購商品*/
+.joinGroup_block .cart_content .addmore_item{ background-color: #fff; border-bottom: 1px solid #e5e5e5; padding: 15px 0; text-align: right;}
+.joinGroup_block .cart_content .addmore_item a.addmore_btn{ font-size:0.9rem; background-color:#fe9f54; color:#fff; padding:6px 20px; margin-right:10px; border-radius:4px; text-align:center; text-decoration:none; display: inline-block; box-shadow: 0 2px 0px #f18f42;}
+.joinGroup_block .cart_content .addmore_item a.addmore_btn:active{ background-color: #ffa863;}
+
+/*修改數量、刪除*/
+.joinGroup_block .cart_item .right_box a.modified_btn{ float: right; top: 35px; left: -2px;  padding: 0; width: 30px; height: 30px; background: url(../images/store/icon_modify.png) no-repeat 0 0 / 30px 30px transparent; border: 0; box-shadow: 0 0 0 #fff;}
+.joinGroup_block .cart_item .right_box a.modified_btn:active{ opacity: 0.8;}
+.wrapper .modified_popup{ background-color: #f9f9f9; border-radius: 5px; border: 1px solid #ddd; box-shadow: 1px 1px 6px rgba(0,0,0,0.2); top: 47px; left: -10px; width: 100px;}
+.wrapper .modified_popup a{ display: block; text-align: center; font-size: 0.8rem; color: #3b5998; line-height: 30px; text-decoration: none;}
+.wrapper .modified_popup a.modify_amount{ border-bottom: 1px solid #e0e0e0;}
+.wrapper .modified_popup a:active{ background-color: #f3f3f3; border-radius: 5px;}
+
+/*付款金額*/
+.joinGroup_block .payable_content{ background-color: #fff; margin-bottom: 30px; padding-top: 5px;}
+.joinGroup_block .payable_content p{ color: #555; font-size: 0.9rem; text-shadow:0 0 0 transparent; line-height: 35px;}
+.joinGroup_block .payable_content p.left_title{ float: left; font-weight: bold;}
+.joinGroup_block .payable_content p.right_text{ float: right;}
+.joinGroup_block .payable_content .payable_amount{ margin: 0 15px;}
+.joinGroup_block .payable_content .payable_price{ margin: 0 15px;}
+.joinGroup_block .payable_content .payable_fee{ margin: 0 15px;}
+.joinGroup_block .payable_content .payable_post{ margin: 0 15px 0 5px;}
+.joinGroup_block .payable_content .payable_bonus{ margin: 0 15px 0 5px; height: 70px; overflow: hidden;}
+.joinGroup_block .payable_content .payable_total{ border-top:1px solid #e9e9e9; margin: 0 15px; padding: 5px 0 10px;}
+.joinGroup_block .payable_content .payable_total p{ color:#f06354; font-weight: bold;}
+.joinGroup_block .payable_content .payable_bonus .bonus_text{ float: left;}
+.joinGroup_block .payable_content .payable_bonus p.bonus_no{ color: #f06354;}
+.joinGroup_block .payable_content .payable_bonus p.left_title{ line-height: 24px; float: none;}
+.joinGroup_block .payable_content .payable_bonus p.left_title span{ font-weight: normal; color: #999;}
+.joinGroup_block .payable_content .payable_bonus .ui-checkbox{ margin: 0}
+.joinGroup_block .payable_content .payable_bonus .ui-checkbox .ui-btn{ background-color: #fff; border: 0;}
+.joinGroup_block .payable_content .payable_bonus p.right_text{ float: right; line-height: 70px;}
+
+.joinGroup_block .payable_content .payable_post .bonus_text{ float: left;}
+.joinGroup_block .payable_content .payable_post p.left_title{ line-height: 24px; float: none;}
+.joinGroup_block .payable_content .payable_post p.left_title span{ font-weight: normal;}
+.joinGroup_block .payable_content .payable_post .ui-checkbox{ margin: 0}
+.joinGroup_block .payable_content .payable_post .ui-checkbox .ui-btn{ background-color: #fff; border: 0; padding-top: 6px; padding-bottom: 5px;}
+.joinGroup_block .payable_content .payable_post p.right_text{ float: right;}
+
+/*填寫合購資料*/
+.joinGroup_block .groupForm_content{ background-color: #fff; padding-bottom: 10px;}
+.joinGroup_block .groupForm_content h3.s_title{ font-weight:900 !important; margin: 0 15px; line-height: 46px; border-bottom: 1px solid #e6e6e6; font-size: 1rem; color: #333; padding-top: 5px;}
+.joinGroup_block .groupForm_content .form_item{ margin: 0 15px; padding: 5px 0 0;}
+.joinGroup_block .groupForm_content .pay_item{ padding: 5px 0 18px;}
+.joinGroup_block .groupForm_content .form_item span.light{ color: #f06354; padding-right: 5px;}
+.joinGroup_block .groupForm_content .note_item{ border-bottom: 0;}
+.joinGroup_block .groupForm_content p{ color: #777; font-size: 0.9rem; text-shadow:0 0 0 transparent;}
+.joinGroup_block .groupForm_content p.left_title{ font-weight:600 !important; color: #333; margin: 0;}
+.joinGroup_block .groupForm_content .right_text{ font-size: 0.9rem; color:#777; margin-top: 10px; float: none;}
+.joinGroup_block .groupForm_content .right_text span.span_txt{ float: left; line-height: 47px; margin-left:5px;}
+.joinGroup_block .groupForm_content .pay_item .ui-input-text{ float: left; width: 200px;}
+.joinGroup_block .groupForm_content .note_item textarea{ min-height: 80px; background-color:#f9f9f9; border:1px solid #ddd; box-shadow:0 0 0 #f9f9f9 inset;}
+.joinGroup_block .groupForm_content .form_item input[type="text"], input[type="password"]{ font-size: 0.9rem; padding: 8px 10px;}
+
+.joinGroup_block .groupForm_content .meetLocation_item{ padding: 15px 0 20px;}
+.joinGroup_block .groupForm_content p.meetLocation_text{ background: url(../images/store/icon_right.png) no-repeat 97% center / 20px 20px #f9f9f9; border: 1px solid #d6dbdb; padding: 8px 10px; border-radius: 5px; margin: 10px 0 0; cursor:pointer; color: #425e67;}
+.joinGroup_block .groupForm_content p.meetLocation_text:active{ opacity: 0.8;}
+.joinGroup_block .groupForm_content p.meetLocation_text span{ background:url(../images/image/icon_pint.png) no-repeat 0 center / 40px 40px transparent; padding: 11px 25px 10px 45px; display: block; font-size: 0.9rem;}
+.joinGroup_block .groupForm_content p.meetLocation_home span{ background:url(../images/image/icon_pint_home.png) no-repeat 0 center / 40px 40px transparent;}
+.joinGroup_block .groupForm_content p.meetLocation_disabled span{ background:url(../images/image/icon_pint_disabled.png) no-repeat 0 center / 40px 40px transparent;}
+.joinGroup_block .groupForm_content .meetLocation_disabled{ cursor:auto; }
+.joinGroup_block .groupForm_content .none_item p.meetLocation_text{ color: #84969d;}
+.joinGroup_block .groupForm_content .none_item p.meetLocation_text span{ background: none; padding: 11px 25px 10px 5px;}
+
+/*郵寄*/
+.joinGroup_block .groupForm_content .meetLocation_disabled p.meetLocation_text span{ background:url(../images/start_event/icon_pint_disabled.png) no-repeat 0 center / 40px 40px transparent;}
+
+/*參與合購送出*/
+.joinGroup_block a.submit_btn{ display: block; width: 95%; font-size: 0.95rem; font-weight: bold; color: #fff; background-color: #60B9F7; line-height: 45px; text-shadow: 0 0 0 transparent; text-align: center; text-decoration: none; box-shadow: 0 3px 0px #4da8e7; margin: 20px auto 30px; border-radius: 5px;}
+.joinGroup_block a.submit_btn:active{ background-color: #6FC3FD; color:#fff;}
+
+
+/* ----- 修改合購商品 ----- */
+.modifiy_union_block{ background-color:#f2f2f2;}
+.modifiy_union_block .cart_content{ margin: 0;}
+.modifiy_union_block .cart_content .addmore_item{ background-color: #fff; border-bottom: 1px solid #e5e5e5; padding: 15px 0; text-align: right;}
+.modifiy_union_block .cart_content .addmore_item a.addmore_btn{ font-size:0.9rem; background-color:#fe9f54; color:#fff; padding:6px 20px; margin-right:10px; border-radius:4px; text-align:center; text-decoration:none; display: inline-block; box-shadow: 0 2px 0px #f18f42;}
+.modifiy_union_block .cart_content .addmore_item a.addmore_btn:active{ background-color: #ffa863;}
+
+.modifiy_union_block .payable_content{ background-color: #fff; margin-bottom: 30px; padding-top: 5px;}
+.modifiy_union_block .payable_content p{ color: #555; font-size: 0.9rem; text-shadow:0 0 0 transparent; line-height: 35px;}
+.modifiy_union_block .payable_content p.left_title{ float: left; font-weight: bold;}
+.modifiy_union_block .payable_content p.right_text{ float: right;}
+.modifiy_union_block .payable_content .payable_amount{ margin: 0 15px;}
+.modifiy_union_block .payable_content .payable_price{ margin: 0 15px;}
+.modifiy_union_block .payable_content .payable_fee{ margin: 0 15px;}
+.modifiy_union_block .payable_content .payable_post{ margin: 0 15px 0 5px;}
+.modifiy_union_block .payable_content .payable_bonus{ margin: 0 15px 0 5px; height: 70px; overflow: hidden;}
+.modifiy_union_block .payable_content .payable_total{ border-top:1px solid #e9e9e9; margin: 0 15px; padding: 5px 0 10px;}
+.modifiy_union_block .payable_content .payable_total p{ color:#f06354; font-weight: bold;}
+.modifiy_union_block .payable_content .payable_bonus .bonus_text{ float: left;}
+.modifiy_union_block .payable_content .payable_bonus p.bonus_no{ color: #f06354;}
+.modifiy_union_block .payable_content .payable_bonus p.left_title{ line-height: 24px; float: none;}
+.modifiy_union_block .payable_content .payable_bonus p.left_title span{ font-weight: normal; color: #999;}
+.modifiy_union_block .payable_content .payable_bonus .ui-checkbox{ margin: 0}
+.modifiy_union_block .payable_content .payable_bonus .ui-checkbox .ui-btn{ background-color: #fff; border: 0;}
+.modifiy_union_block .payable_content .payable_bonus p.right_text{ float: right; line-height: 70px;}
+
+.modifiy_union_block .payable_content .payable_post .bonus_text{ float: left;}
+.modifiy_union_block .payable_content .payable_post p.left_title{ line-height: 24px; float: none;}
+.modifiy_union_block .payable_content .payable_post p.left_title span{ font-weight: normal;}
+.modifiy_union_block .payable_content .payable_post .ui-checkbox{ margin: 0}
+.modifiy_union_block .payable_content .payable_post .ui-checkbox .ui-btn{ background-color: #fff; border: 0; padding-top: 6px; padding-bottom: 5px;}
+.modifiy_union_block .payable_content .payable_post p.right_text{ float: right;}
+
+.modifiy_union_block .groupForm_content{ background-color: #fff; padding-bottom: 10px;}
+.modifiy_union_block .groupForm_content h3.s_title{ font-weight:900 !important; margin: 0 15px; line-height: 46px; border-bottom: 1px solid #e6e6e6; font-size: 1rem; color: #333; padding-top: 5px;}
+.modifiy_union_block .groupForm_content .form_item{ margin: 0 15px; padding: 5px 0 0;}
+.modifiy_union_block .groupForm_content .pay_item{ padding: 5px 0 18px;}
+.modifiy_union_block .groupForm_content .form_item span.light{ color: #f06354; padding-right: 5px;}
+.modifiy_union_block .groupForm_content .note_item{ border-bottom: 0;}
+.modifiy_union_block .groupForm_content p{ color: #777; font-size: 0.9rem; text-shadow:0 0 0 transparent;}
+.modifiy_union_block .groupForm_content p.left_title{ font-weight:600 !important; color: #333; margin: 0;}
+.modifiy_union_block .groupForm_content .right_text{ font-size: 0.9rem; color:#777; margin-top: 10px; float: none;}
+.modifiy_union_block .groupForm_content .right_text span.span_txt{ float: left; line-height: 47px; margin-left:5px;}
+.modifiy_union_block .groupForm_content .pay_item .ui-input-text{ float: left; width: 200px;}
+.modifiy_union_block .groupForm_content .note_item textarea{ min-height: 80px; background-color:#f9f9f9; border:1px solid #ddd; box-shadow:0 0 0 #f9f9f9 inset;}
+.modifiy_union_block .groupForm_content .form_item input[type="text"], input[type="password"]{ font-size: 0.9rem; padding: 8px 10px;}
+
+.modifiy_union_block .groupForm_content .meetLocation_item{ padding: 15px 0 20px;}
+.modifiy_union_block .groupForm_content p.meetLocation_text{ background: url(../images/store/icon_right.png) no-repeat 97% center / 20px 20px #f9f9f9; border: 1px solid #d6dbdb; padding: 8px 10px; border-radius: 5px; margin: 10px 0 0; cursor:pointer; color: #425e67;}
+.modifiy_union_block .groupForm_content p.meetLocation_text:active{ opacity: 0.8;}
+.modifiy_union_block .groupForm_content p.meetLocation_text span{ background:url(../images/image/icon_pint.png) no-repeat 0 center / 40px 40px transparent; padding: 11px 25px 10px 45px; display: block; font-size: 0.9rem;}
+.modifiy_union_block .groupForm_content p.meetLocation_home span{ background:url(../images/image/icon_pint_home.png) no-repeat 0 center / 40px 40px transparent;}
+.modifiy_union_block .groupForm_content p.meetLocation_disabled span{ background:url(../images/image/icon_pint_disabled.png) no-repeat 0 center / 40px 40px transparent;}
+.modifiy_union_block .groupForm_content .meetLocation_disabled{ cursor:auto; }
+.modifiy_union_block .groupForm_content .none_item p.meetLocation_text{ color: #84969d;}
+.modifiy_union_block .groupForm_content .none_item p.meetLocation_text span{ background: none; padding: 11px 25px 10px 5px;}
+
+.modifiy_union_block a.submit_btn{ display: block; width: 95%; font-size: 0.95rem; font-weight: bold; color: #fff; background-color: #60B9F7; line-height: 45px; text-shadow: 0 0 0 transparent; text-align: center; text-decoration: none; box-shadow: 0 3px 0px #4da8e7; margin: 20px auto 30px; border-radius: 5px;}
+.modifiy_union_block a.submit_btn:active{ background-color: #6FC3FD; color: #fff;}
+
+/*======================================== 參與合購_結束 ========================================*/
+
+
+
+
+/*======================================== 合購單(主購&團員)_開始 ========================================*/
+.wrapper .mails_main .unionName_title{ padding: 15px 15px 15px 10px; background-color: #fff; position:relative;}
+.wrapper .mails_main .unionName_title .user_img{ float: left; width:70px;}
+.wrapper .mails_main .unionName_title .user_img img{ width:70px; border-radius:50%;}
+.wrapper .mails_main .unionName_title .user_union{ margin-left:80px; position: relative; top:-5px;}
+.wrapper .mails_main .unionName_title .user_union p.user_id{ font-size:0.9rem; margin-top: 2px;}
+.wrapper .mails_main .unionName_title .user_union p.user_id span{ color: #105cb6; margin-right:5px;}
+.wrapper .mails_main .unionName_title .user_union p.union_name{ font-size: 0.9rem; color:#666; font-weight:bold; padding:7px; background-color:#f3f3f3; position: relative; border-radius:4px;}
+.wrapper .mails_main .unionName_title .user_union p.union_name:before { border-top: 6px solid rgba(0, 0, 0, 0); border-bottom: 6px solid rgba(0, 0, 0, 0); border-right: 7px solid #f1f1f1; position:absolute; left:-7px; top:10px; width: 0; height: 0; content: ""; display: block;}
+.wrapper .mails_main .unionName_title .user_union p.user_phone{ font-size:0.85rem; color:#999; line-height:0.9rem; margin-bottom:7px;}
+/*修改工具列*/
+.wrapper .mails_main .user_tool_box{ position:absolute; top:10px; right:15px; z-index:1;}
+.wrapper .mails_main .user_tool_box a.modified_tool{ float:left; display:block; width:25px; height:25px; background:url(../images/user/mails/icon_edit.png) no-repeat center center / 25px 25px #fff; padding:5px;}
+.wrapper .mails_main .user_tool_box a.more_tool{ float:left; display:block; width:25px; height:25px; background:url(../images/user/mails/icon_modify_menu.png) no-repeat center center / 25px 25px #fff; margin: 0 0 0 15px; padding:10px 10px; border:0; box-shadow:0 0 0 #fff;}
+.wrapper .mails_main .user_tool_box .moreTool_popup{ background-color: #f9f9f9; border-radius: 5px; border: 1px solid #ddd; box-shadow: 1px 1px 6px rgba(0,0,0,0.2); position:absolute; top: 40px; right:0px; width:150px;}
+.wrapper .mails_main .user_tool_box .moreTool_popup a.tool_item{ display: block; text-align: center; font-size: 0.85rem; color: #105cb6; line-height: 40px; text-decoration: none; border-top: 1px solid #e0e0e0;}
+.wrapper .mails_main .user_tool_box .moreTool_popup a.tool_item:active{ background-color: #f3f3f3; border-radius: 5px;}
+.wrapper .mails_main .user_tool_box .moreTool_popup a.firs_tool{ border-top:0px;}
+
+.wrapper .mails_main ul.main_tabs { width: 100%; display: -webkit-flex; display: flex;}
+.wrapper .mails_main ul.main_tabs li.tab_item { -webkit-flex: 1; flex: 1; background-color: #E1E9FA; border: 1px solid #BBC9E8; color: #637DB3; cursor: pointer; font-size: 0.95rem; height: 55px; line-height: 55px; text-align: center;}
+.wrapper .mails_main ul.main_tabs li.target { background-color: #637DBB; border:1px solid #305690; color:#fff;}
+
+/* ----- 付款資訊 ----- */
+.wrapper .mails_main .main_content_box{ border:1px solid #ddd; background-color:#fff; padding:10px;}
+.wrapper .mails_main .unionPayment_box{ margin:20px 10px;}
+.wrapper .mails_main .unionPayment_box p.main_explain_text{ font-size:0.9rem; color:#777; line-height:25px; padding:10px 0;}
+.wrapper .mails_main .unionPayment_box p.main_explain_text a{ font-size:0.9rem; margin-left:8px;}
+
+.wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_content{ max-width:600px; margin:0 auto;}
+.wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_box{ float:left; width:25%; text-align: center; max-width:150px;}
+.wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_box .schedule{ }
+.wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_box p{ font-size:0.8rem; color:#777;}
+.wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_box p.schedule{ color:#F64949; }
+.wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_box img{ width:100%;}
+
+.wrapper .mails_main .unionInfo_content table.main_table_box{ width:100%; background-color:#fff; border:1px solid #ddd; border-top:0px; font-size:0.9rem; border-collapse:collapse; }
+.wrapper .mails_main .unionInfo_content table.main_table_box td.form_left_box{ background-color:#f8f8f8; color:#666; font-weight: bold; padding:15px 5px; text-align:center; border-bottom:1px solid #ddd; width:30%;}
+.wrapper .mails_main .unionInfo_content table.main_table_box td.form_right_box{ color:#888; padding:15px 10px; border-bottom:1px solid #ddd; width:70%;}
+.wrapper .mails_main .unionInfo_content table.main_table_box td.form_right_box p.red_remind_txt{ color:#F64949;}
+
+.wrapper .mails_main .unionInfo_content .payment_status{ padding:0; margin: 20px 0; border:0; border-top:1px solid #ddd;}
+.wrapper .mails_main .unionInfo_content table.main_table_box td.r_status{ padding: 5px 10px;}
+.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_black{ float:left; color:#666; border: 1px solid #666; line-height:32px; width: 100px; border-radius:5px; text-align:center; box-sizing: border-box; margin-top: 1px;}
+.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_green{ float:left; color:#00b85b; border: 1px solid #00b85b; line-height:32px; width: 100px; border-radius:5px; text-align:center; box-sizing: border-box; margin-top: 1px;}
+.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_red{ float:left; color:#ed6354; border: 1px solid #ed6354; line-height:32px; width: 100px; border-radius:5px; text-align:center; box-sizing: border-box; margin-top: 1px;}
+.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_blue{ float:left; color:#1EB2F2; border: 1px solid #1EB2F2; line-height:32px; width: 100px; border-radius:5px; text-align:center; box-sizing: border-box; margin-top: 1px;}
+.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_gray{ float:left; color:#999; border: 1px solid #aaa; line-height:32px; width: 100px; border-radius:5px; text-align:center; box-sizing: border-box; margin-top: 1px;}
+.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_text{ color:#aaa; font-size:0.8rem; padding: 0 0 0 110px;}
+
+.wrapper .mails_main .unionInfo_content .payment_content { margin: 20px 0;}
+.wrapper .mails_main .unionInfo_content .unionPayment_box p.payment_alarm{ font-size:0.9rem; color:#F64949; line-height:25px; padding:0 0;}
+.wrapper .mails_main .unionInfo_content .main_content_box h4.main_content_h4{ line-height:25px; font-size:0.95rem; color:#666; padding:10px 5px;}
+.wrapper .mails_main .unionInfo_content .main_content_box h4.main_content_h4 span{ color:#999; margin-left:5px; font-size:0.9rem;}
+.wrapper .mails_main .unionInfo_content .main_content_box p.payment_text{ padding:10px 0; font-size:0.9rem; color:#888; border-top:1px solid #e5e5e5;}
+.wrapper .mails_main .unionInfo_content .main_content_box p.pay_mode_text{ padding:10px 0; font-size:0.9rem; color:#888; border-top:1px solid #e5e5e5; line-height:30px; background:url(../images/user/mails/icon_right.png) no-repeat 99% center / 20px 20px transparent; cursor:pointer;}
+.wrapper .mails_main .unionInfo_content .main_content_box p.pay_mode_text:active{ background-color:#fafafa;}
+.wrapper .mails_main .unionInfo_content .main_content_box p.pay_mode_text span{ margin-left:5px;}
+.wrapper .mails_main .unionInfo_content .main_content_box p.pay_mode_ihergo span{ background:url(../images/user/mails/icon_gopay.png) no-repeat left center / 24px 24px transparent; padding: 1px 0 1px 35px;}
+.wrapper .mails_main .unionInfo_content .main_content_box p.pay_mode_atm span{ background:url(../images/user/mails/icon_atm.png) no-repeat left center / 24px 24px transparent; padding: 1px 0 1px 35px;}
+.wrapper .mails_main .unionInfo_content .main_content_box p.pay_mode_people span{ background:url(../images/user/mails/icon_people.png) no-repeat left center / 24px 24px transparent; padding: 1px 0 1px 35px;}
+.wrapper .mails_main .unionInfo_content .main_content_box p.pay_mode_credit span{ background:url(../images/user/mails/icon_credit.png) no-repeat left center / 24px 24px transparent; padding: 1px 0 1px 35px;}
+.wrapper .mails_main .unionInfo_content .main_content_box p.pay_mode_famiport span{ background:url(../images/user/mails/icon_famiport.png) no-repeat left center / 24px 24px transparent; padding: 1px 0 1px 35px;}
+.wrapper .mails_main .unionInfo_content .main_content_box p.pay_mode_reach span{ background:url(../images/user/mails/icon_reach.png) no-repeat left center / 24px 24px transparent; padding: 1px 0 1px 35px;}
+.wrapper .mails_main .unionInfo_content .main_content_box p.pay_mode_famiport span.famiport_text{ background:none; padding:0; color:#aaa; font-size:0.7rem; margin-left:5px;}
+.wrapper .mails_main .unionInfo_content .main_content_box p.pay_mode_famiport span.famiport_text span.famiport_fee{ background:none; padding:0 2px; margin:0; color: #f64949;}
+@media screen and ( max-width:401px) { .wrapper .mails_main .unionInfo_content .main_content_box p.pay_mode_famiport span.famiport_text{ display: block;}}
+
+/* ----- 合購內容 ----- */
+.wrapper .mails_main .unionInfo_content .unionDetail_box{ margin:20px 10px;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box p.paymode_status{ float:left; width:80px; line-height:36px; font-size:0.85rem; text-align:center; border-radius:5px; margin-top: 2px;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box p.paymode_black{ color:#666; border: 1px solid #666;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box p.paymode_red{ color:#ed6354; border: 1px solid #ed6354;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box p.paymode_green{ color:#00b85b; border: 1px solid #00b85b;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box p.paymode_blue{ color:#1EB2F2; border: 1px solid #1EB2F2;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box p.paymode_gray{ color:#999; border: 1px solid #aaa;}
+
+.wrapper .mails_main .unionInfo_content .unionDetail_box .paymode_user_info{ float:left; margin-left: 15px;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box .paymode_user_info .l_user_box{ float:left; width:40px;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box .paymode_user_info .l_user_box img{ width:40px; height:40px; border-radius:50%; border: 1px solid #e9e9e9;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box .paymode_user_info .r_user_box{ float:left; margin-left: 7px;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box .paymode_user_info .r_user_box p.user_id{ font-size:0.85rem; color:#105cb6;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box .paymode_user_info .r_user_box p.user_id span{ color:#999; margin-left:5px;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box .paymode_user_info .r_user_box p.user_name{font-size:0.85rem; color:#888;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box table.main_table_box td.r_address_txt{ background:url(../images/image/icon_pint.png) no-repeat 10px center / 24px 24px transparent; padding-left:40px;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box table.main_table_box td.r_address_txt a{ color:#cd1b39; text-decoration:underline; font-weight:normal;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box table.main_table_box td.r_address_txt a:active{background-color:#f9f9f9;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box table.main_table_box td.r_nolink_address_txt{ background:url(../images/image/icon_pint_disabled.png) no-repeat 10px center / 24px 24px transparent; padding-left:40px;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box table.main_table_box td.r_nolink_address_txt p.nolink_address_txt{ color:#999;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box table.main_table_box td.r_address_home_txt{ background:url(../images/image/icon_pint_home.png) no-repeat 10px center / 24px 24px transparent; padding-left:40px;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box table.main_table_box td.r_address_home_txt a{ color:#cd1b39; text-decoration:underline; font-weight:normal;}
+
+.wrapper .mails_main .unionInfo_content table.buying_list{ margin: 20px 0; font-size:0.9rem;}
+.wrapper .mails_main .unionInfo_content table.buying_list th{ border-top:1px solid #ddd; line-height: 35px; text-align: center; color:#666; background-color:#f8f8f8;}
+.wrapper .mails_main .unionInfo_content table.buying_list th.product_name{ width:55%;}
+.wrapper .mails_main .unionInfo_content table.buying_list th.product_price{ width:15%;}
+.wrapper .mails_main .unionInfo_content table.buying_list th.product_amount{width:15%;}
+.wrapper .mails_main .unionInfo_content table.buying_list th.buying_money{ width:15%;}
+.wrapper .mails_main .unionInfo_content table.buying_list td{ border-top:1px solid #ddd; padding:10px; line-height:22px; text-align: center; color:#777;}
+.wrapper .mails_main .unionInfo_content table.buying_list td.product_name{ text-align:left;}
+.wrapper .mails_main .unionInfo_content table.buying_list td.product_name p.name_txt{ color:#777; font-size:0.9rem;}
+.wrapper .mails_main .unionInfo_content table.buying_list td.product_name p.specif_txt{ font-size:0.8rem; color:#aaa;}
+.wrapper .mails_main .unionInfo_content table.buying_list td.revise_con{ text-align:left; font-size:0.9rem;}
+.wrapper .mails_main .unionInfo_content table.buying_list td.revise_money{ text-align:center; font-size:0.9rem;}
+.wrapper .mails_main .unionInfo_content table.buying_list td.total_con{ background-color:#f8f8f8; color: #f64949; text-align:left; font-size:0.9rem; font-weight:bold;}
+.wrapper .mails_main .unionInfo_content table.buying_list td.total_amount{ text-align:center; }
+.wrapper .mails_main .unionInfo_content table.buying_list td.total_money{ text-align:center; }
+ 
+/* ----- 合購內容(主購) ----- */
+.wrapper .mails_main .unionInfo_content .unionDetail_box .memberlist_content{ padding: 0;}
+.wrapper .mails_main .unionInfo_content .mybuy_box{ border-bottom:1px solid #ddd; padding: 10px; background:url(../images/user/mails/icon_right.png) no-repeat 98% center / 24px 24px transparent; cursor:pointer; position:relative;}
+.wrapper .mails_main .unionInfo_content .mybuy_box:active{ background-color:#fafafa;}
+.wrapper .mails_main .unionInfo_content .mybuy_focus{ background-color:#fffaee;}
+.wrapper .mails_main .unionInfo_content .mybuy_box .mybuy_photo{ float:left; width:40px;}
+.wrapper .mails_main .unionInfo_content .mybuy_box .mybuy_photo img{ width:40px; height:40px; border-radius:50%; border: 1px solid #e9e9e9;}
+.wrapper .mails_main .unionInfo_content .mybuy_box .mybuy_infor{ float:left; margin-left:10px; }
+.wrapper .mails_main .unionInfo_content .mybuy_box .mybuy_infor p{ font-size:0.9rem; color:#888; line-height:22px;}
+.wrapper .mails_main .unionInfo_content .mybuy_box .mybuy_infor p span{ font-size:0.9rem;}
+.wrapper .mails_main .unionInfo_content .mybuy_box .mybuy_infor p.user_id{ color:#105CB6;}
+.wrapper .mails_main .unionInfo_content .mybuy_box .mybuy_infor p.user_id span{ color:#999; margin-left:5px;}
+.wrapper .mails_main .unionInfo_content .mybuy_box .mybuy_infor p.user_name{ font-size:0.9rem; color: #555; font-weight: bold;}
+.wrapper .mails_main .unionInfo_content .mybuy_box .mybuy_infor p.payable_text{ margin-top:3px;}
+.wrapper .mails_main .unionInfo_content .mybuy_box .mybuy_infor p.paying_text{}
+.wrapper .mails_main .unionInfo_content .mybuy_box .mybuy_infor p.paying_text span{ color: #f06354;}
+.wrapper .mails_main .unionInfo_content .mybuy_box .mybuy_infor .ui-btn{ background-color:#fff; border:0; color:#888; padding: 3px; width:20px; height:20px;}
+.wrapper .mails_main .unionInfo_content .mybuy_focus .mybuy_infor .ui-btn{background-color:#fffaee;}
+.wrapper .mails_main .unionInfo_content .mybuy_box .mybuy_infor .ui-btn.ui-checkbox-off::after, .mybuy_box .mybuy_infor .ui-btn.ui-checkbox-on::after, .mybuy_box .mybuy_infor .ui-btn.ui-radio-off::after, .mybuy_box .mybuy_infor .ui-btn.ui-radio-on::after{ margin-left:-9px;}
+.wrapper .mails_main .unionInfo_content .mybuy_box .mybuy_infor .ui-checkbox input{ left:0;}
+.wrapper .mails_main .unionInfo_content .mybuy_box .mybuy_infor span.checkbox_txt{ color:#777; font-weight:bold; font-size:0.85rem; position:absolute; bottom:20px; left:85px;}
+
+.wrapper .mails_main .unionInfo_content .friends_order_box{ background-color: #f3fafd; border: 1px solid #b5dce7; padding: 10px; margin: 15px 0; text-align: center;}
+.wrapper .mails_main .unionInfo_content .friends_order_box p.friends_order_text{ display: block; font-size: 0.8rem; color: #777; line-height: 30px;}
+.wrapper .mails_main .unionInfo_content .friends_order_box a.friends_order_btn{ display: block; height: 34px;line-height: 34px; text-align: center;background-color: #666; border-radius: 4px; color: #fff; font-size: 0.7rem; font-weight: bold; width: 100px; text-decoration: none; margin: 0 auto;}
+.wrapper .mails_main .unionInfo_content .friends_order_box a.friends_order_btn:active{ opacity: 0.8;}
+
+/* ----- 合購信件 ----- */
+.wrapper .mails_main .unionInfo_content .unionMail_box{ margin:20px 10px;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .main_content_box{ padding:0}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box{ border-bottom:1px solid #ddd; padding:10px; cursor:pointer;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box:active{ background-color:#fff;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_close{ background-color:#f8f8f8;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .no_read{ background-color:#fffaee;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box .l_mail_box{ float:left; width:50px; margin-right:10px;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box .l_mail_box img.sender_pic{ width:50px; height:50px; border-radius:50%;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box .r_mail_box{}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box .sender_infor{ height:25px;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box .sender_infor p.user_id{ float:left; line-height:25px; font-size:0.9rem; color:#105CB6; font-weight:bold;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box .sender_infor p.user_id span{ color:#999; margin-left:3px;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box .sender_infor p.system_id{ float:left; line-height:25px; font-size:0.9rem; color:#6d9b00; font-weight:bold;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box .sender_infor p.sent_time{ float:right; line-height:25px; font-size:0.8rem; color:#aaa;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_open .r_mail_box p.sent_time{ font-size:0.75rem; color:#aaa; padding-left:61px;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box .r_mail_box p.mail_header{ font-size:0.9rem; line-height:25px; color:#aaa; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box .r_mail_box p.mail_handle{ font-size:0.85rem; line-height:25px; color:#aaa;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box .r_mail_box a.reply_btn{ float:right; display:inline-block; background:url(../images/user/mails/icon_reply.png) no-repeat center center / 16px 16px #f5f5f5; border:1px solid #ddd; color:#fff; text-decoration:none; width:40px; height:30px; text-align: center; border-radius:3px; text-indent:-9999px; margin-left:10px; cursor:pointer;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box .r_mail_box a.reply_btn:active{ background:url(../images/user/mails/icon_reply.png) no-repeat center center / 16px 16px #fff;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box .notify_body{ font-size:0.9rem; line-height:22px; color:#888; margin-top:10px; color:#777; padding-bottom:10px;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .mail_box .notify_body a{ font-size:0.9rem;}
+.wrapper .mails_main .unionInfo_content .unionMail_box a.reply_all_btn{ display: block; font-size:0.9rem; background: url(../images/user/mails/icon_right_w.png) no-repeat 95% center / 16px 16px #637dbb; border:1px solid #315790; color:#fff; line-height: 40px; text-decoration:none; margin: 20px auto; padding-right:10px; width:130px; text-align: center; border-radius:5px;}
+.wrapper .mails_main .unionInfo_content .unionMail_box a.reply_all_btn:active{ background-color:#6a85c4; border:1px solid #4469a1;}
+.wrapper .mails_main .unionInfo_content .unionMail_box a.reply_heads_btn{ display: block; font-size:0.9rem; background: url(../images/user/mails/icon_right_w.png) no-repeat 95% center / 16px 16px #637dbb; border:1px solid #315790; color:#fff; line-height: 40px; text-decoration:none; margin: 20px auto; padding-right:10px; width:100px; text-align: center; border-radius:5px;}
+.wrapper .mails_main .unionInfo_content .unionMail_box a.reply_heads_btn:active{ background-color:#6a85c4; border:1px solid #4469a1;}
+/*======================================== 合購單(主購&團員)_結束 ========================================*/
+
+
+/*======================================== 訂購單_開始 ========================================*/
+.wrapper .mails_main .storeName_title{ padding: 15px; background-color: #fff; position:relative;}
+.wrapper .mails_main .storeName_title .store_img{ float: left; width:60px;}
+.wrapper .mails_main .storeName_title .store_img img{ border-radius:50%; width:60px;}
+.wrapper .mails_main .storeName_title .store_infor{ margin:5px 0 0 70px; height:55px;}
+.wrapper .mails_main .storeName_title .store_infor p.store_id{ font-size: 0.82rem; margin-bottom:5px; color:#105cb6;}
+.wrapper .mails_main .storeName_title .store_infor p.store_id span{ margin-left:3px;}
+.wrapper .mails_main .storeName_title p.store_phone{ font-size:0.85rem; color:#888; line-height:0.9rem; margin-bottom:7px;}
+.wrapper .mails_main .storeName_title .user_tool_box{ top:30px;}
+
+.wrapper .mails_main ul.order_main_tabs { width: 100%; display: -webkit-flex; display: flex;}
+.wrapper .mails_main ul.order_main_tabs li.tab_item { -webkit-flex: 1; flex: 1; background-color: #fae4e1; border: 1px solid #eeb6b5; color: #db5858; cursor: pointer; font-size: 0.95rem; height: 55px; line-height: 55px; text-align: center;}
+.wrapper .mails_main ul.order_main_tabs li.target { background-color: #f36d62; border:1px solid #d15333; color:#fff;}
+
+.wrapper .mails_main .unionInfo_content .paymode_explain{ margin:30px 0;}
+.wrapper .mails_main .unionInfo_content .paymode_explain h5.explain_title{ font-size:0.95rem; color:#555; line-height:30px;}
+.wrapper .mails_main .unionInfo_content .paymode_explain p{ font-size:0.9rem; color:#888; line-height:24px; margin:5px 0;}
+.wrapper .mails_main .unionInfo_content table.main_table_box td.form_btn_box{ width:50%; border-right:1px solid #ddd; text-align:center; padding: 15px 5px;}
+.wrapper .mails_main .unionInfo_content table.main_table_box td.form_btn_box a{ font-size:0.9rem; border:1px solid #d15333; color:#fff; text-decoration:none; line-height: 35px; padding:5px 10px 5px 35px; border-radius:3px;}
+.wrapper .mails_main .unionInfo_content table.main_table_box td.form_btn_box a.invoice_btn{ background:url(../images/user/mails/icon_invoice.png) no-repeat 10px center / 20px 20px #f8786e;}
+.wrapper .mails_main .unionInfo_content table.main_table_box td.form_btn_box a.delivery_btn{ background:url(../images/user/mails/icon_track.png) no-repeat 10px center / 20px 20px #f8786e;}
+.wrapper .mails_main .unionInfo_content .unionDetail_box p.orderCancel_remind{ color: #888; font-size: 1rem; font-weight: bold; line-height: 40px; margin: 40px auto; text-align: center; text-shadow: 1px 1px 0 #fff;}
+.wrapper .mails_main .unionInfo_content .unionMail_box a.reply_order_btn{ display: block; font-size:0.9rem; background: url(../images/user/mails/icon_right_w.png) no-repeat 95% center / 16px 16px #f36d62; border:1px solid #d15333; color:#fff; line-height: 40px; text-decoration:none; margin: 20px auto; padding-right:10px; width:100px; text-align: center; border-radius:5px;}
+.wrapper .mails_main .unionInfo_content .unionMail_box a.reply_order_btn:active{ background-color:#f7796e; border:1px solid #da5d3d;}
+
+
+/*======================================== 訂購單_結束 ========================================*/
+
+/*================================== 合購商品列表(加購)_開始 ==================================*/
+.wrapper .store_title a.turn_back_btn{ float:left; display:inline-block; height:60px; width:70px; background:url(../images/image/icon_back.png) no-repeat center center / 40px 40px transparent;}
+.wrapper .store_title a.turn_back_btn:active{ background-color:#ffd26b;}
+.wrapper .store_title a.closed_window_btn{ float:left; display:inline-block; height:60px; width:70px; background:url(../images/image/icon_closed.png) no-repeat center center / 40px 40px transparent;}
+.wrapper .store_title a.closed_window_btn:active{ background-color:#ffd26b;}
+
+.modifiy_union_block .addin_cart_content{ margin-bottom:120px;}
+.modifiy_union_block .addin_cart_content .cart_item{ width: 100%; background-color: #fff; position: relative; height: 120px; padding: 15px 0; display: inline-block; border-bottom:1px solid #e5e5e5; }
+.modifiy_union_block .addin_cart_content .cart_item .left_box{ height: 120px; width: 120px; position: absolute; margin-left: 10px;}
+.modifiy_union_block .addin_cart_content .cart_item .left_box a{ display: block;}
+.modifiy_union_block .addin_cart_content .cart_item .left_box a.product_img img{ width: 120px;}
+.modifiy_union_block .addin_cart_content .cart_item .left_box a.img_amount_text{ width: 120px; height:120px; background:url(../images/store/icon_addin.png) no-repeat center 30px / 36px 36px rgba(255,255,255,0.7); position:absolute; top:0; left:0; text-align:center; text-decoration:none; font-size:0.9rem; color:#22668d;}
+.modifiy_union_block .addin_cart_content .cart_item .left_box a.img_amount_text span.add_amount_txt{ position: relative; top:75px; text-shadow: 1px 1px 0px rgba(255,255,255,0.5);}
+.modifiy_union_block .addin_cart_content .cart_item .right_box{ padding: 0 0 0 140px;}
+.modifiy_union_block .addin_cart_content .cart_item .right_box h3.product_title{ width: 100%; height: 50px; overflow: hidden;}
+.modifiy_union_block .addin_cart_content .cart_item .right_box h3.product_title a{ font-size: 0.95rem; text-decoration: none; color: #555; line-height: 20px;}
+.modifiy_union_block .addin_cart_content .cart_item .right_box .p_text_box{ width: 100%; margin: 5px 0 0; position: absolute; bottom: 15px;}
+.modifiy_union_block .addin_cart_content .cart_item .right_box .p_text_box p{ font-size: 0.85rem; color: #888; line-height: 22px;}
+.modifiy_union_block .addin_cart_content .cart_item .right_box p.big_price_text{ color:#777; font-size: 0.95rem; font-weight: bold; line-height:30px; }
+
+.modifiy_union_block .addin_cart_content .cart_item .right_box a.add_cart_btn{ float:right; font-size:0.85rem; padding:0 10px; position: relative; right:10px; top:35px; line-height:35px; text-decoration:none; background-color: #FE9F54; color: #fff; border-radius:3px;}
+.modifiy_union_block .addin_cart_content .cart_item .right_box a.add_cart_btn:hover{ background-color: #FE9F54; color: #fff;}
+.modifiy_union_block .addin_cart_content .cart_item .right_box a.add_cart_btn:active{ opacity:0.8;}
+
+/*選購商品數量總計*/
+.short_checkout_content { background-color: #555; bottom: 0; margin-top:120px; position: fixed; width: 100%; z-index: 999;}
+.short_checkout_content .addcart_total{ padding: 0 10px; display:block; }
+.short_checkout_content .addcart_total p.addcart_total_text{ font-size:0.9rem; color:#fff; line-height:40px; text-align:center;}
+.short_checkout_content .addcart_total p.addcart_total_text span{ padding:0 4px; font-weight:bold;}
+.short_checkout_content a.nextStep_btn { position: relative; background-color: #69bdfd; color: #fff; font-size: 1rem; font-weight: bold; line-height: 25px; text-align: center; text-decoration: none; text-shadow: 0 0 0 transparent; display: block;}
+.short_checkout_content a.nextStep_btn:active{ background-color: #6FC3FD; color:#fff;}
+
+/*================================== 合購商品列表(加購)_結束 ==================================*/
+
+
+/* ---------- 20160628 重啟合購Popup視窗_開始 ---------- */
+.popup_window .restart_box{ width: 270px; top: calc((100% - 410px)/2);}
+.popup_window .restart_box .form_item{ margin-bottom: 25px;}
+.popup_window .restart_box p.item_title{ font-size: 0.9rem; font-weight: bold; color: #666;}
+.popup_window .restart_box p.item_title span.light{ color: #f06354; padding-right: 3px;}
+.popup_window .restart_box .group_closeTime .ui-input-text{ float: left; width: 100%; background-color: #f9f9f9; border: 1px solid #d6dbdb; box-shadow: 0 0 0 rgba(0, 0, 0, 0) inset; padding-right: 0;}
+.popup_window .restart_box .group_closeTime .day_input{ font-size: 0.9rem; padding: 8px 10px; border: 0; background-color: transparent;}
+.popup_window .restart_box .group_closeTime .time_select{ float: left; margin-top: 10px;}
+
+.popup_window .restart_box .group_closeTime .time_select .ui-select{ margin: 0 0 0 0; width: 100px; float: left;}
+.popup_window .restart_box .group_closeTime .time_select .ui-select .ui-btn{ background-color: #fbfbfb; border-color: #d6dbdb; text-align: left; padding: 9px 35px 9px 15px; font-weight: normal; box-shadow: 0 0px 2px rgba(0, 0, 0, .10);}
+.popup_window .restart_box .group_closeTime .time_select .ui-select .ui-btn select{ font-size: 0.9rem; line-height: 20px;}
+.popup_window .restart_box .group_closeTime .time_select span.select_txt{ float: left; padding: 0 8px; line-height: 40px; color: #777; font-size: 0.9rem;}
+
+.popup_window .restart_box .group_closeSetting p.item_title{ margin-bottom: 0;}
+.popup_window .restart_box p.item_title_note{ color: #aaa; font-size: 0.8rem; margin: 0px; font-weight: bold; padding: 0;}
+.popup_window .restart_box .group_closeSetting .item_text{ display: inline-block; position:relative; left: -10px;}
+.popup_window .restart_box .group_closeSetting .close_noset{ display: block; height: 40px; overflow: hidden;}
+.popup_window .restart_box .group_closeSetting .close_money{ display:block; margin-bottom:10px; height: 40px;}
+.popup_window .restart_box .group_closeSetting .close_copies{  display:block; height: 40px;}
+.popup_window .restart_box .group_closeSetting .ui-btn{ background-color: #fff; border: 0; color: #777; font-weight: normal;}
+.popup_window .restart_box .group_closeSetting .ui-radio{ float: left; margin: 0; }
+.popup_window .restart_box .group_closeSetting .close_money .ui-radio{  position: relative; top: 8px;}
+.popup_window .restart_box .group_closeSetting .close_copies .ui-radio{  position: relative; top: 8px;}
+.popup_window .restart_box .group_closeSetting label.text_radio{ padding-right: 0;}
+.popup_window .restart_box .group_closeSetting .ui-input-text{ float: left;}
+.popup_window .restart_box .group_closeSetting input.text_input{ float: left; width: 160px; padding: 6px 5px;}
+.popup_window .restart_box .group_closeSetting span.text_span{ line-height: 45px; font-size: 0.85rem; padding-left: 5px; color: #777;}
+
+/* ---------- 20160628 重啟合購Popup視窗_結束 ---------- */
+
+/* ==================== 20160630 新版合購頁_開始 ==================== */
+/*合購頁_主購標題*/
+.joinUnionPage_content .unionName_main{ position: relative; }
+.joinUnionPage_content .unionName_main .unionName_bgBox{ height: 280px; width: 100%; background-position: center; background-size: 100%; overflow: hidden;}
+.joinUnionPage_content .unionName_main .unionName_bgBox img.unionName_bg_img{ width: 104%; position: relative; right: 2%; top: -5%; -webkit-filter: blur(7px); -moz-filter: blur(7px); -o-filter: blur(7px); -ms-filter: blur(7px); filter: blur(7px);}
+.joinUnionPage_content .unionName_main .unionName_bgBox .bunionName_bg_overlay{ background-color: rgba(0,0,0,0.5); height: 280px; width: 100%; position: absolute; top: 0;}
+.joinUnionPage_content .unionName_main .unionName_inforBox{ position: absolute; top: 25px; width: 100%;}
+.joinUnionPage_content .unionName_main .unionName_inforBox .user_img{ width: 100px; margin: 0 auto 5px;}
+.joinUnionPage_content .unionName_main .unionName_inforBox .user_img img{ border-radius: 50%; border: 1px solid rgba(255,255,255,0.8);}
+.joinUnionPage_content .unionName_main .unionName_inforBox .user_union{ font-weight: 600; line-height: 20px; margin: 0 15px;}
+.joinUnionPage_content .unionName_main .unionName_inforBox .user_union h1.union_name{ text-align:center; color: #fff; font-size: 1rem; line-height: 25px; margin: 8px auto; max-height: 50px; overflow: hidden;}
+.joinUnionPage_content .unionName_main .unionName_inforBox .user_union p.user_id{ text-align:center; color: #fff; font-size: 0.85rem; opacity: 0.65; line-height: 20px; }
+.joinUnionPage_content .unionName_main .unionName_inforBox .user_union p.union_time{ text-align:center; color: #fff; font-size: 0.8rem; opacity: 0.5;}
+.joinUnionPage_content .unionName_main .unionName_inforBox .user_union p.union_time span{ padding-right: 3px; }
+.joinUnionPage_content .unionName_main a.unionName_btn{ font-size: 0.7rem; text-decoration: none; line-height: 32px; height: 30px; color: #fff; border: 1px solid #fff; border-radius: 5px; padding: 0 10px; position: absolute; top: 15px; right: 15px; display: block; opacity: 0.8;}
+.joinUnionPage_content .unionName_main a.unionName_btn:active{ background-color: #fff; color: #555;}
+
+/*合購頁_合購資訊*/
+.joinUnionPage_content .unionInfo_main{ padding-bottom: 55px;}
+.joinUnionPage_content .unionInfo_main a.unionInfo_item{ font-size: 0.8rem; font-weight: normal; color: #666; text-decoration: none; background: url(../images/status/icon_filter_right.png) no-repeat 98% center / auto 16px #fff; border-bottom: 1px solid #ddd; padding: 12px 20px 12px 10px; display: block;}
+.joinUnionPage_content .unionInfo_main a.unionInfo_item:active{ background-color: #fbfbfb;}
+.joinUnionPage_content .unionInfo_main a.unionInfo_item p{ line-height: 20px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.joinUnionPage_content .unionInfo_main a.unionInfo_item p.item_text{ padding-left: 20px;}
+.joinUnionPage_content .unionInfo_main a.unionInfo_item p.item_textG12{ padding-left: 20px; color: #aaa; font-size: 0.7rem;}
+
+.joinUnionPage_content .unionInfo_main a.shopName_item p.item_text{ background: url(../images/start_event/icon_s_shop.png) no-repeat left center / 12px auto;}
+.joinUnionPage_content .unionInfo_main a.meetPlace_item p.item_text{ background: url(../images/start_event/icon_s_meetplace.png) no-repeat left center / 12px auto;}
+.joinUnionPage_content .unionInfo_main a.meetPlace_item p.item_text span.place_no{ padding-right: 3px; font-family: Arial, Helvetica, sans-serif;}
+.joinUnionPage_content .unionInfo_main a.paymentWay_item p.item_text{ background: url(../images/start_event/icon_s_payment.png) no-repeat left center / 12px auto;}
+.joinUnionPage_content .unionInfo_main a.paymentWay_item p.item_text span.payment_icon{  width: 18px; height: 18px; padding-left: 5px; display: inline-block; position: relative; top: 3px;}
+.joinUnionPage_content .unionInfo_main a.paymentWay_item p.item_text span.gopay_payment{ background: url(../images/start_event/icon_gopay.png) no-repeat right center / 18px auto;}
+.joinUnionPage_content .unionInfo_main a.paymentWay_item p.item_text span.atm_payment{ background: url(../images/start_event/icon_atm.png) no-repeat right center / 18px auto;}
+.joinUnionPage_content .unionInfo_main a.paymentWay_item p.item_text span.people_payment{ background: url(../images/start_event/icon_people.png) no-repeat right center / 18px auto;}
+.joinUnionPage_content .unionInfo_main .feePay_item{ font-size: 0.8rem; font-weight: normal; color: #666; background: #fff; text-decoration: none; border-bottom: 1px solid #ddd; padding: 12px 20px 12px 10px; display: block;}
+.joinUnionPage_content .unionInfo_main .feePay_item p.item_text{ background: url(../images/start_event/icon_s_fee.png) no-repeat left center / 12px auto; padding-left: 20px;}
+.joinUnionPage_content .unionInfo_main .feePay_item p.item_text span.fee_price{ padding-left: 10px; font-family: Arial, "Microsoft Jhenghei", "微軟正黑體", Helvetica, sans-serif;}
+.joinUnionPage_content .unionInfo_main a.unionExplain_item p.item_text{ background: url(../images/start_event/icon_s_explain.png) no-repeat left center / 12px auto;}
+
+.joinUnionPage_content .unionInfo_main .unionInfo_remind_box{ background-color: #f3fafd; border-bottom: 1px solid #b5dce7; padding: 20px 25px; text-align: center;}
+.joinUnionPage_content .unionInfo_main .finished_remind{ background-color: #eee; border-bottom: 1px solid #ddd;}
+.joinUnionPage_content .unionInfo_main .unionInfo_remind_box p.remind_title{ font-size: 0.8rem; color: #555; line-height: 20px; font-weight: 600;}
+.joinUnionPage_content .unionInfo_main .unionInfo_remind_box p.remind_text{ font-size: 0.8rem; color: #666; line-height: 20px;}
+.joinUnionPage_content .unionInfo_main .unionInfo_remind_box p.remind_text span.blue_txt12{ color: #105cb6; padding: 0 4px; font-weight: 600;}
+.joinUnionPage_content .unionInfo_main .unionInfo_remind_box p.remind_text span.red_txt13{ color: #e55c67; padding: 0 1px; font-weight: 600;}
+.joinUnionPage_content .unionInfo_main .unionInfo_remind_box p.remind_text a.link{ color: #38c; text-decoration: underline; padding: 0 4px; font-weight: 300;}
+.joinUnionPage_content .unionInfo_main .unionInfo_remind_box a.login_btn{ text-align: center; font-size: 0.8rem; display: block; line-height: 30px; text-decoration: none; background-color: #ffc94d; color: #fff; border-radius: 5px; margin: 5px auto 0; width: 100px;}
+.joinUnionPage_content .unionInfo_main .unionInfo_remind_box a.login_btn:active{ opacity: 0.8;}
+.joinUnionPage_content .unionInfo_main .familyAdd_remind{ background-color: #fff; border-bottom: 1px solid #ddd; text-align: left;}
+.joinUnionPage_content .unionInfo_main .familyAdd_remind p.remind_title{ font-size: 0.85rem; color: #555; line-height: 20px; font-weight: 600; margin-bottom: 5px;}
+.joinUnionPage_content .unionInfo_main .familyAdd_remind .familyList_box{ margin-top: 20px;}
+.joinUnionPage_content .unionInfo_main .familyAdd_remind p.one_familyBox{ font-size: 0.8rem; color: #666; line-height: 30px; padding: 10px 0; border-top: 1px dotted #e5e5e5; height: 30px; position: relative;}
+.joinUnionPage_content .unionInfo_main .familyAdd_remind p.one_familyBox span{ float: left; width: 70%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.joinUnionPage_content .unionInfo_main .familyAdd_remind a.add_family_btn{ text-align: center; font-size: 0.7rem; display: inline-block; line-height: 30px; text-decoration: none; background-color: #69BDFD; color: #fff; border-radius: 5px; padding: 0 10px; position: absolute; right: 0;}
+.joinUnionPage_content .unionInfo_main .familyAdd_remind a.add_family_btn:active{ opacity: 0.8;}
+@media screen and ( max-width:381px) { .joinUnionPage_content .unionInfo_main .familyAdd_remind p.one_familyBox span{ width: 60%;}}
+
+/*合購頁_份數統計*/
+.joinUnionPage_content .unionInfo_main a.unionCount_item{ border-top: 1px solid #ddd; margin: 20px 0;}
+.joinUnionPage_content .unionInfo_main a.unionCount_item p.item_text{ padding: 0;}
+.joinUnionPage_content .unionInfo_main a.unionCount_item p.item_text span.total_no{ font-size: 0.7rem; color: #999; margin-left: 10px;}
+.joinUnionPage_content .unionInfo_main a.unionCount_item p.item_text span.total_no span.red_txt12{ color: #f66b6b; padding: 0 2px; font-family: Arial, Helvetica, sans-serif;}
+
+/*合購頁_商品列表*/
+.joinUnionPage_content .unionInfo_main .productList_block{ background-color: #fff; border-top: 1px solid #ddd; }
+.joinUnionPage_content .unionInfo_main .productList_block p.productList_title{ font-size: 0.8rem; color: #666; line-height: 45px; padding: 0 10px; border-bottom: 1px solid #e9e9e9;}
+.joinUnionPage_content .unionInfo_main .productList_block .select_box{ margin: 0 auto; padding: 15px 0; border-bottom: 1px solid #e3e3e3;}
+.joinUnionPage_content .unionInfo_main .productList_block .select_box .ui-select{ margin: 0 10px;}
+.joinUnionPage_content .unionInfo_main .productList_block .select_box .ui-select .ui-btn{ font-size: 0.8rem; font-weight: normal; text-align: left; background-color: #fcfcfc; border: 1px solid #dadfdf; color: #777; box-shadow: 0 0 2px rgba(0, 0, 0, .1);}
+.joinUnionPage_content .unionInfo_main .productList_block .select_box .ui-select .ui-btn-icon-right:after{ width: 20px; height: 20px; margin-top: -10px;}
+.joinUnionPage_content .unionInfo_main .productList_block .product_item{ position: relative; height: 120px; border-bottom: 1px solid #e3e3e3;}
+.joinUnionPage_content .unionInfo_main .productList_block .product_item .left_box{ position: absolute; left: 0; top: 0;}
+.joinUnionPage_content .unionInfo_main .productList_block .product_item .left_box a.product_img{ width: 120px; height: 120px; display: block;}
+.joinUnionPage_content .unionInfo_main .productList_block .product_item .left_box a.product_img img{ width: 100%; border-right: 1px solid #ececec;}
+.joinUnionPage_content .unionInfo_main .productList_block .product_item .left_box a.product_img:active img{ opacity: 0.8;}
+.joinUnionPage_content .unionInfo_main .productList_block .product_item .left_box a.img_amount_text{ width: 120px; height: 120px; background: url(../images/store/icon_addin.png) no-repeat center 30px / 30px 30px rgba(255, 255, 255, 0.7); position: absolute; top: 0; left: 0; text-align: center; text-decoration: none; font-size: 0.9rem; color: #22668d;}
+.joinUnionPage_content .unionInfo_main .productList_block .product_item .left_box a.img_amount_text span.add_amount_txt{ position: relative; top: 70px; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5); font-family: Helvetica, Arial, sans-serif;}
+.joinUnionPage_content .unionInfo_main .productList_block .product_item .right_box{ padding: 8px 10px 0 130px; position: relative;}
+.joinUnionPage_content .unionInfo_main .productList_block .product_item .right_box h3.product_title{ font-size: 0.85rem; line-height: 20px; margin-bottom: 20px; height: 40px; overflow: hidden;}
+.joinUnionPage_content .unionInfo_main .productList_block .product_item .right_box h3.product_title a{ color: #555; text-decoration: none;}
+.joinUnionPage_content .unionInfo_main .productList_block .product_item .right_box .p_text_box{ font-size: 0.75rem; line-height: 20px; float: none; width: auto; top: 0;}
+.joinUnionPage_content .unionInfo_main .productList_block .product_item .right_box .p_text_box p.buy_text{ color: #999; font-family: Helvetica, Arial, "Microsoft Jhenghei", "微軟正黑體", sans-serif; font-weight: 300;}
+.joinUnionPage_content .unionInfo_main .productList_block .product_item .right_box .p_text_box p.price_text{ font-family: Helvetica, Arial, sans-serif;}
+.joinUnionPage_content .unionInfo_main .productList_block .product_item .right_box .p_text_box p.price_text span.original_txt{ color: #bbb; text-decoration: line-through; padding-right: 3px; font-weight: 300;}
+.joinUnionPage_content .unionInfo_main .productList_block .product_item .right_box .p_text_box p.price_text span.special_txt{ color: #f36167; font-size: 0.8rem; font-weight: 600; }
+.joinUnionPage_content .unionInfo_main .productList_block .product_item .right_box a.add_cart{ float: right; display: block; background-color: #fe9f54; color: #fff; font-size: 0.8rem; line-height: 30px; text-decoration: none; text-align: center; text-shadow: 0 0 0 transparent; border-radius: 3px; width: 50px; font-weight: normal; position: absolute; right: 10px; top: 80px;}
+
+/* ==================== 20160630 新版合購頁_結束 ==================== */

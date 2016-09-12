@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>信件內容(家族每周更新報告)</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+
+	<link href="../css/layout.css" rel="stylesheet" type="text/css">
+	<link href="../css/user.css" rel="stylesheet" type="text/css">
+
+
+	<script src="../js/jquery-2.1.4.min.js"></script>
+	<script src="../js/jquery.mobile-1.4.5.min.js"></script>
+
+	<script type="text/javascript">
+	$(function(){
+
+		// 固定左側選單
+		$("a.memu_btn").click(function(){
+			$("div.wrapper").css({"max-height":"920px", "overflow-y":"hidden"});
+		});
+		$(".ui-panel-dismiss, .ui-panel-wrapper, footer.footer_wrp, .cart_box, .store_union_box, ul.my_account").click(function(){
+			$("div.wrapper").css({"max-height":"none", "overflow-y":"auto"});
+		});
+
+	})
+	</script>
+
+</head>
+<body>
+
+<div class="wrapper" data-role="page">
+	<header class="top_menu login_none" data-role="header" data-position="fixed">
+		<a href="#bars" class="memu_btn" ></a>
+		<ul class="my_account">
+			<li class="li_account my_calendar"><a href="">日曆</a></li>
+			<li class="li_account my_order">
+				<p class="unread">2</p>
+				<a href="">訂單</a>
+			</li>
+			<li class="li_account my_mail">
+				<p class="unread">8</p>
+				<a href="">信箱</a>
+			</li>
+			<li class="li_account my_club">
+				<p class="unread">3</p>
+				<a href="">家族</a>
+			</li>
+		</ul>
+	</header><!-- /header -->
+
+	<div role="main" class="ui-content mails_main">
+		
+		<!-- 商店標題_開始 -->
+		<article class="store_title email_title">
+			<div class="close_search">
+				<h1 class="title_h1">家族每周更新報告</h1>
+			</div>
+		</article>
+		<!-- 商店標題_結束 -->
+
+
+		<article class="mailDetail_content">
+			<div class="main_content_box">
+
+				<!-- 一封家族通知信件_開始 -->
+				<div class="mail_box mail_open">
+					<div class="l_mail_box"><img class="sender_pic" src="../images/user/mails/system_100.gif"></div>
+					<div class="r_mail_box">
+						<div class="sender_infor two_tool">
+							<p class="system_id">ihergo system</p>
+							<a class="delete_btn" href="#" alt="刪除"></a>
+							<br class="CLEAR">
+						</div>
+						<p class="mail_handle">寄給 我</p>
+						<p id="sendTime" class="sent_time">7/4 &nbsp;0:21 am (2 天前)</p>
+					</div>
+					<div class="notify_body">
+						<div class="mail_content">
+							<p class="mail_txt">
+							</p>
+							<div class="recommend_club">
+								<p>Hi evonne_chen,</p>
+								<p>&nbsp;</p>
+								<p>這是你的 <a href="#" class="ui-link">南港區聯成里合購區</a> 家族上週報告。</p>
+								<div class="weekForm_box">
+									<p class="week_txt">6月27日 - 7月3日當週</p>
+									<table class="familyNum_tb" cellspacing="0" cellpadding="0" border="0">
+										<tbody>
+											<tr>
+												<th class="left_text"></th>
+												<th class="td_text">上週</th>
+												<th class="td_text">先前一週</th>
+												<th class="td_text">趨勢</th>
+											</tr>
+											<tr>
+												<td class="left_text">新增合購數</td>
+												<td class="td_text">2</td>
+												<td class="td_text">1</td>
+												<td class="td_text data_up">+100%</td>
+											</tr>
+											<tr>
+												<td class="left_text">成員合購次數</td>
+												<td class="td_text">1</td>
+												<td class="td_text">1</td>
+												<td class="td_text data_up">+0%</td>
+											</tr>
+											<tr>
+												<td class="left_text">參加合購人數</td>
+												<td class="td_text">1</td>
+												<td class="td_text">1</td>
+												<td class="td_text data_up">+0%</td>
+											</tr>
+											<tr>
+												<td class="left_text">新增文章數</td>
+												<td class="td_text">1</td>
+												<td class="td_text">0</td>
+												<td class="td_text data_up">+0%</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<br class="CLEAR">
+							<!-- 提醒1_尚未設定面交點_開始 -->
+							<!-- 提醒2_少合購_開始 -->
+							<div class="culb_notice_text" style="">
+								<div class="text_box">
+									<p class="light">你的家族最近似乎比較少發起合購喔</p>
+									<p>發起合購能吸引更多人加入你的家族， 也能讓你的家族更壯大喔！</p>
+									<a href="#" class="go_btn goUnion ui-link">立即前往開團</a>
+									<span class="note_txt">前往商店街看看有什麼可以開團！</span>
+								</div>
+							</div>
+							<!-- 提醒2_少合購_結束 -->	
+							<!-- 提醒6_家族申請審核_開始 -->
+							<div class="culb_notice_text" style="">
+								<div class="text_box">
+									<p class="light">你有些新的家族申請尚未處理喔</p>
+									<p>你有<span class="add_numer">1</span>個加入家族申請尚未審核喔，別忘了去看看有哪些人加入哦！(超過一個月沒審核的申請會自動刪除喔！)</p>
+									<a href="#" class="go_btn ui-link">立即前往審核</a>
+								</div>
+							</div>
+							<!-- 提醒6_家族申請審核_結束 -->
+							<!-- 提醒7_家族申請審核(未設定自動審核)_開始 -->
+							<!-- 提醒7_家族申請審核(未設定自動審核)_結束 -->
+							<div class="mail_footer">
+								<p>祝您 順心,<br>愛合購團隊</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 一封家族通知信件_結束 -->
+
+			</div>
+
+		</article>
+
+		<!-- google廣告放置_開始 -->
+		<div class="ad_event_block">
+			<div class="ad_iframe_box">
+				<img src="../images/image/google_ad_img.jpg" style="width:100%; max-width:320px; margin:0 auto;">
+			</div>
+		</div>
+		<!-- google廣告放置_結束 -->
+
+	</div><!-- /content -->
+
+
+<!-- 左側滑出選單_開始 -->
+	<div class="panel_navi" data-role="panel" id="bars">
+		<!-- 個人帳號＿開始 -->
+		<div class="navi_user_wrp">
+			<img class="user_photo" src="http://photo.ihergo.com/photo/user/74/100_923874_3797.png">
+			<div class="user_info">
+				<p class="user_name">Yoyo Chen</p>
+				<p class="user_text">評比 (95)</p>
+			</div>
+		</div>
+		<!-- 個人帳號＿結束 -->
+		<ul class="navi_ul">
+			<li class="navi_li li_home "><a  href="#"><span>找合購</span></a></li>
+			<li class="navi_li li_store"><a href="#"><span>商店街</span></a></li>
+			<li class="navi_li li_union union_active"><a  href="#" class="active"><span>大合購</span></a></li>
+		</ul>
+		<p class="navi_ul_title">個人資料</p>
+		
+		<ul class="navi_ul">
+			<li class="navi_li li_bonus">
+				<p class="navi_li_no">尚有<span>41</span>元</p>
+				<a href="#"><span>紅利金</span></a>
+			</li>
+			<li class="navi_li li_count">
+				<p class="navi_li_no">尚有<span class="light">0</span>元</p>
+				<a href="#"><span>ihergo點數</span></a>
+			</li>
+			<!-- <li class="navi_li li_family"><a href="#"><span>家族</span></a></li> -->
+			<!-- <li class="navi_li li_mystore"><a href="#"><span>商店</span></a></li> -->
+			<li class="navi_li li_logout"><a href="#"><span>登出</span></a></li>
+		</ul>
+		<div class="panel_footer">
+			<p class="panel_footer_txt"><span>手機板</span>/<a href="#">電腦版</a>/<a href="#">APP下載</a></p>
+		</div>
+	</div>
+	<!-- 左側滑出選單_結束 -->
+
+</div><!-- /page -->
+
+</body>
+</html>

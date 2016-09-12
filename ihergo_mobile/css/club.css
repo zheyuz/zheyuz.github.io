@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/*家族列表*/
+.wrapper .clubList_content{ }
+.wrapper .clubList_content h4.club_content_title{ font-size: 1rem; color: #505050; padding: 20px 12px 10px;}
+.wrapper .clubList_content .club_list_main{ background-color: #fff; padding: 10px; margin: 0 10px 20px; border-radius: 5px; border: 1px solid #e6e6e6; box-shadow: 0px 0px 3px rgba(0,0,0,0.1);}
+.wrapper .clubList_content .club_list_main .one_club_item{ display: block; height: 50px; background: url(../images/start_event/icon_right.png) no-repeat right center / 16px auto transparent; border-bottom: 1px solid #f0f0f0; padding: 10px 0; cursor: pointer;}
+.wrapper .clubList_content .club_list_main .one_club_item:active{ background-color: #fcfcfc;}
+.wrapper .clubList_content .club_list_main .one_club_item .club_img{ float: left; margin-right: 5px; width: 50px; height: 50px; overflow: hidden; border-radius: 50%; border: 1px solid rgba(150,150,150,0.1); box-sizing:border-box;}
+.wrapper .clubList_content .club_list_main .one_club_item .club_img img{ max-height: 65px; max-width: 75px;}
+.wrapper .clubList_content .club_list_main .one_club_item .club_infor{ padding-left: 60px; position: relative;}
+.wrapper .clubList_content .club_list_main .one_club_item .club_infor .club_name{ height: 30px; overflow: hidden;}
+.wrapper .clubList_content .club_list_main .one_club_item .club_infor p.name_text{ float: left; color: #666; font-size: 0.9rem; font-weight: 600; line-height: 30px; max-width: 80%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.wrapper .clubList_content .club_list_main .one_club_item .club_infor p.verify_text{ float: left; background-color: #bbb; color: #fff; font-size: 0.65rem; line-height: 18px; text-align: center; width: 50px; height: 18px; overflow: hidden; border-radius: 20px; margin: 6px 0 0 5px;}
+.wrapper .clubList_content .club_list_main .one_club_item .club_infor .club_amount p{ color:#aaa; font-size: 0.75rem; float: left; padding-left: 18px; font-weight: 100;}
+.wrapper .clubList_content .club_list_main .one_club_item .club_infor .club_amount p span{ font-family: Arial,sans-serif; padding: 0 1px; }
+.wrapper .clubList_content .club_list_main .one_club_item .club_infor .club_amount p.members_no{ background: url(../images/club/icon_member.png) no-repeat left center / 15px auto; margin-right: 15px; max-width: 90px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.wrapper .clubList_content .club_list_main .one_club_item .club_infor .club_amount p.unions_no{ background: url(../images/club/icon_union.png) no-repeat left center / 15px auto; max-width: 90px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.wrapper .clubList_content .club_list_main .one_club_item .club_infor p.noRead_no{ font-weight: 100; background-color: #ef5555; color: #fff; font-size: 0.65rem; font-family: Arial,sans-serif; line-height: 22px; text-align: center; width: 22px; height: 22px; overflow: hidden; border-radius: 50%; position: absolute; right: 18px; top: 15px;}
+.wrapper .clubList_content .club_list_main .add_more_box{ margin-top: 10px;}
+.wrapper .clubList_content .club_list_main .add_more_box a.add_more_btn{ display: block; color: #aaa; font-size: 0.9rem; line-height: 24px; text-decoration: none; background-color: #f6f6f6; padding: 13px; text-align: center; border-radius: 5px;}
+.wrapper .clubList_content .club_list_main .add_more_box a.add_more_btn span{ background: url(../images/club/icon_add_more.png) no-repeat left center / 24px auto; padding: 3px 0 3px 30px}
+.wrapper .clubList_content .club_list_main .add_more_box a.add_more_btn:active{ background-color: #f2f2f2;}
+.wrapper .clubList_content .club_list_main .none_add .club_infor p.name_text{ max-width: 63%;}
+
+/*家族Header*/
+.wrapper .club_header_block{ background: url(../images/club/club_bg.png) no-repeat left center / 100% 100%; height: 50px; padding: 25px 10px; position: relative;}
+.wrapper .club_header_block .club_img{ float: left; margin-right: 5px; width: 50px; height: 50px; overflow: hidden; border-radius: 50%; border: 1px solid rgba(255,255,255,0.4); box-sizing:border-box;}
+.wrapper .club_header_block .club_img a{ width: 50px; height: 50px; display: block; }
+.wrapper .club_header_block .club_img a:active{ background-color: transparent; opacity: 0.8;}
+.wrapper .club_header_block .club_img a img{ max-height: 65px; max-width: 75px;}
+.wrapper .club_header_block .club_info{ float: left;}
+.wrapper .club_header_block .club_info .club_name_box{ position: relative; padding-right: 18px;}
+.wrapper .club_header_block .club_info .club_name_box p.name_text{ color: #fff; line-height: 30px; max-width: 250px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wrapper .club_header_block .club_info .club_name_box p.name_text a{ font-size: 1rem; color: #fff; text-decoration: none; }
+.wrapper .club_header_block .club_info .club_name_box p.name_text a:active{ opacity: 0.8;}
+.wrapper .club_header_block .club_info .club_name_box p.name_text a.private{ background: url(../images/club/icon_private.png) no-repeat left center / 15px auto transparent; padding-left: 20px;}
+.wrapper .club_header_block .club_info .club_name_box p.name_text a.half_private{ background: url(../images/club/icon_half_private.png) no-repeat left center / 15px auto transparent; padding-left: 20px;}
+.wrapper .club_header_block .club_info .club_detail_box{ height: 16px; overflow: hidden; padding-left: 2px;}
+.wrapper .club_header_block .club_info .club_detail_box p{ float: left; font-size: 0.65rem; color: #fafafa; line-height: 16px;}
+.wrapper .club_header_block .club_info .club_detail_box p.category_text{ padding-right: 11px; position: relative;}
+.wrapper .club_header_block .club_info .club_detail_box p.category_text:after{ content: ""; background-color: #fff; width: 3px; height: 3px; border-radius: 50%; position: absolute; top: 7px; right: 4px;}
+.wrapper .club_header_block .club_info .club_detail_box p.member_no span{ padding: 0 2px 0 1px; font-family: Arial,sans-serif;}
+.wrapper .club_header_block a.join_club_btn{ color: #fff; font-size: 0.75rem; font-weight: 300; text-decoration: none; border: 1px solid #fff; border-radius: 3px; padding: 2px 5px 2px 18px; background: url(../images/club/icon_club_join.png) no-repeat 5px center / 10px auto transparent; position: absolute; right: 10px; top:calc(( 100% - 25px )/2);}
+.wrapper .club_header_block a.join_club_btn:active{ opacity: 0.7;}
+
+@media screen and ( max-width:381px) {
+	.wrapper .club_header_block .club_info .club_name_box p.name_text{ max-width: 220px;}
+}
+@media screen and ( max-width:341px) {
+	.wrapper .club_header_block .club_info .club_name_box p.name_text{ max-width: 190px;}
+}
+
+/*家族 Menu*/
+.wrapper .club_menu_block{ height: 50px; background-color: #fff; border-bottom: 1px solid #e9e9e9; display: -webkit-flex; display: flex; margin-bottom: 10px;}
+.wrapper .club_menu_block .club_menu_item{ -webkit-flex: 1; flex: 1;}
+.wrapper .club_menu_block .club_menu_item a{ color: #555; font-size: 0.7rem; line-height: 15px; padding: 27px 0 8px; text-align: center; text-decoration: none; display: block;}
+.wrapper .club_menu_block .club_menu_item a:active{ background-color: #fafafa;}
+.wrapper .club_menu_block .club_menu_item a.active{ color: #fbaf00;}
+
+.wrapper .club_menu_block .item_union a{ background: url(../images/club/icon_menu_union.png) no-repeat center 7px / 18px auto;}
+.wrapper .club_menu_block .item_share a{ background: url(../images/club/icon_menu_share.png) no-repeat center 7px / 18px auto;}
+.wrapper .club_menu_block .item_about a{ background: url(../images/club/icon_menu_about.png) no-repeat center 7px / 18px auto;}
+.wrapper .club_menu_block .item_union a.active{ background: url(../images/club/icon_menu_union_active.png) no-repeat center 7px / 18px auto;}
+.wrapper .club_menu_block .item_about a.active{ background: url(../images/club/icon_menu_about_active.png) no-repeat center 7px / 18px auto;}
+
+
+/*家族合購動態*/
+.wrapper .clubUnion_content{ padding: 10px 0;}
+.wrapper .clubUnion_content h4.club_content_title{ font-size: 0.9rem; color: #505050; padding: 0 10px 10px;}
+.wrapper .clubUnion_content h4.club_union_number{ font-size: 0.8rem; color: #505050; font-weight: normal; padding: 0 10px 10px; line-height: 15px;}
+.wrapper .clubUnion_content h4.club_union_number span{ color: #e55555; padding: 0 3px; font-family: Arial,sans-serif;}
+.wrapper .club_content .one_union_status{ background-color: #fff; border-top: 1px solid #e9e9e9; border-bottom: 1px solid #e9e9e9; padding: 15px; margin-bottom: 15px; cursor: pointer;}
+.wrapper .club_content .one_union_status:active{ background-color: #fafafa;}
+.wrapper .club_content .one_union_status .grouping_wrp{ margin-bottom: 15px;}
+.wrapper .club_content .one_union_status .grouping_wrp .user_wrp{ height: 50px;}
+.wrapper .club_content .one_union_status .grouping_wrp .member_img{ float: left; margin-right: 6px;}
+.wrapper .club_content .one_union_status .grouping_wrp .member_img a{ display: block; height: 50px;}
+.wrapper .club_content .one_union_status .grouping_wrp .member_img img{ width: 50px; border-radius: 50%; border: 1px solid rgba(100,100,100,0.1); box-sizing: border-box;}
+.wrapper .club_content .one_union_status .grouping_wrp .account_box{ }
+.wrapper .club_content .one_union_status .grouping_wrp .account_box p.account{ font-size: 0.7rem; color: #444; margin-bottom: 2px;}
+.wrapper .club_content .one_union_status .grouping_wrp .account_box p.account span{ color: #777; padding: 0 8px; font-family: Arial,sans-serif;}
+.wrapper .club_content .one_union_status .grouping_wrp .account_box p.group_title{ line-height: 20px; max-height: 40px; overflow: hidden;}
+.wrapper .club_content .one_union_status .grouping_wrp .account_box p.group_title a{ color: #3b5998; font-size: 0.8rem; text-decoration: none; line-height: 18px;}
+.wrapper .club_content .one_union_status .grouping_wrp .account_box p.group_title a:active{ background-color: transparent;}
+.wrapper .club_content .one_union_status .goods_pic{ width: 100%; display: flex; display: -webkit-flex; display: -ms-flexbox; margin-bottom: 5px;}
+.wrapper .club_content .one_union_status .goods_pic a{ flex: 1; -webkit-flex: 1; -webkit-box-flex: 1; -ms-flex: 1; justify-content: center;}
+.wrapper .club_content .one_union_status .goods_pic a:active{ background-color: transparent;}
+.wrapper .club_content .one_union_status .goods_pic a img{ width: 100%; border: 1px solid rgba(100,100,100,0.1); box-sizing: border-box;}
+.wrapper .club_content .one_union_status .goods_pic .pic_line{ -webkit-flex: none; flex: none; width: 2px;}
+
+.wrapper .club_content .one_union_status .location_box{ margin-bottom: 5px;}
+.wrapper .club_content .one_union_status .location_box p{ font-size: 0.7rem; color: #999; line-height: 22px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.wrapper .club_content .one_union_status .location_box p.txt_location{ background: url(../images/status/icon_small_location.png) no-repeat left center / 10px auto transparent; padding-left: 15px;}
+.wrapper .club_content .one_union_status .location_box p span.location_number{ padding: 0 3px; font-family: Arial,sans-serif;}
+.wrapper .club_content .one_union_status .union_info_box{ border-top: 1px solid #e9e9e9; padding: 12px 0 0; line-height: 16px;}
+.wrapper .club_content .one_union_status .union_info_box p{ font-size: 0.7rem; color: #999;}
+.wrapper .club_content .one_union_status .union_info_box p.union_amount{ float: left;}
+.wrapper .club_content .one_union_status .union_info_box p.union_amount span{ padding: 0 2px 0 4px; font-family: Arial,sans-serif;}
+.wrapper .club_content .one_union_status .union_info_box p.club_amount{ float: right; background: url(../images/status/icon_small_club.png) no-repeat left center / 12px auto transparent; padding-left: 14px;}
+.wrapper .club_content .one_union_status .union_info_box p.club_amount span{ padding: 0 2px; font-family: Arial,sans-serif;}
+/*合購未讀*/
+.wrapper .club_content .no_read{ background-color: #fefee8;}
+/*合購已讀分隔線*/
+.wrapper p.haveRead_line{ position: relative; margin:25px 15px 15px; text-align: center;}
+.wrapper p.haveRead_line:before{ content: ""; height: 1px; width: 100%; background-color: #ddd; position: absolute; top: calc((23px - 1px)/2); left: 0; right: 0;}
+.wrapper p.haveRead_line span.line_text{ font-size: 0.8rem; font-weight: 300; color: #888; background-color: #f2f2f2; padding: 0 15px; position: relative; z-index: 1;}
+
+/*關於家族*/
+.wrapper .clubAbout_content{ margin: 0 0 15px; padding: 3px 10px; background-color: #fff; border-bottom: 1px solid #e9e9e9; border-top: 1px solid #e9e9e9;}
+.wrapper .clubAbout_content p.item_title{ float: left; width: 50px; text-align: right; font-size: 0.85rem; font-weight: 600; line-height: 20px; padding: 15px 0;}
+.wrapper .clubAbout_content .item_main{ padding-left: 60px; }
+.wrapper .clubAbout_content .club_location_item{ min-height: 50px; border-bottom: 1px solid #f0f0f0; cursor: pointer;}
+.wrapper .clubAbout_content .club_location_item .item_main a{ display: block; font-size: 0.85rem; font-weight: 300; line-height: 20px; padding: 15px 0; color: #777; text-decoration: none; background: url(../images/start_event/icon_right.png) no-repeat right center / 16px auto transparent;}
+.wrapper .clubAbout_content .club_location_item:active{ background-color: #fbfbfb;}
+.wrapper .clubAbout_content .club_location_item .item_main p{ color: #bbb; font-size: 0.85rem; font-weight: 300; line-height: 20px; padding: 15px 0;}
+.wrapper .clubAbout_content .club_parents_item{ min-height: 50px; border-bottom: 1px solid #f0f0f0; }
+.wrapper .clubAbout_content .club_parents_item .item_main{ padding: 5px 0 5px 60px;}
+.wrapper .clubAbout_content .club_parents_item p.one_parent{ color: #777; font-size: 0.8rem; line-height: 30px; margin: 5px 0;}
+.wrapper .clubAbout_content .club_parents_item p.one_parent img{ float: left; width: 30px; height: 30px; border-radius: 50%; border: 1px solid #e9e9e9; box-sizing: border-box;}
+.wrapper .clubAbout_content .club_parents_item p.one_parent span{ padding-left: 5px; font-family: Arial,sans-serif;}
+.wrapper .clubAbout_content .club_unions_item{ min-height: 50px;}
+.wrapper .clubAbout_content .club_unions_item .item_main p{ font-size: 0.85rem; line-height: 20px; padding: 15px 0; color: #777;}
+.wrapper .clubAbout_content .club_unions_item .item_main p span{ padding: 0 3px; color: #e55555; font-family: Arial,sans-serif;}
+.wrapper .clubAbout_content .quit_club{ border-top: 1px solid #f0f0f0; margin-bottom: 12px;}
+.wrapper .clubAbout_content a.quit_club_btn{ background-color: #e1e2e3; font-size: 0.85rem; color: #fff; text-decoration: none; line-height: 35px; margin: 12px auto 0; display: block; max-width: 100px; text-align: center; border-radius: 3px;}
+.wrapper .clubAbout_content a.quit_club_btn:active{ background-color: #dbdcdd;}
+/* 未加入提醒 */
+.wrapper .club_content p.private_remind_text{ font-size: 0.9rem; font-weight: 600; color: #666; line-height: 25px; text-align: center; margin: 20px;}
+

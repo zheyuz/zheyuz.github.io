@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ihergo愛合購 - 幫你找人一起買</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<link href="../css/layout.css" rel="stylesheet" type="text/css">
+<link href="../css/register.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="../js/mobile.js"></script>
+<script type="text/javascript">
+   //換頁demo
+   $(function(){
+	 $(".bonus_content").eq(1).hide();
+     $(".normal_style").click(function(){
+		$(".bonus_content").eq(0).hide();
+        $(".bonus_content").eq(1).show();
+	 });
+   })
+</script>
+</head>
+
+<body>
+<div class="wrapper">
+   <main class="sign_up">
+      <article class="top">
+         <div class="logo_img"></div>
+      </article>
+      <!--==========================步驟一_輸入手機號碼_開始==========================-->
+      <article class="content bonus_content">
+         <section class="form_box">
+            <h2>完成以下步驟50元紅利金免費送<br>紅利金可於購物時直接折抵消費哦</h2>
+            <h3 class="recommend_user">
+               <p>推薦人會員帳號</p>
+               <p class="user_id"><img src="http://photo.ihergo.com/photo/user/22/100_287522_6770.png"><span>ihergo_love</span></p>
+            </h3>
+            <div class="input_box">
+               <!--<div class="input_error">
+                  <p>尚未輸入</p>
+               </div>-->
+               <!--====錯誤時input加上class名稱"error"，和上方div"input_error"-->
+               <input type="text" class="mobile" placeholder="手機認證">
+            </div>
+         </section>
+         <section class="btn_box">
+            <a href="#" class="main_btn normal_style">送出</a>
+         </section>
+         <section class="text_box">
+            <p><a href="#"><span class="re_mobile">略過領取紅利</span></a></p>
+            <p class="remind_text02">七日內完成認證就送你50元紅利金</p>
+         </section>
+      </article>
+      <!--==========================步驟一_輸入手機號碼_結束==========================-->
+      <!--==========================步驟二_輸入認證碼_開始==========================-->
+      <article class="content bonus_content">
+         <section class="form_box">
+            <h2>完成以下步驟100元紅利金免費送<br>紅利金可於購物時直接折抵消費哦</h2>
+            <h3 class="recommend_user">
+               <p>推薦人會員帳號</p>
+               <p class="user_id"><img src="http://photo.ihergo.com/photo/user/22/100_287522_6770.png"><span>ihergo_love</span></p>
+            </h3>
+            <div class="input_box">
+               <input type="text" class="mobile disabled" placeholder="0912345678" disabled="disabled">
+            </div>
+            <div class="input_box">
+               <!--<div class="input_error">
+                  <p>尚未輸入</p>
+               </div>-->
+               <input type="text" class="code" placeholder="認證碼">
+               <a href="#" class="re_send">重傳認證碼</a>
+               <br class="CLEAR">
+            </div>
+         </section>
+         <section class="btn_box">
+            <a href="add_circle(加入生活圈)_new.html" class="main_btn main_style">領取紅利</a>
+         </section>
+         <section class="text_box">
+            <p>ihergo已傳送一封簡訊至您的手機，請輸入認證碼完成手機認證(6個數字或小寫字母)如無法收到簡訊，請先完成註冊再聯繫ihergo客服<a href="#">service@ihergo.com</a>為您處理哦。</p>
+         </section>
+         <section class="text_box">
+            <p><a href="#"><span class="re_mobile">重新輸入手機號碼</span></a></p>
+         </section>
+      </article>
+      <!--==========================步驟二_輸入認證碼_結束==========================-->
+   </main>
+   <!--==========================footer_開始==========================-->
+   <footer>
+      <p class="text_ch">愛合購股份有限公司版權所有</p>
+      <p class="text_en">Copyright © 2007-2015 ihergo Inc. All Rights Reserved.</p>
+   </footer>
+   <!--==========================footer__結束==========================-->   
+</div>   
+</body>
+</html>

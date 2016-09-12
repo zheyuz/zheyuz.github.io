@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ihergo愛合購 - 幫你找人一起買</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<link href="../css/layout.css" rel="stylesheet" type="text/css">
+<link href="../css/register.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="../js/mobile.js"></script>
+
+<!-- 忘記密碼 -->
+<script type="text/javascript">
+   $(function(){
+      $(".forget_Popup_content").hide();
+      $("p.forget_box a").click(function(){
+         $(".forget_Popup_content").fadeIn("fast");
+      });
+      $("a.ok_btn").click(function(){
+         $(".forget_Popup_content").fadeOut("fast");
+      });
+      $("a.popup_cancel_btn").click(function(){
+         $(".forget_Popup_content").fadeOut("fast");
+      });
+   })
+</script>
+
+</head>
+
+<body>
+<div class="wrapper">
+   <main class="sign_up">
+      <article class="top">
+         <div class="logo_img"></div>
+      </article>
+      <!--==========================帳號登入_開始==========================-->
+      <article class="content ihergo_signup_content">
+         <section class="form_box">
+            <h2>使用ihergo帳號登入</h2>
+            <div class="input_box">
+               <!--<div class="input_error">
+                  <p>尚未輸入</p>
+               </div>-->
+               <!--====錯誤時input加上class名稱"error"，和上方div"input_error"-->
+               <input type="text" class="name" placeholder="帳號">
+            </div>
+            <div class="input_box">
+               <input type="password" class="password" placeholder="密碼">
+               <p class="forget_box"><a href="#">忘記密碼?</a></p>
+            </div>
+         </section>
+         <section class="btn_box">
+            <a href="login_loading.html" class="main_btn main_style">立即登入</a>
+            <a href="../register/sign_up.html" class="sign_up_link">註冊新帳號</a>
+            
+         </section>
+
+         <section class="form_box login_other_form">
+            <h2>其他方式登入</h2>
+            <div class="other_btn">
+               <a href="#" class="facebook">使用 Facebook 帳號登入</a>
+               <a href="#" class="google">使用 Google 帳號登入</a>
+               <a href="#" class="yahoo">使用 Yahoo 帳號登入</a>
+            </div>
+         </section>
+         <section class="text_box">
+            <p><a href="#"><span>回愛合購首頁</span></a></p>
+         </section>
+      </article>
+      <!--==========================帳號登入_結束==========================-->
+
+
+   </main>
+   <!--==========================footer_開始==========================-->
+   <footer>
+      <p class="text_ch">愛合購股份有限公司版權所有</p>
+      <p class="text_en">Copyright © 2007-2015 ihergo Inc. All Rights Reserved.</p>
+   </footer>
+   <!--==========================footer__結束==========================-->
+
+   <!-- ==================== 忘記密碼POPUP_開始 ==================== -->
+   <div class="popup_window forget_Popup_content">
+      <div class="popup_window2 forget_code_box">
+         <div class="popup_title">
+            <h4>忘記帳號密碼</h4>
+            <a class="popup_cancel_btn" href="#"></a>
+            <br class="CLEAR">
+         </div>
+         <div class="popup_main">
+            <div class="new_email_box">
+               <p>請填寫您註冊帳號的E-mail，帳號密碼將會寄到您的信箱。</p>
+               <input type="text" value="" placeholder="請輸入E-mail">
+            </div>
+         </div>
+         <div class="popup_footer">
+            <a class="ok_btn" href="#">送出</a>
+         </div>
+      </div>
+   </div>
+   <!-- ==================== 忘記密碼POPUP_結束 ==================== -->
+</div>   
+</body>
+</html>
