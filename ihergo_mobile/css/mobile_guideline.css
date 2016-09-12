@@ -112,7 +112,7 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper .sub_header .search_bar .search_con a.prev_step_link i.ic_sub_header_arrow_left { width: 9px; height: 15px; background: url('../images/global/ic-sub-header-arrow-left@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; position: relative; top: calc((100% - 15px)/2); }
 
 /*輸入內容*/
-.wrapper .sub_header .search_bar .search_con input.search_text_field { height: 40px; border: 0; padding: 0 0 0 5px; font-size: 0.7778rem; /*14px*/ background: #ffffff; }
+.wrapper .sub_header .search_bar .search_con input.search_text_field { height: 40px; border: 0; padding: 0 0 0 5px; font-size: 0.8889rem; /*16px*/ background: #ffffff; }
 
 /*搜尋按鈕*/
 .wrapper .sub_header .search_bar .search_con a.search_btn { width: 26px; height: 26px; display: block; margin-top: 12px; float: left; }
