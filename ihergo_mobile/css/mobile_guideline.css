@@ -154,15 +154,15 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 /*選取按鈕 -  未選取*/
 .wrapper .card_product .select_btns a.grid_select_btn { width: 24px; height: 24px; background: transparent; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; display: block; }
 .wrapper .card_product .select_btns a.grid_select_btn:active { opacity: .15; }
-.wrapper .card_product .select_btns a.grid_select_btn i.ic_card_l_select { width: 24px; height: 24px; background: url('../images/global/ic-card-l-select@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
--moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15); border-radius: 50%;}
+.wrapper .card_product .select_btns a.grid_select_btn i.ic_card_l_select { width: 24px; height: 24px; background: url('../images/global/ic-card-l-select@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.15);
+box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.15); border-radius: 50%;}
 /*選取按鈕 -  已選取*/
 .wrapper .card_product .select_btns a.grid_selected_btn { width: 24px; height: 24px; background: transparent; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; display: none; }
 .wrapper .card_product .select_btns a.grid_selected_btn:active { opacity: .1; }
-.wrapper .card_product .select_btns a.grid_selected_btn i.ic_card_l_selected { width: 24px; height: 24px; background: url('../images/global/ic-card-l-selected@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
--moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15); border-radius: 50%;}
+.wrapper .card_product .select_btns a.grid_selected_btn i.ic_card_l_selected { width: 24px; height: 24px; background: url('../images/global/ic-card-l-selected@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.15);
+box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.15); border-radius: 50%;}
 
 /* card_product_select 已選狀態 */
 .wrapper .card_product.card_product_select { width: calc(100% - 6px); height: calc(100% - 6px); border: solid 3px var(--ihergo_brand_blue); }
