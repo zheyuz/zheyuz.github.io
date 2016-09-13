@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>我要開團</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+      <link rel="stylesheet" href="../css/jqm-datebox-1.4.5.css" />
+      <link href="../css/layout.css" rel="stylesheet" type="text/css">
+      <!--<link href="../css/event.css" rel="stylesheet" type="text/css"> -->
+      <link rel="stylesheet" href="../css/mobile_guideline.css">
+      <link rel="stylesheet" href="../css/start_event.css">
+      <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+      <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script> 
+      <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js"></script>     
+      <script type="text/javascript" src="../js/jqm-datebox-1.4.5.min.js"></script>
+      <script type="text/javascript">
+         jQuery.extend(jQuery.mobile,
+         {
+           ajaxEnabled: false
+         });
+      </script>
+      <!-- go to Top -->
+      <script type="text/javascript">
+         $(function(){
+          $("#go_top").click(function(){
+            jQuery("html,body").animate({
+              scrollTop:0
+            },1000);
+          });
+          $(window).scroll(function() {
+            if ( $(this).scrollTop() > 300){
+              $('#go_top').fadeIn("fast");
+            } else {
+              $('#go_top').stop().fadeOut("fast");
+            }
+          });
+         });
+      </script>
+      <!-- go to Top_END -->
+      <script type="text/javascript">
+         $(function(){
+         
+            //視窗捲動則Header fixed
+                    $(this).scroll(function() {
+                    var windowScrollTop=$(window).scrollTop(); //抓捲動數值
+                    if(windowScrollTop>=20){ //捲動數值超過Header(約180)
+                      $('.header_guideline').addClass('scroll');
+                    }else{
+              $('.header_guideline').removeClass('scroll');
+                    }
+                    });
+         
+                    // sub_header_dropdown_search 點下搜尋按鈕後
+                    $('.open_search_btn').click(function(){
+                      $('.search_con').show();
+                      $('.dropdown_bar').toggle();
+                      $('.search_bar').addClass('expand');
+                      $(this).nextAll().find('.search_con').toggle();
+                      $(this).hide();
+                    });
+                    // sub_header_dropdown_search 點下搜尋按鈕後
+                    $('.prev_step_link').click(function(){              
+                      $('.search_con').hide();
+                      $('.dropdown_bar').toggle();
+                      $('.search_bar').removeClass('expand');
+                      $(this).nextAll().find('.search_con').toggle();
+                      $('.open_search_btn').show();
+                      $('form.sub_header_searchbar')[0].reset();
+                    });
+                    // li.card_content 高度
+                    $('li.card_content').each(function(){
+                      var ObjectW=$(this).width();
+                      $(this).css('height',ObjectW);
+                    });
+                    // card_produc 商品卡片 切換選取
+                    $('.card_product').each(function(){
+                      $(this).find('.grid_select_btn').click(function(){
+                        $(this).parent().parent().toggleClass('card_product_select');
+                      });
+                      $(this).find('.grid_selected_btn').click(function(){
+                        $(this).parent().parent().toggleClass('card_product_select');
+                      });
+                    });
+
+                    // ul.card_grid_small 設定寬度
+                    $('.thumbnail_list_con').each(function(){
+                      //找出li單個寬度(含margin)
+                      var AllObjectW=$('.card_grid_small').find('li.card_content').outerWidth(true);
+                      //找出li總數量
+                      var AllObjectCount=$('.card_grid_small').find('li.card_content').length;
+                      //寬度*數量=ul寬度
+                      var GridWidth=parseInt(AllObjectW*AllObjectCount);
+                      $('.card_grid_small').css('width',GridWidth);
+                    });
+         })
+         $(window).resize(function(){
+                    // li.card_content 高度
+                    $('li.card_content').each(function(){
+                      var ObjectW=$(this).width();
+                      $(this).css('height',ObjectW);
+                    });   
+         });
+      </script>
+   </head>
+   <body>
+      <div class="wrapper" data-role="page">
+         <a id="go_top" class="gotop_btn" href="#"></a>
+         <!--header_close 關閉-->
+         <header class="header_guideline header_close" data-role="header" data-position="fixed">
+            <div class="header_container">
+               <span class="header_text">我要開團－設定商品</span>
+               <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
+            </div>
+         </header>
+         <div role="main" class="ui-content event_main">
+            <article class="main_content">
+               <!--合購商品設定-->
+               <div class="union_items_container">
+                  <div class="content_container">
+                     <!--商品清單-->
+                     <div class="items_grid_con">
+                        <ul class="card_grid">
+                           <!--新增商品-->
+                           <li class="card_content">
+                              <a href="#" class="add_new_item_btn">
+                                 <span class="btn_content">
+                                    <i class="ic_card_icon_add_new"></i>
+                                    <p>新增自訂商品</p>
+                                 </span>
+                              </a>
+                           </li>
+                           <li class="CLEAR"></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <!--推薦商品-->
+               <div class="items_recommendation">
+                 <div class="content_container">
+                  <span class="title">最多人團</span>
+                    <div class="thumbnail_list_con">
+                      <ul class="card_grid_small">
+                           <!--推薦商品列表-->
+                           <li class="card_content">
+                              <!--card_product_select 商品卡片-->
+                              <div class="card_product_small">
+                                 <!--商品圖片-->
+                                 <div class="product_img">
+                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469511602209.jpg" alt="">    
+                                 </div>
+                                 <!--商品文字-->
+                                 <div class="product_description_con">
+                                    <div class="content_box">
+                                       <span class="product_title">十勝生乳捲☆7條以上☆ 下單處</span>
+                                       <span class="product_price">原價 $ 500 / 特價 $ 320</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <!--推薦商品列表-->
+                           <li class="card_content">
+                              <!--card_product_select 商品卡片-->
+                              <div class="card_product_small">
+                                 <!--商品圖片-->
+                                 <div class="product_img">
+                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469504295664.jpg" alt="">    
+                                 </div>
+                                 <!--商品文字-->
+                                 <div class="product_description_con">
+                                    <div class="content_box">
+                                       <span class="product_title">亞尼克夢想村-★白葡萄圓舞曲6吋★☆7件以上☆下單處</span>
+                                       <span class="product_price">原價 $ 500 / 特價 $ 320</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <!--推薦商品列表-->
+                           <li class="card_content">
+                              <!--card_product_select 商品卡片-->
+                              <div class="card_product_small">
+                                 <!--商品圖片-->
+                                 <div class="product_img">
+                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469505291098.jpg" alt="">    
+                                 </div>
+                                 <!--商品文字-->
+                                 <div class="product_description_con">
+                                    <div class="content_box">
+                                       <span class="product_title">【亞尼克】十勝生乳捲-雙捲禮盒(含芋頭x1)☆7件以上☆下單處</span>
+                                       <span class="product_price">原價 $ 500 / 特價 $ 320</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <!--推薦商品列表-->
+                           <li class="card_content">
+                              <!--card_product_select 商品卡片-->
+                              <div class="card_product_small">
+                                 <!--商品圖片-->
+                                 <div class="product_img">
+                                    <img src="http://photo.ihergo.com/photo/product/11/300_11_1469419854106.jpg" alt="">    
+                                 </div>
+                                 <!--商品文字-->
+                                 <div class="product_description_con">
+                                    <div class="content_box">
+                                       <span class="product_title">木飯桶三層布丁</span>
+                                       <span class="product_price">原價 $ 500 / 特價 $ 320</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <!--推薦商品列表-->
+                           <li class="card_content">
+                              <!--card_product_select 商品卡片-->
+                              <div class="card_product_small">
+                                 <!--商品圖片-->
+                                 <div class="product_img">
+                                    <img src="http://photo.ihergo.com/photo/product/11/300_11_1473127347084.jpg" alt="">    
+                                 </div>
+                                 <!--商品文字-->
+                                 <div class="product_description_con">
+                                    <div class="content_box">
+                                       <span class="product_title">麻油猴頭杏鮑菇</span>
+                                       <span class="product_price">原價 $ 500 / 特價 $ 320</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li class="CLEAR"></li>
+                    </ul>
+                    </div>
+                 </div>
+               </div>
+            </article>
+            <!--下一步按鈕-->
+            <div class="bottom_container">
+               <!--bottom_page_footer 頁面置底按鈕-->
+               <a href="#" class="bottom_page_footer">下一步</a>
+            </div>
+         </div>
+         <!-- /content -->
+         <!-- 左側滑出選單_開始 -->
+         <div class="panel_navi" data-role="panel" id="bars">
+         </div>
+         <!-- 左側滑出選單_結束 -->
+      </div>
+      <!-- /page -->
+   </body>
+</html>

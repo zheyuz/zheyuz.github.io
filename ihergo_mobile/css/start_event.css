@@ -1,18 +1,25 @@
 @charset "UTF-8";
-.wrapper .event_main .union_items_container { width: 100%; max-width: var(--max_w); background: var(--gray_FC); }
-.wrapper .event_main .union_items_container .content_container { padding: 18px 0; }
-.wrapper .event_main .union_items_container .content_container .items_tool_bar { }
-.wrapper .event_main .union_items_container .content_container .items_tool_bar .select_all_btn { width: 114px; height: 30px; border-radius: 4px; background: url('../images/start_event/ic-btn-s-choose-all@2x.png') var(--ihergo_brand_blue) no-repeat; background-size: 11px auto; background-position: 11px 50%; display: inline-block; text-align: center; text-decoration: none; text-indent: 11px; font-size: 0.6667rem; /*12px*/ color: #ffffff; line-height: 30px }
-.wrapper .event_main .union_items_container .content_container .items_tool_bar .cancel_all_btn { width: 114px; height: 30px; border-radius: 4px; background: url('../images/start_event/ic-btn-s-cancel-all@2x.png') var(--alert_red) no-repeat; background-size: 11px auto; background-position: 11px 50%; display: block; text-align: center; text-decoration: none; text-indent: 12px; font-size: 0.6667rem; /*12px*/ color: #ffffff; line-height: 30px }
-.wrapper .event_main .union_items_container .content_container .items_tool_bar .item_summary_text { font-size: 0.7222rem;/*13px*/ color: var(--gray_888); line-height: 30px; display: inline-block; float: right; }
-.wrapper .event_main .union_items_container .content_container .items_grid_con { margin-top: 18px; margin-bottom:50px; }
-.wrapper .event_main .union_items_container .content_container .items_grid_con ul.card_grid { min-width: 288px; margin: 0 auto; }
-.wrapper .event_main .union_items_container .content_container .items_grid_con ul.card_grid li.card_content { width: 48%; list-style: none; display: block; margin: 0 4% 20px 0; float: left; }
-.wrapper .event_main .union_items_container .content_container .items_grid_con ul.card_grid li.card_content:nth-of-type(2n) { margin-right: 0; }
+.wrapper .event_main article.main_content .union_items_container { width: 100%; height: 100%; max-width: var(--max_w); background: var(--gray_FC); }
+.wrapper .event_main article.main_content .union_items_container .content_container { padding: 18px 0; }
+.wrapper .event_main article.main_content .union_items_container .content_container .items_tool_bar { }
+.wrapper .event_main article.main_content .union_items_container .content_container .items_tool_bar .select_all_btn { width: 114px; height: 30px; border-radius: 4px; background: url('../images/start_event/ic-btn-s-choose-all@2x.png') var(--ihergo_brand_blue) no-repeat; background-size: 11px auto; background-position: 11px 50%; display: inline-block; text-align: center; text-decoration: none; text-indent: 11px; font-size: 0.6667rem; /*12px*/ color: #ffffff; line-height: 30px }
+.wrapper .event_main article.main_content .union_items_container .content_container .items_tool_bar .cancel_all_btn { width: 114px; height: 30px; border-radius: 4px; background: url('../images/start_event/ic-btn-s-cancel-all@2x.png') var(--alert_red) no-repeat; background-size: 11px auto; background-position: 11px 50%; display: block; text-align: center; text-decoration: none; text-indent: 12px; font-size: 0.6667rem; /*12px*/ color: #ffffff; line-height: 30px }
+.wrapper .event_main article.main_content .union_items_container .content_container .items_tool_bar .item_summary_text { font-size: 0.7222rem;/*13px*/ color: var(--gray_888); line-height: 30px; display: inline-block; float: right; }
+.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con { margin-top: 18px; margin-bottom:50px; }
+.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid { min-width: 288px; margin: 0 auto; }
+.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content { width: 48%; list-style: none; display: block; margin: 0 4% 20px 0; float: left; }
+.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content:nth-of-type(2n) { margin-right: 0; }
 
 /*新增自訂商品按鈕*/
-.wrapper .event_main .union_items_container .content_container .items_grid_con ul.card_grid li.card_content a.add_new_item_btn { width: 100%; height: 100%; border-radius: 5px; background: var(--gray_DF); display: block; text-decoration: none; position: relative; }
-.wrapper .event_main .union_items_container .content_container .items_grid_con ul.card_grid li.card_content a:active.add_new_item_btn { background: #CCCCCC; }
-.wrapper .event_main .union_items_container .content_container .items_grid_con ul.card_grid li.card_content a.add_new_item_btn .btn_content { width: 100%; height: 76px; position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin: auto; text-align: center; }
-.wrapper .event_main .union_items_container .content_container .items_grid_con ul.card_grid li.card_content a.add_new_item_btn .btn_content i.ic_card_icon_add_new { width: 47px; height: 47px; background: url('../images/global/ic-card-icon-add-new@2x.png') no-repeat; background-size: cover; display: block; margin: auto; }
-.wrapper .event_main .union_items_container .content_container .items_grid_con ul.card_grid li.card_content a.add_new_item_btn .btn_content p { font-size: 0.7778rem; /*14px*/ font-weight: bold; color: #ffffff; margin-top: 11px; }
+.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content a.add_new_item_btn { width: 100%; height: 100%; border-radius: 5px; background: var(--gray_DF); display: block; text-decoration: none; position: relative; }
+.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content a:active.add_new_item_btn { background: #CCCCCC; }
+.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content a.add_new_item_btn .btn_content { width: 100%; height: 76px; position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin: auto; text-align: center; }
+.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content a.add_new_item_btn .btn_content i.ic_card_icon_add_new { width: 47px; height: 47px; background: url('../images/global/ic-card-icon-add-new@2x.png') no-repeat; background-size: cover; display: block; margin: auto; }
+.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content a.add_new_item_btn .btn_content p { font-size: 0.7778rem; /*14px*/ font-weight: bold; color: #ffffff; margin-top: 11px; }
+
+/*推薦商品*/
+.wrapper .event_main article.main_content .items_recommendation { width: 100%; position: absolute; bottom: 36px; }
+.wrapper .event_main article.main_content .items_recommendation span.title { width: 100%; display: block; font-size: 0.7778rem; /*14px*/ font-weight: bold; color: var(--gray_555); }
+.wrapper .event_main article.main_content .items_recommendation .content_container .thumbnail_list_con { width: 100%; overflow-x: auto; }
+.wrapper .event_main article.main_content .items_recommendation .content_container ul.card_grid_small { height: 135px; margin-left: -5px; margin-top: 18px; }
+.wrapper .event_main article.main_content .items_recommendation .content_container ul.card_grid_small li.card_content { width: 130px; list-style: none; display: block; margin: 0 15px 0 0; float: left; }
