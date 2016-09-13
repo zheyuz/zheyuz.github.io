@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>我要開團</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+      <link rel="stylesheet" href="../css/jqm-datebox-1.4.5.css" />
+      <link href="../css/layout.css" rel="stylesheet" type="text/css">
+      <!--<link href="../css/event.css" rel="stylesheet" type="text/css"> -->
+      <link rel="stylesheet" href="../css/mobile_guideline.css">
+      <link rel="stylesheet" href="../css/start_event.css">
+      <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+      <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script> 
+      <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js"></script>     
+      <script type="text/javascript" src="../js/jqm-datebox-1.4.5.min.js"></script>
+      <script type="text/javascript">
+         jQuery.extend(jQuery.mobile,
+         {
+           ajaxEnabled: false
+         });
+      </script>
+      <!-- go to Top -->
+      <script type="text/javascript">
+         $(function(){
+          $("#go_top").click(function(){
+            jQuery("html,body").animate({
+              scrollTop:0
+            },1000);
+          });
+          $(window).scroll(function() {
+            if ( $(this).scrollTop() > 300){
+              $('#go_top').fadeIn("fast");
+            } else {
+              $('#go_top').stop().fadeOut("fast");
+            }
+          });
+         });
+      </script>
+      <!-- go to Top_END -->
+      <script type="text/javascript">
+         $(function(){
+            //視窗捲動則Header fixed
+                    $(this).scroll(function() {
+                    var windowScrollTop=$(window).scrollTop(); //抓捲動數值
+                    if(windowScrollTop>=20){ //捲動數值超過Header(約180)
+                      $('.header_guideline').addClass('scroll');
+                    }else{
+                      $('.header_guideline').removeClass('scroll');
+                    }
+                    });
+
+                     // li.card_content 高度
+                    $('.item_slider_con').each(function(){
+                      var ObjectW=$(this).width();
+                      $(this).css('height',ObjectW);
+                    });
+         });
+      </script>
+   </head>
+   <body>
+      <div class="wrapper" data-role="page">
+         <a id="go_top" class="gotop_btn" href="#"></a>
+          <!--header_close_white 關閉(白)-->
+          <header class="header_guideline header_close_white" data-role="header" data-position="fixed">
+             <div class="header_container">
+                <span class="header_text">我要開團－設定商品</span>
+                <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
+             </div>
+          </header>
+         <div role="main" class="ui-content event_main">
+            <article class="main_content">
+            <!--商品Slider-->
+            <div class="item_slider_con">
+              aaa
+            </div>
+            </article>
+         </div>
+         <!-- /content -->
+         <!-- 左側滑出選單_開始 -->
+         <div class="panel_navi" data-role="panel" id="bars">
+         </div>
+         <!-- 左側滑出選單_結束 -->
+      </div>
+      <!-- /page -->
+   </body>
+</html>

@@ -113,7 +113,12 @@
                <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
             </div>
          </header>
-         <div role="main" class="ui-content event_main">
+         <script>
+         $(function(){
+          $('.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper').css('height','100%');
+         });
+         </script> 
+         <div role="main" class="ui-content event_main full_page">
             <article class="main_content">
                <!--合購商品設定-->
                <div class="union_items_container">
@@ -140,11 +145,11 @@
                  <div class="content_container">
                   <span class="title">最多人團</span>
                  </div>
-                                     <div class="thumbnail_list_con">
+               <div class="thumbnail_list_con">
                       <ul class="card_grid_small">
                            <!--推薦商品列表-->
                            <li class="card_content">
-                              <!--card_product_select 商品卡片-->
+                              <!--card_product_small 商品卡片-->
                               <div class="card_product_small">
                                  <!--商品圖片-->
                                  <div class="product_img">
