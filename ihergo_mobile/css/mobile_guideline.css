@@ -64,12 +64,12 @@ input[type="text"]{
 
 /*關閉按鈕*/
 .wrapper .header_guideline .header_container a.close_btn { width: 26px; height: 26px; position: absolute; top: calc((100% - 28px)/2); right: 13px; display: block; -webkit-transition: all .2s ease; -moz-transition: all .2s ease; -ms-transition: all .2s ease; -o-transition: all .2s ease; transition: all .2s ease; }
-.wrapper .header_guideline .header_container a.close_btn:active { opacity: .15; }
+.wrapper .header_guideline .header_container a.close_btn:active { opacity: .15; background: transparent !important;}
 .wrapper .header_guideline .header_container a.close_btn i.ic_header_close { width: 15px; height: 15px; background: url('../images/global/ic-header-close@2x.png') no-repeat; background-size: 15px auto; background-position: 50%; display: block; margin: 0 auto; position: relative; top: calc((100% - 15px)/2); }
 
 /*返回按鈕*/
 .wrapper .header_guideline .header_container a.back_btn { width: 26px; height: 26px; position: absolute; top: calc((100% - 28px)/2); left: 13px; display: block; -webkit-transition: all .2s ease; -moz-transition: all .2s ease; -ms-transition: all .2s ease; -o-transition: all .2s ease; transition: all .2s ease; }
-.wrapper .header_guideline .header_container a.back_btn:active { opacity: .15; }
+.wrapper .header_guideline .header_container a.back_btn:active { opacity: .15; background: transparent !important;}
 .wrapper .header_guideline .header_container a.back_btn i.ic_header_arrow_left { width: 11px; height: 20px; background: url('../images/global/ic-header-arrow-left@2x.png') no-repeat; background-size: 11px auto; background-position: 48% 50%; display: block; margin: 0 auto; position: relative; top: calc((100% - 20px)/2); }
 
 /* header-close 關閉 */
@@ -84,6 +84,7 @@ input[type="text"]{
 /* header-close-white 關閉(白) */
 .wrapper .header_guideline.header_close_white { background-color: white !important; border-bottom: 1px solid var(--gray_E5); }
 .wrapper .header_close_white.scroll { background: rgba(255, 255, 255, .95) !important; }
+
 
 .wrapper article.main_content { width: 100%; height: calc(100% - 62px); position: relative; }
 /***--------------- Sub-header樣式組合 ---------------***/
