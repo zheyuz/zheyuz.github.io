@@ -1,4 +1,12 @@
 @charset "UTF-8";
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper{
+	height: 100%;
+}
+.ui-content{
+	width: 100%;
+	height:100%;
+}
+
 .wrapper .event_main article.main_content .union_items_container { width: 100%; height: 100%; max-width: var(--max_w); background: var(--gray_FC); }
 .wrapper .event_main article.main_content .union_items_container .content_container { padding: 18px 0; }
 .wrapper .event_main article.main_content .union_items_container .content_container .items_tool_bar { }
