@@ -29,16 +29,24 @@ ihergo Mobile Guideline
 	--gray_FC:#FCFCFC;
 	/*gray-DF*/
 	--gray_DF:#DFDFDF;
+	/*gray-F7*/
+	--gray_F7:#F7F7F7;
 
 
 	/*--- Width ---*/
 	/*最大寬度*/
 	--max_w:600px;
+	/*Header高度*/
+	--header_h:55px;
 }
 /*--- 內容最大寬度 ---*/
 .content_container{
 	width:90%;
 	margin:0 auto;
+}
+.top_fix{
+margin-top:-57px;/*header height*/
+width: 100%;
 }
 /*--- Input ---*/
 input[type="text"]{
@@ -59,9 +67,17 @@ input[type="text"]{
 }
 
 /***--------------- Header樣式組合 ---------------***/
-.wrapper .header_guideline { width: 100%; max-width: var(--max_w); height: 55px; margin: 0 auto; border-bottom: 0; text-align: center; line-height: 55px; font-size: 1rem; font-weight: bold; color: var(--gray_3F) !important; }
+.wrapper .header_guideline { width: 100%; max-width: var(--max_w); height: var(--header_h); margin: 0 auto; border-bottom: 0; text-align: center; line-height: 55px; font-size: 1rem; font-weight: bold; color: var(--gray_3F) !important; }
 .wrapper .header_guideline .header_container { width: 100%; height: 100%; position: relative; }
-
+.wrapper .header_guideline .header_container .header_text{
+	width:80%;
+	height: var(--header_h);
+	line-height: var(--header_h);
+	margin: 0 auto;
+	overflow: hidden;
+	white-space: nowrap; 
+	text-overflow: ellipsis; 
+}
 /*關閉按鈕*/
 .wrapper .header_guideline .header_container a.close_btn { width: 26px; height: 26px; position: absolute; top: calc((100% - 28px)/2); right: 13px; display: block; -webkit-transition: all .2s ease; -moz-transition: all .2s ease; -ms-transition: all .2s ease; -o-transition: all .2s ease; transition: all .2s ease; }
 .wrapper .header_guideline .header_container a.close_btn:active { opacity: .15; background: transparent !important;}
@@ -84,6 +100,13 @@ input[type="text"]{
 /* header-close-white 關閉(白) */
 .wrapper .header_guideline.header_close_white { background-color: white !important; border-bottom: 1px solid var(--gray_E5); }
 .wrapper .header_close_white.scroll { background: rgba(255, 255, 255, .95) !important; }
+
+/* header-close-white hero-banner 關閉(白 Hero內容 ) */
+.wrapper .header_close_white.hero_banner { width: 100%; background: rgba(255, 255, 255, .8) !important; opacity: 0; backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); -webkit-transition: all .5s; -moz-transition: all .5s; -ms-transition: all .5s; -o-transition: all .5s; transition: all .5s; }
+.wrapper .header_close_white.hero_banner .header_container { display: none; }
+.wrapper .hero_banner.scroll { opacity: 1; }
+.wrapper .hero_banner.scroll .header_container { display: block; }
+
 
 
 .wrapper article.main_content { width: 100%; height: calc(100% - 62px); position: relative; }
