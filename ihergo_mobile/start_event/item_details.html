@@ -81,6 +81,12 @@
                       var GridWidth=parseInt(AllObjectW*AllObjectCount);
                       $('.hero_img_pager_con').css('width',GridWidth);
                     });
+                    // bottom_container 置中
+                    $('.bottom_container').each(function(){
+                      var ObjectW=$(this).width();
+                      var CenterPosition=parseInt(-(ObjectW/2));
+                      $(this).css('margin-left',CenterPosition);
+                    });
          });
          $(window).resize(function(){
                     // 修正頁面body, .wrapper高度(此頁內容提高57px)
@@ -108,6 +114,12 @@
                       var AllObjectCount=$('.hero_img_con').find('li.img_list').length;
                       var GridWidth=parseInt(AllObjectW*AllObjectCount);
                       $('.hero_img_con').css('width',GridWidth);
+                    });
+                    // bottom_container 置中
+                    $('.bottom_container').each(function(){
+                      var ObjectW=$(this).width();
+                      var CenterPosition=parseInt(-(ObjectW/2));
+                      $(this).css('margin-left',CenterPosition);
                     });
          });
       </script>
@@ -206,12 +218,12 @@
                </div>
              </div>
             </article>
-            <!--下一步按鈕-->
-<!--             <div class="bottom_container">
-               bottom_page_footer 頁面置底按鈕
-               <a href="#" class="bottom_page_footer">下一步</a>
-            </div> -->
          </div>
+            <!--下一步按鈕-->
+            <div class="bottom_container">
+               <!-- bottom_page_footer 頁面置底按鈕 -->
+               <a href="#" class="bottom_page_footer">下一步</a>
+            </div>
          <!-- /content -->
          <!-- 左側滑出選單_開始 -->
          <div class="panel_navi" data-role="panel" id="bars">
