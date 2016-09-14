@@ -212,6 +212,9 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .card_product_small .product_description_con .content_box .product_price { width: 100%; height: 12px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 0.5556rem; /*10px*/ color: #ffffff; }
 
 /***--------------- Footer 樣式組合 ---------------***/
-.wrapper .bottom_container { width: 100%; max-width:var(--max_w); height: 62px; position: fixed; bottom: 0; left:50%; z-index: 999; }
+.wrapper .bottom_container { width: 100%; max-width:var(--max_w); height: 62px; position: fixed; bottom: 0; z-index: 999; }
+.wrapper .bottom_container.modal{
+	left:50%;
+}
 .wrapper .bottom_container a.bottom_page_footer { width: 100%; height: 62px; line-height: 62px; background-color: var(--ihergo_brand_blue); border: 0; color: #ffffff; font-size: 0.8889rem;/*16px*/ font-weight: bold; text-align: center; text-decoration: none; display: block; }
 .wrapper .bottom_container a:active.bottom_page_footer { background-color: #4abee8; }
