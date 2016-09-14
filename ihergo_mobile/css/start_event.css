@@ -56,7 +56,7 @@
 .wrapper .item_details article.main_content .header_hero_container ul.hero_img_pager_con li.pager_list a.pager_element .circular.current { opacity: 1; border: 1px solid var(--gray_3F); }
 
 /*商品內容*/
-.wrapper .item_details article.main_content .item_details_container { width: 90%; margin: 0 auto; }
+.wrapper .item_details article.main_content .item_details_container { width: 90%; margin: 0 auto 50px auto; }
 .wrapper .item_details article.main_content .item_details_container .item_details_head { width: 100%; margin-bottom: 12px; }
 .wrapper .item_details article.main_content .item_details_container .item_details_head span.item_name { width: 90%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; padding: 20px 0 12px 0; display: block; font-size: 1rem;/*18px*/ font-weight: bold; line-height: 1.3; color: #454545; }
 .wrapper .item_details article.main_content .item_details_container .item_details_head ul.item_details_list { }
@@ -73,7 +73,7 @@
 	font-size:  0.6667rem;/*12px*/
 	line-height: 1.7;
 	color: var(--gray_888);
-	padding-bottom:1px;
+	padding-bottom:55px;
 }
 .wrapper .item_details article.main_content .item_details_container .item_details_footer .footer_content_con{
 	width:100%;
