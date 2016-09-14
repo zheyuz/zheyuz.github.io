@@ -50,7 +50,7 @@
                     //視窗捲動則Header fixed
                     $(this).scroll(function() {
                     var windowScrollTop=$(window).scrollTop(); //抓捲動數值
-                    if(windowScrollTop>=50){ //捲動數值超過Header(約180)
+                    if(windowScrollTop>=1){ //捲動數值超過Header(約180)
                       $('.header_guideline').addClass('scroll');
                     }else{
                       $('.header_guideline').removeClass('scroll');
@@ -125,7 +125,6 @@
          <script>
          $(function(){
           $('.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper').addClass('top_fix');
-          $('.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper').css('height','100%');
          });
          </script> 
          <div role="main" class="ui-content event_main item_details full_page">
@@ -183,16 +182,26 @@
                <div class="divider"></div>
                <!--腳：類別、網址-->
                <div class="item_details_footer">
-                <div class="list_title">類別：</div>
-                <div class="list_content">
-                  <ul class="type_container">
-                    <li class="type"></li>
-                    <li class="type"></li>
-                    <li class="type"></li>
-                  </ul>
+                <div class="footer_content_con">
+                  <div class="list_title">類別：</div>
+                  <div class="list_content">
+                    <ul class="type_container">
+                      <li class="type">熱銷美食</li>
+                      <li class="ic_triangle_arrow_right"></li>
+                      <li class="type">小吃特產</li>
+                      <li class="ic_triangle_arrow_right"></li>
+                      <li class="type">傳統小吃</li>
+                      <li class="CLEAR"></li>
+                    </ul>
+                  </div>
+                <div class="CLEAR"></div>        
                 </div>
-                <div class="list_title"></div>
-                <div class="list_content"></div>
+                <div class="footer_content_con">
+                  <div class="list_title">網址：</div>
+                  <div class="list_content">
+                    <a href="#" class="product_link" target="new">http://www.ihergo.com/store/yannickwu/ product/no1322615</a>
+                  </div>
+                </div>
                 <div class="CLEAR"></div>
                </div>
              </div>
