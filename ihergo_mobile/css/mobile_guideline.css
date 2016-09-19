@@ -65,6 +65,16 @@ input[type="text"]{
 ::-moz-placeholder { /* Firefox 18- */
 	color:var(--gray_C3) !important;
 }
+/*--- Radio Button/Checkbox 修正 ---*/
+input[type=radio],
+input[type=checkbox] {
+	display: none;
+}
+label:before {
+	content: "";
+	display: inline-block;
+	cursor: pointer;
+}
 
 /***--------------- Header樣式組合 ---------------***/
 .wrapper .header_guideline { width: 100%; max-width: var(--max_w); height: var(--header_h); margin: 0 auto; border-bottom: 0; text-align: center; line-height: var(--header_h); font-size: 1rem; font-weight: bold; color: var(--gray_3F) !important; }
@@ -177,15 +187,15 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .card_product .product_description_con .content_box .product_price { width: 100%; height: 12px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 0.6111rem; /*11px*/ color: #ffffff; }
 .wrapper article.main_content .card_product .select_btns { width: 24px; height: 24px; position: absolute; top: 10px; right: 10px; display: block; }
 
-/*選取按鈕 -  未選取*/
-.wrapper article.main_content .card_product .select_btns a.grid_select_btn { width: 24px; height: 24px; background: transparent; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; display: block; }
-.wrapper article.main_content .card_product .select_btns a.grid_select_btn:active { opacity: .15; }
-.wrapper article.main_content .card_product .select_btns a.grid_select_btn i.ic_card_l_select { width: 24px; height: 24px; background: url('../images/global/ic-card-l-select@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); border-radius: 50%; }
-
+/*選取按鈕  jQuery Mobile 修正*/
+.wrapper article.main_content .card_product .select_btns .ui-checkbox { margin: 0; }
+.wrapper article.main_content .card_product .select_btns label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off { border: 0; padding: 0; background: transparent; border: 0; padding: 0; background: transparent; margin-left: -10px; }
+.wrapper article.main_content .card_product .select_btns label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on { border: 0; padding: 0; background: transparent; }
 /*選取按鈕 -  已選取*/
-.wrapper article.main_content .card_product .select_btns a.grid_selected_btn { width: 24px; height: 24px; background: transparent; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; display: none; }
-.wrapper article.main_content .card_product .select_btns a.grid_selected_btn:active { opacity: .1; }
-.wrapper article.main_content .card_product .select_btns a.grid_selected_btn i.ic_card_l_selected { width: 24px; height: 24px; background: url('../images/global/ic-card-l-selected@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); border-radius: 50%; }
+.wrapper article.main_content .card_product .select_btns label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on:after { width: 24px; height: 24px; background: url('../images/global/ic-card-l-selected@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); border-radius: 50%; position: relative; top: -20px; left: 0px; }
+/*選取按鈕 -  未選取*/
+.wrapper article.main_content .card_product .select_btns label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 24px; height: 24px; background: url('../images/global/ic-card-l-select@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); border-radius: 50%; opacity: 1; position: relative; top: -20px; left: 5px; }
+
 
 /* card_product_select 已選狀態 */
 .wrapper article.main_content .card_product.card_product_select { width: calc(100% - 6px); height: calc(100% - 6px); border: solid 3px var(--ihergo_brand_blue); }
@@ -193,12 +203,6 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .card_product.card_product_select .product_img img { border-radius: 3px; }
 .wrapper article.main_content .card_product.card_product_select .product_img:before { content: ''; width: 100%; height: 100%; position: absolute; background: var(--ihergo_brand_blue); opacity: .4; }
 .wrapper article.main_content .card_product.card_product_select .product_description_con { border-radius: 0 0 5px 5px; width: calc(100% + 6px); position: absolute; left: -3px; bottom: -3px; background-color: rgba(84, 73, 77, 0.65); border-radius: 0 0 5px 5px; color: #ffffff; }
-
-/*選取按鈕 -  未選取*/
-.wrapper article.main_content .card_product.card_product_select .select_btns a.grid_select_btn { width: 24px; height: 24px; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; display: none; }
-
-/*選取按鈕 -  已選取*/
-.wrapper article.main_content .card_product.card_product_select .select_btns a.grid_selected_btn { width: 24px; height: 24px; background: transparent; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; display: block; }
 
 /* card_product_small */
 .wrapper article.main_content .card_product_small { width: 130px; height: 130px; border-radius: 5px; border: solid 3px transparent; position: relative; cursor: pointer; }
@@ -217,21 +221,12 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .card_img_action_btn .item_img { width: 100%; height: 100%; }
 .wrapper article.main_content .card_img_action_btn .item_img img { width: 100%; height: 100%; border-radius: 10px; }
 .wrapper article.main_content .card_img_action_btn .action_btn { width: 30px; height: 30px; position: absolute; top: 10px; right: 10px; }
-.wrapper article.main_content .card_img_action_btn .action_btn a.img_remove_btn { width: calc(100% - 2px); height: calc(100% - 2px); border-radius: 5px; background-color: rgba(0, 0, 0, 0.4); display: block; position: relative; }
+.wrapper article.main_content .card_img_action_btn .action_btn a.img_remove_btn { width: 100%; height: 100%; border-radius: 5px; background-color: rgba(0, 0, 0, 0.4); display: block; position: relative; }
 .wrapper article.main_content .card_img_action_btn .action_btn a.img_remove_btn:active { background-color: rgba(0, 0, 0, 0.6); }
 .wrapper article.main_content .card_img_action_btn .action_btn a.img_remove_btn i.ic_card_img_delete { width: 16px; height: 18px; background: url('../images/global/ic-card-img-delete@2x.png') no-repeat; background-size: 16px auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; display: block; }
 .wrapper article.main_content .card_img_action_btn span.tag {}
-.wrapper article.main_content .card_img_action_btn.cover .tag:before {
-	content:'封面照片';
-	background-color: rgba(0, 0, 0, 0.6);
-	position: absolute;
-	bottom: 10%;
-	left: 0;
-	font-size: 0.6111rem; /*11px*/
-	color: #ffffff;
-	padding: 4px 6px;
-	display: block;
-}
+.wrapper article.main_content .card_img_action_btn.cover .tag:before { content: '封面照片'; background-color: rgba(0, 0, 0, 0.6); position: absolute; bottom: 10%; left: 0; font-size: 0.6111rem; /*11px*/ color: #ffffff; padding: 4px 6px; display: block; }
+
 
 /***--------------- Footer 樣式組合 ---------------***/
 .wrapper .bottom_container { width: 100%; max-width:var(--max_w); height: 50px; position: fixed; bottom: 0; z-index: 999; }
