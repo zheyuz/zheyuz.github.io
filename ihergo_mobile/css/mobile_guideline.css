@@ -37,7 +37,7 @@ ihergo Mobile Guideline
 	/*最大寬度*/
 	--max_w:600px;
 	/*Header高度*/
-	--header_h:55px;
+	--header_h:50px;
 }
 /*--- 內容最大寬度 ---*/
 .content_container{
@@ -45,7 +45,7 @@ ihergo Mobile Guideline
 	margin:0 auto;
 }
 .top_fix{
-margin-top:-57px;/*header height*/
+margin-top:-52px;/*header height*/
 width: 100%;
 }
 /*--- Input ---*/
@@ -67,7 +67,7 @@ input[type="text"]{
 }
 
 /***--------------- Header樣式組合 ---------------***/
-.wrapper .header_guideline { width: 100%; max-width: var(--max_w); height: var(--header_h); margin: 0 auto; border-bottom: 0; text-align: center; line-height: 55px; font-size: 1rem; font-weight: bold; color: var(--gray_3F) !important; }
+.wrapper .header_guideline { width: 100%; max-width: var(--max_w); height: var(--header_h); margin: 0 auto; border-bottom: 0; text-align: center; line-height: var(--header_h); font-size: 1rem; font-weight: bold; color: var(--gray_3F) !important; }
 .wrapper .header_guideline .header_container { width: 100%; height: 100%; position: relative; }
 .wrapper .header_guideline .header_container .header_text{
 	width:80%;
