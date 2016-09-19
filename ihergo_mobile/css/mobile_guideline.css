@@ -102,7 +102,7 @@ input[type="text"]{
 .wrapper .header_close_white.scroll { background: rgba(255, 255, 255, .95) !important; }
 
 /* header-close-white hero-banner 關閉(白 Hero內容 ) */
-.wrapper .header_close_white.hero_banner { width: 100%; background: rgba(255, 255, 255, .95) !important; opacity: 1; backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); -webkit-transition: all .5s; -moz-transition: all .5s; -ms-transition: all .5s; -o-transition: all .5s; transition: all .5s; }
+.wrapper .header_close_white.hero_banner { width: 100%; background: rgba(255, 255, 255, .8) !important; opacity: 1; backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); -webkit-transition: all .5s; -moz-transition: all .5s; -ms-transition: all .5s; -o-transition: all .5s; transition: all .5s; }
 .wrapper .header_close_white.hero_banner .header_container { display: block; }
 .wrapper .hero_banner.scroll { opacity: 1; }
 .wrapper .hero_banner.scroll .header_container { display: block; }
