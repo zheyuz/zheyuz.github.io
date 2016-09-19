@@ -73,16 +73,7 @@
                     	var ObjectW=$(this).width();
                     	$(this).css('height',ObjectW);
                     });
-                    // card_produc 商品卡片 切換選取
-                    $('.card_product').each(function(){
-                    	$(this).find('.grid_select_btn').click(function(){
-                    		$(this).parent().parent().toggleClass('card_product_select');
-                    	});
-                    	$(this).find('.grid_selected_btn').click(function(){
-                    		$(this).parent().parent().toggleClass('card_product_select');
-                    	});
-                    });
-         })
+         });
          $(window).resize(function(){
                     // li.card_content 高度
                     $('li.card_content').each(function(){
@@ -163,10 +154,10 @@
                                  </div>
                                  <!--勾選按鈕-->
                                  <div class="select_btns">
-                                    <!--未選取-->
-                                    <a href="#" class="grid_select_btn"><i class="ic_card_l_select"></i></a>
-                                    <!--已選取-->
-                                    <a href="#" class="grid_selected_btn"><i class="ic_card_l_selected"></i></a>
+                                    <!--:checked 時, .card_product + .card_product_select, 
+                                    沒有則刪除 .card_product_select-->
+                                    <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check1" class="grid_select_checkbox" checked>
+                                    <label for="check1"></label>
                                  </div>
                               </div>
                            </li>
@@ -187,10 +178,10 @@
                                  </div>
                                  <!--勾選按鈕-->
                                  <div class="select_btns">
-                                    <!--未選取-->
-                                    <a href="#" class="grid_select_btn"><i class="ic_card_l_select"></i></a>
-                                    <!--已選取-->
-                                    <a href="#" class="grid_selected_btn"><i class="ic_card_l_selected"></i></a>
+                                    <!--:checked 時, .card_product + .card_product_select, 
+                                    沒有則刪除 .card_product_select-->
+                                    <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check2" class="grid_select_checkbox" checked>
+                                    <label for="check2"></label>
                                  </div>
                               </div>
                            </li>
@@ -211,10 +202,10 @@
                                  </div>
                                  <!--勾選按鈕-->
                                  <div class="select_btns">
-                                    <!--未選取-->
-                                    <a href="#" class="grid_select_btn"><i class="ic_card_l_select"></i></a>
-                                    <!--已選取-->
-                                    <a href="#" class="grid_selected_btn"><i class="ic_card_l_selected"></i></a>
+                                    <!--:checked 時, .card_product + .card_product_select, 
+                                    沒有則刪除 .card_product_select-->
+                                    <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check3" class="grid_select_checkbox">
+                                    <label for="check3"></label>
                                  </div>
                               </div>
                            </li>
@@ -235,10 +226,10 @@
                                  </div>
                                  <!--勾選按鈕-->
                                  <div class="select_btns">
-                                    <!--未選取-->
-                                    <a href="#" class="grid_select_btn"><i class="ic_card_l_select"></i></a>
-                                    <!--已選取-->
-                                    <a href="#" class="grid_selected_btn"><i class="ic_card_l_selected"></i></a>
+                                    <!--:checked 時, .card_product + .card_product_select, 
+                                    沒有則刪除 .card_product_select-->
+                                    <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check4" class="grid_select_checkbox" checked>
+                                    <label for="check4"></label>
                                  </div>
                               </div>
                            </li>
@@ -259,10 +250,10 @@
                                  </div>
                                  <!--勾選按鈕-->
                                  <div class="select_btns">
-                                    <!--未選取-->
-                                    <a href="#" class="grid_select_btn"><i class="ic_card_l_select"></i></a>
-                                    <!--已選取-->
-                                    <a href="#" class="grid_selected_btn"><i class="ic_card_l_selected"></i></a>
+                                    <!--:checked 時, .card_product + .card_product_select, 
+                                    沒有則刪除 .card_product_select-->
+                                    <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check5" class="grid_select_checkbox" checked>
+                                    <label for="check5"></label>
                                  </div>
                               </div>
                            </li>
