@@ -23,63 +23,63 @@
       <!-- go to Top -->
       <script type="text/javascript">
          $(function(){
-         	$("#go_top").click(function(){
-         		jQuery("html,body").animate({
-         			scrollTop:0
-         		},1000);
-         	});
-         	$(window).scroll(function() {
-         		if ( $(this).scrollTop() > 300){
-         			$('#go_top').fadeIn("fast");
-         		} else {
-         			$('#go_top').stop().fadeOut("fast");
-         		}
-         	});
+          $("#go_top").click(function(){
+            jQuery("html,body").animate({
+              scrollTop:0
+            },1000);
+          });
+          $(window).scroll(function() {
+            if ( $(this).scrollTop() > 300){
+              $('#go_top').fadeIn("fast");
+            } else {
+              $('#go_top').stop().fadeOut("fast");
+            }
+          });
          });
       </script>
       <!-- go to Top_END -->
       <script type="text/javascript">
          $(function(){
          
-         		//視窗捲動則Header fixed
+            //視窗捲動則Header fixed
                     $(this).scroll(function() {
                     var windowScrollTop=$(window).scrollTop(); //抓捲動數值
                     if(windowScrollTop>=20){ //捲動數值超過Header(約180)
-                    	$('.header_guideline').addClass('scroll');
+                      $('.header_guideline').addClass('scroll');
                     }else{
-         			$('.header_guideline').removeClass('scroll');
+              $('.header_guideline').removeClass('scroll');
                     }
                     });
          
                     // sub_header_dropdown_search 點下搜尋按鈕後
                     $('.open_search_btn').click(function(){
-                    	$('.search_con').show();
-                    	$('.dropdown_bar').toggle();
-                    	$('.search_bar').addClass('expand');
-                    	$(this).nextAll().find('.search_con').toggle();
-                    	$(this).hide();
+                      $('.search_con').show();
+                      $('.dropdown_bar').toggle();
+                      $('.search_bar').addClass('expand');
+                      $(this).nextAll().find('.search_con').toggle();
+                      $(this).hide();
                     });
                     // sub_header_dropdown_search 點下搜尋按鈕後
-                    $('.prev_step_link').click(function(){            	
-                    	$('.search_con').hide();
-                    	$('.dropdown_bar').toggle();
-                    	$('.search_bar').removeClass('expand');
-                    	$(this).nextAll().find('.search_con').toggle();
-                    	$('.open_search_btn').show();
-                    	$('form.sub_header_searchbar')[0].reset();
+                    $('.prev_step_link').click(function(){              
+                      $('.search_con').hide();
+                      $('.dropdown_bar').toggle();
+                      $('.search_bar').removeClass('expand');
+                      $(this).nextAll().find('.search_con').toggle();
+                      $('.open_search_btn').show();
+                      $('form.sub_header_searchbar')[0].reset();
                     });
                     // li.card_content 高度
                     $('li.card_content').each(function(){
-                    	var ObjectW=$(this).width();
-                    	$(this).css('height',ObjectW);
+                      var ObjectW=$(this).width();
+                      $(this).css('height',ObjectW);
                     });
          });
          $(window).resize(function(){
                     // li.card_content 高度
                     $('li.card_content').each(function(){
-                    	var ObjectW=$(this).width();
-                    	$(this).css('height',ObjectW);
-                    });		
+                      var ObjectW=$(this).width();
+                      $(this).css('height',ObjectW);
+                    });   
          });
       </script>
    </head>
@@ -89,7 +89,7 @@
          <!--header_close 關閉-->
          <header class="header_guideline header_close" data-role="header" data-position="fixed">
             <div class="header_container">
-               <span class="header_text">我要開團－設定商品</span>
+               <span class="header_text">建立合購商品</span>
                <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
             </div>
          </header>
@@ -143,7 +143,7 @@
                               <div class="card_product card_product_select">
                                  <!--商品圖片-->
                                  <div class="product_img">
-                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469511602209.jpg" alt="">		
+                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469511602209.jpg" alt="">    
                                  </div>
                                  <!--商品文字-->
                                  <div class="product_description_con">
@@ -155,7 +155,7 @@
                                  <!--勾選按鈕-->
                                  <div class="select_btns">
                                     <!--:checked 時, .card_product + .card_product_select, 
-                                    沒有則刪除 .card_product_select-->
+                                       沒有則刪除 .card_product_select-->
                                     <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check1" class="grid_select_checkbox" checked>
                                     <label for="check1"></label>
                                  </div>
@@ -167,7 +167,7 @@
                               <div class="card_product card_product_select">
                                  <!--商品圖片-->
                                  <div class="product_img">
-                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469506825125.jpg" alt="">		
+                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469506825125.jpg" alt="">    
                                  </div>
                                  <!--商品文字-->
                                  <div class="product_description_con">
@@ -179,7 +179,7 @@
                                  <!--勾選按鈕-->
                                  <div class="select_btns">
                                     <!--:checked 時, .card_product + .card_product_select, 
-                                    沒有則刪除 .card_product_select-->
+                                       沒有則刪除 .card_product_select-->
                                     <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check2" class="grid_select_checkbox" checked>
                                     <label for="check2"></label>
                                  </div>
@@ -191,7 +191,7 @@
                               <div class="card_product">
                                  <!--商品圖片-->
                                  <div class="product_img">
-                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469512024685.jpg" alt="">		
+                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469512024685.jpg" alt="">    
                                  </div>
                                  <!--商品文字-->
                                  <div class="product_description_con">
@@ -203,7 +203,7 @@
                                  <!--勾選按鈕-->
                                  <div class="select_btns">
                                     <!--:checked 時, .card_product + .card_product_select, 
-                                    沒有則刪除 .card_product_select-->
+                                       沒有則刪除 .card_product_select-->
                                     <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check3" class="grid_select_checkbox">
                                     <label for="check3"></label>
                                  </div>
@@ -215,7 +215,7 @@
                               <div class="card_product card_product_select">
                                  <!--商品圖片-->
                                  <div class="product_img">
-                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1460457743849.jpg" alt="">		
+                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1460457743849.jpg" alt="">    
                                  </div>
                                  <!--商品文字-->
                                  <div class="product_description_con">
@@ -227,7 +227,7 @@
                                  <!--勾選按鈕-->
                                  <div class="select_btns">
                                     <!--:checked 時, .card_product + .card_product_select, 
-                                    沒有則刪除 .card_product_select-->
+                                       沒有則刪除 .card_product_select-->
                                     <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check4" class="grid_select_checkbox" checked>
                                     <label for="check4"></label>
                                  </div>
@@ -239,7 +239,7 @@
                               <div class="card_product card_product_select">
                                  <!--商品圖片-->
                                  <div class="product_img">
-                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469507328981.jpg" alt="">		
+                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469507328981.jpg" alt="">    
                                  </div>
                                  <!--商品文字-->
                                  <div class="product_description_con">
@@ -251,7 +251,7 @@
                                  <!--勾選按鈕-->
                                  <div class="select_btns">
                                     <!--:checked 時, .card_product + .card_product_select, 
-                                    沒有則刪除 .card_product_select-->
+                                       沒有則刪除 .card_product_select-->
                                     <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check5" class="grid_select_checkbox" checked>
                                     <label for="check5"></label>
                                  </div>

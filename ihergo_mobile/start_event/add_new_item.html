@@ -23,30 +23,30 @@
       <!-- go to Top -->
       <script type="text/javascript">
          $(function(){
-         	$("#go_top").click(function(){
-         		jQuery("html,body").animate({
-         			scrollTop:0
-         		},1000);
-         	});
-         	$(window).scroll(function() {
-         		if ( $(this).scrollTop() > 300){
-         			$('#go_top').fadeIn("fast");
-         		} else {
-         			$('#go_top').stop().fadeOut("fast");
-         		}
-         	});
+          $("#go_top").click(function(){
+            jQuery("html,body").animate({
+              scrollTop:0
+            },1000);
+          });
+          $(window).scroll(function() {
+            if ( $(this).scrollTop() > 300){
+              $('#go_top').fadeIn("fast");
+            } else {
+              $('#go_top').stop().fadeOut("fast");
+            }
+          });
          });
       </script>
       <!-- go to Top_END -->
       <script type="text/javascript">
          $(function(){ 
-         		//視窗捲動則Header fixed
+            //視窗捲動則Header fixed
                     $(this).scroll(function() {
                     var windowScrollTop=$(window).scrollTop(); //抓捲動數值
                     if(windowScrollTop>=20){ //捲動數值超過Header(約180)
-                    	$('.header_guideline').addClass('scroll');
+                      $('.header_guideline').addClass('scroll');
                     }else{
-         			$('.header_guideline').removeClass('scroll');
+              $('.header_guideline').removeClass('scroll');
                     }
                     });
                     // ul.hero_img_con 設定寬度
@@ -72,82 +72,117 @@
    <body>
       <div class="wrapper" data-role="page">
          <a id="go_top" class="gotop_btn" href="#"></a>
-        <!--header_close_white 關閉(白)-->
-        <header class="header_guideline header_close_white" data-role="header" data-position="fixed">
-           <div class="header_container">
-              <span class="header_text">新增商品</span>
-              <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
-           </div>
-        </header>
+         <!--header_close_white 關閉(白)-->
+         <header class="header_guideline header_close_white" data-role="header" data-position="fixed">
+            <div class="header_container">
+               <span class="header_text">新增商品</span>
+               <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
+            </div>
+         </header>
          <div role="main" class="ui-content add_new_item">
             <article class="main_content">
-              <div class="form_container">
-                <!--上傳商品照片-->
-                <div class="upload_img_box">
-                  <ul class="card_grid">
-                    <!--最多只能放四張-->
-                    <!--新增圖片-->
-                    <li class="card_content">
-                      <a href="#" class="upload_img_btn">
-                        <span class="btn_content">
-                           <i class="ic_card_icon_add_img"></i>
-                           <p>新增圖片</p>
-                        </span>
-                      </a>
-                    </li>
-                    <!--圖片列表:第一張 +.cover-->
-                    <li class="card_content">
-                      <!--card_img_action_btn 圖片卡片-->
-                      <div class="card_img_action_btn cover">
-                        <div class="item_img">
-                          <img src="http://photo.ihergo.com/photo/product/07/300_838707_1466932766920.jpg" alt="">
+               <div class="form_container">
+                  <!--上傳商品照片-->
+                  <div class="upload_img_box">
+                     <ul class="card_grid">
+                        <!--最多只能放四張-->
+                        <!--新增圖片-->
+                        <li class="card_content">
+                           <a href="#" class="upload_img_btn">
+                              <span class="btn_content">
+                                 <i class="ic_card_icon_add_img"></i>
+                                 <p>新增圖片</p>
+                              </span>
+                           </a>
+                        </li>
+                        <!--圖片列表:第一張 +.cover-->
+                        <li class="card_content">
+                           <!--card_img_action_btn 圖片卡片-->
+                           <div class="card_img_action_btn cover">
+                              <div class="item_img">
+                                 <img src="http://photo.ihergo.com/photo/product/07/300_838707_1466932766920.jpg" alt="">
+                              </div>
+                              <div class="action_btn">
+                                 <a href="#" class="img_remove_btn">
+                                 <i class="ic_card_img_delete"></i>
+                                 </a>
+                              </div>
+                              <span class="tag"></span>
+                           </div>
+                        </li>
+                        <!--圖片列表-->
+                        <li class="card_content">
+                           <!--card_img_action_btn 圖片卡片-->
+                           <div class="card_img_action_btn">
+                              <div class="item_img">
+                                 <img src="http://photo.ihergo.com/photo/product/07/300_838707_1413008419609.jpg" alt="">
+                              </div>
+                              <div class="action_btn">
+                                 <a href="#" class="img_remove_btn">
+                                 <i class="ic_card_img_delete"></i>
+                                 </a>
+                              </div>
+                              <span class="tag"></span>
+                           </div>
+                        </li>
+                        <!--圖片列表-->
+                        <li class="card_content">
+                           <!--card_img_action_btn 圖片卡片-->
+                           <div class="card_img_action_btn">
+                              <div class="item_img">
+                                 <img src="http://photo.ihergo.com/photo/product/07/300_838707_1413008323684.jpg" alt="">
+                              </div>
+                              <div class="action_btn">
+                                 <a href="#" class="img_remove_btn">
+                                 <i class="ic_card_img_delete"></i>
+                                 </a>
+                              </div>
+                              <span class="tag"></span>
+                           </div>
+                        </li>
+                        <li class="CLEAR"></li>
+                     </ul>
+                  </div>
+                  <!--表格內容-->
+                  <div class="item_form_content">
+                    <!--.form_single_line_text_field 單行文字輸入框:商品網址-->
+                    <div class="form_single_line_text_field">
+                      <label>商品網址<small>(選填)</small></label>
+                      <input type="text" placeholder="填寫網址可自動帶入適合的圖片">
+                    </div>
+                    <!--.form_single_line_text_field 單行文字輸入框:商品名稱-->
+                    <div class="form_single_line_text_field">
+                      <label>商品名稱</label>
+                      <input type="text" placeholder="想合購的商品名稱">
+                    </div>
+                    <!--.form_single_line_text_field 單行文字輸入框:團購價-->
+                    <div class="form_single_line_text_field">
+                      <label>團購價</label>
+                      <input type="text" placeholder="商品的合購優惠價">
+                    </div>
+                    <!--.form_single_line_text_field 單行文字輸入框:原價-->
+                    <div class="form_single_line_text_field">
+                      <label>原價<small>(選填)</small></label>
+                      <input type="text" placeholder="填寫商品原始價格">
+                    </div>
+                    <!--.form_single_line_text_field 單行文字輸入框:商品描述-->
+                    <div class="form_text_field_combination no_arrow">
+                      <label>商品描述</label>
+                      <div class="container">
+                        <div class="left">
+                          <textarea rows="2" cols="50" placeholder="介紹一下這件商品
+例如材料、材質等等"></textarea>
                         </div>
-                        <div class="action_btn">
-                          <a href="#" class="img_remove_btn">
-                            <i class="ic_card_img_delete"></i>
+                        <div class="right">
+                          <a href="#" class="arrow_right_btn">
+                            <i class="ic_arrow_right"></i>
                           </a>
                         </div>
-                        <span class="tag"></span>
+                        <div class="CLEAR"></div>
                       </div>
-                    </li>
-                    <!--圖片列表-->
-                    <li class="card_content">
-                      <!--card_img_action_btn 圖片卡片-->
-                      <div class="card_img_action_btn">
-                        <div class="item_img">
-                          <img src="http://photo.ihergo.com/photo/product/07/300_838707_1413008419609.jpg" alt="">
-                        </div>
-                        <div class="action_btn">
-                          <a href="#" class="img_remove_btn">
-                            <i class="ic_card_img_delete"></i>
-                          </a>
-                        </div>
-                        <span class="tag"></span>
-                      </div>
-                    </li>
-                    <!--圖片列表-->
-                    <li class="card_content">
-                      <!--card_img_action_btn 圖片卡片-->
-                      <div class="card_img_action_btn">
-                        <div class="item_img">
-                          <img src="http://photo.ihergo.com/photo/product/07/300_838707_1413008323684.jpg" alt="">
-                        </div>
-                        <div class="action_btn">
-                          <a href="#" class="img_remove_btn">
-                            <i class="ic_card_img_delete"></i>
-                          </a>
-                        </div>
-                        <span class="tag"></span>
-                      </div>
-                    </li>
-                    <li class="CLEAR"></li>
-                  </ul>
-                </div>
-                <!--表格內容-->
-                <div class="form_content">
-                  
-                </div>
-              </div>
+                    </div>
+                  </div>
+               </div>
             </article>
             <!--下一步按鈕-->
             <div class="bottom_container">
