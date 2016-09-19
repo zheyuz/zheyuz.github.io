@@ -49,18 +49,22 @@
          			$('.header_guideline').removeClass('scroll');
                     }
                     });
-                                // li.card_content 高度
-                    $('li.card_content').each(function(){
-                      var ObjectW=$(this).width();
-                      $(this).css('height',ObjectW);
+                    // ul.hero_img_con 設定寬度
+                    $('.upload_img_box ul.card_grid').each(function(){
+                      var AllObjectW=$('.card_grid').find('li.card_content').outerWidth(true);
+                      var AllObjectCount=$('.card_grid').find('li.card_content').length;
+                      var GridWidth=parseInt(AllObjectW*AllObjectCount);
+                      $('.card_grid').css('width',GridWidth);
                     });
          
          });
          $(window).resize(function(){
-                                // li.card_content 高度
-                    $('li.card_content').each(function(){
-                      var ObjectW=$(this).width();
-                      $(this).css('height',ObjectW);
+                    // ul.hero_img_con 設定寬度
+                    $('.upload_img_box ul.card_grid').each(function(){
+                      var AllObjectW=$('.card_grid').find('li.card_content').outerWidth(true);
+                      var AllObjectCount=$('.card_grid').find('li.card_content').length;
+                      var GridWidth=parseInt(AllObjectW*AllObjectCount);
+                      $('.card_grid').css('width',GridWidth);
                     });
          });
       </script>
@@ -80,17 +84,59 @@
               <div class="form_container">
                 <div class="upload_img_box">
                   <ul class="card_grid">
+                    <!--最多只能放四張-->
+                    <!--新增圖片-->
                     <li class="card_content">
-                      <div class="card_img_action_btn">
+                      <a href="#" class="upload_img_btn">
+                        <span class="btn_content">
+                           <i class="ic_card_icon_add_img"></i>
+                           <p>新增圖片</p>
+                        </span>
+                      </a>
+                    </li>
+                    <!--圖片列表:第一張 +.cover-->
+                    <li class="card_content">
+                      <!--card_img_action_btn 圖片卡片-->
+                      <div class="card_img_action_btn cover">
                         <div class="item_img">
-                          <img src="http://cdn01.pinkoi.com/product/FwADPKuZ/0/220x220.jpg" alt="">
+                          <img src="http://photo.ihergo.com/photo/product/07/300_838707_1466932766920.jpg" alt="">
                         </div>
                         <div class="action_btn">
                           <a href="#" class="img_remove_btn">
                             <i class="ic_card_img_delete"></i>
                           </a>
                         </div>
-                        <span class="tag">封面照片</span>
+                        <span class="tag"></span>
+                      </div>
+                    </li>
+                    <!--圖片列表-->
+                    <li class="card_content">
+                      <!--card_img_action_btn 圖片卡片-->
+                      <div class="card_img_action_btn">
+                        <div class="item_img">
+                          <img src="http://photo.ihergo.com/photo/product/07/300_838707_1413008419609.jpg" alt="">
+                        </div>
+                        <div class="action_btn">
+                          <a href="#" class="img_remove_btn">
+                            <i class="ic_card_img_delete"></i>
+                          </a>
+                        </div>
+                        <span class="tag"></span>
+                      </div>
+                    </li>
+                    <!--圖片列表-->
+                    <li class="card_content">
+                      <!--card_img_action_btn 圖片卡片-->
+                      <div class="card_img_action_btn">
+                        <div class="item_img">
+                          <img src="http://photo.ihergo.com/photo/product/07/300_838707_1413008323684.jpg" alt="">
+                        </div>
+                        <div class="action_btn">
+                          <a href="#" class="img_remove_btn">
+                            <i class="ic_card_img_delete"></i>
+                          </a>
+                        </div>
+                        <span class="tag"></span>
                       </div>
                     </li>
                     <li class="CLEAR"></li>
