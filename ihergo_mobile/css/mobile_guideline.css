@@ -109,7 +109,7 @@ label:before {
 
 /* header-close-white 關閉(白) */
 .wrapper .header_guideline.header_close_white { background-color: white !important; border-bottom: 1px solid var(--gray_E5); }
-.wrapper .header_close_white.scroll { background: rgba(255, 255, 255, .95) !important; backdrop-filter:blur(5px);}
+.wrapper .header_close_white.scroll { background: rgba(255, 255, 255, .95) !important;  backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px);  }
 
 /* header-close-white hero-banner 關閉(白 Hero內容 ) */
 .wrapper .header_close_white.hero_banner { width: 100%; background: rgba(255, 255, 255, .8) !important; opacity: 1; backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); -webkit-transition: all .5s; -moz-transition: all .5s; -ms-transition: all .5s; -o-transition: all .5s; transition: all .5s; }
