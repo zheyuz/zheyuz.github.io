@@ -247,10 +247,10 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 	position: relative;
 }
 .wrapper article.main_content .card_img_action_btn .action_btn a.img_remove_btn i.ic_card_img_delete{
-	width:0.8889rem;
-	height:1rem;
+	width:16px;
+	height:18px;
 	background: url('../images/global/ic-card-img-delete@2x.png') no-repeat;
-	background-size: 0.8889rem auto;
+	background-size: 16px auto;
 	position: absolute;
 	top:0;
 	bottom:0;
@@ -258,6 +258,16 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 	right:0;
 	margin:auto;
 	display: block;
+}
+.wrapper article.main_content .card_img_action_btn span.tag{
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	bottom:10%;
+	left:0;
+	font-size: 0.6111rem; /*11px*/
+	font-weight: 500;
+	color: #ffffff;
+	padding:4px 6px;
 }
 /***--------------- Footer 樣式組合 ---------------***/
 .wrapper .bottom_container { width: 100%; max-width:var(--max_w); height: 62px; position: fixed; bottom: 0; z-index: 999; }
