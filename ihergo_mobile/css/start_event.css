@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.event_main.full_page { width: 100%; height: 100%; }
+.full_page { width: 100%; height: 100%; }
 .wrapper .event_main article.main_content .union_items_container { width: 100%; height: 100%; max-width: var(--max_w); background: var(--gray_FC); }
 .wrapper .event_main article.main_content .union_items_container .content_container { padding: 18px 0; }
 .wrapper .event_main article.main_content .union_items_container .content_container .items_tool_bar { }
@@ -76,3 +76,26 @@
 .wrapper .item_details article.main_content .item_details_container .item_details_footer .list_content ul.type_container li.type { list-style: none; float: left; display: block; }
 .wrapper .item_details article.main_content .item_details_container .item_details_footer .list_content ul.type_container li.ic_triangle_arrow_right { content: ''; width: 40px; height: 20px; background: url('../images/global/ic-triangle-arrow-right@2x.png') no-repeat; background-size: 8px auto; background-position: 50%; display: block; float: left; }
 .wrapper .item_details article.main_content .item_details_container .item_details_footer .list_content a.product_link { text-decoration: none; font-weight: normal; color: #105CB6 !important; }
+
+
+/*新增商品表單*/
+.wrapper .add_new_item article.main_content .form_container{
+	background:#ffffff;
+	width:100%;
+	height: 100%:;
+}
+.wrapper .add_new_item article.main_content .form_container .upload_img_box{
+	width: 90%;
+	background:var(--gray_F7);
+	padding:5%;
+}
+.wrapper .add_new_item article.main_content .form_container .upload_img_box ul.card_grid{
+	min-width: 288px; margin: 0 auto;
+}
+.wrapper .add_new_item article.main_content .form_container .upload_img_box ul.card_grid li.card_content{
+	width: 48%;
+	list-style: none;
+	display: block;
+	margin: 0 4% 0 0;
+	float: left;
+}
