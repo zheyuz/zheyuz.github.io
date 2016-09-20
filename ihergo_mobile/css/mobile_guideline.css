@@ -227,31 +227,71 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .card_img_action_btn span.tag {}
 .wrapper article.main_content .card_img_action_btn.cover .tag:before { content: '封面照片'; background-color: rgba(0, 0, 0, 0.6); position: absolute; bottom: 10%; left: 0; font-size: 0.6111rem; /*11px*/ color: #ffffff; padding: 4px 6px; display: block; }
 
+/* card_list */
+.wrapper article.main_content .card_list { width: 96%; margin:0 auto 20px auto; }
+.wrapper article.main_content .card_list li { list-style: none; width: 100%; }
+.wrapper article.main_content .card_list li.card_content {}
+
+/* card_list_action_btn_select */
+.wrapper article.main_content .card_list_action_btn { width: calc(100% - 2px); height: 50px; line-height: 50px; border-radius: 5px; background-color: #f4f4f4; border: solid 1px var(--gray_E5); color: var(--gray_555); margin-left: -1px; margin-bottom:15px;}
+.wrapper article.main_content .card_list_action_btn .content { width: calc(100% - 63px); height: 50px; float: left; display: inline-block; margin-left:15px;}
+.wrapper article.main_content .card_list_action_btn .content span.content_box { width: 100%; height: 50px; font-size: 0.7222rem;/*13px*/ color: var(--gray_555); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
+.wrapper article.main_content .card_list_action_btn .right { width: 20px; height: 50px; float: left; margin-left: 14px; margin-right: 14px; display: inline-block; }
+.wrapper article.main_content .card_list_action_btn .right a.content_modify_btn { width: 20px; height: 20px; display: block; position: relative; top: calc((100% - 20px)/2); }
+.wrapper article.main_content .card_list_action_btn .right a.content_modify_btn:active { background: transparent; opacity: .8;}
+.wrapper article.main_content .card_list_action_btn .right a.content_modify_btn i.ic_card_list_edit { width: 20px; height: 20px; background: url('../images/global/ic-card-list-edit@2x.png') no-repeat; background-size: cover; display: block; }
+/*ON*/
+.wrapper article.main_content .card_list_action_btn.on { width: calc(100% - 4px); height: 50px; line-height: 50px; background-color: #ecf7fc; border-radius: 5px; border: solid 2px var(--ihergo_brand_blue); color: var(--gray_555); margin-left: -2px; }
+.wrapper article.main_content .card_list_action_btn.on .right a.content_modify_btn i.ic_card_list_edit { width: 20px; height: 20px; background: url('../images/global/ic-card-list-edit-blue@2x.png') no-repeat; background-size: cover; display: block; }
+
+
+/* card_list_action_btn_select */
+.wrapper article.main_content .card_list_action_btn_select { width: calc(100% - 2px); height: 50px; line-height: 50px; border-radius: 5px; background-color: #f4f4f4; border: solid 1px var(--gray_E5); color: var(--gray_555); margin-left: -1px; margin-bottom:15px;}
+.wrapper article.main_content .card_list_action_btn_select .left { width: 20px; height: 50px; float: left; margin-left: 12px; margin-right: 10px; display: inline-block; }
+/*選取按鈕  jQuery Mobile 修正*/
+.wrapper article.main_content .card_list_action_btn_select .left .ui-checkbox { margin: 0; height: 20px; position: relative; top: calc((100% - 20px)/2); }
+.wrapper article.main_content .card_list_action_btn_select .left label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off { width: 20px; height: 20px; border: 0; padding: 0; background: transparent; border: 0; padding: 0; background: transparent; }
+.wrapper article.main_content .card_list_action_btn_select .left label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on { width: 20px; height: 20px; border: 0; padding: 0; background: transparent; }
+/*選取按鈕 -  已選取*/
+.wrapper article.main_content .card_list_action_btn_select .left label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on:after { width: 20px; height: 20px; background: url('../images/global/ic-card-s-selected@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; border-radius: 50%; position: relative; top: -20px; left: 0px; }
+/*選取按鈕 -  未選取*/
+.wrapper article.main_content .card_list_action_btn_select .left label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 20px; height: 20px; background: url('../images/global/ic-card-s-select@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; border-radius: 50%; opacity: 1; position: relative; top: -20px; left: 0px; }
+.wrapper article.main_content .card_list_action_btn_select .content { width: calc(100% - 90px); height: 50px; float: left; display: inline-block; }
+.wrapper article.main_content .card_list_action_btn_select .content span.content_box { width: 100%; height: 50px; font-size: 0.7222rem;/*13px*/ color: var(--gray_555); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
+.wrapper article.main_content .card_list_action_btn_select .right { width: 20px; height: 50px; float: left; margin-left: 14px; margin-right: 14px; display: inline-block; }
+.wrapper article.main_content .card_list_action_btn_select .right a.content_modify_btn { width: 20px; height: 20px; display: block; position: relative; top: calc((100% - 20px)/2); }
+.wrapper article.main_content .card_list_action_btn_select .right a.content_modify_btn:active { background: transparent; opacity: .8; }
+.wrapper article.main_content .card_list_action_btn_select .right a.content_modify_btn i.ic_card_list_edit { width: 20px; height: 20px; background: url('../images/global/ic-card-list-edit@2x.png') no-repeat; background-size: cover; display: block; }
+/*ON*/
+.wrapper article.main_content .card_list_action_btn_select.on { width: calc(100% - 4px); height: 50px; line-height: 50px; background-color: #ecf7fc; border-radius: 5px; border: solid 2px var(--ihergo_brand_blue); color: var(--gray_555); margin-left: -2px; }
+.wrapper article.main_content .card_list_action_btn_select.on .right a.content_modify_btn i.ic_card_list_edit { width: 20px; height: 20px; background: url('../images/global/ic-card-list-edit-blue@2x.png') no-repeat; background-size: cover; display: block; }
 
 /***--------------- Form 樣式組合 ---------------***/
-/*form_single_line_text_field*/
-.wrapper article.main_content .form_single_line_text_field { width: 90%; margin: 0 auto; border-bottom: 1px solid var(--gray_E5); }
-.wrapper article.main_content .form_single_line_text_field label { width: 100%; height: 18px; display: block; margin: 17px 0 15px 0; font-size: 0.7778rem;/*14px*/ font-weight: bold; color: var(--gray_888); line-height: 18px; }
-.wrapper article.main_content .form_single_line_text_field label small { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: relative; top: -1px; }
+/*通用 guideline_form*/
+.wrapper article.main_content .guideline_form { width: 90%; margin: 0 auto; border-bottom: 1px solid var(--gray_E5); }
+.wrapper article.main_content .guideline_form label.title { width: 100%; height: 18px; display: block; margin: 17px 0 15px 0; font-size: 0.7778rem;/*14px*/ font-weight: bold; color: var(--gray_888); line-height: 18px; }
+.wrapper article.main_content .guideline_form label.title small { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: relative; top: -1px; }
 
+/* form_single_line_text_field */
 /*jQuery Mobile 修正*/
 .wrapper article.main_content .form_single_line_text_field .ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset { box-shadow: none; }
 .wrapper article.main_content .form_single_line_text_field input { min-height: 0; border: 0; background: transparent; box-shadow: none; margin-bottom: 20px; padding: 0; font-size: 14px; font-weight: 300; line-height: 1.8 !important; color: var(--gray-C3) !important; }
 
-/*form_text_field_combination*/
-.wrapper article.main_content .form_text_field_combination { width: 90%; margin: 0 auto; border-bottom: 1px solid var(--gray_E5); }
-.wrapper article.main_content .form_text_field_combination label { width: 100%; height: 18px; display: block; margin: 17px 0 15px 0; font-size: 0.7778rem;/*14px*/ font-weight: bold; color: var(--gray_888); line-height: 18px; }
-.wrapper article.main_content .form_text_field_combination label small { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: relative; top: -1px; }
+/* form_text_field_combination */
 .wrapper article.main_content .form_text_field_combination .container { width: 100%; margin-bottom: 20px; }
 .wrapper article.main_content .form_text_field_combination .container .left { width: 90%; height: 50px; float: left; }
 .wrapper article.main_content .form_text_field_combination .container .left textarea { width: 100%; height: 50px !important; min-height: 50px; border: 0; background: transparent; box-shadow: none; padding: 0; font-size: 14px; font-weight: 300; line-height: 1.8 !important; color: var(--gray-C3) !important; }
 .wrapper article.main_content .form_text_field_combination .container .right { width: 10%; height: 50px; float: left; position: relative; }
 .wrapper article.main_content .form_text_field_combination .container .right a.arrow_right_btn { width: 26px; height: 26px; display: block; position: absolute; top: calc((100% - 26px)/2); right: 0; }
+.wrapper article.main_content .form_text_field_combination .container .right a.arrow_right_btn:active{
+	background: var(--gray_FB);
+}
 .wrapper article.main_content .form_text_field_combination .container .right a.arrow_right_btn i.ic_arrow_right { width: 9px; height: 15px; background: url('../images/global/ic-arrow-right@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; position: relative; top: calc((100% - 15px)/2); }
-
 /* No Arrow*/
 .wrapper article.main_content .form_text_field_combination.no_arrow .container .left { width: 100%; }
 .wrapper article.main_content .form_text_field_combination.no_arrow .container .right { display: none; }
+
+
 /***--------------- Footer 樣式組合 ---------------***/
 .wrapper .bottom_container { width: 100%; max-width:var(--max_w); height: 50px; position: fixed; bottom: 0; z-index: 999; }
 .wrapper .bottom_container.modal{
