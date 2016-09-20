@@ -41,12 +41,12 @@
       <script type="text/javascript">
          $(function(){ 
             //視窗捲動則Header fixed
-                    $(this).scroll(function() {
+                    $(window).scroll(function() {
                     var windowScrollTop=$(window).scrollTop(); //抓捲動數值
                     if(windowScrollTop>=20){ //捲動數值超過Header(約180)
                       $('.header_guideline').addClass('scroll');
                     }else{
-              $('.header_guideline').removeClass('scroll');
+                    $('.header_guideline').removeClass('scroll');
                     }
                     });
                     // ul.hero_img_con 設定寬度
@@ -79,11 +79,6 @@
                <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
             </div>
          </header>
-         <script>
-            $(function(){
-             $('.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper').css('height','100%');
-            });
-         </script>
          <div role="main" class="ui-content add_new_item full_page">
             <article class="main_content">
                <div class="form_container">
