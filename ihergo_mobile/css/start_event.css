@@ -80,6 +80,7 @@
 
 
 /*新增商品表單*/
+.wrapper .add_new_item{ background: #ffffff; }
 .wrapper .add_new_item article.main_content .form_container { background: #ffffff; width: 100%; height: 100%:; }
 .wrapper .add_new_item article.main_content .form_container .upload_img_box { width: 90%; background: var(--gray_F7); padding: 5%; overflow: scroll; }
 .wrapper .add_new_item article.main_content .form_container .upload_img_box ul.card_grid { }
