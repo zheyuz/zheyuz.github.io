@@ -40,7 +40,7 @@
 .wrapper .item_details article.main_content .header_hero_container a.close_btn i.ic_header_close { width: 15px; height: 15px; background: url('../images/global/ic-header-close-white@2x.png') no-repeat; background-size: 15px auto; background-position: 50%; display: block; margin: 0 auto; position: relative; top: calc((100% - 15px)/2); }
 
 /* Slider內容 */
-.wrapper .item_details article.main_content .header_hero_container .slider_container{ width:100%; height: 100%; overflow-x:auto; overflow-y:hidden; }
+.wrapper .item_details article.main_content .header_hero_container .slider_container { width: 100%; height: 100%; overflow-x: auto; overflow-y: hidden; }
 .wrapper .item_details article.main_content .header_hero_container .slider_container ul.hero_img_con { height: 100%; }
 .wrapper .item_details article.main_content .header_hero_container .slider_container ul.hero_img_con li.img_list { display: block; list-style: none; float: left; height: 100%; }
 .wrapper .item_details article.main_content .header_hero_container .slider_container ul.hero_img_con li.img_list img { width: 100%; height: 100%; }
@@ -78,9 +78,8 @@
 .wrapper .item_details article.main_content .item_details_container .item_details_footer .list_content ul.type_container li.ic_triangle_arrow_right { content: ''; width: 40px; height: 20px; background: url('../images/global/ic-triangle-arrow-right@2x.png') no-repeat; background-size: 8px auto; background-position: 50%; display: block; float: left; }
 .wrapper .item_details article.main_content .item_details_container .item_details_footer .list_content a.product_link { text-decoration: none; font-weight: normal; color: #105CB6 !important; }
 
-
 /*新增商品表單*/
-.wrapper .add_new_item{ background: #ffffff; }
+.wrapper .add_new_item { background: #ffffff; }
 .wrapper .add_new_item article.main_content .form_container { background: #ffffff; width: 100%; height: 100%:; }
 .wrapper .add_new_item article.main_content .form_container .upload_img_box { width: 90%; background: var(--gray_F7); padding: 5%; overflow: scroll; }
 .wrapper .add_new_item article.main_content .form_container .upload_img_box ul.card_grid { }
@@ -93,38 +92,8 @@
 .wrapper .add_new_item article.main_content .form_container .upload_img_box ul.card_grid li.card_content a.upload_img_btn .btn_content p { font-size: 0.7778rem; /*14px*/ font-weight: bold; color: #ffffff; margin-top: 11px; }
 
 /*表格內容*/
-.wrapper .add_new_item article.main_content .form_container .item_form_content{
-	background: #ffffff;
-	padding-bottom:80px;
-}
-.wrapper .add_new_item article.main_content .form_container .item_form_content .form_card_list_combination ul.card_list li.card_content a.add_item_spec_btn{
-width: calc(100% - 2px);
-height: 50px;
-line-height: 50px;
-border-radius: 5px;
-border: 1px solid var(--gray_E5);
-display: block;
-margin-left: -1px;
-font-size: 0.7778rem;
-/*14px*/
-font-weight: 500;
-color: #bfbfbf;
-text-decoration: none;
-text-align: center;
-}
-.wrapper .add_new_item article.main_content .form_container .item_form_content .form_card_list_combination ul.card_list li.card_content a:active.add_item_spec_btn{
-	background: #efefef;
-}
-.wrapper .add_new_item article.main_content .form_container .item_form_content .form_card_list_combination ul.card_list li.card_content a.add_item_spec_btn span.btn_content{
-	display: inline-block;
-}
-.wrapper .add_new_item article.main_content .form_container .item_form_content .form_card_list_combination ul.card_list li.card_content a.add_item_spec_btn span.btn_content i.ic_card_list_add{
-	width: 13px;
-	height: 13px;
-	background:url('../images/start_event/ic-card-list-add@2x.png') no-repeat;
-	background-size:cover;
-	display: inline-block;
-	margin-right:5px;
-	position: relative;
-	top:2px;
-}
+.wrapper .add_new_item article.main_content .form_container .item_form_content { background: #ffffff; padding-bottom: 80px; }
+.wrapper .add_new_item article.main_content .form_container .item_form_content .form_card_list_combination ul.card_list li.card_content a.add_item_spec_btn { width: calc(100% - 2px); height: 50px; line-height: 50px; border-radius: 5px; border: 1px solid var(--gray_E5); display: block; margin-left: -1px; font-size: 0.7778rem;/*14px*/ font-weight: 500; color: #bfbfbf; text-decoration: none; text-align: center; }
+.wrapper .add_new_item article.main_content .form_container .item_form_content .form_card_list_combination ul.card_list li.card_content a:active.add_item_spec_btn { background: #efefef; }
+.wrapper .add_new_item article.main_content .form_container .item_form_content .form_card_list_combination ul.card_list li.card_content a.add_item_spec_btn span.btn_content { display: inline-block; }
+.wrapper .add_new_item article.main_content .form_container .item_form_content .form_card_list_combination ul.card_list li.card_content a.add_item_spec_btn span.btn_content i.ic_card_list_add { width: 13px; height: 13px; background: url('../images/start_event/ic-card-list-add@2x.png') no-repeat; background-size: cover; display: inline-block; margin-right: 5px; position: relative; top: 1px; }
