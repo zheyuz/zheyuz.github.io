@@ -56,7 +56,21 @@
                       var GridWidth=parseInt(AllObjectW*AllObjectCount);
                       $('.card_grid').css('width',GridWidth);
                     });
-         
+                    // .content_modify_btn 按下
+                    $('.content_modify_btn').click(function(){
+                      $('body').addClass('fix');
+                      $('.action_button_sheet_container').show();
+                      $('.action_button_sheet_container').find('.mask_modal').fadeIn(400);
+                      $('.action_button_sheet_container').find('ul.button_list').addClass('slideup');
+                    });
+
+                    // .action_btn.cancel 按下
+                    $('.action_btn.cancel, .mask_modal').click(function(){
+                      $('.action_button_sheet_container').find('.mask_modal').fadeOut(400);
+                      $('.action_button_sheet_container').find('ul.button_list').removeClass('slideup');
+                      $('.action_button_sheet_container').delay(1000).stop().fadeOut();
+                      $('body').removeClass('fix');
+                    });
          });
          $(window).resize(function(){
                     // ul.hero_img_con 設定寬度
@@ -152,7 +166,9 @@
                      </div>
                      <!--.form_single_line_text_field 單行文字輸入框:商品名稱-->
                      <div class="guideline_form form_single_line_text_field">
-                        <label class="title">商品名稱<small>(最多輸入10個全形字)</small></label>
+                        <label class="title">商品名稱<small>(最多輸入15個全形字)</small></label>
+                        <!--限制只能輸入15個全形字，由於maxlenght會同時限制全形半形，這裏再麻煩用
+                        javascript處理-->
                         <input type="text" placeholder="想合購的商品名稱">
                      </div>
                      <!--.form_single_line_text_field 單行文字輸入框:商品描述-->
@@ -186,12 +202,13 @@
                        <label class="title">商品規格<small>(選填)</small></label>
                        <!--.card_list , 用.card_list_...時必須-->
                        <ul class="card_list">
+                         <!--規格-->
                          <li class="card_content">
                            <!--.card_list_action_btn, .on 選取, .off未選-->
                            <div class="card_list_action_btn on">
                              <div class="content">
-                               <!--考量手機螢幕向下支援, 建議只顯示13全形字-->
-                               <span class="content_box">建議只寫13個全形字</span>
+                               <!--考量手機螢幕向下支援, 建議只顯示15全形字-->
+                               <span class="content_box">建議只寫15個全形字</span>
                              </div>
                              <div class="right">
                                <a href="#" class="content_modify_btn">
@@ -200,6 +217,7 @@
                              </div>
                            </div>
                          </li>
+                         <!--新增規格-->
                          <li class="card_content">
                            <!--新增規格-->
                            <a href="#" class="add_item_spec_btn">
@@ -222,6 +240,25 @@
             </div>
          </div>
          <!-- /content -->
+
+            <!--更多動作 button sheet-->
+            <div class="action_button_sheet_container">
+              <div class="mask_modal"></div>
+              <ul class="button_list">
+                <li class="button_content">
+                  <a href="#" class="action_btn">編輯內容</a>
+                  <div class="btn_divider"></div>
+                </li>
+                <li class="button_content">
+                  <a href="#" class="action_btn">刪除內容</a>
+                  <div class="btn_divider"></div>
+                </li>
+                <!--取消-->
+                <li class="button_content">
+                  <a href="#" class="action_btn cancel">取消</a>
+                </li>
+              </ul>
+            </div>
          <!-- 左側滑出選單_開始 -->
          <div class="panel_navi" data-role="panel" id="bars">
          </div>

@@ -44,9 +44,15 @@ ihergo Mobile Guideline
 	width:90%;
 	margin:0 auto;
 }
+/*header fix*/
 .top_fix{
 margin-top:-52px;/*header height*/
 width: 100%;
+}
+/*body fix*/
+body.fix{
+	height: 100%;
+	overflow: hidden;
 }
 /*--- Input ---*/
 input[type="text"]{
@@ -294,8 +300,75 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 
 /***--------------- Footer 樣式組合 ---------------***/
 .wrapper .bottom_container { width: 100%; max-width:var(--max_w); height: 50px; position: fixed; bottom: 0; z-index: 999; }
-.wrapper .bottom_container.modal{
-	left:50%;
-}
+.wrapper .bottom_container.modal { left: 50%; }
 .wrapper .bottom_container a.bottom_page_footer { width: 100%; height:50px; line-height:50px; background-color: var(--ihergo_brand_blue); border: 0; color: #ffffff; font-size: 0.8889rem;/*16px*/ font-weight: bold; text-align: center; text-decoration: none; display: block; }
 .wrapper .bottom_container a:active.bottom_page_footer { background-color: #4abee8; }
+
+/***--------------- Button Sheet 樣式組合 ---------------***/
+.wrapper .action_button_sheet_container{
+	width:100%;
+	height: 100%;
+	position: fixed;
+	bottom:0;
+	z-index: 1001;
+	display: none;
+}
+.wrapper .action_button_sheet_container .mask_modal{
+	width:100%;
+	max-width: var(--max_w);
+	height: 100%;
+	background: rgba(0,0,0,.7);
+	margin: 0 auto;
+	display: none;
+}
+.wrapper .action_button_sheet_container ul.button_list{
+	width:100%;
+	position: absolute;
+	bottom:-100%;
+	-webkit-transition: bottom .3s;
+	   -moz-transition: bottom .3s;
+	    -ms-transition: bottom .3s;
+	     -o-transition: bottom .3s;
+	        transition: bottom .3s;
+}
+.wrapper .action_button_sheet_container .button_list.slideup{
+    animation-name: slideup;
+    animation-duration: .3s;
+    bottom:0;
+}
+@keyframes slideup {
+    from {bottom:-100%;}
+    to {bottom:0;}
+}
+.wrapper .action_button_sheet_container ul.button_list li.button_content{
+	list-style: none;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	max-width: var(--max_w);
+	background: #ffffff;
+	margin: 0 auto;
+}
+.wrapper .action_button_sheet_container ul.button_list li.button_content a.action_btn{
+	width:100%;
+	height:calc(100% - 1px);
+	line-height: 59px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 0.8889rem;/*16px*/
+	color:var(--gray_888);
+	display: block;
+}
+.wrapper .action_button_sheet_container ul.button_list li.button_content a:active.action_btn{
+	background: var(--gray_FB);
+}
+.wrapper .action_button_sheet_container ul.button_list li.button_content .btn_divider{
+	width:90%;
+	height: 1px;
+	background: var(--gray_E5);
+	margin: 0 auto;
+}
+.wrapper .action_button_sheet_container ul.button_list li.button_content .action_btn.cancel{
+	color:var(--gray_555);
+	font-weight: bold;
+}
