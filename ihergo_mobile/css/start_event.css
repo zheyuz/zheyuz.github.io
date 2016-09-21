@@ -8,7 +8,7 @@
 .wrapper .event_main article.main_content .union_items_container .content_container .items_tool_bar .item_summary_text { font-size: 0.7222rem;/*13px*/ color: var(--gray_888); line-height: 30px; display: inline-block; float: right; }
 .wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con { margin-top: 18px; margin-bottom: 50px; }
 .wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid { min-width: 288px; margin: 0 auto; }
-.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content { width: 48%; min-width:138px; list-style: none; display: block; margin: 0 4% 20px 0; float: left; }
+.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content { width: 48%; min-width:138px; min-height:138px; list-style: none; display: block; margin: 0 4% 20px 0; float: left; }
 .wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content:nth-of-type(2n) { margin-right: 0; }
 
 /*新增自訂商品按鈕*/
