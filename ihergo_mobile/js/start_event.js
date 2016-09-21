@@ -10,6 +10,11 @@
                       $('.header_guideline').removeClass('scroll');
                     }
                     });
+                    // li.card_content 高度
+                    $('li.card_content').each(function(){
+                      var ObjectW=$(this).width();
+                      $(this).css('height',ObjectW);
+                    });
             /*------------建立合購商品 商店------------*/
                     // sub_header_dropdown_search 點下搜尋按鈕後
                     $('.open_search_btn').click(function(){
@@ -28,11 +33,6 @@
                       $('.open_search_btn').show();
                       $('form.sub_header_searchbar')[0].reset();
                     });
-                    // li.card_content 高度
-                    $('li.card_content').each(function(){
-                      var ObjectW=$(this).width();
-                      $(this).css('height',ObjectW);
-                    });
 
                     // ul.hero_img_con 設定寬度
                     $('.upload_img_box ul.card_grid').each(function(){
@@ -41,6 +41,17 @@
                       var GridWidth=parseInt(AllObjectW*AllObjectCount);
                       $(this).css('width',GridWidth);
                     });
+            /*------------建立合購商品 無商店------------*/
+                 // ul.card_grid_small 設定寬度
+                 $('.thumbnail_list_con').each(function(){
+                   //找出li單個寬度(含margin)
+                   var AllObjectW=$('.card_grid_small').find('li.card_content').outerWidth(true);
+                   //找出li總數量
+                   var AllObjectCount=$('.card_grid_small').find('li.card_content').length;
+                   //寬度*數量=ul寬度
+                   var GridWidth=parseInt(AllObjectW*AllObjectCount);
+                   $('.card_grid_small').css('width',GridWidth);
+                 });
             /*------------新增商品------------*/
                     /* Button Sheet*/
                     // .content_modify_btn 按下
@@ -78,5 +89,5 @@
                       var AllObjectCount=$(this).find('li.card_content').length;
                       var GridWidth=parseInt(AllObjectW*AllObjectCount);
                       $(this).css('width',GridWidth);
-                    });   
+                    });
          });
