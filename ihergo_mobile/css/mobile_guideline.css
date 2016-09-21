@@ -83,7 +83,6 @@ label:before {
 }
 .ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper{
 	background: #ffffff !important;
-	height: 100% !important;
 }
 /***--------------- Header樣式組合 ---------------***/
 .wrapper .header_guideline { width: 100%; max-width: var(--max_w); height: var(--header_h); margin: 0 auto; border-bottom: 0; text-align: center; line-height: var(--header_h); font-size: 1rem; font-weight: bold; color: var(--gray_3F) !important; }
