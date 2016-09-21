@@ -2,7 +2,7 @@
 <html>
    <head>
       <meta charset="UTF-8">
-      <title>我要開團</title>
+      <title>新增商品</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
       <link rel="stylesheet" href="../css/jqm-datebox-1.4.5.css" />
@@ -56,6 +56,8 @@
                       var GridWidth=parseInt(AllObjectW*AllObjectCount);
                       $('.card_grid').css('width',GridWidth);
                     });
+
+                    /* Button Sheet*/
                     // .content_modify_btn 按下
                     $('.content_modify_btn').click(function(){
                       $('body').addClass('fix');
@@ -63,7 +65,6 @@
                       $('.action_button_sheet_container').find('.mask_modal').fadeIn(400);
                       $('.action_button_sheet_container').find('ul.button_list').addClass('slideup');
                     });
-
                     // .action_btn.cancel 按下
                     $('.action_btn.cancel, .mask_modal').click(function(){
                       $('.action_button_sheet_container').find('.mask_modal').fadeOut(400);
@@ -85,7 +86,7 @@
    </head>
    <body>
       <div class="wrapper" data-role="page">
-         <a id="go_top" class="gotop_btn" href="#"></a>
+         <!-- <a id="go_top" class="gotop_btn" href="#"></a> -->
          <!--header_close_white 關閉(白)-->
          <header class="header_guideline header_close_white" data-role="header" data-position="fixed">
             <div class="header_container">
