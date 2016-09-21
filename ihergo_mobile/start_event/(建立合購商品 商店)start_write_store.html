@@ -1,425 +1,505 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-      <title>建立合購商品</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
-      <link rel="stylesheet" href="../css/jqm-datebox-1.4.5.css" />
-      <link href="../css/layout.css" rel="stylesheet" type="text/css">
-      <!--<link href="../css/event.css" rel="stylesheet" type="text/css"> -->
-      <link rel="stylesheet" href="../css/mobile_guideline.css">
-      <link rel="stylesheet" href="../css/start_event.css">
-      <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
-      <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script> 
-      <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js"></script>     
-      <script type="text/javascript" src="../js/jqm-datebox-1.4.5.min.js"></script>
-      <script type="text/javascript" src="../js/start_event.js"></script>  
-      <script type="text/javascript">
-         jQuery.extend(jQuery.mobile,
-         {
-           ajaxEnabled: false
-         });
-      </script>
-      <!-- go to Top -->
-      <script type="text/javascript">
-         $(function(){
-          $("#go_top").click(function(){
-            jQuery("html,body").animate({
-              scrollTop:0
-            },1000);
-          });
-          $(window).scroll(function() {
-            if ( $(this).scrollTop() > 300){
-              $('#go_top').fadeIn("fast");
-            } else {
-              $('#go_top').stop().fadeOut("fast");
-            }
-          });
-         });
-      </script>
-      <!-- go to Top_END -->
-   </head>
-   <body>
-      <!--建立合購商品-->
-      <div class="wrapper" data-role="page" id="start_event_index">
-         <a id="go_top" class="gotop_btn" href="#"></a>
-         <!--header_close 關閉-->
-         <header class="header_guideline header_close" data-role="header" data-position="fixed">
-            <div class="header_container">
-               <span class="header_text">建立合購商品</span>
-               <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
+  <head>
+    <meta charset="UTF-8">
+    <title>建立合購商品</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="../css/jqm-datebox-1.4.5.css" />
+    <link href="../css/layout.css" rel="stylesheet" type="text/css">
+    <!--<link href="../css/event.css" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" href="../css/mobile_guideline.css">
+    <link rel="stylesheet" href="../css/start_event.css">
+    <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script> 
+    <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js"></script>     
+    <script type="text/javascript" src="../js/jqm-datebox-1.4.5.min.js"></script>
+    <script type="text/javascript" src="../js/start_event.js"></script>  
+    <script type="text/javascript">
+      jQuery.extend(jQuery.mobile,
+      {
+        ajaxEnabled: false
+      });
+    </script>
+    <!-- go to Top -->
+    <script type="text/javascript">
+      $(function(){
+       $("#go_top").click(function(){
+         jQuery("html,body").animate({
+           scrollTop:0
+         },1000);
+       });
+       $(window).scroll(function() {
+         if ( $(this).scrollTop() > 300){
+           $('#go_top').fadeIn("fast");
+         } else {
+           $('#go_top').stop().fadeOut("fast");
+         }
+       });
+      });
+    </script>
+    <!-- go to Top_END -->
+  </head>
+  <body>
+    <!--建立合購商品-->
+    <div class="wrapper" data-role="page" id="start_event_index">
+      <a id="go_top" class="gotop_btn" href="#"></a>
+      <!--header_close 關閉-->
+      <header class="header_guideline header_close" data-role="header" data-position="fixed">
+        <div class="header_container">
+          <span class="header_text">建立合購商品</span>
+          <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
+        </div>
+      </header>
+      <div role="main" class="ui-content event_main">
+        <article class="main_content">
+          <!--sub_header_dropdown_search 子標題 下拉式+搜尋-->
+          <div class="sub_header sub_header_dropdown_search">
+            <div class="dropdown_bar">
+              <select class="sub_header_type_dropdown">
+                <option>全部商品(10)</option>
+                <option>北海道生乳捲(10)</option>
+              </select>
             </div>
-         </header>
-         <div role="main" class="ui-content event_main">
-            <article class="main_content">
-               <!--sub_header_dropdown_search 子標題 下拉式+搜尋-->
-               <div class="sub_header sub_header_dropdown_search">
-                  <div class="dropdown_bar">
-                     <select class="sub_header_type_dropdown">
-                        <option>全部商品(10)</option>
-                        <option>北海道生乳捲(10)</option>
-                     </select>
-                  </div>
-                  <div class="search_bar">
-                     <a href="#" class="open_search_btn"><i class="ic_sub_header_search"></i></a>
-                     <div class="search_con">
-                        <a href="#" class="prev_step_link"><i class="ic_sub_header_arrow_left"></i></a>
-                        <form action="#" class="sub_header_searchbar">
-                           <input type="text" placeholder="輸入搜尋商品名稱" class="search_text_field">
-                           <a href="#" class="search_btn"><i class="ic_sub_header_search"></i></a>
-                        </form>
-                     </div>
-                  </div>
-                  <div class="CLEAR"></div>
-               </div>
-               <!--合購商品設定-->
-               <div class="union_items_container">
-                  <div class="content_container">
-                     <!--按鈕列-->
-                     <div class="items_tool_bar">
-                        <a href="#" class="select_all_btn">選取所有商品</a>
-                        <!--取消所有商品-->
-                        <!-- <a href="#" class="cancel_all_btn">取消所有商品</a> -->
-                        <span class="item_summary_text">已選取 5 樣商品</span>
-                     </div>
-                     <!--商品清單-->
-                     <div class="items_grid_con">
-                        <ul class="card_grid">
-                           <!--新增商品-->
-                           <li class="card_content">
-                              <a href="#add_new_item" class="add_new_item_btn" data-transition="slideup">
-                                 <span class="btn_content">
-                                    <i class="ic_card_icon_add_new"></i>
-                                    <p>新增自訂商品</p>
-                                 </span>
-                              </a>
-                           </li>
-                           <!--已選商品-->
-                           <li class="card_content">
-                              <!--card_product_select 商品卡片-->
-                              <div class="card_product on">
-                                 <!--商品圖片-->
-                                 <div class="product_img">
-                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469511602209.jpg" alt="">    
-                                 </div>
-                                 <!--商品文字-->
-                                 <div class="product_description_con">
-                                    <div class="content_box">
-                                       <span class="product_title">十勝生乳捲☆7條以上☆ 下單處</span>
-                                       <span class="product_price">原價 $ 500 / 特價 $ 320</span>
-                                    </div>
-                                 </div>
-                                 <!--勾選按鈕-->
-                                 <div class="select_btns">
-                                    <!--:checked 時, .card_product + .card_product_select, 
-                                       沒有則刪除 .card_product_select-->
-                                    <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check1" class="grid_select_checkbox" checked>
-                                    <label for="check1"></label>
-                                 </div>
-                              </div>
-                           </li>
-                           <!--已選商品-->
-                           <li class="card_content">
-                              <!--card_product_select 商品卡片-->
-                              <div class="card_product on">
-                                 <!--商品圖片-->
-                                 <div class="product_img">
-                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469506825125.jpg" alt="">    
-                                 </div>
-                                 <!--商品文字-->
-                                 <div class="product_description_con">
-                                    <div class="content_box">
-                                       <span class="product_title">十勝生乳捲-英式真奶茶☆7條以上☆下單處</span>
-                                       <span class="product_price">原價 $ 500 / 特價 $ 320</span>
-                                    </div>
-                                 </div>
-                                 <!--勾選按鈕-->
-                                 <div class="select_btns">
-                                    <!--:checked 時, .card_product + .card_product_select, 
-                                       沒有則刪除 .card_product_select-->
-                                    <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check2" class="grid_select_checkbox" checked>
-                                    <label for="check2"></label>
-                                 </div>
-                              </div>
-                           </li>
-                           <!--未選商品-->
-                           <li class="card_content">
-                              <!--card_product_select 商品卡片-->
-                              <div class="card_product">
-                                 <!--商品圖片-->
-                                 <div class="product_img">
-                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469512024685.jpg" alt="">    
-                                 </div>
-                                 <!--商品文字-->
-                                 <div class="product_description_con">
-                                    <div class="content_box">
-                                       <span class="product_title">十勝生乳捲-紫芋香奶☆7條以上☆下單處</span>
-                                       <span class="product_price">原價 $ 500 / 特價 $ 320</span>
-                                    </div>
-                                 </div>
-                                 <!--勾選按鈕-->
-                                 <div class="select_btns">
-                                    <!--:checked 時, .card_product + .card_product_select, 
-                                       沒有則刪除 .card_product_select-->
-                                    <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check3" class="grid_select_checkbox">
-                                    <label for="check3"></label>
-                                 </div>
-                              </div>
-                           </li>
-                           <!--已選商品-->
-                           <li class="card_content">
-                              <!--card_product_select 商品卡片-->
-                              <div class="card_product on">
-                                 <!--商品圖片-->
-                                 <div class="product_img">
-                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1460457743849.jpg" alt="">    
-                                 </div>
-                                 <!--商品文字-->
-                                 <div class="product_description_con">
-                                    <div class="content_box">
-                                       <span class="product_title">十勝生乳捲-芒果☆7條以上☆下單處</span>
-                                       <span class="product_price">原價 $ 500 / 特價 $ 320</span>
-                                    </div>
-                                 </div>
-                                 <!--勾選按鈕-->
-                                 <div class="select_btns">
-                                    <!--:checked 時, .card_product + .card_product_select, 
-                                       沒有則刪除 .card_product_select-->
-                                    <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check4" class="grid_select_checkbox" checked>
-                                    <label for="check4"></label>
-                                 </div>
-                              </div>
-                           </li>
-                           <!--已選商品-->
-                           <li class="card_content">
-                              <!--card_product_select 商品卡片-->
-                              <div class="card_product on">
-                                 <!--商品圖片-->
-                                 <div class="product_img">
-                                    <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469507328981.jpg" alt="">    
-                                 </div>
-                                 <!--商品文字-->
-                                 <div class="product_description_con">
-                                    <div class="content_box">
-                                       <span class="product_title">十勝生乳捲-抹茶☆7條以上☆下單處</span>
-                                       <span class="product_price">原價 $ 500 / 特價 $ 320</span>
-                                    </div>
-                                 </div>
-                                 <!--勾選按鈕-->
-                                 <div class="select_btns">
-                                    <!--:checked 時, .card_product + .card_product_select, 
-                                       沒有則刪除 .card_product_select-->
-                                    <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check5" class="grid_select_checkbox" checked>
-                                    <label for="check5"></label>
-                                 </div>
-                              </div>
-                           </li>
-                           <li class="CLEAR"></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </article>
-            <!--下一步按鈕-->
-            <div class="bottom_container">
-               <!--bottom_page_footer 頁面置底按鈕-->
-               <a href="#" class="bottom_page_footer">下一步</a>
+            <div class="search_bar">
+              <a href="#" class="open_search_btn"><i class="ic_sub_header_search"></i></a>
+              <div class="search_con">
+                <a href="#" class="prev_step_link"><i class="ic_sub_header_arrow_left"></i></a>
+                <form action="#" class="sub_header_searchbar">
+                  <input type="text" placeholder="輸入搜尋商品名稱" class="search_text_field">
+                  <a href="#" class="search_btn"><i class="ic_sub_header_search"></i></a>
+                </form>
+              </div>
             </div>
-         </div>
-         <!-- /content -->
-         <!-- 左側滑出選單_開始 -->
-         <div class="panel_navi" data-role="panel" id="bars">
-         </div>
-         <!-- 左側滑出選單_結束 -->
-      </div>
-      <!-- /page -->
-      <!--新增商品-->
-      <div class="wrapper" data-role="page" id="add_new_item">
-         <!-- <a id="go_top" class="gotop_btn" href="#"></a> -->
-         <!--header_close_white 關閉(白)-->
-         <header class="header_guideline header_close_white" data-role="header" data-position="fixed">
-            <div class="header_container">
-               <span class="header_text">新增商品</span>
-               <a href="#start_event_index" class="close_btn" data-rel="back"><i class="ic_header_close"></i></a>
-            </div>
-         </header>
-         <script>
-         $(function(){
-          $('.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper').css('height','100%');
-         });
-         </script> 
-         <div role="main" class="ui-content add_new_item full_page">
-            <article class="main_content">
-               <div class="form_container">
-                  <!--上傳商品照片-->
-                  <div class="upload_img_box">
-                     <ul class="card_grid">
-                        <!--最多只能放四張-->
-                        <!--新增圖片-->
-                        <li class="card_content">
-                           <a href="#" class="upload_img_btn">
-                              <span class="btn_content">
-                                 <i class="ic_card_icon_add_img"></i>
-                                 <p>新增圖片</p>
-                              </span>
-                           </a>
-                        </li>
-                        <!--圖片列表:第一張 +.cover-->
-                        <li class="card_content">
-                           <!--card_img_action_btn 圖片卡片-->
-                           <div class="card_img_action_btn cover">
-                              <div class="item_img">
-                                 <img src="http://photo.ihergo.com/photo/product/07/300_838707_1466932766920.jpg" alt="">
-                              </div>
-                              <div class="action_btn">
-                                 <a href="#" class="img_remove_btn">
-                                 <i class="ic_card_img_delete"></i>
-                                 </a>
-                              </div>
-                              <span class="tag"></span>
-                           </div>
-                        </li>
-                        <!--圖片列表-->
-                        <li class="card_content">
-                           <!--card_img_action_btn 圖片卡片-->
-                           <div class="card_img_action_btn">
-                              <div class="item_img">
-                                 <img src="http://photo.ihergo.com/photo/product/07/300_838707_1413008419609.jpg" alt="">
-                              </div>
-                              <div class="action_btn">
-                                 <a href="#" class="img_remove_btn">
-                                 <i class="ic_card_img_delete"></i>
-                                 </a>
-                              </div>
-                              <span class="tag"></span>
-                           </div>
-                        </li>
-                        <!--圖片列表-->
-                        <li class="card_content">
-                           <!--card_img_action_btn 圖片卡片-->
-                           <div class="card_img_action_btn">
-                              <div class="item_img">
-                                 <img src="http://photo.ihergo.com/photo/product/07/300_838707_1413008323684.jpg" alt="">
-                              </div>
-                              <div class="action_btn">
-                                 <a href="#" class="img_remove_btn">
-                                 <i class="ic_card_img_delete"></i>
-                                 </a>
-                              </div>
-                              <span class="tag"></span>
-                           </div>
-                        </li>
-                        <li class="CLEAR"></li>
-                     </ul>
-                  </div>
-                  <!--表格內容-->
-                  <div class="item_form_content">
-                     <!--.form_single_line_text_field 單行文字輸入框:商品網址-->
-                     <div class="guideline_form form_single_line_text_field">
-                        <label class="title">商品網址<small>(選填)</small></label>
-                        <input type="text" placeholder="填寫網址可自動帶入適合的圖片">
-                     </div>
-                     <!--.form_single_line_text_field 單行文字輸入框:商品名稱-->
-                     <div class="guideline_form form_single_line_text_field">
-                        <label class="title">商品名稱<small>(最多輸入15個全形字)</small></label>
-                        <!--限制只能輸入15個全形字，由於maxlenght會同時限制全形半形，這裏再麻煩用
-                        javascript處理-->
-                        <input type="text" placeholder="想合購的商品名稱">
-                     </div>
-                     <!--.form_single_line_text_field 單行文字輸入框:商品描述-->
-                     <!--不要箭頭 +.no_arrow-->
-                     <div class="guideline_form form_text_field_combination no_arrow">
-                        <label class="title">商品描述<small>(選填)</small></label>
-                        <div class="container">
-                           <div class="left">
-                              <textarea rows="2" cols="50" placeholder="介紹一下這件商品例如材料、材質等等"></textarea>
-                           </div>
-                           <div class="right">
-                              <a href="#" class="arrow_right_btn">
-                              <i class="ic_arrow_right"></i>
-                              </a>
-                           </div>
-                           <div class="CLEAR"></div>
+            <div class="CLEAR"></div>
+          </div>
+          <!--合購商品設定-->
+          <div class="union_items_container">
+            <div class="content_container">
+              <!--按鈕列-->
+              <div class="items_tool_bar">
+                <a href="#" class="select_all_btn">選取所有商品</a>
+                <!--取消所有商品-->
+                <!-- <a href="#" class="cancel_all_btn">取消所有商品</a> -->
+                <span class="item_summary_text">已選取 5 樣商品</span>
+              </div>
+              <!--商品清單-->
+              <div class="items_grid_con">
+                <ul class="card_grid">
+                  <!--新增商品-->
+                  <li class="card_content">
+                    <a href="#add_new_item" class="add_new_item_btn" data-transition="slideup">
+                      <span class="btn_content">
+                        <i class="ic_card_icon_add_new"></i>
+                        <p>新增自訂商品</p>
+                      </span>
+                    </a>
+                  </li>
+                  <!--已選商品-->
+                  <li class="card_content">
+                    <!--card_product_select 商品卡片-->
+                    <div class="card_product on">
+                      <!--商品圖片-->
+                      <div class="product_img">
+                        <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469511602209.jpg" alt="">    
+                      </div>
+                      <!--商品文字-->
+                      <div class="product_description_con">
+                        <div class="content_box">
+                          <span class="product_title">十勝生乳捲☆7條以上☆ 下單處</span>
+                          <span class="product_price">原價 $ 500 / 特價 $ 320</span>
                         </div>
-                     </div>
-                     <!--.form_single_line_text_field 單行文字輸入框:團購價-->
-                     <div class="guideline_form form_single_line_text_field">
-                        <label class="title">團購價</label>
-                        <input type="text" placeholder="商品的合購優惠價">
-                     </div>
-                     <!--.form_single_line_text_field 單行文字輸入框:原價-->
-                     <div class="guideline_form form_single_line_text_field">
-                        <label class="title">原價<small>(選填)</small></label>
-                        <input type="text" placeholder="填寫商品原始價格">
-                     </div>
-                     <!--.form_card_list_combination 卡片清單-->
-                     <div class="guideline_form form_card_list_combination">
-                       <label class="title">商品規格<small>(選填)</small></label>
-                       <!--.card_list , 用.card_list_...時必須-->
-                       <ul class="card_list">
-                         <!--規格-->
-                         <li class="list_content">
-                           <!--.card_list_action_btn, .on 選取, .off未選-->
-                           <div class="card_list_action_btn on">
-                             <div class="content">
-                               <!--考量手機螢幕向下支援, 建議只顯示15全形字-->
-                               <span class="content_box">建議只寫15個全形字</span>
-                             </div>
-                             <div class="right">
-                               <a href="#" class="content_modify_btn">
-                                 <i class="ic_card_list_edit"></i>
-                               </a>
-                             </div>
-                           </div>
-                         </li>
-                         <!--新增規格-->
-                         <li class="list_content">
-                           <!--新增規格-->
-                           <a href="#" class="add_item_spec_btn">
-                             <span class="btn_content">
-                               <i class="ic_card_list_add"></i>
-                               新增規格
-                             </span>
-                           </a>
-                         </li>
-                         <li class="CLEAR"></li>
-                       </ul>
-                     </div>
-                  </div>
-               </div>
-            </article>
-            <!--下一步按鈕-->
-            <div class="bottom_container">
-               <!--bottom_page_footer 頁面置底按鈕-->
-               <a href="#start_event_index" class="bottom_page_footer" data-rel="back">確定</a>
+                      </div>
+                      <!--勾選按鈕-->
+                      <div class="select_btns">
+                        <!--:checked 時, .card_product + .card_product_select, 
+                          沒有則刪除 .card_product_select-->
+                        <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check1" class="grid_select_checkbox" checked>
+                        <label for="check1"></label>
+                      </div>
+                    </div>
+                  </li>
+                  <!--已選商品-->
+                  <li class="card_content">
+                    <!--card_product_select 商品卡片-->
+                    <div class="card_product on">
+                      <!--商品圖片-->
+                      <div class="product_img">
+                        <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469506825125.jpg" alt="">    
+                      </div>
+                      <!--商品文字-->
+                      <div class="product_description_con">
+                        <div class="content_box">
+                          <span class="product_title">十勝生乳捲-英式真奶茶☆7條以上☆下單處</span>
+                          <span class="product_price">原價 $ 500 / 特價 $ 320</span>
+                        </div>
+                      </div>
+                      <!--勾選按鈕-->
+                      <div class="select_btns">
+                        <!--:checked 時, .card_product + .card_product_select, 
+                          沒有則刪除 .card_product_select-->
+                        <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check2" class="grid_select_checkbox" checked>
+                        <label for="check2"></label>
+                      </div>
+                    </div>
+                  </li>
+                  <!--未選商品-->
+                  <li class="card_content">
+                    <!--card_product_select 商品卡片-->
+                    <div class="card_product">
+                      <!--商品圖片-->
+                      <div class="product_img">
+                        <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469512024685.jpg" alt="">    
+                      </div>
+                      <!--商品文字-->
+                      <div class="product_description_con">
+                        <div class="content_box">
+                          <span class="product_title">十勝生乳捲-紫芋香奶☆7條以上☆下單處</span>
+                          <span class="product_price">原價 $ 500 / 特價 $ 320</span>
+                        </div>
+                      </div>
+                      <!--勾選按鈕-->
+                      <div class="select_btns">
+                        <!--:checked 時, .card_product + .card_product_select, 
+                          沒有則刪除 .card_product_select-->
+                        <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check3" class="grid_select_checkbox">
+                        <label for="check3"></label>
+                      </div>
+                    </div>
+                  </li>
+                  <!--已選商品-->
+                  <li class="card_content">
+                    <!--card_product_select 商品卡片-->
+                    <div class="card_product on">
+                      <!--商品圖片-->
+                      <div class="product_img">
+                        <img src="http://photo.ihergo.com/photo/product/47/300_754047_1460457743849.jpg" alt="">    
+                      </div>
+                      <!--商品文字-->
+                      <div class="product_description_con">
+                        <div class="content_box">
+                          <span class="product_title">十勝生乳捲-芒果☆7條以上☆下單處</span>
+                          <span class="product_price">原價 $ 500 / 特價 $ 320</span>
+                        </div>
+                      </div>
+                      <!--勾選按鈕-->
+                      <div class="select_btns">
+                        <!--:checked 時, .card_product + .card_product_select, 
+                          沒有則刪除 .card_product_select-->
+                        <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check4" class="grid_select_checkbox" checked>
+                        <label for="check4"></label>
+                      </div>
+                    </div>
+                  </li>
+                  <!--已選商品-->
+                  <li class="card_content">
+                    <!--card_product_select 商品卡片-->
+                    <div class="card_product on">
+                      <!--商品圖片-->
+                      <div class="product_img">
+                        <img src="http://photo.ihergo.com/photo/product/47/300_754047_1469507328981.jpg" alt="">    
+                      </div>
+                      <!--商品文字-->
+                      <div class="product_description_con">
+                        <div class="content_box">
+                          <span class="product_title">十勝生乳捲-抹茶☆7條以上☆下單處</span>
+                          <span class="product_price">原價 $ 500 / 特價 $ 320</span>
+                        </div>
+                      </div>
+                      <!--勾選按鈕-->
+                      <div class="select_btns">
+                        <!--:checked 時, .card_product + .card_product_select, 
+                          沒有則刪除 .card_product_select-->
+                        <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check5" class="grid_select_checkbox" checked>
+                        <label for="check5"></label>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="CLEAR"></li>
+                </ul>
+              </div>
             </div>
-         </div>
-         <!-- /content -->
-
-            <!--更多動作 button sheet-->
-            <div class="action_button_sheet_container">
-              <div class="mask_modal"></div>
-              <ul class="button_list">
-                <li class="button_content">
-                  <a href="#" class="action_btn">編輯內容</a>
-                  <div class="btn_divider"></div>
+          </div>
+        </article>
+        <!--下一步按鈕-->
+        <div class="bottom_container">
+          <!--bottom_page_footer 頁面置底按鈕-->
+          <a href="#" class="bottom_page_footer">下一步</a>
+        </div>
+      </div>
+      <!-- /content -->
+      <!-- 左側滑出選單_開始 -->
+      <div class="panel_navi" data-role="panel" id="bars">
+      </div>
+      <!-- 左側滑出選單_結束 -->
+    </div>
+    <!-- /page -->
+    <!--新增商品-->
+    <div class="wrapper" data-role="page" id="add_new_item">
+      <!-- <a id="go_top" class="gotop_btn" href="#"></a> -->
+      <!--header_close_white 關閉(白)-->
+      <header class="header_guideline header_close_white" data-role="header" data-position="fixed">
+        <div class="header_container">
+          <span class="header_text">新增商品</span>
+          <a href="#start_event_index" class="close_btn" data-rel="back"><i class="ic_header_close"></i></a>
+        </div>
+      </header>
+      <div role="main" class="ui-content add_new_item full_page">
+        <article class="main_content">
+          <div class="form_container">
+            <!--上傳商品照片-->
+            <div class="upload_img_box">
+              <ul class="card_grid">
+                <!--最多只能放四張-->
+                <!--新增圖片-->
+                <li class="card_content">
+                  <a href="#" class="upload_img_btn">
+                    <span class="btn_content">
+                      <i class="ic_card_icon_add_img"></i>
+                      <p>新增圖片</p>
+                    </span>
+                  </a>
                 </li>
-                <li class="button_content">
-                  <a href="#" class="action_btn">刪除內容</a>
-                  <div class="btn_divider"></div>
+                <!--圖片列表:第一張 +.cover-->
+                <li class="card_content">
+                  <!--card_img_action_btn 圖片卡片-->
+                  <div class="card_img_action_btn cover">
+                    <div class="item_img">
+                      <img src="http://photo.ihergo.com/photo/product/07/300_838707_1466932766920.jpg" alt="">
+                    </div>
+                    <div class="action_btn">
+                      <a href="#" class="img_remove_btn">
+                      <i class="ic_card_img_delete"></i>
+                      </a>
+                    </div>
+                    <span class="tag"></span>
+                  </div>
                 </li>
-                <!--取消-->
-                <li class="button_content">
-                  <a href="#" class="action_btn cancel">取消</a>
+                <!--圖片列表-->
+                <li class="card_content">
+                  <!--card_img_action_btn 圖片卡片-->
+                  <div class="card_img_action_btn">
+                    <div class="item_img">
+                      <img src="http://photo.ihergo.com/photo/product/07/300_838707_1413008419609.jpg" alt="">
+                    </div>
+                    <div class="action_btn">
+                      <a href="#" class="img_remove_btn">
+                      <i class="ic_card_img_delete"></i>
+                      </a>
+                    </div>
+                    <span class="tag"></span>
+                  </div>
                 </li>
+                <!--圖片列表-->
+                <li class="card_content">
+                  <!--card_img_action_btn 圖片卡片-->
+                  <div class="card_img_action_btn">
+                    <div class="item_img">
+                      <img src="http://photo.ihergo.com/photo/product/07/300_838707_1413008323684.jpg" alt="">
+                    </div>
+                    <div class="action_btn">
+                      <a href="#" class="img_remove_btn">
+                      <i class="ic_card_img_delete"></i>
+                      </a>
+                    </div>
+                    <span class="tag"></span>
+                  </div>
+                </li>
+                <li class="CLEAR"></li>
               </ul>
             </div>
-         <!-- 左側滑出選單_開始 -->
-         <div class="panel_navi" data-role="panel" id="bars">
-         </div>
-         <!-- 左側滑出選單_結束 -->
+            <!--表格內容-->
+            <div class="item_form_content">
+              <!--.form_single_line_text_field 單行文字輸入框:商品網址-->
+              <div class="guideline_form form_single_line_text_field">
+                <label class="title">商品網址<small>(選填)</small></label>
+                <input type="text" placeholder="填寫網址可自動帶入適合的圖片">
+              </div>
+              <!--.form_single_line_text_field 單行文字輸入框:商品名稱-->
+              <div class="guideline_form form_single_line_text_field">
+                <label class="title">商品名稱<small>(最多輸入15個全形字)</small></label>
+                <!--限制只能輸入15個全形字，由於maxlenght會同時限制全形半形，這裏再麻煩用
+                  javascript處理-->
+                <input type="text" placeholder="想合購的商品名稱">
+              </div>
+              <!--.form_single_line_text_field 單行文字輸入框:商品描述-->
+              <!--不要箭頭 +.no_arrow-->
+              <div class="guideline_form form_text_field_combination no_arrow">
+                <label class="title">商品描述<small>(選填)</small></label>
+                <div class="container">
+                  <div class="left">
+                    <textarea rows="2" cols="50" placeholder="介紹一下這件商品例如材料、材質等等"></textarea>
+                  </div>
+                  <div class="right">
+                    <a href="#" class="arrow_right_btn">
+                    <i class="ic_arrow_right"></i>
+                    </a>
+                  </div>
+                  <div class="CLEAR"></div>
+                </div>
+              </div>
+              <!--.form_single_line_text_field 單行文字輸入框:團購價-->
+              <div class="guideline_form form_single_line_text_field">
+                <label class="title">團購價</label>
+                <input type="text" placeholder="商品的合購優惠價">
+              </div>
+              <!--.form_single_line_text_field 單行文字輸入框:原價-->
+              <div class="guideline_form form_single_line_text_field">
+                <label class="title">原價<small>(選填)</small></label>
+                <input type="text" placeholder="填寫商品原始價格">
+              </div>
+              <!--.form_card_list_combination 卡片清單-->
+              <div class="guideline_form form_card_list_combination">
+                <label class="title">商品規格<small>(選填)</small></label>
+                <!--.card_list , 用.card_list_...時必須-->
+                <ul class="card_list">
+                  <!--規格-->
+                  <li class="list_content">
+                    <!--.card_list_action_btn, .on 選取, .off未選-->
+                    <div class="card_list_action_btn on">
+                      <div class="content">
+                        <!--考量手機螢幕向下支援, 建議只顯示15全形字-->
+                        <span class="content_box">建議只寫15個全形字</span>
+                      </div>
+                      <div class="right">
+                        <a href="#" class="content_modify_btn">
+                        <i class="ic_card_list_edit"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <!--新增規格-->
+                  <li class="list_content">
+                    <!--新增規格-->
+                    <a href="#add_new_item_add_spec" class="add_item_spec_btn" data-transition="slide">
+                    <span class="btn_content">
+                    <i class="ic_card_list_add"></i>
+                    新增規格
+                    </span>
+                    </a>
+                  </li>
+                  <li class="CLEAR"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!--下一步按鈕-->
+        <div class="bottom_container">
+          <!--bottom_page_footer 頁面置底按鈕-->
+          <!--按下確定時再加上
+            // li.card_content 高度
+            $('li.card_content').each(function(){
+             var ObjectW=$(this).width();
+             $(this).css('height',ObjectW);
+            });
+            -->
+          <a href="#start_event_index" class="bottom_page_footer" data-rel="back">確定</a>
+        </div>
       </div>
-      <!-- /page -->
-   </body>
+      <!-- /content -->
+      <!--更多動作 button sheet-->
+      <div class="action_button_sheet_container">
+        <div class="mask_modal"></div>
+        <ul class="button_list">
+          <li class="button_content">
+            <a href="#add_new_item_modify_spec" class="action_btn" data-transition="slide">編輯內容</a>
+            <div class="btn_divider"></div>
+          </li>
+          <li class="button_content">
+            <a href="#" class="action_btn">刪除內容</a>
+            <div class="btn_divider"></div>
+          </li>
+          <!--取消-->
+          <li class="button_content">
+            <a href="#" class="action_btn cancel">取消</a>
+          </li>
+        </ul>
+      </div>
+      <!-- 左側滑出選單_開始 -->
+      <div class="panel_navi" data-role="panel" id="bars">
+      </div>
+      <!-- 左側滑出選單_結束 -->
+    </div>
+    <!-- /page -->
+    <!--新增商品規格-->
+    <div class="wrapper" data-role="page" id="add_new_item_add_spec">
+      <a id="go_top" class="gotop_btn" href="#"></a>
+      <!--header_back_close 回上一頁+關閉-->
+      <header class="header_guideline header_back_close header_close_white" data-role="header" data-position="fixed">
+        <div class="header_container">
+          <span class="header_text">新增商品規格</span>
+          <a href="#add_new_item" class="back_btn" data-rel="back"><i class="ic_header_arrow_left"></i></a>
+          <a href="#start_event_index" class="close_btn" data-transition="slideup"><i class="ic_header_close"></i></a>
+        </div>
+      </header>
+      <script>
+        $(function(){
+         $('.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper').css('background','#ffffff');
+        });
+      </script>
+      <div role="main" class="ui-content add_new_item full_page">
+        <article class="main_content">
+          <div class="form_container">
+            <!--表格內容-->
+            <div class="item_form_content">
+              <!--.form_single_line_text_field 單行文字輸入框:商品網址-->
+              <div class="guideline_form form_single_line_text_field">
+                <label class="title">規格</label>
+                <input type="text" placeholder="例如顏色 尺寸 重量">
+              </div>
+            </div>
+          </div>
+        </article>
+        <!--下一步按鈕-->
+        <div class="bottom_container">
+          <!--bottom_page_footer 頁面置底按鈕-->
+          <a href="#add_new_item" class="bottom_page_footer" data-rel="back">確定</a>
+        </div>
+      </div>
+      <!-- /content -->
+      <!-- 左側滑出選單_開始 -->
+      <div class="panel_navi" data-role="panel" id="bars">
+      </div>
+      <!-- 左側滑出選單_結束 -->
+    </div>
+    <!-- /page -->
+    <!--修改商品規格-->
+    <div class="wrapper" data-role="page" id="add_new_item_modify_spec">
+      <a id="go_top" class="gotop_btn" href="#"></a>
+      <!--header_back_close 回上一頁+關閉-->
+      <header class="header_guideline header_back_close header_close_white" data-role="header" data-position="fixed">
+        <div class="header_container">
+          <span class="header_text">修改商品規格</span>
+          <a href="#add_new_item" class="back_btn" data-rel="back"><i class="ic_header_arrow_left"></i></a>
+          <a href="#start_event_index" class="close_btn" data-transition="slideup"><i class="ic_header_close"></i></a>
+        </div>
+      </header>
+      <div role="main" class="ui-content add_new_item full_page">
+        <article class="main_content">
+          <div class="form_container">
+            <!--表格內容-->
+            <div class="item_form_content">
+              <!--.form_single_line_text_field 單行文字輸入框:商品網址-->
+              <div class="guideline_form form_single_line_text_field">
+                <label class="title">規格</label>
+                <input type="text" placeholder="例如顏色 尺寸 重量" value="建議只寫15個全形字">
+              </div>
+            </div>
+          </div>
+        </article>
+        <!--下一步按鈕-->
+        <div class="bottom_container">
+          <!--bottom_page_footer 頁面置底按鈕-->
+          <a href="#add_new_item" class="bottom_page_footer" data-rel="back">確定</a>
+        </div>
+      </div>
+      <!-- /content -->
+      <!-- 左側滑出選單_開始 -->
+      <div class="panel_navi" data-role="panel" id="bars">
+      </div>
+      <!-- 左側滑出選單_結束 -->
+    </div>
+    <!-- /page -->
+  </body>
 </html>
