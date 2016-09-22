@@ -1,5 +1,4 @@
 @charset "UTF-8";
-.full_page { width: 100%; height: 100%; }
 .wrapper .event_main article.main_content .union_items_container { width: 100%; height: 100%; max-width: var(--max_w); background: var(--gray_FC); }
 .wrapper .event_main article.main_content .union_items_container .content_container { padding: 18px 0; }
 .wrapper .event_main article.main_content .union_items_container .content_container .items_tool_bar { }
@@ -8,7 +7,7 @@
 .wrapper .event_main article.main_content .union_items_container .content_container .items_tool_bar .item_summary_text { font-size: 0.7222rem;/*13px*/ color: var(--gray_888); line-height: 30px; display: inline-block; float: right; }
 .wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con { margin-top: 18px; margin-bottom: 50px; }
 .wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid { min-width: 288px; margin: 0 auto; }
-.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content { width: 48%; min-width:138px; min-height:138px; list-style: none; display: block; margin: 0 4% 20px 0; float: left; }
+.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content { width: 48%; min-width: 138px; min-height: 138px; list-style: none; display: block; margin: 0 4% 20px 0; float: left; }
 .wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content:nth-of-type(2n) { margin-right: 0; }
 
 /*新增自訂商品按鈕*/
@@ -75,7 +74,7 @@
 .wrapper .item_details article.main_content .item_details_container .item_details_footer .list_content { width: calc(100% - 36px); float: left; }
 .wrapper .item_details article.main_content .item_details_container .item_details_footer .list_content ul.type_container { width: 100%; }
 .wrapper .item_details article.main_content .item_details_container .item_details_footer .list_content ul.type_container li.type { list-style: none; float: left; display: block; }
-.wrapper .item_details article.main_content .item_details_container .item_details_footer .list_content ul.type_container li.ic_triangle_arrow_right { content: ''; width: 40px; height: 20px; background: url('../images/global/ic-triangle-arrow-right@2x.png') no-repeat; background-size: 8px auto; background-position: 50%; display: block; float: left; }
+.wrapper article.main_content li.ic_triangle_arrow_right { content: ''; width: 40px; height: 20px; background: url('../images/global/ic-triangle-arrow-right@2x.png') no-repeat; background-size: 8px auto; background-position: 50%; display: inline-block; float: left; }
 .wrapper .item_details article.main_content .item_details_container .item_details_footer .list_content a.product_link { text-decoration: none; font-weight: normal; color: #105CB6 !important; }
 
 /*新增商品表單*/
@@ -85,15 +84,22 @@
 .wrapper .add_new_item article.main_content .form_container .upload_img_box ul.card_grid { }
 .wrapper .add_new_item article.main_content .form_container .upload_img_box ul.card_grid li.card_content { width: 150px; height: 150px; list-style: none; display: block; margin: 0 15px 0 0; float: left; }
 .wrapper .add_new_item article.main_content .form_container .upload_img_box ul.card_grid li.card_content:last-child { display: none; }
-.wrapper .add_new_item article.main_content .form_container .upload_img_box ul.card_grid li.card_content a.upload_img_btn { width: calc(100% + 2px); height:calc(100% + 2px); border-radius:10px; background: var(--gray_DF); display: block; text-decoration: none; position: relative; }
+.wrapper .add_new_item article.main_content .form_container .upload_img_box ul.card_grid li.card_content a.upload_img_btn { width: calc(100% + 2px); height: calc(100% + 2px); border-radius: 10px; background: var(--gray_DF); display: block; text-decoration: none; position: relative; }
 .wrapper .add_new_item article.main_content .form_container .upload_img_box ul.card_grid li.card_content a:active.upload_img_btn { background: #cccccc; }
 .wrapper .add_new_item article.main_content .form_container .upload_img_box ul.card_grid li.card_content a.upload_img_btn .btn_content { width: 100%; height: 76px; position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin: auto; text-align: center; }
 .wrapper .add_new_item article.main_content .form_container .upload_img_box ul.card_grid li.card_content a.upload_img_btn .btn_content i.ic_card_icon_add_img { width: 50px; height: 46px; background: url('../images/start_event/ic-card-icon-add-img@2x.png') no-repeat; background-size: cover; display: block; margin: auto; }
 .wrapper .add_new_item article.main_content .form_container .upload_img_box ul.card_grid li.card_content a.upload_img_btn .btn_content p { font-size: 0.7778rem; /*14px*/ font-weight: bold; color: #ffffff; margin-top: 11px; }
 
-/*表格內容*/
-.wrapper .add_new_item article.main_content .form_container .item_form_content { background: #ffffff; padding-bottom: 80px; }
-.wrapper .add_new_item article.main_content .form_container .item_form_content .form_card_list_combination ul.card_list li.list_content a.add_item_spec_btn { width: calc(100% - 2px); height: 50px; line-height: 50px; border-radius: 5px; border: 1px solid var(--gray_E5); display: block; margin-left: -1px; font-size: 0.7778rem;/*14px*/ font-weight: 500; color: #bfbfbf; text-decoration: none; text-align: center; }
-.wrapper .add_new_item article.main_content .form_container .item_form_content .form_card_list_combination ul.card_list li.list_content a:active.add_item_spec_btn { background: #efefef; }
-.wrapper .add_new_item article.main_content .form_container .item_form_content .form_card_list_combination ul.card_list li.list_content a.add_item_spec_btn span.btn_content { display: inline-block; }
-.wrapper .add_new_item article.main_content .form_container .item_form_content .form_card_list_combination ul.card_list li.list_content a.add_item_spec_btn span.btn_content i.ic_card_list_add { width: 13px; height: 13px; background: url('../images/start_event/ic-card-list-add@2x.png') no-repeat; background-size: cover; display: inline-block; margin-right: 5px; position: relative; top: 1px; }
+/*設定開團資訊*/
+.wrapper article.main_content .form_container { width: 100%; height: 100%; background: var(--gray_F7); padding-bottom: 30px; }
+.wrapper article.main_content .form_container .form_blocks { background: #ffffff; margin-bottom: 20px; }
+.wrapper .set_details article.main_content .form_container .item_form_content { padding-bottom: 0; }
+.wrapper .set_details article.main_content .form_container .item_form_content .guideline_form:last-child { border: 0; }
+
+/*合購類別*/
+.wrapper .set_details article.main_content .form_container .item_form_content .form_text_field_combination.item_type .container { height: 25px; }
+.wrapper .set_details article.main_content .form_container .item_form_content .form_text_field_combination.item_type .container .left { height: 25px; }
+.wrapper .set_details article.main_content .form_container .item_form_content .form_text_field_combination.item_type .container .right { height: 25px; }
+.wrapper .set_details article.main_content .form_container .item_form_content .form_text_field_combination.item_type .container .left ul.item_type_list { height: 25px; }
+.wrapper .set_details article.main_content .form_container .item_form_content .form_text_field_combination.item_type .container .left ul.item_type_list li.type_list { list-style: none; color: var(--gray_666); float: left; display: inline-block; }
+.wrapper .set_details article.main_content .form_container .item_form_content .form_text_field_combination.item_type .container .left ul.item_type_list li.ic_triangle_arrow_right { height: 25px; line-height: 25px; }

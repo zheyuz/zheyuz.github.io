@@ -51,6 +51,11 @@
           <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
         </div>
       </header>
+      <script>
+        $(function(){
+         $('.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper').css('height','100%');
+        });
+      </script> 
       <div role="main" class="ui-content event_main full_page">
         <article class="main_content">
           <!--合購商品設定-->
@@ -337,12 +342,8 @@
         <div class="bottom_container">
           <!--bottom_page_footer 頁面置底按鈕-->
           <!--按下確定時再加上
-            // li.card_content 高度
-            $('li.card_content').each(function(){
-             var ObjectW=$(this).width();
-             $(this).css('height',ObjectW);
-            });
-            -->
+          $('.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper').css('height','100%');
+          -->
           <a href="#start_event_index" class="bottom_page_footer" data-rel="back">確定</a>
         </div>
       </div>

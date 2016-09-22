@@ -1,87 +1,277 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-      <title>我要開團</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
-      <link rel="stylesheet" href="../css/jqm-datebox-1.4.5.css" />
-      <link href="../css/layout.css" rel="stylesheet" type="text/css">
-      <!--<link href="../css/event.css" rel="stylesheet" type="text/css"> -->
-      <link rel="stylesheet" href="../css/mobile_guideline.css">
-      <link rel="stylesheet" href="../css/start_event.css">
-      <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
-      <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script> 
-      <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js"></script>     
-      <script type="text/javascript" src="../js/jqm-datebox-1.4.5.min.js"></script>
-      <script type="text/javascript">
-         jQuery.extend(jQuery.mobile,
-         {
-           ajaxEnabled: false
-         });
-      </script>
-      <!-- go to Top -->
-      <script type="text/javascript">
-         $(function(){
-          $("#go_top").click(function(){
-            jQuery("html,body").animate({
-              scrollTop:0
-            },1000);
+  <head>
+    <meta charset="UTF-8">
+    <title>我要開團</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="../css/jqm-datebox-1.4.5.css" />
+    <link href="../css/layout.css" rel="stylesheet" type="text/css">
+    <!--<link href="../css/event.css" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" href="../css/mobile_guideline.css">
+    <link rel="stylesheet" href="../css/start_event.css">
+    <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script> 
+    <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js"></script>     
+    <script type="text/javascript" src="../js/jqm-datebox-1.4.5.min.js"></script>
+    <script type="text/javascript">
+      jQuery.extend(jQuery.mobile,
+      {
+        ajaxEnabled: false
+      });
+    </script>
+    <!-- go to Top -->
+    <script type="text/javascript">
+      $(function(){
+       $("#go_top").click(function(){
+         jQuery("html,body").animate({
+           scrollTop:0
+         },1000);
+       });
+       $(window).scroll(function() {
+         if ( $(this).scrollTop() > 300){
+           $('#go_top').fadeIn("fast");
+         } else {
+           $('#go_top').stop().fadeOut("fast");
+         }
+       });
+      });
+    </script>
+    <!-- go to Top_END -->
+    <script type="text/javascript">
+      $(function(){
+      
+         //視窗捲動則Header fixed
+                 $(this).scroll(function() {
+                 var windowScrollTop=$(window).scrollTop(); //抓捲動數值
+                 if(windowScrollTop>=20){ //捲動數值超過Header(約180)
+                   $('.header_guideline').addClass('scroll');
+                 }else{
+           $('.header_guideline').removeClass('scroll');
+                 }
+                 });
+        //
+        $('a[data-href="popup"]').each(function(){
+          $(this).click(function(){
+            $('body').addClass('fix');
+            $('.popup_screen').show();
+            $('.popup_screen').find('.mask_modal').fadeIn(400);
+            $('.popup_screen').find('.popup_container').fadeIn(1200);
           });
-          $(window).scroll(function() {
-            if ( $(this).scrollTop() > 300){
-              $('#go_top').fadeIn("fast");
-            } else {
-              $('#go_top').stop().fadeOut("fast");
-            }
+        });
+      
+        //
+        $('.popup_close_btn').each(function(){
+          $(this).click(function(){
+            $('.popup_screen').find('.mask_modal').fadeOut(400);
+            $('.popup_screen').delay(1000).stop().fadeOut();
+            $('body').removeClass('fix');
           });
-         });
-      </script>
-      <!-- go to Top_END -->
-      <script type="text/javascript">
-         $(function(){
-         
-            //視窗捲動則Header fixed
-                    $(this).scroll(function() {
-                    var windowScrollTop=$(window).scrollTop(); //抓捲動數值
-                    if(windowScrollTop>=20){ //捲動數值超過Header(約180)
-                      $('.header_guideline').addClass('scroll');
-                    }else{
-              $('.header_guideline').removeClass('scroll');
-                    }
-                    });
+        });
 
-         });
-         $(window).resize(function(){
-         });
-      </script>
-   </head>
-   <body>
-      <div class="wrapper" data-role="page">
-         <a id="go_top" class="gotop_btn" href="#"></a>
-<!--header_back_close 回上一頁+關閉-->
-<header class="header_guideline header_back_close" data-role="header" data-position="fixed">
-   <div class="header_container">
-      <span class="header_text">設定開團資訊</span>
-      <a href="#" class="back_btn"><i class="ic_header_arrow_left"></i></a>
-      <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
-   </div>
-</header>
-         <div role="main" class="ui-content event_main full_page">
-            <article class="main_content">
-            </article>
-            <!--下一步按鈕-->
-            <div class="bottom_container">
-               <!--bottom_page_footer 頁面置底按鈕-->
-               <a href="#" class="bottom_page_footer">下一步</a>
+        //
+        $('.card_exptend_btn').click(function(){
+          $(this).nextAll('ul.card_form_container').slideDown();
+          $(this).hide();
+        });
+
+      });
+      $(window).resize(function(){
+      });
+    </script>
+  </head>
+  <body>
+    <div class="wrapper" data-role="page">
+      <a id="go_top" class="gotop_btn" href="#"></a>
+      <!--header_back_close 回上一頁+關閉-->
+      <header class="header_guideline header_back_close" data-role="header" data-position="fixed">
+        <div class="header_container">
+          <span class="header_text">設定開團資訊</span>
+          <a href="#" class="back_btn" data-rel="back"><i class="ic_header_arrow_left"></i></a>
+          <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
+        </div>
+      </header>
+      <div role="main" class="ui-content event_main set_details">
+        <article class="main_content">
+          <div class="form_container">
+            <div class="form_blocks">
+              <!--.row_collapse_contnet-->
+              <!--展開時+.expand-->
+              <div class="row_collapse_content expand">
+                <div class="left">
+                  <!--未填 +.unfill , 內容確認都有填寫後 +.done -->
+                  <i class="ic_row_status unfill"></i>
+                </div>
+                <div class="content">合購設定</div>
+                <div class="right">
+                  <a href="#" class="content_control_btn">
+                  <i class="ic_row_expand"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="item_form_content">
+                <!--.form_single_line_text_field 單行文字輸入框:合購標題-->
+                <div class="guideline_form form_single_line_text_field">
+                  <label class="title">合購標題<small class="quotation"><a href="#" class="quo_link" data-href="popup">商店優惠訊息</a></small></label>
+                  <input type="text" placeholder="吸引人的勸敗標題或合購目標">
+                </div>
+                <!--.form_text_field_combination 文字輸入框組合:合購類別-->
+                <!--不要箭頭 +.no_arrow-->
+                <div class="guideline_form form_text_field_combination item_type">
+                  <label class="title">合購類別</label>
+                  <div class="container">
+                    <div class="left">
+                      <ul class="item_type_list">
+                        <li class="type_list">熱銷美食</li>
+                        <li class="ic_triangle_arrow_right"></li>
+                        <li class="type_list">蔬果食材</li>
+                        <li class="ic_triangle_arrow_right"></li>
+                        <li class="type_list">台灣水果</li>
+                      </ul>
+                    </div>
+                    <div class="right">
+                      <a href="#" class="arrow_right_btn">
+                      <i class="ic_arrow_right"></i>
+                      </a>
+                    </div>
+                    <div class="CLEAR"></div>
+                  </div>
+                </div>
+                <!--.form_date_select 選擇日期、時間:截止時間-->
+                <div class="guideline_form form_date_select">
+                  <label class="title">截止日期<small class="quotation"><a href="#" class="quo_link" data-href="popup">大合購最後下單日</a></small></label>
+                  <div class="date_select_container">
+                    <span class="date_content">2016.09.11</span>
+                    <a href="#" class="date_select_btn">
+                    <i class="ic_form_date_select_calendar"></i>
+                    </a>
+                    <span class="hr_content">07</span>
+                    <span class="txt_box">時</span>
+                    <span class="min_content">20</span>
+                    <span class="txt_box">分</span>
+                    <div class="CLEAR"></div>
+                  </div>
+                  <!--.form_card_combination 表單組合卡片-->
+                  <div class="guideline_form  form_card_combination">
+                    <div class="card_container">
+                      <span class="title">截止進階設定</span>
+                      <a href="#" class="card_exptend_btn">
+                        <i class="ic_dropdown"></i>
+                      </a>
+                      <ul class="card_form_container">
+                        <!--不設定-->
+                        <li class="form_content">
+                          <label for="select1">
+                            <input type="radio" name="item_select" value="" id="select1" class="grid_select_checkbox">
+                            <span>不設定</span>
+                          </label>
+                        </li>
+                        <!--份數-->
+                        <li class="form_content">
+                          <label for="select1">
+                            <input type="radio" name="item_select" value="" id="select1" class="grid_select_checkbox">
+                            <span>累積達<input type="text" class="card_text_field">份時自動截止</span>
+                          </label>
+                        </li>
+                        <!--金額-->
+                        <li class="form_content">
+                          <label for="select1">
+                            <input type="radio" name="item_select" value="" id="select1" class="grid_select_checkbox">
+                            <span>累積達<input type="text" class="card_text_field">元時自動截止</span>
+                          </label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!--.form_text_field_combination 文字輸入框組合:商品描述-->
+                <!--不要箭頭 +.no_arrow-->
+                <div class="guideline_form form_text_field_combination">
+                  <label class="title">商品推薦</label>
+                  <div class="container">
+                    <div class="left">
+                      大力推薦合購的商品，有助於吸引更多團員跟團！例如：網路好評、購買心得分享
+                    </div>
+                    <div class="right">
+                      <a href="#" class="arrow_right_btn">
+                      <i class="ic_arrow_right"></i>
+                      </a>
+                    </div>
+                    <div class="CLEAR"></div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
-         <!-- /content -->
-         <!-- 左側滑出選單_開始 -->
-         <div class="panel_navi" data-role="panel" id="bars">
-         </div>
-         <!-- 左側滑出選單_結束 -->
+            <div class="form_blocks">
+              <!--.row_collapse_contnet-->
+              <!--展開時+.expand-->
+              <div class="row_collapse_content expand">
+                <div class="left">
+                  <!--未填 +.unfill , 內容確認都有填寫後 +.done -->
+                  <i class="ic_row_status unfill"></i>
+                </div>
+                <div class="content">合購資訊</div>
+                <div class="right">
+                  <a href="#" class="content_control_btn">
+                  <i class="ic_row_expand"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="item_form_content">
+                <!--.form_single_line_text_field 單行文字輸入框:合購標題-->
+                <div class="guideline_form form_single_line_text_field">
+                  <label class="title">聯絡電話</label>
+                  <input type="text" placeholder="參與合購的團員才能看到你的電話">
+                </div>
+                <!--.form_text_field_combination 文字輸入框組合:商品描述-->
+                <!--不要箭頭 +.no_arrow-->
+                <div class="guideline_form form_text_field_combination">
+                  <label class="title">商品推薦</label>
+                  <div class="container">
+                    <div class="left">
+                      大力推薦合購的商品，有助於吸引更多團員跟團！例如：網路好評、購買心得分享
+                    </div>
+                    <div class="right">
+                      <a href="#" class="arrow_right_btn">
+                      <i class="ic_arrow_right"></i>
+                      </a>
+                    </div>
+                    <div class="CLEAR"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!--下一步按鈕-->
+        <div class="bottom_container">
+          <!--bottom_page_footer 頁面置底按鈕-->
+          <a href="#" class="bottom_page_footer">下一步</a>
+        </div>
       </div>
-      <!-- /page -->
-   </body>
+      <!-- /content -->
+      <!--更多動作 button sheet-->
+      <div class="popup_screen">
+        <div class="mask_modal"></div>
+        <a href="#" class="popup_close_btn">
+        <i class="ic_header_close_white"></i>
+        </a>
+        <div class="popup_container">
+          <div class="popup_content">
+            <b class="title">商店優惠訊息</b>
+            <p>未滿2500元需付運費210元<br>
+              滿3500元享有9折優惠<br>
+              滿6000元享有85折優惠<br>
+              滿6000元享有85折優惠
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- 左側滑出選單_開始 -->
+      <div class="panel_navi" data-role="panel" id="bars">
+      </div>
+      <!-- 左側滑出選單_結束 -->
+    </div>
+    <!-- /page -->
+  </body>
 </html>
