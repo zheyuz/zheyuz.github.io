@@ -304,7 +304,7 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .guideline_form label.title { width: 100%; height: 18px; display: block; margin: 17px 0 15px 0; font-size: 0.7778rem;/*14px*/ font-weight: bold; color: var(--gray_888); line-height: 18px; position: relative;  }
 .wrapper article.main_content .guideline_form label.title small { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: relative; top: -1px; }
 .wrapper article.main_content .guideline_form label.title small.quotation { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: absolute; top: calc((100% - 18px)/2); right: 0; }
-.wrapper article.main_content .guideline_form label.title small.quotation a.quo_link { font-weight: bold; color: #3388cc; text-decoration: none; }
+.wrapper article.main_content .guideline_form label.title small.quotation a.quo_link { font-weight: bold; color: #3388cc; text-decoration: none; cursor: pointer;}
 .wrapper article.main_content .guideline_form label.title small.quotation a:active.quo_link { opacity: .8; background: transparent; }
 /* form_single_line_text_field */
 
@@ -317,7 +317,7 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .form_text_field_combination .container .left { width: 90%; height: 50px; float: left; font-size: 0.7778rem; /*14px*/ font-weight: normal; line-height: 1.8; color: var(--gray_C3); }
 .wrapper article.main_content .form_text_field_combination .container .left textarea { width: 100%; height: 50px !important; min-height: 50px; border: 0; background: transparent; box-shadow: none; padding: 0; font-size: 14px; font-weight: 300; line-height: 1.8 !important; color: var(--gray-C3) !important; }
 .wrapper article.main_content .form_text_field_combination .container .right { width: 10%; height: 50px; float: left; position: relative; }
-.wrapper article.main_content .form_text_field_combination .container .right a.arrow_right_btn { width: 26px; height: 26px; display: block; position: absolute; top: calc((100% - 26px)/2); right: 0; }
+.wrapper article.main_content .form_text_field_combination .container .right a.arrow_right_btn { width: 25px; height: 25px; display: block; position: absolute; top: calc((100% - 25px)/2); right: 0; }
 .wrapper article.main_content .form_text_field_combination .container .right a.arrow_right_btn:active { background: var(--gray_FB); }
 .wrapper article.main_content .form_text_field_combination .container .right a.arrow_right_btn i.ic_arrow_right { width: 9px; height: 15px; background: url('../images/global/ic-arrow-right@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; position: relative; top: calc((100% - 16px)/2); }
 /* No Arrow*/
@@ -334,6 +334,31 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .form_date_select .date_select_container .txt_box { display: inline-block; height: 25px; line-height: 25px; margin: 0 3.5%; }
 .wrapper article.main_content .form_date_select .date_select_container .min_content { width: 15%; height: 25px; line-height: 25px; text-align: center; display: inline-block; }
 
+/* form_checkbox_combination */
+.wrapper article.main_content .form_checkbox_combination { }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container { width: 100%; padding-bottom:20px; }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list { list-style: none; width: 100%; height: 20px; line-height: 20px; margin-bottom:20px; }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label span{
+font-size: 0.7778rem; /*14px*/
+font-weight: normal;
+color: var(--gray_666);
+margin-left: 30px;
+display: inline-block;
+}
+/*jQuery Mobile修正*/
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list .ui-checkbox { margin: 0; height: 20px }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off { height: 22px; border: 0; padding: 0; background: transparent; border: 0; padding: 0; background: transparent; }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on { height: 22px; border: 0; padding: 0; background: transparent; }
+/*選取按鈕 -  已選取*/
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on:after { width: 20px; height: 20px; background: url('../images/global/ic-checkbox-l-selected@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -9px; left: 0px; border: 0; }
+/*選取按鈕 -  未選取*/
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 20px; height: 20px; background: url('../images/global/ic-checkbox-l-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; opacity: 1; position: relative; top: -9px; left: 0px; border: 0; }
+
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list  label small { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: relative; top: -1px; }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list  label small.quotation { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: absolute; top: calc((100% - 18px)/2); right: 0; }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list  label small.quotation a.quo_link { font-weight: bold; color: #3388cc; text-decoration: none; cursor: pointer;}
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list  label small.quotation a:active.quo_link { opacity: .8; background: transparent; }
+
 /* form_card_combination */
 .wrapper article.main_content .form_card_combination { width: 100%; min-width: 53px; padding-bottom: 20px; }
 .wrapper article.main_content .form_card_combination .card_container { border-radius: 5px; background-color: #f6f5f5; position: relative; }
@@ -344,17 +369,14 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .form_card_combination .card_container ul.card_form_container { width: 90%; margin: 0 auto; padding-bottom: 12px; display: none; }
 .wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content { width: 100%; list-style: none; margin-bottom: 10px; }
 .wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label span { font-size: 0.7222rem;/*13px*/ font-weight: normal; color: var(--gray_555); margin-left: 28px; display: inline-block; }
-
 /* jQuery Mobile修正 */
 .wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label span .ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset { display: inline-block; width: 50px; height: 23px; margin: 0 12px; }
 .wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label span input.card_text_field { width: 50px; height: 23px !important; min-height: 23px !important; border-radius: 4px !important; background-color: #ffffff; padding: 0 2px; border: 0; display: inline-block; position: relative; top: 0; left: 0; font-size: 0.6667rem; /*12px*/ font-weight: normal; color: var(--gray_666); }
 .wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content .ui-checkbox { margin: 0; }
 .wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-off { border: 0; padding: 0; background: transparent; border: 0; padding: 0; background: transparent; }
 .wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-on { border: 0; padding: 0; background: transparent; }
-
 /*選取按鈕 -  已選取*/
 .wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-on:after { width: 18px; height: 18px; background: url('../images/global/ic-radio-button-s-selected@2x.png') no-repeat; background-size: cover; display: block; border-radius: 50%; position: relative; top: -9px; left: 0px; border: 0; }
-
 /*選取按鈕 -  未選取*/
 .wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-off:after { width: 18px; height: 18px; background: url('../images/global/ic-radio-button-s-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 50%; opacity: 1; position: relative; top: -9px; left: 0px; border: 0; }
 
@@ -383,7 +405,7 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 /***--------------- Popup Screen 樣式組合 ---------------***/
 .wrapper .popup_screen { width: 100%; height: 100%; position: fixed; top: 0; z-index: 1001; display: none; }
 /*關閉按鈕*/
-.wrapper .popup_screen a.popup_close_btn { width: 25px; height: 25px; position: absolute; top: calc((50px - 25px)/2); right: 13px; display: block; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; }
+.wrapper .popup_screen a.popup_close_btn { width: 25px; height: 25px; position: absolute; top: calc((50px - 25px)/2); right: 13px; display: block; cursor:pointer; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; }
 .wrapper .popup_screen a:active.popup_close_btn { background: transparent; opacity: .15; }
 .wrapper .popup_screen a.popup_close_btn i.ic_header_close_white { width: 15px; height: 15px; background: url('../images/global/ic-header-close-white@2x.png') no-repeat; background-size: cover; position: relative; top: 5px; margin: 0 auto; display: block; }
 .wrapper .popup_screen .popup_container { width: 100%; height: calc(100% - var(--header_h)); position: fixed; top: var(--header_h); text-align: center; display: none; }
