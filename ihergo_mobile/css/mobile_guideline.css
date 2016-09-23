@@ -414,3 +414,8 @@ display: inline-block;
 .wrapper .popup_screen .popup_container .popup_content { font-size: 0.7778rem;/*14px*/ padding: 17px 20px; background-color: var(--ihergo_brand_yellow); border-radius: 10px; color: var(--gray_3F); max-width: 75%; margin: 0 auto; vertical-align: middle; display: inline-block; text-align: left; margin-top: -50px; }
 .wrapper .popup_screen .popup_container .popup_content b { width: 100%; margin-bottom: 10px; display: block; }
 .wrapper .popup_screen .popup_container .popup_content p { line-height: 1.8; }
+.wrapper .popup_screen .popup_container .popup_content a {
+	text-decoration: none;
+	font-weight: bold;
+	color:var(--gray_555);
+}
