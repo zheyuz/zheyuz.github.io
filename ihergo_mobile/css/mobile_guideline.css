@@ -382,7 +382,7 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list .quotation.q_icon{
 		width:14px;
 	height: 14px;
-	top:3px;
+	top:3.3px;
 	left:0;
 	z-index: 9;
 }
