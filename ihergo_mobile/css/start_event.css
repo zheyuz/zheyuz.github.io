@@ -103,3 +103,8 @@
 .wrapper .set_details article.main_content .form_container .item_form_content .form_text_field_combination.item_type .container .left ul.item_type_list { height: 25px; }
 .wrapper .set_details article.main_content .form_container .item_form_content .form_text_field_combination.item_type .container .left ul.item_type_list li.type_list { list-style: none; color: var(--gray_666); float: left; display: inline-block; }
 .wrapper .set_details article.main_content .form_container .item_form_content .form_text_field_combination.item_type .container .left ul.item_type_list li.ic_triangle_arrow_right { height: 25px; line-height: 25px; }
+
+/*通知家族設定連結*/
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.more_setting { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: absolute; top: calc((100% - 18px)/2); z-index: 9;}
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.more_setting a.quo_link { font-weight: bold; color: #3388cc; text-decoration: none; cursor: pointer; }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.more_setting a:active.quo_link { opacity: .8; background: transparent; }

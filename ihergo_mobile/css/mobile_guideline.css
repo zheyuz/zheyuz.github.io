@@ -336,28 +336,34 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 
 /* form_checkbox_combination */
 .wrapper article.main_content .form_checkbox_combination { }
-.wrapper article.main_content .form_checkbox_combination ul.checkbox_container { width: 100%; padding-bottom:20px; }
-.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list { list-style: none; width: 100%; height: 20px; line-height: 20px; margin-bottom:20px; position: relative;}
-.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label span{
-font-size: 0.7778rem; /*14px*/
-font-weight: normal;
-color: var(--gray_666);
-margin-left: 30px;
-display: inline-block;
-}
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container { width: 100%; padding-bottom: 20px; }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list { list-style: none; width: 100%; height: 20px; line-height: 20px; margin-bottom: 20px; position: relative; }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label span { font-size: 0.7778rem; /*14px*/ font-weight: normal; color: var(--gray_666); margin-left: 30px; display: inline-block; }
+
 /*jQuery Mobile修正*/
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list .ui-checkbox { margin: 0; height: 20px }
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off { width: 80%; height: 22px; border: 0; padding: 0; background: transparent; border: 0; padding: 0; background: transparent; }
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on { width: 80%; height: 22px; border: 0; padding: 0; background: transparent; }
+
 /*選取按鈕 -  已選取*/
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on:after { width: 20px; height: 20px; background: url('../images/global/ic-checkbox-l-selected@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -9px; left: 0px; border: 0; }
+
 /*選取按鈕 -  未選取*/
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 20px; height: 20px; background: url('../images/global/ic-checkbox-l-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; opacity: 1; position: relative; top: -9px; left: 0px; border: 0; }
-
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: relative; top: -1px; }
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.quotation { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: absolute; top: calc((100% - 18px)/2); right: 0; }
-.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.quotation a.quo_link { font-weight: bold; color: #3388cc; text-decoration: none; cursor: pointer;}
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.quotation a.quo_link { font-weight: bold; color: #3388cc; text-decoration: none; cursor: pointer; }
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.quotation a:active.quo_link { opacity: .8; background: transparent; }
+
+/* form_dropdown_combination */
+.wrapper article.main_content .form_dropdown_combination .container{
+	width:100%;
+}
+/* jQuery Mobile 修正 */
+.wrapper article.main_content .form_dropdown_combination .container .ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow { padding: 0; border: 0; border-radius: 0; box-shadow: none; width: 100%; height: 100%; line-height: 50px; background: url('../images/global/ic-dropdown@2x.png') #ffffff no-repeat; background-size: 13px 9px; background-position: 98% 50%; }
+.wrapper article.main_content .form_dropdown_combination .container .ui-select { margin: 0; }
+.wrapper article.main_content .form_dropdown_combination .container .ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow .form_dropdown { font-size:0.7778rem; /*14px*/ font-weight: normal; color: var(--gray_555); text-align: left; }
+
 
 /* form_card_combination */
 .wrapper article.main_content .form_card_combination { width: 100%; min-width: 53px; padding-bottom: 20px; }
