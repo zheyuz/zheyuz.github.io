@@ -68,7 +68,44 @@
                       $('.action_button_sheet_container').delay(1000).stop().fadeOut();
                       $('body').removeClass('fix');
                     });
-
+            /*------------設定開團資訊------------*/
+            //打開popup
+            $('a[data-href="popup"]').each(function(){
+              $(this).click(function(){
+                var PopupTitle=$(this).attr('data-popuptitle');
+                var PopupContent=$(this).attr('data-popupcontent');
+                $('body').addClass('fix');
+                $('.popup_screen').show();
+                $('.popup_screen').find('.popup_container').fadeIn(900);
+                $('.popup_container').find('.mask_modal').fadeIn(300);
+                $('.popup_content').find('b').text(PopupTitle);
+                $('.popup_content').find('p').prepend(PopupContent);
+              });
+            });
+            //關閉popup
+            $('.popup_close_btn, .popup_container').each(function(){
+              $(this).click(function(){
+                $('.popup_container').find('.mask_modal').fadeOut(400);
+                $('.popup_screen').delay(1000).stop().fadeOut(0);
+                $('.popup_content').find('b').text('');
+                $('.popup_content').find('p').html('');
+                $('body').removeClass('fix');
+              });
+            }); 
+            //展開截止進階設定
+            $('.card_exptend_btn').click(function(){
+              $(this).nextAll('ul.card_form_container').slideDown();
+              $(this).hide();
+            });
+          
+            //展開單列
+            $('.content_control_btn').each(function(){
+              $(this).click(function(){
+                // .row_collapse_conten 換樣式 
+                $(this).parent().parent().toggleClass('expand');
+                //這句會讓footer消失有bug $(this).parent().parent().nextAll('.item_form_content').slideToggle();
+              });
+            });
 
 
          });
