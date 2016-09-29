@@ -92,9 +92,9 @@
 .wrapper .add_new_item article.main_content .form_container .upload_img_box ul.card_grid li.card_content a.upload_img_btn .btn_content p { font-size: 0.7778rem; /*14px*/ font-weight: bold; color: #ffffff; margin-top: 11px; }
 
 /*設定開團資訊*/
-.wrapper article.main_content .form_container { width: 100%; height: 100%; background: var(--gray_F7); padding-bottom: 30px; }
+.wrapper article.main_content .form_container { width: 100%; height: 100%; background: var(--gray_F7); padding-bottom: 0px; }
 .wrapper article.main_content .form_container .form_blocks { background: #ffffff; margin-bottom: 20px; }
-.wrapper article.main_content .form_container .form_blocks:last-child { margin-bottom: 60px; }
+.wrapper article.main_content .form_container .form_blocks:last-child { margin-bottom: 0px; }
 .wrapper .set_details article.main_content .form_container .item_form_content { padding-bottom: 0; }
 .wrapper .set_details article.main_content .form_container .item_form_content .guideline_form:last-child { border: 0; }
 

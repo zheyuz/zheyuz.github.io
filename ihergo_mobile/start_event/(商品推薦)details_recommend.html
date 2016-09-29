@@ -23,37 +23,37 @@
     <!-- go to Top -->
     <script type="text/javascript">
       $(function(){
-       $("#go_top").click(function(){
-         jQuery("html,body").animate({
-           scrollTop:0
-         },1000);
+
        });
        $(window).scroll(function() {
-         if ( $(this).scrollTop() > 300){
-           $('#go_top').fadeIn("fast");
-         } else {
-           $('#go_top').stop().fadeOut("fast");
-         }
        });
       });
     </script>
     <!-- go to Top_END -->
   </head>
   <body>
-    <!--選擇主分類-->
-    <div class="wrapper" data-role="page" id="details_recommend">
+    <div class="wrapper" data-role="page">
       <!--header_close 關閉-->
       <header class="header_guideline header_close" data-role="header" data-position="fixed">
         <div class="header_container">
-          <span class="header_text">合購類別</span>
+          <span class="header_text">商品推薦</span>
           <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
         </div>
       </header>
       <div role="main" class="ui-content event_main set_details">
         <article class="main_content">
         </article>
+        <!--下一步按鈕-->
+        <div class="bottom_container fixed">
+          <!--.bottom_page_footer 頁面置底按鈕-->
+          <a href="#" class="bottom_page_footer">完成開團</a>
+        </div>
       </div>
       <!-- /content -->
+      <!-- 左側滑出選單_開始 -->
+      <div class="panel_navi" data-role="panel" id="bars">
+      </div>
+      <!-- 左側滑出選單_結束 -->
     </div>
     <!-- /page -->
   </body>

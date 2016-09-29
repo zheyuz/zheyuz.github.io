@@ -325,7 +325,7 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 /***--------------- Form 樣式組合 ---------------***/
 
 /*表格內容*/
-.wrapper article.main_content .form_container .item_form_content { background: #ffffff; padding-bottom: 80px; }
+.wrapper article.main_content .form_container .item_form_content { background: #ffffff; padding-bottom: 20px; }
 .wrapper article.main_content .form_container .item_form_content .form_card_list_combination ul.card_list li.list_content a.add_item_spec_btn { width: calc(100% - 2px); height: 50px; line-height: 50px; border-radius: 5px; border: 1px solid var(--gray_E5); display: block; margin-left: -1px; font-size: 0.7778rem;/*14px*/ font-weight: 500; color: #bfbfbf; text-decoration: none; text-align: center; }
 .wrapper article.main_content .form_container .item_form_content .form_card_list_combination ul.card_list li.list_content a:active.add_item_spec_btn { background: #efefef; }
 .wrapper article.main_content .form_container .item_form_content .form_card_list_combination ul.card_list li.list_content a.add_item_spec_btn span.btn_content { display: inline-block; }
@@ -421,10 +421,15 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 /* form_card_combination */
 .wrapper article.main_content .form_card_combination { width: 100%; min-width: 53px; padding-bottom: 20px; }
 .wrapper article.main_content .form_card_combination .card_container { border-radius: 5px; background-color: #f6f5f5; position: relative; }
-.wrapper article.main_content .form_card_combination .card_container span.title { height: 53px; line-height: 53px; font-size: 0.7778rem; /*14px*/ font-weight: bold; color: var(--gray_888); padding: 5%; }
-.wrapper article.main_content .form_card_combination .card_container a.card_exptend_btn { width: 25px; height: 25px; display: block; position: absolute; top: calc((53px - 25px)/2); right: 5%; }
-.wrapper article.main_content .form_card_combination .card_container a:active.card_exptend_btn { background: transparent; opacity: .15; }
-.wrapper article.main_content .form_card_combination .card_container a.card_exptend_btn i.ic_dropdown { width: 13px; height: 9px; background: url('../images/global/ic-dropdown@2x.png') no-repeat; background-size: 13px 9px; position: relative; top: calc((100% - 9px)/2); margin: 0 auto; display: block; }
+.wrapper article.main_content .form_card_combination .card_container .title_container{
+	width:100%;
+	height: 53px;
+	line-height: 53px;
+	cursor:pointer;
+}
+.wrapper article.main_content .form_card_combination .card_container .title_container span.title { height: 53px; line-height: 53px; font-size: 0.7778rem; /*14px*/ font-weight: bold; color: var(--gray_888); padding: 5%; }
+.wrapper article.main_content .form_card_combination .card_container .title_container span.card_exptend_btn { width: 25px; height: 25px; display: block; position: absolute; top: calc((53px - 25px)/2); right: 5%; display: block; }
+.wrapper article.main_content .form_card_combination .card_container .title_container span.card_exptend_btn i.ic_dropdown { width: 13px; height: 9px; background: url('../images/global/ic-dropdown@2x.png') no-repeat; background-size: 13px 9px; position: relative; top: calc((100% - 9px)/2); margin: 0 auto; display: block; }
 .wrapper article.main_content .form_card_combination .card_container ul.card_form_container { width: 90%; margin: 0 auto; padding-bottom: 12px; display: none; }
 .wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content { width: 100%; list-style: none; margin-bottom: 10px; }
 .wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label span { font-size: 0.7222rem;/*13px*/ font-weight: normal; color: var(--gray_555); margin-left: 28px; display: inline-block; }
@@ -456,7 +461,11 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .form_switch .switch_box .ui-shadow-inset { box-shadow: none; }
 
 /***--------------- Footer 樣式組合 ---------------***/
-.wrapper .bottom_container { width: 100%; max-width: var(--max_w); height: 50px; position: fixed; bottom: 0; z-index: 999; }
+.wrapper .bottom_container { width: 100%; max-width: var(--max_w); height: 50px; position: relative; bottom: 0; z-index: 999; }
+.wrapper .bottom_container.fixed{
+width: 100%; max-width: var(--max_w); 
+	position: fixed;
+}
 .wrapper .bottom_container.modal { left: 50%; }
 .wrapper .bottom_container a.bottom_page_footer { width: 100%; height: 50px; line-height: 50px; background-color: var(--ihergo_brand_blue); border: 0; color: #ffffff; font-size: 0.8889rem;/*16px*/ font-weight: bold; text-align: center; text-decoration: none; display: block; }
 .wrapper .bottom_container a:active.bottom_page_footer { background-color: #4abee8; }
