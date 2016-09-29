@@ -1,4 +1,5 @@
 @charset "UTF-8";
+.full_page { height: 100%; }
 .wrapper .event_main article.main_content .union_items_container { width: 100%; height: 100%; max-width: var(--max_w); background: var(--gray_FC); }
 .wrapper .event_main article.main_content .union_items_container .content_container { padding: 18px 0; }
 .wrapper .event_main article.main_content .union_items_container .content_container .items_tool_bar { }
@@ -93,27 +94,79 @@
 /*設定開團資訊*/
 .wrapper article.main_content .form_container { width: 100%; height: 100%; background: var(--gray_F7); padding-bottom: 30px; }
 .wrapper article.main_content .form_container .form_blocks { background: #ffffff; margin-bottom: 20px; }
+.wrapper article.main_content .form_container .form_blocks:last-child { margin-bottom: 60px; }
 .wrapper .set_details article.main_content .form_container .item_form_content { padding-bottom: 0; }
 .wrapper .set_details article.main_content .form_container .item_form_content .guideline_form:last-child { border: 0; }
 
 /*合購類別*/
-.wrapper .set_details article.main_content .form_container .item_form_content .form_text_field_combination.item_type .container { height: 25px; }
-.wrapper .set_details article.main_content .form_container .item_form_content .form_text_field_combination.item_type .container .left { height: 25px; }
-.wrapper .set_details article.main_content .form_container .item_form_content .form_text_field_combination.item_type .container .right { height: 25px; }
-.wrapper .set_details article.main_content .form_container .item_form_content .form_text_field_combination.item_type .container .left ul.item_type_list { height: 25px; }
-.wrapper .set_details article.main_content .form_container .item_form_content .form_text_field_combination.item_type .container .left ul.item_type_list li.type_list { list-style: none; color: var(--gray_666); float: left; display: inline-block; }
-.wrapper .set_details article.main_content .form_container .item_form_content .form_text_field_combination.item_type .container .left ul.item_type_list li.ic_triangle_arrow_right { height: 25px; line-height: 25px; }
-
-.wrapper article.main_content .form_dropdown_combination .container span.remark_text{
-	width:100%;
-	font-size:0.6667rem;/*12px*/
-	color:var(--gray_666);
-	margin-top:10px;
-	padding-bottom:20px;
-	display: block;
-}
+.wrapper article.main_content .form_dropdown_combination .container span.remark_text { width: 100%; font-size: 0.6667rem;/*12px*/ color: var(--gray_666); margin-top: 10px; padding-bottom: 20px; display: block; }
 
 /*通知家族設定連結*/
-.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.more_setting { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: absolute; top: calc((100% - 18px)/2); z-index: 9;}
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.more_setting { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: absolute; top: calc((100% - 18px)/2); z-index: 9; }
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.more_setting a.quo_link { font-weight: bold; color: #3388cc; text-decoration: none; cursor: pointer; }
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.more_setting a:active.quo_link { opacity: .8; background: transparent; }
+
+/*雜費*/
+.wrapper article.main_content .form_custom_combination .input_box { display: inline-block; float: right; position: relative; top: calc((100% - 25px)/2); }
+.wrapper article.main_content .form_custom_combination .input_box .ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset { box-shadow: none; }
+.wrapper article.main_content .form_custom_combination .input_box input { min-height: 0; border: 0; background: transparent; box-shadow: none; padding: 0; font-size: 14px; font-weight: 300; line-height: 1.8 !important; color: var(--gray-C3) !important; width: 70px; float: right; }
+.wrapper article.main_content .form_custom_combination .input_box .ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset:before { content: '元'; font-size: 0.7778rem;/*14px*/ display: inline-block; float: right; margin-left: 10px; position: relative; top: 4px; }
+
+/*Row Container*/
+.wrapper article.main_content .row_container{
+	width:100%;
+	max-width: var(--max_w);
+	margin:0 auto;
+	background: #ffffff;
+}
+
+
+/* Row Footer */
+.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list .ui-checkbox { margin: 0; }
+.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list .ui-checkbox span { font-size: 0.7778rem; /*14px*/ font-weight: normal; color: var(--gray_888); margin-left: -10px; position: relative; top: -2px; }
+.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on { border: 0; border-radius: 0; background: transparent; }
+.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off { border: 0; border-radius: 0; background: transparent; }
+/*已選取*/
+.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list .ui-icon-check:after, html .ui-btn.ui-checkbox-on.ui-checkbox-on:after { width: 15px; height: 15px; background: url('../images/global/ic-checkbox-s-selected@2x.png') no-repeat; background-size: cover; position: relative; top: -9px; left: -30px; }
+/*未選取*/
+.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 15px; height: 15px; background: url('../images/global/ic-checkbox-s-select@2x.png') no-repeat; background-size: cover; position: relative; top: -9px; left: -30px; opacity: 1; }
+
+/*完成畫面*/
+.wrapper .event_main article.main_content .done_content { width: 100%; max-width: var(--max_w); height: calc(100% + var(--header_h)); margin: 0 auto; background: #ffffff; position: relative; }
+.wrapper .event_main article.main_content .done_content i.ic_modal_icon_share { width: 190px; height: 133px; background: url('../images/start_event/ic-modal-icon-share@2x.png') no-repeat; background-size: 190px auto; background-position: 50%; display: block; margin: 0 auto; padding: 34px 0 25px 0; }
+.wrapper .event_main article.main_content .done_content .txt_box { width: 100%; }
+/*主標*/
+.wrapper .event_main article.main_content .done_content .txt_box h2.page_title { font-size: 1.389rem;/*25px*/ font-weight: bold; line-height: 1.2; color: var(--ihergo_brand_blue); text-align: center; margin-bottom: 10px; }
+/*內文*/
+.wrapper .event_main article.main_content .done_content .txt_box .title_description { display: block; width: 80%; font-size: 0.7778rem; /*14px*/ line-height: 1.8; color: var(--ihergo_brand_blue); text-align: center; margin: 0 auto; }
+.wrapper .event_main article.main_content .done_content ul.share_btns_container { list-style: none; width: 308px; margin: 22px auto; }
+.wrapper .event_main article.main_content .done_content ul.share_btns_container li.share_btn_list { width: 88px; float: left; display: inline-block; margin-right: 22px; }
+.wrapper .event_main article.main_content .done_content ul.share_btns_container li.share_btn_list:nth-of-type(3) { margin-right: 0; }
+.wrapper .event_main article.main_content .done_content ul.share_btns_container li.share_btn_list a.share_btn { width: 50px; height: 50px; display: block; border-radius: 50%; position: relative; margin: 0 auto; }
+.wrapper .event_main article.main_content .done_content ul.share_btns_container li.share_btn_list a:active.share_btn { opacity: .8; }
+.wrapper .event_main article.main_content .done_content ul.share_btns_container li.share_btn_list .share_btn.facebook { background-color: #3b5998; }
+.wrapper .event_main article.main_content .done_content ul.share_btns_container li.share_btn_list .share_btn.line { background-color: #01c302; }
+.wrapper .event_main article.main_content .done_content ul.share_btns_container li.share_btn_list .share_btn.url { background-color: #c9c9c9; }
+.wrapper .event_main article.main_content .done_content ul.share_btns_container li.share_btn_list a.share_btn i { position: relative; top: calc((100% - 28px)/2); left: calc((100% - 28px)/2); display: block; width: 28px; height: 28px; }
+.wrapper .event_main article.main_content .done_content ul.share_btns_container li.share_btn_list p { width: 100%; text-align: center; font-size: 0.6667rem; /*12px*/ font-weight: bold; color: var(--gray_888); margin-top: 10px; }
+.wrapper .event_main article.main_content .done_content ul.share_btns_container li.share_btn_list a.share_btn i.ic_modal_icon_facebook { background: url('../images/start_event/ic-modal-icon-facebook@2x.png') no-repeat; background-size: 11px auto; background-position: 50%; }
+.wrapper .event_main article.main_content .done_content ul.share_btns_container li.share_btn_list a.share_btn i.ic_modal_icon_line { background: url('../images/start_event/ic-modal-icon-line@2x.png') no-repeat; background-size: 28px auto; background-position: 50%; }
+.wrapper .event_main article.main_content .done_content ul.share_btns_container li.share_btn_list a.share_btn i.ic_modal_icon_link { background: url('../images/start_event/ic-modal-icon-link@2x.png') no-repeat; background-size: 21px auto; background-position: 50%; }
+/*我的合購單*/
+.wrapper .event_main article.main_content .done_content .check_my_order { width: 90%; max-width: 320px; height: 98px; border-radius: 10px; background-color: var(--gray_FB); border: solid 1px #e6e6e6; position: static; bottom: 0; margin: 40px auto; }
+.wrapper .event_main article.main_content .done_content .check_my_order a.order_card { width: 100%; height: 100%; border-radius: 10px; display: block; }
+.wrapper .event_main article.main_content .done_content .check_my_order a.order_card:active { background: #f3f3f3; }
+.wrapper .event_main article.main_content .done_content .check_my_order a.order_card .left { width: 80px; height: 100%; position: relative; display: inline-block; float: left; }
+/*Icon*/
+.wrapper .event_main article.main_content .done_content .check_my_order a.order_card .left p.order_icon { width: 46px; height: 46px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; display: block; background-color: #c6c6c6; border-radius: 50%; }
+.wrapper .event_main article.main_content .done_content .check_my_order a.order_card .left p.order_icon i.ic_card_icon_order { width: 28px; height: 28px; background: url('../images/start_event/ic-card-icon-order@2x.png') no-repeat; background-size: 23px auto; background-position: 50%; display: block; position: relative; top: calc((100% - 28px)/2); left: -1px; margin: 0 auto; }
+.wrapper .event_main article.main_content .done_content .check_my_order a.order_card .right { width: 40px; height: 100%; position: relative; display: inline-block; float: left; }
+.wrapper .event_main article.main_content .done_content .check_my_order a.order_card .right i.ic_arrow_right { width: 9px; height: 15px; background: url('../images/global/ic-arrow-right@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; position: relative; top: calc((100% - 16px)/2); }
+.wrapper .event_main article.main_content .done_content .check_my_order a.order_card .content { width: calc(100% - 120px); height: 100%; display: inline-block; float: left; }
+.wrapper .event_main article.main_content .done_content .check_my_order a.order_card .content p.title { font-size: 0.7778rem;/*14px*/ font-weight: bold; margin: 16px 0 5px 0; color: var(--gray_888); }
+.wrapper .event_main article.main_content .done_content .check_my_order a.order_card .content p.description { font-size: 0.6667rem; /*12px*/ font-weight: normal; line-height: 1.7; color: #898989; }
+@media screen and (max-width:320px) {
+	.wrapper .event_main article.main_content .done_content .check_my_order { }
+	.wrapper .event_main article.main_content .done_content .check_my_order a.order_card .content p.title { font-size: 0.7778rem;/*14px*/ font-weight: bold; margin: 16px 0 10px 0; color: var(--gray_888); }
+	.wrapper .event_main article.main_content .done_content .check_my_order a.order_card .content p.description { font-size: 0.6111rem; }
+}

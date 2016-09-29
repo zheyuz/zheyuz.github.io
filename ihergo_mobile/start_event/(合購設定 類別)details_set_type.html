@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>我要開團</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="../css/jqm-datebox-1.4.5.css" />
+    <link href="../css/layout.css" rel="stylesheet" type="text/css">
+    <!--<link href="../css/event.css" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" href="../css/mobile_guideline.css">
+    <link rel="stylesheet" href="../css/start_event.css">
+    <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script> 
+    <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js"></script>     
+    <script type="text/javascript" src="../js/jqm-datebox-1.4.5.min.js"></script>
+    <script type="text/javascript">
+      jQuery.extend(jQuery.mobile,
+      {
+        ajaxEnabled: false
+      });
+    </script>
+    <!-- go to Top -->
+    <script type="text/javascript">
+      $(function(){
+       $("#go_top").click(function(){
+         jQuery("html,body").animate({
+           scrollTop:0
+         },1000);
+       });
+       $(window).scroll(function() {
+         if ( $(this).scrollTop() > 300){
+           $('#go_top').fadeIn("fast");
+         } else {
+           $('#go_top').stop().fadeOut("fast");
+         }
+       });
+      });
+    </script>
+    <!-- go to Top_END -->
+  </head>
+  <body>
+    <!--選擇主分類-->
+    <div class="wrapper" data-role="page" id="details_set_type">
+      <!--header_close 關閉-->
+      <header class="header_guideline header_close" data-role="header" data-position="fixed">
+        <div class="header_container">
+          <span class="header_text">合購類別</span>
+          <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
+        </div>
+      </header>
+      <div role="main" class="ui-content event_main set_details">
+        <article class="main_content">
+          <div class="row_container">
+            <!--.row_menu 單行選單-->
+            <a href="#details_set_type_sub" class="row_menu" data-transition="slide">
+             <div class="left">
+                <span class="menu_content">熱銷美食</span>
+             </div>
+             <div class="right">
+              <i class="ic_arrow_right"></i>
+             </div>
+            </a>
+            <!--.row_menu 單行選單-->
+            <a href="#details_set_type_sub" class="row_menu" data-transition="slide">
+             <div class="left">
+                <span class="menu_content">保養彩妝</span>
+             </div>
+             <div class="right">
+              <i class="ic_arrow_right"></i>
+             </div>
+            </a>
+            <!--.row_menu 單行選單-->
+            <a href="#details_set_type_sub" class="row_menu" data-transition="slide">
+             <div class="left">
+                <span class="menu_content">服飾配件</span>
+             </div>
+             <div class="right">
+              <i class="ic_arrow_right"></i>
+             </div>
+            </a>
+            <!--.row_menu 單行選單-->
+            <a href="#details_set_type_sub" class="row_menu" data-transition="slide">
+             <div class="left">
+                <span class="menu_content">育兒親子</span>
+             </div>
+             <div class="right">
+              <i class="ic_arrow_right"></i>
+             </div>
+            </a>
+            <!--.row_menu 單行選單-->
+            <a href="#details_set_type_sub" class="row_menu" data-transition="slide">
+             <div class="left">
+                <span class="menu_content">居家生活</span>
+             </div>
+             <div class="right">
+              <i class="ic_arrow_right"></i>
+             </div>
+            </a>
+            <!--.row_menu 單行選單-->
+            <a href="#details_set_type_sub" class="row_menu" data-transition="slide">
+             <div class="left">
+                <span class="menu_content">休閒娛樂</span>
+             </div>
+             <div class="right">
+              <i class="ic_arrow_right"></i>
+             </div>
+            </a>
+          </div>
+        </article>
+      </div>
+      <!-- /content -->
+      <!--POPUP內容-->
+      <div class="popup_screen">
+        <div class="popup_container">
+          <a class="popup_close_btn"><i class="ic_header_close_white"></i></a>
+          <div class="popup_content">
+            <b class="title"></b>
+            <p></p>
+          </div>
+          <div class="mask_modal"></div>
+        </div>
+      </div>
+      <!-- 左側滑出選單_開始 -->
+      <div class="panel_navi" data-role="panel" id="bars">
+      </div>
+      <!-- 左側滑出選單_結束 -->
+    </div>
+    <!-- /page -->
+    <!--選擇子分類-->
+    <div class="wrapper" data-role="page" id="details_set_type_sub">
+      <!--header_back_close 回上一頁+關閉-->
+      <header class="header_guideline header_back_close" data-role="header" data-position="fixed">
+        <div class="header_container">
+          <span class="header_text">我合購類別</span>
+          <a href="#" class="back_btn" data-rel="back"><i class="ic_header_arrow_left"></i></a>
+          <a href="#set_event_detail" class="close_btn" data-transition="slideup"><i class="ic_header_close"></i></a>
+        </div>
+      </header>
+      <div role="main" class="ui-content event_main set_details">
+        <article class="main_content">
+          <div class="row_container">
+            <ul class="row_select_container">
+            <!--.row_select 單行選擇-->
+            <li class="row_select">
+              <label for="check1">
+              <input type="radio" name="item_select" value="" id="check1" class="grid_select_checkbox" checked>
+              <span>甜點蛋糕</span>
+              </label>
+            </li>
+            <!--.row_select 單行選擇-->
+            <li class="row_select">
+              <label for="check1">
+              <input type="radio" name="item_select" value="" id="check1" class="grid_select_checkbox" >
+              <span>餅乾零食</span>
+              </label>
+            </li>
+            <!--.row_select 單行選擇-->
+            <li class="row_select">
+              <label for="check1">
+              <input type="radio" name="item_select" value="" id="check1" class="grid_select_checkbox">
+              <span>小吃特產</span>
+              </label>
+            </li>
+            <!--.row_select 單行選擇-->
+            <li class="row_select">
+              <label for="check1">
+              <input type="radio" name="item_select" value="" id="check1" class="grid_select_checkbox">
+              <span>飲料冰品</span>
+              </label>
+            </li>
+            <!--.row_select 單行選擇-->
+            <li class="row_select">
+              <label for="check1">
+              <input type="radio" name="item_select" value="" id="check1" class="grid_select_checkbox">
+              <span>速食料理</span>
+              </label>
+            </li>
+            <!--.row_select 單行選擇-->
+            <li class="row_select">
+              <label for="check1">
+              <input type="radio" name="item_select" value="" id="check1" class="grid_select_checkbox">
+              <span>營養保健</span>
+              </label>
+            </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <!-- /content -->
+      <!--POPUP內容-->
+      <div class="popup_screen">
+        <div class="popup_container">
+          <a class="popup_close_btn"><i class="ic_header_close_white"></i></a>
+          <div class="popup_content">
+            <b class="title"></b>
+            <p></p>
+          </div>
+          <div class="mask_modal"></div>
+        </div>
+      </div>
+      <!-- 左側滑出選單_開始 -->
+      <div class="panel_navi" data-role="panel" id="bars">
+      </div>
+      <!-- 左側滑出選單_結束 -->
+    </div>
+    <!-- /page -->
+  </body>
+</html>

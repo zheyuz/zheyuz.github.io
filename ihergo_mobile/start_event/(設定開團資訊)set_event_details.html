@@ -57,31 +57,29 @@
             var PopupContent=$(this).attr('data-popupcontent');
             $('body').addClass('fix');
             $('.popup_screen').show();
-            $('.popup_screen').find('.mask_modal').fadeIn(400);
-            $('.popup_screen').find('.popup_container').fadeIn(1200);
+            $('.popup_screen').find('.popup_container').fadeIn(900);
+            $('.popup_container').find('.mask_modal').fadeIn(300);
             $('.popup_content').find('b').text(PopupTitle);
             $('.popup_content').find('p').prepend(PopupContent);
           });
         });
-      
         //關閉popup
         $('.popup_close_btn, .popup_container').each(function(){
           $(this).click(function(){
-            $('.popup_screen').find('.mask_modal').fadeOut(400);
+            $('.popup_container').find('.mask_modal').fadeOut(400);
             $('.popup_screen').delay(1000).stop().fadeOut(0);
             $('.popup_content').find('b').text('');
             $('.popup_content').find('p').html('');
             $('body').removeClass('fix');
           });
-        });
-
+        }); 
         //展開截止進階設定
         $('.card_exptend_btn').click(function(){
           $(this).nextAll('ul.card_form_container').slideDown();
           $(this).hide();
         });
-
-        //
+      
+        //展開單列
         $('.content_control_btn').each(function(){
           $(this).click(function(){
             // .row_collapse_conten 換樣式 
@@ -89,7 +87,7 @@
             //這句會讓footer消失有bug $(this).parent().parent().nextAll('.item_form_content').slideToggle();
           });
         });
-
+      
       });
       $(window).resize(function(){
       });
@@ -107,7 +105,7 @@
       </header>
       <style>
         .ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper{
-          background: var(--gray_F7) !important;
+        background: var(--gray_F7) !important;
         }
       </style>
       <div role="main" class="ui-content event_main set_details">
@@ -131,20 +129,27 @@
               <div class="item_form_content">
                 <!--.form_single_line_text_field 單行文字輸入框:合購標題-->
                 <div class="guideline_form form_single_line_text_field">
-                  <label class="title">合購標題<small class="quotation">
-                    <!--Popup規則
-                    data-title >> Popup標題
-                    data-content >> Popup內容
-                    -->
-                    <a class="quo_link" data-href="popup" data-popuptitle="商店優惠訊息" data-popupcontent="未滿2500元需付運費210元<br>滿3500元享有9折優惠<br>滿6000元享有85折優惠<br>滿6000元享有85折優惠">商店優惠訊息</a></small></label>
+                  <label class="title error">合購標題
+                    <small class="quotation">
+                      <!--Popup規則
+                        data-title >> Popup標題
+                        data-content >> Popup內容
+                        -->
+                      <a class="quo_link" data-href="popup" data-popuptitle="商店優惠訊息" data-popupcontent="未滿2500元需付運費210元<br>滿3500元享有9折優惠<br>滿6000元享有85折優惠<br>滿6000元享有85折優惠">商店優惠訊息</a>
+                    </small>
+                  </label>
+                  <label class="error_msg" style="display:block">這是必填內容喔</label>
                   <input type="text" placeholder="吸引人的勸敗標題或合購目標">
                 </div>
                 <!--.form_text_field_combination 文字輸入框組合:合購類別-->
                 <!--不要箭頭 +.no_arrow-->
                 <div class="guideline_form form_text_field_combination item_type">
                   <label class="title">合購類別</label>
+                  <label class="error_msg">這是必填內容喔</label>
                   <div class="container">
                     <div class="left">
+                      請選擇合購所屬的商品類別
+                      <!--已填寫內容用 ul.item_type_list>li.type_list
                       <ul class="item_type_list">
                         <li class="type_list">熱銷美食</li>
                         <li class="ic_triangle_arrow_right"></li>
@@ -152,6 +157,7 @@
                         <li class="ic_triangle_arrow_right"></li>
                         <li class="type_list">台灣水果</li>
                       </ul>
+                      -->
                     </div>
                     <div class="right">
                       <a href="#" class="arrow_right_btn">
@@ -164,14 +170,51 @@
                 <!--.form_date_select 選擇日期、時間:截止時間-->
                 <div class="guideline_form form_date_select">
                   <label class="title">截止日期<small class="quotation"><a class="quo_link" data-href="popup" data-popuptitle="此大合購最後下單日" data-popupcontent="2016-08-12">大合購最後下單日</a></small></label>
+                  <label class="error_msg">這是必填內容喔</label>
                   <div class="date_select_container">
                     <span class="date_content">2016.09.11</span>
                     <a href="#" class="date_select_btn">
                     <i class="ic_form_date_select_calendar"></i>
                     </a>
-                    <span class="hr_content">07</span>
+                    <span class="hr_content">
+                      <select class="time_select" name="endHour">
+                      <option value="0">0</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7" selected="">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                    </select>
+                    </span>
                     <span class="txt_box">時</span>
-                    <span class="min_content">20</span>
+                    <span class="min_content">
+                      <select class="time_select" name="endMinute">
+                      <option value="0">0</option>
+                      <option value="10">10</option>
+                      <option value="20" selected="">20</option>
+                      <option value="30">30</option>
+                      <option value="40">40</option>
+                      <option value="50">50</option>
+                    </select>
+                    </span>
                     <span class="txt_box">分</span>
                     <div class="CLEAR"></div>
                   </div>
@@ -180,30 +223,30 @@
                     <div class="card_container">
                       <span class="title">截止進階設定</span>
                       <a href="#" class="card_exptend_btn">
-                        <i class="ic_dropdown"></i>
+                      <i class="ic_dropdown"></i>
                       </a>
                       <ul class="card_form_container">
                         <!--不設定-->
                         <li class="form_content">
                           <label for="select1">
-                            <input type="radio" name="item_select" value="" id="select1" class="grid_select_checkbox" checked="checked">
-                            <span>不設定</span>
+                          <input type="radio" name="item_select" value="" id="select1" class="grid_select_checkbox" checked="checked">
+                          <span>不設定</span>
                           </label>
                         </li>
                         <!--份數-->
                         <!--選取後 自動focus input.card_text_field-->
                         <li class="form_content">
                           <label for="select1">
-                            <input type="radio" name="item_select" value="" id="select1" class="grid_select_checkbox">
-                            <span>累積達<input type="text" class="card_text_field">份時自動截止</span>
+                          <input type="radio" name="item_select" value="" id="select1" class="grid_select_checkbox">
+                          <span>累積達<input type="text" class="card_text_field">份時自動截止</span>
                           </label>
                         </li>
                         <!--金額-->
                         <!--選取後 自動focus input.card_text_field-->
                         <li class="form_content">
                           <label for="select1">
-                            <input type="radio" name="item_select" value="" id="select1" class="grid_select_checkbox">
-                            <span>累積達<input type="text" class="card_text_field">元時自動截止</span>
+                          <input type="radio" name="item_select" value="" id="select1" class="grid_select_checkbox">
+                          <span>累積達<input type="text" class="card_text_field">元時自動截止</span>
                           </label>
                         </li>
                       </ul>
@@ -214,9 +257,14 @@
                 <!--不要箭頭 +.no_arrow-->
                 <div class="guideline_form form_text_field_combination">
                   <label class="title">商品推薦</label>
+                  <label class="error_msg">這是必填內容喔</label>
                   <div class="container">
                     <div class="left">
                       大力推薦合購的商品，有助於吸引更多團員跟團！例如：網路好評、購買心得分享
+                      <!--已填寫內容用 span.fill_content
+                      <span class="fill_content">大力推薦合購的商品，有助於吸引更多團員跟團！例如：網路好評、購買心得分享
+                      </span>
+                      -->
                     </div>
                     <div class="right">
                       <a href="#" class="arrow_right_btn">
@@ -247,44 +295,53 @@
                 <!--.form_single_line_text_field 單行文字輸入框:合購標題-->
                 <div class="guideline_form form_single_line_text_field">
                   <label class="title">聯絡電話</label>
+                  <label class="error_msg">這是必填內容喔</label>
                   <input type="text" placeholder="參與合購的團員才能看到你的電話">
                 </div>
                 <!--.form_checkbox_combination 勾選組合:收款方式-->
                 <div class="guideline_form form_checkbox_combination">
                   <label class="title">收款方式</label>
-                    <ul class="checkbox_container">
-                      <li class="checkbox_list">
-                          <label for="check1">
-                            <input type="checkbox" name="item_select" value="" id="check1" class="grid_select_checkbox" checked>
-                            <span>ihergo點數付款</span>
-                          </label>
-                            <small class="quotation q_icon" style="left:135px;">
-                              <a class="quo_link" data-href="popup" data-popuptitle="什麼是ihergo點數？" data-popupcontent="ihergo點數是站方推出的功能，讓主購、店家團員方便進行交易，不用手續費且快速安全<br><br>接受ihergo點數付款的合購，團員可使用ihergo紅利折抵合購金額，當主購確認團員的付款，團員折抵的ihergo紅利會轉入主購的ihergo點數哦！－<a href='#' class='more'>了解更多</a>">
-                              <i class="ic_event_content_form_popup_info"></i>
-                              </a>
-                            </small>
-                      </li>
-                      <li class="checkbox_list">
-                          <label for="check2">
-                            <input type="checkbox" name="item_select" value="" id="check2" class="grid_select_checkbox">
-                            <span>匯款轉帳</span>
-                          </label>
-                      </li>
-                      <li class="checkbox_list">
-                          <label for="check3">
-                            <input type="checkbox" name="item_select" value="" id="check3" class="grid_select_checkbox">
-                            <span>面交付款</span>
-                          </label>
-                      </li>
-                    </ul>
+                  <label class="error_msg">這是必填內容喔</label>
+                  <ul class="checkbox_container">
+                    <li class="checkbox_list">
+                      <label for="check1">
+                      <input type="checkbox" name="item_select" value="" id="check1" class="grid_select_checkbox" checked>
+                      <span>ihergo點數付款</span>
+                      </label>
+                      <small class="quotation q_icon" style="left:135px;">
+                      <a class="quo_link" data-href="popup" data-popuptitle="什麼是ihergo點數？" data-popupcontent="ihergo點數是站方推出的功能，讓主購、店家團員方便進行交易，不用手續費且快速安全<br><br>接受ihergo點數付款的合購，團員可使用ihergo紅利折抵合購金額，當主購確認團員的付款，團員折抵的ihergo紅利會轉入主購的ihergo點數哦！－<a href='#' class='more'>了解更多</a>">
+                      <i class="ic_event_content_form_popup_info"></i>
+                      </a>
+                      </small>
+                    </li>
+                    <li class="checkbox_list">
+                      <label for="check2">
+                      <input type="checkbox" name="item_select" value="" id="check2" class="grid_select_checkbox">
+                      <span>匯款轉帳</span>
+                      </label>
+                    </li>
+                    <li class="checkbox_list">
+                      <label for="check3">
+                      <input type="checkbox" name="item_select" value="" id="check3" class="grid_select_checkbox">
+                      <span>面交付款</span>
+                      </label>
+                    </li>
+                  </ul>
                 </div>
                 <!--.form_text_field_combination 文字輸入框組合:取貨方式-->
                 <!--不要箭頭 +.no_arrow-->
                 <div class="guideline_form form_text_field_combination">
                   <label class="title">取貨方式</label>
+                  <label class="error_msg">這是必填內容喔</label>
                   <div class="container">
                     <div class="left">
                       選擇團員可以取貨的方式，除了面交點之外也可以使用郵寄給較遠的團員喔！
+                      <!--已填寫內容用 span.fill_content
+                      <span class="fill_content">
+                        <p class="transition">3種寄送方式</p>
+                        <p class="meeting">2個面交點</p>
+                      </span>
+                      -->
                     </div>
                     <div class="right">
                       <a href="#" class="arrow_right_btn">
@@ -298,15 +355,20 @@
                 <!--不要箭頭 +.no_arrow-->
                 <div class="guideline_form form_text_field_combination">
                   <label class="title">注意事項
-                    <small class="quotation q_icon" style="left:60px;">
-                      <a class="quo_link" data-href="popup" data-popuptitle="注意事項說明" data-popupcontent="填寫給團員們的注意事項，圖片限上傳一張<br>(圖片建議尺寸：450 x 300)">
-                        <i class="ic_event_content_form_popup_info"></i>
-                    </a>
+                  <small class="quotation q_icon" style="left:60px;">
+                  <a class="quo_link" data-href="popup" data-popuptitle="注意事項說明" data-popupcontent="填寫給團員們的注意事項，圖片限上傳一張<br>(圖片建議尺寸：450 x 300)">
+                  <i class="ic_event_content_form_popup_info"></i>
+                  </a>
                   </small>
-                </label>
+                  </label>
+                  <label class="error_msg">這是必填內容喔</label>
                   <div class="container">
                     <div class="left">
                       提醒跟團需注意的事項，例如到貨前付款/到貨後付款、是否分攤運費等等
+                      <!--已填寫內容用 span.fill_content
+                      <span class="fill_content">提醒跟團需注意的事項，例如到貨前付款/到貨後付款、是否分攤運費等等
+                      </span>
+                      -->
                     </div>
                     <div class="right">
                       <a href="#" class="arrow_right_btn">
@@ -326,7 +388,7 @@
                   <!--未填 +.unfill , 內容確認都有填寫後 +.done -->
                   <i class="ic_row_status unfill"></i>
                 </div>
-                <div class="content">合購資訊</div>
+                <div class="content">隱私與通知</div>
                 <div class="right">
                   <a href="#" class="content_control_btn">
                   <i class="ic_row_expand"></i>
@@ -348,44 +410,106 @@
                 <!--.form_checkbox_combination 勾選組合:收款方式-->
                 <div class="guideline_form form_checkbox_combination">
                   <label class="title">通知設定</label>
-                    <ul class="checkbox_container">
-                      <li class="checkbox_list">
-                          <label for="check1">
-                            <input type="checkbox" name="item_select" value="" id="check1" class="grid_select_checkbox" checked>
-                            <span>通知追蹤我的團員</span>
-                          </label>
-                      </li>
-                      <li class="checkbox_list">
-                          <label for="check2">
-                            <input type="checkbox" name="item_select" value="" id="check2" class="grid_select_checkbox">
-                            <span>通知家族</span>
-                          </label>
-                            <small class="more_setting" style="left:100px"><a class="quo_link" href="http://www.ihergo.com">通知家族設定</a></small>
-                      </li>
-                    </ul>
+                  <ul class="checkbox_container">
+                    <li class="checkbox_list">
+                      <label for="check1">
+                      <input type="checkbox" name="item_select" value="" id="check1" class="grid_select_checkbox" checked>
+                      <span>通知追蹤我的團員</span>
+                      </label>
+                    </li>
+                    <li class="checkbox_list">
+                      <label for="check2">
+                      <input type="checkbox" name="item_select" value="" id="check2" class="grid_select_checkbox">
+                      <span>通知家族</span>
+                      </label>
+                      <small class="more_setting" style="left:100px"><a class="quo_link" href="http://www.ihergo.com">通知家族設定</a></small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="form_blocks" id="form_4">
+              <!--.row_collapse_contnet-->
+              <!--展開時+.expand-->
+              <div class="row_collapse_content expand">
+                <div class="left">
+                  <!--未填 +.unfill , 內容確認都有填寫後 +.done -->
+                  <i class="ic_row_status unfill"></i>
+                </div>
+                <div class="content">進階設定</div>
+                <div class="right">
+                  <a href="#" class="content_control_btn">
+                  <i class="ic_row_expand"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="item_form_content">
+                <!-- .form_custom_combination 自訂內容組合: 雜費-->
+                <div class="guideline_form form_custom_combination">
+                  <label class="title">雜費
+                  <small class="quotation q_icon" style="left:35px;">
+                  <a class="quo_link ui-link" data-href="popup" data-popuptitle="雜費說明" data-popupcontent="主購聯繫店家，分貨容易增加額外的開銷，設定雜費請團員跟團時一起分擔這些開銷">
+                  <i class="ic_event_content_form_popup_info"></i>
+                  </a>
+                  </small>
+                  </label>
+                  <div class="input_box">
+                    <input type="text" placeholder="請輸入金額">
+                  </div>
+                </div>
+                <!--.form_single_line_text_field 單行文字輸入框:合購標題-->
+                <div class="guideline_form form_single_line_text_field">
+                  <label class="title">合購備註欄說明
+                  <small class="quotation q_icon" style="left:103px;">
+                  <a class="quo_link ui-link" data-href="popup" data-popuptitle="合購備註欄說明" data-popupcontent="提醒團員參與合購的備註欄需填入什麼資料">
+                  <i class="ic_event_content_form_popup_info"></i>
+                  </a>
+                  </small>
+                  </label>
+                  <input type="text" placeholder="例：從facebook來跟團者請填個人facebook名稱">
+                </div>
+                <!--.form_switch:開放團員自訂合購商品-->
+                <div class="guideline_form form_switch">
+                  <label class="title">開放團員自訂合購商品
+                  </label>
+                  <div class="switch_box">
+                    <select name="flip-1" id="flip-1" data-role="slider">
+                      <option value="off"></option>
+                      <option value="on"></option>
+                    </select>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </article>
         <!--下一步按鈕-->
-        <div class="bottom_container">
-          <!--bottom_page_footer 頁面置底按鈕-->
+        <div class="bottom_container footer_row">
+          <!--.row_footer 頁面底部單行-->
+          <div class="row_footer">
+            <ul class="checkbox_container">
+              <li class="checkbox_list">
+                <label for="check1">
+                <input type="checkbox" name="item_select" value="" id="check1" class="grid_select_checkbox" checked>
+                <span>寄送開團的Email複本給我</span>
+                </label>
+              </li>
+            </ul>
+          </div>
+          <!--.bottom_page_footer 頁面置底按鈕-->
           <a href="#" class="bottom_page_footer">完成開團</a>
         </div>
       </div>
       <!-- /content -->
-      <!--更多動作 button sheet-->
+      <!--POPUP內容-->
       <div class="popup_screen">
-        <div class="mask_modal"></div>
-        <a class="popup_close_btn">
-        <i class="ic_header_close_white"></i>
-        </a>
         <div class="popup_container">
+          <a class="popup_close_btn"><i class="ic_header_close_white"></i></a>
           <div class="popup_content">
             <b class="title"></b>
             <p></p>
           </div>
+          <div class="mask_modal"></div>
         </div>
       </div>
       <!-- 左側滑出選單_開始 -->
