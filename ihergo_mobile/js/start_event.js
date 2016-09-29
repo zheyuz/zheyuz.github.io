@@ -93,9 +93,10 @@
               });
             }); 
             //展開截止進階設定
-            $('.card_exptend_btn').click(function(){
+            $('.card_container .title_container').click(function(){
               $(this).nextAll('ul.card_form_container').slideDown();
-              $(this).hide();
+              $(this).css('cursor','default');
+              $(this).find('.card_exptend_btn').hide();
             });
           
             //展開單列
@@ -106,7 +107,19 @@
                 //這句會讓footer消失有bug $(this).parent().parent().nextAll('.item_form_content').slideToggle();
               });
             });
-
+            /*------------Modal Row Footer切換------------*/
+            $('.text_box_btn').click(function(){
+              $(this).find('i').addClass('active');
+              $('.img_box_btn').find('i').removeClass('active');
+              $('.modal_text_box').fadeIn(200);
+              $('.modal_img_box').fadeOut(100);
+            });
+            $('.img_box_btn').click(function(){
+              $(this).find('i').addClass('active');
+              $('.text_box_btn').find('i').removeClass('active');
+              $('.modal_img_box').fadeIn(200);
+              $('.modal_text_box').fadeOut(100);
+            });
 
          });
 

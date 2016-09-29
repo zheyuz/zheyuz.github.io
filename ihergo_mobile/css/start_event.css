@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.full_page { height: 100%; }
+.full_page { height: calc(100vh - 55px); }
 .wrapper .event_main article.main_content .union_items_container { width: 100%; height: 100%; max-width: var(--max_w); background: var(--gray_FC); }
 .wrapper .event_main article.main_content .union_items_container .content_container { padding: 18px 0; }
 .wrapper .event_main article.main_content .union_items_container .content_container .items_tool_bar { }
@@ -93,10 +93,10 @@
 
 /*設定開團資訊*/
 .wrapper article.main_content .form_container { width: 100%; height: 100%; background: var(--gray_F7); padding-bottom: 0px; }
-.wrapper article.main_content .form_container .form_blocks { background: #ffffff; margin-bottom: 20px; }
+.wrapper article.main_content .form_container .form_blocks { background: #ffffff; margin-bottom: 25px; }
 .wrapper article.main_content .form_container .form_blocks:last-child { margin-bottom: 0px; }
-.wrapper .set_details article.main_content .form_container .item_form_content { padding-bottom: 0; }
-.wrapper .set_details article.main_content .form_container .item_form_content .guideline_form:last-child { border: 0; }
+.wrapper article.main_content .form_container .item_form_content { padding-bottom: 0; }
+.wrapper article.main_content .form_container .item_form_content .guideline_form:last-child { border: 0; }
 
 /*合購類別*/
 .wrapper article.main_content .form_dropdown_combination .container span.remark_text { width: 100%; font-size: 0.6667rem;/*12px*/ color: var(--gray_666); margin-top: 10px; padding-bottom: 20px; display: block; }
@@ -165,6 +165,18 @@
 .wrapper .event_main article.main_content .done_content .check_my_order a.order_card .content { width: calc(100% - 120px); height: 100%; display: inline-block; float: left; }
 .wrapper .event_main article.main_content .done_content .check_my_order a.order_card .content p.title { font-size: 0.7778rem;/*14px*/ font-weight: bold; margin: 16px 0 5px 0; color: var(--gray_888); }
 .wrapper .event_main article.main_content .done_content .check_my_order a.order_card .content p.description { font-size: 0.6667rem; /*12px*/ font-weight: normal; line-height: 1.7; color: #898989; }
+
+/*Modal*/
+.wrapper article.main_content .modal_container .modal_text_box { width: 100%; height: calc(100% - 40px); background: #ffffff;}
+.wrapper article.main_content .modal_container .modal_text_box textarea { width: 100%; height: 100% !important; padding: 20px; border: 1px solid #ffffff; box-shadow: none; font-size: 0.7778rem; line-height: 1.8; color: var(--gray_666); }
+.wrapper article.main_content .modal_container .modal_img_box { width: 100%; height: calc(100% - 40px); background: var(--gray_DF); position: relative; display: none; }
+.wrapper article.main_content .modal_container .modal_img_box img { width: auto; max-width: 100%; height: auto; max-height: 100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; }
+/*上傳按鈕*/
+.wrapper article.main_content .modal_container .modal_img_box a.empty_states_content { width: 68px; height: 93px; text-decoration:none; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; display: block; }
+.wrapper article.main_content .modal_container .modal_img_box a:active.empty_states_content { background: transparent; opacity: .8; }
+.wrapper article.main_content .modal_container .modal_img_box a.empty_states_content i.ic_modal_img_upload { width: 68px; height: 62px; background: url('../images/start_event/ic-modal-img-upload@2x.png') no-repeat; background-size: 100% auto; background-position: 50%; display: block; margin-bottom: 12px; }
+.wrapper article.main_content .modal_container .modal_img_box a.empty_states_content span.text { font-size: 0.8333rem;/*15px*/ font-weight: bold; color: #ffffff; display: block; text-align: center; }
+
 @media screen and (max-width:320px) {
 	.wrapper .event_main article.main_content .done_content .check_my_order { }
 	.wrapper .event_main article.main_content .done_content .check_my_order a.order_card .content p.title { font-size: 0.7778rem;/*14px*/ font-weight: bold; margin: 16px 0 10px 0; color: var(--gray_888); }
