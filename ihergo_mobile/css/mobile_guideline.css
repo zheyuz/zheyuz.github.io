@@ -324,7 +324,7 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 
 /* card_list_action_btn_select */
 .wrapper article.main_content .card_list_action_btn_select { width: calc(100% - 2px); height: 50px; line-height: 50px; border-radius: 5px; background-color: #f4f4f4; border: solid 1px var(--gray_E5); color: var(--gray_555); margin-left: -1px; margin-bottom: 15px; }
-.wrapper article.main_content .card_list_action_btn_select .left { width: calc(100% - 48px); height: 50px; float: left; margin: 0; display: inline-block; }
+.wrapper article.main_content .card_list_action_btn_select .left { width: calc(100% - 52px); height: 50px; float: left; margin: 0; display: inline-block; }
 .wrapper article.main_content .card_list_action_btn_select .left span p { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 
 /*選取按鈕  jQuery Mobile 修正*/
@@ -338,13 +338,13 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 
 /*選取按鈕 -  未選取*/
 .wrapper article.main_content .card_list_action_btn_select .left label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 16px; height: 16px; background: url('../images/global/ic-card-s-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -14px; left: 12px; border: 0; opacity: 1; }
-.wrapper article.main_content .card_list_action_btn_select .right { width: 20px; height: 50px; float: left; margin-left: 14px; margin-right: 14px; display: inline-block; }
+.wrapper article.main_content .card_list_action_btn_select .right { width: 20px; height: 50px; float: right; margin-left: 14px; margin-right: 14px; display: inline-block; }
 .wrapper article.main_content .card_list_action_btn_select .right a.content_modify_btn { width: 20px; height: 20px; display: block; position: relative; top: calc((100% - 20px)/2); }
 .wrapper article.main_content .card_list_action_btn_select .right a.content_modify_btn:active { background: transparent; opacity: .8; }
 .wrapper article.main_content .card_list_action_btn_select .right a.content_modify_btn i.ic_card_list_edit { width: 20px; height: 20px; background: url('../images/global/ic-card-list-edit@2x.png') no-repeat; background-size: cover; display: block; }
 
 /*兩行資料時*/
-.wrapper article.main_content .card_list_action_btn_select.double_line { height: 72px !important; }
+.wrapper article.main_content .card_list_action_btn_select.double_line { height: 74px !important; }
 .wrapper article.main_content .card_list_action_btn_select.double_line .left { height: 100%; }
 .wrapper article.main_content .card_list_action_btn_select.double_line .left .ui-checkbox { height: auto; top: 16px; }
 .wrapper article.main_content .card_list_action_btn_select.double_line .left label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { top: -33px; }

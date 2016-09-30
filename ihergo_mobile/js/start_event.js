@@ -81,8 +81,8 @@
                      var PopupContent = $(this).attr('data-popupcontent');
                      $('body').addClass('fix');
                      $('.popup_screen').show();
-                     $('.popup_screen').find('.popup_container').fadeIn(900);
-                     $('.popup_container').find('.mask_modal').fadeIn(300);
+                     $('.popup_screen').find('.popup_container').fadeIn(300);
+                     $('.popup_container').find('.mask_modal').fadeIn(200);
                      $('.popup_content').find('b').text(PopupTitle);
                      $('.popup_content').find('p').prepend(PopupContent);
                  });
