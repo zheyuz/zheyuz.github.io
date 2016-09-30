@@ -108,9 +108,9 @@
               });
             });
             /*------------Modal------------*/
-            var DocumentH=$(document).height();
+            var DocumentH=$(window).height();
             var ContentFullPageH=parseInt(DocumentH-140);/*140=Header+Footer*/
-            $('#details_recommend .set_details').css('height',ContentFullPageH);
+            $('#details_recommend .set_details, #details_notify .set_details').css('height',ContentFullPageH);
             /*------------Modal Row Footer切換------------*/
             $('.text_box_btn').click(function(){
               $(this).find('i').addClass('active');
@@ -145,7 +145,7 @@
                       $(this).css('width',GridWidth);
                     });
             /*------------Modal------------*/
-            var DocumentH=$(document).height();
+            var DocumentH=$(window).height();
             var ContentFullPageH=parseInt(DocumentH-140);/*140=Header+Footer*/
-            $('#details_recommend .set_details').css('height',ContentFullPageH);
+            $('#details_recommend .set_details, #details_notify .set_details').css('height',ContentFullPageH);
          });
