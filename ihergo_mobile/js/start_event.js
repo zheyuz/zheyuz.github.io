@@ -107,6 +107,10 @@
                 //這句會讓footer消失有bug $(this).parent().parent().nextAll('.item_form_content').slideToggle();
               });
             });
+            /*------------Modal------------*/
+            var DocumentH=$(document).height();
+            var ContentFullPageH=parseInt(DocumentH-140);/*140=Header+Footer*/
+            $('#details_recommend .set_details').css('height',ContentFullPageH);
             /*------------Modal Row Footer切換------------*/
             $('.text_box_btn').click(function(){
               $(this).find('i').addClass('active');
@@ -140,4 +144,8 @@
                       var GridWidth=parseInt(AllObjectW*AllObjectCount);
                       $(this).css('width',GridWidth);
                     });
+            /*------------Modal------------*/
+            var DocumentH=$(document).height();
+            var ContentFullPageH=parseInt(DocumentH-140);/*140=Header+Footer*/
+            $('#details_recommend .set_details').css('height',ContentFullPageH);
          });

@@ -23,16 +23,22 @@
     <!-- go to Top -->
     <script type="text/javascript">
       $(function(){
-
-       });
-       $(window).scroll(function() {
-       });
+          $('.text_box_btn').click(function(){
+            $(this).find('i').toggleClass('active');
+            $('.modal_text_box').fadeIn(200);
+            $('.modal_img_box').fadeOut(100);
+          });
+          $('.img_box_btn').click(function(){
+            $(this).find('i').toggleClass('active');
+            $('.modal_img_box').fadeIn(200);
+            $('.modal_text_box').fadeOut(100);
+          });
       });
     </script>
     <!-- go to Top_END -->
   </head>
   <body>
-    <div class="wrapper" data-role="page">
+    <div class="wrapper" data-role="page" id="">
       <!--header_close 關閉-->
       <header class="header_guideline header_close" data-role="header" data-position="fixed">
         <div class="header_container">
@@ -40,13 +46,36 @@
           <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
         </div>
       </header>
-      <div role="main" class="ui-content event_main set_details">
+      <div role="main" class="ui-content event_main set_details full_page">
         <article class="main_content">
+          <div class="modal_container">
+            <!--輸入文字區塊-->
+            <div class="modal_text_box">
+                              <textarea rows="2" cols="50" placeholder="大力推薦合購的商品，有助於吸引更多團員跟團喔！ 例如：網路好評、購買心得分享"></textarea>
+            </div>
+            <!--上傳圖片區塊-->
+            <div class="modal_img_box">
+              <a class="empty_states_content">
+                <i class="ic_modal_img_upload"></i>
+                <span class="text">上傳圖片</span>
+              </a>
+             <!-- <img src="http://photo.ihergo.com/photo/store/47/754047_1467335887511.jpg" alt=""> -->
+            </div>
+          <!--.row_footer 頁面底部單行-->
+          <div class="row_footer">
+            <a href="#" class="text_box_btn">
+              <i class="ic_row_footer_text active"></i>
+            </a>
+            <a href="#" class="img_box_btn">
+              <i class="ic_row_footer_img"></i>
+            </a>
+          </div>
+          </div>
         </article>
         <!--下一步按鈕-->
         <div class="bottom_container fixed">
           <!--.bottom_page_footer 頁面置底按鈕-->
-          <a href="#" class="bottom_page_footer">完成開團</a>
+          <a href="#" class="bottom_page_footer">確定</a>
         </div>
       </div>
       <!-- /content -->
