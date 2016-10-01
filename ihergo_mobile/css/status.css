@@ -1,0 +1,248 @@
+@charset "UTF-8";
+/*動態篩選*/
+.wrapper .filter_box{ background-color: #fff; font-size: 0.88rem; color: #777; font-weight: bold; padding: 0;}
+.wrapper .filter_box p.filter_text{ font-size: 0.85rem; color: #777; position: relative; padding: 10px 10px;}
+.wrapper .filter_box a.filter_btn{ float:right; width: 30px; height: 30px; padding: 15px; display: block; position: absolute; right: 0; background: url(../images/status/icon_filter_search.png) no-repeat 17px 17px / 26px 26px #fff;}
+.wrapper .filter_box a.filter_btn:active{ background-color: #f9f9f9;}
+.wrapper .filter_box a.filter_clean{ background: url(../images/status/icon_filter_clean.png) no-repeat 15px 15px / 30px 30px #fff;}
+
+.wrapper .close{ display: block; min-height: 60px; width: 100%}
+.wrapper .open{ /*height: 275px*/; padding: 0; background-color: #f5f5f5;}
+.wrapper .open ul.tabs{ width: 100%}
+.wrapper .open li.tab_item{ float: left; width: 33%; height: 55px; background-color: #f5f5f5; font-size: 1rem; color: #888; text-align: center; line-height: 55px; border-bottom: 2px solid #eaeaea; border-left: 1px solid #eaeaea; border-right: 1px solid #eaeaea; cursor: pointer;}
+.wrapper .open li.focus{ background-color: #fff; border-bottom: 2px solid #fff;}
+.wrapper .open ul.logout_tabs li.tab_item{ width: 49.6%;}
+.wrapper .open .tabContent{ padding: 25px 25px 15px; background-color: #fff;}
+.wrapper .open .tabContent .tab_box{ width: 100%; padding: 0; margin: 0 auto;}
+.wrapper .open .tabContent > div {display: none;}
+.wrapper .open .tabContent > div:first-of-type {display: inline-block;}
+
+.wrapper .open .tabContent p.select_box{ margin-bottom: 25px; width: 100%;}
+.wrapper .open .tabContent p.select_box span{ color: #888; text-align: left;}
+.wrapper .open .tabContent p.select_box span.select_title{ font-size: 1rem; color: #aaa; position: relative; top: -15px;}
+.wrapper .open .tabContent a.go_search{ display: block; background-color: #ffb200; height: 40px; line-height: 40px; color: #fff; font-size: 1rem; text-decoration: none; text-align: center; border-radius: 5px; margin: 0 auto; text-shadow: 0 0 0;}
+.wrapper .open .tabContent a.go_search:active{ opacity: 0.8;}
+.wrapper .open .tabContent a.no_search{ display: block; color: #999; margin-top: 15px; text-decoration: none; text-align: center;}
+.wrapper .open .tabContent a.no_search:active{ background-color: transparent; color: #bbb;}
+.wrapper .open .tabContent .ui-select{ display: inline-block; width: 40%; margin-left: 10px;}
+.wrapper .open .tabContent .user_select_box .ui-select{ width: 80%;}
+@media screen and ( max-width:621px) {
+	.wrapper .open li.tab_item{ width: 32.9%;}
+	.wrapper .open .tabContent .ui-select{ width: 35%;}
+	.wrapper .open .tabContent .user_select_box .ui-select{ width: 75%;}
+}
+@media screen and ( max-width:511px) {
+	.wrapper .open li.tab_item{ width: 32.75%;}
+	.wrapper .open ul.logout_tabs li.tab_item{ width: 49.3%;}
+	.wrapper .open .tabContent .ui-select{ width: 33%;}
+	.wrapper .open .tabContent .user_select_box .ui-select{ width: 65%;}
+}
+@media screen and ( max-width:401px) {
+	.wrapper .open li.tab_item{ width: 32.6%;}
+	.wrapper .open .tabContent p.select_box span.select_title{ top: -5px;}
+	.wrapper .open .tabContent .ui-select{ width: 100%; margin-left: 0;}
+	.wrapper .open .tabContent .user_select_box .ui-select{ width: 100%;}
+}
+
+/* ===== 合購動態 商店動態 ===== */
+.wrapper .status_content{ background-color: #e5e5e5; padding: 10px 15px;}
+.wrapper .status_content .one_status{ background-color: #fff;  margin: 15px 0; padding: 20px 0 0; border-radius: 5px; border: 1px solid #c5c5c5; box-shadow: 0px 1px 6px rgba(20%,20%,40%,0.30);}
+.wrapper .status_content .one_status h2.status_title{ margin: 0 10px; max-height: 45px; overflow: hidden; line-height: 1.3rem;}
+.wrapper .status_content .one_status h2.status_title a{ color: #666; text-decoration: none; font-size: 1.1rem; display: block;}
+.wrapper .status_content .one_status h2.status_title a:active{ background-color: transparent; color: #888;}
+
+/*商店滿意度*/
+.wrapper .status_content .one_status .store_info_box{ height: 28px; margin: 5px 10px 0;}
+.wrapper .status_content .one_status .store_info_box p.stf_star{ font-size: 0.8rem; color: #999; white-space: nowrap;}
+.wrapper .status_content .one_status .store_info_box p.stf_star img{ position: relative; top:2px; width: 110px;}
+.wrapper .status_content .one_status .store_info_box span.fraction{ font-size: 0.98rem; font-weight: bold; color: #f06354;}
+.wrapper .status_content .one_status .store_info_box span.comment_txt{ position: relative; top: -3px; margin-left: 3px;}
+
+/*累積份數*/
+.wrapper .status_content .one_status .infor_item{ margin: 15px 0 0 10px; height: 20px;}
+.wrapper .status_content .one_status .infor_item p.icon_amount{ font-size: 0.9rem; color: #888; float: left; line-height: 25px;}
+.wrapper .status_content .one_status .infor_item p.icon_amount span{ color: #f06354; padding: 0 2px;}
+
+/*商品圖*/
+.wrapper .status_content .one_status .goods_pic{ height: 300px; margin: 15px 0 15px;}
+.wrapper .status_content .one_status .goodspic_wrp{ height: 300px; position: absolute; left: 0; width: 100%;}
+.wrapper .status_content .one_status .goodspic_wrp .pic_content{height: 300px; position: relative; width: 100%; overflow: hidden;}
+.wrapper .status_content .one_status .goodspic_wrp .pic_content ul.ul_box{ position: absolute; top: 0; left: 0;}
+.wrapper .status_content .one_status .goodspic_wrp .pic_content ul.ul_box li{ float: left; margin-left: 16px;}
+.wrapper .status_content .one_status .goodspic_wrp .pic_content ul.ul_box img{ height: 300px;}
+
+/*喜歡*/
+.wrapper .status_content .one_status .like_box{ margin: 0 20px 15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.wrapper .status_content .one_status .like_box a.like_btn{ float: left; background: url(../images/status/icon_like.png) no-repeat 10px 8px / 15px 15px #fee3e7; color: #ea5f73; font-weight: bold; text-decoration: none; padding: 9px 10px 7px 30px; line-height: 0.8rem; font-size: 0.8rem; border-radius: 3px;}
+.wrapper .status_content .one_status .like_box a.like_btn:active{ background: url(../images/status/icon_like_active.png) no-repeat 10px 8px / 15px 15px #ea5f73; color: #fff;}
+.wrapper .status_content .one_status .like_box a.unlike{ background: url(../images/status/icon_cancel.png) no-repeat 7px 8px / 16px 16px #feeef1; color: #f29fab; padding: 9px 5px 7px 25px;}
+.wrapper .status_content .one_status .like_box a.unlike:active{ background: url(../images/status/icon_cancel.png) no-repeat 7px 8px / 16px 16px #feeef1; color: #f29fab; opacity: 0.8;}
+.wrapper .status_content .one_status .like_box p.like_text{ float: left; line-height: 30px; font-size: 0.8rem; color: #888; margin-left: 7px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 70%;}
+.wrapper .status_content .one_status .like_box p.you_like{ width: 75%;}
+@media screen and ( max-width:551px) {
+	.wrapper .status_content .one_status .like_box p.like_text{ width: 65%;}
+}
+@media screen and ( max-width:341px) {
+	.wrapper .status_content .one_status .like_box p.like_text{ width: 100%; margin: 5px 0 0 0;}
+	.wrapper .status_content .one_status .like_box a.like_btn{ display: block; float: none; background: url(../images/status/icon_like.png) no-repeat 41% 8px / 16px 16px #fee3e7; color: #ea5f73; padding: 9px 10px 9px 25px; text-align: center; font-size: 0.85rem;}
+	.wrapper .status_content .one_status .like_box a.like_btn:active{ background: url(../images/status/icon_like_active.png) no-repeat 41% 8px / 16px 16px #ea5f73;}
+	.wrapper .status_content .one_status .like_box a.unlike{ display: block; background: url(../images/status/icon_cancel.png) no-repeat 35% 7px / 18px 18px #feeef1; color: #f29fab; padding: 9px 5px 9px 25px; text-align: center;}
+	.wrapper .status_content .one_status .like_box a.unlike:active{ background: url(../images/status/icon_cancel.png) no-repeat 35% 7px / 18px 18px #feeef1; color: #f29fab; opacity: 0.8;}
+}
+
+/*主購開團*/
+.wrapper .one_status .grouping_wrp{ background-color: #eee;border-top: 1px solid #e0e0e0; padding: 15px 0 10px; cursor: pointer; display: block;}
+.wrapper .one_status .grouping_wrp:active{ background-color: #eaeaea;}
+.wrapper .one_status .grouping_wrp .user_wrp{ padding: 0 20px;}
+.wrapper .one_status .grouping_wrp .user_wrp .member_img{ float: left; width: 50px; height: 50px;}
+.wrapper .one_status .grouping_wrp .user_wrp .member_img img{ width: 50px; border: 1px solid #fff; border-radius: 50%;}
+.wrapper .one_status .grouping_wrp .user_wrp .account_box{ float: left; width: 83%; margin-left: 10px; position: relative; top: 2px;}
+.wrapper .one_status .grouping_wrp .user_wrp .account_box p.account{ height: 20px; color: #777; font-size: 0.8rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.wrapper .one_status .grouping_wrp .user_wrp .account_box p.group_title{ height: 25px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.wrapper .one_status .grouping_wrp .user_wrp .account_box p.group_title a{ font-size: 0.9rem; font-weight: bold; color: #3b5998; text-decoration: none;}
+.wrapper .one_status .grouping_wrp .user_wrp .account_box p.group_title a:active{ background-color: transparent;}
+@media screen and ( max-width:501px) {.wrapper .one_status .grouping_wrp .user_wrp .account_box{ width: 78%;}}
+@media screen and ( max-width:381px) {.wrapper .one_status .grouping_wrp .user_wrp .account_box{ width: 73%;}}
+
+.wrapper .one_status .location_box{ padding-top: 10px;}
+.wrapper .one_status p.txt_location{ font-size: 0.86rem; color: #999; padding: 0 20px; height: 22px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.wrapper .one_status a.look_all{ display: block; background: url(../images/status/icon_lookall.png) no-repeat 98.5% center / 30px 30px #e3e3e3; text-decoration: none; padding: 8px 20px; font-size: 0.8rem; color: #888; border-radius: 0 0 5px 5px;}
+.wrapper .one_status a.look_all:active{ background: url(../images/status/icon_lookall.png) no-repeat 98.5% center / 30px 30px #d9d9d9;}
+
+/*----- 找無商品 -----*/
+.wrapper .status_content .nofind_box{ width: 100%; text-align: center; padding: 50px 0;}
+.wrapper .status_content .nofind_box p{ font-size: 1rem; font-weight: bold; color: #777; line-height: 25px;}
+.wrapper .status_content .nofind_box p span{ padding: 0 5px; color:#e55555;}
+
+
+/*====================loading開始====================*/
+article.status_loading{ height: 80px; width: 100%; background-color: transparent;}
+article.status_loading .loading_img{ width:30px; height:30px; margin:0 auto; }
+article.status_loading .circle { width: 30px; height: 30px; position: relative; top: 15px;}
+article.status_loading .container1 > div, article.status_loading .container2 > div, article.status_loading .container3 > div {  width: 6px; height: 6px; background-color: #888;  border-radius: 100%; position: absolute; -webkit-animation: bouncedelay 1.2s infinite ease-in-out;  animation: bouncedelay 1.2s infinite ease-in-out; -webkit-animation-fill-mode: both; animation-fill-mode: both;}
+article.status_loading .circle .circle-container { position: absolute;  width: 100%; height: 100%;}
+article.status_loading .container2 { -webkit-transform: rotateZ(45deg);  transform: rotateZ(45deg);}
+article.status_loading .container3 { -webkit-transform: rotateZ(90deg); transform: rotateZ(90deg);}
+article.status_loading .circle1 { top: 0; left: 0; }
+article.status_loading .circle2 { top: 0; right: 0; }
+article.status_loading .circle3 { right: 0; bottom: 0; }
+article.status_loading .circle4 { left: 0; bottom: 0; }
+article.status_loading .container2 .circle1 { -webkit-animation-delay: -1.1s; animation-delay: -1.1s;}
+article.status_loading .container3 .circle1 { -webkit-animation-delay: -1.0s; animation-delay: -1.0s;}
+article.status_loading .container1 .circle2 { -webkit-animation-delay: -0.9s; animation-delay: -0.9s;}
+article.status_loading .container2 .circle2 { -webkit-animation-delay: -0.8s; animation-delay: -0.8s;}
+article.status_loading .container3 .circle2 { -webkit-animation-delay: -0.7s; animation-delay: -0.7s;}
+article.status_loading .container1 .circle3 { -webkit-animation-delay: -0.6s; animation-delay: -0.6s;}
+article.status_loading .container2 .circle3 { -webkit-animation-delay: -0.5s; animation-delay: -0.5s;}
+article.status_loading .container3 .circle3 { -webkit-animation-delay: -0.4s; animation-delay: -0.4s;}
+article.status_loading .container1 .circle4 { -webkit-animation-delay: -0.3s; animation-delay: -0.3s;}
+article.status_loading .container2 .circle4 { -webkit-animation-delay: -0.2s; animation-delay: -0.2s;}
+article.status_loading .container3 .circle4 { -webkit-animation-delay: -0.1s; animation-delay: -0.1s;}
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+  0%, 80%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+/*====================loading結束====================*/
+
+/*------------------------------ 20160309動態頁的「喜歡」改成「許願」＿開始 ------------------------------*/
+.wrapper .one_status .grouping_wrp{padding: 15px 0 12px; background-color:#f9f9f9; border-top: 1px solid #ececec;}
+.wrapper .one_status .grouping_wrp:active{ background-color: #f5f5f5;}
+.wrapper .one_status a.look_all{ padding: 12px 20px; font-size:0.83rem; background-color:#f0f0f0; border-top: 1px solid #e6e6e6;}
+.wrapper .one_status a.look_all:active{ background-color: #ebebeb;}
+
+
+.wrapper .status_content .one_status .like_box a.unlike{ background: url(../images/status/icon_like_active.png) no-repeat 10px 8px / 15px 15px #ea5f73; color: #fff; padding: 9px 10px 7px 30px;}
+.wrapper .status_content .one_status .like_box a.unlike:active{ background: url(../images/status/icon_like_active.png) no-repeat 10px 8px / 15px 15px #ea5f73; color: #fff; padding: 9px 10px 7px 30px; opacity: 0.8;}
+@media screen and ( max-width:341px) {
+	.wrapper .status_content .one_status .like_box a.unlike{ display: block; background: url(../images/status/icon_like_active.png) no-repeat 41% 8px / 16px 16px #ea5f73; padding: 9px 10px 7px 30px; text-align: center;}
+	.wrapper .status_content .one_status .like_box a.unlike:active{ background: url(../images/status/icon_like_active.png) no-repeat 41% 8px / 16px 16px #ea5f73; color: #fff;}
+}
+/*------------------------------ 20160309動態頁的「喜歡」改成「許願」＿結束 ------------------------------*/
+
+
+/*------------------------------ 20160524 動態篩選改版＿開始 ------------------------------*/
+.wrapper .filter_box{ box-shadow: 0 1px 3px rgba(0,0,0,0.18); position: relative;}
+.wrapper .filter_box .keyword_box{ padding: 13px 0; border-bottom: 1px solid #f2f2f2; position: relative;}
+.wrapper .filter_box .keyword_box .ui-input-text{ margin: 0 10px; }
+.wrapper .filter_box .keyword_box .ui-input-text input.keyword_input{ font-size: 0.85rem; padding: 7px 6px 6px 32px; background: url(../images/image/icon_search.png) no-repeat 10px center / 20px 20px #f3f3f3; border: 0; color: #444;}
+.wrapper .filter_box .keyword_box ::-moz-placeholder { color:#aaa;}
+.wrapper .filter_box .keyword_box ::-webkit-input-placeholder { color:#aaa;}
+.wrapper .filter_box .keyword_box :-ms-input-placeholder { color:#aaa;}
+.wrapper .filter_box .keyword_box a.keyword_delete{ display: block; background: url(../images/status/icon_filter_clean.png) no-repeat center center / 18px auto transparent; width: 18px; height: 18px; position: absolute; top: 21px; right: 20px; display: none;}
+.wrapper .filter_box .keyword_box a.keyword_delete:active{ opacity: 0.8;}
+
+.wrapper .filter_box .filter_items_box{ display: flex; display: -webkit-flex; display: -ms-flexbox; }
+.wrapper .filter_box .filter_items_box a.filter_item{ flex: 1; -webkit-flex: 1; -webkit-box-flex: 1; -ms-flex: 1; justify-content: center; padding: 7px 10px; position: relative; text-decoration: none; min-width: 90px;}
+.wrapper .filter_box .filter_items_box a.filter_item:active{ background-color: transparent;}
+.wrapper .filter_box .filter_items_box a.filter_item p.item_title{ color: #aaa; font-size: 0.725rem; line-height:18px; font-weight: normal; white-space: nowrap;}
+.wrapper .filter_box .filter_items_box a.filter_item p.item_main{ color: #555; font-size: 0.85rem; line-height:22px; font-weight: normal; position: relative;}
+.wrapper .filter_box .filter_items_box a.filter_item p.item_main span.text{ float: left; }
+.wrapper .filter_box .filter_items_box a.filter_item p.item_main span.arrow_down{ display: inline-block; width: 8px; height: 22px; background: url(../images/status/icon_filter_select.png) no-repeat right center / 8px auto transparent; position: absolute; right: 0;}
+.wrapper .filter_box .filter_items_box a.filter_item p.item_main span.text span.text_no{ font-family: Helvetica,sans-serif; padding: 0 3px 0 1px;}
+
+.wrapper .filter_box .filter_items_box a.location_item:after{ content: ''; width: 1px; height: 36px; background-color: #ececec; position: absolute; top: 9px; right: 0; display: block;}
+.wrapper .filter_box .filter_items_box a.category_item:after{ content: ''; width: 1px; height: 36px; background-color: #ececec; position: absolute; top: 9px; right: 0; display: block;}
+.wrapper .filter_box .filter_items_box a.location_item p.item_main span.text{ width: 95%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.wrapper .filter_box .filter_items_box a.sort_item p.item_main span.text{ width: 90%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.wrapper .filter_box p.notice_status_text{ font-size: 0.85rem; color: #777; position: relative; padding: 10px 10px;}
+
+.wrapper .status_content{ background-color: #f2f2f2;}
+.wrapper .status_content .one_status{ border: 1px solid #dbdbdb; box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);}
+.wrapper .one_status .grouping_wrp{ background-color: #fbfbfb; border-top: 1px solid #eee;}
+.wrapper .one_status .grouping_wrp:active{ background-color: #f8f8f8;}
+.wrapper .one_status a.look_all { background-color: #f8f8f8; border-top: 1px solid #ebebeb;}
+.wrapper .one_status a.look_all:active{ background-color: #f5f5f5;}
+
+/*201605 新版動態*/
+.wrapper .union_status_content{ padding: 20px 0;}
+.wrapper .one_union_status{ background-color: #fff; border-top: 1px solid #e9e9e9; border-bottom: 1px solid #e9e9e9; padding: 15px; margin-bottom: 15px; cursor: pointer;}
+.wrapper .one_union_status:active{ background-color: #fafafa;}
+.wrapper .one_union_status .grouping_wrp{ margin-bottom: 15px;}
+.wrapper .one_union_status .grouping_wrp .user_wrp{ height: 50px;}
+.wrapper .one_union_status .grouping_wrp .member_img{ float: left; margin-right: 6px;}
+.wrapper .one_union_status .grouping_wrp .member_img a{ display: block; height: 50px;}
+.wrapper .one_union_status .grouping_wrp .member_img img{ width: 50px; border-radius: 50%; border: 1px solid rgba(100,100,100,0.1); box-sizing: border-box;}
+.wrapper .one_union_status .grouping_wrp .account_box{ }
+.wrapper .one_union_status .grouping_wrp .account_box p.account{ font-size: 0.7rem; color: #444; margin-bottom: 2px;}
+.wrapper .one_union_status .grouping_wrp .account_box p.account span{ color: #9c9c9c; padding: 0 8px; font-family: Arial,sans-serif;}
+.wrapper .one_union_status .grouping_wrp .account_box p.group_title{ line-height: 20px; max-height: 40px; overflow: hidden;}
+.wrapper .one_union_status .grouping_wrp .account_box p.group_title a{ color: #3b5998; font-size: 0.8rem; text-decoration: none; line-height: 18px;}
+.wrapper .one_union_status .grouping_wrp .account_box p.group_title a:active{ background-color: transparent;}
+.wrapper .one_union_status .goods_pic{ width: 100%; display: flex; display: -webkit-flex; display: -ms-flexbox; margin-bottom: 5px;}
+.wrapper .one_union_status .goods_pic a{ flex: 1; -webkit-flex: 1; -webkit-box-flex: 1; -ms-flex: 1; justify-content: center;}
+.wrapper .one_union_status .goods_pic a:active{ background-color: transparent;}
+.wrapper .one_union_status .goods_pic a img{ width: 100%; border: 1px solid rgba(100,100,100,0.1); box-sizing: border-box;}
+.wrapper .one_union_status .goods_pic .pic_line{ -webkit-flex: none; flex: none; width: 2px;}
+
+.wrapper .one_union_status .location_box{ margin-bottom: 5px;}
+.wrapper .one_union_status .location_box p{ font-size: 0.7rem; color: #666; line-height: 22px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.wrapper .one_union_status .location_box p.txt_location{ background: url(../images/status/icon_small_location.png) no-repeat left center / 10px auto transparent; padding-left: 15px;}
+.wrapper .one_union_status .location_box p span.location_number{ padding: 0 3px; font-family: Arial,sans-serif;}
+.wrapper .one_union_status .union_info_box{ border-top: 1px solid #e9e9e9; padding: 12px 0 0; line-height: 16px;}
+.wrapper .one_union_status .union_info_box p{ font-size: 0.7rem; color: #999;}
+.wrapper .one_union_status .union_info_box p.union_amount{ float: left;}
+.wrapper .one_union_status .union_info_box p.union_amount span{ padding: 0 2px 0 4px; font-family: Arial,sans-serif;}
+.wrapper .one_union_status .union_info_box p.club_amount{ float: right; background: url(../images/status/icon_small_club.png) no-repeat left center / 12px auto transparent; padding-left: 14px;}
+.wrapper .one_union_status .union_info_box p.club_amount span{ padding: 0 2px; font-family: Arial,sans-serif;}
+
+/*大合購倒數*/
+.one_status .infor_item .unionTimer_box{ float: right; height: 25px; background-color: #ff9600; border-radius: 30px 0 0 30px; line-height: 25px; color: #fff; padding: 0 5px 0 10px;}
+.one_status .infor_item .unionTimer_box span{ float: left; font-size: 0.8rem; text-align: center; font-family: Helvetica, sans-serif; padding: 0 1px;}
+.one_status .infor_item .unionTimer_box span.left_font{ padding: 0 3px 0 0;}
+@media screen and ( max-width:341px) {
+	.wrapper .status_content .one_status .infor_item p.icon_amount{ font-size: 0.88rem;}
+	.one_status .infor_item .unionTimer_box{ padding: 0 3px 0 6px;}
+	.one_status .infor_item .unionTimer_box span{ padding: 0; font-size: 0.7rem;}
+	.one_status .infor_item .unionTimer_box span.left_font{ padding: 0 1px 0 0;}
+}
+/*------------------------------ 20160524 動態篩選改版＿結束 ------------------------------*/

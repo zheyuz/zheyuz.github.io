@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ihergo愛合購 - 幫你找人一起買</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+
+	<link href="../css/layout.css" rel="stylesheet" type="text/css">
+	<link href="../css/status.css" rel="stylesheet" type="text/css">
+
+
+	<script src="../js/jquery-2.1.4.min.js"></script>
+	<script src="../js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="../js/tab.js"></script>
+
+	<!-- go to Top -->
+	<script type="text/javascript">
+	$(function(){
+		$("#go_top").click(function(){
+			jQuery("html,body").animate({
+				scrollTop:0
+			},1000);
+		});
+		$(window).scroll(function() {
+			if ( $(this).scrollTop() > 300){
+				$('#go_top').fadeIn("fast");
+			} else {
+				$('#go_top').stop().fadeOut("fast");
+			}
+		});
+	});
+	</script>
+	<!-- go to Top_END -->
+
+	<!-- 關鍵字切換 -->
+	<script type="text/javascript">
+		$(function(){
+			$(".keyword_box input.keyword_input").keydown(function(){
+				$(".keyword_box a.keyword_delete").show();
+			});
+			$(".keyword_box a.keyword_delete").click(function(){
+					$(".keyword_box input.keyword_input").val("");
+				$(".keyword_box a.keyword_delete").hide();
+			});
+	   })
+
+	</script>
+	<!-- 關鍵字切換_END -->
+
+	<script type="text/javascript">
+		$(function(){
+			// 固定左側選單
+			$("a.memu_btn").click(function(){
+				$("div.wrapper").css({"max-height":"920px", "overflow-y":"hidden"});
+			});
+			$(".ui-panel-dismiss, .ui-panel-wrapper, footer.footer_wrp, ul.my_account").click(function(){
+				$("div.wrapper").css({"max-height":"none", "overflow-y":"auto"});
+			});
+		})
+	</script>
+
+</head>
+<body>
+
+<div class="wrapper" data-role="page">
+	<a id="go_top" class="gotop_btn" href="#"></a>
+
+	<header class="top_menu login_none" data-role="header" data-position="fixed">
+		<a href="#bars" class="memu_btn" ></a>
+		<ul class="my_account">
+			<li class="li_account my_calendar"><a href="">日曆</a></li>
+			<li class="li_account my_order">
+				<p class="unread">2</p>
+				<a href="">訂單</a>
+			</li>
+			<li class="li_account my_mail">
+				<p class="unread">8</p>
+				<a href="">信箱</a>
+			</li>
+			<li class="li_account my_club">
+				<p class="unread">3</p>
+				<a href="">家族</a>
+			</li>
+		</ul>
+	</header><!-- /header -->
+
+	<div role="main" class="ui-content">
+			<!-- 合購篩選_開始 -->
+			<article class="filter_box">
+				<section class="keyword_box">
+					<input class="keyword_input" type="text" name="text-basic" id="text-basic" value="" placeholder="搜尋商店或商品名稱...">
+					<a href="#" class="keyword_delete"></a>
+				</section>
+				<section class="filter_items_box">
+					<!-- 合購類別 篩選 -->
+					<a href="#" class="filter_item category_item">
+						<p class="item_title">商店類別</p>
+						<p class="item_main"><span class="text">甜點蛋糕</span><span class="arrow_down"></span></p>
+					</a>
+					<!-- 排序/進階條件 篩選 -->
+					<a href="#" class="filter_item sort_item">
+						<p class="item_title">排序</p>
+						<p class="item_main"><span class="text">依熱門</span><span class="arrow_down"></span></p>
+					</a>
+
+				</section>
+			</article>
+			<!-- 合購篩選_結束 -->
+
+			<article class="status_content">
+
+
+				<!-- 一則商店動態_開始 -->
+				<div class="one_status">
+					<h2 class="status_title"><a href="#">阿福伯-蔥油餅(蔥油餅王子)</a></h2>
+					<div class="store_info_box">
+						<p class="stf_star">
+							<span class="fraction">3.5</span>
+							<img src="../images/image/star_70.gif">
+						</p>
+					</div>
+					<div class="goods_pic">
+						<div class="goodspic_wrp">
+							<div class="pic_content">
+								<ul class="ul_box">
+								<li><a href="#"><img src="http://photo.ihergo.com/photo/product/30/300_137830_1400226261891.jpg" alt="北方蔥油餅"></a></li>
+								<li><a href="#"><img src="http://photo.ihergo.com/photo/product/30/300_137830_1362575902363.jpg" alt="泰皇月亮蝦餅"></a></li>
+								<li><a href="#"><img src="http://photo.ihergo.com/photo/product/30/300_137830_1336119902629.jpg" alt="起司乳酪蝦球"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- 喜歡_開始 -->
+					<div class="like_box">
+						<a class="like_btn unlike" href="#">收回</a>
+						<p class="like_text">你和Terry和其他10人都請主購開團</p>
+						<br class="CLEAR">
+					</div>
+					<!-- 喜歡_結束 -->
+
+				</div>
+				<!-- 一則商店動態_結束 -->
+
+				<!-- 一則商店動態_開始 -->
+				<div class="one_status">
+					<h2 class="status_title"><a href="#">[大合購] 禎祥食品 ⊙ 可愛包子新上架 宵夜點心都適合!</a></h2>
+					<div class="infor_item">
+						<p class="icon_amount">已累積<span>101</span>團 <span>15085</span>份</p>
+						<!-- 剩餘Ｘ天Ｘ時 -->
+						<p class="unionTimer_box" style="display:none;">
+							<span class="left_font">剩餘</span>
+							<span class="timefont time_day">3</span>
+							<span class="font">天</span>
+							<span class="timefont time_hour">15</span>
+							<span class="font">時</span>
+						</p>
+						<!-- 剩餘Ｘ時Ｘ分 -->
+						<p class="unionTimer_box" style="">
+							<span class="left_font">剩餘</span>
+							<span class="timefont time_hour">12</span>
+							<span class="font">時</span>
+							<span class="timefont time_min">48</span>
+							<span class="font">分</span>
+						</p>
+						<!-- 剩餘Ｘ分鐘 -->
+						<p class="unionTimer_box" style="display:none;">
+							<span class="left_font">剩餘</span>
+							<span class="timefont time_min">10</span>
+							<span class="font">分鐘</span>
+						</p>
+					</div>
+					<div class="goods_pic">
+						<div class="goodspic_wrp">
+							<div class="pic_content">
+								<ul class="ul_box">
+								<li><a href="#"><img src="http://photo.ihergo.com/photo/product/11/300_11_1437104103922.jpg" alt="小豬甜包"></a></li>
+								<li><a href="#"><img src="http://photo.ihergo.com/photo/product/11/300_11_1437104165212.jpg" alt="蕃茄甜包(紅豆餡)"></a></li>
+								<li><a href="#"><img src="http://photo.ihergo.com/photo/product/11/300_11_1415004441312.jpg" alt="黃金豬肉鍋貼"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- 喜歡_開始 -->
+					<div class="like_box">
+						<a class="like_btn" href="#">許願</a>
+						<p class="like_text">Terry和其他10人都請主購開團</p>
+						<br class="CLEAR">
+					</div>
+					<!-- 喜歡_結束 -->
+
+				</div>
+				<!-- 一則商店動態_結束 -->
+
+			</article>
+
+	</div><!-- /content -->
+
+	<footer class="footer_wrp">
+		<p class="text_ch">愛合購股份有限公司版權所有</p>
+		<p class="text_en">Copyright © 2007-2015 ihergo Inc. All Rights Reserved.</p>
+	</footer><!-- /footer -->
+
+
+
+	<!-- 左側滑出選單_開始 -->
+	<div class="panel_navi" data-role="panel" id="bars">
+		<!-- 個人帳號＿開始 -->
+		<div class="navi_user_wrp">
+			<img class="user_photo" src="http://photo.ihergo.com/photo/user/74/100_923874_3797.png">
+			<div class="user_info">
+				<p class="user_name">Yoyo Chen</p>
+				<p class="user_text">評比 (95)</p>
+			</div>
+		</div>
+		<!-- 個人帳號＿結束 -->
+		<ul class="navi_ul">
+			<li class="navi_li li_home "><a  href="#"><span>找合購</span></a></li>
+			<li class="navi_li li_store"><a href="#"><span>商店街</span></a></li>
+			<li class="navi_li li_union union_active"><a  href="#" class="active"><span>大合購</span></a></li>
+		</ul>
+		<p class="navi_ul_title">個人資料</p>
+		
+		<ul class="navi_ul">
+			<li class="navi_li li_bonus">
+				<p class="navi_li_no">尚有<span>41</span>元</p>
+				<a href="#"><span>紅利金</span></a>
+			</li>
+			<li class="navi_li li_count">
+				<p class="navi_li_no">尚有<span>3200</span>元</p>
+				<a href="#"><span>ihergo點數</span></a>
+			</li>
+			<!-- <li class="navi_li li_family"><a href="#"><span>家族</span></a></li> -->
+			<!-- <li class="navi_li li_mystore"><a href="#"><span>商店</span></a></li> -->
+			<li class="navi_li li_logout"><a href="#"><span>登出</span></a></li>
+		</ul>
+		<div class="panel_footer">
+			<p class="panel_footer_txt"><span>手機板</span>/<a href="#">電腦版</a>/<a href="#">APP下載</a></p>
+		</div>
+	</div>
+	<!-- 左側滑出選單_結束 -->
+
+</div><!-- /page -->
+
+</body>
+</html>

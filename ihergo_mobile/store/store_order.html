@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>立即訂購</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="../css/jqm-datebox-1.4.5.css" />
+
+	<link href="../css/layout.css" rel="stylesheet" type="text/css">
+	<link href="../css/store.css" rel="stylesheet" type="text/css">
+
+
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script> 
+	<script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js"></script>     
+    <script type="text/javascript" src="../js/jqm-datebox-1.4.5.min.js"></script>
+    <script type="text/javascript">
+    jQuery.extend(jQuery.mobile,
+    {
+      ajaxEnabled: false
+    });
+    </script>
+	
+
+	<!-- go to Top -->
+	<script type="text/javascript">
+	$(function(){
+		$("#go_top").click(function(){
+			jQuery("html,body").animate({
+				scrollTop:0
+			},1000);
+		});
+		$(window).scroll(function() {
+			if ( $(this).scrollTop() > 300){
+				$('#go_top').fadeIn("fast");
+			} else {
+				$('#go_top').stop().fadeOut("fast");
+			}
+		});
+	});
+	</script>
+	<!-- go to Top_END -->
+
+	<script type="text/javascript">
+	$(function(){
+
+		// 固定左側選單
+		$("a.memu_btn").click(function(){
+			$("div.wrapper").css({"max-height":"920px", "overflow-y":"hidden"});
+		});
+		$(".ui-panel-dismiss, .ui-panel-wrapper, footer.footer_wrp, .cart_box, .store_union_box, ul.my_account").click(function(){
+			$("div.wrapper").css({"max-height":"none", "overflow-y":"auto"});
+		});
+	})
+	</script>
+
+
+</head>
+<body>
+
+<div class="wrapper" data-role="page">
+	<a id="go_top" class="gotop_btn" href="#"></a>
+
+	<header class="top_menu login_none" data-role="header" data-position="fixed">
+		<a href="#bars" class="memu_btn" ></a>
+		<ul class="my_account">
+			<li class="li_account my_calendar"><a href="">日曆</a></li>
+			<li class="li_account my_order">
+				<p class="unread">2</p>
+				<a href="">訂單</a>
+			</li>
+			<li class="li_account my_mail">
+				<p class="unread">8</p>
+				<a href="">信箱</a>
+			</li>
+			<li class="li_account my_club">
+				<p class="unread">3</p>
+				<a href="">家族</a>
+			</li>
+		</ul>
+	</header><!-- /header -->
+
+	<div role="main" class="ui-content oreder_main">
+		
+		<!-- 商店標題_開始 -->
+		<article class="store_title">
+			<h1 class="title_h1">立即訂購</h1>
+		</article>
+		<!-- 商店標題_結束 -->
+		<article class="oreder_content">
+			<!-- ============================== 應付金額_開始 ============================== -->
+			<section class="payable_content">
+				<h3 class="s_title">應付金額</h3>
+				<div class="payable_amount">
+					<p class="left_title">購賣數量</p>
+					<p class="right_text">5份</p>
+					<br class="CLEAR">
+				</div>
+				<div class="payable_price">
+					<p class="left_title">購賣金額</p>
+					<p class="right_text">780元</p>
+					<br class="CLEAR">
+				</div>
+				<div class="payable_bonus">
+					<div class="bonus_text">
+						<label>
+							<input type="checkbox" name="checkbox-0 ">
+							<p class="left_title">使用紅利折抵<br><span>您有本店紅利金50元</span></p>
+						</label>
+					</div>
+					<p class="right_text bonus_no">-50元</p>
+					<br class="CLEAR">
+				</div>
+				<div class="payable_total">
+					<p class="left_title">應付金額總計</p>
+					<p class="right_text">780元</p>
+					<br class="CLEAR">
+				</div>
+			</section>
+			<!-- ============================== 應付金額_結束 ============================== -->
+			<!-- ============================== 填寫購物資料_開始 ============================== -->
+			<section class="form_content">
+				<h3 class="s_title">填寫購物資料</h3>
+				<div class="form_item order_name">
+					<p class="left_title"><span class="light">*</span>訂購人</p>
+					<div class="right_text">
+						<input class="name_input" type="text" name="text-basic" id="text-basic" value="" placeholder="姓名">
+						<input class="phone_input" type="text" name="text-basic" id="text-basic" value="" placeholder="連絡電話">
+					</div>
+					<br class="CLEAR">
+				</div>
+				<div class="form_item accept_name">
+					<p class="left_title"><span class="light">*</span>收件人</p>
+					<div class="right_text">
+						<label><input type="checkbox" name="checkbox-0 ">同訂購人</label>
+						<div class="input_box">
+							<input type="text" name="text-basic" id="text-basic" value="" placeholder="姓名">
+							<input type="text" name="text-basic" id="text-basic" value="" placeholder="連絡電話">
+						</div>
+					</div>
+					<br class="CLEAR">
+				</div>
+				<div class="form_item accept_location">
+					<p class="left_title"><span class="light">*</span>寄送資訊</p>
+					<div class="right_text">
+						<div class="address_select_box">
+							<select class="location_select">
+								<option>選縣市</option>
+								<option>台北市</option>
+								<option>新北市</option>
+								<option>基隆</option>
+								<option>桃園</option>
+								<option>宜蘭</option>
+								<option>新竹</option>
+								<option>苗栗</option>
+								<option>台中</option>
+								<option>彰化</option>
+								<option>南投</option>
+								<option>雲林</option>
+								<option>嘉義</option>
+								<option>台南</option>
+								<option>高雄</option>
+								<option>屏東</option>
+								<option>花蓮</option>
+								<option>台東</option>
+								<option>澎湖</option>
+								<option>金門</option>
+								<option>馬祖</option>
+							</select>
+							<select class="location_select">
+								<option>選區域</option>
+								<option>中正區</option>
+								<option>大同區</option>
+								<option>中山區</option>
+								<option>松山區</option>
+								<option>大安區</option>
+								<option>北投區</option>
+								<option>士林區</option>
+								<option>內湖區</option>
+								<option>南港區</option>
+								<option>文山區</option>
+							</select>
+							<br class="CLEAR">
+						</div>
+						<div class="address_input postal_code"><input type="text" name="text-basic" id="text-basic" value="" placeholder="郵遞區號"></div>
+						<div class="address_input"><input type="text" name="text-basic" id="text-basic" value="" placeholder="送貨地址"></div>
+						<div class="date_box">
+							
+							<input class="day_input" name="mode2" id="mode2" type="text" data-role="datebox" data-options='{"mode":"calbox", "afterToday" : "true", "useButton" : "false", "useFocus" : "true", "overrideDateFormat" : "%Y/%m/%d", "popupPosition" : "window", "calOnlyMonth" : "true"}' placeholder="到貨日"/>
+							<select class="time_select">
+								<option>到貨時段</option>
+								<option>上午08:00~12:00</option>
+								<option>下午12:00~17:00</option>
+								<option>晚上17:00~20:00</option>
+							</select>
+							<br class="CLEAR">
+						</div>
+						<div class="invoice_checkbox"><label><input type="checkbox" name="checkbox-0 ">索取三聯式發票</label></div>
+						<div class="invoice_box">
+							<input type="text" name="text-basic" id="text-basic" value="" placeholder="統一編號">
+							<input type="text" name="text-basic" id="text-basic" value="" placeholder="發票抬頭">
+							<label><input type="checkbox" name="checkbox-0 ">同送貨地址</label>
+							<div class="address_select_box">
+								<select class="location_select">
+									<option>選縣市</option>
+									<option>台北市</option>
+									<option>新北市</option>
+									<option>基隆</option>
+									<option>桃園</option>
+									<option>宜蘭</option>
+									<option>新竹</option>
+									<option>苗栗</option>
+									<option>台中</option>
+									<option>彰化</option>
+									<option>南投</option>
+									<option>雲林</option>
+									<option>嘉義</option>
+									<option>台南</option>
+									<option>高雄</option>
+									<option>屏東</option>
+									<option>花蓮</option>
+									<option>台東</option>
+									<option>澎湖</option>
+									<option>金門</option>
+									<option>馬祖</option>
+								</select>
+								<select class="location_select">
+									<option>選區域</option>
+									<option>中正區</option>
+									<option>大同區</option>
+									<option>中山區</option>
+									<option>松山區</option>
+									<option>大安區</option>
+									<option>北投區</option>
+									<option>士林區</option>
+									<option>內湖區</option>
+									<option>南港區</option>
+									<option>文山區</option>
+								</select>
+								<br class="CLEAR">
+							</div>
+							<div class="address_input postal_code"><input type="text" name="text-basic" id="text-basic" value="" placeholder="郵遞區號"></div>
+							<div class="address_input"><input type="text" name="text-basic" id="text-basic" value="" placeholder="發票地址"></div>
+						</div>
+					</div>
+					<br class="CLEAR">
+				</div>
+				<div class="form_item note_box">
+					<p class="left_title">備註</p>
+					<div class="right_text">
+						<textarea placeholder="500字以內"></textarea>
+					</div>
+					<br class="CLEAR">
+				</div>
+			</section>
+			<!-- ============================== 填寫購物資料_結束 ============================== -->
+			<a class="submit_btn" href="#">完成送出</a>
+		</article>
+	</div><!-- /content -->
+
+
+<!-- 左側滑出選單_開始 -->
+	<div class="panel_navi" data-role="panel" id="bars">
+		<!-- 個人帳號＿開始 -->
+		<div class="navi_user_wrp">
+			<img class="user_photo" src="http://photo.ihergo.com/photo/user/74/100_923874_3797.png">
+			<div class="user_info">
+				<p class="user_name">Yoyo Chen</p>
+				<p class="user_text">評比 (95)</p>
+			</div>
+		</div>
+		<!-- 個人帳號＿結束 -->
+		<ul class="navi_ul">
+			<li class="navi_li li_home "><a  href="#"><span>找合購</span></a></li>
+			<li class="navi_li li_store"><a href="#"><span>商店街</span></a></li>
+			<li class="navi_li li_union union_active"><a  href="#" class="active"><span>大合購</span></a></li>
+		</ul>
+		<p class="navi_ul_title">個人資料</p>
+		
+		<ul class="navi_ul">
+			<li class="navi_li li_bonus">
+				<p class="navi_li_no">尚有<span>41</span>元</p>
+				<a href="#"><span>紅利金</span></a>
+			</li>
+			<li class="navi_li li_count">
+				<p class="navi_li_no">尚有<span class="light">0</span>元</p>
+				<a href="#"><span>ihergo點數</span></a>
+			</li>
+			<!-- <li class="navi_li li_family"><a href="#"><span>家族</span></a></li> -->
+			<!-- <li class="navi_li li_mystore"><a href="#"><span>商店</span></a></li> -->
+			<li class="navi_li li_logout"><a href="#"><span>登出</span></a></li>
+		</ul>
+		<div class="panel_footer">
+			<p class="panel_footer_txt"><span>手機板</span>/<a href="#">電腦版</a>/<a href="#">APP下載</a></p>
+		</div>
+	</div>
+	<!-- 左側滑出選單_結束 -->
+
+</div><!-- /page -->
+
+</body>
+</html>

@@ -1,0 +1,543 @@
+@charset "UTF-8";
+/**
+ihergo Mobile Guideline
+**/
+/***--------------- Global Settings ---------------***/
+:root {
+	/*--- Colors ---*/
+	/*愛合購品牌色 黃*/
+	--ihergo_brand_yellow: #ffd800;
+	/*愛合購品牌色 藍*/
+	--ihergo_brand_blue: #57c2e9;
+	/*警示 紅色*/
+	--alert_red:#fb4e4e;
+	/*gray-3F3F 深灰色*/
+	--gray_3F:#3F3F3F;
+	/*gray-555 深灰色*/
+	--gray_555:#555555;
+	/*gray-E5E5 淺灰色*/
+	--gray_E5:#E5E5E5;
+	/*gray-FB*/
+	--gray_FB:#FBFBFB;
+	/*gray-C3*/
+	--gray_C3:#C3C3C3;
+	/*gray-666*/
+	--gray_666:#666666;
+	/*gray-888*/
+	--gray_888:#888888;
+	/*gray-FC*/
+	--gray_FC:#FCFCFC;
+	/*gray-DF*/
+	--gray_DF:#DFDFDF;
+	/*gray-F7*/
+	--gray_F7:#F7F7F7;
+
+
+	/*--- Width ---*/
+	/*最大寬度*/
+	--max_w:600px;
+	/*Header高度*/
+	--header_h:50px;
+}
+/*--- 內容最大寬度 ---*/
+.content_container { width: 90%; margin: 0 auto; }
+
+/*header fix*/
+.top_fix { margin-top: -51px;/*header height*/ width: 100%; }
+
+/*body fix*/
+body.fix { height: 100%; overflow: hidden; }
+
+/*--- Input ---*/
+input[type="text"] { color: var(--gray_666) !important; }
+
+/*--- Placeholder ---*/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+color: var(--gray_C3) !important; }
+::-moz-placeholder { /* Firefox 19+ */
+color: var(--gray_C3) !important; }
+::-ms-input-placeholder { /* IE 10+ */
+color: var(--gray_C3) !important; }
+::-moz-placeholder { /* Firefox 18- */
+color: var(--gray_C3) !important; }
+
+/*--- Radio Button/Checkbox 修正 ---*/
+input[type=radio], input[type=checkbox] { display: none; }
+label:before { content: ""; display: inline-block; cursor: pointer; }
+
+/*--- 背景色設定 ---*/
+#start_event_index .ui-panel-wrapper{
+	background: var(--gray_FC);
+}
+#start_event_index_empty .ui-panel-wrapper{
+	background: var(--gray_FC);
+	height: 100%;
+}
+#add_new_item .ui-panel-wrapper{
+	background:#ffffff !important;
+}
+#add_new_item_add_spec .ui-panel-wrapper{
+	background:#ffffff !important;
+}
+#add_new_item_modify_spec .ui-panel-wrapper{
+	background:#ffffff !important;
+}
+#set_event_detail .ui-panel-wrapper{
+	background: var(--gray_F7) !important;
+}
+#details_set_type .ui-panel-wrapper, #details_set_type_sub .ui-panel-wrapper{
+	background:#ffffff !important;
+}
+#details_transfer_add_shipping .ui-panel-wrapper, #details_transfer_modify_shipping .ui-panel-wrapper, #details_club_notify .ui-panel-wrapper{
+	background:#ffffff !important;
+}
+#done .ui-panel-wrapper{
+	background:#ffffff !important;
+}
+
+/***--------------- Header樣式組合 ---------------***/
+.wrapper .header_guideline { width: 100%; max-width: var(--max_w); height: var(--header_h); margin: 0 auto; border-bottom: 0; text-align: center; line-height: var(--header_h); font-size: 1rem; font-weight: bold; color: var(--gray_3F) !important; border-top: 0; }
+.wrapper .header_guideline .header_container { width: 100%; height: 100%; position: relative; }
+.wrapper .header_guideline .header_container .header_text { width: 80%; height: var(--header_h); line-height: var(--header_h); margin: 0 auto; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+/*關閉按鈕*/
+.wrapper .header_guideline a.close_btn { width: 26px; height: 26px; position: absolute; top: calc((100% - 28px)/2); right: 13px; display: block; -webkit-transition: all .2s ease; -moz-transition: all .2s ease; -ms-transition: all .2s ease; -o-transition: all .2s ease; transition: all .2s ease; }
+.wrapper .header_guideline a.close_btn:active { opacity: .15; background: transparent !important; }
+.wrapper .header_guideline a.close_btn i.ic_header_close { width: 15px; height: 15px; background: url('../images/global/ic-header-close@2x.png') no-repeat; background-size: 15px auto; background-position: 50%; display: block; margin: 0 auto; position: relative; top: calc((100% - 15px)/2); }
+
+/*返回按鈕*/
+.wrapper .header_guideline a.back_btn { width: 26px; height: 26px; position: absolute; top: calc((100% - 28px)/2); left: 13px; display: block; -webkit-transition: all .2s ease; -moz-transition: all .2s ease; -ms-transition: all .2s ease; -o-transition: all .2s ease; transition: all .2s ease; }
+.wrapper .header_guideline a.back_btn:active { opacity: .15; background: transparent !important; }
+.wrapper .header_guideline a.back_btn i.ic_header_arrow_left { width: 11px; height: 20px; background: url('../images/global/ic-header-arrow-left@2x.png') no-repeat; background-size: 11px auto; background-position: 48% 50%; display: block; margin: 0 auto; position: relative; top: calc((100% - 20px)/2); }
+
+/*Arrow Right*/
+.wrapper article.main_content a.arrow_right_btn { width: 25px; height: 25px; display: block; position: absolute; top: calc((100% - 25px)/2); right: 0; }
+.wrapper article.main_content a.arrow_right_btn:active { background: var(--gray_FB); }
+.wrapper article.main_content a.arrow_right_btn i.ic_arrow_right { width: 9px; height: 15px; background: url('../images/global/ic-arrow-right@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; position: relative; top: calc((100% - 16px)/2); }
+
+/*Remove Btn*/
+.wrapper article.main_content a.img_remove_btn { width: 100%; height: 100%; border-radius: 5px; background-color: rgba(0, 0, 0, 0.4); display: block; position: relative; }
+.wrapper article.main_content a.img_remove_btn:active { background-color: rgba(0, 0, 0, 0.6); }
+.wrapper article.main_content a.img_remove_btn i.ic_card_img_delete { width: 16px; height: 18px; background: url('../images/global/ic-card-img-delete@2x.png') no-repeat; background-size: 16px auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; display: block; }
+
+.wrapper article.main_content small { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: relative; top: -1px; }
+.wrapper article.main_content small.quotation { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: absolute; top: calc((100% - 18px)/2); right: 0; }
+.wrapper article.main_content small.quotation a.quo_link { min-width: 14px; min-height: 14px; display: inline-block; font-weight: bold; color: #3388cc; text-decoration: none; cursor: pointer; }
+.wrapper article.main_content small.quotation a:active.quo_link { opacity: .8; background: transparent; }
+.wrapper article.main_content small.quotation a.quo_link i.ic_event_content_form_popup_info { width: 14px; height: 14px; background: url('../images/start_event/ic-event-content-form-popup-info@2x.png') no-repeat; background-size: cover; display: block; }
+.wrapper article.main_content small.quotation.q_icon { width: 14px; height: 14px; position: absolute; top: calc((100% - 14px)/2); left: 0; z-index: 9; }
+
+/* header-close 關閉 */
+.wrapper .header_guideline.header_close { background-color: var(--ihergo_brand_yellow) !important; }
+
+/* header-back 回上一頁 */
+.wrapper .header_guideline.header_back { background-color: var(--ihergo_brand_yellow) !important; }
+
+/* header-back-close 回上一頁+關閉 */
+.wrapper .header_guideline.header_back_close { background-color: var(--ihergo_brand_yellow) !important; }
+
+/* header-close-white 關閉(白) */
+.wrapper .header_guideline.header_close_white { background-color: white !important; border-bottom: 1px solid var(--gray_E5); }
+.wrapper .header_close_white.scroll { background: rgba(255, 255, 255, .95) !important; }
+
+/* header-close-white hero-banner 關閉(白 Hero內容 ) */
+.wrapper .header_close_white.hero_banner { width: 100%; background: rgba(255, 255, 255, .8) !important; opacity: 1; backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); }
+.wrapper .header_close_white.hero_banner .header_container { display: block; }
+.wrapper .hero_banner.scroll { opacity: 1; }
+.wrapper .hero_banner.scroll .header_container { display: block; }
+.wrapper article.main_content { width: 100%; height: 100%; position: relative; }
+
+/***--------------- Sub-header樣式組合 ---------------***/
+.wrapper article.main_content .sub_header { }
+
+/*下拉式選單*/
+.wrapper article.main_content .sub_header .dropdown_bar { width: 100%; height: 50px; float: left; display: block; background: #ffffff; }
+.wrapper article.main_content .sub_header .dropdown_bar select.sub_header_type_dropdown { width: 100%; border: 0; font-size: 0.8889rem; /*16px*/ font-weight: normal; color: var(--gray_555); text-indent: 22px; }
+.wrapper article.main_content .sub_header .dropdown_bar select.sub_header_type_dropdown:active { color: var(--gray_555); }
+
+/* jQuery Mobile 修正 */
+.wrapper article.main_content .sub_header .dropdown_bar .ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow { padding: 0; border: 0; border-radius: 0; box-shadow: none; width: 100%; height: 100%; line-height: 50px; background: url('../images/global/ic-dropdown@2x.png') #ffffff no-repeat; background-size: 13px 9px; background-position: 96% 50%; }
+.wrapper article.main_content .sub_header .dropdown_bar .ui-select { margin: 0; }
+.wrapper article.main_content .sub_header .dropdown_bar .ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow .sub_header_type_dropdown { font-size: 0.8889rem; /*16px*/ font-weight: normal; color: var(--gray_555); text-indent: 6%; text-align: left; }
+div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { display: none; }
+
+/*搜尋Bar*/
+.wrapper article.main_content .sub_header .search_bar { width: 100%; height: 50px; line-height: 50px; float: left; display: block; background: #ffffff; }
+.wrapper article.main_content .sub_header .search_bar a.open_search_btn { width: 100%; height: 100%; display: none; }
+.wrapper article.main_content .sub_header .search_bar a:active.open_search_btn { background: var(--gray_FB); }
+.wrapper article.main_content .sub_header .search_bar a.open_search_btn i.ic_sub_header_search { width: 17px; height: 17px; background: url('../images/global/ic-sub-header-search@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; position: relative; top: calc((100% - 17px)/2); }
+.wrapper article.main_content .sub_header .search_bar .search_con { width: 95%; height: 100%; line-height: 50px; margin: 0 auto; }
+
+/*回上一層按鈕*/
+.wrapper article.main_content .sub_header .search_bar .search_con a.prev_step_link { width: 26px; height: 26px; display: none; position: relative; top: calc((100% - 26px)/2); float: left; }
+.wrapper article.main_content .sub_header .search_bar .search_con a:active.prev_step_link { background: var(--gray_FB); }
+.wrapper article.main_content .sub_header .search_bar .search_con a.prev_step_link i.ic_sub_header_arrow_left { width: 9px; height: 15px; background: url('../images/global/ic-sub-header-arrow-left@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; position: relative; top: calc((100% - 15px)/2); }
+
+/*輸入內容*/
+.wrapper article.main_content .sub_header .search_bar .search_con input.search_text_field { height: 40px; border: 0; padding: 0 0 0 5px; font-size: 0.8889rem; /*16px*/ background: #ffffff; }
+
+/*搜尋按鈕*/
+.wrapper article.main_content .sub_header .search_bar .search_con a.search_btn { width: 26px; height: 26px; display: block; margin-top: 12px; float: left; }
+.wrapper article.main_content .sub_header .search_bar .search_con a:active.search_btn { background: var(--gray_FB); }
+.wrapper article.main_content .sub_header .search_bar .search_con a.search_btn i.ic_sub_header_search { width: 17px; height: 17px; background: url('../images/global/ic-sub-header-search@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; position: relative; top: calc((100% - 17px)/2); }
+
+/* jQuery Mobile 修正 */
+.wrapper article.main_content .sub_header .search_bar .search_con .ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset { width: calc(100% - 26px); height: 40px; box-shadow: none; float: left; margin-top: 5px; }
+
+/* sub-header-dropdown */
+.wrapper article.main_content .sub_header.sub_header_dropdown { }
+
+/* sub-header-search */
+.wrapper article.main_content .sub_header.sub_header_search { }
+
+/* sub-header-dropdown-search */
+.wrapper article.main_content .sub_header.sub_header_dropdown_search { }
+.wrapper article.main_content .sub_header.sub_header_dropdown_search .dropdown_bar { width: 84%; border-right: 1px solid var(--gray_E5); border-bottom: 1px solid var(--gray_E5); }
+.wrapper article.main_content .sub_header.sub_header_dropdown_search .search_con { display: none; }
+.wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar { width: calc(16% - 1px); height: 50px; border-bottom: 1px solid var(--gray_E5); }
+.wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar.expand { width: 100%; }
+.wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar.expand .search_con a.prev_step_link { display: block; }
+.wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar a.open_search_btn { display: block; }
+.wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar a.search_btn { display: none; }
+
+/***--------------- Row 樣式組合 ---------------***/
+
+/*row_collapse_content */
+.wrapper article.main_content .row_collapse_content { width: 100%; height: 56px; line-height: 56px; background: #ffffff; }
+.wrapper article.main_content .row_collapse_content .left { width: 20px; height: 56px; margin-left: 23px; margin-right: 15px; float: left; display: inline-block; }
+.wrapper article.main_content .row_collapse_content .left i.ic_row_status { width: 20px; height: 20px; position: relative; top: calc((100% - 20px)/2); background-size: cover !important; display: block; }
+.wrapper article.main_content .row_collapse_content .left .ic_row_status.done { background: url('../images/global/ic-row-status-done@2x.png') no-repeat; }
+.wrapper article.main_content .row_collapse_content .left .ic_row_status.unfill { background: url('../images/global/ic-row-status-unfilled@2x.png') no-repeat; }
+.wrapper article.main_content .row_collapse_content .content { width: calc(100% - 119px); height: 56px; line-height: 56px; font-size: 0.8333rem;/*15px*/ font-weight: bold; color: var(--gray_555); float: left; display: inline-block; position: relative; }
+.wrapper article.main_content .row_collapse_content .right { width: 25px; height: 56px; margin: 0 18px; float: left; display: inline-block; }
+.wrapper article.main_content .row_collapse_content .right a.content_control_btn { width: 25px; height: 25px; display: block; position: relative; top: calc((100% - 25px)/2); }
+.wrapper article.main_content .row_collapse_content .right a:active.content_control_btn { background: var(--gray_FB); }
+.wrapper article.main_content .row_collapse_content .right a.content_control_btn i.ic_row_expand { width: 25px; height: 25px; background-position: 50% !important; display: block; background: url('../images/global/ic-row-expand@2x.png') no-repeat; background-size: 15px 15px; }
+.wrapper article.main_content .row_collapse_content.expand { border-bottom: 1px solid var(--gray_E5); }
+.wrapper article.main_content .row_collapse_content.expand .right a.content_control_btn i.ic_row_expand { background: url('../images/global/ic-row-collapse@2x.png') no-repeat; background-size: 15px 2px; }
+
+/* row_menu */
+.wrapper article.main_content a.row_menu { width: 100%; height: 59px; line-height: 59px; position: relative; border-bottom: 1px solid var(--gray_E5); display: block; }
+.wrapper article.main_content a.row_menu:active { background: #ffffff; }
+.wrapper article.main_content a.row_menu .left { width: calc(100% - 79px); height: 100%; margin-left: 23px; display: inline-block; float: left; }
+.wrapper article.main_content a.row_menu .left .menu_content { width: 90%; height: 100%; line-height: 59px; font-size: 0.8333rem; font-weight: normal;/*15px*/ overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: var(--gray_666); display: block; }
+.wrapper article.main_content a.row_menu .right { width: 26px; height: 100%; margin: 0 15px; display: inline-block; float: left; position: relative; }
+.wrapper article.main_content a.row_menu .right i.ic_arrow_right { width: 9px; height: 15px; background: url('../images/global/ic-arrow-right@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; position: relative; top: calc((100% - 16px)/2); }
+
+/* row_select */
+.wrapper article.main_content ul.row_select_container { list-style: none; }
+.wrapper article.main_content li.row_select { width: 100%; height: 59px; line-height: 59px; position: relative; border-bottom: 1px solid var(--gray_E5); display: block; }
+.wrapper article.main_content li.row_select .ui-radio { height: 22px; margin: 0; position: relative; top: calc((100% - 22px)/2); }
+.wrapper article.main_content li.row_select .ui-checkbox { height: 22px; margin: 0; position: relative; top: calc((100% - 22px)/2); }
+.wrapper article.main_content li.row_select span { font-size: 0.7778rem;/*14px*/ font-weight: normal; color: var(--gray_666); margin-left: 55px; display: inline-block; }
+/*jQuery Mobile修正 Radiobuttn*/
+.wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-on { width: 100%; height: 22px; border: 0; padding: 0; background: transparent; }
+.wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-on:after { width: 20px; height: 20px; background: url('../images/global/ic-radio-button-l-selected@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -10px; left: 23px; border: 0; }
+.wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-off { width: 100%; height: 22px; border: 0; padding: 0; background: transparent; }
+.wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-off:after { width: 20px; height: 20px; background: url('../images/global/ic-radio-button-l-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -10px; left: 23px; border: 0; opacity: 1; }
+/*jQuery Mobile修正 Checkbox*/
+.wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on { width: 100%; height: 22px; border: 0; padding: 0; background: transparent; }
+.wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on:after { width: 20px; height: 20px; background: url('../images/global/ic-checkbox-s-selected@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -9px; left: 23px; border: 0; }
+.wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off { width: 100%; height: 22px; border: 0; padding: 0; background: transparent; }
+.wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 20px; height: 20px; background: url('../images/global/ic-checkbox-s-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -9px; left: 23px; border: 0; opacity: 1; }
+
+/* row_footer */
+.wrapper .row_footer { width: 100%; height: 39px; line-height: 39px; background: var(--gray_FB); border-top: 1px solid var(--gray_E5); }
+.wrapper .row_footer span.text_box { width: 90%; height: 39px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; margin: 0 auto; display: block; font-size: 0.7778rem;/*14px*/ color: var(--gray_888); }
+.wrapper .row_footer a.text_box_btn { width: 26px; height: 26px; display: inline-block; float: left; position: relative; top: calc((100% - 26px)/2); left: 18px; }
+.wrapper .row_footer a:active.text_box_btn { background: var(--gray_FB); }
+.wrapper .row_footer a.text_box_btn i.ic_row_footer_text { width: 25px; height: 15px; background: url('../images/global/ic-row-footer-text@2x.png') no-repeat; background-size: 25px auto; background-position: 50%; display: block; position: relative; top: calc((100% - 15px)/2); margin: 0 auto; }
+.wrapper .row_footer a.text_box_btn i.ic_row_footer_text.active { background: url('../images/global/ic-row-footer-text-active@2x.png') no-repeat; background-size: 25px auto; background-position: 50%; }
+.wrapper .row_footer a.img_box_btn { width: 26px; height: 26px; display: inline-block; float: right; position: relative; top: calc((100% - 26px)/2); right: 18px; }
+.wrapper .row_footer a:active.img_box_btn { background: var(--gray_FB); }
+.wrapper .row_footer a.img_box_btn i.ic_row_footer_img { width: 18px; height: 17px; background: url('../images/global/ic-row-footer-img@2x.png') no-repeat; background-size: 18px auto; background-position: 50%; display: block; position: relative; top: calc((100% - 17px)/2); margin: 0 auto; }
+.wrapper .row_footer a.img_box_btn i.ic_row_footer_img.active { background: url('../images/global/ic-row-footer-img-active@2x.png') no-repeat; background-size: 18px auto; background-position: 50%; }
+
+/***--------------- Card 樣式組合 ---------------***/
+
+/* card_product */
+.wrapper article.main_content .card_product { width: calc(100% - 6px); height: calc(100% - 6px); border-radius: 5px; border: solid 3px transparent; position: relative; cursor: pointer; }
+.wrapper article.main_content .card_product .product_img { width: calc(100% + 4px); height: calc(100% + 4px); border-radius: 5px; border: 1px solid var(--gray_E5); position: relative; top: -3px; left: -3px; }
+.wrapper article.main_content .card_product .product_img img { width: 100.05%; height: 100%; border-radius: 4px; }
+
+/*商品內文*/
+.wrapper article.main_content .card_product .product_description_con { width: calc(100% + 6px); position: absolute; left: -3px; bottom: -3px; background-color: rgba(84, 73, 77, 0.8); border-radius: 0 0 5px 5px; color: #ffffff; }
+.wrapper article.main_content .card_product .product_description_con .content_box { padding: 10px; }
+.wrapper article.main_content .card_product .product_description_con .content_box .product_title { width: 100%; max-height: 42px; overflow: hidden; font-size: 0.6667rem; /*12px*/ font-weight: bold; line-height: 150%; color: #ffffff; display: block; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.wrapper article.main_content .card_product .product_description_con .content_box .product_price { width: 100%; height: 12px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 0.6111rem; /*11px*/ color: #ffffff; }
+.wrapper article.main_content .card_product .select_btns { width: 24px; height: 24px; position: absolute; top: 10px; right: 10px; display: block; }
+
+/*選取按鈕  jQuery Mobile 修正*/
+.wrapper article.main_content .card_product .select_btns .ui-checkbox { margin: 0; }
+.wrapper article.main_content .card_product .select_btns label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off { border: 0; padding: 0; background: transparent; border: 0; padding: 0; background: transparent; margin-left: -10px; }
+.wrapper article.main_content .card_product .select_btns label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on { border: 0; padding: 0; background: transparent; }
+
+/*選取按鈕 -  已選取*/
+.wrapper article.main_content .card_product .select_btns label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on:after { width: 24px; height: 24px; background: url('../images/global/ic-card-l-selected@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); border-radius: 50%; position: relative; top: -20px; left: 0px; }
+
+/*選取按鈕 -  未選取*/
+.wrapper article.main_content .card_product .select_btns label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 24px; height: 24px; background: url('../images/global/ic-card-l-select@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15); border-radius: 50%; opacity: 1; position: relative; top: -20px; left: 5px; }
+
+/* card_product_select 已選狀態 */
+.wrapper article.main_content .card_product.on { width: calc(100% - 6px); height: calc(100% - 6px); border: solid 3px var(--ihergo_brand_blue); }
+.wrapper article.main_content .card_product.on .product_img { width: 100%; height: 100%; border-radius: 8px; border: 3px solid var(--ihergo_brand_blue); }
+.wrapper article.main_content .card_product.on .product_img img { border-radius: 3px; }
+.wrapper article.main_content .card_product.on .product_img:before { content: ''; width: 100%; height: 100%; position: absolute; background: var(--ihergo_brand_blue); opacity: .4; }
+.wrapper article.main_content .card_product.on .product_description_con { border-radius: 0 0 5px 5px; width: calc(100% + 6px); position: absolute; left: -3px; bottom: -3px; background-color: rgba(84, 73, 77, 0.8); border-radius: 0 0 5px 5px; color: #ffffff; }
+
+/* card_product_small */
+.wrapper article.main_content .card_product_small { width: 130px; height: 130px; border-radius: 5px; border: solid 3px transparent; position: relative; cursor: pointer; }
+.wrapper article.main_content .card_product_small .product_img { width: calc(100% - 2px); height: calc(100% - 2px); border-radius: 5px; border: 1px solid var(--gray_E5); }
+.wrapper article.main_content .card_product_small .product_img img { width: 100%; height: 100%; border-radius: 4px; }
+
+/*商品內文*/
+.wrapper article.main_content .card_product_small .product_description_con { width: calc(100% - 2px); position: absolute; left: 1px; bottom: 0px; background-color: rgba(84, 73, 77, 0.75); border-radius: 0 0 5px 5px; color: #ffffff; }
+.wrapper article.main_content .card_product_small .product_description_con .content_box { padding: 10px; }
+.wrapper article.main_content .card_product_small .product_description_con .content_box .product_title { width: 100%; max-height: 42px; overflow: hidden; font-size: 0.6667rem; /*12px*/ font-weight: bold; line-height: 150%; color: #ffffff; display: block; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.wrapper article.main_content .card_product_small .product_description_con .content_box .product_price { width: 100%; height: 12px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 0.5556rem; /*10px*/ color: #ffffff; }
+
+/* card_img_action_btn */
+.wrapper article.main_content .card_img_action_btn { width: 100%; height: 100%; border-radius: 10px; border: 1px solid #EBEBEB; background: var(--gray_E5); position: relative; }
+.wrapper article.main_content .card_img_action_btn .item_img { width: 100%; height: 100%; }
+.wrapper article.main_content .card_img_action_btn .item_img img { width: 100%; height: 100%; border-radius: 10px; }
+.wrapper article.main_content .card_img_action_btn .action_btn { width: 30px; height: 30px; position: absolute; top: 10px; right: 10px; }
+.wrapper article.main_content .card_img_action_btn span.tag { }
+.wrapper article.main_content .card_img_action_btn.cover .tag:before { content: '封面照片'; background-color: rgba(0, 0, 0, 0.6); position: absolute; bottom: 10%; left: 0; font-size: 0.6111rem; /*11px*/ color: #ffffff; padding: 4px 6px; display: block; }
+
+/* card_list */
+.wrapper article.main_content .card_list { width: 96%; margin: 0 auto 20px auto; }
+.wrapper article.main_content .card_list li { list-style: none; width: 100%; }
+.wrapper article.main_content .card_list li.card_content { }
+
+/* card_list_action_btn_select */
+.wrapper article.main_content .card_list_action_btn { width: calc(100% - 2px); height: 50px; line-height: 50px; border-radius: 5px; background-color: #f4f4f4; border: solid 1px var(--gray_E5); color: var(--gray_555); margin-left: -1px; margin-bottom: 15px; }
+.wrapper article.main_content .card_list_action_btn .content { width: calc(100% - 63px); height: 50px; float: left; display: inline-block; margin-left: 15px; }
+.wrapper article.main_content .card_list_action_btn .content span.content_box { width: 100%; height: 50px; font-size: 0.7222rem;/*13px*/ color: var(--gray_555); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
+.wrapper article.main_content .card_list_action_btn .right { width: 20px; height: 50px; float: left; margin-left: 14px; margin-right: 14px; display: inline-block; }
+.wrapper article.main_content .card_list_action_btn .right a.content_modify_btn { width: 20px; height: 20px; display: block; position: relative; top: calc((100% - 20px)/2); }
+.wrapper article.main_content .card_list_action_btn .right a.content_modify_btn:active { background: transparent; opacity: .8; }
+.wrapper article.main_content .card_list_action_btn .right a.content_modify_btn i.ic_card_list_edit { width: 20px; height: 20px; background: url('../images/global/ic-card-list-edit@2x.png') no-repeat; background-size: cover; display: block; }
+
+/*ON*/
+.wrapper article.main_content .card_list_action_btn.on { width: calc(100% - 4px); height: 50px; line-height: 50px; background-color: #ecf7fc; border-radius: 5px; border: solid 2px var(--ihergo_brand_blue); color: var(--gray_555); margin-left: 0; }
+.wrapper article.main_content .card_list_action_btn.on .right a.content_modify_btn i.ic_card_list_edit { width: 20px; height: 20px; background: url('../images/global/ic-card-list-edit-blue@2x.png') no-repeat; background-size: cover; display: block; }
+
+/* card_list_action_btn_select */
+.wrapper article.main_content .card_list_action_btn_select { width: calc(100% - 2px); height: 50px; line-height: 50px; border-radius: 5px; background-color: #f4f4f4; border: solid 1px var(--gray_E5); color: var(--gray_555); margin-left: -1px; margin-bottom: 15px; }
+.wrapper article.main_content .card_list_action_btn_select .left { width: calc(100% - 52px); height: 50px; float: left; margin: 0; display: inline-block; }
+.wrapper article.main_content .card_list_action_btn_select .left span p { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+/*選取按鈕  jQuery Mobile 修正*/
+.wrapper article.main_content .card_list_action_btn_select .left .ui-checkbox { margin: 0; height: 20px; position: relative; top: calc((100% - 20px)/2); }
+.wrapper article.main_content .card_list_action_btn_select .left label span { font-size: 0.7222rem;/*13px*/ font-weight: normal; color: var(--gray_666); margin-left: 35px; display: inline-block; width: 85%; overflow: hidden; }
+.wrapper article.main_content .card_list_action_btn_select .left label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off { width: auto; height: 100%; border: 0; padding: 0; background: transparent; line-height: 20px; }
+.wrapper article.main_content .card_list_action_btn_select .left label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on { width: auto; height: 100%; border: 0; padding: 0; background: transparent; line-height: 20px; }
+
+/*選取按鈕 -  已選取*/
+.wrapper article.main_content .card_list_action_btn_select .left label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on:after { width: 16px; height: 16px; background: url('../images/global/ic-card-s-selected@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -14px; left: 12px; border: 0; }
+
+/*選取按鈕 -  未選取*/
+.wrapper article.main_content .card_list_action_btn_select .left label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 16px; height: 16px; background: url('../images/global/ic-card-s-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -14px; left: 12px; border: 0; opacity: 1; }
+.wrapper article.main_content .card_list_action_btn_select .right { width: 20px; height: 50px; float: right; margin-left: 14px; margin-right: 14px; display: inline-block; }
+.wrapper article.main_content .card_list_action_btn_select .right a.content_modify_btn { width: 20px; height: 20px; display: block; position: relative; top: calc((100% - 20px)/2); }
+.wrapper article.main_content .card_list_action_btn_select .right a.content_modify_btn:active { background: transparent; opacity: .8; }
+.wrapper article.main_content .card_list_action_btn_select .right a.content_modify_btn i.ic_card_list_edit { width: 20px; height: 20px; background: url('../images/global/ic-card-list-edit@2x.png') no-repeat; background-size: cover; display: block; }
+
+/*兩行資料時*/
+.wrapper article.main_content .card_list_action_btn_select.double_line { height: 74px !important; }
+.wrapper article.main_content .card_list_action_btn_select.double_line .left { height: 100%; }
+.wrapper article.main_content .card_list_action_btn_select.double_line .left .ui-checkbox { height: auto; top: 16px; }
+.wrapper article.main_content .card_list_action_btn_select.double_line .left label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { top: -33px; }
+.wrapper article.main_content .card_list_action_btn_select.double_line .left label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on:after { top: -33px; }
+.wrapper article.main_content .card_list_action_btn_select.double_line .right { height: 100%; }
+.wrapper article.main_content .card_list_action_btn_select.double_line .right a.content_modify_btn { top: 16px; }
+
+/*ON*/
+.wrapper article.main_content .card_list_action_btn_select.on { width: calc(100% - 4px); height: 50px; line-height: 50px; background-color: #ecf7fc; border-radius: 5px; border: solid 2px var(--ihergo_brand_blue); color: var(--gray_555); margin-left: -2px; }
+.wrapper article.main_content .card_list_action_btn_select.on .right a.content_modify_btn i.ic_card_list_edit { width: 20px; height: 20px; background: url('../images/global/ic-card-list-edit-blue@2x.png') no-repeat; background-size: cover; display: block; }
+
+/***--------------- Form 樣式組合 ---------------***/
+
+/*表格內容*/
+.wrapper article.main_content .form_container .item_form_content { background: #ffffff; padding-bottom: 20px; }
+.wrapper article.main_content .form_container .form_card_list_combination ul.card_list li.list_content a.add_item_spec_btn { width: calc(100% - 2px); height: 50px; line-height: 50px; border-radius: 5px; border: 1px solid var(--gray_E5); display: block; margin-left: -1px; font-size: 0.7778rem;/*14px*/ font-weight: 500; color: #bfbfbf; text-decoration: none; text-align: center; }
+.wrapper article.main_content .form_container .form_card_list_combination ul.card_list li.list_content a:active.add_item_spec_btn { background: #efefef; }
+.wrapper article.main_content .form_container .form_card_list_combination ul.card_list li.list_content a.add_item_spec_btn span.btn_content { display: inline-block; }
+.wrapper article.main_content .form_container .form_card_list_combination ul.card_list li.list_content a.add_item_spec_btn span.btn_content i.ic_card_list_add { width: 13px; height: 13px; background: url('../images/start_event/ic-card-list-add@2x.png') no-repeat; background-size: cover; display: inline-block; margin-right: 5px; position: relative; top: 1px; }
+
+/*通用 guideline_form*/
+.wrapper article.main_content .guideline_form { width: 90%; margin: 0 auto; border-bottom: 1px solid var(--gray_E5); }
+.wrapper article.main_content .guideline_form label.title { width: 100%; height: 18px; display: block; padding: 17px 0 15px 0; font-size: 0.7778rem;/*14px*/ font-weight: bold; color: var(--gray_888); line-height: 18px; position: relative; }
+.wrapper article.main_content .guideline_form .title.error { color: #ff0000; }
+.wrapper article.main_content .guideline_form label.title small { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: relative; top: -1px; }
+.wrapper article.main_content .guideline_form label.title small.quotation { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: absolute; top: calc((100% - 18px)/2); right: 0; }
+.wrapper article.main_content .guideline_form label.title small.quotation a.quo_link { font-weight: bold; color: #3388cc; text-decoration: none; cursor: pointer; }
+.wrapper article.main_content .guideline_form label.title small.quotation a:active.quo_link { opacity: .8; background: transparent; }
+.wrapper article.main_content .guideline_form label.title small.quotation a.quo_link i.ic_event_content_form_popup_info { width: 14px; height: 14px; background: url('../images/start_event/ic-event-content-form-popup-info@2x.png') no-repeat; background-size: cover; display: block; }
+.wrapper article.main_content .guideline_form label.title .quotation.q_icon { width: 14px; height: 14px; top: 18px; left: 0; z-index: 9; }
+.wrapper article.main_content .guideline_form label.error_msg { position: relative; top: -10px; font-size: 0.6667rem; color: #ff6666; display: none; }
+
+/* form_single_line_text_field */
+
+/*jQuery Mobile 修正*/
+.wrapper article.main_content .form_single_line_text_field .ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset { box-shadow: none; }
+.wrapper article.main_content .form_single_line_text_field input { min-height: 0; border: 0; background: transparent; box-shadow: none; padding: 0 0 20px 0; font-size: 14px; font-weight: 300; line-height: 1.8 !important; color: var(--gray-C3) !important; }
+
+/* form_text_field_combination */
+.wrapper article.main_content .form_text_field_combination .container { width: 100%; padding-bottom: 20px; }
+.wrapper article.main_content .form_text_field_combination .container .left { width: 90%; height: 50px; float: left; font-size: 0.7778rem; /*14px*/ font-weight: normal; line-height: 1.8; color: var(--gray_C3); }
+.wrapper article.main_content .form_text_field_combination .container .left textarea { width: 100%; height: 50px !important; min-height: 50px; border: 0; background: transparent; box-shadow: none; padding: 0; font-size: 14px; font-weight: 300; line-height: 1.8 !important; color: var(--gray-C3) !important; }
+.wrapper article.main_content .form_text_field_combination .container .left span.fill_content { font-size: 0.7778rem;/*14px*/ color: var(--gray_666); display: block; max-height: 50px; overflow: hidden; }
+.wrapper article.main_content .form_text_field_combination .container .right { width: 10%; height: 50px; float: left; position: relative; }
+
+/* No Arrow*/
+.wrapper article.main_content .form_text_field_combination.no_arrow .container .left { width: 100%; }
+.wrapper article.main_content .form_text_field_combination.no_arrow .container .right { display: none; }
+
+/* form_date_select */
+.wrapper article.main_content .form_date_select .date_select_container { width: 100%; height: 25px; line-height: 25px; padding-bottom: 20px; line-height: 25px; font-size: 0.7778rem; /*14px*/ font-weight: normal; color: var(--gray_666); }
+.wrapper article.main_content .form_date_select .date_select_container .date_content { width: 23%; height: 25px; display: inline-block; float: left; }
+.wrapper article.main_content .form_date_select .date_select_container a.date_select_btn { width: 7%; height: 25px; display: inline-block; float: left; margin-left: 5%; }
+.wrapper article.main_content .form_date_select .date_select_container a.date_select_btn:active { background: var(--gray_FB); }
+.wrapper article.main_content .form_date_select .date_select_container a.date_select_btn i.ic_form_date_select_calendar { width: 20px; height: 21px; display: block; background: url('../images/global/ic-form-date-select-calendar@2x.png') no-repeat; background-size: 20px 21px; background-position: 50%; margin: 0 auto; position: relative; top: 1px; }
+.wrapper article.main_content .form_date_select .date_select_container .hr_content { width: 15%; height: 25px; line-height: 25px; text-align: center; display: inline-block; margin-left: 7%; }
+.wrapper article.main_content .form_date_select .date_select_container .txt_box { display: inline-block; height: 25px; line-height: 25px; margin: 0 3.5%; }
+.wrapper article.main_content .form_date_select .date_select_container .min_content { width: 15%; height: 25px; line-height: 25px; text-align: center; display: inline-block; }
+
+/*jQuery Mobile*/
+.wrapper article.main_content .form_date_select .date_select_container .hr_content .ui-select { margin: 0; }
+.wrapper article.main_content .form_date_select .date_select_container .hr_content .ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow { border: 0; background: transparent; box-shadow: none; height: 25px; line-height: 25px; padding: 0; font-size: 0.7778rem; /*14px*/ font-weight: normal; color: var(--gray_666); }
+.wrapper article.main_content .form_date_select .date_select_container .min_content .ui-select { margin: 0; }
+.wrapper article.main_content .form_date_select .date_select_container .min_content .ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow { border: 0; background: transparent; box-shadow: none; height: 25px; line-height: 25px; padding: 0; font-size: 0.7778rem; /*14px*/ font-weight: normal; color: var(--gray_666); }
+
+/* form_checkbox_combination */
+.wrapper article.main_content .form_checkbox_combination { }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container { width: 100%; padding-bottom: 20px; }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list { list-style: none; width: 100%; height: 20px; line-height: 20px; margin-bottom: 20px; position: relative; }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list:last-child { margin-bottom: 0; }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label span { font-size: 0.7778rem; /*14px*/ font-weight: normal; color: var(--gray_666); margin-left: 30px; display: inline-block; }
+
+/*jQuery Mobile修正*/
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list .ui-checkbox { margin: 0; height: 20px }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off { width: 80%; height: 22px; border: 0; padding: 0; background: transparent; border: 0; padding: 0; background: transparent; }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on { width: 80%; height: 22px; border: 0; padding: 0; background: transparent; }
+
+/*選取按鈕 -  已選取*/
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on:after { width: 20px; height: 20px; background: url('../images/global/ic-checkbox-l-selected@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -9px; left: 0px; border: 0; }
+
+/*選取按鈕 -  未選取*/
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 20px; height: 20px; background: url('../images/global/ic-checkbox-l-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; opacity: 1; position: relative; top: -9px; left: 0px; border: 0; }
+
+/*點了以後會開啟下一層內容+.entry*/
+.wrapper article.main_content .form_text_field_combination.entry a.container { height: 25px; display: block; }
+.wrapper article.main_content .form_text_field_combination.entry .container.double_line { height: 50px; display: block; }
+.wrapper article.main_content .form_text_field_combination.entry a:active.container { background: transparent; }
+.wrapper article.main_content .form_text_field_combination.entry a.container .left { height: 25px; }
+.wrapper article.main_content .form_text_field_combination.entry .container.double_line .left { height: 50px; overflow: hidden; }
+.wrapper article.main_content .form_text_field_combination.entry a.container .right { height: 25px; position: relative; }
+.wrapper article.main_content .form_text_field_combination.entry .container.double_line .right { height: 50px; position: relative; }
+.wrapper article.main_content .form_text_field_combination.entry a.container .right span.arrow_right_btn { width: 25px; height: 25px; display: block; position: absolute; top: calc((100% - 25px)/2); right: 0; }
+.wrapper article.main_content .form_text_field_combination.entry a.container .right span.arrow_right_btn i.ic_arrow_right { width: 9px; height: 15px; background: url('../images/global/ic-arrow-right@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; position: relative; top: calc((100% - 16px)/2); }
+.wrapper article.main_content .form_text_field_combination.entry .container .left ul.item_type_list { height: 25px; }
+.wrapper article.main_content .form_text_field_combination.entry .container .left ul.item_type_list li.type_list { list-style: none; color: var(--gray_666); float: left; display: inline-block; }
+.wrapper article.main_content .form_text_field_combination.entry .container .left ul.item_type_list li.ic_triangle_arrow_right { height: 25px; line-height: 25px; }
+
+/* form_dropdown_combination */
+.wrapper article.main_content .form_dropdown_combination .container { width: 100%; }
+
+/* jQuery Mobile 修正 */
+.wrapper article.main_content .form_dropdown_combination .container .ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow { padding: 0; border: 0; border-radius: 0; box-shadow: none; width: 100%; height: 40px; line-height: 40px; background: url('../images/global/ic-dropdown@2x.png') #ffffff no-repeat; background-size: 13px 9px; background-position: 98% 50%; }
+.wrapper article.main_content .form_dropdown_combination .container .ui-select { margin: 0; }
+.wrapper article.main_content .form_dropdown_combination .container .ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow .form_dropdown { font-size: 0.7778rem; /*14px*/ font-weight: normal; color: var(--gray_555); text-align: left; }
+
+/* form_card_combination */
+.wrapper article.main_content .form_card_combination { width: 100%; min-width: 53px; padding-bottom: 20px; }
+.wrapper article.main_content .form_card_combination .card_container { border-radius: 5px; background-color: #f6f5f5; position: relative; }
+.wrapper article.main_content .form_card_combination .card_container .title_container { width: 100%; height: 53px; line-height: 53px; cursor: pointer; }
+.wrapper article.main_content .form_card_combination .card_container .title_container span.title { height: 53px; line-height: 53px; font-size: 0.7778rem; /*14px*/ font-weight: bold; color: var(--gray_888); padding: 5%; }
+.wrapper article.main_content .form_card_combination .card_container .title_container span.card_exptend_btn { width: 25px; height: 25px; display: block; position: absolute; top: calc((53px - 25px)/2); right: 5%; display: block; }
+.wrapper article.main_content .form_card_combination .card_container .title_container span.card_exptend_btn i.ic_dropdown { width: 13px; height: 9px; background: url('../images/global/ic-dropdown@2x.png') no-repeat; background-size: 13px 9px; position: relative; top: calc((100% - 9px)/2); margin: 0 auto; display: block; }
+.wrapper article.main_content .form_card_combination .card_container ul.card_form_container { width: 90%; margin: 0 auto; padding-bottom: 12px; display: none; }
+.wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content { width: 100%; list-style: none; margin-bottom: 10px; }
+.wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label span { font-size: 0.7222rem;/*13px*/ font-weight: normal; color: var(--gray_555); margin-left: 28px; display: inline-block; }
+
+/* jQuery Mobile修正 */
+.wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label span .ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset { display: inline-block; width: 50px; height: 23px; margin: 0 12px; }
+.wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label span input.card_text_field { width: 50px; height: 23px !important; min-height: 23px !important; border-radius: 4px !important; background-color: #ffffff; padding: 0 2px; border: 0; display: inline-block; position: relative; top: 0; left: 0; font-size: 0.6667rem; /*12px*/ font-weight: normal; color: var(--gray_666); }
+.wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content .ui-checkbox { margin: 0; }
+.wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-off { border: 0; padding: 0; background: transparent; border: 0; padding: 0; background: transparent; }
+.wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-on { border: 0; padding: 0; background: transparent; }
+
+/*選取按鈕 -  已選取*/
+.wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-on:after { width: 18px; height: 18px; background: url('../images/global/ic-radio-button-s-selected@2x.png') no-repeat; background-size: cover; display: block; border-radius: 50%; position: relative; top: -9px; left: 0px; border: 0; }
+
+/*選取按鈕 -  未選取*/
+.wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-off:after { width: 18px; height: 18px; background: url('../images/global/ic-radio-button-s-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 50%; opacity: 1; position: relative; top: -9px; left: 0px; border: 0; }
+
+/* form_custom_combination */
+.wrapper article.main_content .form_custom_combination { height: 60px; }
+.wrapper article.main_content .form_custom_combination label.title { margin: 0; display: inline-block; float: left; position: relative; top: calc((100% - 18px)/2); width: 50%; padding: 0; }
+.wrapper article.main_content .form_custom_combination label.title .quotation.q_icon { top: 2px; }
+
+/* form_switch */
+.wrapper article.main_content .form_switch { height: 60px; }
+.wrapper article.main_content .form_switch label.title { margin: 0; display: inline-block; float: left; position: relative; top: calc((100% - 18px)/2); width: 50%; padding: 0; }
+.wrapper article.main_content .form_switch .switch_box { float: right; }
+.wrapper article.main_content .form_switch .switch_box .ui-slider.ui-slider-switch.ui-slider-track.ui-shadow-inset.ui-bar-inherit.ui-corner-all { width: 56px; height: 30px; border-radius: 40px; border: 0; background: var(--ihergo_brand_blue); text-shadow: none; position: relative; top: 5px; }
+.wrapper article.main_content .form_switch .switch_box .ui-slider-label.ui-slider-label-a.ui-btn-active { background: var(--ihergo_brand_blue); }
+.wrapper article.main_content .form_switch .switch_box .ui-slider-track .ui-btn.ui-slider-handle { position: absolute; z-index: 1; top: 50%; width: 22px; height: 22px; margin: 4px 0 0 -12px; outline: 0; padding: 0; border: 0; background: #ffffff; }
+.wrapper article.main_content .form_switch .switch_box .ui-shadow-inset { box-shadow: none; }
+
+/* form_floating_text_field */
+.wrapper article.main_content .form_floating_text_field { width: 90%; height: 40px; line-height: 40px; border-radius: 50px; background-color: #ffffff; box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2); margin: 0 5%; position: absolute; top: 17px; }
+.wrapper article.main_content .form_floating_text_field .ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset { position: relative; top: calc((100% - 30px)/2); }
+.wrapper article.main_content .form_floating_text_field input.search_address { width: calc(100% - 36px); height: 30px; display: inline-block; float: left; font-size: 0.7778rem;/*14px*/ line-height: 1.8; background: transparent; border: 0; padding: 0 0 0 17px; }
+.wrapper article.main_content .form_floating_text_field a.search_btn { width: 24px; height: 24px; display: inline-block; float: right; position: relative; top: calc((100% - 24px)/2); margin-right: 12px; }
+.wrapper article.main_content .form_floating_text_field a:active.search_btn { background: var(--gray_FB); }
+.wrapper article.main_content .form_floating_text_field a.search_btn i.ic_form_floating_text_field_search { width: 24px; height: 24px; background: url('../images/global/ic-form-floating-text-field-search@2x.png') no-repeat; background-size: 17px auto; background-position: 50%; display: block; }
+
+/***--------------- Footer 樣式組合 ---------------***/
+.wrapper .bottom_container { width: 100%; max-width: var(--max_w); height: 50px; position: relative; bottom: 0; z-index: 999; }
+.wrapper .bottom_container.fixed { width: 100%; max-width: var(--max_w); position: fixed; }
+.wrapper .bottom_container.modal { left: 50%; }
+.wrapper .bottom_container a.bottom_page_footer { width: 100%; height: 50px; line-height: 50px; background-color: var(--ihergo_brand_blue); border: 0; color: #ffffff; font-size: 0.8889rem;/*16px*/ font-weight: bold; text-align: center; text-decoration: none; display: block; }
+.wrapper .bottom_container a:active.bottom_page_footer { background-color: #4abee8; }
+.wrapper .bottom_container.footer_row { height: 90px; }
+
+/***--------------- Button Sheet 樣式組合 ---------------***/
+.wrapper .action_button_sheet_container { width: 100%; height: 100%; position: fixed; top: 0; z-index: 1001; display: none; }
+.wrapper .mask_modal { width: 100%; max-width: var(--max_w); height: 100%; background: rgba(0, 0, 0, .8); margin: 0 auto; backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); display: none; position: relative; top: -100%; }
+.wrapper .action_button_sheet_container .content { width: 100%; height: 100%; max-width: var(--max_w); margin: 0 auto; }
+
+/*黑底修正*/
+.wrapper .action_button_sheet_container .content .mask_modal { top: 0; }
+.wrapper .action_button_sheet_container ul.button_list { width: 100%; position: absolute; bottom: -100%; left: 0; -webkit-transition: bottom .3s; -moz-transition: bottom .3s; -ms-transition: bottom .3s; -o-transition: bottom .3s; transition: bottom .3s; }
+.wrapper .action_button_sheet_container .button_list.slideup { animation-name: slideup; animation-duration: .3s; bottom: 0; }
+@keyframes slideup {
+	from { bottom: -100%; }
+	to { bottom: 0; }
+}
+.wrapper .action_button_sheet_container ul.button_list li.button_content { list-style: none; width: 100%; height: 60px; line-height: 60px; max-width: var(--max_w); background: #ffffff; margin: 0 auto; }
+.wrapper .action_button_sheet_container ul.button_list li.button_content a.action_btn { width: 100%; height: calc(100% - 1px); line-height: 59px; text-align: center; text-decoration: none; font-size: 0.8889rem;/*16px*/ font-weight: normal; color: var(--gray_888); display: block; }
+.wrapper .action_button_sheet_container ul.button_list li.button_content a:active.action_btn { background: var(--gray_FB); }
+.wrapper .action_button_sheet_container ul.button_list li.button_content .btn_divider { width: 90%; height: 1px; background: var(--gray_E5); margin: 0 auto; }
+.wrapper .action_button_sheet_container ul.button_list li.button_content .action_btn.cancel { color: var(--gray_555); font-weight: bold; }
+
+/***--------------- Popup Screen 樣式組合 ---------------***/
+.wrapper .popup_screen { width: 100%; height: 100%; position: fixed; top: 0; z-index: 1001; display: none; }
+
+/*關閉按鈕*/
+.wrapper .popup_screen a.popup_close_btn { width: 25px; height: 25px; position: absolute; top: calc((50px - 25px)/2); right: 13px; display: block; cursor: pointer; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; z-index: 1; }
+.wrapper .popup_screen a:active.popup_close_btn { background: transparent; opacity: .15; }
+.wrapper .popup_screen a.popup_close_btn i.ic_header_close_white { width: 15px; height: 15px; background: url('../images/global/ic-header-close-white@2x.png') no-repeat; background-size: cover; position: relative; top: 5px; margin: 0 auto; display: block; }
+.wrapper .popup_screen .popup_container { width: 100%; max-width: var(--max_w); height: 100%; position: relative; top: 0; text-align: center; margin: 0 auto; display: none; }
+.wrapper .popup_screen .popup_container:before { content: ''; width: 0; height: 100%; display: inline-block; position: relative; vertical-align: middle; }
+
+/*Popup內容*/
+.wrapper .popup_screen .popup_container .popup_content { font-size: 0.7778rem;/*14px*/ padding: 17px 20px; background-color: var(--ihergo_brand_yellow); border-radius: 10px; color: var(--gray_3F); max-width: 75%; margin: 0 auto; vertical-align: middle; display: inline-block; text-align: left; position: relative; top: -100%; z-index: 5; }
+.wrapper .popup_screen .popup_container .popup_content b { width: 100%; margin-bottom: 10px; display: block; }
+.wrapper .popup_screen .popup_container .popup_content p { line-height: 1.8; }
+.wrapper .popup_screen .popup_container .popup_content a { text-decoration: none; font-weight: bold; color: var(--gray_555); }
+
+/***--------------- Modal 樣式 ---------------***/
+.wrapper article.main_content .modal_container { width: 100%; height: 100%; }

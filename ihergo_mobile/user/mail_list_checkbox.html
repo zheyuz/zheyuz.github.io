@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>信件列表</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+
+	<link href="../css/layout.css" rel="stylesheet" type="text/css">
+	<link href="../css/user.css" rel="stylesheet" type="text/css">
+
+
+	<script src="../js/jquery-2.1.4.min.js"></script>
+	<script src="../js/jquery.mobile-1.4.5.min.js"></script>
+
+	<!-- go to Top -->
+	<script type="text/javascript">
+	$(function(){
+		$("#go_top").click(function(){
+			jQuery("html,body").animate({
+				scrollTop:0
+			},1000);
+		});
+		$(window).scroll(function() {
+			if ( $(this).scrollTop() > 300){
+				$('#go_top').fadeIn("fast");
+			} else {
+				$('#go_top').stop().fadeOut("fast");
+			}
+		});
+	});
+	</script>
+	<!-- go to Top_END -->
+
+	<script type="text/javascript">
+	$(function(){
+		// 信件匣_查詢切換
+		$(".open_search").hide();
+		$(".close_search").show();
+		$(".close_search a.mailSearch_btn").click(function(){
+			$(".open_search").show();
+			$(".close_search").hide();
+		});
+		$(".open_search a.mailSearch_btn").click(function(){
+			$(".open_search").hide();
+			$(".close_search").show();
+		});
+
+		// 修改工具列
+		$(".moreTool_popup").hide();
+		$("a.moreTools_btn").click(function(){
+			$(".moreTool_popup").show();
+		});
+		$("a.tool_item").click(function(){
+			$(".moreTool_popup").hide();
+		});
+
+		// 搬移信件
+		$(".mailChoose_Popup_content").hide();
+		$("a.submit_checkbox").click(function(){
+			$(".mailChoose_Popup_content").fadeIn("fast");
+		});
+		$("a.ok_btn").click(function(){
+			$(".mailChoose_Popup_content").fadeOut("fast");
+		});
+		$("a.popup_cancel_btn").click(function(){
+			$(".mailChoose_Popup_content").fadeOut("fast");
+		});
+
+
+		// 固定左側選單
+		$("a.memu_btn").click(function(){
+			$("div.wrapper").css({"max-height":"920px", "overflow-y":"hidden"});
+		});
+		$(".ui-panel-dismiss, .ui-panel-wrapper, footer.footer_wrp, .cart_box, .store_union_box, ul.my_account").click(function(){
+			$("div.wrapper").css({"max-height":"none", "overflow-y":"auto"});
+		});
+
+	})
+	</script>
+
+</head>
+<body>
+
+<div class="wrapper" data-role="page">
+	<a id="go_top" class="gotop_btn" href="#"></a>
+
+	<header class="top_menu login_none" data-role="header" data-position="fixed">
+		<a href="#bars" class="memu_btn" ></a>
+		<ul class="my_account">
+			<li class="li_account my_calendar"><a href="">日曆</a></li>
+			<li class="li_account my_order">
+				<p class="unread">2</p>
+				<a href="">訂單</a>
+			</li>
+			<li class="li_account my_mail">
+				<p class="unread">8</p>
+				<a href="">信箱</a>
+			</li>
+			<li class="li_account my_club">
+				<p class="unread">3</p>
+				<a href="">家族</a>
+			</li>
+		</ul>
+	</header><!-- /header -->
+
+	<div role="main" class="ui-content mails_main">
+		
+		<!-- 商店標題_開始 -->
+		<article class="store_title">
+			<div class="close_search">
+				<h1 class="title_h1">信件匣</h1>
+				<div class="mail_tools_box">
+					<a class="mailSearch_btn" href="#"></a>
+					<a class="mailWrite_btn" href="mail_write_new.html"></a>
+					<a class="moreTools_btn" href="#"></a>
+					<div class="moreTool_popup">
+						<a class="tool_item firs_tool" href="#">篩選信件</a>
+						<a class="tool_item" href="#">搬移</a>
+						<a class="tool_item" href="#">標示為未讀</a>
+						<a class="tool_item" href="#">標示為已讀</a>
+						<a class="tool_item" href="#">刪除</a>
+					</div>
+				</div>
+			</div>
+			<div class="open_search">
+				<input class="mail_search_input">
+				<a class="mailSearch_btn" href="#"></a>
+			</div>
+		</article>
+		<!-- 商店標題_結束 -->
+
+		<article class="mailList_search">
+			<select class="mail_select">
+				<option selected="selected">全部信件(4)</option>
+				<option>收件匣(3)</option>
+				<option>合購通知(1)</option>
+			</select>
+		</article>
+
+
+		<article class="mailList_content">
+			<div class="main_content_box checkbox_content">
+				<!-- 一封系統信件_開始 -->
+				<div class="mail_box checkbox_show">
+					<div class="left_ckeckbox"><label><input type="checkbox" name="checkbox-0 "> </label></div>
+					<div class="l_mail_box"><img class="sender_pic" src="../images/user/mails/system_100.gif"></div>
+					<div class="r_mail_box">
+						<div class="sender_infor">
+							<p class="system_id">ihergo system</p>
+							<p class="sent_time">08/25 22:31</p>
+							<br class="CLEAR">
+						</div>
+						<p class="mail_keynote">[公告] 新功能上線--家族面交點設定</p>
+						<p class="mail_header">對你來說，家族是什麼呢？除了發送合購通知外，還有沒有其他的可能？家族是在愛合購一創立時就有的社群交流服務，或許有些資深會員可以感受到，當時的家族可說是五花八門且十分熱鬧</p>
+					</div>
+				</div>
+				<!-- 一封系統信件_結束 -->
+				<!-- 一封系統信件_開始 -->
+				<div class="mail_box no_read checkbox_show">
+					<div class="left_ckeckbox"><label><input type="checkbox" name="checkbox-0 "> </label></div>
+					<div class="l_mail_box"><img class="sender_pic" src="../images/user/mails/system_100.gif"></div>
+					<div class="r_mail_box">
+						<div class="sender_infor">
+							<p class="system_id">ihergo system</p>
+							<p class="sent_time">08/25 22:31</p>
+							<br class="CLEAR">
+						</div>
+						<p class="mail_keynote">【歡慶開學季】全台抗蚊大作戰，從家裡自身做起！天然植物精油成分，可以有效趨蚊！</p>
+						<p class="mail_header"></p>
+					</div>
+				</div>
+				<!-- 一封系統信件_結束 -->
+				<!-- 一封系統信件_開始 -->
+				<div class="mail_box no_read checkbox_show">
+					<div class="left_ckeckbox"><label><input type="checkbox" name="checkbox-0 "> </label></div>
+					<div class="l_mail_box"><img class="sender_pic" src="../images/user/mails/system_100.gif"></div>
+					<div class="r_mail_box">
+						<div class="sender_infor">
+							<p class="system_id">ihergo system</p>
+							<p class="sent_time">08/25 22:31</p>
+							<br class="CLEAR">
+						</div>
+						<p class="mail_keynote">[公告] 什麼？合購付款可以這麼方便？！</p>
+						<p class="mail_header">親愛的會員您好, 如你總是覺得合購付款很麻煩、常常忘記付款而被刪訂單, 現在起合購付款將不會再是合購上困擾你的問題, 讓愛合購告訴你，合購付款用ihergo點數有多簡單</p>
+					</div>
+				</div>
+				<!-- 一封系統信件_結束 -->
+				<!-- 一封系統信件_開始 -->
+				<div class="mail_box checkbox_show">
+					<div class="left_ckeckbox"><label><input type="checkbox" name="checkbox-0 "> </label></div>
+					<div class="l_mail_box"><img class="sender_pic" src="../images/user/mails/system_100.gif"></div>
+					<div class="r_mail_box">
+						<div class="sender_infor">
+							<p class="system_id">ihergo system</p>
+							<p class="sent_time">08/25 22:31</p>
+							<br class="CLEAR">
+						</div>
+						<p class="mail_keynote">【歡慶開學】特美香布丁蛋糕，每一口讓你嚐到幸福！開學也不再憂鬱！</p>
+						<p class="mail_header"></p>
+					</div>
+				</div>
+				<!-- 一封系統信件_結束 -->
+				<!-- 一封信件_開始 -->
+				<div class="mail_box checkbox_show">
+					<div class="left_ckeckbox"><label><input type="checkbox" name="checkbox-0 "> </label></div>
+					<div class="l_mail_box"><img class="sender_pic" src="http://photo.ihergo.com/photo/user/61/100_203061_9315.png.jpg"></div>
+					<div class="r_mail_box">
+						<div class="sender_infor">
+							<p class="user_id">ORIGINALTIRAMISU<span>(570)</span></p>
+							<p class="sent_time">08/31 22:31</p>
+							<br class="CLEAR">
+						</div>
+						<p class="mail_keynote">6週年慶開跑♥邀您重回當年大合購的美好♥您參與了嗎？</p>
+						<p class="mail_header">我們6周年慶的活動已經開始！希望與您一起重回當年大合購的美好！~</p>
+					</div>
+				</div>
+				<!-- 一封信件_結束 -->
+				<!-- 一封信件_開始 -->
+				<div class="mail_box no_read checkbox_show">
+					<div class="left_ckeckbox"><label><input type="checkbox" name="checkbox-0 "> </label></div>
+					<div class="l_mail_box"><img class="sender_pic" src="http://photo.ihergo.com/photo/user/47/100_421247_6855.png"></div>
+					<div class="r_mail_box">
+						<div class="sender_infor">
+							<p class="user_id">vivian881021<span>(212)</span></p>
+							<p class="sent_time">08/31 22:31</p>
+							<br class="CLEAR">
+						</div>
+						<p class="mail_keynote">蓉葉手工水餃</p>
+						<p class="mail_header">親愛的主購您好.蓉葉多口味水餃.7/27上檔於大合購！滿1800元即免運並贈送美味麻辣香油醬為主購禮！歡迎支持選購~</p>
+					</div>
+				</div>
+				<!-- 一封信件_結束 -->
+				<!-- 一封信件_開始 -->
+				<div class="mail_box checkbox_show">
+					<div class="left_ckeckbox"><label><input type="checkbox" name="checkbox-0 "> </label></div>
+					<div class="l_mail_box"><img class="sender_pic" src="http://photo.ihergo.com/photo/user/90/100_940290_5958.png"></div>
+					<div class="r_mail_box">
+						<div class="sender_infor">
+							<p class="user_id">willier0915<span>(13)</span></p>
+							<p class="sent_time">08/31 22:31</p>
+							<br class="CLEAR">
+						</div>
+						<p class="mail_keynote">關於領貨日期</p>
+						<p class="mail_header">主購你好，我想跟團，不過網頁上沒有大約的取貨時間，我週三、週五無法取貨，不知能否跟團嗎？</p>
+					</div>
+				</div>
+				<!-- 一封信件_結束 -->
+
+				<!-- 一封合購單_開始 -->
+				<div class="order_box no_read checkbox_show">
+					<div class="left_ckeckbox"><label><input type="checkbox" name="checkbox-0 "> </label></div>
+					<div class="l_order_box"><img class="sender_pic" src="http://photo.ihergo.com/photo/user/51/100_448451_6883.png"></div>
+					<div class="r_order_box">
+						<div class="order_user_info">
+							<p class="user_id">Hello Wendy<span>(112)</span></p>
+							<p class="user_time">10/25 09:48</p>
+						</div>
+						<p class="order_keynote">[大合購] 零食大補帖 Ⓠ 多款新品大優惠 大家最愛的薯條回購</p>
+						<p class="order_detail order_amountPeople">累積 : <span>2人</span></p>
+						<p class="order_detail order_meetDate">面交日期 : <span>未定</span></p>
+						<p class="order_detail order_payDate">付款期限 : <span>09/18 週五</span></p>
+						<p class="un_paynotice un_paynotice_black">合購未付款</p>
+					</div>
+				</div>
+				<!-- 一封合購單_結束 -->
+				<!-- 一封合購單_開始 -->
+				<div class="order_box checkbox_show">
+					<div class="left_ckeckbox"><label><input type="checkbox" name="checkbox-0 "> </label></div>
+					<div class="l_order_box"><img class="sender_pic" src="http://photo.ihergo.com/photo/user/74/100_923874_3797.png"></div>
+					<div class="r_order_box">
+						<div class="order_user_info">
+							<p class="user_id">yoyoChen<span>(112)</span></p>
+							<p class="user_time">10/21 19:24</p>
+						</div>
+						<p class="order_keynote">[大合購] 廚房創意小幫手 ❃ 做家事變得更輕鬆easy</p>
+						<p class="order_detail order_amountPeople">累積 : <span>4人</span></p>
+						<p class="order_detail order_arriveDate">到貨日 : <span>04/24 週五</span></p>
+						<p class="order_detail order_payNotice">未通知付款</p>
+					</div>
+				</div>
+				<!-- 一封合購單_結束 -->
+				<!-- 一封訂購單_開始 -->
+				<div class="order_box checkbox_show">
+					<div class="left_ckeckbox"><label><input type="checkbox" name="checkbox-0 "> </label></div>
+					<div class="l_order_box"><img class="sender_pic" src="http://photo.ihergo.com/photo/user/36/100_861436_7748.png"></div>
+					<div class="r_order_box">
+						<div class="order_user_info">
+							<p class="user_id">hshaoshen<span>(318)</span></p>
+							<p class="user_time">11/4 17:41</p>
+						</div>
+						<p class="order_keynote">[大合購] 韓版秋季棉麻絲巾 ❃ 氣質多款式百搭又時尚 : (1123355) 立即訂購</p>
+						<p class="order_detail order_payDate">付款期限 : <span>04/24 週五</span></p>
+						<p class="order_detail order_amount">份數 : <span>4份</span></p>
+						<p class="order_detail order_payment">應付金額: <span>$276</span></p>
+						<p class="un_paynotice un_paynotice_black">訂單未付款</p>
+					</div>
+				</div>
+				<!-- 一封訂購單_結束 -->
+				<!-- 一封訂購單_開始 -->
+				<div class="order_box no_read checkbox_show">
+					<div class="left_ckeckbox"><label><input type="checkbox" name="checkbox-0 "> </label></div>
+					<div class="l_order_box"><img class="sender_pic" src="http://photo.ihergo.com/photo/user/28/100_31428_6491.png"></div>
+					<div class="r_order_box">
+						<div class="order_user_info">
+							<p class="user_id">喬大隻<span>(1187)</span></p>
+							<p class="user_time">10/31 19:52</p>
+						</div>
+						<p class="order_keynote">[大合購] 喬大海鮮屋 ✪ 破千團購中秋美食大賞 破百種商品任您挑 : (1120264) 9/24(四)到貨~[免雜] 中秋烤肉~多款中秋美食大賞！</p>
+						<p class="order_detail order_arriveDate">到貨日 : <span>9/24 週四</span></p>
+						<p class="order_detail order_amount">份數 : <span>29份</span></p>
+						<p class="order_detail order_payment">應付金額: <span>$3110</span></p>
+						<p class="un_paynotice un_paynotice_red">付款已確認</p>
+					</div>
+				</div>
+				<!-- 一封訂購單_結束 -->
+
+			</div>
+			<a class="submit_checkbox">確認</a>
+
+		</article>
+	</div><!-- /content -->
+
+	<!-- ==================== 選擇移動信件POPUP_開始 ==================== -->
+	<div class="popup_window mailChoose_Popup_content">
+		<div class="popup_window2 mailChoose_box">
+			<div class="popup_title">
+				<h4>搬移信件</h4>
+				<a class="popup_cancel_btn" href="#"></a>
+				<br class="CLEAR">
+			</div>
+			<div class="popup_main">
+				<div class="mailbox_select_box">
+					<select class="atm_select">
+						<option>收件匣(3)</option>
+						<option>合購通知(1)</option>
+					</select>
+				</div>
+			</div>
+			<div class="popup_footer">
+				<a class="ok_btn" href="#">確認</a>
+			</div>
+		</div>
+	</div>
+	<!-- ==================== 選擇移動信件POPUP_結束 ==================== -->
+
+<!-- 左側滑出選單_開始 -->
+	<div class="panel_navi" data-role="panel" id="bars">
+		<!-- 個人帳號＿開始 -->
+		<div class="navi_user_wrp">
+			<img class="user_photo" src="http://photo.ihergo.com/photo/user/74/100_923874_3797.png">
+			<div class="user_info">
+				<p class="user_name">Yoyo Chen</p>
+				<p class="user_text">評比 (95)</p>
+			</div>
+		</div>
+		<!-- 個人帳號＿結束 -->
+		<ul class="navi_ul">
+			<li class="navi_li li_home "><a  href="#"><span>找合購</span></a></li>
+			<li class="navi_li li_store"><a href="#"><span>商店街</span></a></li>
+			<li class="navi_li li_union union_active"><a  href="#" class="active"><span>大合購</span></a></li>
+		</ul>
+		<p class="navi_ul_title">個人資料</p>
+		
+		<ul class="navi_ul">
+			<li class="navi_li li_bonus">
+				<p class="navi_li_no">尚有<span>41</span>元</p>
+				<a href="#"><span>紅利金</span></a>
+			</li>
+			<li class="navi_li li_count">
+				<p class="navi_li_no">尚有<span class="light">0</span>元</p>
+				<a href="#"><span>ihergo點數</span></a>
+			</li>
+			<!-- <li class="navi_li li_family"><a href="#"><span>家族</span></a></li> -->
+			<!-- <li class="navi_li li_mystore"><a href="#"><span>商店</span></a></li> -->
+			<li class="navi_li li_logout"><a href="#"><span>登出</span></a></li>
+		</ul>
+		<div class="panel_footer">
+			<p class="panel_footer_txt"><span>手機板</span>/<a href="#">電腦版</a>/<a href="#">APP下載</a></p>
+		</div>
+	</div>
+	<!-- 左側滑出選單_結束 -->
+
+</div><!-- /page -->
+
+</body>
+</html>

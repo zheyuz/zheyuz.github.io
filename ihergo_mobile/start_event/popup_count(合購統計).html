@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>合購統計</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+	<link href="../css/layout.css" rel="stylesheet" type="text/css">
+	<link href="../css/event.css" rel="stylesheet" type="text/css">
+
+
+	<script src="../js/jquery-2.1.4.min.js"></script>
+	<script src="../js/jquery.mobile-1.4.5.min.js"></script>
+
+	<script type="text/javascript">
+	$(function(){
+		// 統計切換
+		$(".memberCount_box").hide();
+		$("a.memberTab_item").click(function(){
+			$("a.memberTab_item").addClass("item_active");
+			$("a.productTab_item").removeClass("item_active");
+			$(".memberCount_box").fadeIn("fast");
+			$(".productCount_box").hide();
+		});
+		$("a.productTab_item").click(function(){
+			$("a.productTab_item").addClass("item_active");
+			$("a.memberTab_item").removeClass("item_active");
+			$(".productCount_box").fadeIn("fast");
+			$(".memberCount_box").hide();
+		});
+
+	})
+	</script>
+
+</head>
+
+<body>
+<main class="popup_main slide_popup_main">
+	<article class="popup_topbar">
+		<a class="close_btn" href="20160628_group_page.html"></a>
+		<p>合購統計</p>
+	</article>
+	<!-- ========== 合購統計_開始 ========== -->
+	<article class="popup_main_block unionCount_info_block">
+		<!-- 合購總數 -->
+		<div class="totalCount_main">
+			<div class="totalCount_item total_people">
+				<p class="total_title">總人數</p>
+				<p class="total_number">8</p>
+			</div>
+			<div class="totalCount_item total_copies">
+				<p class="total_title">總數量</p>
+				<p class="total_number">30</p>
+			</div>
+			<div class="totalCount_item total_momey">
+				<p class="total_title">總金額</p>
+				<p class="total_number">3450</p>
+			</div>
+		</div>
+		<!-- 統計分類Tab -->
+		<div class="sortTab_nav">
+			<a href="#" class="sortTab_item productTab_item item_active">依商品統計</a>
+			<a href="#" class="sortTab_item memberTab_item">依團員統計</a>
+		</div>
+		
+
+		<div class="allCountList_main">
+			<!-- 依商品統計＿開始 -->
+			<div class="productCount_box">
+				<div class="countList_header">
+					<p class="big_header">商品名稱</p>
+					<p class="small_header">數量</p>
+					<p class="medium_header">金額</p>
+				</div>
+				<div class="countList_content">
+					<!-- 一則商品 -->
+					<a href="popup_buying_people.html" class="countList_link">
+						<div class="productInfo_txt">
+							<img class="product_img" src="http://photo.ihergo.com/photo/product/11/300_11_1464144934569.jpg">
+							<p class="name_txt">『New』煙燻牛肉起士薄餅</p>
+							<p class="specification_txt">155g±5g/片</p>
+							<p class="price_txt">$60</p>
+						</div>
+						<p class="amount_txt">24</p>
+						<p class="money_txt">1440</p>
+					</a>
+					<!-- 一則商品 -->
+					<a href="popup_buying_people.html" class="countList_link">
+						<div class="productInfo_txt">
+							<img class="product_img" src="http://photo.ihergo.com/photo/product/11/300_11_1464144863331.jpg">
+							<p class="name_txt">『New』蘋果起士薄餅</p>
+							<p class="specification_txt">155g±5g/片</p>
+							<p class="price_txt">$60</p>
+						</div>
+						<p class="amount_txt">9</p>
+						<p class="money_txt">540</p>
+					</a>
+					<!-- 一則商品 -->
+					<a href="popup_buying_people.html" class="countList_link">
+						<div class="productInfo_txt">
+							<img class="product_img" src="http://photo.ihergo.com/photo/product/11/300_11_1464142598188.jpg">
+							<p class="name_txt">德式香腸起士薄餅</p>
+							<p class="specification_txt">145g±5g/片</p>
+							<p class="price_txt">$58</p>
+						</div>
+						<p class="amount_txt">15</p>
+						<p class="money_txt">870</p>
+					</a>
+					<!-- 一則商品 -->
+					<a href="popup_buying_people.html" class="countList_link">
+						<div class="productInfo_txt">
+							<img class="product_img" src="http://photo.ihergo.com/photo/product/11/300_11_1466412431500.jpg">
+							<p class="name_txt">火腿起士片薄餅</p>
+							<p class="specification_txt">105g±5g/片</p>
+							<p class="price_txt">$39</p>
+						</div>
+						<p class="amount_txt">5</p>
+						<p class="money_txt">195</p>
+					</a>
+					<!-- 一則商品 -->
+					<a href="popup_buying_people.html" class="countList_link">
+						<div class="productInfo_txt">
+							<img class="product_img" src="http://photo.ihergo.com/photo/product/11/160_11_1464144672737.jpg">
+							<p class="name_txt">[主購禮] 訂購滿3500元，送起士薄餅 原味*1+火腿*1+小墨*1</p>
+							<p class="specification_txt">原味*1+火腿*1+小墨*1</p>
+							<p class="price_txt">$0</p>
+						</div>
+						<p class="amount_txt">1</p>
+						<p class="money_txt">0</p>
+					</a>
+				</div>
+			</div>
+			<!-- 依商品統計＿結束 -->
+
+			<!-- 依團員統計＿開始 -->
+			<div class="memberCount_box" style="display:none;">
+				<div class="countList_header">
+					<p class="big_header">團員</p>
+					<p class="small_header">數量</p>
+					<p class="medium_header">金額</p>
+				</div>
+				<div class="countList_content">
+					<!-- 一則團員 -->
+					<a href="popup_member_buy(團員購買商品).html" class="countList_link">
+						<div class="userInfo_txt">
+							<img class="user_img" src="http://photo.ihergo.com/photo/user/74/100_923874_3797.png">
+							<p class="user_id">evonne_chen<span>(120)</span></p>
+						</div>
+						<p class="amount_txt">5</p>
+						<p class="money_txt">215</p>
+					</a>
+					<!-- 一則團員 -->
+					<a href="popup_member_buy(團員購買商品).html" class="countList_link">
+						<div class="userInfo_txt">
+							<img class="user_img" src="http://photo.ihergo.com/photo/user/96/100_655596_3576.png">
+							<p class="user_id">nicemichelle6969<span>(398)</span></p>
+						</div>
+						<p class="amount_txt">3</p>
+						<p class="money_txt">180</p>
+					</a>
+					<!-- 一則團員 -->
+					<a href="popup_member_buy(團員購買商品).html" class="countList_link">
+						<div class="userInfo_txt">
+							<img class="user_img" src="http://photo.ihergo.com/photo/user/18/100_825718_4523.png">
+							<p class="user_id">lisa761111<span>(107)</span></p>
+						</div>
+						<p class="amount_txt">6</p>
+						<p class="money_txt">358</p>
+					</a>
+					<!-- 一則團員 -->
+					<a href="popup_member_buy(團員購買商品).html" class="countList_link">
+						<div class="userInfo_txt">
+							<img class="user_img" src="http://photo.ihergo.com/photo/user/05/100_395105_8533.png">
+							<p class="user_id">skyfilmas<span>(274)</span></p>
+						</div>
+						<p class="amount_txt">7</p>
+						<p class="money_txt">574</p>
+					</a>
+					<!-- 一則團員 -->
+					<a href="popup_member_buy(團員購買商品).html" class="countList_link">
+						<div class="userInfo_txt">
+							<img class="user_img" src="http://photo.ihergo.com/photo/user/25/100_885125_3445.png">
+							<p class="user_id">KN Yen<span>(83)</span></p>
+						</div>
+						<p class="amount_txt">5</p>
+						<p class="money_txt">457</p>
+					</a>
+					<!-- 一則團員 -->
+					<a href="popup_member_buy(團員購買商品).html" class="countList_link">
+						<div class="userInfo_txt">
+							<img class="user_img" src="http://photo.ihergo.com/photo/user/57/100_771857_3042.png">
+							<p class="user_id">瑞塔塔<span>(87)</span></p>
+						</div>
+						<p class="amount_txt">3</p>
+						<p class="money_txt">180</p>
+					</a>
+					<!-- 一則團員 -->
+					<a href="popup_member_buy(團員購買商品).html" class="countList_link">
+						<div class="userInfo_txt">
+							<img class="user_img" src="http://photo.ihergo.com/photo/user/58/100_185558_3744.png">
+							<p class="user_id">紀泰瑞<span>(104)</span></p>
+						</div>
+						<p class="amount_txt">3</p>
+						<p class="money_txt">117</p>
+					</a>
+					<!-- 一則團員 -->
+					<a href="popup_member_buy(團員購買商品).html" class="countList_link">
+						<div class="userInfo_txt">
+							<img class="user_img" src="http://photo.ihergo.com/photo/user/81/100_928681_2746.png">
+							<p class="user_id">小安<span>(118)</span></p>
+						</div>
+						<p class="amount_txt">2</p>
+						<p class="money_txt">97</p>
+					</a>
+				</div>
+			</div>
+			<!-- 依團員統計＿結束 -->
+		</div>
+
+	</article>
+	<!-- ========== 合購統計_結束 ========== -->
+</main>
+
+</body>
+
+</html>

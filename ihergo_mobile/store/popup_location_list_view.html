@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>查看面交點</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+	<link href="../css/layout.css" rel="stylesheet" type="text/css">
+	<link href="../css/store.css" rel="stylesheet" type="text/css">
+
+
+	<script src="../js/jquery-2.1.4.min.js"></script>
+	<script src="../js/jquery.mobile-1.4.5.min.js"></script>
+
+	<script type="text/javascript">
+	//換頁demo
+	$(function(){
+		$(".location_map_block").hide();
+		$(".one_location_item").click(function(){
+			$(".locations_block").hide();
+			$(".location_map_block").show();
+		});
+		$("p.map_text").click(function(){
+			$(".location_map_block").hide();
+			$(".locations_block").show();
+		});
+	})
+	</script>
+</head>
+
+<body>
+<main class="popup_main store_detail">
+	<article class="popup_topbar">
+		<a class="close_btn" href="#"></a>
+		<p>面交地點</p>
+	</article>
+
+
+	<!-- ========== 面交地點列表_開始 ========== -->
+	<article class="locations_block">
+		<h4 class="locations_no">7 個面交地點</h4>
+		
+		<!-- 一則面交地點_開始 -->
+		<div class="one_location_item">
+			<div class="pint_img pint_img_home"></div>
+			<div class="location_infor_box">
+				<p class="adress_text">[台北市][中正區] 衡陽路51號</p>
+				<p class="family_name">家族名稱：衡陽路51號 世紀羅浮</p>
+				<p class="time_text"><span class="day_txt">日期未定</span>13:00~13:30</p>
+			</div>
+			<br class="CLEAR">
+		</div>
+		<!-- 一則面交地點_結束 -->
+		<!-- 一則面交地點_開始 -->
+		<div class="one_location_item">
+			<div class="pint_img"></div>
+			<div class="location_infor_box">
+				<p class="adress_text">[台北市][南港區] 舊莊國小(旁邊公車亭)</p>
+				<p class="time_text"><span class="day_txt">日期未定</span>18:00~18:10</p>
+			</div>
+			<br class="CLEAR">
+		</div>
+		<!-- 一則面交地點_結束 -->
+		<!-- 一則面交地點_開始 -->
+		<div class="one_location_item">
+			<div class="pint_img"></div>
+			<div class="location_infor_box">
+				<p class="adress_text">[台北市][南港區] 南港家樂福1樓廣場(麥當勞旁邊空地)</p>
+				<p class="time_text"><span class="day_txt">日期未定</span>18:30~18:40</p>
+			</div>
+			<br class="CLEAR">
+		</div>
+		<!-- 一則面交地點_結束 -->
+		<!-- 一則面交地點_開始 -->
+		<div class="one_location_item">
+			<div class="pint_img"></div>
+			<div class="location_infor_box">
+				<p class="adress_text">[台北市][南港區] 忠孝東路6段448號(昆陽站4號出口對面7-11)</p>
+				<p class="time_text"><span class="day_txt">日期未定</span>19:00~19:10</p>
+			</div>
+			<br class="CLEAR">
+		</div>
+		<!-- 一則面交地點_結束 -->
+		<!-- 一則面交地點_開始 -->
+		<div class="one_location_item">
+			<div class="pint_img"></div>
+			<div class="location_infor_box">
+				<p class="adress_text">[新北市][汐止區] 橫科路25號(ok便利商店門口)</p>
+				<p class="time_text"><span class="day_txt">日期未定</span>19:30~19:40</p>
+			</div>
+			<br class="CLEAR">
+		</div>
+		<!-- 一則面交地點_結束 -->
+		<!-- 一則面交地點_開始 -->
+		<div class="one_location_item">
+			<div class="pint_img"></div>
+			<div class="location_infor_box">
+				<p class="adress_text">[台北市][信義區] 忠孝東路5段386(7-11門口)</p>
+				<p class="time_text"><span class="day_txt">日期未定</span>19:30~19:40</p>
+			</div>
+			<br class="CLEAR">
+		</div>
+		<!-- 一則面交地點_結束 -->
+		<!-- 一則面交地點_開始 -->
+		<div class="one_location_item">
+			<div class="pint_img pint_img_disabled"></div>
+			<div class="location_infor_box">
+				<p class="adress_text">[台北市][中正區] 衡陽路51號7樓電梯口(西側)</p>
+				<p class="time_text"><span class="day_txt">日期未定</span>19:30~19:40</p>
+			</div>
+			<br class="CLEAR">
+		</div>
+		<!-- 一則面交地點_結束 -->
+
+	</article>
+	<!-- ========== 面交地點列表_結束 ========== -->
+
+	<!-- ========== 面交點地圖_開始 ========== -->
+	<article class="location_map_block">
+		<iframe src="map.html" height="420" seamless=""></iframe>
+		<p class="map_text">[台北市][南港區] 同德路跟成福路口(全國電子門口)</p>
+	</article>
+	<!-- ========== 面交點地圖_結束 ========== -->
+
+
+
+</main>
+
+</body>
+
+</html>

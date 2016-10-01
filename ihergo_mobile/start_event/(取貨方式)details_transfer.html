@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>我要開團</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="../css/jqm-datebox-1.4.5.css" />
+    <link href="../css/layout.css" rel="stylesheet" type="text/css">
+    <!--<link href="../css/event.css" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" href="../css/mobile_guideline.css">
+    <link rel="stylesheet" href="../css/start_event.css">
+    <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="../js/jqm-datebox-1.4.5.min.js"></script>
+    <script type="text/javascript">
+    jQuery.extend(jQuery.mobile,
+    {
+    ajaxEnabled: false
+    });
+    </script>
+    <!-- go to Top -->
+    <script type="text/javascript">
+    $(function(){
+    $("#go_top").click(function(){
+    jQuery("html,body").animate({
+    scrollTop:0
+    },1000);
+    });
+    $(window).scroll(function() {
+    if ( $(this).scrollTop() > 300){
+    $('#go_top').fadeIn("fast");
+    } else {
+    $('#go_top').stop().fadeOut("fast");
+    }
+    });
+    });
+    </script>
+    <!-- go to Top_END -->
+    <script type="text/javascript">
+    $(function(){
+    //視窗捲動則Header fixed
+    $(this).scroll(function() {
+    var windowScrollTop=$(window).scrollTop(); //抓捲動數值
+    if(windowScrollTop>=20){ //捲動數值超過Header(約180)
+    $('.header_guideline').addClass('scroll');
+    }else{
+    $('.header_guideline').removeClass('scroll');
+    }
+    });
+    
+    });
+    $(window).resize(function(){
+    });
+    </script>
+  </head>
+  <body>
+    <div class="wrapper" data-role="page" id="details_transfer">
+      <!--header_close 關閉-->
+      <header class="header_guideline header_close" data-role="header" data-position="fixed">
+        <div class="header_container">
+          <span class="header_text">取貨方式</span>
+          <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
+        </div>
+      </header>
+      <div role="main" class="ui-content event_main set_details">
+        <article class="main_content">
+          <div class="form_container">
+            <div class="form_blocks" id="form_1">
+              <!--.row_collapse_contnet-->
+              <!--展開時+.expand-->
+              <div class="row_collapse_content expand">
+                <div class="left">
+                  <i class="ic_row_icon_shipping"></i>
+                </div>
+                <div class="content">寄送
+                  <small class="quotation q_icon" style="left:35px;">
+                  <a class="quo_link ui-link" data-href="popup" data-popuptitle="寄送說明" data-popupcontent="將此團設定成可寄送方式, 並設定寄送費用">
+                    <i class="ic_event_content_form_popup_info"></i>
+                  </a>
+                  </small>
+                </div>
+                <div class="right">
+                  <a href="#" class="content_control_btn">
+                    <i class="ic_row_expand"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="card_list_content">
+                <!--.form_card_list_combination 卡片清單-->
+                <div class="guideline_form form_card_list_combination">
+                  <!--.card_list , 用.card_list_...時必須-->
+                  <ul class="card_list">
+                    <!--規格-->
+                    <li class="list_content">
+                      <!--.card_list_action_btn_select, .on 選取, .off未選-->
+                      <div class="card_list_action_btn_select off">
+                        <div class="left">
+                      <label for="check3">
+                      <input type="checkbox" name="item_select" value="" id="check3" class="grid_select_checkbox">
+                      <span>
+                        <p class="shipping_method">郵寄</p>
+                        <p class="shipping_fee">NTD$60</p>
+                      </span>
+                      </label>
+                        </div>
+                        <div class="right">
+                          <a href="#" class="content_modify_btn">
+                            <i class="ic_card_list_edit"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                    <!--規格-->
+                    <li class="list_content">
+                      <!--.card_list_action_btn_select, .on 選取, .off未選-->
+                      <div class="card_list_action_btn_select off">
+                        <div class="left">
+                      <label for="check3">
+                      <input type="checkbox" name="item_select" value="" id="check3" class="grid_select_checkbox">
+                      <span>
+                        <p class="shipping_method">店到店</p>
+                        <p class="shipping_fee">NTD$60</p>
+                      </span>
+                      </label>
+                        </div>
+                        <div class="right">
+                          <a href="#" class="content_modify_btn">
+                            <i class="ic_card_list_edit"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                    <!--新增規格-->
+                    <li class="list_content">
+                      <!--新增規格-->
+                      <a href="#add_new_item_add_spec" class="add_item_spec_btn" data-transition="slide">
+                        <span class="btn_content">
+                          <i class="ic_card_list_add"></i>
+                          新增寄送方式
+                        </span>
+                      </a>
+                    </li>
+                    <li class="CLEAR"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="form_blocks" id="form_2">
+              <!--.row_collapse_contnet-->
+              <!--展開時+.expand-->
+              <div class="row_collapse_content expand">
+                <div class="left">
+                  <i class="ic_row_icon_pin"></i>
+                </div>
+                <div class="content">
+                  面交取貨
+                  <small class="quotation q_icon" style="left:65px;">
+                  <a class="quo_link ui-link" data-href="popup" data-popuptitle="面交取貨說明" data-popupcontent="設定您要與團員面交取貨的地點">
+                    <i class="ic_event_content_form_popup_info"></i>
+                  </a>
+                  </small>
+                </div>
+                <div class="right">
+                  <a href="#" class="content_control_btn">
+                    <i class="ic_row_expand"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="card_list_content">
+                <!--.form_card_list_combination 卡片清單-->
+                <div class="guideline_form form_card_list_combination">
+                  <!--.card_list , 用.card_list_...時必須-->
+                  <ul class="card_list">
+                    <!--規格-->
+                    <li class="list_content">
+                      <!--.card_list_action_btn_select, .on 選取, .off未選, 兩行資料+.double_line-->
+                      <div class="card_list_action_btn_select double_line on">
+                        <div class="left">
+                      <label for="check3">
+                      <input type="checkbox" name="item_select" value="" id="check3" class="grid_select_checkbox" checked>
+                      <span>
+                        <p class="meeting_address">[台北市] [中正區] 衡陽路51號</p>
+                        <p class="meeting_date">下午12點30分~晚上6點30分</p>
+                      </span>
+                      </label>
+                        </div>
+                        <div class="right">
+                          <a href="#" class="content_modify_btn">
+                            <i class="ic_card_list_edit"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                    <!--規格-->
+                    <li class="list_content">
+                      <!--.card_list_action_btn_select, .on 選取, .off未選, 兩行資料+.double_line-->
+                      <div class="card_list_action_btn_select double_line off">
+                        <div class="left">
+                      <label for="check3">
+                      <input type="checkbox" name="item_select" value="" id="check3" class="grid_select_checkbox">
+                      <span>
+                        <p class="meeting_address">[台北市] [中正區] 衡陽路51號</p>
+                        <p class="meeting_date">下午12點30分~晚上6點30分</p>
+                      </span>
+                      </label>
+                        </div>
+                        <div class="right">
+                          <a href="#" class="content_modify_btn">
+                            <i class="ic_card_list_edit"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                    <!--新增規格-->
+                    <li class="list_content">
+                      <!--新增規格-->
+                      <a href="#add_new_item_add_spec" class="add_item_spec_btn" data-transition="slide">
+                        <span class="btn_content">
+                          <i class="ic_card_list_add"></i>
+                          新增面交點
+                        </span>
+                      </a>
+                    </li>
+                    <li class="CLEAR"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <!-- /content -->
+      <!--POPUP內容-->
+      <div class="popup_screen">
+        <div class="popup_container">
+          <a class="popup_close_btn"><i class="ic_header_close_white"></i></a>
+          <div class="popup_content">
+            <b class="title"></b>
+            <p></p>
+          </div>
+          <div class="mask_modal"></div>
+        </div>
+      </div>
+      <!-- 左側滑出選單_開始 -->
+      <div class="panel_navi" data-role="panel" id="bars">
+      </div>
+      <!-- 左側滑出選單_結束 -->
+    </div>
+    <!-- /page -->
+  </body>
+</html>
