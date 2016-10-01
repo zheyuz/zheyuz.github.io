@@ -1,0 +1,132 @@
+@media screen and (max-width:768px) {
+
+	/*----- 商品選購 -----*/
+
+	/*標題*/
+	.goods-title[data-content], .goods-from-title[data-content] { text-align: center; margin: 2em 0 2em; height: 20px; }
+
+	/*襯線*/
+	.goods-title[data-content]:before { content: ''; width: 220px; height: 1px; background: #595656; display: block; position: relative; top: 10px; left: calc((100% - 220px)/2); }
+
+	/*文字*/
+	.goods-title[data-content]:after { content: attr(data-content); /*讀取.goods-title的data-content*/ font-size: 1em; font-weight: bold; color: #595656; background: #f8f8f8; display: inline-block; position: absolute; width: 80px; left: calc((100% - 80px)/2); }
+
+	/*隱藏圖片*/
+	div.goods-title img { display: none; }
+
+	/*產品列表*/
+	.goods-con .goods-subcon, .goods-con .goods-subcon2 { width: 40% !important; margin: 0 5% 30px 5%; }
+	.goods-con .goods-subcon:nth-child(5n+1), .goods-con .goods-subcon2:nth-child(5n+1) { margin: 0 5% 30px 5%; }
+
+	/*圖片最大寬度為滿版*/
+	.goods-subcon img { max-width: 100%; }
+	.goods-subcon2 img { max-width: 100%; }
+	.goods-con .goods-subcon dl, .goods-con .goods-subcon2 dl { text-align: center; }
+
+	/*產品標題*/
+	.goods-con .goods-subcon dt, .goods-con .goods-subcon2 dt { font-size: 1.071rem; margin-bottom: 3px; }
+
+	/*英文字*/
+	.goods-con .goods-subcon dd, .goods-con .goods-subcon2 dd { font-size: .7143rem; }
+
+	/*素食Tag*/
+	.goods-con .goods-subcon img:nth-child(4), .goods-con .goods-subcon2 img:nth-child(4) { position: relative; top: -90px; background: #ffffff; border-radius: 55px; }
+
+	/* 原價 */
+	.goods-con .undiscount-price { font-size: .75rem !important; margin: 0 !important; position: relative; left: -15px; }
+
+	/*特價*/
+	.goods-con .discount-price { font-size: 1rem !important; position: relative; left: -10px; }
+
+	/*產品敘述*/
+	.goods-con .goods-subcon p { margin: 5px auto; height: auto !important; font-size: .75rem; position: relative; top: -5px; }
+	.goods-con .goods-subcon2 p { margin: 3.7em auto 5px; height: auto !important; font-size: .75rem; position: relative; top: -5px; }
+
+	/*選取數量*/
+	.goods-con form span .icon-01 { display: none; }
+
+	/*「個」*/
+	.goods-con form span { font-size: .75rem !important; }
+
+	/*輸入框寬度*/
+	.goods-con .goods-subcon form input, .goods-con .goods-subcon2 form input { width: calc(100% - 30px); font-size: .75rem; }
+
+	/*訂單明細*/
+	.goods-chickocn { width: 92%; margin: 0 auto; padding: 0 0 30px; }
+	.goods-chickocn.hide { display: none; }
+	.goods-chickocn .goods-title, .goods-from-title { position: relative; top: -5px; margin:30px 0 20px 0; }
+	.goods-chickocn .chickicon { width: 57px; height: 57px; top: 10px; right: 10px; }
+	.goods-chickocn ul.list-con li, .goods-chickocn ul.list-con2 li, .goods-chickocn ul.list-con3 li, .goods-chickocn ul.list-con4 li { width: 20%; padding: 10px 0; margin: 0; text-align: center; font-size: 0.75rem; }
+
+	/*隱藏第一列類別*/
+	.goods-chickocn .list-con li:nth-child(1) { visibility: hidden; }
+	.goods-chickocn ul li.list-count { display: none; }
+
+	/*總計*/
+	.list-chickcon { width: 140px; float: left; margin-left: 37%; margin-right: calc(100% - 140px); }
+	.list-chickcon .list-totalcon, .list-chickcon .list-othercon { width: 100%; position: relative; }
+	.list-chickcon .list-othercon { margin: 120px 0 0 0; }
+
+	/*浮動標籤*/
+	.list-chickcon .list-totalcon .list-remind01 { width: 200%; position: absolute; top: 0; right: 0; left: -77%; font-size: 0.75rem; text-align: center; background-color: #f8f8f8; margin-top: 90px; }
+	.list-remind01-1 { width: 200%; position: absolute; top: 0; right: 0; left: -77%; font-size: 0.75rem; text-align: left; background-color: #f8f8f8; margin-top: 120px; }
+	.list-chickcon .list-totalcon .list-remind01 .list-remind-icon01, .list-remind01-1 .list-remind-icon01 { display: none; }
+	.list-chickcon .list-totalcon .list-remind01:after, .list-chickcon .list-totalcon .list-remind01-1:after { display: none; }
+	.list-remind02 { width: 200%; position: absolute; top: 0; right: 0; left: -77%; font-size: 0.75rem; text-align: left; background-color: #f8f8f8; margin-top: 40px; }
+	.list-remind02:after { display: none; }
+	.list-remind02 .list-remind-icon02-ok { display: none; }
+	.list-remind02 .list-remind-icon02 { width: 20px; height: 20px; left: -30px; }
+
+	/*總計列表*/
+	.list-totalcon .list-totalcount, .list-totalcon .list-totalquatitly, .list-totalcon .list-totalaccount, .list-totalcon .list-totalcost { margin-right: 0; font-size: 0.875rem; clear: both; }
+	.list-totalcon .list-totalquatitly { position: absolute; top: 0; right: 0; }
+	.list-totalcon .list-totalcost { position: absolute; top: 20px; right: 0; }
+	.list-remind01 .list-remind-icon01, .list-remind01-1 .list-remind-icon01 { width: 20px; height: 20px; left: -30px; }
+	.list-othercon .list-packaccount, .list-othercon .list-tranaccount, .list-othercon .list-packcost, .list-othercon .list-transcost { font-size: .875rem; }
+
+	/*實付*/
+	.list-chickcon  .list-realcon { width: 130px; float: right; margin: 10px 0; border-top: 1px solid #000; padding: 10px 0 0 10px; position: relative; }
+	.list-chickcon  .list-realcon .list-realaccount { font-size: 0.875rem; margin-right: 0; position: absolute; left: 0; }
+
+	/*實際金額數字*/
+	.list-chickcon  .list-realcon .list-realcost { position: absolute; top: 10px; right: 0; font-size: 0.875rem; margin-right: 0; }
+	.list-chickcon .list-othercon { position: relative; }
+	.list-othercon .list-packcost { position: absolute; top: 0; right: 0; margin: 0; }
+	.list-othercon .list-tranaccount { margin: 0; text-align: left; }
+	.list-othercon .list-transcost { margin: 0 !important; position: absolute; top: 30px; right: 0; }
+	.list-chickcon .list-ordercon { width: 130px; float: right; margin: 10px 0; border-top: 1px solid #000; padding: 10px 0 0 10px; position: relative; }
+	.list-ordercon .list-orderaccount { font-size: 0.875rem; margin: 0; position: absolute; top: 10px; left: 0; }
+	.list-ordercon .list-ordercost { font-size: 0.875rem; position: absolute; top: 10px; right: 0; margin: 0; }
+	.list-orderaccount:after { display: none; }
+
+	/*折扣碼*/
+	.list-icon01, .list-icon02, .list-icon03 { float: left; margin-top: 80px; margin-left: 20px; position: relative !important; left: 0; bottom: 0; }
+	.list-remind03, .list-remind04 { position: static; float: left; margin-top: 80px; margin-left: 10px; }
+
+	/**/
+	.list-chickcon .list-discount { width: 130px; float: right; margin: 10px 0; border-top: 1px solid #000; padding: 10px 0 0 10px; position: relative; }
+	.list-chickcon .list-discount div:nth-child(1) { font-size: 0.875rem; margin: 0; position: absolute; top: 10; left: 0; }
+	.list-chickcon .list-discount div:nth-child(2) { font-size: 0.875rem; margin: 0; position: absolute; top: 10; right: 0; }
+
+	/*計算金額按鈕*/
+	.goods-title a, .goods-from-title a { width: 80px; height: 80px; background-image: url(../../img/goods-counticon.png); }
+	.goods-title a:active, .goods-from-title a:active { background-image: url(../../img/goods-counticon2.png); }
+
+	/*計算金額說明*/
+	div.goods-counticon-btnremaid { width: 95%; margin: 0 auto; left: 2.5%; }
+	.goods-counting-remind { display: none; }
+	.goods-counticon .goods-counticon-canncel { width: 30px; position: absolute; top: 10px; right: 10px; cursor: pointer }
+	.goods-counticon .goods-counticon-canncel img { display: block; }
+
+	/*Action Btns*/
+	.choose-goods-btncon .choose-goods-btn-back { width: 100%; margin: 0 0 30px 0; float: right; position: relative; top: 107px; }
+	.choose-goods-btncon .choose-goods-btn-pay { width: 100%; margin: 0 0 30px 0; float: right; position: relative; top: -107px; }
+}
+@media screen and (max-width:320px) {
+	.list-chickcon .list-totalcon .list-remind01 { width: 180%; left: -72%; font-size: 0.625rem; text-align: center; }
+	.list-remind01-1 { width: 180%; left: -72%; font-size: 0.625rem; text-align: center; }
+	.list-remind02 { width: 180%; left: -72%; font-size: 0.625rem; text-align: center; }
+	.list-remind02 .list-remind-icon02 { display: none; }
+	.list-fail-remind { position: static; width: calc(100% - 10px); height: 60px; padding: 0; margin: 10px 2.5px 0 2.5px; float: left; }
+	.list-fail-remind p { margin: 0; padding: 10px; }
+}

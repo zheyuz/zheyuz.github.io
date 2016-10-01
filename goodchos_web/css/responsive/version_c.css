@@ -1,0 +1,62 @@
+@media screen and (max-width:768px) {
+
+	/*訂單查詢*/
+	.inquiry-result-con .inquiry-result-info01 { margin: 0 auto; position: relative; top: 30px; margin-bottom: 30px; }
+	.inquiry-result-con .inquiry-result-info01 dl { width: 100%; border-right: 0; border-bottom: 1px solid #555; padding: 1em 0px; }
+	.inquiry-result-con .inquiry-result-info01 dl:nth-child(2) { border-bottom: 0; }
+
+	/**/
+	.inquiry-result-con .inquiry-result-info02 { width: 90%; margin: 40px auto 0 auto; }
+	.inquiry-result-con .inquiry-result-info02 ul.inquiry-info02-title { display: none; }
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li { width: 50%;
+height: auto;
+margin: 0;
+padding: 10px 10px;
+border: 0;
+font-size: 0.875rem;}
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li span { width: 100%; position: relative; color: #979797; text-align: center; }
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li:nth-child(odd) { text-align: left; }
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li:nth-child(even) { text-align: right; }
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li:nth-child(2n) { color: #979797; }
+
+	/*付款*/
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li:nth-child(5) { width: 70px; height: 20px; padding: 0; margin-left: 20px; margin-top: 10px; font-size: .75rem; font-weight: normal; background: #555555; color: #ffffff; text-align: center; border-radius: 18px; }
+
+	/*出貨*/
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li:nth-child(6) { width: 70px; height: 20px; padding: 0; margin-left: 20px; margin-top: 10px; font-size: .75rem; font-weight: normal; background: #555555; color: #ffffff; text-align: center; border-radius: 18px; }
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li:nth-child(7) { width: 100%; }
+
+	/*Action Btns*/
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li:nth-child(7) dl { margin: 20px 0 10px 0; height: 24px; }
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li:nth-child(7) dl dt { margin: 0 5% 0 0; text-align: center; width: calc((100% - 10%) /3); padding: 0.2em 0; }
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li:nth-child(7) dl dt:last-child { margin-right: 0; }
+
+	/*說明文字*/
+	.inquiry-page-text { width: 90%; margin: 70px auto; text-align: center; }
+	.inquiry-page-text:after { content: ""; display: block; background-image: url(../../img/inquiry-icon02.jpg); width: 36px; height: 36px; background-size: cover; position: absolute; top: -40px; left: calc((100% - 36px)/2); border-radius: 50%; }
+	.inquiry-page-text p { margin: 20px auto; position: relative; top: 10px; }
+	.inquiry-page-text .card-logo { margin: 0; height: auto; }
+	.inquiry-page-text a { text-decoration: none; margin: 0; color: #92923c; width: 100%; display: block; text-align: center; }
+	.inquiry-page-text div { margin: 0; }
+
+	/*Action Btns*/
+	.card-page-btn-order, .odrder-wrong-page-btn-order, .atm-failpage-btncon-back { width: 100%; margin: 0 0 30px 0; float: right; position: relative; top: 107px; }
+	.card-page-btn-goindex, .odrder-wrong-btn-goindex, .atm-failpage-btncon-goatm { width: 100%; margin: 0 0 30px 0; float: right; position: relative; top: -107px; }
+
+	/*Popup*/
+	.inquiry-apply, .inquiry-apply2, .inquiry-apply3, .inquiry-apply4 { width: 95%; margin: 0 auto; left: 2.5%; }
+	.inquiry-apply .inquiry-apply-canncel, .inquiry-apply2 .inquiry-apply-canncel, .inquiry-apply3 .inquiry-apply-canncel, .inquiry-apply4 .inquiry-apply-canncel { width: 30px; position: absolute; top: 10px; right: 10px; cursor: pointer }
+
+	/*訂單明細Popup*/
+	.inquiry-chickocn { width: 95%; margin: 0 auto; left: 2.5%; padding: 0 0 160px 0; }
+	.inquiry-chickocn .chickicon { width: 57px; height: 57px; top: 10px; left: 10px; }
+	.inquiry-chickocn .goods-from-title { }
+	.inquiry-chickocn .inquiry-chickocn-canncel { width: 30px; position: absolute; top: 10px; right: 10px; cursor: pointer }
+	.inquiry-chickocn .list-con li { width: 20%; padding: 10px 0; margin: 0; text-align: center; font-size: 0.75rem; }
+	.inquiry-chickocn .list-con li:nth-child(1), .list-con2 li:nth-child(1), .list-con3 li:nth-child(1), .list-con4 li:nth-child(1) { width: 20%; font-size: .75rem; }
+	.inquiry-chickocn .list-con .list-cost, .list-con2 .list-cost, .list-con3 .list-cost, .list-con4 .list-cost { width: 20%; font-size: .75rem; }
+	.inquiry-chickocn .list-con .list-quantity, .list-con2 .list-quantity, .list-con3 .list-quantity, .list-con4 .list-quantity { width: 20%; margin: 0; font-size: .75rem; }
+	.inquiry-chickocn .list-con .list-cost, .list-con .list-count, .list-con2 .list-cost, .list-con2 .list-count, .list-con3 .list-cost, .list-con3 .list-count, .list-con4 .list-cost, .list-con4 .list-count { width: 20%; margin: 0 auto; text-align: center; padding: 10px 0; font-size: .75rem; }
+	.inquiry-chickocn .list-con .list-category, .list-con .list-name, .list-con2 .list-category, .list-con2 .list-name, .list-con3 .list-category, .list-con3 .list-name, .list-con4 .list-category, .list-con4 .list-name { margin: 0; font-size: .75rem; }
+	.inquiry-chickocn .list-input, .card-page-input, .atm-page-input { bottom: 20px; }
+}

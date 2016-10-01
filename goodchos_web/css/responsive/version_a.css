@@ -1,0 +1,60 @@
+@media screen and (max-width:768px) {
+
+	/*選擇宅配方式*/
+
+	/*container*/
+	.container .choose-con { padding: 0; margin: 0; background: transparent; padding-bottom: 60px; position: relative; }
+
+	/*襯線*/
+	.container .choose-con:before { content: ''; width: 250px; height: 1px; background: #595656; display: block; position: relative; top: 36px; left: calc((100% - 250px)/2); margin: 20px 0; }
+
+	/*文字*/
+	.container .choose-con:after { content: attr(data-content);/*讀取.goods-title的data-content*/ font-size: 1em; font-weight: bold; color: #595656; background: #f8f8f8; display: inline-block; position: absolute; width: 150px; text-align: center; top: 27px; left: calc((100% - 150px)/2); }
+	.container .choose-con a.choose-pic01 { width: 200px; height: 250px; display: block; overflow: hidden; margin: 0px auto; float: none; position: relative; top: 60px; background: url('../../img/choose-pic01.png') no-repeat; background-size: cover; background-position: 8px 0px; }
+	.container .choose-con a.choose-pic01:active { background: url('../../img/choose-pic01-1.png') no-repeat; background-size: cover; background-position: 8px 0px; }
+	.container .choose-con a.choose-pic02 { width: 200px; height: 250px; display: block; overflow: hidden; margin: 40px auto; float: none; position: relative; top: 60px; background: url('../../img/choose-pic02.png') no-repeat; background-size: cover; background-position: 8px 0px; }
+	.container .choose-con a.choose-pic02:active { background: url('../../img/choose-pic02-1.png') no-repeat; background-size: cover; background-position: 8px 0px; }
+	.container .choose-con a.choose-pic01 img, .container .choose-con a.choose-pic02 img { display: none; }
+
+	/**/
+	.choose-icon { padding-bottom: 60px; }
+	.choose-icon:after { content: ''; display: block; width: 90%; height: 1px; background: #e5e5e5; margin: 20px 5%; position: relative; top: 50px; }
+	.choose-icon ul { padding: 0; width: 90%; margin: 30px auto; }
+	.choose-icon ul li { width: calc(100% / 3); height: 122px; margin-right: 0; }
+	.choose-icon ul li img { width: auto; height: 30px !important; }
+	.choose-icon li p { font-size: .75rem; width: 100%; text-align: center; margin: 10px 0; line-height: 1.5; }
+	.choose-icon li span { font-size: 0.6875rem; width: 90%; margin: 0 auto; text-align: center; }
+	.choose-icon li span img { display: none; }
+
+	/**/
+	.card-logo { width: 100%; margin: 0 auto 4em; text-align: center; }
+	.card-logo img { margin: 0 auto; }
+	.card-logo span { float: none; width: 100%; text-align: center; display: block; margin: 10px 0 10px 0; }
+	.bigbanner { width: 100%; height: 0; margin-bottom: -20px; }
+	.bigbanner li.clone { width: 100%; }
+
+	/*選擇付款方式*/
+	.container .pay-con[data-content] { padding: 0; margin: 0; background: transparent; padding-bottom: 60px; position: relative; height: auto; }
+
+	/*襯線*/
+	.container .pay-con[data-content]:before { content: ''; width: 250px; height: 1px; background: #595656; display: block; position: relative; top: 36px; left: calc((100% - 250px)/2); margin: 20px 0; }
+
+	/*文字*/
+	.container .pay-con[data-content]:after { content: attr(data-content);/*讀取.goods-title的data-content*/ font-size: 1em; font-weight: bold; color: #595656; background: #f8f8f8; display: inline-block; position: absolute; width: 150px; text-align: center; top: 27px; left: calc((100% - 150px)/2); }
+	.pay-con .pay-pic01 { width: 200px; height: 290px; display: block; overflow: hidden; margin: 0px auto; float: none; position: relative; top: 60px; background: url('../../img/pay-btn-online01.png') no-repeat; background-size: 100% auto; background-position: 0px 0px; }
+	.pay-con .pay-pic01:active { background: url('../../img/pay-btn-online02.png') no-repeat; background-size: 100% auto; background-position: 0px 0px; }
+	.pay-con .pay-pic01 img { display: none; }
+	.pay-con .pay-pic02 { width: 200px; height: 290px; display: block; overflow: hidden; margin: 40px auto; float: none; position: relative; top: 60px; background: url('../../img/pay-btn-atm01.png') no-repeat; background-size: 100% auto; background-position: 0px 0px; }
+	.pay-con .pay-pic02:active { background: url('../../img/pay-btn-atm02.png') no-repeat; background-size: 100% auto; background-position: 0px 0px; }
+	.pay-con .pay-pic02 img { display: none; }
+
+	/*Action Btn*/
+	.pay-con .pay-btn-back { width: 80%;
+height: 20px;
+margin:100px auto 80px auto;
+float: none;}
+	.pay-con .pay-btn-back a { text-decoration: none; position: relative; top: 20px; }
+	.pay-con .pay-btn-back a:hover { opacity: 1; }
+	.pay-con .pay-btn-back a img { display: none; }
+	.pay-con .pay-btn-back a:after { content: '上一步：資料填寫'; text-decoration: none; text-align: center; color: #fff; display: block; font-size: 1.3em; padding: 1.5em 0; width: 100%; height: 20px; background-color: #92923c; }
+}

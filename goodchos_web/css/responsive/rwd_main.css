@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* 版A */
+@import url('version_a.css');
+
+/* 版B */
+@import url('version_b.css');
+
+/* 版C */
+@import url('version_c.css');
+
+/* 版D */
+@import url('version_d.css');
+
+/*商品選購*/
+@import url('choose.css');
+
+/*資料填寫*/
+@import url('clientinfo.css');
+@media screen and (max-width:768px) {
+
+	/*----- 通用 -----*/
+	body { min-width: 100%; }
+
+	/*Logo*/
+	#logo { width: 100%; height: 55px; margin: 0px; background: url(../../img/logo.png) #f8f8f8 no-repeat; background-size: 46px 35px !important; background-position: 50%; position: fixed; top: 0; z-index: 999; }
+	#logo a {
+		height: 55px;
+	}
+	/*Logo後陰影*/
+	#logo:after { content: ''; display: block; width: 100%; height: 14px; -webkit-transform: rotate(180deg); transform: rotate(180deg); background-image: linear-gradient(to bottom, transparent, #252525); border-top: 1px solid #e5e5e5; position: absolute; bottom: -15px; opacity: .1; z-index: 1; }
+
+	/*搜尋,臉書按鈕*/
+	#icon { 
+left: 0;
+margin-left: 0;
+z-index: 999;
+position: fixed;
+top: 0px;
+width: 100%;
+height: 55px;
+	}
+	#icon a.icon01{
+position: absolute;
+left: 20px;
+top:calc((100% - 27px)/2);
+float: left;
+	}
+	#icon a.icon02{
+		position: absolute;
+		top:calc((100% - 27px)/2);
+		right:20px;
+	}
+	#icon a.icon03{
+		display: none;
+	}
+	#icon #search{
+margin-left: 0;
+left: 0;
+top: calc((100% - 50px)/2);
+width: 95%;
+margin: 0 2.5%;
+padding: 10px 0;
+background: #f8f8f8;
+	}
+	#icon #search a.search-btn{
+		position: absolute;
+top:calc((100% - 25px)/2);
+right:2px;
+	}
+	#icon #search #s{
+		width:calc(100% - 40px);
+		height: 20px;
+padding: 5px;
+border-radius: 50px;
+text-indent: 10px;
+	}
+
+	/*選單*/
+	div#pcmenu-sticky-wrapper.sticky-wrapper { display: none; }
+
+	/*步驟*/
+	div.step-menu { display: none; }
+
+	/*內容*/
+	.container { width: 100%; margin-top: 55px; }
+
+	/*購買步驟敘述*/
+	.container .choose-remain01, .choose-remain02, .choose-remain03 { width: 100%; padding: 20px 0px; margin: 0; border: 0; background: #c4c433; color: #ffffff; position: relative; }
+	.choose-remain01:after, .choose-remain02:after, .choose-remain03:after { display: none; }
+	.choose-remain01 ul, .choose-remain02 ul, .choose-remain03 ul { list-style: none; padding: 0 2px; margin: 0 14px; }
+	.choose-remain01 ul li, .choose-remain02 ul li, .choose-remain03 ul li { text-indent: 0; line-height: 1.6em; word-break: break-word; font-size: .8rem !important; margin-bottom: 5px; }
+
+	/*Footer*/
+	#footer { min-width: 320px; margin-top:50px; }
+	#footer .footer_gif { left: 0; margin-left: -50px; }
+	#footer a { display: none; }
+	#footer a.footer_logo { display: block; left: 0; margin-left: 50px; }
+}
+@media screen and (max-width:320px) {
+	.list-chickcon .list-totalcon .list-remind01 { width: 180%; left: -72%; font-size: 0.625rem; text-align: center; }
+	.list-remind01-1 { width: 180%; left: -72%; font-size: 0.625rem; text-align: center; }
+	.list-remind02 { width: 180%; left: -72%; font-size: 0.625rem; text-align: center; }
+	.list-remind02 .list-remind-icon02 { display: none; }
+	.list-fail-remind { position: static; width: calc(100% - 10px); height: 60px; padding: 0; margin: 10px 2.5px 0 2.5px; float: left; }
+	.list-fail-remind p { margin: 0; padding: 10px; }
+}

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>訂購查詢</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+
+    <!-- jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Animate.css -->
+    <link rel="stylesheet" type="text/css"  href="css/animate.css">
+    <!-- wow jquery -->
+ 	<script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+
+    <!-- Retina@2x jq -->   
+    <script type="text/javascript" src="js/retina.min.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <!-- reset -->
+    <link rel="stylesheet" type="text/css"  href="css/normalize.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive/rwd_main.css">
+
+    <!-- pc menu -->
+    <script type="text/javascript" src="js/pcmenu.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="css/ddmenu.css"> -->
+	<script type="text/javascript" src="js/jquery.sticky.js"></script>
+
+	<!-- slider -->
+	<link rel="stylesheet" href="css/slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<script src="js/modernizr.js"></script>
+	<script defer src="js/jquery.flexslider.js"></script>
+
+
+
+
+
+</head>
+<body>
+ 
+
+<div id="logo"><a href="index.html"></a></div>
+
+<div id="icon">
+	<form id='search' class="search-icon-con" action='' >
+		<input type="hidden" name="sitesearch" value="" />
+		<input id="s" name="q" type="text" value="想要查什麼?" />
+		<a class="search-btn" href="#"  align="top"   ></a> 
+	</form>
+	<a class="icon01" ></a>
+	<a class="icon02" href="https://www.facebook.com/goodchos/?fref=ts"></a>
+	<a class="icon03" href=""></a>
+</div>
+
+
+
+<!--pcmenu====================================-->
+<div id="pcmenu">
+	<div class="pcmenu_con">
+		<div class="info "><a>門市資訊</a></div>
+	    <div class="event"><a href="event.html" >活動公告</a></div>
+		<div class="order"><a>貝果訂購</a></div>
+		<div class="local"><a href="local.html">美好聚集</a></div>
+		<div class="follow"><a href="follow.html">合作夥伴</a></div>
+		<div class="simple"><a href="simple.html" >簡單市集</a></div>
+	</div>
+
+	<div class="info_menu">
+		<div class="info_con">		
+			<div class="info01"><a href="store_xinyi.html " >信義店</a></div>
+		    <div class="info02"><a href="store_tianmu.html" >‧　　天母店</a></div>
+			<div class="info03"><a href="store_yuanshan.html" >‧　　圓山店</a></div>
+		</div>
+	</div>
+
+	<div class="order_menu">
+		<div class="order_con">
+			<div class="order03"><a href="" >‧　　常見 Q & A</a></div>
+		    <div class="order02"><a href="" >‧　　訂單查詢</a></div>
+			<div class="order03"><a href="" >‧　　開始挑選</a></div>
+		    <div class="order02"><a href="" >‧　　訂購說明</a></div>
+			<div class="order01"><a href="" >美味堅持</a></div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- container ==================================== -->
+<div class="container">
+
+	<div class="inquiry-result-con">
+
+		<div class="inquiry-result-info01">
+			<dl>
+				<dt>訂購者姓名</dt>
+				<dd>王阿明</dd>
+			</dl>
+			<dl>
+				<dt>電子信箱</dt>
+				<dd>winniefns@gamil.com</dd>
+			</dl>
+		</div>
+
+		<div class="inquiry-result-info02">
+			<!-- 項目 -->
+			<ul class="inquiry-info02-title">
+				<li>訂單編號</li>
+				<li>下單日期</li>
+				<li>訂單金額</li>
+				<li>付款方式</li>
+				<li>付款狀態</li>
+				<li>出貨狀態</li>
+				<li>訂單選項</li>
+			</ul>
+			
+			<!-- 出貨明細 -->
+			<ul class="inquiry-info02-order">
+				<li>#12000</li>
+				<li>2016 / 06 / 24</li>
+				<li>$15000</li>
+				<li>線上刷卡</li>
+				<li>未付款 <span>-.-</span></li>
+				<li>未出貨<span>-.-</span></li>
+				<li>
+					<dl>
+						<dt class="inquiry-info02-btn01">訂單明細</dt>
+						<dt class="inquiry-info02-btn02">寄送資料</dt>
+						<dt class="inquiry-info02-btn03">申請退款</dt>
+					</dl>
+				</li>
+			</ul>
+
+			<!-- 出貨明細 -->
+			<ul class="inquiry-info02-order">
+				<li>#12000</li>
+				<li>2016 / 06 / 24</li>
+				<li>$15000</li>
+				<li>ATM匯款</li>
+				<li>已付款 <span>2016 / 06 / 24</span></li>
+				<li>已出貨<span>2016 / 06 / 24</span></li>
+				<li>
+					<dl>
+						<dt class="inquiry-info02-btn01">訂單明細</dt>
+						<dt class="inquiry-info02-btn02">寄送資料</dt>
+						<dt class="inquiry-info02-btn03-fail">申請退款</dt>
+					</dl>
+				</li>
+			</ul>
+		</div>
+
+
+		<div class="inquiry-page-text">
+			<p>
+				訂單查詢僅會出現您3個月內的訂單紀錄，<br>
+				若您想要查詢更久之前的訂單或是對於查詢內容有任何疑問，<br>
+				歡迎來電或來信洽詢，我們樂於為您服務！
+			</p>
+
+
+			<div class="card-logo">
+				<span><a href="">服務條款及隱私權政策</a></span>
+				<span><a href="">購物流程</a></span>
+				<span><a href="">常見Q&A</a></span>
+			</div>
+
+			<a href="mailto:Bagel@neuin.com">
+				<img src="img/atm-page-icon02.png" width="18">
+				Bagel@neuin.com</a> 
+			<div> 
+				<img src="img/atm-page-icon03.png" width="18">
+				02-2585-6661 
+			</div>
+		</div>
+
+		<div class="card-page-btncon">
+			<div class="card-page-btn-order"><a href="">再次查詢</a></div>
+			<div class="card-page-btn-goindex"><a href="">回到首頁</a></div>
+		</div>
+
+	</div>
+
+
+<!-- 訂單明細 -->
+<div class="inquiry-chickocn">
+	<div class="inquiry-chickocn-canncel">
+		<img src="img/inquiry-icon03.png" width="100%">
+	</div>
+	<div class="goods-from-title">
+		<img src="img/goods-chicktitle.png" width='144'>
+	</div>
+	<img class="chickicon" src="img/chickicon01png" width="90">
+
+	<ul class="list-con">
+		<li class="list-category">類別</li>
+		<li class="list-name">品名</li>
+		<li class="list-cost">售價</li>
+		<li class="list-quantity">數量</li>
+		<li class="list-count">單品小計</li>
+	</ul>
+
+	<!-- 商品list -->
+	<ul class="list-con2">
+		<li class="list-category">商品</li>
+		<li class="list-name">洛神花貝果</li>
+		<li class="list-cost list-textcolor">$40</li>
+		<li class="list-quantity">40</li>
+		<li class="list-count">$400</li>
+	</ul>
+
+	<ul class="list-con2">
+		<li class="list-category">商品</li>
+		<li class="list-name">洛神花貝果</li>
+		<li class="list-cost">$40</li>
+		<li class="list-quantity">40</li>
+		<li class="list-count">$400</li>
+	</ul>
+
+	<!-- 包材list -->
+	<ul class="list-con2">
+		<li class="list-category">包材</li>
+		<li class="list-name">洛神花貝果</li>
+		<li class="list-cost ">$40</li>
+		<li class="list-quantity">40</li>
+		<li class="list-count">$400</li>
+	</ul>
+
+	<ul class="list-con2">
+		<li class="list-category">包材</li>
+		<li class="list-name">洛神花貝果</li>
+		<li class="list-cost">$40</li>
+		<li class="list-quantity">40</li>
+		<li class="list-count">$400</li>
+	</ul>
+
+	<!-- 贈品list -->
+	<ul class="list-con3">
+		<li class="list-category">贈品</li>
+		<li class="list-name">洛神花貝果</li>
+		<li class="list-cost">$40</li>
+		<li class="list-quantity">40</li>
+		<li class="list-count list-textcolor">$400</li>
+	</ul>
+
+	<div class="list-chickcon">
+		<div class="list-totalcon">
+			<div class="list-totalcount">商品數量</div>
+			<div class="list-totalquatitly">40<span>個</span></div>
+			<div class="list-totalaccount">商品金額</div>
+			<div class="list-totalcost">1750<span>元</span></div>	
+			<div class="list-remind01">
+				商品購買數量滿20個，可加贈1顆原味貝果 *可累計
+				<div class="list-remind-icon01"></div>
+			</div>
+
+		</div>
+
+		<div class="list-realcon">
+			<div class="list-realaccount">實際金額</div>
+			<div class="list-realcost">1750<span>元</span></div>
+		</div>
+
+		<div class="list-othercon">
+			<div class="list-packaccount">包材金額</div>
+			<div class="list-packcost">150<span>元</span></div>
+			<div class="list-tranaccount">宅配運費</div>
+			<div class="list-transcost">100<span>元</span></div>
+		</div>
+
+		<div class="list-ordercon">
+			<div class="list-orderaccount">訂單金額</div>
+			<div class="list-ordercost">2000<span>元</span></div>
+			
+			<div class="list-remind02">
+				購買商品「實際金額」滿 2000 元，可享免運費服務
+				<div class="list-remind-icon02"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="card-page-input">
+		<form>
+			<input type="text" name="" value="手機號碼"/>
+			<input type="text" name="" value="折扣碼"/>
+		</form>
+	</div>
+</div><!-- goods-chickocn -->
+
+
+
+
+<!-- 寄送資料 -->
+<div class="inquiry-sentinfo">
+	<div class="inquiry-sentinfo-canncel">
+		<img src="img/inquiry-icon03.png" width="100%">
+	</div>
+
+	為了保障您的個人隱私，<br>
+	本筆訂單的寄送資料已經寄發至您的電子信箱，<br>
+	若您遲未收到信件或是對於查詢內容有任何問題，<br>
+	歡迎來電或來信洽詢，我們樂於為您服務！
+</div>
+
+
+
+<!-- 申請退款 -->
+<div class="inquiry-apply">
+	<div class="inquiry-apply-canncel">
+		<img src="img/inquiry-icon03.png" width="100%">
+	</div>
+	
+	<p>
+		因本網站販售商品為「食品 / 烘焙品」，<br>
+		為確保食品安全，依據法規及網站服務條款，<br>
+		我們僅提供顧客於下列狀況提出退款申請：
+	</p>
+
+	<p>
+		本網站出貨商品<br>
+		有新品瑕疵、毀損或出貨錯誤、遺漏，<br>
+		於顧客收到貨後3日內，<br>
+		備妥購買發票並保持欲退款商品包裝完整，
+	</p>
+
+<span>
+｜特別提醒｜<br>
+ 1.訂單出貨時間為3至10日 （或訂單成立當時於本網站公開揭露之出貨期間），期間內還請您耐心等候！<br>
+ 2.提出申請並不表示本網站接受並核可您的申請，本網站會於收到申請後3個工作天內與您聯絡，接洽後續訂單狀況確認與退款事宜！<br>
+ 3.若您對於訂單有任何疑問，可來電或來信洽詢，我們樂於為您服務！
+</span>
+
+	<div class="inquiry-apply-btn"><a >我要申請</a></div>
+
+</div>
+
+
+
+<!-- 申請退款-提交申請 -->
+<div class="inquiry-apply2">
+	<div class="inquiry-apply-canncel">
+		<img src="img/inquiry-icon03.png" width="100%">
+	</div>
+
+
+	<form>
+		<p>想要申請退款的原因是？</p>
+		<input type="radio" name="" value="" checked="true">　新品瑕疵 / 毀損<br>
+		<input type="radio" name="" value="">　到貨錯誤 / 遺漏<br>
+
+		<p>是否有其他備註說明？</p>
+		<textarea name="Content" ></textarea><br>
+	</form>
+
+	<div class="inquiry-apply-btn2"><a >提交申請</a></div>
+
+</div>
+
+
+<!-- 申請退款-成功 -->
+<div class="inquiry-apply3">
+	<div class="inquiry-apply-canncel">
+		<img src="img/inquiry-icon03.png" width="100%">
+	</div>
+
+	<p>
+		我們已經收到您的退款申請，<br>
+		再請您備妥購買發票並保持欲退款商品完整包裝，<br>
+		我們將於3個工作天內主動與您聯絡，<br>
+		接洽後續訂單狀況確認與退款事宜！<br>
+		造成您的困擾與等待，敬請見諒。
+	</p>
+
+</div>
+
+<!-- 申請退款-失敗 -->
+<div class="inquiry-apply4">
+	<div class="inquiry-apply-canncel">
+		<img src="img/inquiry-icon03.png" width="100%">
+	</div>
+
+	<p>
+		因本訂單已經完成出貨超過3日，<br>
+		依據「消費者保護法」以及本站「服務條款」，<br>
+		很抱歉無法提供退款服務，<br>
+		若您對於本訂單有任何疑問，<br>
+		歡迎您來電或來信洽詢，我們樂於為您服務！
+
+	</p>
+
+</div>
+
+
+</div><!-- container end -->
+
+
+<div id="footer">
+	<div class="footer_gif"></div>
+	<a href="">關於我們</a>
+	<a href="">媒體報導</a>
+	<a href="">聯絡我們</a>
+	<a href="">加入我們</a>
+	<a class="footer_logo" href="index.html">
+		<img src="img/footerlogo.png" href="">
+	</a>
+</div>
+
+</body>
+</html>

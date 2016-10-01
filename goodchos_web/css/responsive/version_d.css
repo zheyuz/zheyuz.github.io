@@ -1,0 +1,36 @@
+@media screen and (max-width:768px) {
+	.bigbanner-followpage {width: 100%;
+height: 180px;
+margin-top: 55px;
+position: relative;
+overflow: hidden;
+}
+	.bigbanner-followpage img {width: 100%;
+height: auto;
+position: absolute;
+top:0;
+bottom:0;
+right:0;
+left:0;
+margin:auto;}
+	.container .fb-like { position: fixed; bottom: 20px; right: 20px; background: url("../../img/btn_share_facebook.png") #ffffff no-repeat; background-size: 70% auto; background-position: 50%; border-radius: 20px; padding: 5px; -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5); box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5); }
+	.container .local_con { width: 90%; padding: 0; position: relative; top: -30px; }
+	.container .local_con img { width: 100%; height: auto; margin-bottom: 0; }
+	.container .local_con h2.local_con_title { font-size: 1.25rem; padding-bottom: 25px; margin: 0; }
+	.container .local_con h3.local_con_outline { font-size: 0.875rem; padding: 0 0 1em 0; }
+	.container .news_con { width: 100%; float: left; margin-top: 30px; margin-bottom: 20px; position: relative; border-top: 1px solid #e5e5e5; }
+	.container .news_con .news_banner_con { width: 100%; height: auto; margin-bottom: -6px; border-bottom: 1px solid #f8f8f8; background: #f8f8f8; }
+	.container .news_con .news_banner_con a:after { content: ''; display: block; clear: both; width: calc(100% + 10px); height: 1px; background: #e5e5e5; position: relative; top: -5px; }
+	.container .news_con .news_banner_con a.news_banner_more { display: none; }
+	.container .news_con .news_banner_con div.news_banner_pic { width: 41%; float: left; }
+	.container .news_con .news_banner_con div.news_banner_pic img { width: 100%; }
+	.container .news_con .news_banner_con .news_banner_title { width: 56%; height: auto; margin-left: 4%; margin-top: 5px; margin-bottom: 5px; float: left; font-size: .75rem; }
+	.container .news_con .news_banner_con .news_banner_text { width: 56%; height: 36px; overflow: hidden; margin-left: 4%; float: left; line-height: 1.6; font-size: .75rem; }
+
+	.news_con_prev{
+		display: none;
+	}
+	.news_con_next{
+		display: none;
+	}
+}

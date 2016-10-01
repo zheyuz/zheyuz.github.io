@@ -1,0 +1,37 @@
+@media screen and (max-width:768px) {
+	.container .atm-page-iocn01 { width: 90%; margin: 0 auto 30px auto; position: relative; top: 30px; }
+	.container .atm-page-iocn01 img { width: 100%; }
+	.container .inquiry-con { text-align: center; position: relative; top: 30px; margin-bottom: 30px; }
+	.container .inquiry-con img[src="img/inquiry-icon01.jpg"] { width: 80%; }
+
+	/*訂單資料 ATM*/
+	.container .pay-page-from { margin: 50px auto 30px auto; }
+	.container .pay-page-from dl { width: 100%; border-right: 0; border-bottom: 1px solid #c3c433;  padding: 1em 20px;}
+	.container .pay-page-from dl dt { font-size: 0.875rem; }
+	.container .pay-page-from dl dd { font-size: 0.875rem; font-weight: normal; }
+	.container .pay-page-text { margin: 0 auto; }
+	.container .pay-page-text.top_expand { margin: 50px auto 0 auto; }
+
+	/*訂單資料 信用卡*/
+	.container .card-page-from { margin: 50px auto 30px auto; }
+	.container .card-page-from dl { width: 100%; border-right: 0; border-bottom: 1px solid #c3c433;  padding: 1em 20px;}
+	.container .card-page-from dl dt { font-size: 0.875rem; }
+	.container .card-page-from dl dd { font-size: 0.875rem; font-weight: normal; }
+
+	/*Action Btns*/
+	.pay-page-btncon .pay-page-btn-print, .pay-page-btncon .pay-page-btn-order { width: 100%; margin-bottom: 20px; }
+	.pay-page-btncon .pay-page-btn-goindex { width: 100%; }
+
+	/*查詢訂單*/
+	.container .inquiry-con .inquiry-page-input { width: 100%; height: auto; margin-top: 40px; float: none; }
+	.container .inquiry-con .inquiry-page-input input { width: calc(100% - 44px); padding: 0.8em 20px; margin-bottom: 10px; }
+	.container .inquiry-con .inquiry-page-input .inquiry-page-btn { width: 100%; margin: 20px 0; position: static; }
+	.container .inquiry-contact { width: 80%; height: 28px; margin: 40px auto; }
+	.container .inquiry-contact a { width: 100%; text-align: center; border-right: 0; }
+	.container .inquiry-contact div { width: 100%; text-align: center; }
+
+	/*登入錯誤*/
+	.container .inquiry-con .inquiry-page-input p { margin: 60px auto 0 auto; padding: 0; font-size: 0.875rem; }
+	.container .inquiry-con .inquiry-page-input p:after { content: ""; display: block; background-image: url(../../img/inquiry-icon02.jpg); background-repeat: none; width: 36px; height: 36px; background-size: 100% auto; position: absolute; top: -40px; left: calc((100% - 36px)/2); border-radius: 50%; }
+	.container .inquiry-con .inquiry-page-input .inquiry-page-fail-btn { position: static; margin-left: 0; width: 100%; }
+}
