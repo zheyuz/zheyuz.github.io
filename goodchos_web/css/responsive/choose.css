@@ -75,7 +75,7 @@
 	.list-remind02 { width: 200%; position: absolute; top: 0; right: 0; left: -77%; font-size: 0.75rem; text-align: left; background-color: #f8f8f8; margin-top: 40px; }
 	.list-remind02:after { display: none; }
 	.list-remind02 .list-remind-icon02-ok { display: none; }
-	.list-remind02 .list-remind-icon02 { width: 20px; height: 20px; left: -30px; }
+	.list-remind02 .list-remind-icon02 { display: none;}
 
 	/*總計列表*/
 	.list-totalcon .list-totalcount, .list-totalcon .list-totalquatitly, .list-totalcon .list-totalaccount, .list-totalcon .list-totalcost { margin-right: 0; font-size: 0.875rem; clear: both; }
