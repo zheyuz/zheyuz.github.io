@@ -56,7 +56,7 @@
 	.goods-chickocn.hide { display: none; }
 	.goods-chickocn .goods-title, .goods-from-title { position: relative; top: -5px; margin:30px 0 20px 0; }
 	.goods-chickocn .chickicon { width: 57px; height: 57px; top: 10px; right: 10px; }
-	.goods-chickocn ul.list-con li, .goods-chickocn ul.list-con2 li, .goods-chickocn ul.list-con3 li, .goods-chickocn ul.list-con4 li { width: 20%; padding: 10px 0; margin: 0; text-align: center; font-size: 0.75rem; }
+	.goods-chickocn ul.list-con li, .goods-chickocn ul.list-con2 li, .goods-chickocn ul.list-con3 li, .goods-chickocn ul.list-con4 li { width: 20%; max-height:40px; padding: 10px 0; margin: 0; text-align: center; font-size: 0.75rem; }
 
 	/*隱藏第一列類別*/
 	.goods-chickocn .list-con li:nth-child(1) { visibility: hidden; }

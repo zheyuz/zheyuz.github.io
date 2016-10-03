@@ -19,18 +19,18 @@
 	/**/
 	.choose-icon { padding-bottom: 60px; }
 	.choose-icon:after { content: ''; display: block; width: 90%; height: 1px; background: #e5e5e5; margin: 20px 5%; position: relative; top: 50px; }
-	.choose-icon ul { padding: 0; width: 90%; margin: 30px auto; }
+	.choose-icon ul { padding: 0; width: 95%; margin: 30px auto; }
 	.choose-icon ul li { width: calc(100% / 3); height: 122px; margin-right: 0; }
 	.choose-icon ul li img { width: auto; height: 30px !important; }
 	.choose-icon li p { font-size: .75rem; width: 100%; text-align: center; margin: 10px 0; line-height: 1.5; }
-	.choose-icon li span { font-size: 0.6875rem; width: 90%; margin: 0 auto; text-align: center; }
+	.choose-icon li span { font-size: 0.6875rem; width: 90%; margin: 0 auto; text-align: left; }
 	.choose-icon li span img { display: none; }
 
 	/**/
 	.card-logo { width: 100%; margin: 0 auto 4em; text-align: center; }
 	.card-logo img { margin: 0 auto; }
 	.card-logo span { float: none; width: 100%; text-align: center; display: block; margin: 10px 0 10px 0; }
-	.bigbanner { width: 100%; height: 0; margin-bottom: -20px; }
+	.bigbanner { width: 100%; height: auto; }
 	.bigbanner li.clone { width: 100%; }
 
 	/*選擇付款方式*/
