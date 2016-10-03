@@ -8,40 +8,29 @@
 	/**/
 	.inquiry-result-con .inquiry-result-info02 { width: 90%; margin: 40px auto 0 auto; }
 	.inquiry-result-con .inquiry-result-info02 ul.inquiry-info02-title { display: none; }
-	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li { width: 50%;
-height: auto;
-margin: 0;
-padding: 10px 10px;
-border: 0;
-font-size: 0.875rem;}
-	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li span { width: 100%; position: relative; color: #979797; text-align: center; font-size:.8em;}
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li { width: 50%; height: auto; margin: 0; padding: 10px 10px; border: 0; font-size: 0.875rem; }
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li span { width: 100%; position: relative; color: #979797; text-align: center; font-size: .8em; }
 	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li:nth-child(odd) { text-align: left; }
 	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li:nth-child(even) { text-align: right; }
 	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li:nth-child(2n) { color: #979797; }
 
 	/*付款*/
 	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li:nth-child(5) { width: 70px; height: 20px; padding: 0; margin-left: 20px; margin-top: 10px; font-size: .75rem; font-weight: normal; background: #555555; color: #ffffff; text-align: center; border-radius: 18px; }
-	/*已付款*/
-	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order.payment_done li:nth-child(5){
-		background:  #c49739;
-	}
-	/*已付款+已出貨*/
-	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order.order_done li:nth-child(5){
-		background:  #c49739;
-	}
 
+	/*已付款*/
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order.payment_done li:nth-child(5) { background: #c49739; }
+
+	/*已付款+已出貨*/
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order.order_done li:nth-child(5) { background: #c49739; }
 
 	/*出貨*/
 	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li:nth-child(6) { width: 70px; height: 20px; padding: 0; margin-left: 20px; margin-top: 10px; font-size: .75rem; font-weight: normal; background: #555555; color: #ffffff; text-align: center; border-radius: 18px; }
-	/*已出貨*/
-	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order.shipment_done li:nth-child(6){
-		background: #4091a8;
-	}
-	/*已出貨*/
-	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order.order_done li:nth-child(6){
-		background: #4091a8;
-	}
 
+	/*已出貨*/
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order.shipment_done li:nth-child(6) { background: #4091a8; }
+
+	/*已出貨*/
+	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order.order_done li:nth-child(6) { background: #4091a8; }
 	.inquiry-result-con .inquiry-result-info02 .inquiry-info02-order li:nth-child(7) { width: 100%; }
 
 	/*Action Btns*/

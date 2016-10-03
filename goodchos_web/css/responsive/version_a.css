@@ -49,10 +49,7 @@
 	.pay-con .pay-pic02 img { display: none; }
 
 	/*Action Btn*/
-	.pay-con .pay-btn-back { width: 80%;
-height: 20px;
-margin:100px auto 80px auto;
-float: none;}
+	.pay-con .pay-btn-back { width: 80%; height: 20px; margin: 100px auto 80px auto; float: none; }
 	.pay-con .pay-btn-back a { text-decoration: none; position: relative; top: 20px; }
 	.pay-con .pay-btn-back a:hover { opacity: 1; }
 	.pay-con .pay-btn-back a img { display: none; }
