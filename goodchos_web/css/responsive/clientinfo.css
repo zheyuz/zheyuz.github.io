@@ -25,8 +25,8 @@
 	/**/
 	.client-sentreceipt { margin: 0 auto; }
 	.client-sentreceipt p { width: 100%; margin-bottom: 10px; }
-	.client-sentreceipt .company-title { width: 45%; margin-right: 2.5%; }
-	.client-sentreceipt .company-number { width:45% !important; }
+	.client-sentreceipt .company-title { width: calc(100% - 6px); margin-right: 0; }
+	.client-sentreceipt .company-number { width: calc(100% - 6px) !important; margin-right: 0; }
 
 	/* Action Btns */
 	.client-btncon { width: 80%; }
