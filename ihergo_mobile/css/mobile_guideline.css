@@ -35,7 +35,7 @@ ihergo Mobile Guideline
 
 	/*--- Width ---*/
 	/*最大寬度*/
-	--max_w:600px;
+	--max_w:768px;
 	/*Header高度*/
 	--header_h:50px;
 }
@@ -66,34 +66,16 @@ input[type=radio], input[type=checkbox] { display: none; }
 label:before { content: ""; display: inline-block; cursor: pointer; }
 
 /*--- 背景色設定 ---*/
-#start_event_index .ui-panel-wrapper{
-	background: var(--gray_FC);
-}
-#start_event_index_empty .ui-panel-wrapper{
-	background: var(--gray_FC);
-	height: 100%;
-}
-#add_new_item .ui-panel-wrapper{
-	background:#ffffff !important;
-}
-#add_new_item_add_spec .ui-panel-wrapper{
-	background:#ffffff !important;
-}
-#add_new_item_modify_spec .ui-panel-wrapper{
-	background:#ffffff !important;
-}
-#set_event_detail .ui-panel-wrapper{
-	background: var(--gray_F7) !important;
-}
-#details_set_type .ui-panel-wrapper, #details_set_type_sub .ui-panel-wrapper{
-	background:#ffffff !important;
-}
-#details_transfer_add_shipping .ui-panel-wrapper, #details_transfer_modify_shipping .ui-panel-wrapper, #details_club_notify .ui-panel-wrapper{
-	background:#ffffff !important;
-}
-#done .ui-panel-wrapper{
-	background:#ffffff !important;
-}
+#start_event_index .ui-panel-wrapper { background: var(--gray_FC); }
+#start_event_index_empty .ui-panel-wrapper { background: var(--gray_FC); height: 100%; }
+#add_new_item .ui-panel-wrapper { background: #ffffff !important; }
+#add_new_item_add_spec .ui-panel-wrapper { background: #ffffff !important; }
+#add_new_item_modify_spec .ui-panel-wrapper { background: #ffffff !important; }
+#set_event_detail .ui-panel-wrapper { background: var(--gray_F7) !important; }
+#details_set_type .ui-panel-wrapper, #details_set_type_sub .ui-panel-wrapper { background: #ffffff !important; }
+#details_transfer_add_shipping .ui-panel-wrapper, #details_transfer_modify_shipping .ui-panel-wrapper, #details_club_notify .ui-panel-wrapper { background: #ffffff !important; }
+/*#details_set_date .ui-panel-wrapper { background: #ffffff !important; height: 100%; }*/
+#done .ui-panel-wrapper { background: #ffffff !important; }
 
 /***--------------- Header樣式組合 ---------------***/
 .wrapper .header_guideline { width: 100%; max-width: var(--max_w); height: var(--header_h); margin: 0 auto; border-bottom: 0; text-align: center; line-height: var(--header_h); font-size: 1rem; font-weight: bold; color: var(--gray_3F) !important; border-top: 0; }
@@ -119,7 +101,6 @@ label:before { content: ""; display: inline-block; cursor: pointer; }
 .wrapper article.main_content a.img_remove_btn { width: 100%; height: 100%; border-radius: 5px; background-color: rgba(0, 0, 0, 0.4); display: block; position: relative; }
 .wrapper article.main_content a.img_remove_btn:active { background-color: rgba(0, 0, 0, 0.6); }
 .wrapper article.main_content a.img_remove_btn i.ic_card_img_delete { width: 16px; height: 18px; background: url('../images/global/ic-card-img-delete@2x.png') no-repeat; background-size: 16px auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; display: block; }
-
 .wrapper article.main_content small { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: relative; top: -1px; }
 .wrapper article.main_content small.quotation { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: absolute; top: calc((100% - 18px)/2); right: 0; }
 .wrapper article.main_content small.quotation a.quo_link { min-width: 14px; min-height: 14px; display: inline-block; font-weight: bold; color: #3388cc; text-decoration: none; cursor: pointer; }
@@ -164,13 +145,11 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 /*搜尋Bar*/
 .wrapper article.main_content .sub_header .search_bar { width: 100%; height: 50px; line-height: 50px; float: left; display: block; background: #ffffff; }
 .wrapper article.main_content .sub_header .search_bar a.open_search_btn { width: 100%; height: 100%; display: none; }
-.wrapper article.main_content .sub_header .search_bar a:active.open_search_btn { background: var(--gray_FB); }
 .wrapper article.main_content .sub_header .search_bar a.open_search_btn i.ic_sub_header_search { width: 17px; height: 17px; background: url('../images/global/ic-sub-header-search@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; position: relative; top: calc((100% - 17px)/2); }
 .wrapper article.main_content .sub_header .search_bar .search_con { width: 95%; height: 100%; line-height: 50px; margin: 0 auto; }
 
 /*回上一層按鈕*/
 .wrapper article.main_content .sub_header .search_bar .search_con a.prev_step_link { width: 26px; height: 26px; display: none; position: relative; top: calc((100% - 26px)/2); float: left; }
-.wrapper article.main_content .sub_header .search_bar .search_con a:active.prev_step_link { background: var(--gray_FB); }
 .wrapper article.main_content .sub_header .search_bar .search_con a.prev_step_link i.ic_sub_header_arrow_left { width: 9px; height: 15px; background: url('../images/global/ic-sub-header-arrow-left@2x.png') no-repeat; background-size: cover; display: block; margin: 0 auto; position: relative; top: calc((100% - 15px)/2); }
 
 /*輸入內容*/
@@ -196,8 +175,10 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .sub_header.sub_header_dropdown_search .search_con { display: none; }
 .wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar { width: calc(16% - 1px); height: 50px; border-bottom: 1px solid var(--gray_E5); }
 .wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar.expand { width: 100%; }
-.wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar.expand .search_con a.prev_step_link { display: block; }
-.wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar a.open_search_btn { display: block; }
+.wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar.expand .search_con a.prev_step_link { display: block; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; }
+.wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar.expand .search_con a:active.prev_step_link { background: transparent; opacity: .15; }
+.wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar a.open_search_btn { display: block; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; }
+.wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar a:active.open_search_btn { background: transparent; opacity: .15; }
 .wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar a.search_btn { display: none; }
 
 /***--------------- Row 樣式組合 ---------------***/
@@ -230,11 +211,13 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content li.row_select .ui-radio { height: 22px; margin: 0; position: relative; top: calc((100% - 22px)/2); }
 .wrapper article.main_content li.row_select .ui-checkbox { height: 22px; margin: 0; position: relative; top: calc((100% - 22px)/2); }
 .wrapper article.main_content li.row_select span { font-size: 0.7778rem;/*14px*/ font-weight: normal; color: var(--gray_666); margin-left: 55px; display: inline-block; }
+
 /*jQuery Mobile修正 Radiobuttn*/
 .wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-on { width: 100%; height: 22px; border: 0; padding: 0; background: transparent; }
 .wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-on:after { width: 20px; height: 20px; background: url('../images/global/ic-radio-button-l-selected@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -10px; left: 23px; border: 0; }
 .wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-off { width: 100%; height: 22px; border: 0; padding: 0; background: transparent; }
 .wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-off:after { width: 20px; height: 20px; background: url('../images/global/ic-radio-button-l-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -10px; left: 23px; border: 0; opacity: 1; }
+
 /*jQuery Mobile修正 Checkbox*/
 .wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on { width: 100%; height: 22px; border: 0; padding: 0; background: transparent; }
 .wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on:after { width: 20px; height: 20px; background: url('../images/global/ic-checkbox-s-selected@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -9px; left: 23px; border: 0; }
@@ -252,6 +235,9 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper .row_footer a:active.img_box_btn { background: var(--gray_FB); }
 .wrapper .row_footer a.img_box_btn i.ic_row_footer_img { width: 18px; height: 17px; background: url('../images/global/ic-row-footer-img@2x.png') no-repeat; background-size: 18px auto; background-position: 50%; display: block; position: relative; top: calc((100% - 17px)/2); margin: 0 auto; }
 .wrapper .row_footer a.img_box_btn i.ic_row_footer_img.active { background: url('../images/global/ic-row-footer-img-active@2x.png') no-repeat; background-size: 18px auto; background-position: 50%; }
+
+/*row_custom*/
+.wrapper article.main_content .row_custom { width: 100%; height: 49px; border-bottom: 1px solid var(--gray_E5); }
 
 /***--------------- Card 樣式組合 ---------------***/
 
@@ -315,7 +301,7 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .card_list_action_btn .content span.content_box { width: 100%; height: 50px; font-size: 0.7222rem;/*13px*/ color: var(--gray_555); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
 .wrapper article.main_content .card_list_action_btn .right { width: 20px; height: 50px; float: left; margin-left: 14px; margin-right: 14px; display: inline-block; }
 .wrapper article.main_content .card_list_action_btn .right a.content_modify_btn { width: 20px; height: 20px; display: block; position: relative; top: calc((100% - 20px)/2); }
-.wrapper article.main_content .card_list_action_btn .right a.content_modify_btn:active { background: transparent; opacity: .8; }
+.wrapper article.main_content .card_list_action_btn .right a.content_modify_btn:active { background: transparent; opacity: .15; }
 .wrapper article.main_content .card_list_action_btn .right a.content_modify_btn i.ic_card_list_edit { width: 20px; height: 20px; background: url('../images/global/ic-card-list-edit@2x.png') no-repeat; background-size: cover; display: block; }
 
 /*ON*/
@@ -340,7 +326,7 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .card_list_action_btn_select .left label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 16px; height: 16px; background: url('../images/global/ic-card-s-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -14px; left: 12px; border: 0; opacity: 1; }
 .wrapper article.main_content .card_list_action_btn_select .right { width: 20px; height: 50px; float: right; margin-left: 14px; margin-right: 14px; display: inline-block; }
 .wrapper article.main_content .card_list_action_btn_select .right a.content_modify_btn { width: 20px; height: 20px; display: block; position: relative; top: calc((100% - 20px)/2); }
-.wrapper article.main_content .card_list_action_btn_select .right a.content_modify_btn:active { background: transparent; opacity: .8; }
+.wrapper article.main_content .card_list_action_btn_select .right a.content_modify_btn:active { background: transparent; opacity: .15; }
 .wrapper article.main_content .card_list_action_btn_select .right a.content_modify_btn i.ic_card_list_edit { width: 20px; height: 20px; background: url('../images/global/ic-card-list-edit@2x.png') no-repeat; background-size: cover; display: block; }
 
 /*兩行資料時*/
@@ -400,9 +386,9 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .form_date_select .date_select_container a.date_select_btn { width: 7%; height: 25px; display: inline-block; float: left; margin-left: 5%; }
 .wrapper article.main_content .form_date_select .date_select_container a.date_select_btn:active { background: var(--gray_FB); }
 .wrapper article.main_content .form_date_select .date_select_container a.date_select_btn i.ic_form_date_select_calendar { width: 20px; height: 21px; display: block; background: url('../images/global/ic-form-date-select-calendar@2x.png') no-repeat; background-size: 20px 21px; background-position: 50%; margin: 0 auto; position: relative; top: 1px; }
-.wrapper article.main_content .form_date_select .date_select_container .hr_content { width: 15%; height: 25px; line-height: 25px; text-align: center; display: inline-block; margin-left: 7%; }
+.wrapper article.main_content .form_date_select .date_select_container .hr_content { width: 15%; height: 25px; line-height: 25px; text-align: center; display: inline-block; margin-left: 7%; background: #f9f9f9; border-radius: 4px;}
 .wrapper article.main_content .form_date_select .date_select_container .txt_box { display: inline-block; height: 25px; line-height: 25px; margin: 0 3.5%; }
-.wrapper article.main_content .form_date_select .date_select_container .min_content { width: 15%; height: 25px; line-height: 25px; text-align: center; display: inline-block; }
+.wrapper article.main_content .form_date_select .date_select_container .min_content { width: 15%; height: 25px; line-height: 25px; text-align: center; display: inline-block; background: #f9f9f9; border-radius: 4px;}
 
 /*jQuery Mobile*/
 .wrapper article.main_content .form_date_select .date_select_container .hr_content .ui-select { margin: 0; }
@@ -454,10 +440,10 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .form_card_combination { width: 100%; min-width: 53px; padding-bottom: 20px; }
 .wrapper article.main_content .form_card_combination .card_container { border-radius: 5px; background-color: #f6f5f5; position: relative; }
 .wrapper article.main_content .form_card_combination .card_container .title_container { width: 100%; height: 53px; line-height: 53px; cursor: pointer; }
-.wrapper article.main_content .form_card_combination .card_container .title_container span.title { height: 53px; line-height: 53px; font-size: 0.7778rem; /*14px*/ font-weight: bold; color: var(--gray_888); padding: 5%; }
-.wrapper article.main_content .form_card_combination .card_container .title_container span.card_exptend_btn { width: 25px; height: 25px; display: block; position: absolute; top: calc((53px - 25px)/2); right: 5%; display: block; }
-.wrapper article.main_content .form_card_combination .card_container .title_container span.card_exptend_btn i.ic_dropdown { width: 13px; height: 9px; background: url('../images/global/ic-dropdown@2x.png') no-repeat; background-size: 13px 9px; position: relative; top: calc((100% - 9px)/2); margin: 0 auto; display: block; }
-.wrapper article.main_content .form_card_combination .card_container ul.card_form_container { width: 90%; margin: 0 auto; padding-bottom: 12px; display: none; }
+.wrapper article.main_content .form_card_combination .card_container .title_container span.title { height: 53px; line-height: 53px; font-size: 0.7778rem; /*14px*/ font-weight: bold; color: var(--gray_888); padding: 0 17px; }
+.wrapper article.main_content .form_card_combination .card_container .title_container span.card_exptend_btn { width: 25px; height: 25px; line-height: 25px; display: block; position: absolute; top: calc((53px - 25px)/2); right: 17px; display: block; text-align: center; }
+.wrapper article.main_content .form_card_combination .card_container .title_container span.card_exptend_btn i.ic_dropdown { width: 13px; height: 9px; background: url('../images/global/ic-dropdown@2x.png') no-repeat; background-size: 13px 9px; display: inline-block; }
+.wrapper article.main_content .form_card_combination .card_container ul.card_form_container { width: calc(100% - 34px); margin: 0 auto; padding-bottom: 12px; display: none; }
 .wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content { width: 100%; list-style: none; margin-bottom: 10px; }
 .wrapper article.main_content .form_card_combination .card_container ul.card_form_container li.form_content label span { font-size: 0.7222rem;/*13px*/ font-weight: normal; color: var(--gray_555); margin-left: 28px; display: inline-block; }
 
@@ -492,8 +478,8 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .form_floating_text_field { width: 90%; height: 40px; line-height: 40px; border-radius: 50px; background-color: #ffffff; box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2); margin: 0 5%; position: absolute; top: 17px; }
 .wrapper article.main_content .form_floating_text_field .ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset { position: relative; top: calc((100% - 30px)/2); }
 .wrapper article.main_content .form_floating_text_field input.search_address { width: calc(100% - 36px); height: 30px; display: inline-block; float: left; font-size: 0.7778rem;/*14px*/ line-height: 1.8; background: transparent; border: 0; padding: 0 0 0 17px; }
-.wrapper article.main_content .form_floating_text_field a.search_btn { width: 24px; height: 24px; display: inline-block; float: right; position: relative; top: calc((100% - 24px)/2); margin-right: 12px; }
-.wrapper article.main_content .form_floating_text_field a:active.search_btn { background: var(--gray_FB); }
+.wrapper article.main_content .form_floating_text_field a.search_btn { width: 24px; height: 24px; display: inline-block; float: right; position: relative; top: calc((100% - 24px)/2); margin-right: 12px; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; }
+.wrapper article.main_content .form_floating_text_field a:active.search_btn { background: transparent; opacity: .15; }
 .wrapper article.main_content .form_floating_text_field a.search_btn i.ic_form_floating_text_field_search { width: 24px; height: 24px; background: url('../images/global/ic-form-floating-text-field-search@2x.png') no-repeat; background-size: 17px auto; background-position: 50%; display: block; }
 
 /***--------------- Footer 樣式組合 ---------------***/

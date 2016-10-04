@@ -203,6 +203,80 @@
 /*表單*/
 .wrapper article.main_content .modal_container .form_container { height: auto; }
 .wrapper article.main_content li.row_select span.ic_event_content_club_meeting { background: url('../images/start_event/ic-event-content-club-meeting@2x.png') no-repeat; background-size: auto 18px; background-position: 0px 50%; display: inline-block; margin-right: 10px; text-indent: 20px; }
+
+/*日曆*/
+.wrapper article.main_content .calendar_content { width: 100%; background: #ffffff; }
+/*換月按鈕*/
+.wrapper article.main_content .calendar_content .row_custom.calendar a { -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; }
+.wrapper article.main_content .calendar_content .row_custom.calendar a.calendar_arrow_l { width: 50px; height: 50px; line-height: 50px; text-align: center; display: inline-block; float: left; }
+.wrapper article.main_content .calendar_content .row_custom.calendar a.calendar_arrow_l i.ic_modal_calendar_arrow_l { width: 7px; height: 10px; background: url('../images/start_event/ic-modal-calendar-arrow-l@2x.png') no-repeat; background-size: 7px auto; display: inline-block; }
+.wrapper article.main_content .calendar_content .row_custom.calendar a.calendar_arrow_r { width: 50px; height: 50px; line-height: 50px; text-align: center; display: inline-block; float: right; }
+.wrapper article.main_content .calendar_content .row_custom.calendar a.calendar_arrow_r i.ic_modal_calendar_arrow_r { width: 7px; height: 10px; background: url('../images/start_event/ic-modal-calendar-arrow-r@2x.png') no-repeat; background-size: 7px auto; display: inline-block; }
+.wrapper article.main_content .calendar_content .row_custom.calendar a:active { background: transparent; opacity: .15; }
+/*目前月份*/
+.wrapper article.main_content .calendar_content .row_custom.calendar span.current_month { width: 80%; height: 50px; margin: 0 auto; text-align: center; font-size: 0.7778rem; /*14px*/ font-weight: bold; color: var(--gray_888); line-height: 50px; display: block; }
+/**/
+.wrapper article.main_content .calendar_content .cal_container{
+	width:100%;
+}
+.wrapper article.main_content .calendar_content .cal_container ul.weekdays_title{
+	width:94%;
+	height: 50px;
+	list-style: none;
+	margin: 0 auto;
+}
+.wrapper article.main_content .calendar_content .cal_container ul.weekdays_title li.weekdays_list{
+	width:calc(100% / 7);
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size:0.6667rem;
+	font-weight: bold;
+	color: #bbbbbb;
+	float: left;
+	display: inline-block;
+}
+.wrapper article.main_content .calendar_content .cal_container ul.weekdays_content{
+	width:94%;
+	list-style: none;
+	margin: 0 auto;
+}
+.wrapper article.main_content .calendar_content .cal_container ul.weekdays_content li.weekdays_list{
+	width:calc(100% / 7);
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size:0.6667rem;
+	float: left;
+	display: inline-block;
+}
+.wrapper article.main_content .calendar_content .cal_container ul.weekdays_content li.weekdays_list a.tag{
+	width:100%;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	text-align: center;
+	color: var(--gray_888);
+	font-weight: normal;
+	cursor:pointer;
+}
+.wrapper article.main_content .calendar_content .cal_container ul.weekdays_content li.weekdays_list a:active.tag{
+	background: var(--gray_FB);
+}
+.wrapper article.main_content .calendar_content .cal_container ul.weekdays_content li.weekdays_list .tag.choose{
+	width:25px;
+	height: 25px;
+	line-height: 26px;
+	text-align: center;
+	background-color: #f5a623;
+	color:#ffffff;
+	border-radius: 50%;
+	display: inline-block;
+	cursor: default;
+}
+.wrapper article.main_content .calendar_content .cal_container ul.weekdays_content li.weekdays_list .choose:active{
+	background-color: #f5a623 !important;
+}
 @media screen and (max-width:320px) {
 	.wrapper .event_main article.main_content .done_content .check_my_order { }
 	.wrapper .event_main article.main_content .done_content .check_my_order a.order_card .content p.title { font-size: 0.7778rem;/*14px*/ font-weight: bold; margin: 16px 0 10px 0; color: var(--gray_888); }

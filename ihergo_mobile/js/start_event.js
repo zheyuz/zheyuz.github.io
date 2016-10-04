@@ -103,7 +103,6 @@
                  $(this).css('cursor', 'default');
                  $(this).find('.card_exptend_btn').hide();
              });
-
              //展開單列
              $('.content_control_btn').each(function() {
                  $(this).click(function() {
@@ -118,9 +117,13 @@
              var ContentFullPageH = parseInt(DocumentH - 140); /*140=Header+Footer*/
              $('#details_recommend .set_details, #details_notify .set_details').css('height', ContentFullPageH);
              /*面交點地圖*/
-             var DocumentH = $(window).height();
              var ContentFullPageH = parseInt(DocumentH - 100); /*100=Header+Footer*/
              $('#details_transfer_add_meeting .set_details, #details_transfer_modify_meeting .set_details').css('height', ContentFullPageH);
+             /*非商店建立商品*/
+             $('#start_event_index_empty .event_main').css('height', ContentFullPageH);
+             /*日曆*/
+             $('#details_set_date .set_details').css('height', ContentFullPageH);
+
              /*------------Modal Row Footer切換------------*/
              $('#details_recommend .text_box_btn').click(function() {
                  $(this).find('i').addClass('active');
@@ -175,4 +178,8 @@
              var DocumentH = $(window).height();
              var ContentFullPageH = parseInt(DocumentH - 100); /*100=Header+Footer*/
              $('#details_transfer_add_meeting .set_details, #details_transfer_modify_meeting .set_details').css('height', ContentFullPageH);
+             /*非商店建立商品*/
+             $('#start_event_index_empty .event_main').css('height', ContentFullPageH);
+             /*日曆*/
+             $('#details_set_date .set_details').css('height', ContentFullPageH);
          });
