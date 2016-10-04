@@ -44,7 +44,7 @@
 	.inquiry-page-text p { margin: 20px auto; position: relative; top: 10px; text-align: left;}
 	.inquiry-page-text .card-logo { margin: 0; height: auto; }
 	.inquiry-page-text a { text-decoration: none; margin: 0; color: #92923c; width: 100%; display: block; text-align: center; }
-	.inquiry-page-text div { margin: 0; }
+	.inquiry-page-text div { margin: 0; width:100%;}
 
 	/*Action Btns*/
 	.card-page-btn-order, .odrder-wrong-page-btn-order, .atm-failpage-btncon-back { width: 100%; margin: 0 0 30px 0; float: right; position: relative; top: 107px; }
@@ -69,4 +69,7 @@
 	.inquiry-chickocn .list-con .list-cost, .list-con .list-count, .list-con2 .list-cost, .list-con2 .list-count, .list-con3 .list-cost, .list-con3 .list-count, .list-con4 .list-cost, .list-con4 .list-count { width: 20%; margin: 0 auto; text-align: center; padding: 10px 0; font-size: .75rem; }
 	.inquiry-chickocn .list-con .list-category, .list-con .list-name, .list-con2 .list-category, .list-con2 .list-name, .list-con3 .list-category, .list-con3 .list-name, .list-con4 .list-category, .list-con4 .list-name { margin: 0; font-size: .625rem; }
 	.inquiry-chickocn .list-input, .card-page-input, .atm-page-input { bottom: 20px; }
+
+	.inquiry-sentinfo { width: 95%; margin: 0 auto; left: 2.5%;}
+	.inquiry-sentinfo .inquiry-sentinfo-canncel{ width: 30px; position: absolute; top: 10px; right: 10px; cursor: pointer }
 }
