@@ -383,12 +383,12 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 /* form_date_select */
 .wrapper article.main_content .form_date_select .date_select_container { width: 100%; height: 25px; line-height: 25px; padding-bottom: 20px; line-height: 25px; font-size: 0.7778rem; /*14px*/ font-weight: normal; color: var(--gray_666); }
 .wrapper article.main_content .form_date_select .date_select_container .date_content { width: 23%; height: 25px; display: inline-block; float: left; }
-.wrapper article.main_content .form_date_select .date_select_container a.date_select_btn { width: 7%; height: 25px; display: inline-block; float: left; margin-left: 5%; }
-.wrapper article.main_content .form_date_select .date_select_container a.date_select_btn:active { background: var(--gray_FB); }
+.wrapper article.main_content .form_date_select .date_select_container a.date_select_btn { width: 7%; height: 25px; display: inline-block; float: left; margin-left: 5%; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; }
+.wrapper article.main_content .form_date_select .date_select_container a.date_select_btn:active { background: transparent; opacity: .15; }
 .wrapper article.main_content .form_date_select .date_select_container a.date_select_btn i.ic_form_date_select_calendar { width: 20px; height: 21px; display: block; background: url('../images/global/ic-form-date-select-calendar@2x.png') no-repeat; background-size: 20px 21px; background-position: 50%; margin: 0 auto; position: relative; top: 1px; }
-.wrapper article.main_content .form_date_select .date_select_container .hr_content { width: 15%; height: 25px; line-height: 25px; text-align: center; display: inline-block; margin-left: 7%; background: #f9f9f9; border-radius: 4px;}
+.wrapper article.main_content .form_date_select .date_select_container .hr_content { width: 15%; height: 25px; line-height: 25px; text-align: center; display: inline-block; margin-left: 7%; background: #f9f9f9; border-radius: 4px; }
 .wrapper article.main_content .form_date_select .date_select_container .txt_box { display: inline-block; height: 25px; line-height: 25px; margin: 0 3.5%; }
-.wrapper article.main_content .form_date_select .date_select_container .min_content { width: 15%; height: 25px; line-height: 25px; text-align: center; display: inline-block; background: #f9f9f9; border-radius: 4px;}
+.wrapper article.main_content .form_date_select .date_select_container .min_content { width: 15%; height: 25px; line-height: 25px; text-align: center; display: inline-block; background: #f9f9f9; border-radius: 4px; }
 
 /*jQuery Mobile*/
 .wrapper article.main_content .form_date_select .date_select_container .hr_content .ui-select { margin: 0; }
