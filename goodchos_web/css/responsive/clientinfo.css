@@ -26,6 +26,7 @@
 	.client-sentreceipt { margin: 0 auto; }
 	.client-sentreceipt p { width: 100%; margin-bottom: 10px; }
 	.client-sentreceipt .company-title { width: 45%; margin-right: 2.5%; }
+	.client-sentreceipt .company-number { width:45% !important; }
 
 	/* Action Btns */
 	.client-btncon { width: 80%; }
