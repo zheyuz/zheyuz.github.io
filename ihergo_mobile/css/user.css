@@ -9,8 +9,9 @@
 .wrapper .mail_tools_box{ float:right; height:60px;}
 .wrapper .mail_tools_box a.mailSearch_btn{ display:block; float:left; background:url(../images/user/mails/icon_search.png) no-repeat center center / 24px 24px transparent; width:24px; height:50px; padding:5px;}
 .wrapper .mail_tools_box a.mailWrite_btn{ display:block; float:left; background:url(../images/user/mails/icon_write.png) no-repeat center center / 24px 24px transparent; width:24px; height:50px; padding:5px;}
+.wrapper .mail_tools_box a.mailDelete_btn{ display:block; float:left; background:url(../images/start_event/icon_trash30.png) no-repeat center center / auto 22px transparent; width:24px; height:50px; padding:5px;}
 .wrapper .mail_tools_box a.moreTools_btn{ display:block; float:left; background:url(../images/user/mails/icon_more_tools.png) no-repeat center center / 24px 24px transparent; width:24px; height:50px; padding:5px;}
-.wrapper .mail_tools_box a{ margin-right:15px;}
+.wrapper .mail_tools_box a{ margin-right:8px;}
 .wrapper .mail_tools_box a:active{ opacity:0.8;}
 .wrapper .moreTool_popup{ background-color: #f9f9f9; border-radius: 5px; border: 1px solid #ddd; box-shadow: 1px 1px 6px rgba(0,0,0,0.2); position:absolute; top: 50px; right:10px; width:140px; z-index:5;}
 .wrapper .moreTool_popup a.tool_item{ display: block; text-align: center; font-size: 0.85rem; color: #105cb6; line-height: 35px; text-decoration: none; border-top: 1px solid #e0e0e0; margin:0;}
@@ -38,33 +39,34 @@
 .wrapper .mailList_search .ui-select .ui-btn { color:#555; background-color: #fff; border: 1px solid #ccc; text-align: left; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);}
 .wrapper .mailList_search .ui-select .ui-btn-active{ color:#555;}
 
-.mails_main .mailList_content{ border-top:1px solid #ddd;}
+.mails_main .mailList_content{ border-top:1px solid #d0d0d0;}
 .mails_main .mailList_content .main_content_box{ border: 0; background: transparent; padding: 0;}
-.mails_main .mailList_content .mail_box{ background-color:#fff; border-bottom:1px solid #ddd; padding:10px; cursor:pointer; position:relative;}
+.mails_main .mailList_content .mail_box{ background-color:#fff; border-bottom:1px solid #d0d0d0; padding:15px 10px 15px 0; cursor:pointer; position:relative;}
 .mails_main .mailList_content .mail_box:active{ background-color:#f9f9f9;}
 .mails_main .mailList_content .no_read{ background-color:#fffaee;}
-.mails_main .mailList_content .mail_box .l_mail_box{ float:left; width:50px; margin-right:10px;}
-.mails_main .mailList_content .mail_box .l_mail_box img.sender_pic{ width:50px; height:50px; border-radius:50%;}
-.mails_main .mailList_content .mail_box .r_mail_box{ }
+.mails_main .mailList_content .mail_box .l_mail_box{ float:left; width:20px; height: 25px; margin-right:5px;}
+.mails_main .mailList_content .mail_box .l_mail_box img.sender_pic{ width:20px; height:20px; border-radius:50%; position: relative; top: 3px;}
+.mails_main .mailList_content .mail_box .r_mail_box{ margin-left: 40px;}
 .mails_main .mailList_content .mail_box .sender_infor{ height:25px;}
-.mails_main .mailList_content .mail_box .sender_infor p.user_id{ float:left; line-height:25px; font-size:0.8rem; color:#105CB6; font-weight:bold;}
+.mails_main .mailList_content .mail_box .sender_infor p.user_id{ float:left; line-height:25px; font-size:0.7rem; color:#105CB6;}
 .mails_main .mailList_content .mail_box .sender_infor p.user_id span{ color:#999; margin-left:3px;}
-.mails_main .mailList_content .mail_box .sender_infor p.system_id{ float:left; line-height:25px; font-size:0.8rem; color:#6d9b00; font-weight:bold;}
-.mails_main .mailList_content .mail_box .sender_infor p.sent_time{ float:right; line-height:25px; font-size:0.75rem; color:#aaa;}
-.mails_main .mailList_content .mail_box .r_mail_box p.mail_keynote{ font-size:0.9rem; line-height:25px; color:#38c; font-weight:bold; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
-.mails_main .mailList_content .mail_box .r_mail_box p.mail_header{ font-size:0.8rem; line-height:20px; color:#888; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+.mails_main .mailList_content .mail_box .sender_infor p.system_id{ float:left; line-height:25px; font-size:0.7rem; color:#6d9b00;}
+.mails_main .mailList_content .mail_box .sender_infor p.sent_time{ float:right; line-height:25px; font-size:0.7rem; color:#aaa;}
+.mails_main .mailList_content .mail_box .r_mail_box p.mail_keynote{ font-size:0.9rem; line-height:34px; color:#38c; font-weight:bold; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+.mails_main .mailList_content .mail_box .r_mail_box p.mail_header{ font-size:0.8rem; line-height:20px; color:#999; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+@media screen and ( max-width:340px) { .mails_main .mailList_content .mail_box .sender_infor p.user_id{ max-width:140px; overflow: hidden; text-overflow: ellipsis;}}
 
-.mails_main .mailList_content .order_box{ background-color:#fff; border-bottom:1px solid #ddd; padding:10px; cursor:pointer; position:relative;}
+.mails_main .mailList_content .order_box{ background-color:#fff; border-bottom:1px solid #d0d0d0; padding:15px 10px 15px 0; cursor:pointer; position:relative;}
 .mails_main .mailList_content .order_box:active{ background-color:#f9f9f9;}
 .mails_main .mailList_content .no_read{ background-color:#fffaee;}
-.mails_main .mailList_content .order_box .l_order_box{ float:left; width:50px; margin-right:10px;}
-.mails_main .mailList_content .order_box .l_order_box img.sender_pic{ width:50px; height:50px; border-radius:50%;}
+.mails_main .mailList_content .order_box .l_order_box{ float:left; width:20px; height: 25px; margin-right:5px;}
+.mails_main .mailList_content .order_box .l_order_box img.sender_pic{ width:20px; height:20px; border-radius:50%; position: relative; top: 3px;}
 .mails_main .mailList_content .order_box .r_order_box{ margin-left: 60px; position:relative; min-height:100px;}
-.mails_main .mailList_content .order_box .order_user_info p.user_id{ display:inline-block; line-height:25px; font-size:0.8rem; color:#105CB6; font-weight:bold;}
-.mails_main .mailList_content .order_box .order_user_info p.user_id span{ color:#999; margin-left:3px;}
-.mails_main .mailList_content .order_box .order_user_info p.user_time{ float:right; line-height:25px; font-size:0.75rem; color:#bbb;}
-.mails_main .mailList_content .order_box .r_order_box p.order_keynote{ font-size:0.9rem; line-height:25px; color:#38c; font-weight:bold; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
-.mails_main .mailList_content .order_box .r_order_box p.order_detail{ font-size:0.8rem; line-height:20px; color:#888; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+.mails_main .mailList_content .order_box .order_user_info p.user_id{ display:inline-block; line-height:25px; font-size:0.7rem; color:#105CB6;}
+.mails_main .mailList_content .order_box .order_user_info p.user_id span{ color:#aaa; margin-left:3px;}
+.mails_main .mailList_content .order_box .order_user_info p.user_time{ float:right; line-height:25px; font-size:0.7rem; color:#bbb;}
+.mails_main .mailList_content .order_box .r_order_box p.order_keynote{ font-size:0.9rem; line-height:30px; color:#38c; font-weight:bold; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+.mails_main .mailList_content .order_box .r_order_box p.order_detail{ font-size:0.8rem; line-height:20px; color:#999; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
 .mails_main .mailList_content .order_box .r_order_box p.un_paynotice{ position:absolute; right:0; bottom:0; font-size:0.8rem; font-weight:normal; line-height:30px; width:100px; text-align:center; border-radius:15px;}
 
 .mails_main .mailList_content .order_box .r_order_box p.un_paynotice_black{ background-color:#666; color:#fff;}
@@ -78,9 +80,9 @@
 .mails_main .mailList_content .checkbox_show .left_ckeckbox{ position:absolute;}
 .mails_main .mailList_content .checkbox_show .left_ckeckbox .ui-checkbox .ui-btn{ background-color:#fff; border:0; padding: 10px 10px; height:20px; width:20px;}
 .mails_main .mailList_content .no_read .left_ckeckbox .ui-checkbox .ui-btn{ background-color:#fffaee;}
-.mails_main .mailList_content .checkbox_show .l_mail_box{ margin-left:45px;}
-.mails_main .mailList_content .checkbox_show .l_order_box{ margin-left:45px;}
-.mails_main .mailList_content .checkbox_show .r_order_box{ margin-left:105px;}
+.mails_main .mailList_content .checkbox_show .l_mail_box{ margin-left:41px;}
+.mails_main .mailList_content .checkbox_show .l_order_box{ margin-left:41px;}
+.mails_main .mailList_content .checkbox_show .r_order_box{ margin-left:40px;}
 .mails_main .mailList_content a.submit_checkbox{ display:block; background-color:#444; padding: 15px 0; position:fixed; bottom:0; width:100%; color:#fff; text-decoration:none; text-align: center; cursor:pointer; z-index:10;}
 .mails_main .mailList_content a.submit_checkbox:active{ background-color:#555;}
 
@@ -111,10 +113,10 @@
 
 /* ----- 郵件內容_開始 ----- */
 .mails_main .mailDetail_content{ }
-.mails_main .mailDetail_content .main_content_box{ border: 0; border-top: 1px solid #ddd; padding: 0;}
-.mails_main .mailDetail_content .mail_box{ background-color:#fff; border-bottom:1px solid #ddd; padding:10px; cursor:pointer;}
+.mails_main .mailDetail_content .main_content_box{ border: 0; border-top: 1px solid #d0d0d0; padding: 0;}
+.mails_main .mailDetail_content .mail_box{ background-color:#fff; border-bottom:1px solid #d0d0d0; padding:20px 13px; cursor:pointer;}
 .mails_main .mailDetail_content .mail_box:active{ background-color:#fff;}
-.mails_main .mailDetail_content .mail_close{ background-color:#fafafa;}
+.mails_main .mailDetail_content .mail_close{ background-color:#fbfbfb;}
 .mails_main .mailDetail_content .no_read{ background-color:#fffaee;}
 .mails_main .mailDetail_content .main_content_box img{ max-width: 100%;}
 
@@ -132,7 +134,7 @@
 .mails_main .mailDetail_content .mail_box .r_mail_box p.mail_header{ font-size:0.85rem; line-height:25px; color:#888; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
 .mails_main .mailDetail_content .mail_box .r_mail_box p.mail_handle{ font-size:0.85rem; line-height:25px; color:#aaa;}
 
-.mails_main .mailDetail_content .mail_box .notify_body{ font-size:0.9rem; line-height:22px; color:#888; margin-top:10px; color:#777; padding-bottom:10px;}
+.mails_main .mailDetail_content .mail_box .notify_body{ font-size:0.9rem; line-height:22px; margin-top:10px; color:#777; padding-bottom:20px;}
 .mails_main .mailDetail_content .mail_box .notify_body a{ font-size:0.9rem;}
 .mails_main .mailDetail_content .mail_box .r_mail_box a.reply_btn{ float:right; display:inline-block; background:url(../images/user/mails/icon_reply.png) no-repeat center center / 16px 16px #f5f5f5; border:1px solid #ddd; color:#fff; text-decoration:none; width:40px; height:30px; text-align: center; border-radius:3px; text-indent:-9999px; margin-left:10px; cursor:pointer;}
 .mails_main .mailDetail_content .mail_box .r_mail_box a.reply_btn:active{ background:url(../images/user/mails/icon_reply.png) no-repeat center center / 16px 16px #fff;}
@@ -162,7 +164,7 @@
 .mails_main .mailDetail_content .mail_box .notify_body .club_description a{ display: inline-block;}
 .mails_main .mailDetail_content .mail_box .notify_body .club_description img.user{ width: 30px; height: 30px; border-radius: 50%; position: relative; top: 8px;}
 
-@media screen and ( max-width:401px) {.mails_main .mailDetail_content .mail_open .two_tool p.user_id{ max-width:150px;} }
+@media screen and ( max-width:401px) {.mails_main .mailDetail_content .mail_open .two_tool p.user_id{ max-width:140px;} }
 @media screen and ( max-width:371px) {.mails_main .mailDetail_content .mail_open .two_tool p.user_id{ max-width:130px;} }
 @media screen and ( max-width:351px) {.mails_main .mailDetail_content .mail_open .two_tool p.user_id{ max-width:110px;} .mailDetail_content .mail_open .one_tool p.user_id{ max-width:160px;}}
 
@@ -172,18 +174,18 @@
 .mails_main .mailDetail_content a.reply_heads_btn:active{ background-color:#6a85c4; border:1px solid #4469a1;}
 
 /*合購通知信件*/
-.mails_main .mailDetail_content .mail_box .family_mail_box{ margin-top:10px;}
+.mails_main .mailDetail_content .mail_box .family_mail_box{ margin:10px 0;}
 .mails_main .mailDetail_content .mail_box .family_mail_box .infor_box .event_subject{ font-size:0.9rem; line-height:22px; color:#777;}
 .mails_main .mailDetail_content .mail_box .family_mail_box .infor_box .event_subject a.group_title{ font-size:0.9rem; line-height:22px;}
-.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box h3{ margin-top:10px; line-height:18px;}
+.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box h3{ font-size: 0.9rem; margin-top:10px; line-height:18px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 .mails_main .mailDetail_content .mail_box .family_mail_box .infor_box h3 a.store_name{ font-size:0.9rem; font-weight:bold; color:#555}
 .mails_main .mailDetail_content .mail_box .family_mail_box .infor_box h3 img.store_img{ position:relative; top:3px; margin-right:2px;}
-.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box .host_box_content{ background-color:#f8f8f8; padding:15px; margin-top:10px; border-radius:5px;}
-.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box .host_box_content .location_box p.txt_G12{ float:left; font-weight:bold; color:#999; font-size:0.8rem; line-height:22px;}
-.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box .host_box_content .location_box .txt_location{ font-size:0.8rem; line-height:22px; color:#777; padding-left:40px;}
+.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box .host_box_content{ background-color:#f9f9f9; padding:15px 10px; margin-top:10px; border-radius:3px;}
+.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box .host_box_content .location_box p.txt_G12{ float:left; font-weight:bold; color:#999; font-size:0.7rem; line-height:20px;}
+.mails_main .mailDetail_content .mail_box .family_mail_box .infor_box .host_box_content .location_box .txt_location{ font-size:0.7rem; line-height:20px; color:#999; padding-left:3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 .mails_main .mailDetail_content .mail_box .family_mail_box .infor_box .host_box_content br.CLEAR{ display:none;}
 .mails_main .mailDetail_content .mail_box .family_mail_box .pic_box{ width:100%; margin:15px auto 0px;}
-.mails_main .mailDetail_content .mail_box .family_mail_box .pic_box img{ width:100%;}
+.mails_main .mailDetail_content .mail_box .family_mail_box .pic_box img{ width:100%; }
 /*--- 20160427 系統廣告信修正 ---*/
 .mails_main .mailDetail_content .mail_box .notify_body table td img{ max-width: 100%;}
 /* ----- 郵件內容_結束 ----- */

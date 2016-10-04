@@ -238,11 +238,11 @@
 .joinGroup_block .cart_item .right_box{ padding: 0 0 0 140px;}
 .joinGroup_block .cart_item .right_box h3.product_title{ width: 100%; height: 50px; overflow: hidden;}
 .joinGroup_block .cart_item .right_box h3.product_title a{ font-size: 0.9rem; text-decoration: none; color: #555; line-height: 20px;}
-.joinGroup_block .cart_item .right_box .p_text_box{ width: 100%; margin: 5px 0 0; position: absolute; bottom: 15px;}
-.joinGroup_block .cart_item .right_box .p_text_box p{ font-size: 0.8rem; color: #888; line-height: 20px;}
+.joinGroup_block .cart_item .right_box .p_text_box{ width: 100%; margin: 5px 0 0; position: absolute; bottom: 12px;}
+.joinGroup_block .cart_item .right_box .p_text_box p{ font-size: 0.8rem; color: #999; line-height: 20px;}
 /*加購商品*/
 .joinGroup_block .cart_content .addmore_item{ background-color: #fff; border-bottom: 1px solid #e5e5e5; padding: 15px 0; text-align: right;}
-.joinGroup_block .cart_content .addmore_item a.addmore_btn{ font-size:0.9rem; background-color:#fe9f54; color:#fff; padding:6px 20px; margin-right:10px; border-radius:4px; text-align:center; text-decoration:none; display: inline-block; box-shadow: 0 2px 0px #f18f42;}
+.joinGroup_block .cart_content .addmore_item a.addmore_btn{ font-size:0.9rem; background-color:#fe9f54; color:#fff; padding:6px 15px; margin: 5px 10px 5px 0; border-radius:5px; text-align:center; text-decoration:none; display: inline-block; }
 .joinGroup_block .cart_content .addmore_item a.addmore_btn:active{ background-color: #ffa863;}
 
 /*修改數量、刪除*/
@@ -254,11 +254,11 @@
 .wrapper .modified_popup a:active{ background-color: #f3f3f3; border-radius: 5px;}
 
 /*付款金額*/
-.joinGroup_block .payable_content{ background-color: #fff; margin-bottom: 30px; padding-top: 5px;}
+.joinGroup_block .payable_content{ background-color: #fff; margin-bottom: 30px; padding-top: 10px;}
 .joinGroup_block .payable_content p{ color: #555; font-size: 0.9rem; text-shadow:0 0 0 transparent; line-height: 35px;}
 .joinGroup_block .payable_content p.left_title{ float: left; font-weight: bold;}
 .joinGroup_block .payable_content p.right_text{ float: right;}
-.joinGroup_block .payable_content .payable_amount{ margin: 0 15px;}
+.joinGroup_block .payable_content .payable_amount{ margin: 0 15px; padding-top: 0;}
 .joinGroup_block .payable_content .payable_price{ margin: 0 15px;}
 .joinGroup_block .payable_content .payable_fee{ margin: 0 15px;}
 .joinGroup_block .payable_content .payable_post{ margin: 0 15px 0 5px;}
@@ -312,6 +312,22 @@
 .joinGroup_block a.submit_btn{ display: block; width: 95%; font-size: 0.95rem; font-weight: bold; color: #fff; background-color: #60B9F7; line-height: 45px; text-shadow: 0 0 0 transparent; text-align: center; text-decoration: none; box-shadow: 0 3px 0px #4da8e7; margin: 20px auto 30px; border-radius: 5px;}
 .joinGroup_block a.submit_btn:active{ background-color: #6FC3FD; color:#fff;}
 
+/* 20160914 修改合購商品數量 */
+.joinGroup_block .cart_item{ height: 120px;}
+.joinGroup_block .cart_item .left_box{ height: 120px; width: 120px; position: absolute; margin-left: 10px;}
+.joinGroup_block .cart_item .left_box a.product_img{ width: 120px; height: 120px; border: 1px solid #ececec; background-color: #fff;}
+.joinGroup_block .cart_item .left_box a.product_img img{ width: 120px;}
+.joinGroup_block .cart_item .right_box{ padding: 0 0 0 140px;}
+.joinGroup_block .cart_item .right_box h3.product_title{ float: left; line-height: 15px; height: 40px; max-width: 80%;}
+.joinGroup_block .cart_item .right_box .amount_modify{ width: 88px; height: 24px; border: 1px solid #ddd; display: inline-block; margin-top: 7px; text-align: center;}
+.joinGroup_block .cart_item .right_box .amount_modify span.amount_no{ font-size: 0.75rem; color: #666; }
+.joinGroup_block .cart_item .right_box .amount_modify a{ height: 24px; width: 24px; display: inline-block;}
+.joinGroup_block .cart_item .right_box .amount_modify a.add_amount_btn{ float: right; background:url(../images/start_event/icon_amount_add.png) no-repeat center center / 12px auto; border-left: 1px solid #ddd;}
+.joinGroup_block .cart_item .right_box .amount_modify a.delete_amount_btn{ float: left; background:url(../images/start_event/icon_amount_delete.png) no-repeat center center / 12px auto; border-right: 1px solid #ddd;}
+.joinGroup_block .cart_item .right_box .amount_modify a:active{ background-color: #f0f0f0;}
+.joinGroup_block .cart_item .right_box a.modify_delete{ float: right; background:url(../images/start_event/icon_trash30.png) no-repeat center center / auto 15px rgba(0,0,0,0.4); height: 25px; width: 25px; border-radius: 3px; display: block; position: absolute; right: 10px; top: 15px; z-index: 1;}
+.joinGroup_block .cart_item .right_box a.modify_delete:active{ background-color: rgba(0,0,0,0.7);}
+.joinGroup_block .cart_item .right_box p.price_text{ color: #EF555A; position: absolute; right: 10px; bottom: 19px; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.5px;}
 
 /* ----- 修改合購商品 ----- */
 .modifiy_union_block{ background-color:#f2f2f2;}
@@ -407,7 +423,7 @@
 .wrapper .mails_main .unionPayment_box p.main_explain_text{ font-size:0.9rem; color:#777; line-height:25px; padding:10px 0;}
 .wrapper .mails_main .unionPayment_box p.main_explain_text a{ font-size:0.9rem; margin-left:8px;}
 
-.wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_content{ max-width:600px; margin:0 auto;}
+.wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_content{ max-width:var(-—max_w); margin:0 auto;}
 .wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_box{ float:left; width:25%; text-align: center; max-width:150px;}
 .wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_box .schedule{ }
 .wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_box p{ font-size:0.8rem; color:#777;}
@@ -539,6 +555,13 @@
 .wrapper .mails_main .unionInfo_content .unionMail_box a.reply_all_btn:active{ background-color:#6a85c4; border:1px solid #4469a1;}
 .wrapper .mails_main .unionInfo_content .unionMail_box a.reply_heads_btn{ display: block; font-size:0.9rem; background: url(../images/user/mails/icon_right_w.png) no-repeat 95% center / 16px 16px #637dbb; border:1px solid #315790; color:#fff; line-height: 40px; text-decoration:none; margin: 20px auto; padding-right:10px; width:100px; text-align: center; border-radius:5px;}
 .wrapper .mails_main .unionInfo_content .unionMail_box a.reply_heads_btn:active{ background-color:#6a85c4; border:1px solid #4469a1;}
+.wrapper .mails_main .unionInfo_content .unionMail_box a.reply_btn{ display: block; font-size:0.9rem; background: #637dbb; border:1px solid #315790; color:#fff; line-height: 40px; text-decoration:none; margin: 20px auto; width:70px; text-align: center; border-radius:5px;}
+.wrapper .mails_main .unionInfo_content .unionMail_box a.reply_btn:active{ background-color:#6a85c4; border:1px solid #4469a1;}
+
+.wrapper .mails_main .unionInfo_content .unionMail_box .reply_btns_box{ width: 240px; margin: 0 auto;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .reply_btns_box a.reply_all_btn{ display: inline-block;}
+.wrapper .mails_main .unionInfo_content .unionMail_box .reply_btns_box a.reply_btn{ display: inline-block; margin-right: 10px;}
+
 /*======================================== 合購單(主購&團員)_結束 ========================================*/
 
 
@@ -723,3 +746,8 @@
 .joinUnionPage_content .unionInfo_main .productList_block .product_item .right_box a.add_cart{ float: right; display: block; background-color: #fe9f54; color: #fff; font-size: 0.8rem; line-height: 30px; text-decoration: none; text-align: center; text-shadow: 0 0 0 transparent; border-radius: 3px; width: 50px; font-weight: normal; position: absolute; right: 10px; top: 80px;}
 
 /* ==================== 20160630 新版合購頁_結束 ==================== */
+
+
+
+
+

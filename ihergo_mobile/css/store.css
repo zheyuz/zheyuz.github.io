@@ -221,6 +221,25 @@ main.store_detail{ margin-bottom:60px;}
 .checkout_content .buy_amount p.right_text a.add_more_btn{ background-color:#e9e9e9; color:#777; font-size:0.75rem; line-height:20px; padding:5px 15px; margin-right:10px; border-radius:4px; text-decoration:none;}
 .checkout_content .buy_amount p.right_text a.add_more_btn:active{ opacity:0.9;}
 
+/* 20160914 修改合購商品數量 */
+.cart_item{ height: 120px;}
+.cart_item .left_box{ height: 120px; width: 120px; position: absolute; margin-left: 10px;}
+.cart_item .left_box a.product_img{ width: 120px; height: 120px; border: 1px solid #ececec; background-color: #fff;}
+.cart_item .left_box a.product_img img{ width: 120px;}
+.cart_item .right_box{ padding: 0 0 0 140px;}
+.cart_item .right_box h3.product_title{ float: left; line-height: 15px; height: 40px; max-width: 80%;}
+.cart_item .right_box .amount_modify{ width: 88px; height: 24px; border: 1px solid #ddd; display: inline-block; margin-top: 7px; text-align: center;}
+.cart_item .right_box .amount_modify span.amount_no{ font-size: 0.75rem; color: #666; }
+.cart_item .right_box .amount_modify a{ height: 24px; width: 24px; display: inline-block;}
+.cart_item .right_box .amount_modify a.add_amount_btn{ float: right; background:url(../images/start_event/icon_amount_add.png) no-repeat center center / 12px auto; border-left: 1px solid #ddd;}
+.cart_item .right_box .amount_modify a.delete_amount_btn{ float: left; background:url(../images/start_event/icon_amount_delete.png) no-repeat center center / 12px auto; border-right: 1px solid #ddd;}
+.cart_item .right_box .amount_modify a:active{ background-color: #f0f0f0;}
+.cart_item .right_box a.modify_delete{ float: right; background:url(../images/start_event/icon_trash30.png) no-repeat center center / auto 15px rgba(0,0,0,0.4); height: 25px; width: 25px; border-radius: 3px; display: block; position: absolute; right: 10px; top: 15px; z-index: 1;}
+.cart_item .right_box a.modify_delete:active{ background-color: rgba(0,0,0,0.7);}
+.cart_item .right_box p.price_text{ color: #EF555A; position: absolute; right: 10px; bottom: 19px; font-size: 0.85rem; font-weight: 600; letter-spacing: 0.5px;}
+
+
+
 /* ================================== 填寫訂單資料 ================================== */
 .oreder_main h3.s_title{ margin: 0 15px; line-height: 46px; border-bottom: 1px solid #e6e6e6; font-size: 1rem; color: #333; padding-top: 5px; font-weight:900 !important;}
 
@@ -434,7 +453,7 @@ main.store_detail{ margin-bottom:60px;}
 
 /* ============================== 20160308商品大圖修改 ＿ 開始 ============================== */
 .infor_block .pic_wrp .pic_content ul.ul_box{ width: 1000%; position: absolute; top: 0; left: 0;}
-.infor_block .pic_wrp .pic_content ul.ul_box li { float: left; display: inline-block; max-width:600px; width:100%; text-align: left;}
+.infor_block .pic_wrp .pic_content ul.ul_box li { float: left; display: inline-block; max-width:var(--max_w); width:100%; text-align: left;}
 .infor_block .pic_wrp .pic_content ul.ul_box li a{ display: inline-block; max-width: 400px; margin: 0 auto;}
 .infor_block .pic_wrp .pic_content ul.ul_box li img{ width: 400px; height: 400px; }
 
@@ -486,7 +505,9 @@ main.store_detail{ margin-bottom:60px;}
 
 /* ============================== 20160413商店頁改版調整＿開始 ============================== */
 .wrapper .store_banner img{ display: table;}
-.productList_block, .storeUnion_block{ margin-bottom: 30px;}
+.productList_block{ margin-bottom: 53px;}
+.storeAbout_block{ margin-bottom: 30px;}
+.storeUnion_block{ margin-bottom: 30px;}
 
 /*分享社群, 開團, 許願*/
 .wrapper .store_function { background-color: #fff; height: 36px; width: 100%; overflow: hidden; padding: 12px 0px; border-bottom: 1px solid #ddd;}
@@ -503,7 +524,7 @@ main.store_detail{ margin-bottom:60px;}
 .wrapper .store_function a.group_btn:active{ background-color: #7dc4fa;}
 .wrapper .store_function a.group_stop{ background-color: #eee; color: #b8b8b8;}
 .wrapper .store_function a.group_stop:active{ background-color: #bbb;}
-.wrapper .storeFunction_fixed{ position: fixed; top: 0; z-index: 3; border-bottom: 1px solid #d5d5d5; max-width: 600px;}
+.wrapper .storeFunction_fixed{ position: fixed; top: 0; z-index: 3; border-bottom: 1px solid #d5d5d5; max-width: var(--max_w);}
 
 /*商店Tab*/
 .wrapper nav.store_tab{ background-color: #f9f9f9; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; margin-top: 15px;}
@@ -536,7 +557,7 @@ main.store_detail{ margin-bottom:60px;}
 
 /*沒有商品*/
 .wrapper p.nothing_alarm_text{ background-color: #fff; margin-top: 0; padding: 40px 20px;}
-.wrapper .store_recommend a.btn_moreStore{ background-color: #ffc94d; border-radius: 5px; margin-top: 20px;}
+.wrapper .store_recommend a.btn_moreStore{ background-color: #ffc94d; border-radius: 5px; margin-top: 20px; margin-bottom: 30px;}
 .wrapper .store_recommend a.btn_moreStore:active{ background-color: #ffd062;}
 
 /*關於商店*/

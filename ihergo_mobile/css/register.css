@@ -96,7 +96,7 @@ main.sign_up .add_family_content .google_map_box a.gmap_search_btn { width: 40px
 main.sign_up .add_family_content .google_map_box a.gmap_search_btn:active { background-color: #f5f5f5; }
 main.sign_up .add_family_content .google_map_box a.place_pin { position: absolute; display: block; width: 29px; height: 39px; background: url(../images/register/icon_pin_black.png) no-repeat center center / 29px 39px; }
 main.sign_up .add_family_content .google_map_box a.pin_focus { width: 48px; height: 64px; background: url(../images/register/icon_pin_blue.png) no-repeat center center / 48px 64px; }
-main.sign_up .add_family_content .pin_infor_box { background-color: #fff; width: 100%; position: fixed; bottom: 45px; padding: 10px 0 15px; border-top: 1px solid #ddd; max-width: 600px; height: 95px; overflow: auto; }
+main.sign_up .add_family_content .pin_infor_box { background-color: #fff; width: 100%; position: fixed; bottom: 45px; padding: 10px 0 15px; border-top: 1px solid #ddd; max-width: var(--max_w); height: 95px; overflow: auto; }
 main.sign_up .add_family_content .pin_infor_box p { font-size: 0.75rem; line-height: 20px; color: #8c9a9e; padding: 0 100px 3px 15px; }
 main.sign_up .add_family_content .pin_infor_box p.info_familyName { font-size: 0.85rem; line-height: 25px; color: #5c6a6e; font-weight: bold; margin: 0px 0 3px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
 main.sign_up .add_family_content .pin_infor_box p.info_familyAddress { max-height: 40px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -123,11 +123,11 @@ main.sign_up .add_family_content .pin_infor_box.show_social_list::-webkit-scroll
 main.sign_up .add_family_content .pin_infor_box.show_social_list::-webkit-scrollbar-track:hover { background: transparent; }
 main.sign_up .add_family_content .pin_infor_box.show_social_list::-webkit-scrollbar-track:active { background: transparent; }
 main.sign_up .add_family_content .pin_infor_box.show_social_list::-webkit-scrollbar-corner { background: transparent; }
-main.sign_up .add_family_content .add_social_c_btn { background-color: #fff; width: 100%; position: fixed; bottom: 50px; max-width: 600px; box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2); }
+main.sign_up .add_family_content .add_social_c_btn { background-color: #fff; width: 100%; position: fixed; bottom: 50px; max-width: var(--max_w); box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2); }
 main.sign_up .add_family_content .add_social_c_btn a.add_more_circle { font-size: 0.8333rem; font-weight: bold; color: #fe7390 !important; text-align: center; text-decoration: none; width: calc(100% - 40px); height: 35px; line-height: 35px; border: 1px solid #fe7390; border-radius: 6px; background: transparent !important; display: block; margin: 0 20px 15px 20px; }
-main.sign_up .add_family_content a.next_step_btn { position: fixed; bottom: 0; display: block; background-color: #fabe00; width: 100%; line-height: 50px; text-align: center; color: #fff; text-decoration: none; z-index: 2; max-width: 600px; }
+main.sign_up .add_family_content a.next_step_btn { position: fixed; bottom: 0; display: block; background-color: #fabe00; width: 100%; line-height: 50px; text-align: center; color: #fff; text-decoration: none; z-index: 2; max-width: var(--max_w); }
 main.sign_up .add_family_content a.next_step_btn:active { background-color: #ffc94d; }
-main.sign_up .add_family_content a.next_step_btn.disable { position: fixed; bottom: 0; display: block; background-color: #ececec; width: 100%; line-height: 50px; text-align: center; color: #999999; text-decoration: none; z-index: 2; max-width: 600px; }
+main.sign_up .add_family_content a.next_step_btn.disable { position: fixed; bottom: 0; display: block; background-color: #ececec; width: 100%; line-height: 50px; text-align: center; color: #999999; text-decoration: none; z-index: 2; max-width: var(--max_w); }
 
 /* ---------- 20160614 加入生活圈 說明 ---------- */
 .wrapper.social_c_tour { height: 100%; }
@@ -228,7 +228,7 @@ main.sign_up .content p.forget_box a:active { background-color: transparent; tex
 /* ---------- 20160315 忘記密碼_結束 ---------- */
 
 /* ---------- 20160318 加入家族新增提示_開始 ---------- */
-main.sign_up .add_family_content .start_pin_box { background-color: #fff; width: 100%; position: fixed; bottom: 0; padding: 10px 0 15px; margin-bottom: 45px; border-top: 1px solid #ddd; max-width: 600px; height: 95px; overflow: hidden; }
+main.sign_up .add_family_content .start_pin_box { background-color: #fff; width: 100%; position: fixed; bottom: 0; padding: 10px 0 15px; margin-bottom: 45px; border-top: 1px solid #ddd; max-width: var(--max_w); height: 95px; overflow: hidden; }
 main.sign_up .add_family_content .start_pin_box p { font-size: 0.85rem; color: #4c5a5e; line-height: 25px; padding: 0px 15px; }
 main.sign_up .add_family_content .start_pin_box p.small_note { font-size: 0.75rem; color: #9caaae; line-height: 22px; padding: 0px 15px; max-height: 66px; overflow: hidden; }
 

@@ -173,18 +173,20 @@ article.status_loading .container3 .circle4 { -webkit-animation-delay: -0.1s; an
 /*------------------------------ 20160524 動態篩選改版＿開始 ------------------------------*/
 .wrapper .filter_box{ box-shadow: 0 1px 3px rgba(0,0,0,0.18); position: relative;}
 .wrapper .filter_box .keyword_box{ padding: 13px 0; border-bottom: 1px solid #f2f2f2; position: relative;}
-.wrapper .filter_box .keyword_box .ui-input-text{ margin: 0 10px; }
-.wrapper .filter_box .keyword_box .ui-input-text input.keyword_input{ font-size: 0.85rem; padding: 7px 6px 6px 32px; background: url(../images/image/icon_search.png) no-repeat 10px center / 20px 20px #f3f3f3; border: 0; color: #444;}
+.wrapper .filter_box .keyword_box .ui-input-text{ margin: 0 10px; width: calc(100% - 55px); display: inline-block;}
+.wrapper .filter_box .keyword_box .ui-input-text input.keyword_input{ font-size: 0.85rem; padding: 7px 10px 6px; background: #f3f3f3; border: 0; color: #444;}
 .wrapper .filter_box .keyword_box ::-moz-placeholder { color:#aaa;}
 .wrapper .filter_box .keyword_box ::-webkit-input-placeholder { color:#aaa;}
 .wrapper .filter_box .keyword_box :-ms-input-placeholder { color:#aaa;}
-.wrapper .filter_box .keyword_box a.keyword_delete{ display: block; background: url(../images/status/icon_filter_clean.png) no-repeat center center / 18px auto transparent; width: 18px; height: 18px; position: absolute; top: 21px; right: 20px; display: none;}
+.wrapper .filter_box .keyword_box a.keyword_delete{ display: block; background: url(../images/status/icon_filter_clean.png) no-repeat center center / 18px auto transparent; width: 18px; height: 18px; position: absolute; top: 21px; right: 57px; display: none;}
 .wrapper .filter_box .keyword_box a.keyword_delete:active{ opacity: 0.8;}
+.wrapper .filter_box .keyword_box a.go_search{ display: block; background: url(../images/image/icon_search.png) no-repeat center center / 34px auto transparent; width: 36px; height: 36px; position: absolute; right: 5px; top: 12px;}
+.wrapper .filter_box .keyword_box a.go_search:active{ opacity: 0.7;}
 
 .wrapper .filter_box .filter_items_box{ display: flex; display: -webkit-flex; display: -ms-flexbox; }
 .wrapper .filter_box .filter_items_box a.filter_item{ flex: 1; -webkit-flex: 1; -webkit-box-flex: 1; -ms-flex: 1; justify-content: center; padding: 7px 10px; position: relative; text-decoration: none; min-width: 90px;}
 .wrapper .filter_box .filter_items_box a.filter_item:active{ background-color: transparent;}
-.wrapper .filter_box .filter_items_box a.filter_item p.item_title{ color: #aaa; font-size: 0.725rem; line-height:18px; font-weight: normal; white-space: nowrap;}
+.wrapper .filter_box .filter_items_box a.filter_item p.item_title{ color: #999; font-size: 0.725rem; line-height:18px; font-weight: normal; white-space: nowrap;}
 .wrapper .filter_box .filter_items_box a.filter_item p.item_main{ color: #555; font-size: 0.85rem; line-height:22px; font-weight: normal; position: relative;}
 .wrapper .filter_box .filter_items_box a.filter_item p.item_main span.text{ float: left; }
 .wrapper .filter_box .filter_items_box a.filter_item p.item_main span.arrow_down{ display: inline-block; width: 8px; height: 22px; background: url(../images/status/icon_filter_select.png) no-repeat right center / 8px auto transparent; position: absolute; right: 0;}
@@ -213,8 +215,8 @@ article.status_loading .container3 .circle4 { -webkit-animation-delay: -0.1s; an
 .wrapper .one_union_status .grouping_wrp .member_img a{ display: block; height: 50px;}
 .wrapper .one_union_status .grouping_wrp .member_img img{ width: 50px; border-radius: 50%; border: 1px solid rgba(100,100,100,0.1); box-sizing: border-box;}
 .wrapper .one_union_status .grouping_wrp .account_box{ }
-.wrapper .one_union_status .grouping_wrp .account_box p.account{ font-size: 0.7rem; color: #444; margin-bottom: 2px;}
-.wrapper .one_union_status .grouping_wrp .account_box p.account span{ color: #9c9c9c; padding: 0 8px; font-family: Arial,sans-serif;}
+.wrapper .one_union_status .grouping_wrp .account_box p.account{ font-size: 0.7rem; color: #222; margin-bottom: 2px;}
+.wrapper .one_union_status .grouping_wrp .account_box p.account span{ color: #909090; padding: 0 8px; font-family: Arial,sans-serif;}
 .wrapper .one_union_status .grouping_wrp .account_box p.group_title{ line-height: 20px; max-height: 40px; overflow: hidden;}
 .wrapper .one_union_status .grouping_wrp .account_box p.group_title a{ color: #3b5998; font-size: 0.8rem; text-decoration: none; line-height: 18px;}
 .wrapper .one_union_status .grouping_wrp .account_box p.group_title a:active{ background-color: transparent;}
@@ -225,11 +227,11 @@ article.status_loading .container3 .circle4 { -webkit-animation-delay: -0.1s; an
 .wrapper .one_union_status .goods_pic .pic_line{ -webkit-flex: none; flex: none; width: 2px;}
 
 .wrapper .one_union_status .location_box{ margin-bottom: 5px;}
-.wrapper .one_union_status .location_box p{ font-size: 0.7rem; color: #666; line-height: 22px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.wrapper .one_union_status .location_box p{ font-size: 0.7rem; color: #444; line-height: 22px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 .wrapper .one_union_status .location_box p.txt_location{ background: url(../images/status/icon_small_location.png) no-repeat left center / 10px auto transparent; padding-left: 15px;}
 .wrapper .one_union_status .location_box p span.location_number{ padding: 0 3px; font-family: Arial,sans-serif;}
 .wrapper .one_union_status .union_info_box{ border-top: 1px solid #e9e9e9; padding: 12px 0 0; line-height: 16px;}
-.wrapper .one_union_status .union_info_box p{ font-size: 0.7rem; color: #999;}
+.wrapper .one_union_status .union_info_box p{ font-size: 0.7rem; color: #909090;}
 .wrapper .one_union_status .union_info_box p.union_amount{ float: left;}
 .wrapper .one_union_status .union_info_box p.union_amount span{ padding: 0 2px 0 4px; font-family: Arial,sans-serif;}
 .wrapper .one_union_status .union_info_box p.club_amount{ float: right; background: url(../images/status/icon_small_club.png) no-repeat left center / 12px auto transparent; padding-left: 14px;}

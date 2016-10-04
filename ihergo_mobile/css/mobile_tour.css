@@ -1,12 +1,12 @@
 @import url(web_fonts/noto.css);
 .storeBanner_wrapper { display: none; }
 .tour_mask_transparent { width: 100%; height: 100%; background: transparent; z-index: 104; position:relative; top: 0; left: 0; display: none; }
-.tour_mask_black { width: 100%; height: 100%; background: rgba(0, 0, 0, .85); z-index: 1000; position: fixed; top: 0; left: 0; display: none; max-width: 600px; margin: 0 auto; right: 0;}
-.web_tour_wrapper { position: fixed; top: 0; left: 0; z-index: 1001; width: 100%; height: 100%; color: #ffffff; display: none; max-width: 600px; margin: 0 auto; right: 0;}
-.web_tour_wrapper .filter_box.zindex_adjust { position: relative; top: 61px; margin: 0 13px; max-width: 576px; overflow: hidden; }
+.tour_mask_black { width: 100%; height: 100%; background: rgba(0, 0, 0, .85); z-index: 1000; position: fixed; top: 0; left: 0; display: none; max-width: var(--max_w); margin: 0 auto; right: 0;}
+.web_tour_wrapper { position: fixed; top: 0; left: 0; z-index: 1001; width: 100%; height: 100%; color: #ffffff; display: none; max-width: var(--max_w); margin: 0 auto; right: 0;}
+.web_tour_wrapper .filter_box.zindex_adjust { position: relative; top: 61px; margin: 0 13px; max-width: 744px; overflow: hidden; }
 .web_tour_wrapper .web_tour_con .group_event_box .status_content.union_status_content{ padding: 0; width: 100%; position: absolute; top: 190px; background: rgba(0, 0, 0, .85);}
 .web_tour_wrapper .web_tour_con .group_event_box .status_content.union_status_content .one_union_status{ margin-bottom:0;}
-.web_tour_wrapper .web_tour_con .group_event_box .group_event .dashed_block{max-width: 586px;border: 1px dashed #ffffff;border-radius: 10px;margin: 0 8px 0 8px;padding: 8px;}
+.web_tour_wrapper .web_tour_con .group_event_box .group_event .dashed_block{max-width: 754px;border: 1px dashed #ffffff;border-radius: 10px;margin: 0 8px 0 8px;padding: 8px;}
 .web_tour_wrapper .web_tour_con .group_event_box .group_event .info_text.down{ position: absolute; top: 30px; left: calc((100% - 280px)/2); z-index: 200;}
 .web_tour_wrapper .close_tour{
 	width:16px;
@@ -17,7 +17,7 @@
 	right:20px;
 	background: url(../../images/status/web_tour/close_tour.png) no-repeat;
 }
-.web_tour_wrapper .web_tour_con { max-width:600px; height: 100%; margin: 0 auto;}
+.web_tour_wrapper .web_tour_con { max-width:var(--max_w); height: 100%; margin: 0 auto;}
 .web_tour_wrapper .web_tour_con .info_text { width: 280px; border-radius: 5px; background: #9c9b99; color: #ffffff; position:absolute; }
 .web_tour_wrapper .web_tour_con .info_text:before { content: url(../../images/status/web_tour/arrow.png); position: absolute; top: -18px; left: calc((100% - 14px)/2); }
 .web_tour_wrapper .web_tour_con .info_text.down:before { content: url(../../images/status/web_tour/arrow_down.png); position: absolute; top: 126px; left: calc((100% - 14px)/2); }
@@ -25,7 +25,7 @@
 .web_tour_wrapper .web_tour_con .info_text .text_con a.next_tour_btn { width: 150px; height: 35px; display: block; margin: 11px auto 5px auto; border-radius: 5px; line-height: 35px; background: #254a55; font-size: 13px; font-weight: bold; font-family: Arial !important; color: #ffffff; text-decoration:none;}
 .web_tour_wrapper .web_tour_con .info_text .text_con a:hover.next_tour_btn { text-decoration: none; background: #516e77; }
 .web_tour_wrapper .web_tour_con .search_tour { position: absolute; top: 55px; left:0; right:0;}
-.web_tour_wrapper .web_tour_con .search_tour .dashed_block { max-width: 586px; height: 125px; border: 1px dashed #ffffff; border-radius: 10px; margin: 0 5px;}
+.web_tour_wrapper .web_tour_con .search_tour .dashed_block { max-width: 764px; height: 125px; border: 1px dashed #ffffff; border-radius: 10px; margin: 0 5px;}
 .web_tour_wrapper .web_tour_con .search_tour .info_text { position: absolute; left: calc((100% - 280px) / 2 ); top: 140px;}
 .web_tour_wrapper .web_tour_con .group_event_box{ display: none;}
 .web_tour_wrapper .web_tour_con .group_event { position: absolute; top: 10px; left: 0px; right:0;}
