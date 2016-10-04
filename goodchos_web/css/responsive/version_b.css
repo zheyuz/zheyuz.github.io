@@ -11,7 +11,7 @@
 	.container .pay-page-from dl dd { font-size: 0.875rem; font-weight: normal; }
 	.container .pay-page-text { margin: 0 auto; width:90%;}
 	.container .pay-page-text p{
-		font-size: 0.6875rem;
+		font-size: .75rem;
 	}
 	.container .pay-page-text.top_expand { margin: 50px auto 0 auto; }
 
