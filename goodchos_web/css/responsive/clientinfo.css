@@ -31,3 +31,9 @@
 	.client-btncon .client-btn-order { width: 100%; margin: 0 0 30px 0; position: relative; top: 106px; }
 	.client-btncon .client-btn-gopay { width: 100%; margin: 0 0 30px 0; float: right; position: relative; top: -106px; }
 }
+
+@media screen and (max-width:320px) {
+		.select-city, .select-post, .select-area{
+			width: calc((100% / 3) - 4%);
+		}
+}
