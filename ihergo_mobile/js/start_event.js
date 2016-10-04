@@ -123,7 +123,6 @@
              $('#start_event_index_empty .event_main').css('height', ContentFullPageH);
              /*日曆*/
              $('#details_set_date .set_details').css('height', ContentFullPageH);
-
              /*------------Modal Row Footer切換------------*/
              $('#details_recommend .text_box_btn').click(function() {
                  $(this).find('i').addClass('active');

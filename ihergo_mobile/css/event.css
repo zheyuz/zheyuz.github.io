@@ -423,7 +423,7 @@
 .wrapper .mails_main .unionPayment_box p.main_explain_text{ font-size:0.9rem; color:#777; line-height:25px; padding:10px 0;}
 .wrapper .mails_main .unionPayment_box p.main_explain_text a{ font-size:0.9rem; margin-left:8px;}
 
-.wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_content{ max-width:var(-—max_w); margin:0 auto;}
+.wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_content{ max-width:var(--max_w); margin:0 auto;}
 .wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_box{ float:left; width:25%; text-align: center; max-width:150px;}
 .wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_box .schedule{ }
 .wrapper .mails_main .unionInfo_content .unionPayment_box .schedule_box p{ font-size:0.8rem; color:#777;}
