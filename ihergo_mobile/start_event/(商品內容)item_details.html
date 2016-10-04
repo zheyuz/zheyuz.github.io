@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>商品內容</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
     <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
     <link rel="stylesheet" href="../css/jqm-datebox-1.4.5.css" />
     <link href="../css/layout.css" rel="stylesheet" type="text/css">
@@ -40,13 +40,6 @@
     <!-- go to Top_END -->
     <script type="text/javascript">
       $(function(){
-                 // 修正頁面body, .wrapper高度(此頁內容提高52px)
-                 // $(this).ready(function(){
-                 // var DocumentH=$(this).height();
-                 // var AdjustH=parseInt(DocumentH+52);
-                 // $('body').css('height',AdjustH);
-                 // $('.wrapper').css('height',AdjustH);
-                 // });
                  //視窗捲動則Header fixed
                  $(this).scroll(function() {
                  var windowScrollTop=$(window).scrollTop(); //抓捲動數值
@@ -125,7 +118,7 @@
     </script>
   </head>
   <body>
-    <div class="wrapper" data-role="page">
+    <div class="wrapper" data-role="page" id="item_details">
       <a id="go_top" class="gotop_btn" href="#"></a>
       <!--header_close_white 關閉(白)-->
       <header class="header_guideline header_close_white hero_banner" data-role="header" data-position="fixed">
