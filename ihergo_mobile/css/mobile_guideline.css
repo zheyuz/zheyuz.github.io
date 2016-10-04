@@ -103,10 +103,10 @@ label:before { content: ""; display: inline-block; cursor: pointer; }
 .wrapper article.main_content a.img_remove_btn i.ic_card_img_delete { width: 16px; height: 18px; background: url('../images/global/ic-card-img-delete@2x.png') no-repeat; background-size: 16px auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; display: block; }
 .wrapper article.main_content small { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: relative; top: -1px; }
 .wrapper article.main_content small.quotation { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: absolute; top: calc((100% - 18px)/2); right: 0; }
-.wrapper article.main_content small.quotation a.quo_link { min-width: 14px; min-height: 14px; display: inline-block; font-weight: bold; color: #3388cc; text-decoration: none; cursor: pointer; }
+.wrapper article.main_content small.quotation a.quo_link { min-width: 18px; min-height: 18px; line-height:18px; display: inline-block; font-weight: bold; color: #3388cc; text-decoration: none; cursor: pointer; position: relative; top:-2px;}
 .wrapper article.main_content small.quotation a:active.quo_link { opacity: .8; background: transparent; }
-.wrapper article.main_content small.quotation a.quo_link i.ic_event_content_form_popup_info { width: 14px; height: 14px; background: url('../images/start_event/ic-event-content-form-popup-info@2x.png') no-repeat; background-size: cover; display: block; }
-.wrapper article.main_content small.quotation.q_icon { width: 14px; height: 14px; position: absolute; top: calc((100% - 14px)/2); left: 0; z-index: 9; }
+.wrapper article.main_content small.quotation a.quo_link i.ic_event_content_form_popup_info { width: 14px; height: 14px; background: url('../images/start_event/ic-event-content-form-popup-info@2x.png') no-repeat; background-size: cover; display: block; position: relative; top:2px;}
+.wrapper article.main_content small.quotation.q_icon { width: 18px; height: 18px; position: absolute; top: calc((100% - 14px)/2); left: 0; z-index: 9; text-align: center; line-height: 18px;}
 
 /* header-close 關閉 */
 .wrapper .header_guideline.header_close { background-color: var(--ihergo_brand_yellow) !important; }
