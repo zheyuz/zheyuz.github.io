@@ -310,7 +310,7 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 
 /* card_list_action_btn_select */
 .wrapper article.main_content .card_list_action_btn_select { width: calc(100% - 2px); height: 50px; line-height: 50px; border-radius: 5px; background-color: #f4f4f4; border: solid 1px var(--gray_E5); color: var(--gray_555); margin-left: -1px; margin-bottom: 15px; }
-.wrapper article.main_content .card_list_action_btn_select .left { width: calc(100% - 52px); height: 50px; float: left; margin: 0; display: inline-block; }
+.wrapper article.main_content .card_list_action_btn_select .left { width: 85%; height: 50px; float: left; margin: 0; display: inline-block; }
 .wrapper article.main_content .card_list_action_btn_select .left span p { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 
 /*選取按鈕  jQuery Mobile 修正*/
