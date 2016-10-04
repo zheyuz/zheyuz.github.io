@@ -74,7 +74,9 @@ label:before { content: ""; display: inline-block; cursor: pointer; }
 #set_event_detail .ui-panel-wrapper { background: var(--gray_F7) !important; }
 #details_set_type .ui-panel-wrapper, #details_set_type_sub .ui-panel-wrapper { background: #ffffff !important; }
 #details_transfer_add_shipping .ui-panel-wrapper, #details_transfer_modify_shipping .ui-panel-wrapper, #details_club_notify .ui-panel-wrapper { background: #ffffff !important; }
-/*#details_set_date .ui-panel-wrapper { background: #ffffff !important; height: 100%; }*/
+#details_transfer .set_details{
+	padding-bottom:50px;
+}
 #done .ui-panel-wrapper { background: #ffffff !important; }
 
 /***--------------- Header樣式組合 ---------------***/
