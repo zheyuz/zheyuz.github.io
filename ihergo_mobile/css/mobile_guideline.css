@@ -20,7 +20,7 @@ ihergo Mobile Guideline
 	/*gray-FB*/
 	--gray_FB:#FBFBFB;
 	/*gray-C3*/
-	--gray_C3:#C3C3C3;
+	--gray_C3:#b3b3b3;
 	/*gray-666*/
 	--gray_666:#666666;
 	/*gray-888*/
@@ -180,6 +180,9 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar a:active.open_search_btn { background: transparent; opacity: .15; }
 .wrapper article.main_content .sub_header.sub_header_dropdown_search .search_bar a.search_btn { display: none; }
 
+/*subheader_custom*/
+.wrapper article.main_content .subheader_custom { width: 100%; height: 49px; border-bottom: 1px solid var(--gray_E5); }
+
 /***--------------- Row 樣式組合 ---------------***/
 
 /*row_collapse_content */
@@ -235,9 +238,6 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper .row_footer a.img_box_btn i.ic_row_footer_img { width: 18px; height: 17px; background: url('../images/global/ic-row-footer-img@2x.png') no-repeat; background-size: 18px auto; background-position: 50%; display: block; position: relative; top: calc((100% - 17px)/2); margin: 0 auto; }
 .wrapper .row_footer a.img_box_btn i.ic_row_footer_img.active { background: url('../images/global/ic-row-footer-img-active@2x.png') no-repeat; background-size: 18px auto; background-position: 50%; }
 
-/*row_custom*/
-.wrapper article.main_content .row_custom { width: 100%; height: 49px; border-bottom: 1px solid var(--gray_E5); }
-
 /***--------------- Card 樣式組合 ---------------***/
 
 /* card_product */
@@ -248,7 +248,7 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 /*商品內文*/
 .wrapper article.main_content .card_product .product_description_con { width: calc(100% + 6px); position: absolute; left: -3px; bottom: -3px; background-color: rgba(84, 73, 77, 0.8); border-radius: 0 0 5px 5px; color: #ffffff; }
 .wrapper article.main_content .card_product .product_description_con .content_box { padding: 10px; }
-.wrapper article.main_content .card_product .product_description_con .content_box .product_title { width: 100%; max-height: 42px; overflow: hidden; font-size: 0.6667rem; /*12px*/ font-weight: bold; line-height: 150%; color: #ffffff; display: block; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.wrapper article.main_content .card_product .product_description_con .content_box .product_title { width: 100%; max-height: 42px; overflow: hidden; font-size: 0.7778rem; /*14px*/ font-weight: bold; line-height: 150%; color: #ffffff; display: block; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
 .wrapper article.main_content .card_product .product_description_con .content_box .product_price { width: 100%; height: 12px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 0.6111rem; /*11px*/ color: #ffffff; }
 .wrapper article.main_content .card_product .select_btns { width: 24px; height: 24px; position: absolute; top: 10px; right: 10px; display: block; }
 
