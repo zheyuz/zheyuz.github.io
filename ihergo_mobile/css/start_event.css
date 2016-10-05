@@ -119,15 +119,15 @@
 
 /* Row Footer */
 .wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list .ui-checkbox { margin: 0; }
-.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list .ui-checkbox span { font-size: 0.7778rem; /*14px*/ font-weight: normal; color: var(--gray_888); margin-left: -10px; position: relative; top: -2px; }
-.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on { border: 0; border-radius: 0; background: transparent; }
-.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off { border: 0; border-radius: 0; background: transparent; }
+.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list .ui-checkbox span { font-size: 0.7778rem; /*14px*/ font-weight: normal; color: var(--gray_888); margin-left: 22px; position: relative; top: -2px; }
+.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on { border: 0; border-radius: 0; background: transparent; padding: 12px 0; width: 90%; margin: 0 auto; }
+.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off { border: 0; border-radius: 0; background: transparent; padding: 12px 0; width: 90%; margin: 0 auto; }
 
 /*已選取*/
-.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list .ui-icon-check:after, html .ui-btn.ui-checkbox-on.ui-checkbox-on:after { width: 15px; height: 15px; background: url('../images/global/ic-checkbox-s-selected@2x.png') no-repeat; background-size: cover; position: relative; top: -9px; left: -30px; }
+.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list .ui-icon-check:after, html .ui-btn.ui-checkbox-on.ui-checkbox-on:after { width: 15px; height: 15px; background: url('../images/global/ic-checkbox-s-selected@2x.png') no-repeat; background-size: cover; position: relative; top: -9px; left: 0px; }
 
 /*未選取*/
-.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 15px; height: 15px; background: url('../images/global/ic-checkbox-s-select@2x.png') no-repeat; background-size: cover; position: relative; top: -9px; left: -30px; opacity: 1; }
+.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 15px; height: 15px; background: url('../images/global/ic-checkbox-s-select@2x.png') no-repeat; background-size: cover; position: relative; top: -9px; left: 0px; opacity: 1; }
 
 /*完成畫面*/
 .wrapper .event_main article.main_content .done_content { width: 100%; max-width: var(--max_w); height: calc(100% + var(--header_h)); margin: 0 auto; background: #ffffff; position: relative; }
@@ -208,15 +208,15 @@
 .wrapper article.main_content .calendar_content { width: 100%; background: #ffffff; }
 
 /*換月按鈕*/
-.wrapper article.main_content .calendar_content .row_custom.calendar a { -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; }
-.wrapper article.main_content .calendar_content .row_custom.calendar a.calendar_arrow_l { width: 50px; height: 50px; line-height: 50px; text-align: center; display: inline-block; float: left; }
-.wrapper article.main_content .calendar_content .row_custom.calendar a.calendar_arrow_l i.ic_modal_calendar_arrow_l { width: 7px; height: 10px; background: url('../images/start_event/ic-modal-calendar-arrow-l@2x.png') no-repeat; background-size: 7px auto; display: inline-block; }
-.wrapper article.main_content .calendar_content .row_custom.calendar a.calendar_arrow_r { width: 50px; height: 50px; line-height: 50px; text-align: center; display: inline-block; float: right; }
-.wrapper article.main_content .calendar_content .row_custom.calendar a.calendar_arrow_r i.ic_modal_calendar_arrow_r { width: 7px; height: 10px; background: url('../images/start_event/ic-modal-calendar-arrow-r@2x.png') no-repeat; background-size: 7px auto; display: inline-block; }
-.wrapper article.main_content .calendar_content .row_custom.calendar a:active { background: transparent; opacity: .15; }
+.wrapper article.main_content .calendar_content .subheader_custom.calendar a { -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; }
+.wrapper article.main_content .calendar_content .subheader_custom.calendar a.calendar_arrow_l { width: 50px; height: 50px; line-height: 50px; text-align: center; display: inline-block; float: left; }
+.wrapper article.main_content .calendar_content .subheader_custom.calendar a.calendar_arrow_l i.ic_modal_calendar_arrow_l { width: 7px; height: 10px; background: url('../images/start_event/ic-modal-calendar-arrow-l@2x.png') no-repeat; background-size: 7px auto; display: inline-block; }
+.wrapper article.main_content .calendar_content .subheader_custom.calendar a.calendar_arrow_r { width: 50px; height: 50px; line-height: 50px; text-align: center; display: inline-block; float: right; }
+.wrapper article.main_content .calendar_content .subheader_custom.calendar a.calendar_arrow_r i.ic_modal_calendar_arrow_r { width: 7px; height: 10px; background: url('../images/start_event/ic-modal-calendar-arrow-r@2x.png') no-repeat; background-size: 7px auto; display: inline-block; }
+.wrapper article.main_content .calendar_content .subheader_custom.calendar a:active { background: transparent; opacity: .15; }
 
 /*目前月份*/
-.wrapper article.main_content .calendar_content .row_custom.calendar span.current_month { width: 80%; height: 50px; margin: 0 auto; text-align: center; font-size: 0.7778rem; /*14px*/ font-weight: bold; color: var(--gray_888); line-height: 50px; display: block; }
+.wrapper article.main_content .calendar_content .subheader_custom.calendar span.current_month { width: 80%; height: 50px; margin: 0 auto; text-align: center; font-size: 0.7778rem; /*14px*/ font-weight: bold; color: var(--gray_888); line-height: 50px; display: block; }
 
 /**/
 .wrapper article.main_content .calendar_content .cal_container { width: 100%; }
