@@ -52,7 +52,7 @@ body.fix { height: 100%; overflow: hidden; }
 input[type="text"] { color: var(--gray_666) !important; }
 
 /*--- Placeholder ---*/
-::-webkit-input-placeholder { color: var(--gray_C3) !important; opacity: 1; }
+::-webkit-input-placeholder { color: #000 !important; opacity: 1; }
 ::-moz-placeholder { color: var(--gray_C3) !important;opacity: 1; }
 ::-ms-input-placeholder { color: var(--gray_C3) !important;opacity: 1; }
 ::-moz-placeholder { color: var(--gray_C3) !important; opacity: 1;}
