@@ -20,7 +20,7 @@ ihergo Mobile Guideline
 	/*gray-FB*/
 	--gray_FB:#FBFBFB;
 	/*gray-C3*/
-	--gray_C3:#b3b3b3;
+	--gray_C3:#C3C3C3;
 	/*gray-666*/
 	--gray_666:#666666;
 	/*gray-888*/
@@ -52,14 +52,10 @@ body.fix { height: 100%; overflow: hidden; }
 input[type="text"] { color: var(--gray_666) !important; }
 
 /*--- Placeholder ---*/
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-color: var(--gray_C3) !important; }
-::-moz-placeholder { /* Firefox 19+ */
-color: var(--gray_C3) !important; }
-::-ms-input-placeholder { /* IE 10+ */
-color: var(--gray_C3) !important; }
-::-moz-placeholder { /* Firefox 18- */
-color: var(--gray_C3) !important; }
+::-webkit-input-placeholder { color: var(--gray_C3) !important; opacity: 1; }
+::-moz-placeholder { color: var(--gray_C3) !important;opacity: 1; }
+::-ms-input-placeholder { color: var(--gray_C3) !important;opacity: 1; }
+::-moz-placeholder { color: var(--gray_C3) !important; opacity: 1;}
 
 /*--- Radio Button/Checkbox 修正 ---*/
 input[type=radio], input[type=checkbox] { display: none; }
