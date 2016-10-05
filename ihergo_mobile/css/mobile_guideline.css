@@ -362,7 +362,7 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 
 /*jQuery Mobile 修正*/
 .wrapper article.main_content .form_single_line_text_field .ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset { box-shadow: none; }
-.wrapper article.main_content .form_single_line_text_field input { min-height: 0; border: 0; background: transparent; box-shadow: none; padding: 0 0 20px 0; font-size: 14px; font-weight: 300; line-height: 1.8 !important; color: var(--gray-C3) !important; }
+.wrapper article.main_content .form_single_line_text_field input { min-height: 0; border: 0; background: transparent; box-shadow: none; padding: 0 0 20px 0; font-size: 14px; line-height: 1.8 !important; color: var(--gray-C3) !important; }
 
 /* form_text_field_combination */
 .wrapper article.main_content .form_text_field_combination .container { width: 100%; padding-bottom: 20px; }
