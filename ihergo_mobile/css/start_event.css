@@ -124,10 +124,10 @@
 .wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off { border: 0; border-radius: 0; background: transparent; padding: 12px 0; width: 90%; margin: 0 auto; }
 
 /*已選取*/
-.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list .ui-icon-check:after, html .ui-btn.ui-checkbox-on.ui-checkbox-on:after { width: 15px; height: 15px; background: url('../images/global/ic-checkbox-s-selected@2x.png') no-repeat; background-size: cover; position: relative; top: -9px; left: 0px; }
+.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list .ui-icon-check:after, html .ui-btn.ui-checkbox-on.ui-checkbox-on:after { width: 15px; height: 15px; background: url('../images/global/ic-checkbox-s-selected@2x.png') no-repeat; background-size: cover; position: relative; top: -9px; left: -2px; }
 
 /*未選取*/
-.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 15px; height: 15px; background: url('../images/global/ic-checkbox-s-select@2x.png') no-repeat; background-size: cover; position: relative; top: -9px; left: 0px; opacity: 1; }
+.wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 15px; height: 15px; background: url('../images/global/ic-checkbox-s-select@2x.png') no-repeat; background-size: cover; position: relative; top: -9px; left: -2px; opacity: 1; }
 
 /*完成畫面*/
 .wrapper .event_main article.main_content .done_content { width: 100%; max-width: var(--max_w); height: calc(100% + var(--header_h)); margin: 0 auto; background: #ffffff; position: relative; }
