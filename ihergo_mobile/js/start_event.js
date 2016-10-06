@@ -55,15 +55,32 @@
              /*------------新增商品------------*/
              /* Button Sheet*/
              // .content_modify_btn 按下
+             $('.img_edit_btn').click(function() {
+                /*讀取data-url位置*/
+                var Destination=$(this).attr('data-url');
+                 $('body').addClass('fix');
+                 $('.action_button_sheet_container.edit_product_img').show();
+                 $('.action_button_sheet_container.edit_product_img').find('.mask_modal').fadeIn(400);
+                 $('.action_button_sheet_container.edit_product_img').find('ul.button_list').addClass('slideup');
+             });
+             // .action_btn.cancel 按下
+             $('.action_btn.cancel, .mask_modal').click(function() {
+                 $('.action_button_sheet_container').find('.mask_modal').fadeOut(400);
+                 $('.action_button_sheet_container').find('ul.button_list').removeClass('slideup');
+                  $('li.button_content .action_btn.edit_content').attr('href','#');
+                 $('.action_button_sheet_container').delay(1000).stop().fadeOut();
+                 $('body').removeClass('fix');
+             });
+             // .content_modify_btn 按下
              $('.content_modify_btn').click(function() {
                 /*讀取data-url位置*/
                 var Destination=$(this).attr('data-url');
                  $('body').addClass('fix');
-                 $('.action_button_sheet_container').show();
-                 $('.action_button_sheet_container').find('.mask_modal').fadeIn(400);
+                 $('.action_button_sheet_container.edit_spec').show();
+                 $('.action_button_sheet_container.edit_spec').find('.mask_modal').fadeIn(400);
                  /*把data-url內容轉給.action_btn.edit_content*/
                  $('li.button_content .action_btn.edit_content').attr('href',Destination);
-                 $('.action_button_sheet_container').find('ul.button_list').addClass('slideup');
+                 $('.action_button_sheet_container.edit_spec').find('ul.button_list').addClass('slideup');
              });
              // .action_btn.cancel 按下
              $('.action_btn.cancel, .mask_modal').click(function() {
