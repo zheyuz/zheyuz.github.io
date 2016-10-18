@@ -437,12 +437,12 @@
 
 .wrapper .mails_main .unionInfo_content .payment_status{ padding:0; margin: 20px 0; border:0; border-top:1px solid #ddd;}
 .wrapper .mails_main .unionInfo_content table.main_table_box td.r_status{ padding: 5px 10px;}
-.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_black{ float:left; color:#666; border: 1px solid #666; line-height:32px; width: 100px; border-radius:5px; text-align:center; box-sizing: border-box; margin-top: 1px;}
-.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_green{ float:left; color:#00b85b; border: 1px solid #00b85b; line-height:32px; width: 100px; border-radius:5px; text-align:center; box-sizing: border-box; margin-top: 1px;}
-.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_red{ float:left; color:#ed6354; border: 1px solid #ed6354; line-height:32px; width: 100px; border-radius:5px; text-align:center; box-sizing: border-box; margin-top: 1px;}
-.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_blue{ float:left; color:#1EB2F2; border: 1px solid #1EB2F2; line-height:32px; width: 100px; border-radius:5px; text-align:center; box-sizing: border-box; margin-top: 1px;}
-.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_gray{ float:left; color:#999; border: 1px solid #aaa; line-height:32px; width: 100px; border-radius:5px; text-align:center; box-sizing: border-box; margin-top: 1px;}
-.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_text{ color:#aaa; font-size:0.8rem; padding: 0 0 0 110px;}
+.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_black{ color:#666; border: 1px solid #666; line-height:32px; width: 100px; border-radius:5px; text-align:center; box-sizing: border-box; margin: 4px 0;}
+.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_green{ color:#00b85b; border: 1px solid #00b85b; line-height:32px; width: 100px; border-radius:5px; text-align:center; box-sizing: border-box; margin: 4px 0;}
+.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_red{ color:#ed6354; border: 1px solid #ed6354; line-height:32px; width: 100px; border-radius:5px; text-align:center; box-sizing: border-box; margin: 4px 0;}
+.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_blue{ color:#1EB2F2; border: 1px solid #1EB2F2; line-height:32px; width: 100px; border-radius:5px; text-align:center; box-sizing: border-box; margin: 4px 0;}
+.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_gray{ color:#999; border: 1px solid #aaa; line-height:32px; width: 100px; border-radius:5px; text-align:center; box-sizing: border-box; margin: 4px 0;}
+.wrapper .mails_main .unionInfo_content table.main_table_box p.listmail_text{ color:#aaa; font-size:0.8rem; padding: 2px 0;}
 
 .wrapper .mails_main .unionInfo_content .payment_content { margin: 20px 0;}
 .wrapper .mails_main .unionInfo_content .unionPayment_box p.payment_alarm{ font-size:0.9rem; color:#F64949; line-height:25px; padding:0 0;}
@@ -667,7 +667,7 @@
 .joinUnionPage_content .unionName_main .unionName_bgBox .bunionName_bg_overlay{ background-color: rgba(0,0,0,0.5); height: 280px; width: 100%; position: absolute; top: 0;}
 .joinUnionPage_content .unionName_main .unionName_inforBox{ position: absolute; top: 25px; width: 100%;}
 .joinUnionPage_content .unionName_main .unionName_inforBox .user_img{ width: 100px; margin: 0 auto 5px;}
-.joinUnionPage_content .unionName_main .unionName_inforBox .user_img img{ border-radius: 50%; border: 1px solid rgba(255,255,255,0.8);}
+.joinUnionPage_content .unionName_main .unionName_inforBox .user_img img{ border-radius: 50%; border: 1px solid rgba(255,255,255,0.8); background: #fff;}
 .joinUnionPage_content .unionName_main .unionName_inforBox .user_union{ font-weight: 600; line-height: 20px; margin: 0 15px;}
 .joinUnionPage_content .unionName_main .unionName_inforBox .user_union h1.union_name{ text-align:center; color: #fff; font-size: 1rem; line-height: 25px; margin: 8px auto; max-height: 50px; overflow: hidden;}
 .joinUnionPage_content .unionName_main .unionName_inforBox .user_union p.user_id{ text-align:center; color: #fff; font-size: 0.85rem; opacity: 0.65; line-height: 20px; }
