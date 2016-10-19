@@ -58,7 +58,7 @@
              });
              /*------------新增商品------------*/
              /* Button Sheet*/
-             // .content_modify_btn 按下
+             // .img_modify_btn 按下
              $('.img_edit_btn').click(function() {
                 /*讀取data-url位置*/
                 var Destination=$(this).attr('data-url');
