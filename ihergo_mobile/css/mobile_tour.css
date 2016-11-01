@@ -7,7 +7,7 @@
 .web_tour_wrapper .web_tour_con .group_event_box .status_content.union_status_content{ padding: 0; width: 100%; position: absolute; top: 190px; background: rgba(0, 0, 0, .85);}
 .web_tour_wrapper .web_tour_con .group_event_box .status_content.union_status_content .one_union_status{ margin-bottom:0;}
 .web_tour_wrapper .web_tour_con .group_event_box .group_event .dashed_block{max-width: 754px;border: 1px dashed #ffffff;border-radius: 10px;margin: 0 8px 0 8px;padding: 8px;}
-.web_tour_wrapper .web_tour_con .group_event_box .group_event .info_text.down{ position: absolute; top: 30px; left: calc((100% - 280px)/2); z-index: 200;}
+.web_tour_wrapper .web_tour_con .group_event_box .group_event .info_text.down{ position: absolute; top: 35px; left: calc((100% - 280px)/2); z-index: 200;}
 .web_tour_wrapper .close_tour{
 	width:16px;
 	height: 16px;
@@ -31,13 +31,12 @@
 .web_tour_wrapper .web_tour_con .group_event { position: absolute; top: 10px; left: 0px; right:0;}
 .web_tour_wrapper .web_tour_con .group_event .info_text { margin:0 auto;}
 .web_tour_wrapper .web_tour_con .event_holder_box{ display: none; }
-.web_tour_wrapper .web_tour_con .event_holder { position: absolute; top: 2px; right:105px; }
-.web_tour_wrapper .web_tour_con .event_holder .dashed_block { width: 64px; height: 68px; border: 1px dashed #ffffff; border-radius: 10px; }
-.web_tour_wrapper .web_tour_con .event_holder .info_text {position: absolute;right: -75px;top: 90px;}
-.li_account {float: left;width: 55px;height: 60px;position: relative;background-color: #ffb200;}
-.li_account.my_order1{ position:absolute; top:6px; right:110px;}
-.li_account a {display: block;line-height: 15px;text-align: center;font-size: 0.7rem;text-decoration: none;color: #fff;padding: 39px 0 6px;font-weight: normal;background: url(../images/image/icon_my_order.png) no-repeat center 2px;background-size: 40px 40px;}
-.li_account a:hover{ color:#fff;}
+.web_tour_wrapper .web_tour_con .event_holder { position: absolute; top: 2px; right:110px; }
+.web_tour_wrapper .web_tour_con .event_holder .dashed_block { width: 55px; height: 60px; border: 1px dashed #ffffff; border-radius: 5px; }
+.web_tour_wrapper .web_tour_con .event_holder .info_text {position: absolute;right: -90px; top: 75px; width: 240px;}
+.li_account {float: left; width: 46px; height: 48px; position: relative;background-color: #ffb200;}
+.li_account.my_order1{ position:absolute; top:8px; right:115px;}
+.li_account a { display: block; line-height: 15px; text-align: center; font-size: 0.68rem; text-decoration: none; color: #fff; padding: 30px 0 3px; font-weight: normal; background: url(../images/image/icon_my_order.png) no-repeat center 4px / 24px auto;}
 .web_tour_wrapper .web_tour_con .event_target { position: absolute; top: calc(198px + 99px); width: 579px; left: 223px; display: none; }
 .web_tour_wrapper .web_tour_con .event_target .info_text { margin-top: 34px; margin-left: calc((100% - 318px)/2); }
 .web_tour_wrapper .web_tour_con .meeting_place { position: absolute; width: 579px; left: 223px; display: none; }

@@ -329,8 +329,8 @@
 .mails_main .point_content .main_content_box .point_list{ border-bottom:1px solid #ddd; height: 52px; line-height: 44px; padding-top: 10px; }
 .mails_main .point_content .main_content_box .point_list.no_border{ border-bottom:none;}
 .mails_main .point_content .main_content_box .point_list .point_pic_s{ width:28px; height:28px; float:left; margin-top:8px;}
-.mails_main .point_content .main_content_box .point_list .how_many{float: left; margin-left:10px; font-size:1rem; background-image: url(../images/user/mails/icon_point.png); background-repeat: no-repeat; background-size: 25px; background-position: 0 10px; padding-left: 35px;}
-.mails_main .point_content .main_content_box .point_list .dollar{ display:block; width:88px; height:42px; background-color:#00bc92; float:right; text-align:center; margin-right:10px; border-radius:5px; color:#fff; font-weight:normal; text-decoration:none; font-size:0.9rem; line-height:42px;}
+.mails_main .point_content .main_content_box .point_list .how_many{float: left; margin-left:10px; font-size:0.8rem; background-image: url(../images/user/mails/icon_point.png); background-repeat: no-repeat; background-size: 25px; background-position: 0 10px; padding-left: 35px;}
+.mails_main .point_content .main_content_box .point_list .dollar{ display:block; width:75px; height:42px; background-color:#00bc92; float:right; text-align:center; margin-right:0px; border-radius:5px; color:#fff; font-weight:normal; text-decoration:none; font-size:0.9rem; line-height:42px;}
 .mails_main .point_content .description{ padding: 10px 15px; height:70px;}
 .mails_main .point_content .description .text{ color:#999d9f; font-size: 0.8rem;}
 
@@ -340,7 +340,7 @@
 .mails_main .point_content.transfer .main_content_box .point_box{ text-align:left;}
 .mails_main .point_content.transfer .main_content_box .point_box .box_title{ color:#fff; font-size:1.3rem;}
 .mails_main .point_content.transfer .main_content_box .point_box .box_text{margin-top: 15px; font-size:0.85rem; color:#fff;}
-.mails_main .point_content.transfer .transfer_list{ border-bottom:1px solid #ddd; font-size:0.85rem; height:40px; line-height:40px; color:#666;}
+.mails_main .point_content.transfer .transfer_list{ border-bottom:1px solid #ddd; font-size:0.85rem; height:52px; line-height:52px; color:#666;}
 .mails_main .point_content.transfer .transfer_list .left_row{ float:left; width:65px; height:40px;}
 .mails_main .point_content.transfer .transfer_list .left_row .title{text-align: justify; height:40px;}
 .mails_main .point_content.transfer .transfer_list .left_row .title::after{content: ''; display: inline-block; width: 100%;}

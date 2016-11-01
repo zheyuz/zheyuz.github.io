@@ -191,13 +191,13 @@ main.store_detail{ margin-bottom:60px;}
 .cart_content{ margin-bottom:240px;}
 .cart_item{ width: 100%; background-color: #fff; position: relative; height: 120px; padding: 15px 0; display: inline-block; border-bottom:1px solid #e5e5e5; }
 .cart_item .left_box{ height: 120px; width: 120px; position: absolute; margin-left: 10px;}
-.cart_item .left_box a{ display: block;}
-.cart_item .left_box a.product_img img{ width: 120px;}
+.cart_item .left_box a{ display: block; background: #fff;}
+.cart_item .left_box img{ width: 120px;}
 .cart_item .right_box{ padding: 0 0 0 140px;}
-.cart_item .right_box h3.product_title{ width: 100%; height: 50px; overflow: hidden;}
-.cart_item .right_box h3.product_title a{ font-size: 0.95rem; text-decoration: none; color: #555; line-height: 20px;}
+.cart_item .right_box h3.product_title{ width: 100%; height: 50px; overflow: hidden; font-size: 0.9rem; color: #555; line-height: 20px;}
+.cart_item .right_box h3.product_title a{ font-size: 0.9rem; text-decoration: none; color: #555; line-height: 20px;}
 .cart_item .right_box .p_text_box{ width: 100%; margin: 5px 0 0; position: absolute; bottom: 15px;}
-.cart_item .right_box .p_text_box p{ font-size: 0.85rem; color: #888; line-height: 22px;}
+.cart_item .right_box .p_text_box p{ font-size: 0.8rem; color: #888; line-height: 22px;}
 
 /*修改數量、刪除*/
 .cart_item .right_box a.modified_btn{ float: right; top: 35px; left: -2px;  padding: 0; width: 30px; height: 30px; background: url(../images/store/icon_modify.png) no-repeat 0 0 / 30px 30px transparent; border: 0; box-shadow: 0 0 0 #fff;}
@@ -224,10 +224,9 @@ main.store_detail{ margin-bottom:60px;}
 /* 20160914 修改合購商品數量 */
 .cart_item{ height: 120px;}
 .cart_item .left_box{ height: 120px; width: 120px; position: absolute; margin-left: 10px;}
-.cart_item .left_box a.product_img{ width: 120px; height: 120px; border: 1px solid #ececec; background-color: #fff;}
-.cart_item .left_box a.product_img img{ width: 120px;}
+.cart_item .left_box img{ width: 120px; height: 120px; border: 1px solid #ececec; background-color: #fff;}
 .cart_item .right_box{ padding: 0 0 0 140px;}
-.cart_item .right_box h3.product_title{ float: left; line-height: 15px; height: 40px; max-width: 80%;}
+.cart_item .right_box h3.product_title{ float: left; height: 40px; max-width: 80%;}
 .cart_item .right_box .amount_modify{ width: 88px; height: 24px; border: 1px solid #ddd; display: inline-block; margin-top: 7px; text-align: center;}
 .cart_item .right_box .amount_modify span.amount_no{ font-size: 0.75rem; color: #666; }
 .cart_item .right_box .amount_modify a{ height: 24px; width: 24px; display: inline-block;}

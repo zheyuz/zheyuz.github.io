@@ -132,31 +132,30 @@ main.loading .container3 .circle4 { -webkit-animation-delay: -0.1s; animation-de
 
 /*====================TopBar開始====================*/
 /*未登入*/
-.wrapper .top_menu{ background-color: #ffb200; height: 60px; width: 100%; overflow: hidden; border-bottom: 1px solid rgba(255,255,255,0.7); }
-.wrapper .top_menu .ihergo_logo{ height: 60px; text-align: center;}
-.wrapper .top_menu .ihergo_logo img.logo_img{ width:160px;}
-.wrapper .top_menu a.memu_btn{ position: absolute; top: 0; height: 60px; width: 60px; padding: 0; margin: 0; background: url(../images/image/icon_menu.png) no-repeat 0 5px / 60px auto transparent; border: 0; border-radius: 0; box-shadow: 0 0 0;}
+.wrapper .top_menu{ background-color: #ffb200; height: 48px; width: 100%; overflow: hidden; border-bottom: 1px solid rgba(255,255,255,0.7); }
+.wrapper .top_menu .ihergo_logo{ height: 48px; text-align: center;}
+.wrapper .top_menu .ihergo_logo img.logo_img{ height: 45px;}
+.wrapper .top_menu a.memu_btn{ position: absolute; top: 0; height: 50px; width: 50px; padding: 0; margin: 0; background: url(../images/image/icon_menu.png) no-repeat center center / 27px auto transparent; border: 0; border-radius: 0; box-shadow: 0 0 0;}
 .wrapper .top_menu a.memu_btn:active{ background-color: #ffc94d;}
-.wrapper .top_menu a.memu_btn img{ width: 64px; position: relative; top: 7px;}
-.wrapper .top_menu a.login_btn{ font-size: 1.1rem; position: absolute; top: 0; right: 0; height: 60px; line-height: 64px; color: #fff; font-weight: bold; text-decoration: none; padding: 0 15px; margin: 0; background-color: transparent; border: 0; border-radius: 0; box-shadow: 0 0 0; text-shadow: 0 0 0;}
+.wrapper .top_menu a.login_btn{ font-size: 0.95rem; position: absolute; top: 0; right: 0; height: 47px; line-height: 50px; color: #fff; font-weight: bold; text-decoration: none; padding: 0 15px; margin: 0; background-color: transparent; border: 0; border-radius: 0; box-shadow: 0 0 0; text-shadow: 0 0 0;}
 .wrapper .top_menu a.login_btn:active{ background-color: #ffc94d;}
 
 /*已登入*/
-.wrapper .top_menu ul.my_account{ float: right; height: 60px;}
-.wrapper .top_menu li.li_account{ float: left; width: 55px; height: 60px; position: relative; }
-.wrapper .top_menu li.li_account a{ display: block; /*text-indent: -99999px;*/ line-height: 15px; text-align: center; font-size: 0.7rem; text-decoration: none; color: #fff; padding: 39px 0 6px; font-weight: normal;}
+.wrapper .top_menu ul.my_account{ float: right; height: 48px;}
+.wrapper .top_menu li.li_account{ float: left; width: 52px; height: 48px; position: relative; }
+.wrapper .top_menu li.li_account a{ display: block; /*text-indent: -99999px;*/ line-height: 15px; text-align: center; font-size: 0.68rem; text-decoration: none; color: #fff; padding: 30px 0 3px; font-weight: normal;}
 .wrapper .top_menu li.li_account a:active{ background-color: #ffc94d;}
-.wrapper .top_menu li.li_account p.unread{ background-color: #f06354; color: #fff; font-size: 0.8rem; height: 20px; width: 20px; position: absolute; top: 4px; right: 6px; text-align: center; line-height: 20px; border-radius: 50%; font-weight: 500; font-family: Helvetica ,Arial;}
-.wrapper .top_menu li.my_calendar a{ background: url(../images/image/icon_my_calendar.png) no-repeat center 2px;}
-.wrapper .top_menu li.my_order a{ background: url(../images/image/icon_my_order.png) no-repeat center 2px;}
-.wrapper .top_menu li.my_mail a{ background: url(../images/image/icon_my_mail.png) no-repeat center 2px;}
-.wrapper .top_menu li.my_notify a{ background: url(../images/image/icon_my_notify.png) no-repeat center 2px;}
-.wrapper .top_menu li.my_club a{ background: url(../images/image/icon_my_club.png) no-repeat center 2px;}
-.wrapper .top_menu li.li_account a{ background-size:40px 40px;}
+.wrapper .top_menu li.li_account p.unread{ background-color: #f06354; color: #fff; font-size: 0.65rem; height: 16px; width: 16px; position: absolute; top: 2px; right: 6px; text-align: center; line-height: 16px; border-radius: 50%; font-weight: 500; font-family: Helvetica ,Arial;}
+.wrapper .top_menu li.my_calendar a{ background: url(../images/image/icon_my_calendar.png) no-repeat center 4px;}
+.wrapper .top_menu li.my_order a{ background: url(../images/image/icon_my_order.png) no-repeat center 4px;}
+.wrapper .top_menu li.my_mail a{ background: url(../images/image/icon_my_mail.png) no-repeat center 4px;}
+.wrapper .top_menu li.my_notify a{ background: url(../images/image/icon_my_notify.png) no-repeat center 4px;}
+.wrapper .top_menu li.my_club a{ background: url(../images/image/icon_my_club.png) no-repeat center 4px;}
+.wrapper .top_menu li.li_account a{ background-size: 24px auto;}
 
 
 @media screen and ( max-width:320px) {
-	.wrapper .top_menu li.li_account{ width: 50px; height: 60px;}
+	.wrapper .top_menu li.li_account{ width: 48px; height: 48px;}
 	.wrapper .top_menu li.li_account p.unread{ right: 4px;}
 }
 
@@ -503,23 +502,25 @@ table.popup_main_table td.right_td{ padding:10px 15px; border-bottom:1px solid #
 .popup_window{ width: 100%; height: 100%; position:fixed; top: 0; left: 0; bottom:0; right:0; background-color: rgba(0,0,0,0.6); z-index: 1000; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center;}
 .popup_window2{ padding: 15px; background-color: #fff; border-radius: 5px; margin: auto; box-shadow: 0 0 8px rgba(0,0,0,0.6); /*position:relative; top: 36%; bottom:50%; left: 0; right: 0; display:table; left:40%\0; position:fixed\0;*/}
 .popup_window .popup_main { background-color: #fff; margin: 10px 0;}
-.popup_window .popup_main p{ color:#888; font-size:0.95rem; padding:5px 0; letter-spacing:1px; margin-bottom:5px;}
+.popup_window .popup_main p{ color:#888; font-size:0.85rem; padding:5px 0; letter-spacing:1px; margin-bottom:5px;}
 .popup_window .popup_main a{ text-decoration:none; color:#6579b6; padding: 0 1px;}
 .popup_window .popup_main p.alarmRemind_txt{ color: #F64949; font-size: 0.85rem; padding: 0; letter-spacing: 0px;}
+.popup_window .popup_main .ui-select .ui-btn{ text-align: left; box-shadow: 0 0 1px rgba(0,0,0,.15); padding: 10px; color: #777;}
+.popup_window .popup_main .ui-select .ui-btn-active{ background-color: #f3f3f3; border-color: #ddd;}
 
 .popup_footer{ margin:10px auto 0; width: 100%; text-align: center;}
-.popup_window .popup_footer a.ok_btn{ display: block; background-color: #ffc94d; font-size: 1rem; text-align: center; color: #fff; text-decoration: none; padding: 10px; border-radius: 5px;}
+.popup_window .popup_footer a.ok_btn{ display: block; background-color: #ffc94d; font-size: 0.9rem; text-align: center; color: #fff; text-decoration: none; padding: 10px; border-radius: 5px;}
 .popup_window .popup_footer a.ok_btn:active{ opacity: 0.8;}
-.popup_window a.footer_close_btn{ display:inline-block; background-color:#e9e9e9; color:#777; text-decoration:none; padding:8px 20px; border-radius:3px; text-align: center; min-width:70px; font-size:0.9rem; margin: 0 3px;}
+.popup_window a.footer_close_btn{ display:inline-block; background-color:#e9e9e9; color:#666; text-decoration:none; padding:6px 10px; border-radius:3px; text-align: center; min-width:60px; font-size:0.8rem; margin: 0 3px;}
 .popup_window a.footer_close_btn:active{opacity:0.8;}
-.popup_window a.footer_subimt_btn{ display:inline-block; background-color:#ffc94d; color:#fff; text-decoration:none; padding:8px 20px; border-radius:3px; text-align: center; min-width:70px; font-size:0.9rem; margin: 0 3px;}
+.popup_window a.footer_subimt_btn{ display:inline-block; background-color:#ffc94d; color:#fff; text-decoration:none; padding:6px 10px; border-radius:3px; text-align: center; min-width:60px; font-size:0.8rem; margin: 0 3px;}
 .popup_window a.footer_subimt_btn:active{ opacity: 0.8;}
-.popup_window a.footer_true_btn{ display:inline-block; background-color:#97cc19; color:#fff; text-decoration:none; padding:8px 20px; border-radius:3px; text-align: center; min-width:70px; font-size:0.9rem; margin: 0 3px;}
+.popup_window a.footer_true_btn{ display:inline-block; background-color:#97cc19; color:#fff; text-decoration:none; padding:6px 10px; border-radius:3px; text-align: center; min-width:60px; font-size:0.8rem; margin: 0 3px;}
 .popup_window a.footer_true_btn:active{ opacity: 0.8;}
 
-.popup_window p.popup_alert_text{ background:url(../images/image/icon_error.png) no-repeat 0 2px / 30px 30px transparent; padding: 5px 0 10px 40px; font-weight:bold; color:#F64949; font-size:1.05rem; letter-spacing:0;}
-.popup_window p.popup_info_text{ background:url(../images/image/icon_info.png) no-repeat 0 2px / 30px 30px transparent; padding: 5px 0 10px 40px; font-weight:bold; color:#666; font-size:1.05rem; letter-spacing:0; }
-.popup_window p.popup_success_text{ background:url(../images/image/icon_accept.png) no-repeat 0 2px / 30px 30px transparent; padding: 5px 0 10px 40px; font-weight:bold; color:#6d9b00; font-size:1.05rem; letter-spacing:0;}
+.popup_window p.popup_alert_text{ background:url(../images/image/icon_error.png) no-repeat 0 4px / 22px auto transparent; padding: 3px 0 5px 30px; font-weight:bold; color:#F64949; font-size:0.925rem; letter-spacing:0;}
+.popup_window p.popup_info_text{ background:url(../images/image/icon_info.png) no-repeat 0 4px / 22px auto transparent; padding: 3px 0 5px 30px; font-weight:bold; color:#666; font-size:0.925rem; letter-spacing:0; }
+.popup_window p.popup_success_text{ background:url(../images/image/icon_accept.png) no-repeat 0 4px / 22px auto transparent; padding: 3px 0 5px 30px; font-weight:bold; color:#6d9b00; font-size:0.925rem; letter-spacing:0;}
 
 /* ---------- 選擇日曆Popup_開始 ---------- */
 .ui-datebox-container .ui-header{ background-color: #ffc94d; border-color: #fcbd2b; text-shadow: 0 0 0 #ffc94d; color:#fff;}
@@ -531,7 +532,6 @@ table.popup_main_table td.right_td{ padding:10px 15px; border-bottom:1px solid #
 .popup_window .popup_title a.popup_cancel_btn{ float: right; width: 18px; height: 18px; background: url(../images/store/icon_popup_cancel.png) no-repeat 0 0 / 18px 18px transparent; position: relative; top:5px;}
 .popup_window .popup_title a.popup_cancel_btn:active{opacity: 0.8;}
 .popup_window .popup_main{ background-color: #fff; margin: 10px 0}
-.modified_Popup_content .popup_main .ui-select .ui-btn{ text-align: left; box-shadow: 0 0 1px rgba(0,0,0,.15); padding: 10px; color: #777;}
 .modified_Popup_content a.amount_delete_btn{ float: left; width: 20px; height: 20px; margin: 3px 10px 0 0; background: url(../images/store/icon_amount_delete.png) no-repeat center center / 20px 20px #f9f9f9; padding:5px; border: 1px solid #d5d5d5; border-radius: 3px; box-shadow: 1px 1px 3px rgba(0,0,0,0.15);}
 .modified_Popup_content a.amount_add_btn{ float: left; width: 20px; height: 20px; margin: 3px 0 0 10px; background: url(../images/store/icon_amount_add.png) no-repeat center center / 20px 20px #f9f9f9; padding:5px; border: 1px solid #d5d5d5; border-radius: 3px; box-shadow: 1px 1px 3px rgba(0,0,0,0.15);}
 .modified_Popup_content a.amount_delete_btn:active, .wrapper .amount_modified_content a.amount_add_btn:active{opacity: 0.8;}
@@ -630,10 +630,10 @@ a.submit_btn{ max-width: var(--max_w); margin: 0 auto;}
 /* ======================= 20160303 設定面交點Popup 修改_結束 ======================= */
 
 /* ======================= 20160310 新增 發起合購分享免帳號網址Popup_開始 ======================= */
-.popup_window .popup_main p.text12{ font-weight: bold; color:#657076; font-size:0.9rem;}
-.popup_window .popup_main .share_link{ background-color:#f3f5f5; padding: 10px 15px 15px; border-radius: 5px; margin: 10px 0 15px; display:block;}
-.popup_window .popup_main .share_link p{ color:#677; font-size:0.9rem;}
-.popup_window .popup_main .share_link input{ background-color:#fff; font-size:0.9rem;}
+.popup_window .popup_main p.text12{ font-weight: bold; color:#657076; font-size:0.85rem;}
+.popup_window .popup_main .share_link{ background-color:#f3f5f5; padding: 5px 10px 10px; border-radius: 5px; margin: 10px 0 15px; display:block;}
+.popup_window .popup_main .share_link p{ color:#677; font-size:0.8rem;}
+.popup_window .popup_main .share_link input{ background-color:#fff; font-size:0.8rem;}
 .popup_window .popup_main .share_btns{ width: 290px; margin: 10px auto 20px; text-align: center;}
 .popup_window .popup_main .share_btns a{ display: inline-block; width: 46px; height: 46px; border-radius: 50%; margin: 0 6px; text-align:center;}
 .popup_window .popup_main .share_btns a:active{ opacity: 0.8;}

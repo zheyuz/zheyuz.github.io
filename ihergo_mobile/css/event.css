@@ -337,7 +337,7 @@
 .modifiy_union_block .cart_content .addmore_item a.addmore_btn:active{ background-color: #ffa863;}
 
 .modifiy_union_block .payable_content{ background-color: #fff; margin-bottom: 30px; padding-top: 5px;}
-.modifiy_union_block .payable_content p{ color: #555; font-size: 0.9rem; text-shadow:0 0 0 transparent; line-height: 35px;}
+.modifiy_union_block .payable_content p{ color: #555; font-size: 0.85rem; text-shadow:0 0 0 transparent; line-height: 35px;}
 .modifiy_union_block .payable_content p.left_title{ float: left; font-weight: bold;}
 .modifiy_union_block .payable_content p.right_text{ float: right;}
 .modifiy_union_block .payable_content .payable_amount{ margin: 0 15px;}
@@ -368,18 +368,18 @@
 .modifiy_union_block .groupForm_content .pay_item{ padding: 5px 0 18px;}
 .modifiy_union_block .groupForm_content .form_item span.light{ color: #f06354; padding-right: 5px;}
 .modifiy_union_block .groupForm_content .note_item{ border-bottom: 0;}
-.modifiy_union_block .groupForm_content p{ color: #777; font-size: 0.9rem; text-shadow:0 0 0 transparent;}
+.modifiy_union_block .groupForm_content p{ color: #777; font-size: 0.85rem; text-shadow:0 0 0 transparent;}
 .modifiy_union_block .groupForm_content p.left_title{ font-weight:600 !important; color: #333; margin: 0;}
-.modifiy_union_block .groupForm_content .right_text{ font-size: 0.9rem; color:#777; margin-top: 10px; float: none;}
+.modifiy_union_block .groupForm_content .right_text{ font-size: 0.85rem; color:#777; margin-top: 7px; float: none;}
 .modifiy_union_block .groupForm_content .right_text span.span_txt{ float: left; line-height: 47px; margin-left:5px;}
 .modifiy_union_block .groupForm_content .pay_item .ui-input-text{ float: left; width: 200px;}
 .modifiy_union_block .groupForm_content .note_item textarea{ min-height: 80px; background-color:#f9f9f9; border:1px solid #ddd; box-shadow:0 0 0 #f9f9f9 inset;}
-.modifiy_union_block .groupForm_content .form_item input[type="text"], input[type="password"]{ font-size: 0.9rem; padding: 8px 10px;}
+.modifiy_union_block .groupForm_content .form_item input[type="text"], input[type="password"]{ font-size: 0.85rem; padding: 8px 10px;}
 
 .modifiy_union_block .groupForm_content .meetLocation_item{ padding: 15px 0 20px;}
-.modifiy_union_block .groupForm_content p.meetLocation_text{ background: url(../images/store/icon_right.png) no-repeat 97% center / 20px 20px #f9f9f9; border: 1px solid #d6dbdb; padding: 8px 10px; border-radius: 5px; margin: 10px 0 0; cursor:pointer; color: #425e67;}
+.modifiy_union_block .groupForm_content p.meetLocation_text{ background: url(../images/store/icon_right.png) no-repeat 97% center / 20px 20px #f9f9f9; border: 1px solid #d6dbdb; padding: 8px 10px; border-radius: 5px; margin: 7px 0 0; cursor:pointer; color: #425e67;}
 .modifiy_union_block .groupForm_content p.meetLocation_text:active{ opacity: 0.8;}
-.modifiy_union_block .groupForm_content p.meetLocation_text span{ background:url(../images/image/icon_pint.png) no-repeat 0 center / 40px 40px transparent; padding: 11px 25px 10px 45px; display: block; font-size: 0.9rem;}
+.modifiy_union_block .groupForm_content p.meetLocation_text span{ background:url(../images/image/icon_pint.png) no-repeat 0 center / 40px 40px transparent; padding: 11px 25px 10px 45px; display: block; font-size: 0.85rem;}
 .modifiy_union_block .groupForm_content p.meetLocation_home span{ background:url(../images/image/icon_pint_home.png) no-repeat 0 center / 40px 40px transparent;}
 .modifiy_union_block .groupForm_content p.meetLocation_disabled span{ background:url(../images/image/icon_pint_disabled.png) no-repeat 0 center / 40px 40px transparent;}
 .modifiy_union_block .groupForm_content .meetLocation_disabled{ cursor:auto; }
@@ -570,10 +570,10 @@
 .wrapper .mails_main .storeName_title .store_img{ float: left; width:60px;}
 .wrapper .mails_main .storeName_title .store_img img{ border-radius:50%; width:60px;}
 .wrapper .mails_main .storeName_title .store_infor{ margin:5px 0 0 70px; height:55px;}
-.wrapper .mails_main .storeName_title .store_infor p.store_id{ font-size: 0.82rem; margin-bottom:5px; color:#105cb6;}
+.wrapper .mails_main .storeName_title .store_infor p.store_id{ font-size: 0.8rem; margin-bottom:5px; color:#105cb6;}
 .wrapper .mails_main .storeName_title .store_infor p.store_id span{ margin-left:3px;}
-.wrapper .mails_main .storeName_title p.store_phone{ font-size:0.85rem; color:#888; line-height:0.9rem; margin-bottom:7px;}
-.wrapper .mails_main .storeName_title .user_tool_box{ top:30px;}
+.wrapper .mails_main .storeName_title p.store_phone{ font-size:0.8rem; color:#888; line-height:0.9rem; margin-bottom:7px;}
+.wrapper .mails_main .storeName_title .user_tool_box{ top:20px;}
 
 .wrapper .mails_main ul.order_main_tabs { width: 100%; display: -webkit-flex; display: flex;}
 .wrapper .mails_main ul.order_main_tabs li.tab_item { -webkit-flex: 1; flex: 1; background-color: #fae4e1; border: 1px solid #eeb6b5; color: #db5858; cursor: pointer; font-size: 0.95rem; height: 55px; line-height: 55px; text-align: center;}
@@ -590,6 +590,9 @@
 .wrapper .mails_main .unionInfo_content .unionMail_box a.reply_order_btn{ display: block; font-size:0.9rem; background: url(../images/user/mails/icon_right_w.png) no-repeat 95% center / 16px 16px #f36d62; border:1px solid #d15333; color:#fff; line-height: 40px; text-decoration:none; margin: 20px auto; padding-right:10px; width:100px; text-align: center; border-radius:5px;}
 .wrapper .mails_main .unionInfo_content .unionMail_box a.reply_order_btn:active{ background-color:#f7796e; border:1px solid #da5d3d;}
 
+/*店長專用*/
+.wrapper .mails_main .storeName_title a.go_admin_btn{ background-color: #fff; position: absolute; right: 15px; top: 30px; color: #EF555A; text-decoration: none; font-size: 0.7rem; padding: 6px 10px; border: 1px solid #EF555A; border-radius: 5px;}
+.wrapper .mails_main .storeName_title a.go_admin_btn:active{ background-color: #EF555A; color: #fff;}
 
 /*======================================== 訂購單_結束 ========================================*/
 
