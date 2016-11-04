@@ -68,7 +68,8 @@ label:before { content: ""; display: inline-block; cursor: pointer; }
 #add_new_item_add_spec .ui-panel-wrapper { background: #ffffff !important; }
 #add_new_item_modify_spec .ui-panel-wrapper { background: #ffffff !important; }
 #set_event_detail .ui-panel-wrapper { background: var(--gray_F7) !important; }
-#details_set_type .ui-panel-wrapper, #details_set_type_sub .ui-panel-wrapper { background: #ffffff !important; }
+#details_set_type .ui-panel-wrapper { background: #ffffff !important; }
+#details_set_type_sub .ui-panel-wrapper { background: #ffffff !important; }
 #details_transfer_add_shipping .ui-panel-wrapper, #details_transfer_modify_shipping .ui-panel-wrapper, #details_club_notify .ui-panel-wrapper { background: #ffffff !important; }
 #details_transfer .ui-panel-wrapper { padding-bottom: 50px; }
 
@@ -363,7 +364,7 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 
 /*通用 guideline_form*/
 .wrapper article.main_content .guideline_form { width: 90%; margin: 0 auto; border-bottom: 1px solid var(--gray_E5); }
-.wrapper article.main_content .guideline_form label.title { width: 100%; height: 18px; display: block; padding: 17px 0 15px 0; font-size: 0.7778rem;/*14px*/ font-weight: bold; color: var(--gray_888); line-height: 18px; position: relative; }
+.wrapper article.main_content .guideline_form label.title { width: 100%; height: 18px; display: block; padding: 17px 0 15px 0; font-size: 0.7778rem;/*14px*/ font-weight: bold; color: var(--gray_888); line-height: 18px; position: relative; margin:0; }
 .wrapper article.main_content .guideline_form .title.error { color: #ff0000; }
 .wrapper article.main_content .guideline_form label.title small { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: relative; top: -1px; }
 .wrapper article.main_content .guideline_form label.title small.quotation { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: absolute; top: calc((100% - 18px)/2); right: 0; }

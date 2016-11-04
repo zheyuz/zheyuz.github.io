@@ -271,6 +271,7 @@
 
 .mails_main .calendar_content .main_content_box{ border:1px solid #ddd; background-color:#fff; margin: 10px 15px; padding: 0;}
 .mails_main .calendar_content .main_content_box.full{ border:1px solid #ddd; background-color:#fff; margin: 20px 0px; padding: 0;}
+.mails_main .calendar_content .main_content_box.full.margin{ margin-top: 0px;}
 .mails_main .calendar_content .calendar_infor_box{ border-bottom:1px solid #ddd; padding:10px 15px;}
 .mails_main .calendar_content .calendar_infor_box.h30{ height:30px; border-bottom:1px solid #ddd; padding:10px 15px;}
 .mails_main .calendar_content .calendar_infor_box h5.infor_title{ font-size:0.95rem; color:#555; line-height:30px;}
@@ -350,3 +351,6 @@
 .mails_main .point_content.transfer .cancel_btn_box .cancel_btn{ width:100px; height:40px; line-height:38px; margin:0 auto; background-color:#fff; border:2px solid #eee; border-radius:10px;}
 .mails_main .point_content.transfer .cancel_btn_box .cancel_btn a{ color:#999; text-decoration:none; font-size:0.85rem;}
 /*======================================== 點數儲值_結束 ========================================*/
+
+.mails_main .calendar_content .deposit{padding: 15px 15px 0px 15px;height: 30px;line-height: 30px;}
+.mails_main .calendar_content .deposit .text_title{color: #999d9f;font-weight: bold;font-size: 0.9rem;}

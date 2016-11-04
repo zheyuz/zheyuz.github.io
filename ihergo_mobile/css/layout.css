@@ -187,6 +187,7 @@ main.loading .container3 .circle4 { -webkit-animation-delay: -0.1s; animation-de
 .wrapper .panel_navi li.li_goodies{ background: url(../images/image/icon_goodies.png) no-repeat 15px center / 20px 20px #fff;}
 .wrapper .panel_navi li.li_bonus{ background: url(../images/image/icon_bonus.png) no-repeat 15px center / 20px 20px #fff;}
 .wrapper .panel_navi li.li_count{ background: url(../images/image/icon_count.png) no-repeat 15px center / 20px 20px #fff;}
+.wrapper .panel_navi li.li_settings{ background: url(../images/image/icon_settings.png) no-repeat 15px center / 20px 20px #fff;}
 .wrapper .panel_navi li.li_family{ background: url(../images/image/icon_family.png) no-repeat 15px center / 20px 20px #fff;}
 .wrapper .panel_navi li.li_mystore{ background: url(../images/image/icon_mystore.png) no-repeat 15px center / 20px 20px #fff;}
 .wrapper .panel_navi li.li_logout{ background: url(../images/image/icon_exit.png) no-repeat 15px center / 20px 20px #fff;}

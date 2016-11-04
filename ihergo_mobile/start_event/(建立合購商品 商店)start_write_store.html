@@ -260,7 +260,7 @@
           <div class="mask_modal"></div>
           <ul class="button_list">
             <li class="button_content">
-              <a href="#" class="action_btn edit_content" data-transition="slide">編輯商品</a>
+              <a href="#add_new_item" class="action_btn edit_content" data-transition="slideup">編輯商品</a>
               <div class="btn_divider"></div>
             </li>
             <li class="button_content">
@@ -364,8 +364,9 @@
               </div>
               <!--.form_single_line_text_field 單行文字輸入框:商品名稱-->
               <div class="guideline_form form_single_line_text_field">
+                <!--未填+.error-->
                 <label class="title error">商品名稱<small>(必填, 最多輸入15個全形字)</small></label>
-                <label class="error_msg" style="display:block">這是必填內容喔</label>
+                <label class="error_msg">這是必填內容喔</label>
                 <!--限制只能輸入15個全形字，由於maxlenght會同時限制全形半形，這裏再麻煩用
                   javascript處理-->
                 <input type="text" placeholder="想合購的商品名稱">
@@ -388,6 +389,7 @@
               </div>
               <!--.form_single_line_text_field 單行文字輸入框:團購價-->
               <div class="guideline_form form_single_line_text_field">
+                <!--未填+.error-->
                 <label class="title">團購價<small>(必填)</small></label>
                 <label class="error_msg">這是必填內容喔</label>
                 <input type="text" placeholder="商品的合購優惠價">
@@ -504,7 +506,9 @@
             <div class="item_form_content border_btm">
               <!--.form_single_line_text_field 單行文字輸入框:商品網址-->
               <div class="guideline_form form_single_line_text_field">
+                <!--未填+.error-->
                 <label class="title">規格</label>
+                <label class="error_msg">這是必填內容喔</label>
                 <input type="text" placeholder="例如顏色 尺寸 重量">
               </div>
             </div>
@@ -541,7 +545,9 @@
             <div class="item_form_content border_btm">
               <!--.form_single_line_text_field 單行文字輸入框:商品網址-->
               <div class="guideline_form form_single_line_text_field">
+                <!--未填+.error-->
                 <label class="title">規格</label>
+                <label class="error_msg">這是必填內容喔</label>
                 <input type="text" placeholder="例如顏色 尺寸 重量" value="建議只寫15個全形字">
               </div>
             </div>
@@ -592,7 +598,8 @@
                 <!--.form_single_line_text_field 單行文字輸入框:合購標題-->
                 <div class="guideline_form form_single_line_text_field">
                   <!--未填+.error-->
-                  <label class="title error">合購標題
+                  <label class="title error">
+                    合購標題
                     <small class="quotation">
                       <!--Popup規則
                         data-title >> Popup標題
@@ -601,12 +608,13 @@
                       <a class="quo_link" data-href="popup" data-popuptitle="商店優惠訊息" data-popupcontent="未滿2500元需付運費210元<br>滿3500元享有9折優惠<br>滿6000元享有85折優惠<br>滿6000元享有85折優惠">商店優惠訊息</a>
                     </small>
                   </label>
-                  <label class="error_msg" style="display:block">這是必填內容喔</label>
+                  <label class="error_msg">這是必填內容喔</label>
                   <input type="text" placeholder="吸引人的勸敗標題或合購目標">
                 </div>
                 <!--.form_text_field_combination 文字輸入框組合:合購類別-->
                 <!--不要箭頭 +.no_arrow-->
                 <div class="guideline_form form_text_field_combination entry error">
+                  <!--未填+.error-->
                   <label class="title">合購類別</label>
                   <label class="error_msg">這是必填內容喔</label>
                   <a href="#details_set_type" class="container" data-transition="slideup">
@@ -632,6 +640,7 @@
                 </div>
                 <!--.form_date_select 選擇日期、時間:截止時間-->
                 <div class="guideline_form form_date_select">
+                  <!--未填+.error-->
                   <label class="title">截止日期<small class="quotation"><a class="quo_link" data-href="popup" data-popuptitle="此大合購最後下單日" data-popupcontent="2016-08-12">大合購最後下單日</a></small></label>
                   <label class="error_msg">這是必填內容喔</label>
                   <div class="date_select_container">
@@ -721,6 +730,7 @@
                 <!--.form_text_field_combination 文字輸入框組合:商品描述-->
                 <!--不要箭頭 +.no_arrow / 展開下一層+.entry-->
                 <div class="guideline_form form_text_field_combination entry">
+                  <!--未填+.error-->
                   <label class="title">商品推薦</label>
                   <label class="error_msg">這是必填內容喔</label>
                   <!--兩行內容+.double_line-->
@@ -760,12 +770,14 @@
               <div class="item_form_content">
                 <!--.form_single_line_text_field 單行文字輸入框:合購標題-->
                 <div class="guideline_form form_single_line_text_field">
+                  <!--未填+.error-->
                   <label class="title">聯絡電話</label>
                   <label class="error_msg">這是必填內容喔</label>
                   <input type="text" placeholder="參與合購的團員才能看到你的電話">
                 </div>
                 <!--.form_checkbox_combination 勾選組合:收款方式-->
                 <div class="guideline_form form_checkbox_combination">
+                  <!--未填+.error-->
                   <label class="title">收款方式</label>
                   <label class="error_msg">這是必填內容喔</label>
                   <ul class="checkbox_container">
@@ -797,6 +809,7 @@
                 <!--.form_text_field_combination 文字輸入框組合:取貨方式-->
                 <!--不要箭頭 +.no_arrow / 展開下一層+.entry-->
                 <div class="guideline_form form_text_field_combination entry">
+                  <!--未填+.error-->
                   <label class="title">取貨方式</label>
                   <label class="error_msg">這是必填內容喔</label>
                   <!--兩行內容+.double_line-->
@@ -828,7 +841,6 @@
                   </a>
                   </small>
                   </label>
-                  <label class="error_msg">這是必填內容喔</label>
                   <!--兩行內容+.double_line-->
                   <a href="#details_notify" class="container double_line" data-transition="slideup">
                     <div class="left">
@@ -1576,7 +1588,9 @@
               <div class="item_form_content">
                 <!--.form_single_line_text_field 單行文字輸入框:面交點地址-->
                 <div class="guideline_form form_single_line_text_field">
+                  <!--未填+.error-->
                   <label class="title">面交點地址</label>
+                  <label class="error_msg">這是必填內容喔</label>
                   <input type="text" placeholder="移動地圖上的指標來調整面交點位置">
                 </div>
                 <!--.form_single_line_text_field 單行文字輸入框:面交時間-->
@@ -1632,7 +1646,9 @@
               <div class="item_form_content">
                 <!--.form_single_line_text_field 單行文字輸入框:面交點地址-->
                 <div class="guideline_form form_single_line_text_field">
+                  <!--未填+.error-->
                   <label class="title">面交點地址</label>
+                  <label class="error_msg">這是必填內容喔</label>
                   <input type="text" placeholder="移動地圖上的指標來調整面交點位置" value="[台北市] [中正區] 衡陽路51號">
                 </div>
                 <!--.form_single_line_text_field 單行文字輸入框:面交時間-->
@@ -1674,12 +1690,16 @@
             <div class="item_form_content border_btm">
               <!--.form_single_line_text_field 單行文字輸入框:面交點地址-->
               <div class="guideline_form form_single_line_text_field">
+                <!--未填+.error-->
                 <label class="title">寄送方式</label>
+                <label class="error_msg">這是必填內容喔</label>
                 <input type="text" placeholder="例如宅配、交貨便等">
               </div>
               <!--.form_single_line_text_field 單行文字輸入框:面交時間-->
               <div class="guideline_form form_single_line_text_field">
+                <!--未填+.error-->
                 <label class="title">寄送運費</label>
+                <label class="error_msg">這是必填內容喔</label>
                 <input type="text" placeholder="請輸入金額 ex.NT$60">
               </div>
             </div>
@@ -1713,14 +1733,18 @@
           <!--表單-->
           <div class="form_container">
             <div class="item_form_content border_btm">
-              <!--.form_single_line_text_field 單行文字輸入框:面交點地址-->
+              <!--.form_single_line_text_field 單行文字輸入框:寄送方式-->
               <div class="guideline_form form_single_line_text_field">
+                <!--未填+.error-->
                 <label class="title">寄送方式</label>
+                <label class="error_msg">這是必填內容喔</label>
                 <input type="text" placeholder="例如宅配、交貨便等" value="郵寄">
               </div>
-              <!--.form_single_line_text_field 單行文字輸入框:面交時間-->
+              <!--.form_single_line_text_field 單行文字輸入框:寄送運費-->
               <div class="guideline_form form_single_line_text_field">
+                <!--未填+.error-->
                 <label class="title">寄送運費</label>
+                <label class="error_msg">這是必填內容喔</label>
                 <input type="text" placeholder="請輸入金額 ex.NT$60">
               </div>
             </div>
