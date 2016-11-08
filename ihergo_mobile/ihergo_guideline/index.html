@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>ihergo Mobile UI Design Guideline</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link href="../../css/normalize.css" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<section class="main">
+				<header>
+					<span class="title">M版設計規範 元件</span><br>
+					<span class="description">使用以下元件前請先置入</span>
+<pre><p>&lt;link rel="stylesheet" href="../css/mobile_guideline.css"&gt;&nbsp; &nbsp; &lt;script type="text/javascript" src="../js/start_event.js"&gt;&lt;/script&gt;</p></pre>
+				<div class="sketch_file_dl">
+					<a href="https://drive.google.com/open?id=0B1MeieVvFQK5cThOeUxsZEJOY00"><img src="img/sketch_icon.png" alt="" style="width:50px"></a>
+					<a href="https://drive.google.com/open?id=0B1MeieVvFQK5cThOeUxsZEJOY00" class="dl_link">Sketch文件</a>
+				</div>
+				</header>
+				<article class="header_components">
+					<span class="title">Header</span>
+					<ul class="item_container">
+						<li class="item">
+							<div class="name_box">
+								.header_close 關閉
+							</div>
+							<div class="sample_box">
+								<img src="img/header-close.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--header_close 關閉-->
+<header class="header_guideline header_close" data-role="header" data-position="fixed">
+  <div class="header_container">
+    <span class="header_text">我要開團－設定商品</span>
+    <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
+  </div>
+</header>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.header_back 回上一頁
+							</div>
+							<div class="sample_box">
+								<img src="img/header-back.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--header_back 回上一頁-->
+<header class="header_guideline header_back" data-role="header" data-position="fixed">
+  <div class="header_container">
+    <span class="header_text">我要開團－設定商品</span>
+    <a href="#" class="back_btn"><i class="ic_header_arrow_left"></i></a>
+  </div>
+</header>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.header_back_close 回上一頁+關閉
+							</div>
+							<div class="sample_box">
+								<img src="img/header-back-close.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--header_back_close 回上一頁+關閉-->
+<header class="header_guideline header_back_close" data-role="header" data-position="fixed">
+  <div class="header_container">
+    <span class="header_text">我要開團－設定商品</span>
+    <a href="#" class="back_btn"><i class="ic_header_arrow_left"></i></a>
+    <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
+  </div>
+</header>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+.header_close_white 關閉(白)
+							</div>
+							<div class="sample_box">
+								<img src="img/header-close-white.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--header_close_white 關閉(白)-->
+<header class="header_guideline header_close_white" data-role="header" data-position="fixed">
+  <div class="header_container">
+    <span class="header_text">我要開團－設定商品</span>
+    <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
+  </div>
+</header>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+.header_back_white 回上一頁(白)
+							</div>
+							<div class="sample_box">
+								<img src="img/header-back-white.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--header_back 回上一頁-->
+<header class="header_guideline header_back_white" data-role="header" data-position="fixed">
+  <div class="header_container">
+    <span class="header_text">我要開團－設定商品</span>
+    <a href="#" class="back_btn"><i class="ic_header_arrow_left"></i></a>
+  </div>
+</header>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+.header_back_close_white 回上一頁+關閉(白)
+							</div>
+							<div class="sample_box">
+								<img src="img/header-back-close-white.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--header_back_close 回上一頁+關閉(白)-->
+<header class="header_guideline header_back_close_white" data-role="header" data-position="fixed">
+  <div class="header_container">
+    <span class="header_text">我要開團－設定商品</span>
+    <a href="#" class="back_btn"><i class="ic_header_arrow_left"></i></a>
+    <a href="#" class="close_btn"><i class="ic_header_close"></i></a>
+  </div>
+</header>
+								</textarea>
+							</div>
+						</li>
+					</ul>
+				</article>
+<article class="subheader_components">
+					<span class="title">Sub-Header</span>
+					<ul class="item_container">
+						<li class="item">
+							<div class="name_box">
+								.sub_header_dropdown 子標頭 下拉式選單
+							</div>
+							<div class="sample_box">
+								<img src="img/sub-header-dropdown.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--sub_header_dropdown 子標頭 下拉式選單-->
+<div class="sub_header sub_header_dropdown">
+  <div class="dropdown_bar">
+    <select class="sub_header_type_dropdown">
+      <option>全部商品(10)</option>
+      <option>北海道生乳捲(10)</option>
+    </select>
+  </div>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.sub_header_search 子標頭 搜尋
+							</div>
+							<div class="sample_box">
+								<img src="img/sub-header-search.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--sub_header_search 子標頭 搜尋-->
+<div class="sub_header sub_header_dropdown">
+  <div class="search_bar">
+    <a href="#" class="open_search_btn"><i class="ic_sub_header_search"></i></a>
+    <div class="search_con">
+      <a href="#" class="prev_step_link"><i class="ic_sub_header_arrow_left"></i></a>
+      <form action="#" class="sub_header_searchbar">
+        <input type="text" placeholder="輸入搜尋商品名稱" class="search_text_field">
+        <a href="#" class="search_btn"><i class="ic_sub_header_search"></i></a>
+      </form>
+    </div>
+  </div>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.sub_header_dropdown_search 子標頭 下拉式+搜尋
+							</div>
+							<div class="sample_box">
+								<img src="img/sub-header-dropdown-search.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--sub_header_dropdown_search 子標頭 下拉式+搜尋-->
+<div class="sub_header sub_header_dropdown_search">
+  <div class="dropdown_bar">
+    <select class="sub_header_type_dropdown">
+      <option>全部商品(10)</option>
+      <option>北海道生乳捲(10)</option>
+    </select>
+  </div>
+  <div class="search_bar">
+    <a href="#" class="open_search_btn"><i class="ic_sub_header_search"></i></a>
+    <div class="search_con">
+      <a href="#" class="prev_step_link"><i class="ic_sub_header_arrow_left"></i></a>
+      <form action="#" class="sub_header_searchbar">
+        <input type="text" placeholder="輸入搜尋商品名稱" class="search_text_field">
+        <a href="#" class="search_btn"><i class="ic_sub_header_search"></i></a>
+      </form>
+    </div>
+  </div>
+  <div class="CLEAR"></div>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.sub_header_button_sheet 子標頭 按鈕列
+							</div>
+							<div class="sample_box">
+								<img src="img/sub-header-button-sheet.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.sub_header_button_sheet.collapse 子標頭 按鈕列 置頂
+							</div>
+							<div class="sample_box">
+								<img src="img/sub-header-button-sheet-collapse.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.sub_header_tabs 子標頭 標籤分頁
+							</div>
+							<div class="sample_box">
+								<img src="img/sub-header-tabs.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+								</textarea>
+							</div>
+						</li>
+					</ul>
+				</article>
+<article class="row_components">
+					<span class="title">Row</span>
+					<ul class="item_container">
+						<li class="item">
+							<div class="name_box">
+								.row_menu 單行選單
+							</div>
+							<div class="sample_box">
+								<img src="img/row-menu.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.row_menu 單行選單-->
+<a href="#details_set_type_sub" class="row_menu" data-transition="slide">
+  <div class="left">
+    <span class="menu_content">休閒娛樂</span>
+  </div>
+  <div class="right">
+    <i class="ic_arrow_right"></i>
+  </div>
+</a>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.row_select 單行選擇組合
+							</div>
+							<div class="sample_box">
+								<img src="img/row-select.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.row_select 單行選擇組合:radiobtn-->
+<ul class="row_select_container">
+  <!--.row_select 單行選擇-->
+  <li class="row_select">
+    <label for="check1">
+    <input type="radio" name="item_select" value="" id="check1" class="grid_select_checkbox" checked>
+    <span class="ic_event_content_club_meeting">衡陽路51號 世紀羅浮</span>
+    </label>
+  </li>
+</ul>
+<!--.row_select 單行選擇組合:checkbox-->
+<ul class="row_select_container">
+  <!--.row_select 單行選擇-->
+  <li class="row_select">
+    <label for="check1">
+    <input type="checkbox" name="item_select" value="" id="check1" class="grid_select_checkbox" checked>
+    <span class="ic_event_content_club_meeting">衡陽路51號 世紀羅浮</span>
+    </label>
+  </li>
+</ul>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.row_collapse_content 單行收起內容
+							</div>
+							<div class="sample_box">
+								<img src="img/row-collapse_content.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.row_collapse_content 單行收起內容-->
+<!--展開時+.expand-->
+<div class="row_collapse_content expand">
+  <div class="left">
+    <!--未填 +.unfill , 內容確認都有填寫後 +.done -->
+    <i class="ic_row_icon_pin unfill"></i>
+  </div>
+  <div class="content">
+    面交取貨
+  </div>
+  <div class="right">
+    <a href="#" class="content_control_btn">
+    <i class="ic_row_expand"></i>
+    </a>
+  </div>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.row_footer 頁面底部單行
+							</div>
+							<div class="sample_box">
+								<img src="img/row-footer.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.row_footer 頁面底部單行-->
+<div class="row_footer">
+ <span class="text_box">寄送開團的Email複本給我</span>
+</div>
+								</textarea>
+							</div>
+						</li>
+					</ul>
+				</article>
+<article class="card_components">
+					<span class="title">Card</span>
+					<ul class="item_container">
+						<li class="item">
+							<div class="name_box">
+								.card_product.on 商品卡片
+							</div>
+							<div class="sample_box">
+								<img src="img/card-product-on.png" alt="" style="width:160px; display:inline-block">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--card_product_select 商品卡片-->
+<div class="card_product on">
+  <!--商品圖片-->
+  <div class="product_img">
+    <img src="https://www.ihergo.com/photo/product/47/300_754047_1469511602209.jpg" alt="">
+  </div>
+  <!--商品文字-->
+  <div class="product_description_con">
+    <div class="content_box">
+      <span class="product_title">十勝生乳捲☆7條以上☆ 下單處</span>
+      <span class="product_price">原價 $ 500 / 特價 $ 320</span>
+    </div>
+  </div>
+  <!--勾選按鈕-->
+  <div class="select_btns">
+    <!--:checked 時, .card_product + .card_product_select,
+      沒有則刪除 .card_product_select-->
+    <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check1" class="grid_select_checkbox" checked>
+    <label for="check1"></label>
+  </div>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.card_product 商品卡片
+							</div>
+							<div class="sample_box">
+								<img src="img/card_product.png" alt="" style="width:160px; display:inline-block">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--card_product_select 商品卡片-->
+  <div class="card_product">
+    <!--商品圖片-->
+    <div class="product_img">
+      <img src="https://www.ihergo.com/photo/product/47/300_754047_1469512024685.jpg" alt="">
+    </div>
+    <!--商品文字-->
+    <div class="product_description_con">
+      <div class="content_box">
+        <span class="product_title">十勝生乳捲-紫芋香奶☆7條以上☆下單處</span>
+        <span class="product_price">原價 $ 500 / 特價 $ 320</span>
+      </div>
+    </div>
+    <!--勾選按鈕-->
+    <div class="select_btns">
+      <!--:checked 時, .card_product + .card_product_select,
+        沒有則刪除 .card_product_select-->
+      <input type="checkbox" name="item_select" value="十勝生乳捲-英式真奶茶☆7條以上☆下單處" id="check3" class="grid_select_checkbox">
+      <label for="check3"></label>
+    </div>
+  </div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.card_product 商品卡片
+							</div>
+							<div class="sample_box">
+								<img src="img/card_product.on.custom.png" alt="" style="width:160px; display:inline-block">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--card_product_custom 自訂商品卡片-->
+<div class="card_product on custom">
+  <!--商品圖片-->
+  <div class="product_img">
+    <img src="https://wolftea.com/wp-content/uploads/2016/06/WolfTeaColdBrew_s-300x300.jpg" alt="">
+  </div>
+  <!--商品文字-->
+  <div class="product_description_con">
+    <div class="content_box">
+      <span class="product_title">十勝生乳捲☆7條以上☆ 下單處</span>
+      <span class="product_price">原價 $ 500 / 特價 $ 320</span>
+    </div>
+  </div>
+  <!--按鈕-->
+  <div class="action_btn">
+    <a href="#" class="content_modify_btn">
+    <i class="ic_card_list_edit_white"></i>
+    </a>
+  </div>
+  <!--標籤-->
+  <span class="custom_tag">主購自訂</span>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.card_img_action_btn.cover 圖片卡片
+							</div>
+							<div class="sample_box">
+								<img src="img/card-img-action-btn.png" alt="" style="width:160px">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--card_img_action_btn 圖片卡片-->
+<div class="card_img_action_btn cover">
+  <div class="item_img">
+    <img src="https://www.ihergo.com/photo/product/07/300_838707_1466932766920.jpg" alt="">
+  </div>
+  <div class="action_btn">
+    <a href="#" class="img_edit_btn">
+    <i class="ic_card_list_edit_white"></i>
+    </a>
+  </div>
+  <span class="tag"></span>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.card_img_action_btn 圖片卡片
+							</div>
+							<div class="sample_box">
+								<img src="img/card-img-action-btn.png" alt="" style="width:160px">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--card_img_action_btn 圖片卡片-->
+<div class="card_img_action_btn">
+  <div class="item_img">
+    <img src="https://www.ihergo.com/photo/product/07/300_838707_1466932766920.jpg" alt="">
+  </div>
+  <div class="action_btn">
+    <a href="#" class="img_edit_btn">
+    <i class="ic_card_list_edit_white"></i>
+    </a>
+  </div>
+  <span class="tag"></span>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.card_list_action_btn.on 列表卡片 選取
+							</div>
+							<div class="sample_box">
+								<img src="img/card-list-action-btn-on.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.card_list_action_btn, .on 選取, .off未選-->
+<div class="card_list_action_btn on">
+  <div class="content">
+    <!--考量手機螢幕向下支援, 建議只顯示15全形字-->
+    <span class="content_box">建議只寫15個全形字</span>
+  </div>
+  <div class="right">
+    <a href="#" class="content_modify_btn" data-url="#add_new_item_modify_spec">
+    <i class="ic_card_list_edit"></i>
+    </a>
+  </div>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.card_list_action_btn.off 列表卡片 未選取
+							</div>
+							<div class="sample_box">
+								<img src="img/card-list-action-btn-off.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.card_list_action_btn, .on 選取, .off未選-->
+<div class="card_list_action_btn off">
+  <div class="content">
+    <!--考量手機螢幕向下支援, 建議只顯示15全形字-->
+    <span class="content_box">建議只寫15個全形字</span>
+  </div>
+  <div class="right">
+    <a href="#" class="content_modify_btn" data-url="#add_new_item_modify_spec">
+    <i class="ic_card_list_edit"></i>
+    </a>
+  </div>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.card_list_action_btn_select.on 可選取列表卡片 已選取
+							</div>
+							<div class="sample_box">
+								<img src="img/card-list-action-btn-select.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.card_list_action_btn_select, .on 選取, .off未選-->
+<div class="card_list_action_btn_select on">
+  <div class="left"> 
+    <input type="checkbox" name="item_select" value="" id="select1" class="grid_select_checkbox">
+    <label for="select1"></label>
+  </div>
+  <div class="content">
+    <!--考量手機螢幕向下支援, 建議只顯示13全形字-->
+    <span class="content_box">建議只寫13個全形字</span>
+  </div>
+  <div class="right">
+    <a href="#" class="content_modify_btn">
+    <i class="ic_card_list_edit"></i>
+    </a>
+  </div>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.card_list_action_btn_select_off 可選取列表卡片 未選取
+							</div>
+							<div class="sample_box">
+								<img src="img/card-list-action-btn-select-off.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.card_list_action_btn_select, .on 選取, .off未選-->
+<div class="card_list_action_btn_select off">
+  <div class="left"> 
+    <input type="checkbox" name="item_select" value="" id="select1" class="grid_select_checkbox">
+    <label for="select1"></label>
+  </div>
+  <div class="content">
+    <!--考量手機螢幕向下支援, 建議只顯示13全形字-->
+    <span class="content_box">建議只寫13個全形字</span>
+  </div>
+  <div class="right">
+    <a href="#" class="content_modify_btn">
+    <i class="ic_card_list_edit"></i>
+    </a>
+  </div>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.card_list_action_btn_select.on.double_line 可選取列表卡片 雙行內容 已選取
+							</div>
+							<div class="sample_box">
+								<img src="img/card-list-action-btn-select-on-doubleline.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.card_list_action_btn_select, .on 選取, .off未選, 兩行資料+.double_line-->
+<div class="card_list_action_btn_select double_line on">
+  <div class="left">
+    <label for="check3">
+      <input type="checkbox" name="item_select" value="" id="check3" class="grid_select_checkbox" checked>
+      <span>
+        <p class="meeting_address">[台北市] [中正區] 衡陽路51號</p>
+        <p class="meeting_date">下午12點30分~晚上6點30分</p>
+      </span>
+    </label>
+  </div>
+  <div class="right">
+    <a href="#" class="content_modify_btn" data-url="#details_transfer_modify_meeting">
+    <i class="ic_card_list_edit"></i>
+    </a>
+  </div>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.card_list_action_btn_select.off.double_line 可選取列表卡片 雙行內容
+							</div>
+							<div class="sample_box">
+								<img src="img/card-list-action-btn-select-doubleline.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.card_list_action_btn_select, .on 選取, .off未選, 兩行資料+.double_line-->
+<div class="card_list_action_btn_select double_line off">
+  <div class="left">
+    <label for="check3">
+      <input type="checkbox" name="item_select" value="" id="check3" class="grid_select_checkbox">
+      <span>
+        <p class="meeting_address">[台北市] [中正區] 衡陽路51號</p>
+        <p class="meeting_date">下午12點30分~晚上6點30分</p>
+      </span>
+    </label>
+  </div>
+  <div class="right">
+    <a href="#" class="content_modify_btn" data-url="#details_transfer_modify_meeting">
+    <i class="ic_card_list_edit"></i>
+    </a>
+  </div>
+</div>
+								</textarea>
+							</div>
+						</li>
+					</ul>
+				</article>
+<article class="form_components">
+					<span class="title">Form</span>
+					<ul class="item_container">
+						<li class="item">
+							<div class="name_box">
+								.form_single_line_text_field 單行文字輸入框
+							</div>
+							<div class="sample_box">
+								<img src="img/form-single-line-text-field.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.form_single_line_text_field 單行文字輸入框-->
+<div class="guideline_form form_single_line_text_field">
+  <!--未填+.error-->
+  <label class="title error">
+    合購標題
+    <small class="quotation">
+      <!--Popup規則
+        data-title >> Popup標題
+        data-content >> Popup內容
+        -->
+      <a class="quo_link" data-href="popup" data-popuptitle="商店優惠訊息" data-popupcontent="未滿2500元需付運費210元<br>滿3500元享有9折優惠<br>滿6000元享有85折優惠<br>滿6000元享有85折優惠">商店優惠訊息</a>
+    </small>
+  </label>
+  <label class="error_msg" style="display:block">這是必填內容喔</label>
+  <input type="text" placeholder="吸引人的勸敗標題或合購目標">
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.form_text_field_combination 文字輸入框組合
+							</div>
+							<div class="sample_box">
+								<img src="img/form-text-field-combination.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.form_text_field_combination 文字輸入框組合-->
+<!--不要箭頭 +.no_arrow-->
+<div class="guideline_form form_text_field_combination entry">
+  <label class="title">注意事項
+  <small class="quotation q_icon" style="left:60px;">
+  <a class="quo_link" data-href="popup" data-popuptitle="注意事項說明" data-popupcontent="填寫給團員們的注意事項，圖片限上傳一張<br>(圖片建議尺寸：450 x 300)">
+  <i class="ic_event_content_form_popup_info"></i>
+  </a>
+  </small>
+  </label>
+  <label class="error_msg">這是必填內容喔</label>
+  <!--兩行內容+.double_line-->
+  <a href="#details_notify" class="container double_line" data-transition="slideup">
+    <div class="left">
+      提醒跟團需注意的事項，例如到貨前付款/到貨後付款、是否分攤運費等等
+      <!--已填寫內容用 span.fill_content
+        <span class="fill_content">提醒跟團需注意的事項，例如到貨前付款/到貨後付款、是否分攤運費等等
+        </span>
+        -->
+    </div>
+    <div class="right">
+      <span href="#" class="arrow_right_btn">
+      <i class="ic_arrow_right"></i>
+      </span>
+    </div>
+    <div class="CLEAR"></div>
+  </a>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.form_date_select 選擇日期、時間
+							</div>
+							<div class="sample_box">
+								<img src="img/form-date-select.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.form_date_select 選擇日期、時間-->
+<div class="guideline_form form_date_select">
+  <label class="title">截止日期<small class="quotation"><a class="quo_link" data-href="popup" data-popuptitle="此大合購最後下單日" data-popupcontent="2016-08-12">大合購最後下單日</a></small></label>
+  <label class="error_msg">這是必填內容喔</label>
+  <div class="date_select_container">
+    <span class="date_content">2016.09.11</span>
+    <a href="#details_set_date" class="date_select_btn" data-transition="slideup">
+    <i class="ic_form_date_select_calendar"></i>
+    </a>
+    <span class="hr_content">
+      <select class="time_select" name="endHour">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7" selected="">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+      </select>
+    </span>
+    <span class="txt_box">時</span>
+    <span class="min_content">
+      <select class="time_select" name="endMinute">
+        <option value="0">0</option>
+        <option value="10">10</option>
+        <option value="20" selected="">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+      </select>
+    </span>
+    <span class="txt_box">分</span>
+    <div class="CLEAR"></div>
+  </div>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.form_checkbox_combination 勾選組合
+							</div>
+							<div class="sample_box">
+								<img src="img/form-checkbox-combination.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.form_checkbox_combination 勾選組合-->
+<div class="guideline_form form_checkbox_combination">
+  <label class="title">通知設定</label>
+  <ul class="checkbox_container">
+    <li class="checkbox_list">
+      <label for="check1">
+      <input type="checkbox" name="item_select" value="" id="check1" class="grid_select_checkbox" checked>
+      <span>通知追蹤我的團員</span>
+      </label>
+    </li>
+    <li class="checkbox_list">
+      <label for="check2">
+      <input type="checkbox" name="item_select" value="" id="check2" class="grid_select_checkbox">
+      <span>通知家族</span>
+      </label>
+    </li>
+  </ul>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.form_dropdown 下拉式選單
+							</div>
+							<div class="sample_box">
+								<img src="img/form-dropdown.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.form_dropdown 下拉式選單-->
+<div class="guideline_form form_dropdown">
+  <label class="title">隱私設定</label>
+  <div class="container">
+    <select class="form_dropdown">
+      <option>公開</option>
+      <option>不公開</option>
+    </select>
+    <span class="remark_text">公開合購會出現在找合購和商店中，任何人都能參加</span>
+  </div>
+</div>
+
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.form_switch 切換
+							</div>
+							<div class="sample_box">
+								<img src="img/form-switch.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--.form_switch 切換-->
+<div class="guideline_form form_switch">
+  <label class="title">開放團員自訂合購商品
+  </label>
+  <div class="switch_box">
+    <select name="flip-1" id="flip-1" data-role="slider">
+      <option value="off"></option>
+      <option value="on"></option>
+    </select>
+  </div>
+</div>
+								</textarea>
+							</div>
+						</li>
+					</ul>
+				</article>
+<article class="button_components">
+					<span class="title">Button</span>
+					<ul class="item_container">
+						<li class="item">
+							<div class="name_box">
+								.bottom_page_footer 頁面置底按鈕
+							</div>
+							<div class="sample_box">
+								<img src="img/bottom-page-footer.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<!--頁面底部按鈕-->
+<!--固定置底+.fixed-->
+<div class="bottom_container fixed">
+  <!--.bottom_page_footer 頁面置底按鈕-->
+  <a href="#done" class="bottom_page_footer" data-transition="slide">完成開團</a>
+</div>
+
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.button_list 按鈕列表
+							</div>
+							<div class="sample_box">
+								<img src="img/button-list.png" alt="">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<div class="action_button_sheet_container">
+  <div class="content">
+    <div class="mask_modal"></div>
+    <!--.button_list 按鈕列表-->
+    <ul class="button_list">
+      <li class="button_content">
+        <a href="#" class="action_btn edit_content" data-transition="slide">編輯內容</a>
+        <div class="btn_divider"></div>
+      </li>
+      <li class="button_content">
+        <a href="#" class="action_btn">刪除內容</a>
+        <div class="btn_divider"></div>
+      </li>
+      <!--取消-->
+      <li class="button_content">
+        <a href="#" class="action_btn cancel">取消</a>
+      </li>
+    </ul>
+  </div>
+</div>
+								</textarea>
+							</div>
+						</li>
+						<li class="item">
+							<div class="name_box">
+								.button_sharebtn 分享按鈕
+							</div>
+							<div class="sample_box">
+								<img src="img/button-sharebtn.png" alt="" style="width:50px">
+							</div>
+							<div class="code_box">
+								<textarea name="" id="" cols="30" rows="10">
+<div class="action_button_sheet_container">
+  <div class="content">
+    <div class="mask_modal"></div>
+    <!--.button_list 按鈕列表-->
+    <ul class="button_list">
+      <li class="button_content">
+        <a href="#" class="action_btn edit_content" data-transition="slide">編輯內容</a>
+        <div class="btn_divider"></div>
+      </li>
+      <li class="button_content">
+        <a href="#" class="action_btn">刪除內容</a>
+        <div class="btn_divider"></div>
+      </li>
+      <!--取消-->
+      <li class="button_content">
+        <a href="#" class="action_btn cancel">取消</a>
+      </li>
+    </ul>
+  </div>
+</div>
+								</textarea>
+							</div>
+						</li>
+					</ul>
+				</article>
+			</section>
+		</div>
+	</body>
+</html>
