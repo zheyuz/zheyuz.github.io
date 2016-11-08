@@ -231,6 +231,32 @@ div.ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow:after { dis
 .wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off { width: 100%; height: 22px; border: 0; padding: 0; background: transparent; }
 .wrapper article.main_content li.row_select label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 20px; height: 20px; background: url('../images/global/ic-checkbox-s-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -9px; left: 23px; border: 0; opacity: 1; }
 
+/* row_select_short */
+.wrapper article.main_content li.row_select_short { width: 100%; height: 59px; line-height: 59px; position: relative; display: block; }
+.wrapper article.main_content li.row_select_short .divider{
+	width:90%;
+	height: 1px;
+	background: var(--gray_E5);
+	position: absolute;
+	bottom:0;
+	left:5%;
+}
+.wrapper article.main_content li.row_select_short .ui-radio { height: 22px; margin: 0; position: relative; top: calc((100% - 22px)/2); }
+.wrapper article.main_content li.row_select_short .ui-checkbox { height: 22px; margin: 0; position: relative; top: calc((100% - 22px)/2); }
+.wrapper article.main_content li.row_select_short span { font-size: 0.7778rem;/*14px*/ font-weight: normal; color: var(--gray_666); margin-left: 55px; display: inline-block; }
+
+/*jQuery Mobile修正 Radiobuttn*/
+.wrapper article.main_content li.row_select_short label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-on { width: 100%; height: 22px; border: 0; padding: 0; background: transparent; }
+.wrapper article.main_content li.row_select_short label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-on:after { width: 20px; height: 20px; background: url('../images/global/ic-radio-button-l-selected@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -10px; left: 23px; border: 0; }
+.wrapper article.main_content li.row_select_short label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-off { width: 100%; height: 22px; border: 0; padding: 0; background: transparent; }
+.wrapper article.main_content li.row_select_short label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-off:after { width: 20px; height: 20px; background: url('../images/global/ic-radio-button-l-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -10px; left: 23px; border: 0; opacity: 1; }
+
+/*jQuery Mobile修正 Checkbox*/
+.wrapper article.main_content li.row_select_short label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on { width: 100%; height: 22px; border: 0; padding: 0; background: transparent; }
+.wrapper article.main_content li.row_select_short label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-on:after { width: 20px; height: 20px; background: url('../images/global/ic-checkbox-s-selected@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -9px; left: 23px; border: 0; }
+.wrapper article.main_content li.row_select_short label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off { width: 100%; height: 22px; border: 0; padding: 0; background: transparent; }
+.wrapper article.main_content li.row_select_short label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 20px; height: 20px; background: url('../images/global/ic-checkbox-s-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 0; position: relative; top: -9px; left: 23px; border: 0; opacity: 1; } 
+
 /* row_footer */
 .wrapper .row_footer { width: 100%; height: 39px; line-height: 39px; background: var(--gray_FB); border-top: 1px solid var(--gray_E5); }
 .wrapper .row_footer span.text_box { width: 90%; height: 39px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; margin: 0 auto; display: block; font-size: 0.7778rem;/*14px*/ color: var(--gray_888); }
