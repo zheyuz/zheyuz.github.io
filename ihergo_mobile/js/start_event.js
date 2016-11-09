@@ -19,6 +19,12 @@
                  var ObjectW = $(this).width();
                  $(this).css('height', ObjectW);
              });
+             $('#add_fix').click(function(){
+                $('body').addClass('fix');
+             });
+             $('#cancel_fix').click(function(){
+                $('body').removeClass('fix');
+             });
              /*------------建立合購商品 商店------------*/
              // sub_header_dropdown_search 點下搜尋按鈕後
              $('.open_search_btn').click(function() {
@@ -137,6 +143,10 @@
              $('#details_transfer_add_meeting .set_details, #details_transfer_modify_meeting .set_details').css('height', ContentFullPageH);
              /*非商店建立商品*/
              $('#start_event_index_empty .event_main').css('height', ContentFullPageH);
+             /*合購目標 商店*/
+             $('#event_target_store .event_main').css('height', ContentFullPageH);
+             /*合購目標 個人*/
+             $('#event_target_custom .event_main').css('height', ContentFullPageH);
              /*日曆*/
              $('#details_set_date .set_details').css('height', ContentFullPageH);
              /*------------Modal Row Footer切換------------*/
@@ -195,6 +205,10 @@
              $('#details_transfer_add_meeting .set_details, #details_transfer_modify_meeting .set_details').css('height', ContentFullPageH);
              /*非商店建立商品*/
              $('#start_event_index_empty .event_main').css('height', ContentFullPageH);
+             /*合購目標 商店*/
+             $('#event_target_store .event_main').css('height', ContentFullPageH);
+             /*合購目標 個人*/
+             $('#event_target_custom .event_main').css('height', ContentFullPageH);
              /*日曆*/
              $('#details_set_date .set_details').css('height', ContentFullPageH);
          });
