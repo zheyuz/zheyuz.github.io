@@ -38,7 +38,7 @@
 /*推薦商品*/
 .wrapper .event_main article.main_content .items_recommendation { width: 100%; position: absolute; bottom: 26px; background: var(--gray_FC); }
 .wrapper .event_main article.main_content .items_recommendation span.title { width: 100%; display: block; font-size: 0.7778rem; /*14px*/ font-weight: bold; color: var(--gray_555); }
-.wrapper .event_main article.main_content .items_recommendation  .thumbnail_list_con { width: 100%; overflow-x: auto; }
+.wrapper .event_main article.main_content .items_recommendation  .thumbnail_list_con { width: 100%; overflow-x: auto; overflow-y:hidden;}
 .wrapper .event_main article.main_content .items_recommendation  ul.card_grid_small { height: 135px; margin-left: calc(5% - 5px); margin-top: 18px; }
 .wrapper .event_main article.main_content .items_recommendation  ul.card_grid_small li.card_content { width: 130px; list-style: none; display: block; margin: 0 15px 0 0; float: left; }
 
