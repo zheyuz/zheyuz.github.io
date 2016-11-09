@@ -511,7 +511,7 @@ border: 0;}
 
 /* jQuery Mobile修正 */
 .wrapper .form_card_combination .card_container ul.card_form_container li.form_content label span .ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset { display: inline-block; width: 50px; height: 23px; margin: 0 12px; }
-.wrapper .form_card_combination .card_container ul.card_form_container li.form_content label span input.card_text_field { width: 50px; height: 23px !important; min-height: 23px !important; border-radius: 4px !important; background-color: #ffffff; padding: 0 2px; border: 0; display: inline-block; position: relative; top: 0; left: 0; font-size: 0.6667rem; /*12px*/ font-weight: normal; color: var(--gray_666); }
+.wrapper .form_card_combination .card_container ul.card_form_container li.form_content label span input.card_text_field { width: 50px; height: 23px !important; min-height: 23px !important; border-radius: 4px !important; background-color: #ffffff; padding: 0 2px; border: 0; display: inline-block; position: relative; top: 0; left: 0; font-size: 0.7778rem;/*14px*/ font-weight: normal; color: var(--gray_666); }
 .wrapper .form_card_combination .card_container ul.card_form_container li.form_content .ui-checkbox { margin: 0; }
 .wrapper .form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-off { border: 0; padding: 0; background: transparent; border: 0; padding: 0; background: transparent; }
 .wrapper .form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-on { border: 0; padding: 0; background: transparent; }
