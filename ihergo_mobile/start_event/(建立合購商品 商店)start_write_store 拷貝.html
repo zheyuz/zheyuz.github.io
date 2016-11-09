@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>建立合購商品</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="../css/jqm-datebox-1.4.5.css" />
+    <link href="../css/layout.css" rel="stylesheet" type="text/css">
+    <!--<link href="../css/event.css" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" href="../css/mobile_guideline.css">
+    <link rel="stylesheet" href="../css/start_event.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="../js/jqm-datebox-1.4.5.min.js"></script>
+    <script type="text/javascript" src="../js/start_event.js"></script>ㄇ
+    <!-- go to Top_END -->
+  </head>
+  <body class="fix">
+    <!--合購目標-->
+    <div class="wrapper" data-role="page" id="event_target_custom">
+      <!--header_close 關閉-->
+      <header class="header_guideline header_close" data-role="header" data-position="fixed">
+        <div class="header_container">
+          <!-- <span class="header_text"></span> -->
+          <a href="#" class="close_btn" data-rel="back"><i class="ic_header_close"></i></a>
+        </div>
+      </header>
+      <div role="main" class="ui-content event_main">
+        <article class="main_content">
+          <div class="set_target_content">
+            <div class="set_target_container">
+              <div class="target_img">
+                <i class="ic_modal_event_target"></i>
+              </div>
+              <div class="target_info_text">
+                <span class="title">設定合購目標</span>
+                請填寫預計徵求的合購數量，讓團員更清楚合購進度，下一步即可建立合購商品哦。
+              </div>
+                  <!--.form_card_combination 表單組合卡片-->
+                  <div class="guideline_form  form_card_combination">
+                    <div class="card_container">
+                      <ul class="card_form_container">
+                        <!--份數-->
+                        <!--選取後 自動focus input.card_text_field-->
+                        <li class="form_content">
+                          <label for="select2">
+                          <input type="radio" name="item_select" value="" id="select2" class="grid_select_checkbox" checked="checked">
+                          <span>徵滿<input type="text" class="card_text_field">元</span>
+                          </label>
+                        </li>
+                        <!--金額-->
+                        <!--選取後 自動focus input.card_text_field-->
+                        <li class="form_content">
+                          <label for="select3">
+                          <input type="radio" name="item_select" value="" id="select3" class="grid_select_checkbox">
+                          <span>徵滿<input type="text" class="card_text_field">份</span>
+                          </label>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </article>
+        <!--下一步按鈕-->
+        <div class="bottom_container fixed">
+          <!--.bottom_page_footer 頁面置底按鈕-->
+          <a href="#start_event_index" class="bottom_page_footer_yellow" data-transition="slide">下一步</a>
+        </div>
+      </div>
+      <!-- /content -->
+      <!-- 左側滑出選單_開始 -->
+      <div class="panel_navi" data-role="panel" id="bars">
+      </div>
+      <!-- 左側滑出選單_結束 -->
+    </div>
+    <!-- /page -->
+  </body>
+</html>

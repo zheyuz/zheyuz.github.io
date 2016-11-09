@@ -1,5 +1,22 @@
 @charset "UTF-8";
 .full_page { height: 100%; }
+
+/*合購目標*/
+.wrapper .event_main article.main_content .set_target_content { width: 100%; height: 100%; background: var(--ihergo_brand_yellow); }
+.wrapper .event_main article.main_content .set_target_content .set_target_container { position: relative; top: calc((100% - 279px)/2); }
+.wrapper .event_main article.main_content .set_target_content .target_img { width: 62px; height: 62px; margin: 0 auto; }
+.wrapper .event_main article.main_content .set_target_content .target_img i.ic_modal_event_target { width: 62px; height: 62px; display: block; background: url('../images/start_event/ic-modal-event-target@2x.png') no-repeat; background-size: 62px; }
+.wrapper .event_main article.main_content .set_target_content .target_info_text { width: 70%; max-width: 270px; font-size: 0.7778rem; /*14px*/ line-height: 1.8; text-align: center; color: var(--gray_555); margin: 15px auto 30px auto; }
+.wrapper .event_main article.main_content .set_target_content .target_info_text span.title { width: 100%; font-size: 1rem; font-weight: bold; color: var(--gray_3F); display: block; margin-bottom: 14px; }
+.wrapper .event_main article.main_content .set_target_content .guideline_form.form_dropdown { width: 80%; max-width: 300px; height: 50px; border-bottom: 0; }
+.wrapper .event_main article.main_content .set_target_content .form_dropdown .container .ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow { background: url('../images/global/ic-dropdown@2x.png') #ffffff no-repeat; background-size: 13px 9px; background-position: 95% 50%; }
+.wrapper .event_main article.main_content .set_target_content .form_dropdown .container .ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow { border-radius: 4px; height: 50px; }
+.wrapper .event_main article.main_content .set_target_content .form_dropdown .container .ui-btn.ui-icon-carat-d.ui-btn-icon-right.ui-corner-all.ui-shadow .form_dropdown_select { width: 90%; margin-left: 5%; line-height: 50px; }
+.wrapper .event_main article.main_content .set_target_content .guideline_form.form_card_combination { width: 189px; border: 0; padding: 0; }
+.wrapper .event_main article.main_content .set_target_content .guideline_form.form_card_combination .card_container { background: transparent; }
+.wrapper .event_main article.main_content .set_target_content .guideline_form.form_card_combination .card_container ul.card_form_container { margin: 0 auto; padding: 0; }
+.wrapper .event_main article.main_content .set_target_content .guideline_form.form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-on:after { width: 20px; height: 20px; background: url('../images/global/ic-radio-button-white-s-selected@2x.png') no-repeat; background-size: cover; display: block; border-radius: 50%; opacity: 1; position: relative; top: -10px; left: 0px; border: 0; }
+.wrapper .event_main article.main_content .set_target_content .guideline_form.form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-off:after { width: 20px; height: 20px; background: url('../images/global/ic-radio-button-white-s-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 50%; opacity: 1; position: relative; top: -10px; left: 0px; border: 0; }
 .wrapper .event_main article.main_content .union_items_container { width: 100%; height: 100%; max-width: var(--max_w); background: var(--gray_FC); }
 .wrapper .event_main article.main_content .union_items_container .content_container { padding: 18px 0; }
 .wrapper .event_main article.main_content .union_items_container .content_container .items_tool_bar { }
@@ -101,10 +118,10 @@
 .wrapper article.main_content .form_container .card_list_content .guideline_form:last-child { border: 0; }
 
 /*合購類別*/
-.wrapper article.main_content .form_dropdown_combination .container span.remark_text { width: 100%; font-size: 0.6667rem;/*12px*/ color: var(--gray_666); margin-top: 10px; padding-bottom: 20px; display: block; }
+.wrapper article.main_content .form_dropdown .container span.remark_text { width: 100%; font-size: 0.6667rem;/*12px*/ color: var(--gray_666); margin-top: 10px; padding-bottom: 20px; display: block; }
 
 /*通知家族設定連結*/
-.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.more_setting { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 18px; position: absolute; top: calc((100% - 18px)/2); z-index: 9; }
+.wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.more_setting { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 20px; position: absolute; top: 2px; z-index: 9; }
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.more_setting a.quo_link { font-weight: bold; color: #3388cc; text-decoration: none; cursor: pointer; }
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.more_setting a:active.quo_link { opacity: .8; background: transparent; }
 
@@ -195,7 +212,7 @@
 .wrapper article.main_content .card_list_action_btn_select.double_line .left span p.meeting_date { color: #898989; }
 
 /*地圖*/
-.wrapper article.main_content .modal_container .map_container { width: 100%; height: calc(100% - 202px); min-height:200px; position: relative; text-align: center; }
+.wrapper article.main_content .modal_container .map_container { width: 100%; height: calc(100% - 202px); min-height: 200px; position: relative; text-align: center; }
 .wrapper article.main_content .modal_container .map_container:after { content: ''; width: 100%; height: 12%; display: block; background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 23%, rgba(0, 0, 0, 0.1) 100%); background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 23%, rgba(0, 0, 0, 0.1) 100%); background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 23%, rgba(0, 0, 0, 0.1) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#6b000000', GradientType=0); -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); position: absolute; bottom: 0; }
 .wrapper article.main_content .modal_container .map_container img { width: auto; height: 100%; }
 .wrapper article.main_content i.ic_modal_icon_map_pin { width: 35px; height: 44px; background: url('../images/start_event/ic-modal-icon-map-pin@2x.png') no-repeat; background-size: 35px auto; display: block; position: absolute; }
