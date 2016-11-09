@@ -567,3 +567,29 @@ border: 0;}
 
 /***--------------- Modal 樣式 ---------------***/
 .wrapper article.main_content .modal_container { width: 100%; height: 100%; }
+
+/***--------------- 元件 ---------------***/
+.wrapper .attention_box{
+	width:calc(100% - 24px);
+	padding:10px 12px;
+	background-color: #fffdf4;
+	border: solid 1px #f8d200;
+	border-radius: 4px;
+}
+.wrapper#start_event_index article.main_content .attention_box{
+	margin-top:20px;
+}
+.wrapper .attention_box span.title{
+	font-size: 0.6667rem;/*12px*/ 
+	font-weight: bold;
+	line-height: 1.7;
+	color: #ddb100;
+	display: block;
+}
+.wrapper .attention_box span.content{
+	font-size: 0.6667rem;/*12px*/ 
+	font-weight: normal;
+	line-height: 1.7;
+	color: #ddb100;
+	display: block;
+}
