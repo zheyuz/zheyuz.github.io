@@ -3,7 +3,7 @@
 
 /*合購目標*/
 .wrapper .event_main article.main_content .set_target_content { width: 100%; height: 100%; background: var(--ihergo_brand_yellow); }
-.wrapper .event_main article.main_content .set_target_content .set_target_container { position: relative; top: calc((100% - 304px)/2); }
+.wrapper .event_main article.main_content .set_target_content .set_target_container { position: relative; top: calc((100% - 354px)/2); }
 .wrapper .event_main article.main_content .set_target_content .target_img { width: 62px; height: 62px; margin: 0 auto; }
 .wrapper .event_main article.main_content .set_target_content .target_img i.ic_modal_event_target { width: 62px; height: 62px; display: block; background: url('../images/start_event/ic-modal-event-target@2x.png') no-repeat; background-size: 62px; }
 .wrapper .event_main article.main_content .set_target_content .target_info_text { width: 70%; max-width: 270px; font-size: 0.7778rem; /*14px*/ line-height: 1.8; text-align: center; color: var(--gray_555); margin: 15px auto 30px auto; }
