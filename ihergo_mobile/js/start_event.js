@@ -1,4 +1,4 @@
-         $(function() {
+$(document).on("pageshow", function () {
 
              /*------------通用------------*/
              //視窗捲動則Header fixed
@@ -13,11 +13,6 @@
              // 錯誤
              $('.guideline_form.error').each(function(){
                 $(this).find('label.error_msg').nextAll().addClass('animated slow headShake');
-             });
-             // li.card_content 高度
-             $('li.card_content').each(function() {
-                 var ObjectW = $(this).width();
-                 $(this).css('height', ObjectW);
              });
              $('#add_fix').click(function(){
                 $('body').addClass('fix');
@@ -133,22 +128,6 @@
                      //這句會讓footer消失有bug $(this).parent().parent().nextAll('.item_form_content').slideToggle();
                  });
              });
-             /*------------Modal------------*/
-             /*填寫內容*/
-             var DocumentH = $(window).height();
-             var ContentFullPageH = parseInt(DocumentH - 140); /*140=Header+Footer*/
-             $('#details_recommend .set_details, #details_notify .set_details').css('height', ContentFullPageH);
-             /*面交點地圖*/
-             var ContentFullPageH = parseInt(DocumentH - 100); /*100=Header+Footer*/
-             $('#details_transfer_add_meeting .set_details, #details_transfer_modify_meeting .set_details').css('height', ContentFullPageH);
-             /*非商店建立商品*/
-             $('#start_event_index_empty .event_main').css('height', ContentFullPageH);
-             // /*合購目標 商店*/
-             // $('#event_target_store .event_main').css('height', ContentFullPageH);
-             // /*合購目標 個人*/
-             // $('#event_target_custom .event_main').css('height', ContentFullPageH);
-             /*日曆*/
-             $('#details_set_date .set_details').css('height', ContentFullPageH);
              /*------------Modal Row Footer切換------------*/
              $('#details_recommend .text_box_btn').click(function() {
                  $(this).find('i').addClass('active');
@@ -177,14 +156,12 @@
 
          });
 
-
-
          $(window).resize(function() {
              /*------------建立合購商品 商店------------*/
              // li.card_content 高度
              $('li.card_content').each(function() {
                  var ObjectW = $(this).width();
-                 $(this).css('height', ObjectW);
+                 $(this).css('height', ObjectW).trigger('create');
              });
              /*------------新增商品------------*/
              // ul.hero_img_con 設定寬度
@@ -194,17 +171,4 @@
                  var GridWidth = parseInt(AllObjectW * AllObjectCount);
                  $(this).css('width', GridWidth);
              });
-             /*------------Modal------------*/
-             /*填寫內容*/
-             var DocumentH = $(window).height();
-             var ContentFullPageH = parseInt(DocumentH - 140); /*140=Header+Footer*/
-             $('#details_recommend .set_details, #details_notify .set_details').css('height', ContentFullPageH);
-             /*面交點地圖*/
-             var DocumentH = $(window).height();
-             var ContentFullPageH = parseInt(DocumentH - 100); /*100=Header+Footer*/
-             $('#details_transfer_add_meeting .set_details, #details_transfer_modify_meeting .set_details').css('height', ContentFullPageH);
-             /*非商店建立商品*/
-             $('#start_event_index_empty .event_main').css('height', ContentFullPageH);
-             /*日曆*/
-             $('#details_set_date .set_details').css('height', ContentFullPageH);
          });
