@@ -24,7 +24,7 @@
 #event_target_custom .event_main{
 	height: calc(100vh - 100px);
 }
-#start_event_index_empty{
+#start_event_index_empty .event_main{
 	height: calc(100vh - 100px);	
 }
 
