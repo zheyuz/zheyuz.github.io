@@ -24,6 +24,9 @@
 #event_target_custom .event_main{
 	height: calc(100vh - 100px);
 }
+#start_event_index_empty{
+	height: calc(100vh - 100px);	
+}
 
 .wrapper .event_main article.main_content .union_items_container { width: 100%; height: 100%; max-width: var(--max_w); background: var(--gray_FC); }
 .wrapper .event_main article.main_content .union_items_container .content_container { padding: 18px 0; }
