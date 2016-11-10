@@ -20,6 +20,11 @@ $(document).on("pageshow", function () {
              $('#cancel_fix').click(function(){
                 $('body').removeClass('fix');
              });
+             // li.card_content 高度
+             $('li.card_content').each(function() {
+                 var ObjectW = $(this).width();
+                 $(this).css('height', ObjectW).trigger('create');
+             });
              /*------------建立合購商品 商店------------*/
              // sub_header_dropdown_search 點下搜尋按鈕後
              $('.open_search_btn').click(function() {
@@ -155,7 +160,6 @@ $(document).on("pageshow", function () {
              });
 
          });
-
          $(window).resize(function() {
              /*------------建立合購商品 商店------------*/
              // li.card_content 高度
