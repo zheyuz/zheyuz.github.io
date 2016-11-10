@@ -156,7 +156,7 @@
 .wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 15px; height: 15px; background: url('../images/global/ic-checkbox-s-select@2x.png') no-repeat; background-size: cover; position: relative; top: -9px; left: -2px; opacity: 1; }
 
 /*完成畫面*/
-.wrapper .event_main article.main_content .done_content { width: 100%; max-width: var(--max_w); margin: 0 auto; background: #ffffff; position: relative; }
+.wrapper .event_main article.main_content .done_content { width: 100%; max-width: var(--max_w); margin: 0 auto; background: #ffffff; position: relative; top: calc((100% - 519px)/2);}
 .wrapper .event_main article.main_content .done_content i.ic_modal_icon_share { width: 190px; height: 133px; background: url('../images/start_event/ic-modal-icon-share@2x.png') no-repeat; background-size: 190px auto; background-position: 50%; display: block; margin: 0 auto; padding: 34px 0 25px 0; }
 .wrapper .event_main article.main_content .done_content .txt_box { width: 100%; }
 
@@ -255,10 +255,7 @@
 .wrapper article.main_content .calendar_content .cal_container ul.weekdays_content li.weekdays_list .tag.choose { width: 25px; height: 25px; line-height: 26px; text-align: center; background-color: #f5a623; color: #ffffff; border-radius: 50%; display: inline-block; cursor: default; }
 .wrapper article.main_content .calendar_content .cal_container ul.weekdays_content li.weekdays_list .choose:active { background-color: #f5a623 !important; }
 @media screen and (max-width:320px) {
-	.wrapper .event_main article.main_content .done_content{
-		top:calc((100% - 519px)/2);
-		padding:10px 0;
-	}
+	.wrapper .event_main article.main_content .done_content { padding: 10px 0; }
 	.wrapper .event_main article.main_content .done_content .check_my_order { }
 	.wrapper .event_main article.main_content .done_content .check_my_order a.order_card .content p.title { font-size: 0.7778rem;/*14px*/ font-weight: bold; margin: 16px 0 10px 0; color: var(--gray_888); }
 	.wrapper .event_main article.main_content .done_content .check_my_order a.order_card .content p.description { font-size: 0.6111rem; }
