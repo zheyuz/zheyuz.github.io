@@ -12,7 +12,7 @@ $(document).on("pageshow", function () {
              });
              // 錯誤
              $('.guideline_form.error').each(function(){
-                $(this).find('label.error_msg').nextAll().addClass('animated slow headShake');
+                $(this).find('label.title').nextAll().addClass('animated slow headShake');
              });
              $('#add_fix').click(function(){
                 $('body').addClass('fix');

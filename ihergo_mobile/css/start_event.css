@@ -129,6 +129,15 @@
 /*合購類別*/
 .wrapper article.main_content .form_dropdown .container span.remark_text { width: 100%; font-size: 0.6667rem;/*12px*/ color: var(--gray_666); margin-top: 10px; padding-bottom: 20px; display: block; }
 
+/*截止日期*/
+/* form_checkbox_combination */
+.wrapper article.main_content .form_checkbox_combination.date_select {
+	width:100%;
+	margin-top:20px;
+}
+.wrapper article.main_content .form_checkbox_combination.date_select ul.checkbox_container{
+	padding-bottom:0;
+}
 /*通知家族設定連結*/
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.more_setting { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 20px; position: absolute; top: 2px; z-index: 9; }
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.more_setting a.quo_link { font-weight: bold; color: #3388cc; text-decoration: none; cursor: pointer; }
