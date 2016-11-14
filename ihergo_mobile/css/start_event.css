@@ -19,14 +19,17 @@
 .wrapper .event_main article.main_content .set_target_content .guideline_form.form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-off:after { width: 20px; height: 20px; background: url('../images/global/ic-radio-button-white-s-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 50%; opacity: 1; position: relative; top: -11px; left: 0px; border: 0; }
 
 /*建議開團*/
-.wrapper article.main_content .suggestion_bubble_container { position: absolute; bottom: 14px; right: 18px; width: 141px; }
-.wrapper article.main_content .suggestion_bubble_container a.bubble_box { width: 50px; height: 50px; background: #36a7d0; box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.2); border-radius: 50%; position: relative; float: right; cursor: pointer; display: block; }
-.wrapper article.main_content .suggestion_bubble_container a.bubble_box:active { background: #329BC1; }
-.wrapper article.main_content .suggestion_bubble_container a.bubble_box i.ic_modal_icon_light { width: 17px; height: 28px; display: block; background: url('../images/start_event/ic-modal-icon-light@2x.png') no-repeat; background-size: 17px 28px; margin: 0 auto; position: relative; top: 11px; }
-.wrapper article.main_content .suggestion_bubble_container .bubble_txt { font-size: 0.7222rem;/*13px*/ color: #ffffff; border-radius: 20px; background-color: #35a7d0; padding: 6px 12px; position: absolute; top: -40px; -webkit-animation: bubble_show 3s ease; -o-animation: bubble_show 3s ease; animation: bubble_show 3s ease; opacity: 0; }
-.wrapper article.main_content .suggestion_bubble_container .bubble_txt:after { content: ''; display: block; width: 6px; height: 8px; background: url('../images/start_event/ic-modal-icon-bubble@2x.png') no-repeat; background-size: 6px 7.2px; position: absolute; top: 28px; right: 44px; }
-.wrapper .popup_screen.suggestion_bubble .mask_modal { background:#333333; top: 0; }
-.wrapper .popup_screen.suggestion_bubble .suggestion_container { width: 100%; height: 100%; max-width: var(--max_w); margin: 0 auto; position: absolute; top: 0; z-index: 1; overflow: scroll; display: none;}
+.wrapper .suggestion_bubble_container { position: absolute; bottom: 64px; right: 0px; width: 100%; max-width: var(--max_w); z-index: 1001; }
+@media screen and (min-width:768px) {
+	.wrapper .suggestion_bubble_container { right: calc((100% - 768px)/2) !important; }
+}
+.wrapper .suggestion_bubble_container a.bubble_box { width: 50px; height: 50px; background: #36a7d0; box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.2); border-radius: 50%; position: relative; float: right; cursor: pointer; display: block; margin-right: 18px; }
+.wrapper .suggestion_bubble_container a.bubble_box:active { background: #329BC1; }
+.wrapper .suggestion_bubble_container a.bubble_box i.ic_modal_icon_light { width: 17px; height: 28px; display: block; background: url('../images/start_event/ic-modal-icon-light@2x.png') no-repeat; background-size: 17px 28px; margin: 0 auto; position: relative; top: 11px; }
+.wrapper .suggestion_bubble_container .bubble_txt { font-size: 0.7222rem;/*13px*/ color: #ffffff; border-radius: 20px; background-color: #35a7d0; padding: 6px 12px; position: absolute; top: -40px; right: 20px; -webkit-animation: bubble_show 3s ease; -o-animation: bubble_show 3s ease; animation: bubble_show 3s ease; opacity: 0; }
+.wrapper .suggestion_bubble_container .bubble_txt:after { content: ''; display: block; width: 6px; height: 8px; background: url('../images/start_event/ic-modal-icon-bubble@2x.png') no-repeat; background-size: 6px 7.2px; position: absolute; top: 28px; right: 44px; }
+.wrapper .popup_screen.suggestion_bubble .mask_modal { background: #333333; top: 0; }
+.wrapper .popup_screen.suggestion_bubble .suggestion_container { width: 100%; height: 100%; max-width: var(--max_w); margin: 0 auto; position: absolute; top: 0; z-index: 1; overflow: scroll; display: none; }
 .wrapper .popup_screen.suggestion_bubble a.popup_close_btn { z-index: 2; }
 .wrapper .popup_screen.suggestion_bubble .popup_container_noclose { width: 100%; max-width: var(--max_w); height: 100%; position: relative; top: 0; text-align: center; margin: 0 auto; }
 .wrapper .popup_screen.suggestion_bubble .suggestion_container .suggestion_content { width: 100%; margin: 0 auto; }
