@@ -19,7 +19,7 @@
 .wrapper .event_main article.main_content .set_target_content .guideline_form.form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-off:after { width: 20px; height: 20px; background: url('../images/global/ic-radio-button-white-s-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 50%; opacity: 1; position: relative; top: -11px; left: 0px; border: 0; }
 
 /*建議開團*/
-.wrapper .suggestion_bubble_container { position: absolute; bottom: 64px; right: 0px; width: 100%; max-width: var(--max_w); z-index: 1001; }
+.wrapper .suggestion_bubble_container { position: fixed; bottom: 64px; right: 0px; width: 100%; max-width: var(--max_w); z-index: 1001; }
 @media screen and (min-width:768px) {
 	.wrapper .suggestion_bubble_container { right: calc((100% - 768px)/2) !important; }
 }
