@@ -17,6 +17,87 @@
 .wrapper .event_main article.main_content .set_target_content .guideline_form.form_card_combination .card_container ul.card_form_container { margin: 0 auto; padding: 0; }
 .wrapper .event_main article.main_content .set_target_content .guideline_form.form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-on:after { width: 20px; height: 20px; background: url('../images/global/ic-radio-button-white-s-selected@2x.png') no-repeat; background-size: cover; display: block; border-radius: 50%; opacity: 1; position: relative; top: -11px; left: 0px; border: 0; }
 .wrapper .event_main article.main_content .set_target_content .guideline_form.form_card_combination .card_container ul.card_form_container li.form_content label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-off:after { width: 20px; height: 20px; background: url('../images/global/ic-radio-button-white-s-select@2x.png') no-repeat; background-size: cover; display: block; border-radius: 50%; opacity: 1; position: relative; top: -11px; left: 0px; border: 0; }
+
+/*建議開團*/
+.wrapper article.main_content .suggestion_bubble_container { position: absolute; bottom: 14px; right: 18px; width: 141px; }
+.wrapper article.main_content .suggestion_bubble_container a.bubble_box { width: 50px; height: 50px; background: #36a7d0; box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.2); border-radius: 50%; position: relative; float: right; cursor: pointer; display: block; }
+.wrapper article.main_content .suggestion_bubble_container a.bubble_box:active { background: #329BC1; }
+.wrapper article.main_content .suggestion_bubble_container a.bubble_box i.ic_modal_icon_light { width: 17px; height: 28px; display: block; background: url('../images/start_event/ic-modal-icon-light@2x.png') no-repeat; background-size: 17px 28px; margin: 0 auto; position: relative; top: 11px; }
+.wrapper article.main_content .suggestion_bubble_container .bubble_txt { font-size: 0.7222rem;/*13px*/ color: #ffffff; border-radius: 20px; background-color: #35a7d0; padding: 6px 12px; position: absolute; top: -40px; -webkit-animation: bubble_show 3s ease; -o-animation: bubble_show 3s ease; animation: bubble_show 3s ease; opacity: 0; }
+.wrapper article.main_content .suggestion_bubble_container .bubble_txt:after { content: ''; display: block; width: 6px; height: 8px; background: url('../images/start_event/ic-modal-icon-bubble@2x.png') no-repeat; background-size: 6px 7.2px; position: absolute; top: 28px; right: 44px; }
+.wrapper .popup_screen.suggestion_bubble .mask_modal { background:#333333; top: 0; }
+.wrapper .popup_screen.suggestion_bubble .suggestion_container { width: 100%; height: 100%; max-width: var(--max_w); margin: 0 auto; position: absolute; top: 0; z-index: 1; overflow: scroll; display: none;}
+.wrapper .popup_screen.suggestion_bubble a.popup_close_btn { z-index: 2; }
+.wrapper .popup_screen.suggestion_bubble .popup_container_noclose { width: 100%; max-width: var(--max_w); height: 100%; position: relative; top: 0; text-align: center; margin: 0 auto; }
+.wrapper .popup_screen.suggestion_bubble .suggestion_container .suggestion_content { width: 100%; margin: 0 auto; }
+.wrapper .popup_screen.suggestion_bubble .suggestion_container .suggestion_content i.ic_modal_light_up { width: 34px; height: 55px; margin: 50px auto 15px auto; display: block; background: url('../images/start_event/ic-modal-light-up@2x.png') no-repeat; background-size: 34px auto; }
+.wrapper .popup_screen.suggestion_bubble .suggestion_container .suggestion_content span.modal_title { font-size: 0.7778rem;/*14px*/ font-weight: bold; color: #ffffff; display: block; text-align: center; margin-bottom: 20px; }
+.wrapper .popup_screen.suggestion_bubble li.card_content .card_product .product_img { border: solid 1px #666666; }
+@-webkit-keyframes bubble_show {
+	0% { opacity: 1; }
+	10% { opacity: 1; }
+	20% { opacity: 1; }
+	30% { opacity: 1; }
+	40% { opacity: 1; }
+	50% { opacity: 1; }
+	60% { opacity: 1; }
+	70% { opacity: 1; }
+	80% { opacity: 1; }
+	90% { opacity: 1; }
+	100% { opacity: 0 }
+}
+@-moz-keyframes bubble_show {
+	0% { opacity: 1; }
+	10% { opacity: 1; }
+	20% { opacity: 1; }
+	30% { opacity: 1; }
+	40% { opacity: 1; }
+	50% { opacity: 1; }
+	60% { opacity: 1; }
+	70% { opacity: 1; }
+	80% { opacity: 1; }
+	90% { opacity: 1; }
+	100% { opacity: 0 }
+}
+@-ms-keyframes bubble_show {
+	0% { opacity: 1; }
+	10% { opacity: 1; }
+	20% { opacity: 1; }
+	30% { opacity: 1; }
+	40% { opacity: 1; }
+	50% { opacity: 1; }
+	60% { opacity: 1; }
+	70% { opacity: 1; }
+	80% { opacity: 1; }
+	90% { opacity: 1; }
+	100% { opacity: 0 }
+}
+@-o-keyframes bubble_show {
+	0% { opacity: 1; }
+	10% { opacity: 1; }
+	20% { opacity: 1; }
+	30% { opacity: 1; }
+	40% { opacity: 1; }
+	50% { opacity: 1; }
+	60% { opacity: 1; }
+	70% { opacity: 1; }
+	80% { opacity: 1; }
+	90% { opacity: 1; }
+	100% { opacity: 0 }
+}
+@keyframes bubble_show {
+	0% { opacity: 1; }
+	10% { opacity: 1; }
+	20% { opacity: 1; }
+	30% { opacity: 1; }
+	40% { opacity: 1; }
+	50% { opacity: 1; }
+	60% { opacity: 1; }
+	70% { opacity: 1; }
+	80% { opacity: 1; }
+	90% { opacity: 1; }
+	100% { opacity: 0 }
+}
 #event_target_store .event_main { height: calc(100vh - 100px); }
 #event_target_custom .event_main { height: calc(100vh - 100px); }
 #start_event_index_empty .event_main { height: calc(100vh - 100px); }
@@ -32,10 +113,10 @@
 .wrapper .event_main article.main_content .union_items_container .content_container .items_tool_bar .select_all_btn { width: 114px; height: 30px; border-radius: 4px; background: url('../images/start_event/ic-btn-s-choose-all@2x.png') var(--ihergo_brand_blue) no-repeat; background-size: 11px auto; background-position: 11px 50%; display: inline-block; text-align: center; text-decoration: none; text-indent: 11px; font-size: 0.6667rem; /*12px*/ color: #ffffff; line-height: 30px }
 .wrapper .event_main article.main_content .union_items_container .content_container .items_tool_bar .cancel_all_btn { width: 114px; height: 30px; border-radius: 4px; background: url('../images/start_event/ic-btn-s-cancel-all@2x.png') var(--alert_red) no-repeat; background-size: 11px auto; background-position: 11px 50%; display: block; text-align: center; text-decoration: none; text-indent: 12px; font-size: 0.6667rem; /*12px*/ color: #ffffff; line-height: 30px }
 .wrapper .event_main article.main_content .union_items_container .content_container .items_tool_bar .item_summary_text { font-size: 0.7222rem;/*13px*/ color: var(--gray_888); line-height: 30px; display: inline-block; float: right; }
-.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con { margin-top: 18px; margin-bottom: 50px; }
-.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid { min-width: 288px; margin: 0 auto; }
-.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content { width: 48%; min-width: 138px; min-height: 138px; list-style: none; display: block; margin: 0 4% 20px 0; float: left; }
-.wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content:nth-of-type(2n) { margin-right: 0; }
+.wrapper .union_items_container .content_container .items_grid_con { margin-top: 18px; margin-bottom: 50px; }
+.wrapper .union_items_container .content_container .items_grid_con ul.card_grid { min-width: 288px; margin: 0 auto; }
+.wrapper .union_items_container .content_container .items_grid_con ul.card_grid li.card_content { width: 48%; min-width: 138px; min-height: 138px; list-style: none; display: block; margin: 0 4% 20px 0; float: left; }
+.wrapper .union_items_container .content_container .items_grid_con ul.card_grid li.card_content:nth-of-type(2n) { margin-right: 0; }
 
 /*新增自訂商品按鈕*/
 .wrapper .event_main article.main_content .union_items_container .content_container .items_grid_con ul.card_grid li.card_content a.add_new_item_btn { width: 100%; height: 100%; border-radius: 5px; background: var(--gray_DF); display: block; text-decoration: none; position: relative; }
@@ -130,14 +211,11 @@
 .wrapper article.main_content .form_dropdown .container span.remark_text { width: 100%; font-size: 0.6667rem;/*12px*/ color: var(--gray_666); margin-top: 10px; padding-bottom: 20px; display: block; }
 
 /*截止日期*/
+
 /* form_checkbox_combination */
-.wrapper article.main_content .form_checkbox_combination.date_select {
-	width:100%;
-	margin-top:20px;
-}
-.wrapper article.main_content .form_checkbox_combination.date_select ul.checkbox_container{
-	padding-bottom:0;
-}
+.wrapper article.main_content .form_checkbox_combination.date_select { width: 100%; margin-top: 20px; }
+.wrapper article.main_content .form_checkbox_combination.date_select ul.checkbox_container { padding-bottom: 0; }
+
 /*通知家族設定連結*/
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.more_setting { font-size: 0.6667rem;/*12px*/ margin-left: 4px; line-height: 20px; position: absolute; top: 2px; z-index: 9; }
 .wrapper article.main_content .form_checkbox_combination ul.checkbox_container li.checkbox_list small.more_setting a.quo_link { font-weight: bold; color: #3388cc; text-decoration: none; cursor: pointer; }
@@ -165,8 +243,8 @@
 .wrapper .bottom_container .row_footer ul.checkbox_container li.checkbox_list label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-checkbox-off:after { width: 15px; height: 15px; background: url('../images/global/ic-checkbox-s-select@2x.png') no-repeat; background-size: cover; position: relative; top: -9px; left: -2px; opacity: 1; }
 
 /*完成畫面*/
-.wrapper .event_main article.main_content .done_content { width: 100%; max-width: var(--max_w); margin: 0 auto; background: #ffffff; position: relative; top: calc((100% - 519px)/2);}
-.wrapper .event_main article.main_content .done_content i.ic_modal_icon_share { width: 190px; height: 133px; background: url('../images/start_event/ic-modal-icon-share@2x.png') no-repeat; background-size: 190px auto; background-position: 50%; display: block; margin:0px auto 25px auto; }
+.wrapper .event_main article.main_content .done_content { width: 100%; max-width: var(--max_w); margin: 0 auto; background: #ffffff; position: relative; top: calc((100% - 519px)/2); }
+.wrapper .event_main article.main_content .done_content i.ic_modal_icon_share { width: 190px; height: 133px; background: url('../images/start_event/ic-modal-icon-share@2x.png') no-repeat; background-size: 190px auto; background-position: 50%; display: block; margin: 0px auto 25px auto; }
 .wrapper .event_main article.main_content .done_content .txt_box { width: 100%; }
 
 /*主標*/

@@ -70,30 +70,30 @@ $(function() {
         /*讀取data-url位置*/
         var Destination = $(this).attr('data-url');
         $('body').addClass('fix');
-        $('.action_button_sheet_container.edit_product_img').show();
-        $('.action_button_sheet_container.edit_product_img').find('.mask_modal').fadeIn(400);
-        $('.action_button_sheet_container.edit_product_img').find('ul.button_list').removeClass('slideOutDown');
-        $('.action_button_sheet_container.edit_product_img').find('ul.button_list').addClass('animated slideInUp');
+        $('.actionbtn_container.edit_product_img').show();
+        $('.actionbtn_container.edit_product_img').find('.mask_modal').fadeIn(400);
+        $('.actionbtn_container.edit_product_img').find('ul.button_list').removeClass('slideOutDown');
+        $('.actionbtn_container.edit_product_img').find('ul.button_list').addClass('animated slideInUp');
     });
     // .content_modify_btn 按下
     $('.content_modify_btn').click(function() {
         /*讀取data-url位置*/
         var Destination = $(this).attr('data-url');
         $('body').addClass('fix');
-        $('.action_button_sheet_container.edit_modal').show();
-        $('.action_button_sheet_container.edit_modal').find('.mask_modal').fadeIn(400);
+        $('.actionbtn_container.edit_modal').show();
+        $('.actionbtn_container.edit_modal').find('.mask_modal').fadeIn(400);
         /*把data-url內容轉給.action_btn.edit_content*/
         $('li.button_content .action_btn.edit_content').attr('href', Destination);
-        $('.action_button_sheet_container.edit_modal').find('ul.button_list').removeClass('slideOutDown');
-        $('.action_button_sheet_container.edit_modal').find('ul.button_list').addClass('animated slideInUp');
+        $('.actionbtn_container.edit_modal').find('ul.button_list').removeClass('slideOutDown');
+        $('.actionbtn_container.edit_modal').find('ul.button_list').addClass('animated slideInUp');
     });
     // .action_btn.cancel 按下
     $('.action_btn.cancel, .mask_modal').click(function() {
-        $('.action_button_sheet_container').find('.mask_modal').fadeOut(400);
-        $('.action_button_sheet_container').find('ul.button_list').removeClass('slideInUp');
-        $('.action_button_sheet_container').find('ul.button_list').addClass('animated slideOutDown');
+        $('.actionbtn_container').find('.mask_modal').fadeOut(400);
+        $('.actionbtn_container').find('ul.button_list').removeClass('slideInUp');
+        $('.actionbtn_container').find('ul.button_list').addClass('animated slideOutDown');
         $('li.button_content .action_btn.edit_content').attr('href', '#');
-        $('.action_button_sheet_container').delay(1000).stop().fadeOut();
+        $('.actionbtn_container').delay(1000).stop().fadeOut();
         $('body').removeClass('fix');
     });
     /*------------設定開團資訊------------*/
@@ -110,10 +110,26 @@ $(function() {
             $('.popup_content').find('p').prepend(PopupContent);
         });
     });
+    //打開popup - 按背景不關閉
+    $('a[data-href="popup_noclose"]').each(function() {
+        $(this).click(function() {
+            $('body').addClass('fix');
+            $('.popup_screen').show();
+            $('.popup_screen').find('.popup_container_noclose').fadeIn(300);
+            $('.popup_container_noclose').find('.mask_modal').fadeIn(200);
+            //建議開團商品
+            $('.popup_container_noclose').find('.suggestion_container').fadeIn(1000);
+            var CardW=$('.wrapper .popup_screen.suggestion_bubble li.card_content').width();
+            $('.wrapper .popup_screen.suggestion_bubble li.card_content').css('height', CardW).trigger('create');
+        });
+    });
     //關閉popup
     $('.popup_close_btn, .popup_container').each(function() {
         $(this).click(function() {
             $('.popup_container').find('.mask_modal').fadeOut(400);
+            $('.popup_container_noclose').find('.mask_modal').fadeOut(400);
+            //建議開團商品
+            $('.popup_container_noclose').find('.suggestion_container').fadeOut(1000);        
             $('.popup_screen').delay(1000).stop().fadeOut(0);
             $('.popup_content').find('b').text('');
             $('.popup_content').find('p').html('');
