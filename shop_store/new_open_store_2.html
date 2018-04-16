@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>商店街 - ihergo愛合購 團購力量大</title>
+<link href="../css/ihergo.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/store/new_store_layout.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/reset.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/store/color_version/default_color.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/store/admin/admin_layout.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="../js/stickysidebar.jquery.js"></script>
+<script type="text/javascript">
+//回TOP
+$(function(){
+$("#go_top").stickySidebar({speed:500, padding:500, constrain: true})
+$("#go_top").click(function(){
+$("html,body").animate({scrollTop:0},900);
+return false;
+});
+});
+//表單hover和focus狀態
+$(function(){
+    $("input[type=text] , textarea , select").focus(function(){
+	    $(this).addClass(" focus");	
+	});
+	$("input[type=text] , textarea , select").blur(function(){
+	    $(this).removeClass("focus");	
+	});
+	$("input[type=text] , textarea , select").mouseover(function(){
+	    $(this).addClass(" hover");	
+	});
+	$("input[type=text] , textarea , select").mouseout(function(){
+	    $(this).removeClass("hover");	
+	});
+});
+</script>
+</head>
+
+<body>
+
+<!--==商店頁面開始==--> 
+<div id="store_wrapper">
+<!--<div id="go_top"><a href="#">top</a></div>
+-->   <div class="open_store_wrp">
+      <div class="top">
+          <h2 class="store">免費開店</h2>
+          <p class="current store_02">基本資料設定</p>
+          <h3 class="store">簡單２步驟，輕鬆擁有愛合購免費商店！</h3>
+          <br class="CLEAR" />
+      </div>
+      <div class="open_store_content">
+          <div class="phone item_box">
+              <div class="left_box">
+                 <h4>客服電話：</h4>
+              </div>
+              <div class="right_box">
+                 <input type="text" />
+              </div>
+               <br class="CLEAR" />
+          </div>
+          <div class="mail item_box">
+              <div class="left_box">
+                 <h4>客服信箱：</h4>
+              </div>
+              <div class="right_box">
+                 <input type="text" />
+              </div>
+               <br class="CLEAR" />
+          </div>
+          <div class="fax item_box">
+              <div class="left_box">
+                 <h4>客服傳真：</h4>
+              </div>
+              <div class="right_box">
+                 <input type="text" />
+              </div>
+               <br class="CLEAR" />
+          </div>
+    <div class="day item_box">
+              <div class="left_box">
+                 <h4>處理天數：</h4>
+              </div>
+              <div class="right_box">
+                 <input type="text" />
+                 <p class="day_text">天</p>
+                 <br class="CLEAR" />
+                 <p class="remind">（主購下單訂購與到貨日期間的最短天數） </p>
+              </div>
+               <br class="CLEAR" />
+          </div>
+    <div class="none_day item_box">
+              <div class="left_box">
+                 <h4>不到貨日：</h4>
+              </div>
+              <div class="right_box">
+                 <ul class="day_list">
+                     <li><input class="box" type="checkbox"><p>星期日</p></li>
+                     <li><input class="box" type="checkbox"><p>星期一</p></li>
+                     <li><input class="box" type="checkbox"><p>星期二</p></li>
+                     <li><input class="box" type="checkbox"><p>星期三</p></li>
+                     <li><input class="box" type="checkbox"><p>星期四</p></li>
+                     <li><input class="box" type="checkbox"><p>星期五</p></li>
+                     <li><input class="box" type="checkbox"><p>星期六</p></li>
+                     <br class="CLEAR" />
+                 </ul>
+              </div>
+               <br class="CLEAR" />
+          </div>
+    <div class="pay_mode item_box">
+              <div class="left_box">
+                 <h4><span class="highlight">*</span>付款方式：</h4>
+              </div>
+              <div class="right_box">
+                 <ul class="day_list">
+                     <li><input class="box" type="checkbox"><p>匯款轉帳</p></li>
+                     <li><input class="box" type="checkbox"><p>無摺存款</p></li>
+                     <li><input class="box" type="checkbox"><p>貨到付款</p></li>
+                     <li><input class="box" type="checkbox"><p>其他</p></li>
+                 </ul>
+              </div>
+               <br class="CLEAR" />
+          </div>
+<div class="explain item_box">
+              <div class="left_box">
+                 <h4>詳細說明：</h4>
+              </div>
+              <div class="right_box">
+                 <textarea name=""></textarea>
+                 <p class="remind">（最多1000字）（例：匯款期限說明、貨到付款手續費、或其他相關規則）</p>
+              </div>
+               <br class="CLEAR" />
+          </div>
+          <div class="btn_box">
+             <a href="new_open_store_3.html" class="ok_btn"><span>確認</span></a>
+             <a href="#" class="cancel_btn"><span>取消</span></a>
+             <br class="CLEAR" />
+          </div>
+      </div> 
+   </div>
+</div>
+<!--==商店頁面結束==-->
+
+</body>
+</html>

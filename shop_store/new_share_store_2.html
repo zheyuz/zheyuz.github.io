@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>商店街 - ihergo愛合購 團購力量大</title>
+<link href="../css/ihergo.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/store/new_store_layout.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/reset.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/store/color_version/default_color.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/store/admin/admin_layout.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="../js/stickysidebar.jquery.js"></script>
+<script type="text/javascript">
+//回TOP
+$(function(){
+$("#go_top").stickySidebar({speed:500, padding:500, constrain: true})
+$("#go_top").click(function(){
+$("html,body").animate({scrollTop:0},900);
+return false;
+});
+});
+//表單hover和focus狀態
+$(function(){
+    $("input[type=text] , textarea , select").focus(function(){
+	    $(this).addClass(" focus");	
+	});
+	$("input[type=text] , textarea , select").blur(function(){
+	    $(this).removeClass("focus");	
+	});
+	$("input[type=text] , textarea , select").mouseover(function(){
+	    $(this).addClass(" hover");	
+	});
+	$("input[type=text] , textarea , select").mouseout(function(){
+	    $(this).removeClass("hover");	
+	});
+});
+</script>
+</head>
+
+<body>
+
+<!--==商店頁面開始==--> 
+<div id="store_wrapper">
+<div id="go_top"><a href="#">top</a></div>
+   <div class="open_store_wrp">
+      <div class="top">
+          <h2 class="share">分享好店</h2>
+          <p class="current share_02">設定完成</p>
+          <br class="CLEAR" />
+      </div>
+      <div class="open_store_content">
+        <div class="final_step">
+           <div class="left">
+               <img src="https://www.ihergo.com/design/image/ok_correct.gif" />
+           </div>
+           <div class="right">
+              <h5>您已成功建立分享商店！</h5>
+              <p>新增商品與其他優惠請前往商店，點選「修改資訊」設定喔!</p>
+           </div>
+           <br class="CLEAR" />
+        </div>
+        <div class="btn_box">
+           <a href="#" class="go_admin"><span>前往商店</span></a>
+           <!--<a href="#" class="ok_go_btn"><span>完成</span></a>-->
+           <br class="CLEAR" />
+          </div>
+      </div> 
+   </div>
+</div>
+<!--==商店頁面結束==-->
+
+</body>
+</html>

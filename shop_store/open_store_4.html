@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>商店街 - ihergo愛合購 團購力量大</title>
+<link href="../css/ihergo.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/store/new_store_layout.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/reset.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/store/color_version/default_color.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/store/admin/admin_layout.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="../js/stickysidebar.jquery.js"></script>
+<script type="text/javascript">
+//回TOP
+$(function(){
+$("#go_top").stickySidebar({speed:500, padding:500, constrain: true})
+$("#go_top").click(function(){
+$("html,body").animate({scrollTop:0},900);
+return false;
+});
+});
+//表單hover和focus狀態
+$(function(){
+    $("input[type=text] , textarea , select").focus(function(){
+	    $(this).addClass(" focus");	
+	});
+	$("input[type=text] , textarea , select").blur(function(){
+	    $(this).removeClass("focus");	
+	});
+	$("input[type=text] , textarea , select").mouseover(function(){
+	    $(this).addClass(" hover");	
+	});
+	$("input[type=text] , textarea , select").mouseout(function(){
+	    $(this).removeClass("hover");	
+	});
+});
+</script>
+</head>
+
+<body>
+
+<!--==商店頁面開始==--> 
+<div id="store_wrapper">
+<div id="go_top"><a href="#">top</a></div>
+   <div class="open_store_wrp">
+      <div class="top_open4">
+          <h2 class="store">我要開店</h2>
+          <p class="current store_03">我要開店資料皆設定完成</p>
+          <h3 class="store">簡單３步驟，立刻輕鬆擁有網路金店面！！免開通費、免上架費、免抽成，月繳1000元，挑戰其它平台最低價！</h3>
+          <br class="CLEAR" />
+      </div>
+      <div class="open_store_content">
+        <div class="final_step">
+           <div class="left">
+               <img src="../images/image/info.gif" />
+           </div>
+           <div class="right">
+              <h5>已成功建立您的商店！</h5>
+              <p>前往商店後台「管理頁」，可設定更完整的商店資料，並開始啟用商店。</p>
+           </div>
+           <br class="CLEAR" />
+        </div>
+        <div class="btn_box">
+           <a href="#" class="go_admin"><span>前往管理頁</span></a>
+           <br class="CLEAR" />
+          </div>
+      </div> 
+      <div class="open_store_content">
+        <div class="final_step">
+           <div class="left">
+               <img src="../images/image/info.gif" />
+           </div>
+           <div class="right">
+              <h5>已成功建立您的商店，完成以下設定讓商店更完整</h5>
+              <p>1. 請前往<a href="#">「身份認證」</a>，完成店長身份認證後才能領出 PayNii 帳戶中的款項哦！<br>
+              2. 前往<a href="#">「商店管理後台」</a>，設定更完整的商店資料並選擇商店方案。</p>
+           </div>
+           <br class="CLEAR" />
+        </div>
+      </div>
+   </div>
+</div>
+<!--==商店頁面結束==-->
+
+</body>
+</html>

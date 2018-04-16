@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>商店街 - ihergo愛合購 團購力量大</title>
+<link href="../css/ihergo.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/store/new_store_layout.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/reset.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/store/color_version/default_color.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/store/admin/admin_layout.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="../js/stickysidebar.jquery.js"></script>
+<script type="text/javascript">
+//回TOP
+$(function(){
+$("#go_top").stickySidebar({speed:500, padding:500, constrain: true})
+$("#go_top").click(function(){
+$("html,body").animate({scrollTop:0},900);
+return false;
+});
+});
+//表單hover和focus狀態
+$(function(){
+    $("input[type=text] , textarea , select").focus(function(){
+	    $(this).addClass(" focus");	
+	});
+	$("input[type=text] , textarea , select").blur(function(){
+	    $(this).removeClass("focus");	
+	});
+	$("input[type=text] , textarea , select").mouseover(function(){
+	    $(this).addClass(" hover");	
+	});
+	$("input[type=text] , textarea , select").mouseout(function(){
+	    $(this).removeClass("hover");	
+	});
+});
+</script>
+</head>
+
+<body>
+
+<!--==商店頁面開始==--> 
+<div id="store_wrapper">
+<div id="go_top"><a href="#">top</a></div>
+   <div class="open_store_wrp">
+      <div class="top_open4">
+          <h2 class="store">我要開店</h2>
+          <p class="current store_01">商店設定</p>
+          <h3 class="store">簡單３步驟，立刻輕鬆擁有網路金店面！！免開通費、免上架費、免抽成，月繳1000元，挑戰其它平台最低價！</h3>
+          <br class="CLEAR" />
+      </div>
+      <div class="open_store_content">
+      		<!--==比較圖開始==-->
+            <div class="cpmpare_box">
+            	<p>各平台收費方式比較</p>
+                <p>愛合購免開辦費，可選擇月租費1000元，或成交手續費兩種方案。</p>
+            </div>            
+            <!--==比較圖結束==-->
+      
+          <!--==錯誤區開始==--> 
+                 <div class="error_wap">
+                     <div class="alert">
+                       商店帳號尚未填寫<br />
+                       店長身份證尚未填寫<br />
+                       商店名稱尚未填寫
+                     </div>
+                 </div>
+           <!--==錯誤區結束==--> 
+          <div class="store_name item_box">
+              <div class="left_box">
+                 <h4><span class="highlight">*</span>商店名稱：</h4>
+              </div>
+              <div class="right_box">
+                 <input type="text" value="黑師傅捲心酥" />
+                 <p class="account_ok">此商店名稱可使用</p>
+                 <!--<p class="account_error">此商店名稱已被使用，請重新輸入</p>-->
+                 <br class="CLEAR" />
+                 <p class="remind">（請填入您的商店名稱）<a href="#">檢查商店名稱</a></p>
+         </div>
+               <br class="CLEAR" />
+          </div>
+          
+          <!--店長被推薦來開店會有推薦人欄位-->
+          <div class="store_recommend item_box" style="display:none;">
+              <div class="left_box">
+                 <h4>推薦人：</h4>
+              </div>
+              <div class="right_box">
+                <p class="recommend_id">leoncsu</p>
+              </div>
+               <br class="CLEAR" />
+          </div>
+          <!---->
+          
+          <div class="store_category item_box">
+              <div class="left_box">
+                 <h4><span class="highlight">*</span>商店類別：</h4>
+              </div>
+              <div class="right_box">
+                 <select >
+                   <option>請選擇</option>
+                 </select>
+                 <select >
+                   <option>請選擇</option>
+                 </select>
+            </div>
+             <br class="CLEAR" />
+          </div>
+          <div class="account_number item_box">
+              <div class="left_box">
+                 <h4><span class="highlight">*</span>商店帳號：</h4>
+              </div>
+              <div class="right_box">
+                 <p class="web_start">https://www.ihergo.com/store/</p>
+                 <input type="text" />
+                 <!--<p class="account_ok">此帳號可使用</p>-->
+                 <p class="account_error">此帳號已被使用，請重新輸入</p>
+                 <br class="CLEAR" />
+                 <p class="remind"> （商店帳號會成為您的商店網址，請填入3~16個數字或英文字母）<a href="#">檢查帳號</a></p>
+              </div>
+               <br class="CLEAR" />
+          </div>
+          <!--<div class="identity item_box">
+              <div class="left_box">
+                 <h4>管理者身份：</h4>
+              </div>
+              <div class="right_box">
+                 <p>店長</p>
+              </div>
+               <br class="CLEAR" />
+          </div>-->
+          <div class="id_number item_box" style="display:none;">
+              <div class="left_box">
+                 <h4><span class="highlight">*</span>店長身份證：</h4>
+              </div>
+              <div class="right_box">
+                 <input type="text" />
+                 <p class="remind">（請輸入您的身分證字號）</p>
+              </div>
+               <br class="CLEAR" />
+          </div>
+          
+          <div class="btn_box">
+             <a href="open_store_2.html" class="ok_btn"><span>下一步</span></a>
+             <a href="#" class="cancel_btn"><span>取消</span></a>
+             <br class="CLEAR" />
+          </div>
+      </div> 
+   </div>
+</div>
+<!--==商店頁面結束==-->
+
+</body>
+</html>

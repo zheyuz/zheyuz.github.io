@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>商店街 - ihergo愛合購 團購力量大</title>
+<link href="../css/ihergo.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/store/new_store_layout.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/reset.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/store/color_version/default_color.css" rel="stylesheet" type="text/css" />
+<link href="../css/shop/store/admin/admin_layout.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="../js/stickysidebar.jquery.js"></script>
+<script type="text/javascript">
+//回TOP
+$(function(){
+$("#go_top").stickySidebar({speed:500, padding:500, constrain: true})
+$("#go_top").click(function(){
+$("html,body").animate({scrollTop:0},900);
+return false;
+});
+});
+//表單hover和focus狀態
+$(function(){
+    $("input[type=text] , textarea , select").focus(function(){
+	    $(this).addClass(" focus");	
+	});
+	$("input[type=text] , textarea , select").blur(function(){
+	    $(this).removeClass("focus");	
+	});
+	$("input[type=text] , textarea , select").mouseover(function(){
+	    $(this).addClass(" hover");	
+	});
+	$("input[type=text] , textarea , select").mouseout(function(){
+	    $(this).removeClass("hover");	
+	});
+});
+</script>
+</head>
+
+<body>
+
+<!--==商店頁面開始==--> 
+<div id="store_wrapper">
+<!--<div id="go_top"><a href="#">top</a></div>
+-->   <div class="open_store_wrp">
+      <div class="top_open4">
+          <h2 class="store">我要開店</h2>
+          <p class="current store_03">付款資料設定</p>
+          <h3 class="store">簡單３步驟，立刻輕鬆擁有網路金店面！！免開通費、免上架費、免抽成，月繳1000元，挑戰其它平台最低價！</h3>
+          <br class="CLEAR" />
+      </div>
+      <div class="open_store_content">
+          <div class="titlebox">
+             <h4>請選擇符合商店之狀況，以便開通商店可使用之付款方式：<span>（<a href="https://www.ihergo.com/guide">付款方式說明</a>）</span></h4>
+             <p>（以下資料將做為代收帳款資料存檔，不會顯示在商店頁面喔！）</p>
+          </div>
+          <div class="store_name  item_box_no">
+              <div class="left_box morewide">
+                 <h4>您的商店為：</h4>
+              </div>
+              <div class="right_box morewide_r">
+                 <div class="options">
+                    <input class="usepot" type="radio" onclick="toggleContentFeedback('Yes');" value="1" name="useOptions" id="useOptions">
+                    <p>ihergo愛合購代為開立發票給消費者（貨到付款由店長自行開立）</p>
+                 </div>
+                 <p class="remind">（每月需開立三聯式發票給ihergo，若您販賣免稅商品或是開立收據，請勿選擇此項）</p>
+                 <p class="explanation">
+                        <b>付款方式：</b><br />
+                        匯款轉帳（提供專屬付款帳號給消費者轉帳）<br />
+                        信用卡付款（1.一次付清，需加收2%銀行手續費，結帳周期時會在帳款內扣除<br />
+                        　　　　　　2.銀行手續費用為ihergo合作金融機構訂定收取）<br />
+                        gopay支付系統（ihergo愛合購支付系統）<br />
+                        貨到付款（您可以在商店後台設定是否提供貨到付款）
+                  </p>
+                  <div class="options">
+                   <input class="usepot" type="radio" onclick="toggleContentFeedback('Yes');" value="1" name="useOptions" id="useOptions2" />
+                   <p>ihergo愛合購不代為開立發票給消費者</p>
+                  </div>
+                  <p class="remind">（結帳不需開立三聯式發票向ihergo請款）</p>
+                  <p class="explanation">
+                        <b>付款方式：</b><br />
+                        匯款轉帳（提供專屬付款帳號給消費者轉帳）<br />
+                        信用卡付款（1.一次付清，需加收3%銀行手續費，結帳周期時會在帳款內扣除<br />
+                        　　　　　　2.代收手續費用為ihergo合作企業訂定收取）<br />
+                        貨到付款（您可以在商店後台設定是否提供貨到付款）
+                  </p>
+              </div>
+               <br class="CLEAR" />
+          </div>
+          
+          <div class="titlebox">
+             <h4>愛合購需開立發票給您時(如商店方案、廣告點數費用)，將依以下資訊開立，請正確填寫喔！</h4>
+             <p>未填寫統一編號以email寄送二聯發票，有統一編號資料將寄出三聯紙本發票給您。</p>
+          </div>
+          
+          <div class="store_name item_box">
+              <div class="left_box morewide">
+                 <h4><span class="highlight">*</span>公司/商號名稱：</h4>
+              </div>
+              <div class="right_box morewide_r">
+                 <!--點了輸入框記得要拿掉class="note"，讓輸入的字變黑色的哦!-->
+                 <input type="text" class="note"  onfocus="if (this.value=='請填寫公司名稱，若您為個人戶名義請填寫姓名即可。') this.value='';" onblur="if (this.value=='') this.value='請填寫公司名稱，若您為個人戶名義請填寫姓名即可。';" value="請填寫公司名稱，若您為個人戶名義請填寫姓名即可。" />
+              </div>
+               <br class="CLEAR" />
+          </div>
+          <div class="uniform_number item_box">
+              <div class="left_box morewide">
+                 <h4>統一編號：</h4>
+              </div>
+              <div class="right_box morewide_r">
+                 <input type="text" />
+              </div>
+               <br class="CLEAR" />
+          </div>
+          
+          <div class="add item_box">
+              <div class="left_box morewide">
+                 <h4><span class="highlight">*</span>郵遞區號：</h4>
+              </div>
+              <div class="right_box morewide_r">
+                 <input class="zip_code" type="text" />
+              </div>
+               <br class="CLEAR" />
+          </div>
+          <div class="add item_box">
+              <div class="left_box morewide">
+                 <h4><span class="highlight">*</span>地址：</h4>
+              </div>
+              <div class="right_box morewide_r">
+                 <input type="text" />
+              </div>
+               <br class="CLEAR" />
+          </div>
+    
+          <div class="uniform_number item_box">
+              <div class="left_box morewide">
+                 <h4><span class="highlight">*</span>聯絡人：</h4>
+              </div>
+              <div class="right_box morewide_r">
+                 <input type="text" />
+              </div>
+               <br class="CLEAR" />
+          </div>
+          <div class="uniform_number item_box">
+              <div class="left_box morewide">
+                 <h4><span class="highlight">*</span>連絡電話：</h4>
+              </div>
+              <div class="right_box morewide_r">
+                 <input type="text" />
+              </div>
+               <br class="CLEAR" />
+          </div>
+          
+          <div class="titlebox">
+             <h4>您的PayNii收款帳戶</h4>
+             <p><b>PayNii是ihergo為解決店長收款問題開發的網站，提供多種功能：</b><br />
+             1. PayNii提供多種收款功能(虛擬帳號、信用卡、超商付款)<br />
+             2. 透過PayNii收款，店長可以直接在ihergo上對帳、退款，減少處理帳務的時間<br />
+             3. 透過PayNii收到的款項，會立刻進入店長PayNii帳戶中，店長也可隨時申請領出，沒有任何資金周轉的壓力</p>
+          </div>
+          <div class="pic_schematic">
+             <p>( PayNii流程示意圖 )</p>
+          </div>          
+          <div class="store_name item_box">
+              <div class="left_box payniiwide">
+                 <h4><span class="highlight">*</span>您的PayNii登入帳號：</h4>
+              </div>
+              <div class="right_box payniiwide_r">
+                 <p class="txtB13">ihergo_love@ihergo.com</p>
+              </div>
+               <br class="CLEAR" />
+          </div>
+          <div class="store_name item_box">
+              <div class="left_box payniiwide">
+                 <h4><span class="highlight">*</span>您的PayNii登入密碼：</h4>
+              </div>
+              <div class="right_box payniiwide_r">
+                 <p class="txtR13">同愛合購帳號登入密碼</p>
+                 <p class="remind">（完成開店後，您可以用此組帳號密碼，登入PayNii查看收款交易記錄）</p>
+              </div>
+               <br class="CLEAR" />
+          </div>
+          
+    
+
+          <div class="btn_box">
+             <a href="open_store_4.html" class="ok_btn"><span>確認</span></a>
+             <a href="#" class="cancel_btn"><span>取消</span></a>
+             <br class="CLEAR" />
+          </div>
+      </div> 
+   </div>
+</div>
+<!--==商店頁面結束==-->
+
+</body>
+</html>
