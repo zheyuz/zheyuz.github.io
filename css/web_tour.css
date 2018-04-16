@@ -1,0 +1,60 @@
+@import url(web_fonts/noto.css);
+.storeBanner_wrapper { display: none; }
+.tour_mask_transparent { width: 100%; height: 100%; background: transparent; z-index: 104; position: fixed; top: 0; left: 0; display: none; }
+.tour_mask_black { width: 100%; height: 100%; background: rgba(0, 0, 0, .85); z-index: 102; position: fixed; top: 0; left: 0; display: none; }
+.web_tour_wrapper { position: fixed; top: 0; left: 0; z-index: 105; width: 100%; height: 100%; color: #ffffff; display: none; }
+.web_tour_wrapper .close_tour{
+	width:16px;
+	height: 16px;
+	display: block;
+	position: absolute;
+	top:20px;
+	right:20px;
+	background: url(../images/status/web_tour/close_tour.png) no-repeat;
+}
+.web_tour_wrapper .web_tour_con { width: 1080px; height: 100%; margin: 0 auto; position: relative; }
+.web_tour_wrapper .web_tour_con .info_text { width: 318px; border-radius: 5px; background: #9c9b99; color: #ffffff; position: relative; }
+.web_tour_wrapper .web_tour_con .info_text:before { content: url(../images/status/web_tour/arrow.png); position: absolute; top: -7px; left: calc((100% - 14px)/2); }
+.web_tour_wrapper .web_tour_con .info_text .text_con { display: block; padding: 15px; text-align: center; font-size: 13px; font-weight: 500; font-family: 'Noto Sans TC', Arial; line-height: 28px; }
+.web_tour_wrapper .web_tour_con .info_text .text_con a.next_tour_btn { width: 150px; height: 35px; display: block; margin: 11px auto 5px auto; border-radius: 5px; line-height: 35px; background: #254a55; font-size: 13px; font-weight: bold; font-family: Arial !important; color: #ffffff; }
+.web_tour_wrapper .web_tour_con .info_text .text_con a:hover.next_tour_btn { text-decoration: none; background: #516e77; }
+.web_tour_wrapper .web_tour_con .welcome_message { width: 400px; margin: 0 auto; text-align: center; position: relative; top: calc((100% - 240px)/2); }
+.web_tour_wrapper .web_tour_con .welcome_message .logo { width: 269px; height: 66px; background: url(../images/status/web_tour/logo.png); display: block; margin: 0 auto; }
+.web_tour_wrapper .web_tour_con .welcome_message .info_text { width: 100%; margin: 30px 0; font-size: 15px; font-weight: 500; line-height: 200%; font-family: 'Noto Sans TC', Arial; display: block; color: #ffffff; -webkit-font-smoothing: always; background: transparent !important; }
+.web_tour_wrapper .web_tour_con .welcome_message .info_text:before { content: ''; }
+.web_tour_wrapper .web_tour_con .welcome_message a.start_tour_btn { width: 158px; height: 50px; display: block; margin: 0 auto; border-radius: 10px; line-height: 50px; background: #254a55; font-size: 14px; font-weight: bold; font-family: Arial; color: #ffffff; -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); }
+.web_tour_wrapper .web_tour_con .welcome_message a:hover.start_tour_btn { text-decoration: none; background: #516e77; }
+.web_tour_wrapper .web_tour_con .search_tour { width: 327px; position: absolute; top: 70px; right: 174px; display: none; }
+.web_tour_wrapper .web_tour_con .search_tour .dashed_block { width: 327px; height: 44px; border: 1px dashed #ffffff; border-radius: 10px; }
+.web_tour_wrapper .web_tour_con .search_tour .info_text { margin-top: 14px; }
+.web_tour_wrapper .web_tour_con .group_event { width: 579px; position: absolute; top: 198px; left: 170px; display: none; }
+.web_tour_wrapper .web_tour_con .group_event .info_text { margin-left: calc((579px - 210px)/2); }
+.web_tour_wrapper .web_tour_con .event_holder { width: 579px; position: absolute; top: 176px; left: 175px; display: none; }
+.web_tour_wrapper .web_tour_con .event_holder .dashed_block { width: 400px; height: 99px; border: 1px dashed #ffffff; border-radius: 10px; }
+.web_tour_wrapper .web_tour_con .event_holder .info_text { margin-top: 14px; }
+.web_tour_wrapper .web_tour_con .event_target { position: absolute; top: calc(198px + 99px); width: 579px; left: 223px; display: none; }
+.web_tour_wrapper .web_tour_con .event_target .info_text { margin-top: 34px; margin-left: calc((100% - 318px)/2); }
+.web_tour_wrapper .web_tour_con .meeting_place { position: absolute; width: 579px; left: 223px; display: none; }
+.web_tour_wrapper .web_tour_con .meeting_place .info_text { margin-top: 28px; margin-left: calc((100% - 318px)/2); }
+.web_tour_wrapper .web_tour_con .area_select { width: 166px; position: absolute; bottom: 120px; left: -1px; display: none; }
+.web_tour_wrapper .web_tour_con .area_select .dashed_block { width: 164px; height: 76px; border: 1px dashed #ffffff; border-radius: 10px; }
+.web_tour_wrapper .web_tour_con .area_select .info_text { width: 236px; margin-bottom: 14px; margin-left: calc((-236px + 166px)/2); }
+.web_tour_wrapper .web_tour_con .area_select .info_text:before { display: none; }
+.web_tour_wrapper .web_tour_con .area_select .info_text:after { content: url(../images/status/web_tour/arrow.png); position: absolute; left: calc((100% - 14px)/2); 
+-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+     -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+         transform: rotate(180deg); }
+.web_tour_wrapper .web_tour_con .done_message { width: 400px; margin: 0 auto; text-align: center; position: relative; top: calc((100% - 240px)/2); display: none; }
+.web_tour_wrapper .web_tour_con .done_message .icon { width: 141px; height: 141px; background: url(../images/status/web_tour/done.png); display: block; margin: 0 auto; }
+.web_tour_wrapper .web_tour_con .done_message .info_text { width: 100%; margin: 30px 0; font-size: 15px; font-weight: 500; line-height: 200%; font-family: 'Noto Sans TC', Arial; display: block; color: #ffffff; -webkit-font-smoothing: always; background: transparent !important; }
+.web_tour_wrapper .web_tour_con .done_message .info_text:before { content: ''; }
+.web_tour_wrapper .web_tour_con .done_message a.start_tour_btn { width: 158px; height: 50px; display: block; margin: 0 auto; border-radius: 10px; line-height: 50px; background: #254a55; font-size: 14px; font-weight: bold; font-family: Arial; color: #ffffff; -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); }
+.web_tour_wrapper .web_tour_con .done_message a:hover.start_tour_btn { text-decoration: none; background: #516e77; }
+
+/**/
+.zindex_adjust { z-index: 103 !important; }
+.z_position { z-index: 103 !important; position: absolute !important; }
+.text_white { color: #ffffff !important; }
+.side_bar_z_position { z-index: 103; position: absolute; width: 170px; }

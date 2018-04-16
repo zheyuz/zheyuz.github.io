@@ -1,0 +1,1281 @@
+@import url("reset.css");
+body {
+	background-color:#fff;
+}
+#WRAPPER {
+	width:980px;
+	margin:0 auto;
+	}
+.t12g {font-size:12px; color:#ffffff; font-weight:700}
+
+/* =====頁首===== */
+
+#HEADER {
+	background-color:#fff9df; 
+	position: relative;
+	width:980px;
+	margin:0 auto;
+	}
+#HEADER_BG {	
+	width:100%;
+	background-image:url(https://www.ihergo.com/photo/buy/20101215/header_bg.jpg);
+}
+
+#HEADER h1 {
+	width:980px;
+	height:83px;
+	background-image:url(https://www.ihergo.com/photo/buy/20101215/header_bg.jpg);
+	text-indent:-9999px;
+	}
+#HEADER img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}	
+/* =====UL===== */
+#HEADER ul{
+	position:absolute;
+	right:0px;
+	top:20px;
+	}
+	
+#HEADER li{
+float:left;
+}
+/*==1==*/
+#HEADER li.HotRecommend a{
+display:block;
+width:100px;
+height:63px;
+background:url(https://www.ihergo.com/photo/buy/20101215/header_maun.jpg) no-repeat left top;
+text-indent:-9999px;
+}
+#HEADER li.HotRecommend a:hover{
+background-position:left bottom;}
+/*==1==*/
+/*==2==*/
+#HEADER li.HotSALE a{
+display:block;
+width:100px;
+height:63px;
+background:url(https://www.ihergo.com/photo/buy/20101215/header_maun.jpg) no-repeat -100px 0px;
+text-indent:-9999px;
+}
+#HEADER li.HotSALE a:hover{
+background-position:-100px -63px;}
+/*==2==*/
+/*==3==*/
+#HEADER li.GoodFood a{
+display:block;
+width:100px;
+height:63px;
+background:url(https://www.ihergo.com/photo/buy/20101215/header_maun.jpg) no-repeat -200px 0px;
+text-indent:-9999px;
+}
+#HEADER li.GoodFood a:hover{
+background-position:-200px -63px;}
+/*==3==*/
+/*==4==*/
+#HEADER li.FashlonWorld a{
+display:block;
+width:100px;
+height:63px;
+background:url(https://www.ihergo.com/photo/buy/20101215/header_maun.jpg) no-repeat -300px 0px;
+text-indent:-9999px;
+}
+#HEADER li.FashlonWorld a:hover{
+background-position:-300px -63px;}
+/*==4==*/
+/*==5==*/
+#HEADER li.HotRanking a{
+display:block;
+width:100px;
+height:63px;
+background:url(https://www.ihergo.com/photo/buy/20101215/header_maun.jpg) no-repeat -400px 0px;
+text-indent:-9999px;
+}
+#HEADER li.HotRanking a:hover{
+background-position:-400px -63px;}
+/*==5==*/
+/*==6==*/
+#HEADER li.BeautyTopic a{
+display:block;
+width:100px;
+height:63px;
+background:url(https://www.ihergo.com/photo/buy/20101215/header_maun.jpg) no-repeat -500px 0px;
+text-indent:-9999px;
+}
+#HEADER li.BeautyTopic a:hover{
+background-position:-500px -63px;}
+
+/*==6==*/
+/*==7==*/
+#HEADER li.FuLife a{
+display:block;
+width:100px;
+height:63px;
+background:url(https://www.ihergo.com/photo/buy/20101215/header_maun.jpg) no-repeat -600px 0px;
+text-indent:-9999px;
+}
+#HEADER li.FuLife a:hover{
+background-position:-600px -63px;}
+/*==7==*/
+
+/* ===訊息專區==== */
+#CONTENT_BOX_TOP{
+	width:980px;
+	height:370px;
+	background-color: #fff9df;
+	padding: 10px 0px 0px 0px
+	}
+
+#CONTENT_Left{
+	width: 180px;
+	height:360px;
+	float:left;
+	}
+/*===熱門活動===*/
+.CONTENT_BOX_TOP_Left{
+	float:left;
+	width: 180px;
+	height:205px;
+	background-image: url(https://www.ihergo.com/photo/buy/20101215/contene_box_top_left_bg_1.jpg);
+	background-position:left top;
+	position: relative;
+	}
+.CONTENT_BOX_TOP_Left h1{
+	background-image:url(https://www.ihergo.com/photo/buy/20101215/contene_box_top_left_bg_1.jpg);
+	line-height: 30px;
+	text-indent:-9999px;
+	}
+#J_left_big{
+	display:block;
+	width:138px;
+	height: 138px;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	font-size:0;
+	padding:1px;
+	position:absolute;
+	top:38px;
+	left: 17px;
+	}
+.j1_fale{
+	display:block;
+	width: 60px;
+	height:23px;
+	background-image:url(https://www.ihergo.com/photo/buy/20101215/j1_left-no.jpg);
+	background-repeat:no-repeat;
+	position:absolute;
+	top:180px;
+	left: 100px;
+	}
+/*===熱門活動_END===*/
+
+/*===關鍵熱字1215gb修改===*/
+.CONTENT_BOX_TOP_Left_2{
+	float:left;
+	width: 165px;
+	height:120px;
+	background-image: url(https://www.ihergo.com/photo/buy/20101215/contene_box_top_top_left_bg2.JPG);
+	background-position:left bottom;
+	padding: 35px 0px 0px 15px;
+ 	position: relative;
+	}
+/*===關鍵熱字1215gb修改END===*/
+.hotkey{
+	display:block;
+	width:150px;
+	height:20px;
+	float:left;
+	}
+/*一組熱字*/
+.hotkey_12 a {
+	color: #333;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	line-height:18px;
+	float:left;
+	padding:2px;	
+	}
+	.hotkey_12 a:hover {
+	color: #ec4e2f;
+	}
+/*一組字熱_END*/	
+/*一組熱字*/
+.hotkey_14 a {
+	color: #333;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	line-height:18px;
+	float:left;
+	padding:2px;
+	font-weight:bold;	
+	}
+	.hotkey_14 a:hover {
+	color: #ec4e2f;
+	}
+/*一組字熱_END*/	
+	
+/*===關鍵熱字_END===*/
+#CONTENT_BOX_TOP_Cnnter{
+	float:left;
+	width: 580px;
+	height:345px;
+	margin-left:5px;
+	/*IE6*/
+	_display: inherit;
+	background-image: url(https://www.ihergo.com/photo/buy/20101215/contene_box_top_cnnter_bg.jpg);
+	padding: 10px 10px 10px 20px;
+	position:relative;
+	}
+.CONTENT_BOX_TOP_Cnnter_R img{
+	position:absolute;
+	top: 208px;
+	left: 553px;
+}
+.CONTENT_BOX_TOP_Cnnter_L{
+	position:absolute;
+	top: 9px;
+	left: 18px;
+	}
+#CONTENT_BOX_TOP_Cnnter ul{
+	position:absolute;
+	right:8px;
+	top:250px;
+	width: 590px;
+}
+#CONTENT_BOX_TOP_Cnnter li{
+float:left;
+	}
+
+	
+/*==A==*/
+#CONTENT_BOX_TOP_Cnnter li.A a{
+display:block;
+width:145px;
+height:85px;
+background: url(https://www.ihergo.com/photo/buy/20101215/pop_images/VI_01.png)
+no-repeat left top;
+text-indent:-9999px;
+}
+#CONTENT_BOX_TOP_Cnnter li.A a:hover{
+background: url(https://www.ihergo.com/photo/buy/20101215/pop_images/VI_01.png)
+no-repeat left bottom;
+}
+#CONTENT_BOX_TOP_Cnnter li.A_active a{
+display:block;
+width:145px;
+height:85px;
+background: url(https://www.ihergo.com/photo/buy/20101215/pop_images/VI_01.png)
+no-repeat left bottom;
+text-indent:-9999px;
+}
+#CONTENT_BOX_TOP_Cnnter li.A_active a:hover{
+background: url(https://www.ihergo.com/photo/buy/20101215/pop_images/VI_01.png)
+no-repeat left bottom;
+}
+/*==A==*/
+/*==B==*/
+#CONTENT_BOX_TOP_Cnnter li.B a{
+display:block;
+width:145px;
+height:85px;
+background: url(https://www.ihergo.com/photo/buy/20101215/pop_images/VI_02.png)
+no-repeat left top;
+text-indent:-9999px;
+}
+#CONTENT_BOX_TOP_Cnnter li.B a:hover{
+background: url(https://www.ihergo.com/photo/buy/20101215/pop_images/VI_02.png)
+no-repeat left bottom;
+}
+#CONTENT_BOX_TOP_Cnnter li.B_active a{
+display:block;
+width:145px;
+height:85px;
+background: url(https://www.ihergo.com/photo/buy/20101215/pop_images/VI_02.png)
+no-repeat left bottom;
+text-indent:-9999px;
+}	
+/*==B==*/
+/*==C==*/
+#CONTENT_BOX_TOP_Cnnter li.C a{
+display:block;
+width:145px;
+height:85px;
+background: url(https://www.ihergo.com/photo/buy/20101215/pop_images/VI_03.png)
+no-repeat left top;
+text-indent:-9999px;
+}
+#CONTENT_BOX_TOP_Cnnter li.C a:hover{
+background: url(https://www.ihergo.com/photo/buy/20101215/pop_images/VI_03.png)
+no-repeat left bottom;
+}
+#CONTENT_BOX_TOP_Cnnter li.C_active a{
+display:block;
+width:145px;
+height:85px;
+background: url(https://www.ihergo.com/photo/buy/20101215/pop_images/VI_03.png)
+no-repeat left bottom;
+text-indent:-9999px;
+}
+/*==C==*/
+/*==D==*/
+#CONTENT_BOX_TOP_Cnnter li.D a{
+display:block;
+width:145px;
+height:85px;
+background: url(https://www.ihergo.com/photo/buy/20101215/pop_images/VI_04.png)
+no-repeat left top;
+text-indent:-9999px;
+}
+#CONTENT_BOX_TOP_Cnnter li.D a:hover{
+background: url(https://www.ihergo.com/photo/buy/20101215/pop_images/VI_04.png)
+no-repeat left bottom;	
+}
+#CONTENT_BOX_TOP_Cnnter li.D_active a{
+display:block;
+width:145px;
+height:85px;
+background: url(https://www.ihergo.com/photo/buy/20101215/pop_images/VI_04.png)
+no-repeat left bottom;
+text-indent:-9999px;
+}
+/*==D==*/
+
+/*===發燒話題===*/
+.CONTENT_BOX_TOP_Right{
+	float:right;
+	width: 180px;
+	height: 365px;
+	background-image: url(https://www.ihergo.com/photo/buy/20101215/contene_box_top_right_bg.jpg);
+	background-position:top bottom;
+	background-repeat:no-repeat;
+	position:relative;
+	}
+#J_right_big{
+	display:block;
+	width:138px;
+	height: 138px;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	font-size:0;
+	padding:1px;
+	position:absolute;
+	top:33px;
+	left: 20px;
+	}	
+.CONTENT_BOX_TOP_Right h4{
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	display: block;
+	font-size:14px;
+	line-height:18px;
+	color: #595757;
+	position:absolute;
+	top:181px;
+	left: 20px;
+	width: 140px;
+	}
+	.CONTENT_BOX_TOP_Right p a{
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:140px;
+	font-size:12px;
+	line-height:18px;
+	color: #595757;
+	text-decoration:none;
+	text-align:justify;
+	position:absolute;
+	top:201px;
+	left: 20px;
+	text-decoration:none;
+	}
+	.CONTENT_BOX_TOP_Right p a:hover{
+		color:#ec4e2f;
+		}	
+/* =====發商話題_UL===== */
+.CONTENT_BOX_TOP_Right ul.RR{
+	position:absolute;
+	width:140px;
+	left: 20px;
+	top: 281px;
+}
+.CONTENT_BOX_TOP_Right ul.RR li{
+	background:url(https://www.ihergo.com/photo/buy/20101215/icon_news.jpg) no-repeat left center ;
+	padding top: 5px ;
+	}
+.CONTENT_BOX_TOP_Right ul.RR li a{
+    display:block;
+    line-height:20px;
+    font-family:font-family:Arial, Helvetica, sans-serif ,新細明體;
+   font-size:12px;
+   color:#333;
+   text-decoration:none;
+   padding-left: 15px;
+   border-bottom: 1px dashed #cccccc;
+   _display:inline-block;
+      }
+.CONTENT_BOX_TOP_Right ul.RR li a:hover{
+		color:#ec4e2f;}
+/* =====發燒話題_UL_END===== */
+br.CLEAR {
+	clear: both;
+	height:0;
+	font-size:1px;
+	line-height:0;
+}
+/*===發燒話題_END===*/
+
+/*===幫主推薦===*/
+#recommend_box{
+	width:960px;
+	height:202px;
+	color:#000;
+	background:url(https://www.ihergo.com/photo/buy/20101215/hot%20recommend/content_hot-recommend_bg.jpg) no-repeat left top ;
+	padding: 35px 0px 20px 20px;
+	}
+.recommend_leftbox1{
+	float: left;
+	width: 140px;
+	height: 200px;
+	}
+.recommend_leftbox1 h1{
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	display: block;
+	font-size:14px;
+	line-height:18px;
+	padding: 0px 0px 5px 0px;
+	color: #595757;
+	top:185px;
+	left: 20px;
+	}	
+.recommend_leftbox1 p a{
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:140px;
+	font-size:12px;
+	line-height:18px;
+	color: #595757;
+	text-decoration:none;
+	text-align:justify;
+	text-decoration:none;
+
+	}
+.recommend_leftbox1 p a:hover{
+	color:#ec4e2f;
+	}
+div.w10{
+	float:left;
+	font-size:0;
+	line-height: 200px;
+	width:10px;
+	height:200px;
+	}
+.recommend_leftbox2{
+	float: left;
+	width: 150px;
+	height: 200px;
+	background-color:#FFF;
+	position: relative;
+	}
+.recommend_J_big{
+	display:block;
+	width:140px;
+	height: 140px;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	font-size:0;
+	padding:1px;
+	position:absolute;
+	top:1px;
+	left: 2px;
+	}	
+.recommend_leftbox2 p.top a{
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:145px;
+	font-size:12px;
+	line-height:18px;
+	color:  #333;
+	text-decoration:none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 2px solid #ec4e2f;
+	padding-left:5px;
+	position:absolute;
+	top:150px;
+	left: 0px;
+	text-decoration:none;
+	} 
+.recommend_leftbox2 p.top a:hover{
+	color: #ec4e2f;
+		}		
+.recommend_leftbox2 p.bottom a{
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:145px;
+	font-size:12px;
+	line-height:18px;
+	color:  #333;
+	text-decoration:none;
+    border-bottom: 1px dashed #cccccc;
+	border-left: 2px solid #ec4e2f;
+	padding-left:5px;
+	position:absolute;
+	top:170px;
+	left: 0px;
+	text-decoration:none;
+	}
+.recommend_leftbox2 p.bottom a:hover{
+	color: #ec4e2f;
+	}	
+ /*===幫主推薦_END===*/
+
+/*主購好禮Free Gift_品牌商店Brand Sotre*/
+#CONTENT_BOX_3{
+	display:block;
+	background-color:#fff9df;
+	width:980px;
+	height: 747px;
+	padding-top: 10px;	
+	}
+/*主購好禮Free Gift*/
+.CONTENT_BOX_3left_freegift{
+	float:left;
+	width:740px;
+	height:320px;
+	background:url(https://www.ihergo.com/photo/buy/20101215/free%20gift/free-gift_bg.jpg) no-repeat left top;
+	padding:35px 0px 20px 20px ;
+	}
+.freegift_leftbox1 {
+	float: left;
+	width: 195px;
+	height: 300px;
+	display:block;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	font-size:0;
+	padding:1px;	
+	}
+
+/*主購好禮Free Gift_商品陳列*/
+.freegift_leftbox2 {
+	float: left;
+	width: 510px;
+	display:block;
+	font-size:0;
+	padding: 0px 0px 0px 20px; 	
+	}
+.freegift_leftbox2_boxinto{
+	float: left;
+	width: 110px;
+	height: 150px;
+	display:block;
+	font-size:0;
+	padding: 0px 0px 10px 0px;
+	}
+.freegift_leftbox2 p.top a{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:100px;
+	font-size:12px;
+	line-height:18px;
+	color:  #333;
+	text-decoration:none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 2px solid #ec4e2f;
+	padding-left:5px;
+	text-decoration:none;
+	} 
+.freegift_leftbox2 p.top a:hover{
+	color: #ec4e2f;
+		}		
+.freegift_leftbox2 p.bottom a{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:100px;
+	font-size:12px;
+	line-height:18px;
+	color:  #333;
+	text-decoration:none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 2px solid #ec4e2f;
+	padding-left:5px;	
+	text-decoration:none;
+	}
+.freegift_leftbox2 p.bottom a:hover{
+	color: #ec4e2f;
+	}	
+
+
+
+.freegift_leftbox2_boxinto_j{
+	width: 100px;
+	height: 100px;
+	display:block;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	font-size:0;
+	padding:1px;	
+	}
+
+.freegift_w20{
+	float: left;
+	font-size:0pxF
+	line-height:150px;
+	width: 20px;
+	height: 100px	
+	}
+
+/*品牌商店BrandSotre*/
+.CONTENT_BOX_3_BrandSotre_right{
+	float:right;
+	width:175px;
+	height:702px;
+	background:url(https://www.ihergo.com/photo/buy/20101215/brandsotre/brandsotre_bg.jpg) no-repeat left top;
+	padding: 45px 10px 0px 35px;
+	}
+.BrandSotre_box{
+	display:block;
+	width:165px;
+	height: 115px;
+	}
+.BrandSotre_box_j{
+	display:block;
+	width:162px;
+	height: 65px;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	font-size:0;
+	padding:1px;
+	}
+.BrandSotre_box h1 a{
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	display: block;
+	width:165px;
+	font-size:14px;
+	line-height:16px;
+	color: #595757;
+	padding:5px 0px 5px 0px; 
+    border-bottom: 1px dashed #cccccc;
+	text-decoration:none;
+	}
+.BrandSotre_box h1 a:hover{		
+    color: #ec4e2f;	
+    }
+
+/*美味好食Good Food*/
+.CONTENT_BOX_3left_goodfood{
+	float:left;
+	width:740px;
+	height:320px;
+	background: url(https://www.ihergo.com/photo/buy/20101215/goodfood/good-food_bg.jpg) no-repeat left top;
+	padding:35px 0px 20px 20px ;
+	}	
+.goodfood_leftbox1 {
+	float: left;
+	width: 195px;
+	height: 300px;
+	display:block;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	font-size:0;
+	padding:1px;	
+	}
+/*goodfood商品陳列*/
+.goodfood_leftbox2 {
+	float:  left;
+	width: 520px;
+	display:block;
+	overflow:hidden;
+	padding: 0px 0px 0px 20px; 	
+	}
+.goodfood_leftbox2_boxinto{
+	float: left;
+	width: 110px;
+	height: 150px;
+	display:block;
+	font-size:0;
+	padding: 0px 0px 10px 0px;
+	}
+.goodfood_leftbox2 p.top a{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:100px;
+	font-size:12px;
+	line-height:18px;
+	color:  #333;
+	text-decoration:none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 2px solid #ec4e2f;
+	padding-left:5px;
+	text-decoration:none;
+	} 
+.goodfood_leftbox2 p.top a:hover{
+	color: #ec4e2f;
+		}		
+.goodfood_leftbox2 p.bottom a{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:100px;
+	font-size:12px;
+	line-height:18px;
+	color:  #333;
+	text-decoration:none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 2px solid #ec4e2f;
+	padding-left:5px;
+	text-decoration:none;
+	}
+.goodfood_leftbox2 p.bottom a:hover{
+	color: #ec4e2f;
+	}	
+.goodfood_leftbox2_boxinto_j{
+	width: 100px;
+	height: 100px;
+	display:block;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	font-size:0;
+	padding:1px;	
+	}
+.goodfood_w20{
+	float: left;
+	font-size:0pxF
+	line-height:150px;
+	width: 20px;
+	height: 100px	
+	}	
+
+
+/*服飾鞋包Fashlon World 愛的報報love ihergo*/
+#CONTENT_BOX_4{
+	background-color:#fff9df;
+	width:980px;
+	}
+
+
+/*服飾鞋包Fashlon World */
+.CONTENT_BOX_4left_fashlonworld{
+	float:left;
+	width: 738px;
+	height:315px;
+	background:url(https://www.ihergo.com/photo/buy/20101215/fashlonworld/fashlonworld_bg.jpg)
+	no-repeat left top;
+	padding:45px 0px 20px 20px ;
+	}
+.fashlonworld_leftbox1 {
+	float: left;
+	width: 195px;
+	height: 300px;
+	display:block;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	font-size:0;
+	padding:1px;	
+	}
+/*fashlonworld商品陳列*/
+.fashlonworld_leftbox2 {
+	float:  left;
+	width: 510px;
+	display:block;
+	font-size:0;
+	padding: 0px 0px 0px 20px; 	
+	}
+.fashlonworld_leftbox2_boxinto{
+	float: left;
+	width: 110px;
+	height: 150px;
+	display:block;
+	font-size:0;
+	padding: 0px 0px 10px 0px;
+	}
+.fashlonworld_leftbox2 p.top a{
+	display: block;
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:100px;
+	font-size:12px;
+	line-height:18px;
+	color: #333;
+	text-decoration:none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 2px solid #ec4e2f;
+	padding-left:5px;
+	text-decoration:none;
+	} 
+.fashlonworld_leftbox2 p.top a:hover{
+	color: #ec4e2f;
+		}		
+.fashlonworld_leftbox2 p.bottom a{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:100px;
+	font-size:12px;
+	line-height:18px;
+	color:  #333;
+	text-decoration:none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 2px solid #ec4e2f;
+	padding-left:5px;
+	text-decoration:none;
+	}
+.fashlonworld_leftbox2 p.bottom a:hover{
+	color: #ec4e2f;
+	}	
+.fashlonworld_leftbox2_boxinto_j{
+	width: 100px;
+	height: 100px;
+	display:block;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	font-size:0;
+	padding:1px;	
+	}
+.fashlonworld_w20{
+	float: left;
+	font-size:0pxF
+	line-height:150px;
+	width: 20px;
+	height: 100px	
+	}	
+
+
+/*服飾鞋包Fashlon World 愛的報報love ihergo*/
+#CONTENT_BOX_4{
+	background-color:#fff9df;
+	width:980px;
+	}
+
+
+/* 愛的報報love iherg*/
+.CONTENT_BOX_4right_loveihergo{
+	float:left;
+	width:167px;
+	height: 315px;
+	background:url(https://www.ihergo.com/photo/buy/20101215/loveihergo/love-ihergo_bg.jpg)
+	no-repeat left top;
+	padding: 45px 20px 20px 35px;
+	}
+.loveihergo_rightbox1{
+	float: left;
+	width: 160px;
+	height: 130px;
+	}
+.loveihergo_rightbox1 h1{
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	display: block;
+	font-size:16px;
+	line-height:18px;
+	padding: 5px 0px 5px 0px;
+	color: #595757;
+	top:185px;
+	left: 20px;
+	}	
+.loveihergo_rightbox1 p a{
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:140px;
+	font-size:12px;
+	line-height:18px;
+	color: #595757;
+	text-decoration:none;
+	text-align:justify;
+	text-decoration:none;
+
+	}
+.loveihergo_rightbox1 p a:hover{
+	color:#ec4e2f;
+	}
+
+/*人氣金榜hotranking*/
+/*===人氣金榜===*/
+#hotranking_box{
+	width:960px;
+	height:203px;
+	color:#000;
+	background: url(https://www.ihergo.com/photo/buy/20101215/hotranking/hotranking_bg.jpg) no-repeat  left top;
+	padding:55px 0px 0px 20px;
+	position: relative;
+}
+/* =====UL===== */
+#hotranking_box ul{
+	position:absolute;
+	right:431px;
+	top:7px;
+	width: 378px;
+	}
+#hotranking_box li{
+	float:left; 
+	}
+/*美食餐飲	*/
+#hotranking_box li.food a{
+display:block;
+width:90px;
+height:40px;
+background: url(https://www.ihergo.com/photo/buy/20101215/hotranking/hotranking_icon.jpg) no-repeat left top;
+text-indent:-9999px;
+}
+#hotranking_box li.food a:hover{
+background-position:left bottom;
+}
+#hotranking_box li.food_active a{
+display:block;
+width:90px;
+height:40px;
+background: url(https://www.ihergo.com/photo/buy/20101215/hotranking/hotranking_icon.jpg) no-repeat left bottom;
+text-indent:-9999px;
+}
+/*美食餐飲_END	*/
+/*服裝鞋包	*/
+#hotranking_box li.fashlon a{
+display:block;
+width:90px;
+height:40px;
+background: url(https://www.ihergo.com/photo/buy/20101215/hotranking/hotranking_icon.jpg) no-repeat -90px top;
+text-indent:-9999px;
+}
+#hotranking_box li.fashlon a:hover{
+background-position: -90px bottom;
+}
+#hotranking_box li.fashlon_active a{
+display:block;
+width:90px;
+height:40px;
+background: url(https://www.ihergo.com/photo/buy/20101215/hotranking/hotranking_icon.jpg) no-repeat -90px bottom;
+text-indent:-9999px;
+}
+/*服裝鞋包_END	*/
+/*美妝保養beautytopic*/
+
+#hotranking_box li.beautytopic a{
+display:block;
+width:90px;
+height:40px;
+background: url(https://www.ihergo.com/photo/buy/20101215/hotranking/hotranking_icon.jpg) no-repeat -180px top;
+text-indent:-9999px;
+}
+#hotranking_box li.beautytopic_active a{
+display:block;
+width:90px;
+height:40px;
+background: url(https://www.ihergo.com/photo/buy/20101215/hotranking/hotranking_icon.jpg) no-repeat -180px bottom;
+text-indent:-9999px;
+}
+#hotranking_box li.beautytopic a:hover{
+background-position: -180px bottom;
+}
+/*美妝保養_END*/
+/*親子居家home*/
+#hotranking_box li.home a{
+display:block;
+width:90px;
+height:40px;
+background: url(https://www.ihergo.com/photo/buy/20101215/hotranking/hotranking_icon.jpg) no-repeat -270px top;
+text-indent:-9999px;
+}
+#hotranking_box li.home a:hover{
+background-position: -270px bottom;
+}
+#hotranking_box li.home_active a{
+display:block;
+width:90px;
+height:40px;
+background: url(https://www.ihergo.com/photo/buy/20101215/hotranking/hotranking_icon.jpg) no-repeat -270px bottom;
+text-indent:-9999px;
+}
+
+
+/*親子居家home_END*/
+/* =====UL_END===== */
+
+
+
+
+
+
+
+
+
+.hotranking_leftbox1{
+	float: left;
+	width: 140px;
+	height: 200px;
+	}
+.hotranking_leftbox1 h1{
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	display: block;
+	font-size:16px;
+	line-height:18px;
+	padding: 5px 0px 5px 0px;
+	color: #595757;
+	top:185px;
+	left: 20px;
+	}	
+.hotranking_leftbox1 p a{
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:140px;
+	font-size:12px;
+	line-height:18px;
+	color: #595757;
+	text-decoration:none;
+	text-align:justify;
+	text-decoration:none;
+
+	}
+.hotranking_leftbox1 p a:hover{
+	color:#ec4e2f;
+	}
+div.w10{
+	float:left;
+	font-size:0;
+	line-height: 200px;
+	width:10px;
+	height:200px;
+	}
+.hotranking_leftbox2{
+	float: left;
+	width: 150px;
+	height: 200px;
+	position: relative;
+	}
+.hotranking_J_big{
+	display:block;
+	width:140px;
+	height: 140px;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	font-size:0;
+	padding:1px;
+	position:absolute;
+	top:1px;
+	left: 2px;
+	}	
+.hotranking_leftbox2 p.top a{
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:145px;
+	font-size:12px;
+	line-height:18px;
+	color:  #333;
+	text-decoration:none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 2px solid #ec4e2f;
+	padding-left:5px;
+	position:absolute;
+	top:150px;
+	left: 0px;
+	text-decoration:none;
+	} 
+.hotranking_leftbox2 p.top a:hover{
+	color: #ec4e2f;
+		}		
+.hotranking_leftbox2 p.bottom a{
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:145px;
+	font-size:12px;
+	line-height:18px;
+	color:  #333;
+	text-decoration:none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 2px solid #ec4e2f;
+	padding-left:5px;
+	position:absolute;
+	top:170px;
+	left: 0px;
+	text-decoration:none;
+	}
+.hotranking_leftbox2 p.bottom a:hover{
+	color: #ec4e2f;
+	}	
+ /*===人氣金榜_END===*/
+ #CONTENT_BOX_goodfood_leftbox2{
+	background-color:#fff9df;
+	width:980px;
+	padding-top: 10px;	
+	}
+#CONTENT_BOX_5{
+	background-color:#fff9df;
+	width:980px;
+	padding-top: 10px;
+	}
+/*指引導覽How To Buy*/
+.CONTENT_BOX_5right{
+	float:right;
+	width:195px;
+	height:705px;
+	background: url(https://www.ihergo.com/photo/buy/20101215/howtobuy/howtobuy_bg.jpg) no-repeat left top;
+	padding: 50px 0px 0px 25px;
+	}
+找合購noHomeClubText
+.CONTENT_BOX_5right_noHomeClubText{
+	width:180px;
+	height:160px;
+	display:block;
+	}
+/*送到家homeCategoryDiv*/
+.CONTENT_BOX_5right_homeCategoryDiv{
+	width:180px;
+	height:500px;
+	display:block;
+	}
+
+/*話題美妝Beauty Topic*/
+.CONTENT_BOX_5left_beautytopic{
+	float:left;
+	width:740px;
+	height:320px;
+	background: url(https://www.ihergo.com/photo/buy/20101215/beautytopic/beautytopic_bg.jpg) no-repeat left top;
+	padding:35px 0px 20px 20px ;
+	}
+.CONTENT_BOX_3left_beautytopic{
+	float:left;
+	width:740px;
+	height:320px;
+	background:url(https://www.ihergo.com/photo/buy/20101215/free%20gift/free-gift_bg.jpg) no-repeat left top;
+	padding:35px 0px 20px 20px ;
+	}
+.beautytopic_leftbox1 {
+	float: left;
+	width: 195px;
+	height: 300px;
+	display:block;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	font-size:0;
+	padding:1px;	
+	}
+
+/*話題美妝Beauty Topic_商品陳列*/
+.beautytopic_leftbox2 {
+	float: left;
+	width: 510px;
+	display:block;
+	font-size:0;
+	padding: 0px 0px 0px 20px; 	
+	}
+.beautytopic_leftbox2_boxinto{
+	float: left;
+	width: 110px;
+	height: 150px;
+	display:block;
+	font-size:0;
+	padding: 0px 0px 10px 0px;
+	}
+.beautytopic_leftbox2 p.top a{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:100px;
+	font-size:12px;
+	line-height:20px;
+	color:  #333;
+	text-decoration:none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 2px solid #ec4e2f;
+	padding-left:5px;
+	text-decoration:none;
+	} 
+.beautytopic_leftbox2 p.top a:hover{
+	color: #ec4e2f;
+		}		
+.beautytopic_leftbox2 p.bottom a{
+    display:block;
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:100px;
+	font-size:12px;
+	line-height:20px;
+	color:  #333;
+	text-decoration:none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 2px solid #ec4e2f;
+	padding-left:5px;
+	text-decoration:none;
+	}
+.beautytopic_leftbox2 p.bottom a:hover{
+	color: #ec4e2f;
+	}	
+.beautytopic_leftbox2_boxinto_j{
+	width: 100px;
+	height: 100px;
+	display:block;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	font-size:0;
+	padding:1px;	
+	}
+
+
+/*享樂生活Fun Life*/
+.CONTENT_BOX_5left_funlife{
+	float:left;
+	width:740px;
+	height:320px;
+	background: url(https://www.ihergo.com/photo/buy/20101215/funlife/funlife_bg.jpg) no-repeat left top;
+	padding:35px 0px 20px 20px ;
+	}		
+.funlife_leftbox1 {
+	float: left;
+	width: 195px;
+	height: 300px;
+	display:block;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	font-size:0;
+	padding:1px;	
+	}
+/*享樂生_商品陳列*/
+.funlife_leftbox2 {
+	float:  left;
+	width: 510px;
+	display:block;
+	overflow:hidden;
+	padding: 0px 0px 0px 20px; 	
+	}
+.funlife_leftbox2_boxinto{
+	float: left;
+	width: 110px;
+	height: 150px;
+	display:block;
+	font-size:0;
+	padding: 0px 0px 10px 0px;
+	}
+.funlife_leftbox2 p.top a{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:100px;
+	font-size:12px;
+	line-height:20px;
+	color:  #333;
+	text-decoration:none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 2px solid #ec4e2f;
+	padding-left:5px;
+	text-decoration:none;
+	} 
+.funlife_leftbox2 p.top a:hover{
+	color: #ec4e2f;
+		}		
+.funlife_leftbox2 p.bottom a{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif ,新細明體;
+	width:100px;
+	font-size:12px;
+	line-height:20px;
+	color:  #333;
+	text-decoration:none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 2px solid #ec4e2f;
+	padding-left:5px;
+	text-decoration:none;
+	}
+.funlife_leftbox2 p.bottom a:hover{
+	color: #ec4e2f;
+	}	
+.funlife_leftbox2_boxinto_j{
+	width: 100px;
+	height: 100px;
+	display:block;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	font-size:0;
+	padding:1px;	
+	}
+.funlife_w20{
+	float: left;
+	font-size:0pxF
+	line-height:150px;
+	width: 20px;
+	height: 100px	
+	}	

@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+.popup_box .share_encourage{ width:500px; height:95px; padding-top:90px; width: 460px;}
+.popup_box .share_encourage p{
+    font-size: 15px;
+    color: #808080;
+    line-height: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: -50px 0px 0px 52px;
+    text-align: justify;}
+.popup_box .share_encourage input.userID_input{margin-left:50px; width:385px; height:25px; padding-left: 7px; padding-right: 7px;}
+.popup_box .share_encourage ul.p_btm{ width: 500px; height: 35px; margin: 25px 0px 0px 130px;}
+.popup_box .share_encourage ul li{margin-right: 10px; float: left;}
+.popup_box .share_encourage ul li a.img_btn{background: transparent url("../../../images/user/mails/mails_btn.gif") no-repeat scroll left top;
+    color: #454545;
+    display: block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    min-width: 110px;
+    text-align: center;
+    text-decoration: none;}
+.popup_box .share_encourage ul li a.img_btn:hover { background-position:left -64px;}
+.popup_box .share_encourage ul li a.img_btn span{background: transparent url("../../../images/user/mails/mails_btn.gif") no-repeat scroll right -32px; display: block; line-height: 32px; padding: 0px 20px;}
+.popup_box .share_encourage ul li a.img_btn:hover span { background-position:right -96px;}
+.popup_box .share_not{ width:500px; height:135px; padding-top:90px; background:url(../../../images/shop/store/share_img_not.gif) 175px 0 no-repeat;}
+.popup_box .share_not p{ width:460px; font-size:15px; color:#808080; line-height:25px; font-weight:bold; letter-spacing:1px; margin:5px 0 0 20px; text-align:justify;}
+.popup_box .share_not p span{ color:#6579b6;}
+.popup_box .share_not p a{ color:#6579b6;}
+.popup_box .share_not ul{ width:500px; height:35px; margin:25px 0 0 130px;}
+.popup_box .share_not ul li{ float:left; margin-right:10px;}
+.popup_box .share_not a.img_btn { background: url(../../../images/user/mails/mails_btn.gif) no-repeat scroll left top rgba(0, 0, 0, 0); color: #454545; display: block; font-size: 13px; letter-spacing: 1px; min-width: 110px; text-align: center; text-decoration: none;}
+.popup_box .share_not a.img_btn:hover { background-position:left -64px;}
+.popup_box .share_not a.img_btn span { background: url(../../../images/user/mails/mails_btn.gif) no-repeat scroll right -32px rgba(0, 0, 0, 0); display: block; line-height: 32px; padding: 0 20px;}
+.popup_box .share_not a.img_btn:hover span { background-position:right -96px;}
+	
+.popup_box .become_host{ width:500px; height:135px; padding-top:20px;}
+.popup_box .become_host p{ width:460px; font-size:15px; color:#808080; line-height:25px; font-weight:bold; letter-spacing:1px; margin:5px 0 0 20px; text-align:justify;}
+.popup_box .become_host p span{ color:#6579b6;}
+.popup_box .become_host p a{ color:#6579b6;}
+.popup_box .become_host .btn_box{width: 100%;height: 60px;margin-top: 30px;}
+.popup_box .become_host .btn_box .w_box .btn_sent{margin: 0px 0px 0px 175px;font-size: 13px;display: block;color: rgb(69, 69, 69);float: left;letter-spacing: 1px;background: transparent url("../../../images/shop/store/admin/admin_btn.gif") no-repeat scroll left -128px;text-decoration: none;}
+.popup_box .become_host .btn_box .w_box .btn_sent span{display: block;padding: 0 60px;line-height: 32px;background: url(../../../images/shop/store/admin/admin_btn.gif) no-repeat right -160px;}	
+.popup_box .become_host .btn_box .w_box .btn_sent:hover{background:url(../../../images/shop/store/admin/admin_btn.gif) no-repeat left -192px;}
+.popup_box .become_host .btn_box .w_box .btn_sent:hover span{background:url(../../../images/shop/store/admin/admin_btn.gif) no-repeat right -224px;}	
+	
+.popup_box .recommend_linkbox{ width:383px; height:130px; background:url(../../../images/shop/store/share_recommend_link.gif) 0 0 no-repeat; margin-top:5px; padding:35px 0 0 143px;}
+.popup_box .recommend_linkbox p.note_con{ color:#454545; font-size:12px; width:360px; height:55px; display:block; letter-spacing:1px; line-height:22px; padding-left:22px;}
+.popup_box .recommend_linkbox .copy_link{}
+.popup_box .recommend_linkbox .copy_link input{ float:left; width:242px; height:26px; line-height:28px; border:1px solid #bbbbbb; padding:0 10px; background-color:#f5f5f5; color:#f64949; font-weight:bold; letter-spacing:1px;} 
+.popup_box .recommend_linkbox .copy_link input:hover{border-color:#999;}
+.popup_box .recommend_linkbox .copy_link a.popbtn{ margin-left:10px;}

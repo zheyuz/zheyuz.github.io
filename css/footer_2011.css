@@ -1,0 +1,165 @@
+﻿@charset "utf-8";
+/* CSS Document */
+h1, h2, h3, h4, h5, h6, p, a, ul, li{ font-family:Arial, Helvetica, sans-serif, "新細明體-ExtB";}
+
+h1, h2, h3, h4, h5, h6{ color:#645447;}
+
+#footer-nav {
+	width:100%;
+	margin-top:15px;
+	padding: 15px 0;
+	border-top:5px solid #ececec;
+	background-color: #f9f9f9;
+}
+#footer-nav .footer_CONTENT {
+	margin:0 auto;
+	width:965px;
+    padding-left: 15px;
+	border-bottom:1px solid #ececec;
+}
+#footer-nav .footer_CONTENT .footerCONTENT_Box {
+	float:left;
+	width:205px;
+	padding: 0px 48px 15px 0px;
+}
+#footer-nav .footer_CONTENT .footerCONTENT_Box h3 {
+	font-size:15px;
+	font-weight:bold;
+	letter-spacing:1px;
+	line-height:37px;
+}
+#footer-nav .footer_CONTENT .footerCONTENT_Box h3 span a.moer_btn {
+	line-height:37px;
+	color:#999999;
+	font-size:12px;
+	font-weight:normal;
+	padding-left: 105px;
+	}
+#footer-nav .footer_CONTENT .footerCONTENT_Box h3 span a:hover.moer_btn{
+	color: #645447;
+	}
+#footer-nav .footer_CONTENT .footerCONTENT_Box p {
+	line-height:25px;
+	font-size:12px;
+	letter-spacing:1px;
+	overflow:hidden;
+	color:#666666;
+	text-align: justify;
+}
+#footer-nav .footer_CONTENT .footerCONTENT_Box p a.openshop{
+	color: #E84C1F;
+	text-decoration: none;
+
+	} 
+#footer-nav .footer_CONTENT .footerCONTENT_Box p a:hover.openshop{
+	text-decoration: underline;	
+	}	
+	
+#footer-nav .footer_CONTENT .footerCONTENT_FbBox {
+	float:right;
+	width:205px;
+}
+#footer-nav .footer_CONTENT .footerCONTENT_FbBox .fbImg {
+	float:left;
+	width:205px;
+	height:258px;
+}
+
+
+
+/*==媒體選單==*/
+ul.ihergo_Media_list_ad {
+	width:205px;
+}
+ul.ihergo_Media_list_ad li {
+	width:206px;
+	font-size:0px;
+	line-height:0px;
+}
+ul.ihergo_Media_list_ad li .listBox {	
+	width:205px;
+	height:25px;
+	font-size:12px;
+}
+ul.ihergo_Media_list_ad li .listBox:hover{
+	background-color:#ececec;
+	}
+ul.ihergo_Media_list_ad li .listBox a{
+	float:left;		
+	display:block;
+	font-size:12px;
+	height:25px;
+	line-height:25px;
+	letter-spacing:1px;
+	color:#666666;
+	text-decoration:none;
+	_display:inline-block;
+}
+ul.ihergo_Media_list_ad li .listBox a.together215 {
+	width:205px;
+	height:25px;	
+	overflow:hidden;
+}
+ul.ihergo_Media_list_ad li a:hover {
+	color:#666666;
+	text-decoration: underline;
+}
+/*==媒體選單_END==*/	
+	
+#footer-nav .footer_links {
+	margin:0 auto;
+	width:960px;
+	padding: 10px 15px 10px 5px;
+}	
+#footer-nav .footer_links .twcassl_logo{
+	float:right;
+	width:113px;
+	height:57px;
+	}
+#footer-nav .footer_links p.Copyright{
+	display:block;
+	float:left;
+	width:590px;
+	padding: 0px 0px 0px 200px; 
+	line-height:25px;
+	font-size:12px;
+	letter-spacing:1px;
+	overflow:hidden;
+	color: #999;
+	text-align: justify;
+	}
+
+/*==服務選單==*/
+ul.links_list_ad {
+	width:746px;
+	padding: 0px 64px 0px 0px;
+	float:right;
+}
+
+ul.links_list_ad li {
+	float:right;	
+	padding: 0px 10px 0px 10px;
+}
+
+ul.links_list_ad li a{
+	display:block;	
+	font-size:12px;
+	height:25px;
+	line-height:25px;
+	letter-spacing:1px;
+	color:#666666;
+	text-decoration:none;
+	_display:inline-block;
+}
+ul.links_list_ad li .listBox a {
+	height:25px;	
+	overflow:hidden;
+}
+ul.links_list_ad li a:hover {
+	color:#645447;
+	text-decoration: underline;
+}
+/*==服務選單_END==*/		
+#twcad2    {visibility: hidden; width: 0px; height: 0px; line-height: 0px; font-size: 0px; background: none; border: none;}
+	
+	

@@ -1,0 +1,527 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+<!--==滑鼠遊標==--><!--==手指==-->
+.pointer { cursor: pointer; }
+
+/*======首頁內容======*/
+.inedx_BG{ background-color:#fff;}
+.inedx_BG_White{ background-color:#fff;}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, li{ font-family:Arial, Helvetica, sans-serif, "新細明體-ExtB";}
+h2, h3{ color:#858585;}
+
+a { 
+text-decoration:none;
+outline: none; /* for Firefox Google Chrome  */
+behavior:expression(this.onFocus=this.blur()); /* for IE */
+}
+
+/*==浮動_右邊左邊_共用==*/
+.boxL{float: left; /*background-color:#0F0;*/}
+.boxR{float: right; /*background-color:#F00;*/ }
+.boxR_MR10px{ float: right; margin:0px 10px 0px 0px /*background-color:#F00;*/ }
+
+/*==紅色文字==*/
+span.Red{ color:#F36167;}
+span.Red_bold{ color:#F36167; font-weight:bold;}
+span.Red_bold22{ color:#F36167; font-weight:bold; font-size:22px;}
+span.RedIcon{ color: #F36167;  background: url(../../images/home/goyiz_content/goyiz_c_icon.gif) no-repeat right -527px; padding:0px 15px 0px 16px;}
+span.Redtitle{ color:#F36167; font-size:15px;}
+span.Black{color:#524D4D; font-weight:bold;}
+span.Red{color:#F36167; }
+span.White{color:#fbfbfb; font-weight:bold;}
+/*==紅色文字==*/
+p.RedText{ color:#F36167; font-weight:bold;}
+/*==橘色文字==*/
+
+/*藍色帳號*/ 			
+span.fontblue_B { font-size:12px; color:#3B5998; font-weight:bold; padding-right:3px; }
+/*藍色文字*/ 			
+span.fontblue { font-size:12px; color:#3B5998; }
+/*家族ICON_文字*/ 	
+a span.protect { background: url("../../images/2011/private.gif") no-repeat scroll -2px -27px transparent; padding-left: 15px; }
+a span.private { background: url("../../images/2011/private.gif") no-repeat scroll -2px -4px transparent; padding-left: 15px; }
+ 
+/*==分隔線左與右==*/
+.border_L{ background:url(../../images/home/ihergoheader/signup_bg.gif) no-repeat left top; }
+.border_R{ background:url(../../images/home/ihergoheader/signup_bg.gif) no-repeat right top;  /*border-right:1px solid #ddd;*/ }
+  
+
+/*==Header_開始==*/
+.IhergoHeader{ width:100%; height:76px; z-index:3; background: url(../../images/home/ihergoheader/header_bg.png) repeat-x left top;  /*background: url(../../images/home/ihergoheader/header_bg.png) repeat-x left top;*/ /* height:41px; *border-bottom:1px #ccc solid; /*IE7*/ }
+.IhergoHeader .header_wrp{ margin:0 auto; width:980px;  max-width:980px; _width:980px; height:76px; background: url(../../images/home/ihergoheader/header_bg.gif) repeat-x left top;}
+.IhergoHeader .header_wrp .header_content{height:76px; }
+.IhergoHeader .header_wrp .header_content .logo_wrp{ float:left;  width:180px; height:76px;  z-index:5;}
+.IhergoHeader .header_wrp .header_content .logo_wrp a.logo{ width:180px; height:75px; display:block; text-indent:-9999px;  background:url(../../images/home/ihergoheader/ihergo_logo_img.png) no-repeat left top; _background:url(../../images/home/ihergoheader/ihergo_logo_img.gif) no-repeat left top;}
+.IhergoHeader .header_wrp .header_content .logo_wrp a.logo:hover{ background: url(../../images/home/ihergoheader/ihergo_logo_img.png) no-repeat left bottom; _background: url(../../images/home/ihergoheader/ihergo_logo_img.gif) no-repeat left bottom;}
+
+/*===============按鈕_右_開始===============*/
+
+.IhergoHeader .header_wrp .header_content .left_wrp { float:left;}
+
+/*==愛合購Tab左_開始==*/
+.IhergoHeader .header_wrp .header_content .left_wrp ul.Tableft{float:left; width:150px; display:block; padding:13px 0px 10px 10px; }
+.IhergoHeader .header_wrp .header_content .left_wrp ul.Tableft li.menubox{position:relative; z-index:5; float:left; height:50px; _margin-top:2px; *margin-top:2px; margin-top:2px\9\0; /* ie 9*/}
+.IhergoHeader .header_wrp .header_content .left_wrp ul.Tableft li.menubox a.menubtn{ display:block; font-size:13px; color: #666666; text-align:center; height:50px; line-height:50px; padding: 0px 10px;   text-decoration:none;  _display:inline-block; letter-spacing: 2px; }
+.IhergoHeader .header_wrp .header_content .left_wrp ul.Tableft li.menubox a.menubtn:hover{color: #3B5998; background-color:#f9f9f9;}
+/*==服務 btn==*/
+.IhergoHeader .header_wrp .header_content .left_wrp ul.Tableft li.menubox a.servicebtn{ padding:0px 20px 0px 10px; background: url(../../images/home/ihergoheader/header_icon.gif) no-repeat left top;}
+/*==active btn==*/
+.IhergoHeader .header_wrp .header_content .left_wrp ul.Tableft li.menubox a.active{ color:#fff; background:url(../../images/home/ihergoheader/header_icon.gif) no-repeat left -50px #454545; }
+.IhergoHeader .header_wrp .header_content .left_wrp ul.Tableft li.menubox a.active:hover{color:#fff; background-color:#454545; text-decoration:none; }
+/*==activestores btn==*/
+.IhergoHeader .header_wrp .header_content .left_wrp ul.Tableft li.menubox a.activestores{ color:#fff; background-color:#ee4b62; }
+.IhergoHeader .header_wrp .header_content .left_wrp ul.Tableft li.menubox a.activestores:hover{color:#fff; background-color:#ee4b62; text-decoration:none; }
+
+/*==愛合購Tab左_結束==*/
+
+/*==下拉選單_邊緣==*/
+.header_right_wrp .about_content { border-radius: 0px 3px 3px 3px; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);}
+.header_right_wrp .ihergoMail_content { border-radius: 3px 0px 3px 3px; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);}
+.header_right_wrp .notice_box { border-radius: 3px 0px 3px 3px; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);}
+.header_right_wrp .club_box { border-radius: 3px 0px 3px 3px; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);}
+.header_right_wrp .Myshop_content{  border-radius: 3px 0px 3px 3px; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);}
+.header_right_wrp .mystore_content{ border-radius: 3px 0px 3px 3px; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);}
+.header_right_wrp .Gopay_content{ border-radius: 3px 0px 3px 3px; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);}
+.inedx_header_search_box .header_search_box { border-radius: 0px 0px 0px 0px; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);}
+.header_right_wrp span.unread{ border-radius: 3px 3px 3px 3px;}
+.header_right_wrp span.uRed{ border-radius: 3px 3px 3px 3px;}
+
+
+/*==服務選單_開始==*/
+/*.about_content{ position:absolute; top:50px; left:0px; width:160px; background-color:#f5f5f5; border:2px solid #454545;}
+.about_content .arrow{ position:absolute; width:20px; height:10px; background: url(../../images/home/ihergoheader/header_btn_arrow.png) no-repeat left top;}
+.about_content ul.UxMenu{ float:left; width:100%;}
+.about_content ul.UxMenu li.linkbtn{ border-bottom:1px solid #dbd7d5; }
+.about_content ul.UxMenu li.linkbtn a{ display:block; width:100%; height:30px; line-height:30px;  font-size:13px; color: #666666; text-align:center; text-decoration:none; _display:inline-block;  overflow:hidden; letter-spacing: 3px;}
+.about_content ul.UxMenu li.linkbtn a{ _line-height:33px;}
+.about_content ul.UxMenu li.linkbtn a:hover{ color:#FFF; background-color:#454545; }
+.about_content ul.UxMenu li.linkbtn a:active{ background-color:#333333;}
+.about_content ul.UxMenu li.NOborder{ border:none;}*/
+/*==服務選單_結束==*/
+
+
+/*==愛合購信件_開始==*/
+.header_right_wrp .ihergoMail_content{ position:absolute; top:72px; right:0px; width:160px; background-color:#f5f5f5; border:2px solid #454545;}
+.header_right_wrp .ihergoMail_content .arrow{ position:absolute; width:20px; height:10px; background: url(../../images/home/ihergoheader/header_btn_arrow.png) no-repeat left top; }
+.header_right_wrp .ihergoMail_content ul.UxMenu{ float:left; width:100%;}
+.header_right_wrp .ihergoMail_content ul.UxMenu li.linkbtn{ border-bottom:1px solid #dbd7d5; }
+
+.header_right_wrp .ihergoMail_content ul.UxMenu li.linkbtn a{ display:block; width:100%; height:30px; line-height:30px;  font-size:13px; color: #666666; text-align:center; text-decoration:none; _display:inline-block;  overflow:hidden; letter-spacing: 3px; background-color:#F5F5F5;}
+.header_right_wrp .ihergoMail_content ul.UxMenu li.linkbtn a{ _line-height:33px;}
+.header_right_wrp .ihergoMail_content ul.UxMenu li.linkbtn a:hover{ color:#454545; background-color:#fff; }
+.header_right_wrp .ihergoMail_content ul.UxMenu li.linkbtn a:active{  background-color:#f5f5f5; background-color:#fff; }
+
+.header_right_wrp .ihergoMail_content ul.UxMenu li.NOborder{ border:none;}
+.header_right_wrp .ihergoMail_content ul.UxMenu li.linkbtn a span.fontred{ color:#FFF; font-weight:bold; font-family: "Times New Roman",Times,serif; padding: 1px 5px 1px 6px; background-color:#F64949; border-radius: 3px 3px 3px 3px;}
+/*==愛合購信件_結束==*/
+
+
+/*==我的點數_開始==*/
+.header_right_wrp .Gopay_content{ position: absolute; top:42px ;right:184px; _right:162px; *right:162px; width:370px; overflow:hidden;  background-color:#f5f5f5; border:2px solid #454545; z-index:3;}
+.header_right_wrp .Gopay_content .arrow{ position:absolute; width:20px; height:10px; background: url(../../images/home/ihergoheader/header_btn_arrow.png) no-repeat left top;}
+.header_right_wrp .Gopayfont_content{ float:left; width:340px; padding:10px 15px; background-color:#FFF; border-top: 1px solid #DCDCDC}
+.header_right_wrp .Gopayfont_content p.Gopayfont{ font-size:12px; letter-spacing:1px; line-height:18px;}
+.header_right_wrp .Gopayfont_content p.Gopayfont a.fontbtn{ display:block; text-decoration:none; color: #105CB6;}
+.header_right_wrp .Gopayfont_content p.Gopayfont a.fontbtn:hover{ text-decoration:underline; color: #105CB6;}
+.header_right_wrp .Gopay_content ul.UxMenu{ float:left; width:100%;}
+.header_right_wrp .Gopay_content ul.UxMenu li.linkbtn{ border-bottom:1px solid #dbd7d5; }
+.header_right_wrp .Gopay_content ul.UxMenu li.linkbtn a{ display:block; width:100%; height:30px; line-height:30px;  font-size:13px; color: #666666; text-align:center; text-decoration:none; _display:inline-block;  overflow:hidden; letter-spacing: 3px;}
+.header_right_wrp .Gopay_content ul.UxMenu li.linkbtn a{ _line-height:33px;}
+.header_right_wrp .Gopay_content ul.UxMenu li.linkbtn a:hover{ color:#FFF; background-color:#454545; }
+.header_right_wrp .Gopay_content ul.UxMenu li.linkbtn a:active{ background-color:#333333;}
+.header_right_wrp .Gopay_content ul.UxMenu li.NOborder{ border:none;}
+.header_right_wrp .Gopay_content ul.UxMenu li.linkbtn a span.fontred{ color:#FFF; font-weight:bold; font-family: "Times New Roman",Times,serif; padding: 1px 5px 1px 6px; background-color:#F64949; border-radius: 3px 3px 3px 3px;}
+/*==我的點數_結束==*/
+
+/*==我的工具_開始==*/
+.header_right_wrp .Myshop_content{ position:absolute; top:42px; right:0px; _right:-0px; width:160px; background-color:#f5f5f5; border:2px solid #454545; z-index:3;}
+.header_right_wrp .Myshop_content .arrow{ position:absolute; width:20px; height:10px; background: url(../../images/home/ihergoheader/header_btn_arrow.png) no-repeat left top;}
+.header_right_wrp .Myshop_content ul.UxMenu{ float:left; width:100%;}
+.header_right_wrp .Myshop_content ul.UxMenu li.linkbtn{ border-bottom:1px solid #dbd7d5; }
+
+.header_right_wrp .Myshop_content ul.UxMenu li.linkbtn a{ display:block; width:100%; height:30px; line-height:30px;  font-size:13px; color: #666666; text-align:center; text-decoration:none; _display:inline-block;  overflow:hidden; letter-spacing: 3px; background-color:#f5f5f5;}
+.header_right_wrp .Myshop_content ul.UxMenu li.linkbtn a{ _line-height:33px;}
+.header_right_wrp .Myshop_content ul.UxMenu li.linkbtn a:hover{ color:#454545; background-color:#fff; }
+.header_right_wrp .Myshop_content ul.UxMenu li.linkbtn a:active{  background-color:#f5f5f5; background-color:#fff; }
+
+.header_right_wrp .Myshop_content ul.UxMenu li.NOborder{ border:none;}
+.header_right_wrp .Myshop_content ul.UxMenu li.linkbtn a span.fontred{ color:#FFF; font-weight:bold; font-family: "Times New Roman",Times,serif; padding: 1px 5px 1px 6px; background-color:#F64949; border-radius: 3px 3px 3px 3px;}
+/*==我的工具_結束==*/
+
+/*==我的商店_開始==*/
+.header_right_wrp .mystore_content{ position:absolute; top:42px; right:0px; right:82px; _right:81px; width:160px; background-color:#f5f5f5; border:2px solid #454545; z-index:1;}
+.header_right_wrp .mystore_content .arrow{ position:absolute; width:20px; height:10px; background: url(../../images/home/ihergoheader/header_btn_arrow.png) no-repeat left top;}
+.header_right_wrp .mystore_content ul.UxMenu{ float:left; width:100%;}
+.header_right_wrp .mystore_content ul.UxMenu li.linkbtn{ border-bottom:1px solid #dbd7d5; }
+
+.header_right_wrp .mystore_content ul.UxMenu li.linkbtn a{ display:block; width:100%; height:30px; line-height:30px;  font-size:13px; color: #666666; text-align:center; text-decoration:none; _display:inline-block;  overflow:hidden; letter-spacing: 3px; background-color:#f5f5f5;}
+.header_right_wrp .mystore_content ul.UxMenu li.linkbtn a{ _line-height:33px;}
+.header_right_wrp .mystore_content ul.UxMenu li.linkbtn a:hover{ color:#454545; background-color:#fff; }
+.header_right_wrp .mystore_content ul.UxMenu li.linkbtn a:active{  background-color:#f5f5f5; background-color:#fff; }
+
+.header_right_wrp .mystore_content ul.UxMenu li.NOborder{ border:none;}
+.header_right_wrp .mystore_content ul.UxMenu li.linkbtn a span.fontred{ color:#FFF; font-weight:bold; font-family: "Times New Roman",Times,serif; padding: 1px 5px 1px 6px; background-color:#F64949; border-radius: 3px 3px 3px 3px;}
+/*==我的商店_結束==*/
+
+/*===============按鈕_右_結束=================*/
+
+/*===============按鈕_右_開始=================*/
+.IhergoHeader .header_wrp .header_content .header_right_wrp { float: right;  height:75px; width:795px; _width:790px; position:relative;  /*background-color: #FF0;*/ /*height:80px;*/ }
+
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright{ width:750px; display:block; float:right;}
+/*==ID部份==*/
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .user_wrp{ float:right;  height:20px;  width:480px; _width:480px;  padding:10px 0px 0px 0px; background-color:#fcfbfa; }
+/*==功能部份==*/
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .shop_wrp{  float:right; /*height:30px;*/ width:480px; _width:480px;  background-color:#fcfbfa;}
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .shop_wrp .Ushop_box{ position:relative; z-index:5;}
+
+
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_wrp{ float: right; height:75px; padding:0px 15px 0px 0px; /*padding:0px 15px 0px 0px;*/ background:url(../../images/home/ihergoheader/signup_bg.gif) no-repeat right top;}
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_wrp h2.fone{float: left; height:72px; margin:3px 0px 0px 0px;}
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_wrp a.fonebtn{ display:block; color: #3B5998; height:72px; line-height:70px; font-size:12px; text-align:center;  padding: 0px 15px 0px 15px;  text-decoration:none;  _display:inline-block; letter-spacing: 2px; }
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_wrp a.fonebtn:hover{color: #3B5998; background-color:#f9f9f9; text-decoration:underline;}
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_wrp h2.fone a.img_btn {font-size:12px; display:block; float:left; color: #454545; padding:0 10px; line-height:30px; letter-spacing:2px; text-align:center; text-decoration:none; min-width:110px; _width:110px; background-color:#fdd100; border: 1px solid #f0bc1b; margin:19px 0px 0px 0px; border-radius: 3px 3px 3px 3px; }
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_wrp h2.fone a.img_btn:hover{ background-color:#ffe100;  border: 1px solid #e9b800; color: #3B5998; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);} 
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_wrp h2.fone a.img_btn:active{ background-color:#fdd100; border: 1px solid #e9b800; color: #3B5998;}
+
+
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_API_wrp{ float: right; height:75px;}
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_API_wrp h3.APIfone{float: left; height:72px; line-height:70px; font-size:12px; color: #666666; margin:3px 0px 0px 10px; font-weight:normal; letter-spacing:2px; /*background:url(../../images/home/ihergoheader/signup_apilogo.gif) no-repeat left -120px;*/}
+
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_API_wrp h3.apilogo a {text-indent:-9999px; font-size:13px; display:block; width:33px; height:32px; line-height:32px;  text-decoration:none; margin:22px 0px 0px 6px;  }
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_API_wrp h3.apilogo a.FBimg_btn {background:url(../../images/home/ihergoheader/signup_apilogo.gif) no-repeat left top; }
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_API_wrp h3.apilogo a.FBimg_btn:hover{ background-position: -50px top; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);} 
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_API_wrp h3.apilogo a.FBimg_btn:active{background-position: -100px top;}
+
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_API_wrp h3.apilogo a.Googleimg_btn {background:url(../../images/home/ihergoheader/signup_apilogo.gif) no-repeat left -40px; }
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_API_wrp h3.apilogo a.Googleimg_btn:hover{ background-position: -50px -40px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);} 
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_API_wrp h3.apilogo a.Googleimg_btn:active{background-position: -100px -40px;}
+
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_API_wrp h3.apilogo a.Yahooimg_btn {background:url(../../images/home/ihergoheader/signup_apilogo.gif) no-repeat left -80px; }
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_API_wrp h3.apilogo a.Yahooimg_btn:hover{ background-position: -50px -80px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);} 
+.IhergoHeader .header_wrp .header_content .header_right_wrp .Signup_API_wrp h3.apilogo a.Yahooimg_btn:active{background-position: -100px -80px;}
+
+
+
+/*==愛合購Tab右_開始==*/
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright{ padding:3px 0px 0px 0px;  height:73px; /*padding:15px 0px 15px 0px;*/ }
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright li.numberbox{ position:relative; z-index:6;  /*z-index:5;*/ float:right; text-align:center; /* _margin-top:2px; margin:2px\9\0;*/ /* ie 9*/ background-color:#fcfbfa;}
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright li.numberbox{ _width:68px;}
+
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright li.numberbox a.fontbtn{ display:block; font-size:12px; color:#454545; height:50px; padding:12px 14px 10px 14px; _padding:12px 9px 10px 9px; /*padding:12px 9px 10px 9px;*/ line-height:25px; text-decoration:none; }
+
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright li.numberbox a.fontbtn:hover{color: #3B5998; text-decoration: none; background:url(../../images/home/ihergoheader/signup_bg.gif) no-repeat left top #F5F5F5;}
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright li.numberbox a.fontbtn span.unread{ display:block; font-family: "Times New Roman",Times,serif; padding:0px 8px; font-size:18px; color:#FFF; font-weight:bold; background-color:#e9e9e9;}
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright li.numberbox a.fontbtn span.uRed{ background-color:#f64949;}
+/*==active btn==*/
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright li.numberbox a.active{ color:#fff; background-color:#454545; }
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright li.numberbox a.active:hover{ color:#fff; background-color: #353535; background-image:none;}
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright li.numberbox a.fontbtn span.active{ background-color:#454545;}
+
+<!--==我的==-->
+/*==ID部份==*/
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright li.userbox{position:relative; z-index:5; /*float:right;*/ }
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .user_box{ float:right;  height:20px; }
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .user_box a.user{ font-size:12px; font-weight:bold;}
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .user_box span.text9 {font-size:11px; padding: 0px 5px 0px 0px;}
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .user_box a.userlogout{ font-size:11px; padding: 0px 10px 0px 0px; margin:0px 0px 0px 0px;  letter-spacing: 2px;}
+
+/*==選單BTN==*/
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.usershopbtn{ float:right; color:#454545; font-size:12px; display:block;  height:24px; line-height:25px; padding: 0px 10px 0px 10px; letter-spacing: 1px;} 
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.usershopbtn{ margin:7px 0px 0px 0px; _margin:9px 0px 0px 0px; margin:8px 0px 0px 0px\9; /* ie 9*/ }
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.usershopbtn:hover{color: #3B5998; background-color:#f9f9f9;}
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.btnfontred{ color:#FFF; background-color:#F64949; font-weight:bold; border-left:1px solid #f76464; border-radius: 0px 3px 3px 0px;}
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.btnfontred:hover{color:#FFF; background-color:#F64949;}
+
+/*==下拉選單BTN==*/
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.usershop{ float:right; color:#454545; font-size:12px; display:block;  height:35px; _height:35px; line-height:25px; text-indent:10px; padding: 0px 10px 0px 10px; letter-spacing: 1px; background:url(../../images/home/ihergoheader/header_icon.gif) no-repeat left -100px} 
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.usershop{ margin:7px 0px 0px 0px;  /*_margin:9px 0px 0px 0px;*/ /* margin:9px 0px 0px 0px\9;*/   /* ===ie 9===*/}
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.usershop:hover{color: #3B5998; background-color:#f9f9f9;}
+
+/*==今天要面交==*/
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.usernews{ font-weight:bold; float:right; color:#fff; font-size:12px; display:block;  height:24px; line-height:25px; padding: 0px 10px 0px 10px; letter-spacing: 1px; background-color:#F64949; border-right:1px solid #e24242;  border-radius: 3px 0px 0px 3px;} 
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.usernews{  margin:7px 0px 0px 0px;   _margin:9px 0px 0px 0px; margin:8px 0px 0px 0px\9; /* ie 9*/ }
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.usernews:hover{color:#FFF; background-color:#F64949;}
+
+/*==active btn==*/
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.active{color:#fff; background:url(../../images/home/ihergoheader/header_icon.gif) no-repeat left -124px #454545;}
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.active:hover{color:#fff; text-decoration: none; background:url(../../images/home/ihergoheader/header_icon.gif) no-repeat left -124px #353535;}
+/*==active btn_結束==*/
+
+/*==我要開店 btn==*/
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.openstore_btn{ float:right; color:#454545; font-size:12px; display:block;  height:35px; _height:35px; line-height:25px; /*text-indent:10px;*/ padding: 0px 15px 0px 15px; letter-spacing: 1px; background:url(../../images/home/ihergoheader/header_icon.gif) no-repeat left -240px} 
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.openstore_btn{ margin:7px 0px 0px 0px;  /*_margin:9px 0px 0px 0px;*/ /* margin:9px 0px 0px 0px\9;*/   /* ===ie 9===*/}
+.IhergoHeader .header_wrp .header_content .header_right_wrp ul.Tabright .Ushop_box a.openstore_btn:hover{color: #3B5998; background-color:#f9f9f9;}
+
+
+
+/*標題TOP*/
+.notbox_top { widows:222px; height:30px; }
+.notbox_top p { float:left; font-size:13px;  font-weight:bold; color:#505050; text-indent:15px; line-height:30px; letter-spacing:2px; }
+.notbox_top p.moerT { float:right; font-size:11px; font-weight:normal; line-height:30px; text-align:right; }
+.notbox_top p.moerT a{ display:block; padding: 0px 15px; font-size:11px; line-height:30px; color: #3B5998;}
+.notbox_top p.moerT a:hover{  color: #3B5998;}
+
+/*顯示所有*/
+.notbox_bottom { width:380px; height:38px; float:left;  }
+.notbox_bottom p.fone { font-size:12px; color:#666666; text-align:center; display:block; line-height:38px;  font-weight:bold; background: url(../../images/home/notice_box/notbox_bottom_bg.gif) no-repeat left top; }
+.notbox_bottom p a { font-size:12px; color:#666666; text-align:center; display:block; line-height:38px;  font-weight:bold; background: url(../../images/home/notice_box/notbox_bottom_bg.gif) no-repeat left top; }
+.notbox_bottom p a:hover{ color: #3B5998; background:url(../../images/home/notice_box/notbox_bottom_bg.gif) no-repeat left bottom;}
+
+/*===============通知_開始===============*/
+.header_notice_box {position: absolute; top:72px; right:0px; width:380px; overflow:hidden;  background-color:#f5f5f5; border:2px solid #454545;} 
+
+/*左邊圖片位置_ID*/
+.header_notice_con_img { width:50px; height:48px; padding:8px 0px 0px 5px; float:left; }
+/*圖片*/
+.header_notimg_box { width:40px; height:40px; display:block; margin:0 auto; /*border:1px solid #BBBBBB; padding:1px;*/}
+.header_notimg_box img.idimg16{ float:left; display:block; width:16px; height:16px; margin:2px 2px 2px 2px;}
+/*左邊圖片位置_家族*/
+.header_notice_con_clubimg { width:59px; height:50px; padding:10px 0px 0px 15px; float:left; }
+/*圖片*/
+.header_notice_con_clubimg .clubimg_box { width:59px; height:40px; display:block; /*border:1px solid #BBBBBB; padding:1px;*/}
+/*點選到的位置與反應*/
+a.notice_content { width:380px; overflow:hidden; background-color:#f5f5f5; float:left; border-top:1px solid #dcdcdc;}
+a:hover.notice_content { background-color:#FFf; border-top:1px solid #dcdcdc; text-decoration:none; }
+a.notice_content_in { background-color:#ffedbe; }
+a.notice_content_in:hover { background-color:#FFC; }
+
+/*---------------合購通知*/
+.header_notice_con_right_group { width:310px; overflow:hidden; padding:8px 0px 8px 5px; float:left; }
+.header_notice_con_right_group .box_L{float:left;   width:100%; margin:5px 0px 0px 0px;}
+.group365px { width:365px;}
+/*帳號與做了什麼事情*/
+.header_notice_con_right_group p { font-size:13px; color:#444444; letter-spacing:1px; width:310px; display:block; float:left; text-align:left; line-height:16px; word-break:break-all; /*word-break:break-all文字斷行控制*/}
+.header_notice_con_right_group p.w350{width:350px;}
+.header_notice_con_right_group p.w225{width:225px;}
+
+.header_notice_con_right_group p .imgicon {height: 16px;width: 16px;}
+.header_notice_con_right_group p .agk {margin-right: 2px;vertical-align: -4px;}
+
+.header_notice_con_right_group .boximg{ float:left; width:60px; height:60px; background:#333;}
+.header_notice_con_right_group .boximg img.g_img{ width:60px; height:60px; display: block; overflow:hidden; }
+
+/*追蹤通知icon*/
+.header_notice_con_right_group .box_L p.Peopleicon {font-size:11px; color:#858585; width:100px; overflow:hidden; height:18px; display:block; float:left; line-height:18px; text-indent:16px; background: url(../../images/home/notice_box/icon_p.gif) no-repeat left -2px;}
+
+
+/*家族通知icon*/
+.header_notice_con_right_group .box_L p.clubicon {font-size:11px; color:#858585; width:100px; overflow:hidden; height:18px; display:block; float:left; line-height:18px; text-indent:16px; background: url(../../images/home/notice_box/icon_p.gif) no-repeat left -20px;}
+
+/*邀請通知icon*/
+.header_notice_con_right_group .box_L p.plusicon {font-size:11px; color:#858585; width:100px; overflow:hidden; height:18px; display:block; float:left; line-height:18px; text-indent:16px; background: url(../../images/home/notice_box/icon_p.gif) no-repeat left -38px;}
+
+/*商店通知icon*/
+.header_notice_con_right_group .box_L p.stoericon {font-size:11px; color:#858585; width:100px; overflow:hidden; height:18px; display:block; float:left; line-height:18px; text-indent:16px; background: url(../../images/home/notice_box/icon_p.gif) no-repeat left -56px;}
+
+/*留言通知icon*/
+.header_notice_con_right_group .box_L p.infonticon {font-size:11px; color:#858585; width:100px; overflow:hidden; height:18px; display:block; float:left; line-height:18px; text-indent:16px; background: url(../../images/home/notice_box/icon_p.gif) no-repeat left -72px;}
+
+/*推薦通知icon*/
+.header_notice_con_right_group .box_L p.recommendicon {font-size:11px; color:#858585; width:100px; overflow:hidden; height:18px; display:block; float:left; line-height:18px; text-indent:16px; background: url(../../images/home/notice_box/icon_p.gif) no-repeat left -93px;}
+
+/*發起時間*/
+.header_notice_con_right_group .box_L p.time{ color:#999999; float: right; font-size:11px; width:145px; height:18px; display:block; overflow:hidden; text-align:right; padding:0px 0px 0px 0px;}
+/*---------------合購通知 END */	
+/*---------------發文通知*/		
+/*---------------發文通知 END*/	
+/*===============通知_結束===============*/
+
+/*===============家族訊息_開始===============*/
+.header_right_wrp .club_box {position: absolute; top:72px; right:0px; width:222px; overflow:hidden;  background-color:#f5f5f5; border:2px solid #454545;} 
+/*顯示所有*/
+.header_right_wrp .club_box .club_bottom { width:222px; height:38px; float:left;  }
+.header_right_wrp .club_box .club_bottom p.clubfont  { font-size:12px; color:#666666; text-align:center; display:block; line-height:38px;  font-weight:bold; background: url(../../images/home/notice_box/notbox_bottom_bg.gif) no-repeat left top; }
+.header_right_wrp .club_box .club_bottom p a { font-size:12px; color:#666666; text-align:center; display:block; line-height:38px;  font-weight:bold; background: url(../../images/home/notice_box/notbox_bottom_bg.gif) no-repeat left top; }
+.header_right_wrp .club_box .club_bottom p a:hover{ background:url(../../images/home/notice_box/notbox_bottom_bg.gif) no-repeat left bottom;}
+.header_right_wrp .club_box a.club_content { width:222px; overflow:hidden; background-color:#f5f5f5; float:left; border-top:1px solid #dcdcdc;}
+.header_right_wrp .club_box a:hover.club_content { background-color:#FFF; border-top:1px solid #dcdcdc; text-decoration:none; }
+.header_right_wrp .club_box a.club_content_in { background-color:#ffedbe; }
+.header_right_wrp .club_box a.club_content_in:hover{ background-color:#FFC;}
+
+
+/*---------------訊息通知*/			
+.club_con_right_group { width:202px; overflow:hidden; padding:10px 10px 10px 10px; float:left;}
+/*---------------發文通知 END*/	
+
+/*===============家族訊息_結束===============*/
+/*===============按鈕_右_結束=================*/
+
+/*==置頂黃金連結==*/
+.headbar_font_adbox {  width:980px; height:20px; line-height:20px; margin:0 auto; text-align:center; padding: 10px 0px 10px 0px; background-color:#FFF; }
+.headbar_font_adbox .new_index_t15a {display:block; width:980px; height:20px; font-size:15px; font-family: "Arial", "新細明體"; color:#105CB6; line-height:20px; }
+.headbar_font_adbox .new_index_t15a a {float: left; display:block; width:234px; padding:0px 5px; height:20px; line-height:20px; overflow: hidden; color: #4E4F45; text-align:center; text-decoration: none; letter-spacing:0px;}
+.headbar_font_adbox .new_index_t15a a:hover {color: #105CB6; text-decoration:underline;}
+/*==置頂黃金連結_END==*/
+
+/*20130328_Evanna新增「我要曝光」折扣icon*/
+.new_index_t15AD {position:relative; z-index:2px;  height:0px; width:100%;}
+.new_index_t15AD a.inedx_buyAD{display:block; font-size:11px; color:#FFF; padding:33px 0px 0px 15px ; width:85px; height:17px; letter-spacing:1px; position:absolute; right:-105px; top:-40px;}
+.new_index_t15AD a.inedx_buyAD:hover{color:#FEE100; text-decoration:none;  /*opacity: 0.8;filter:alpha(opacity=80); zoom:1; text-decoration:none;*/}
+.new_index_t15AD a.inedx_AD_free{background: url(../../images/home/pic_buyAD.png) no-repeat left top;}
+.new_index_t15AD a.inedx_AD_10off{background:url(../../images/home/pic_buyAD.png) no-repeat left -50px;}
+.new_index_t15AD a.inedx_AD_20off{background:url(../../images/home/pic_buyAD.png) no-repeat left -100px;}
+.new_index_t15AD a.inedx_AD_30off{background:url(../../images/home/pic_buyAD.png) no-repeat left -150px;}
+
+/*20130408_新增廣告優惠對話框*/
+.headbar_inedx_dialog_ADbox{ position:absolute; right:-101px; top:10px; width:250px; z-index:2;}
+.headbar_inedx_icon_close{position:absolute; right:5px; top:9px; width:20px; height:20px;}
+.headbar_inedx_icon_close a{ display:block; width:20px; height:20px; background: url(../../images/home/icon_close.jpg) no-repeat 0 0; text-indent:-9999px;}
+.headbar_inedx_icon_close a:hover{background: url(../../images/home/icon_close.jpg) no-repeat 0 -20px;}
+/*.headbar_font_adbox .new_index_t15a .icon_arrow{position:absolute; right:50px; top:-6px; width:13px; height:7px; background:url(images/icon_arrow.gif) no-repeat;}*/
+.headbar_inedx_AD_content{width:250px; /*height:160px;*/ border:2px #454545 solid; background-color:#fff;}
+.headbar_inedx_AD_content .imgAD{ width:250px; height:75px; margin:10px 0 3px 0;}
+.headbar_inedx_AD_content .AD_free{ background: url(../../images/home/Bigicon_buyAD.jpg) no-repeat 0 0;}
+.headbar_inedx_AD_content .AD_10off{ background:url(../../images/home/Bigicon_buyAD.jpg) no-repeat 0 -75px;}
+.headbar_inedx_AD_content .AD_20off{ background:url(../../images/home/Bigicon_buyAD.jpg) no-repeat 0 -150px;}
+.headbar_inedx_AD_content .AD_30off{ background:url(../../images/home/Bigicon_buyAD.jpg) no-repeat 0 -225px;}
+.headbar_inedx_AD_content p{ font-size:15px; color:#454545; letter-spacing:3px; padding: 0 10px 0 18px; text-align:left;}
+.headbar_inedx_AD_content p span{ color:#ed5655; font-weight:bold;}
+.headbar_inedx_AD_content p a.fontbtn_AD{ float:left; font-size:12px; width:100%; padding:10px 0px; color:#105CB6; text-align:center; }
+.headbar_inedx_AD_content p a.fontbtn_AD:hover{color: #105CB6;  text-decoration:underline; text-decoration:underline;}
+
+
+/*==inedx_path_adbox==*/
+.inedx_path_adbox { width:100%; height:20px; margin:0 auto; padding:6px 0px 6px 0px;  border-bottom: 1px solid #eaebeb; position:relative; z-index:2; background-color:#454545}
+.inedx_path_adbox_top { width:100%; height:20px; margin:0 auto; /* background-color:#f0F0F0;*/ background:url(../../images/home/ihergoheader/inedx_path_adbox_top_bg.gif) repeat-x left top;/* border-bottom: 1px solid #d9e0e5;*/ height:32px;}
+
+.inedx_path_content { width:980px; height:20px; margin:0 auto; position:relative; z-index:4;}
+.inedx_path_conten_top_L { width:980px;  margin:0 auto; position:relative; z-index:4; }
+
+/*==目前位置==*/
+.inedx_path_content_L189 {  width:188px; float:left; height:32px; line-height:32px; margin:0 auto; display:block; overflow:hidden; *background-color:#F1F1F1; border-right:1px solid #d9e0e5; }
+
+.inedx_path_content_L189 p { text-align:left; color: #666666;  font-size: 12px; letter-spacing: 1px; }
+.inedx_path_content_L189 p a {color: #105CB6; text-decoration: none;  }
+.inedx_path_content_L189 p a:hover {color: #105CB6; text-decoration: underline;}
+.inedx_path_content_L189 p span.target { color: #858585; font-weight: bold; }
+.inedx_path_content_L189 p span.arrow_icon { background:url(../../images/home/ihergoheader/header_icon.gif) no-repeat left -172px; display: inline-block; margin: 0 3px;  height: 32px; width: 3px; *width: 5px; text-indent:-9999px;}
+.inedx_path_content_L189 p span.arrow_icon { _ background:url(../../images/home/ihergoheader/header_icon.gif) no-repeat left -172px;}
+/*==目前位置_END==*/
+
+/*==目前位置==*/
+.inedx_path_content_L { width:390px; float:left; height:20px; line-height:20px; margin:0 auto; display:block; overflow:hidden;}
+.inedx_path_content_L p { text-align:left; color: #666666;  font-size: 12px; letter-spacing: 2px; }
+.inedx_path_content_L p a {color: #105CB6; text-decoration: none;}
+.inedx_path_content_L p a:hover {color: #105CB6; text-decoration: underline;}
+.inedx_path_content_L p span.target { color: #858585; font-weight: bold; }
+.inedx_path_content_L p span.arrow_icon { background:url(../../images/home/ihergoheader/header_icon.gif) no-repeat left -178px ; transparent;display: inline-block; margin: 0 3px;  height: 20px; width: 3px; *width: 5px; text-indent:-9999px;}
+.inedx_path_content_L p span.arrow_icon { _ background:url(../../images/home/ihergoheader/header_icon.gif) no-repeat left -181px;}
+
+/*==目前位置_END==*/
+
+/*==搜尋_開始==*/
+/*==search_關鍵字_開始==*/
+.inedx_header_search_box .inedx_header_search_box { float:right; height:20px;}
+.inedx_header_search_box .header_search_box {position: absolute; width:159px; _width:160px; overflow:hidden;  background-color:#f5f5f5; border:1px solid #454545;} 
+.inedx_header_search_box .header_search_box div.search_font { color: #105CB6; text-decoration:none; width:136px; padding:3px 12px; font-size:12px; line-height:20px; background-color:#fff; float:left; border-bottom:1px solid #dcdcdc; cursor:pointer;}
+.inedx_header_search_box .header_search_box div.search_font_active { color: #105CB6; text-decoration:none; width:136px; padding:3px 12px; font-size:12px; line-height:20px; background-color:#eeeeee; float:left; border-bottom:1px solid #dcdcdc; cursor:pointer;}
+
+/*==search_關鍵字_結束==*/
+
+/*==輸入字框*/
+.inedx_header_search_box .infont {float:right; font-size:13px; width:152px; _width:150px; height:18px; line-height:18px; border: 1px solid #e0e0e0; border-width:1px 1px 1px 0px; letter-spacing:1px; padding:0px 0px 0px 6px;}
+.inedx_header_search_box .search_Button { float:right; height:18px; _width:45px; margin:0px 0px 0px 5px; }
+.inedx_header_search_box .search_Button a.Button { display:block; color:#454545; font-size:12px; height:18px; padding:0px 8px 0px 10px; _padding:0px 5px 0px 7px; border: 1px solid #f1c700; letter-spacing:2px; font-weight:bold; text-decoration:none; background-color:#FDD100;  }
+.inedx_header_search_box .search_Button a:hover { color: #454545; background-color:#FEE100; border: 1px solid #f1c700;}
+.inedx_header_search_box .search_Button a:active{ border: 1px solid #f1c700; background-color:#FDD100;}
+.inedx_header_search_box .search_hotfont { width:300px;height:20px; display:block; overflow:hidden;}
+.inedx_header_search_box .search_hotfont { float: right; margin:0px 5px 0px 0px;}
+.inedx_header_search_box .search_hotfont p.hotfont { color:#FDD100; font-size:11px; height:20px; letter-spacing:1px; text-align:right; border-right:1px solid #353535; padding:0px 5px 0px 0px; margin:0px 5px 0px 0px; }
+.inedx_header_search_box .search_hotfont a.hotfontBTN { color:#ebebeb; text-decoration:none; padding:0px 3px; }
+.inedx_header_search_box .search_hotfont a.hotfontBTN:hover{color: #fff; text-decoration:underline;}
+
+.inedx_header_search_box .Close_Button { float:right; height:18px; width:19px; margin:0px 10px 0px 10px; }
+.inedx_header_search_box .Close_Button a.Button { display:block; color:#fff; font-size:12px; height:19px; border: 1px solid #252525; text-decoration:none; background:url(../../images/home/ihergoheader/close_button.gif) no-repeat left top #353535; text-indent:-9999px; }
+.inedx_header_search_box .Close_Button a:hover { color: #fff; background-color:#252525; border: 1px solid #222222; background-position:left -18px;}
+.inedx_header_search_box .Close_Button a:active{ border: 1px solid #111111; background-color:#222222;}
+
+
+/*==輸入字框_END==*/
+
+/*==選擇器==*/
+.inedx_path_adbox .location_select{ float:right;}
+.inedx_path_adbox .location_select select { color: #454545; font-size: 12px; height: 20px; line-height:20px; border: 1px solid #CFCFCF; padding:0px 0px 0px 4px; letter-spacing:1px;}
+/*==搜尋_結束==*/
+
+
+/*==標籤頁_開始==*/
+.ihergomenu_box { float: right; position:relative; z-index:3;  width:791px; height:32px; text-align:center;}
+.ihergomenu_box ul.ihergo_Tableft{float:left; display:block; width:791px; background-color:#EAEBEB;}
+.ihergomenu_box ul.ihergo_Tableft li.leftlist{ float:left;  _width:50px; position:relative; z-index:3;}
+.ihergomenu_box ul.ihergo_Tableft li.rightlist{ float: right;}
+.ihergomenu_box ul.ihergo_Tableft li.leftlist p.foneline{display:block; color:#fefefe; text-align:center; height:31px; line-height:31px; text-decoration:none; _display:inline-block;}
+.ihergomenu_box ul.ihergo_Tableft li.leftlist p.fone{display:block; color:#454545; text-align:center; height:31px; line-height:31px; text-decoration:none; _display:inline-block;}
+
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.foneB{ width:111px; display:block; font-size:15px; color:#666666; text-align:center; /*padding:0px 15px;*/ text-decoration:none; font-weight:bold; _display:inline-block;  border-bottom:1px solid #d3d8dd; }
+/*.ihergomenu_box ul.ihergo_Tableft li.leftlist a.foneBG{  background: url(../../images/home/ihergoinedx/listli_main.gif) no-repeat right top;   }*/
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.border_r{ border-right:1px solid #d9e0e5;}
+
+
+
+
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.foneB_Search{ text-indent:-9999px; width:49px; _width:49px; border-right:1px solid #d9e0e5; height:32px; display:block; font-size:0px; text-decoration:none;  _display:inline-block; background: url(../../images/home/ihergoinedx/listli_btn.gif) no-repeat left -160px;  }
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.foneB_Search:hover{  background: url(../../images/home/ihergoinedx/listli_btn.gif) no-repeat left -192px #454545;  }
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.S_active{ height:32px; background: url(../../images/home/ihergoinedx/listli_btn.gif) no-repeat left -192px #454545;  }
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.foneB_Search{ _text-indent:0px; _background-image:none; _font-size:15px;}
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.foneB_Search:hover{ _background-image:none;  }
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.S_active{ _color:#FFF; _background-image:none; _height:31px; }
+
+
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.eunionbtn{ color:#bb8383; background-color:#F9F8EE; }
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.evaluatebtn{ color:#bb8383; background-color:#F9F8EE;}
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.freebtn{ color:#bb8383;  background-color:#F9F8EE;}
+
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.eventsbtn{ color:#7492b2; background-color:#eff5f9;}
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.clubsbtn{ color:#7492b2; background-color:#eff5f9;}
+
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.eunionbtn:hover{ color:#D55555;  background-color:#fdece7;  border-bottom:1px solid #D55555; }
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.evaluatebtn:hover{color:#D55555;  background-color:#fdece7; border-bottom:1px solid #D55555; }
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.freebtn:hover{color:#D55555;  background-color:#fdece7; border-bottom:1px solid #D55555; }
+
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.eventsbtn:hover{ color:#1783ce; background-color:#ddeff5; border-bottom:1px solid #105CB6; }
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.clubsbtn:hover{ color:#1783ce; background-color:#ddeff5; border-bottom:1px solid #105CB6; }
+
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.fones_stores{ width:179px; border-bottom:1px solid #d3d8dd; border-right:1px solid #d9e0e5; display:block; font-size:15px; color:#d55555; text-align:center; text-decoration:none; font-weight:bold; _display:inline-block; background: url(../../images/home/ihergoinedx/listli_btn.gif) no-repeat right top #F9F8EE;}
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.fones_stores:hover{border-bottom:1px solid #d55555; background: url(../../images/home/ihergoinedx/listli_btn.gif) no-repeat right -32px #fdece7; color:#d55555;}
+
+/*首頁按鈕_商店*/
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.active_icom{ display:block; font-size:15px; color:#fbfbfb; text-align:center; text-decoration:none; font-weight:bold; _display:inline-block; background: url(../../images/home/ihergoinedx/listli_btn.gif) no-repeat right -64px #454545; border-bottom: 1px solid #454545;}
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.active_icom:hover{  color:#fbfbfb; background: url(../../images/home/ihergoinedx/listli_btn.gif) no-repeat right -64px #454545; border-bottom: 1px solid #454545;}
+
+/*到服務*/
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.active_Su{ background-color:#fff;  border-bottom: 1px solid #FFFFFF;}
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.active_Su:hover{border-bottom: 1px solid #FFFFFF; background-color:#fff;}
+/*到服務_商店用*/
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.active{  border-bottom: 1px solid #FFFFFF; display:block; font-size:15px; color:#d55555; text-align:center; text-decoration:none; font-weight:bold; _display:inline-block; background: url(../../images/home/ihergoinedx/listli_btn.gif) no-repeat right top #fff; line-height:31px;}
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.active:hover{ border-bottom: 1px solid #FFFFFF; color:#d55555; background: url(../../images/home/ihergoinedx/listli_btn.gif) no-repeat right -32px #fff;}
+
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.active_stores{  display:block; font-size:15px; color:#fbfbfb; text-align:center; text-decoration:none; font-weight:bold; _display:inline-block; background: url(../../images/home/ihergoinedx/listli_btn.gif) no-repeat right -64px #454545;}
+.ihergomenu_box ul.ihergo_Tableft li.leftlist a.active_stores:hover{  color:#fbfbfb; background: url(../../images/home/ihergoinedx/listli_btn.gif) no-repeat right -64px #454545;}
+
+/*==標籤頁_結束==*/
+
+/*==服務選單_開始==*/
+.ihergomenu_box .about_content{ border-radius: 0px 0px 0px 0px; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);}
+.ihergomenu_box .about_content{ position:absolute; top:31px; /*top:33px;*/ width:178px; background-color:#f5f5f5; border:2px solid #454545;}
+.ihergomenu_box .about_content .arrow{ position:absolute; width:20px; height:10px; background: url(../../images/home/ihergoheader/header_btn_arrow.png) no-repeat left top; z-index:2;}
+.ihergomenu_box .about_content ul.UxMenu{ float:left; width:100%;}
+.ihergomenu_box .about_content ul.UxMenu li.linkbtn{ border-bottom:1px solid #dbd7d5; }
+.ihergomenu_box .about_content ul.UxMenu li.linkbtn a{ display:block; width:100%; height:30px; line-height:30px;  font-size:13px; color: #666666; text-align:center; text-decoration:none; _display:inline-block;  overflow:hidden; letter-spacing: 3px; background: url(../../images/home/ihergoinedx/listli_btn.gif) no-repeat right -96px; }
+.ihergomenu_box .about_content ul.UxMenu li.linkbtn a{ _line-height:33px;}
+.ihergomenu_box .about_content ul.UxMenu li.linkbtn a:hover{ color:#454545; background: url(../../images/home/ihergoinedx/listli_btn.gif) no-repeat right -96px #fff; }
+.ihergomenu_box .about_content ul.UxMenu li.linkbtn a.active{border-bottom:1px solid #454545; color:#fff; background: url(../../images/home/ihergoinedx/listli_btn.gif) no-repeat right -128px #555555;}
+.ihergomenu_box .about_content ul.UxMenu li.NOborder{ border:none;}
+.ihergomenu_box .about_content ul.UxMenu li.linkbtn a.NObg{ background-image:none; }
+.ihergomenu_box .about_content ul.UxMenu li.linkbtn a.NObg:hover{ background-color:#fff;}
+
+/*==服務選單_結束==*/
+
+
+/*==Header_結束==*/
+
+/*--*/
+.IhergoHeader .header_wrp .header_content .header_right_wrp .propaganda_ad { float:left; width:160px; height:55px; margin-top:13px; position:absolute; top:0px; left:0px;}

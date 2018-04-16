@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*包最外面的*/
+.june_apple{ width:980px; margin:0 auto; margin-bottom:15px; overflow:hidden;}
+
+/*展開的*/
+.june_apple .open{ width:980px; height:322px; display:block; background:url(../images/2011/ad_apple_june/br_00.jpg) 0 0 no-repeat;}
+
+.june_apple .open .top{ width:980px; height:55px; float:left; margin:0 auto; text-indent:-9999px;}
+
+.june_apple .open .center{ width:980px; height:240px; float:left;  text-indent:-9999px; margin:0 auto;}
+.june_apple .open .center a.box_a{ width:225px; height:240px; display:block; background:url(../images/2011/ad_apple_june/br_00.jpg) 0 -55px no-repeat; float:left;}
+.june_apple .open .center a.box_a:hover{ background:url(../images/2011/ad_apple_june/br_00.jpg) 0 -377px no-repeat;}
+.june_apple .open .center a.box_b{ width:270px; height:267px; display:block; background:url(../images/2011/ad_apple_june/br_00.jpg) -225px -55px no-repeat; float:left;}
+.june_apple .open .center a.box_b:hover{ background:url(../images/2011/ad_apple_june/br_00.jpg) -225px -377px no-repeat;}
+.june_apple .open .center a.box_c{ width:215px; height:240px; display:block; background:url(../images/2011/ad_apple_june/br_00.jpg) -495px -55px no-repeat; float:left;}
+.june_apple .open .center a.box_c:hover{ background:url(../images/2011/ad_apple_june/br_00.jpg) -495px -377px no-repeat;}
+.june_apple .open .center a.box_d{ width:270px; height:240px; display:block; background:url(../images/2011/ad_apple_june/br_00.jpg) -710px -55px no-repeat; float:left;}
+.june_apple .open .center a.box_d:hover{ background:url(../images/2011/ad_apple_june/br_00.jpg) -710px -377px no-repeat;}
+
+
+.june_apple .open .bottom{ width:980px; height:27px; float:left; margin:0 auto;}
+.june_apple .open .bottom p{ font-size:12px;}
+.june_apple .open .bottom p a{ width:980px; height:27px; display:block; text-indent:-9999px;}
+.june_apple .open .bottom p a:hover{background:url(../images/2011/ad_apple_june/br_00.jpg) 0px -617px no-repeat;}
+
+/*收起來後*/
+.june_apple .closed{ width:980px; height:84px; margin:0 auto; text-indent:-9999px;}
+.june_apple .closed a.box{width:980px; height:84px; display:block; background: url(../images/2011/ad_apple_june/br_01.jpg) 0 0  no-repeat;}
+.june_apple .closed a:hover.box{ background: url(../images/2011/ad_apple_june/br_01.jpg) 0 -84px  no-repeat;}

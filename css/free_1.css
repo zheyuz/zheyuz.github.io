@@ -1,0 +1,73 @@
+img {
+	border: 0
+}
+
+.free_t12 {
+	font-size: 13px;
+	font-family: "Arial", "新細明體";
+	color: #505050
+}
+
+.free_t12 a:hover {
+	color: #734d00;
+	text-decoration: underline;
+}
+
+.free_t12 a {
+	color: #734d00;
+	text-decoration: none;
+}
+
+.free_t13 {
+	font-size: 13px;
+	font-family: "Arial", "新細明體";
+	color: #505050
+}
+
+.free_t13 a:hover {
+	color: #734d00;
+	text-decoration: underline
+}
+
+.free_t13 a {
+	color: #505050;
+	text-decoration: none
+}
+
+.free_t15 {
+	font-size: 15px;
+	font-family: "Arial", "新細明體";
+	color: #505050;
+	font-weight: bold
+}
+
+.free_t15 a:hover {
+	color: #734d00;
+	text-decoration: underline
+}
+
+.free_t15 a {
+	color: #505050;
+	text-decoration: none
+}
+
+.free_day {
+	font-size: 13px;
+	font-family: "Arial", "新細明體";
+	color: #bd1d01;
+	font-weight: bold
+}
+
+.free_man {
+	font-size: 22px;
+	font-family: "Arial";
+	color: #e84c1f;
+	font-weight: bold
+}
+
+.free_money {
+	font-size: 28px;
+	font-family: "Arial";
+	color: #e84c1f;
+	font-weight: bold
+}

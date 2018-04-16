@@ -1,0 +1,17 @@
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_box .leftMain_title h2.title_h2{ background-color:#ce855e; color:#fff;}
+
+.club_index_wrapper .club_main_block .rightMenu_HotBox .right_titleBox{ background-color:#ce855e;}
+.club_index_wrapper .club_main_block .rightMenu_HotBox .right_titleBox h2{ color:#fff;}
+
+/*家族頁menu*/
+.club_index_wrapper .club_menu_block ul.club_menu_ul li.club_menu_li:hover a{ border-bottom:3px solid #ce855e;}
+.club_index_wrapper .club_menu_block ul.club_menu_ul li.target a{ color:#ce855e; border-bottom:3px solid #ce855e;}
+.club_index_wrapper .club_menu_block ul.club_menu_ul li.target:hover a{ color:#ce855e;}
+
+.club_index_wrapper .club_menu_fixed ul.club_menu_ul li.club_menu_li:hover a{ border-bottom:3px solid #ce855e;}
+.club_index_wrapper .club_menu_fixed ul.club_menu_ul li.target a{ color:#ce855e; border-bottom:3px solid #ce855e;}
+.club_index_wrapper .club_menu_fixed ul.club_menu_ul li.target:hover a{ color:#ce855e;}
+
+/*家族討論tab*/
+.club_index_wrapper .club_main_block .leftMain_commentClub .comment_tab li.target span{ color:#ce855e;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .comment_tab li:hover a{ color:#ce855e;}

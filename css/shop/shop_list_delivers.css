@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+* html body {
+  behavior:url("../../css/shop/csshover3.htc");
+}
+*/
+
+#select_wrapper { width:970px; margin:5px 0 5px 0;}
+#select_wrapper ul.list_box { float:left; list-style:none outside none;}
+
+#select_wrapper ul.list_box li.function_style{ float:left; margin:0 0 0 10px; _display:inline;}
+#select_wrapper ul.list_box li.function_style a{width:139px; height:27px; display:block; line-height:27px; background:url(../../images/shop/delivers/select_list_btn.jpg) left top no-repeat; text-indent:10px; text-decoration:none; color:#105CB6;}
+/* #select_wrapper ul.list_box li:hover.function_style ul{ visibility:visible;} */
+#select_wrapper ul.list_box li.function_style a:hover {color:#105CB6;}
+#select_wrapper ul.list_box li.function_style ul li a:hover {color:#ff9933;}
+
+#select_wrapper ul.list_box li.function_style ul { position:absolute; display:block; visibility:hidden; list-style:none outside none;}
+#select_wrapper ul.list_box li.function_style ul li{}
+#select_wrapper ul.list_box li.function_style ul li a{ display:block; width:137px; height:35px; line-height:35px; background:#FFF; border-left:1px #bab2b2 solid; border-bottom:1px #bab2b2 solid; border-right:1px #bab2b2 solid;}
+
+#select_wrapper ul.list_box li.export_style{ float:left;margin:0 0 0 10px; _display:inline;}
+#select_wrapper ul.list_box li.export_style a{width:139px; height:27px; display:block; line-height:27px; background:url(../../images/shop/delivers/select_list_btn.jpg) left top no-repeat;text-indent:10px;text-decoration:none;color:#105CB6;}
+#select_wrapper ul.list_box li:hover.export_style ul{ visibility:visible;}
+
+#select_wrapper ul.list_box li.export_style ul { position:absolute; display:block; visibility:hidden;}
+#select_wrapper ul.list_box li.export_style ul li{}
+#select_wrapper ul.list_box li.export_style ul li a{ display:block; width:137px; height:35px; line-height:35px; background:#FFF; border-left:1px #bab2b2 solid; border-bottom:1px #bab2b2 solid; border-right:1px #bab2b2 solid;}
+#select_wrapper ul.list_box li.export_style a:hover {color:#105CB6;}
+#select_wrapper ul.list_box li.export_style ul li a:hover {color:#ff9933;}
+
+#select_wrapper p.link_export_img{ float:left; font-size:13px; text-decoration:underline; line-height:27px; padding:0 0 0 10px;}

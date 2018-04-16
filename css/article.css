@@ -1,0 +1,713 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper{ width:100%;}
+.content{ width:1150px; height:800px; margin:0 auto;}
+
+/*圖片區*/
+.content .images{ float:left; background-color:#FFF6E5; width:672px; height:282px; margin-left:90px; border: 1px solid #e3e3e3;}
+.content .images a.img{ display:block; width:670px; height:280px; background-image:url(https://www.ihergo.com/photo/shop/55/55_1429156956814.jpg); border: 1px solid #fff;}
+.content .images a.img:hover{ opacity:0.9;}
+.content .images ul.page_box{ float:left; height:18px; margin:6px 10px 0 300px; width:54px;}
+.content .images ul.page_box li{ float:left;}
+.content .images ul.page_box li a{ background:url("../images/home/ihergo_index/icon_paging.png") no-repeat scroll -18px 0 rgba(0, 0, 0, 0); display:block; height:18px; width:18px; text-indent:-9999px; margin-top:-3px;}
+.content .images ul.page_box li a.active{ background:url("../images/home/ihergo_index/icon_paging.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);}
+
+/*最新文章*/
+.content .new_article{ float:left; border: 1px solid #e3e3e3; margin:0px 0 0 15px; width: 280px; height:282px;}
+.content .new_article .new_article_title{ background-color: #ffa525; border: 1px solid #fff; height: 35px; line-height: 30px; margin-top:0px;}
+.content .new_article .new_article_title h4{ color: #666; font-size: 15px; font-weight: bold; height: 36px; line-height: 36px; text-align:center; border-bottom: 1px dotted #ccc; color:#FFF;}
+.content .new_article .new_article_content{ width:260px; padding:5px 15px 10px 8px; height:227px;}
+.content .new_article .new_article_content p{ color:#454545; height:20px; overflow:hidden; width:260px; border-bottom: 1px dotted #ccc; padding-bottom:4px; padding-top:4px;}
+.content .new_article .new_article_content a{ font-size:12px; color:#454545;}
+
+/*最新商品開箱*/
+.content .new_open_product{ float:left; width:760px; margin:40px 0 0 90px; border:1px solid #e3e3e3;}
+.content .new_open_product .open_title{ display:block; font-size:15px; height:38px; background-color:#5EE0A1; color:#FFF; border:1px solid #fff;}
+.content .new_open_product .open_title h4{ color: #666; font-size: 15px; font-weight: bold; height: 39px; line-height: 39px; text-align:center; border-bottom: 1px dotted #ccc; color:#FFF;}
+.content .new_open_product .open_content{ margin:20px 0 18px 10px;}
+.content .new_open_product .open_content .item{ width:370px; float:left; margin-bottom:20px; margin-left:5px;}
+.content .new_open_product .open_content .item .img_box{ float:left; margin-right:12px; width:160px;}
+.content .new_open_product .open_content .item .img_box a{ display:block; height:160px; width:160px; overflow:hidden;}
+.content .new_open_product .open_content .item .img_box a img:hover{ opacity:0.9;}
+.content .new_open_product .open_content .item .txt_box{ float:left; height:160px; width:185px; overflow:hidden;}
+.content .new_open_product .open_content .item .txt_box h4{ max-height:36px; overflow:hidden; padding-top:10px;}
+.content .new_open_product .open_content .item .txt_box h4 a{ color:#454545; font-size:13px; line-height:18px;}
+.content .new_open_product .open_content .item .txt_box h4 a:hover{ color:#888;}
+.content .new_open_product .open_content .item .txt_box p{ color:#666; font-size:12px; padding-top:5px; text-align:justify;}
+/*最新商品開箱-其他*/
+.content .new_open_product .open_content .other_box{ float:left; height:30px; width:728px; margin:0 0 5px 5px; border-top: 1px dotted #ccc; padding:6px 0 0 0;}
+.content .new_open_product .open_content .other_box .box_txt{ float:left; width:230px; padding-left:9px;}
+.content .new_open_product .open_content .other_box .box_txt a{ display:block; color:#454545; font-size:12px; height:30px; line-height:30px; overflow:hidden; text-align:center; letter-spacing:1px;}
+.content .new_open_product .open_content .other_box .box_txt a:hover{ color:#888;}
+
+/*最近瀏覽文章*/
+.content .recent_view{ float:left; width:192px; margin:-20px 0 30px 15px; border: 1px solid #ececec;}
+.content .recent_view .recent_title{ background-color:#8ac3eb; border: 1px solid #fff; height: 38px; line-height: 39px; width:190px;}
+.content .recent_view .recent_title h2{ color: #FFF; font-size: 13px; font-weight: bold; letter-spacing: 1px; text-align:center; border-bottom: 1px dotted #ccc;}
+.content .recent_view .recent_con{ padding:10px 0 0 13px; width:170px;}
+.content .recent_view .recent_con .con_box{ margin:0 auto; border-bottom: 1px dotted #ccc; margin-bottom:8px; padding-bottom:5px;}
+.content .recent_view .recent_con .con_box .con_icon{ background: url("../images/forum/icon_bluearrow.png") no-repeat scroll -1px 2px rgba(0, 0, 0, 0); float: left; height: 16px; width: 16px;}
+.content .recent_view .recent_con .con_box a{ color: #666; font-size: 12px; font-weight: normal; letter-spacing: 1px; line-height: 18px;}
+
+/*精選文章專區*/
+.content .best_article{ border: 1px solid #e3e3e3; float: left; margin: -560px 0 30px 90px; width: 760px;}
+.content .best_article .best_title{ display:block; font-size:15px; height:38px; background-color:#FD79A2; color:#FFF; border:1px solid #fff;}
+.content .best_article .best_title h4{ color: #666; font-size: 15px; font-weight: bold; height: 39px; line-height: 39px; text-align:center; border-bottom: 1px dotted #ccc; color:#FFF;}
+.content .best_article .best_content{ margin:20px 0 50px 35px;}
+.content .best_article .best_content .item{ width:170px; float:left; margin-right:10px;}
+.content .best_article .best_content .item .img_box{ float:left; height:125px;}
+.content .best_article .best_content .item .img_box a{ display:block; height:160px; width:160px; overflow:hidden;}
+.content .best_article .best_content .item .img_box a img:hover{ opacity:0.9;}
+.content .best_article .best_content .item .txt_box{ float:left; height:130px; width:150px; overflow:hidden; padding:0 0 20px 0;}
+.content .best_article .best_content .item .txt_box h4{ height:18px; overflow:hidden; padding-top:10px;}
+.content .best_article .best_content .item .txt_box h4 a{ color:#454545; font-size:13px; line-height:18px;}
+.content .best_article .best_content .item .txt_box h4 a:hover{ color:#888;}
+.content .best_article .best_content .item .txt_box p{ color:#666; font-size:12px; padding-top:5px; text-align:justify; height:100px; overflow:hidden;}
+
+/*你可能會喜歡的合購*/
+.content .AD{ float:left; width:192px; margin:40px 0 50px 15px; border: 1px solid #ececec;}
+.content .AD .AD_title{ background-color:#D1A4D5; border: 1px solid #fff; height: 38px; line-height: 39px; width:190px;}
+.content .AD .AD_title h2{ color: #FFF; font-size: 13px; font-weight: bold; letter-spacing: 1px; text-align:center; border-bottom: 1px dotted #ccc;}
+.content .AD .AD_con{ padding:10px 0 0 13px; width:170px;}
+.content .AD .AD_con .ADcon_box{ border-bottom: 1px dotted #bababa; margin-top:5px; margin-bottom: 15px; padding-bottom:10px;}
+.content .AD .AD_con .ADcon_box .img_box{ height: 160px; padding-top:2px; padding-left: 3px; width: 160px;}
+.content .AD .AD_con .ADcon_box .img_box img:hover{ opacity:0.9;}
+.content .AD .AD_con .ADcon_box .member_box{ color: #666; font-size: 12px; height: 20px; letter-spacing: 0; overflow: hidden; padding: 8px 0 0 3px; width: 160px;}
+.content .AD .AD_con .ADcon_box .member_box a.member_img{ color: #105cb6; height: 18px; margin-right: 3px; width: 18px;}
+.content .AD .AD_con .ADcon_box .member_box a.member_img img{ border: 1px solid #f5eaea; height: 16px; line-height: 0; padding: 0; vertical-align: middle; width: 16px;}
+.content .AD .AD_con .ADcon_box .member_box .id{ color:#454545;}
+.content .AD .AD_con .ADcon_box .member_box .howmany{ color:#666;}
+.content .AD .AD_con .ADcon_box .event_name{ line-height: 18px; max-height: 36px; overflow: hidden; padding: 3px 0 0 3px; width: 160px;}
+.content .AD .AD_con .ADcon_box .event_name a{ color: #454545; display: block; font-size: 12px; letter-spacing: 1px;}
+
+
+
+
+
+/*內頁*/
+/*標題*/
+.content .left_forum{ float:left; width:790px; margin-left:90px;}
+.content .left_forum .forum{ margin: 15px 0 5px 0;}
+.content .left_forum .forum h1{ color: #a40000; font-size: 18px; font-weight: bold; margin: 0; padding: 5px 0;}
+
+/*頁數&項目*/
+.content .left_forum .forum1{float:left; width:790px;}
+.content .left_forum .forum1 .page_box{ float:left; width:680px;}
+.content .left_forum .forum1 .page_box span.page{
+    background-color: #ffffff;
+    border: 1px solid #bb3404;
+    color: #bb3404;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 2px 6px;
+}
+.content .left_forum .forum1 .page_box p.page_font{
+  font-size: 12px;
+    margin-top: -20px;
+  margin-left:-575px;
+    text-align: center;
+}
+/*新增文章*/
+.content .left_forum .forum1 .add_article{
+    float: left;
+    height: 26px;
+    width: 100px;
+}
+.content .left_forum .forum1 .add_article a{
+  background: url("../images/forum/button_add.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 26px;
+    width: 100px;
+}
+.content .left_forum .forum1 .add_article a:hover{
+  background: url("../images/forum/button_addm.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+  float: left;
+    height: 26px;
+    width: 100px;
+}
+
+/*全部/投票專區/精華區*/
+.content .left_forum .forum2{ float:left; width:790px;}
+.content .left_forum .forum2 .forum2_box{
+  padding: 0 0 3px;
+  background-color: #fff5dc;
+    border-color: #cdc4af;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    width: 778px;
+  margin-top:5px;
+}
+.content .left_forum .forum2 .forum2_box .txt_box{
+  padding: 5px 0;
+    font-size: 13px;
+    letter-spacing: 1px;
+  line-height:20px;
+}
+.content .left_forum .forum2 .forum2_box .txt_box a{ color:#444444;}
+.content .left_forum .forum2 .forum2_box .txt_box a:hover{ color:#ff457e;}
+.content .left_forum .forum2 .forum2_box .txt_box a .all{
+  color: #996699;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 16px;
+}
+
+/*資訊區塊*/
+.content .left_forum .forum3{ float:left; width:790px;}
+.content .left_forum .forum3 .forum3_line{
+  background-color: #f4efe9;
+    border-color: #cdc4af;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    float: left;
+    height: 2px;
+    width: 778px;
+  margin-top:3px;
+}
+.content .left_forum .forum3 .forum3_line .clear{
+  clear: both;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+}
+.content .left_forum .forum3 .forum3_box{
+  border-color: #cdc4af;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    width: 778px;
+  float:left;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information{
+  float:left;
+  margin: 0 15px;
+    padding: 15px 0;
+    width: 750px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .photo{
+  float: left;
+    height: 100px;
+    width: 100px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .photo a img{
+  border: 1px solid #c1c1c1;
+    height: 100px;
+}
+
+/*使用者*/
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns{
+  float: left;
+    height: 30px;
+    padding-left: 10px;
+    width: 640px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .user{
+  float: left;
+  color: #0887b6;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .user a{
+  color: #0887b6;
+    text-decoration: none;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .user a:hover{ text-decoration:underline;}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .user span.howmany{ font-size: 9pt;}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .user span.howmany a{color: #0887b6; text-decoration: none;}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .user span.howmany a:hover{ text-decoration:underline;}
+
+/*按鈕*/
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor{float: right; height: 20px; width: 460px;}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor p{
+  color: #ff943d;
+    float: right;
+    font-family: Arial;
+    font-size: 12px;
+    height: 20px;
+    line-height: 16px;
+    text-align: right;
+    width: 35px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns{
+  float: right;
+    height: 20px;
+    width: 425px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns .btn_replyarticle{
+  float: right;
+    height: 20px;
+    padding: 0 0 0 5px;
+    width: 84px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns .btn_replyarticle .replyarticle{
+  background: url("../images/forum/button_reply.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 20px;
+    width: 84px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns .btn_replyarticle .replyarticle a{
+  background: url("../images/forum/button_reply.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 20px;
+    width: 84px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns .btn_replyarticle .replyarticle a:hover{
+  background: url("../images/forum/button_reply_m.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 20px;
+    width: 84px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns .btn_reply{
+  float: right;
+    height: 20px;
+    padding: 0 0 0 5px;
+    width: 84px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns .btn_reply .reply{
+  background: url("../images/forum/button_replyWithoutSource.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 20px;
+    width: 84px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns .btn_reply .reply a{
+  background: url("../images/forum/button_replyWithoutSource.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 20px;
+    width: 84px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns .btn_reply .reply a:hover{
+  background: url("../images/forum/button_replyWithoutSource_m.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 20px;
+    width: 84px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns .btn_delate{
+  float: right;
+    height: 20px;
+    padding: 0 0 0 5px;
+    width: 55px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns .btn_delate a{
+  background: url("../images/forum/button_report.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 20px;
+    width: 55px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns .btn_delate a:hover{
+  background: url("../images/forum/button_reportm.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 20px;
+    width: 55px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns .btn_mail{
+  float: right;
+    height: 20px;
+    padding: 0 0 0 5px;
+    width: 90px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns .btn_mail .mail{
+  background: url("../images/forum/button_letter.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 20px;
+    width: 90px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns .btn_mail .mail a{
+  background: url("../images/forum/button_letter.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 20px;
+    width: 90px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_btns .btns_floor .btns .btn_mail .mail a:hover{
+  background: url("../images/forum/button_letterm.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 20px;
+    width: 90px;
+}
+
+/*icon*/
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_icons{
+  float: left;
+    height: 35px;
+    padding-left: 10px;
+    width: 640px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .user_icons .icon{
+  float: left;
+    height: 30px;
+    padding-right: 3px;
+}
+
+/*發表日期*/
+.content .left_forum .forum3 .forum3_box .forum3_box_information .public_date{
+  float: left;
+    height: 20px;
+    padding: 15px 0 0 10px;
+    width: 425px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .public_date span.date{
+  color: #444444;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+/*推&噓*/
+.content .left_forum .forum3 .forum3_box .forum3_box_information .good_bad{
+  float: right;
+    padding-top: 12px;
+    text-align: right;
+    width: 150px;
+  padding-right:35px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .good_bad .font{
+  float: right;
+    padding-left: 5px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .good_bad .font span.txt{
+  color: #0887b6;
+    font-size: 12px;
+    line-height: 20px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_information .good_bad .icon{
+  padding-top: 2px;
+  float: right;
+    padding-left: 5px;
+    text-align: center;
+    width: 22px;
+}
+
+/*內文*/
+.content .left_forum .forum3 .forum3_box .forum3_box_main{
+  margin: 0px 0 30px 15px;
+    padding: 15px 0 0;
+    width: 750px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_main .main_txt{
+    color: #454545;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 12pt;
+    line-height: 28px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_main .main_txt p{
+  color: #454545;
+    font-size: 12pt;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+/*留言區塊*/
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom{
+  width: 755px;
+  margin: 0 auto;
+    padding: 10px 0;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forum3_box_bottom_response{
+  float: left;
+    margin: 5px 0 10px 0;
+    width: 740px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forum3_box_bottom_response .photo{
+  float: left;
+    height: 20px;
+    padding-right: 3px;
+    text-align: right;
+    width: 30px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forum3_box_bottom_response .border{
+  background-color: #f8f8f8;
+  border: 1px solid #e8d6c1;
+    float: left;
+    width: 700px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forum3_box_bottom_response .border .border1{
+  float: left;
+    margin: 2px;
+    width: 100%;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forum3_box_bottom_response .border .border1 .font_box{
+  width: 586px;
+  border-color: #e8d6c1;
+    border-style: dotted;
+    border-width: 0 1px 0 0;
+    float: left;
+    text-align: left;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forum3_box_bottom_response .border .border1 .font_box a.user_img{ margin-left:2px;}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forum3_box_bottom_response .border .border1 .font_box a.user_img img{
+  border: 1px solid #c1c1c1;
+    height: 16px;
+    vertical-align: middle;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forum3_box_bottom_response .border .border1 .font_box a.user{
+  color: #105cb6;
+    font-family: arial;
+    font-size: 11pt;
+    text-decoration: none;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forum3_box_bottom_response .border .border1 .font_box a.user:hover{ color:#ff9933; text-decoration:underline;}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forum3_box_bottom_response .border .border1 .font_box span.number{
+  font-size: 9pt;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forum3_box_bottom_response .border .border1 .font_box span.number a{
+  color: #666;
+    font-size: 9pt;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forum3_box_bottom_response .border .border1 .font_box span.number a:hover{ color:#ff9933; text-decoration:underline;}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forum3_box_bottom_response .border .border1 .font_box span.txt{
+  word-break: break-all;
+    word-wrap: break-word;
+  color: #454545;
+    font-size: 15px;
+    line-height: 18px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forum3_box_bottom_response .border .border1 .date_box{
+  width: 110px;
+  float: left;
+    text-align: center;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forum3_box_bottom_response .border .border1 .date_box span.forum_t12{
+  color: #444444;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 18px;
+  margin-top:3px;
+  display:block;
+}
+
+/*我要推/有話直說/我要噓*/
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forumlist_like_box{
+  float: left;
+    margin: 0 0 10px;
+    width: 750px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forumlist_like_box .forumlist_like_bk{
+  background-color: #e0d8c4;
+    float: left;
+    width: 702px;
+  margin-left:33px;
+  margin-bottom:20px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forumlist_like_box .forumlist_like_bk .forumlist_like_fontbox{
+  padding-left: 20px;
+  float: left;
+    margin: 6px 0;
+    width: 78px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forumlist_like_box .forumlist_like_bk .forumlist_like_fontbox .forumlist_like_color{
+  height: 30px;
+    padding-top: 2px;
+  color: #ffffff;
+    float: left;
+    font-family: "新細明體";
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    width: 70px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forumlist_like_box .forumlist_like_bk .forumlist_like_fontbox .forumlist_like_color .forumlist_like_color1{
+  display: block;
+    z-index: 10;
+  background: url("../images/forum/icon_push_a.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 27px;
+    width: 78px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forumlist_like_box .forumlist_like_bk .forumlist_like_fontbox .forumlist_like_color .forumlist_like_color1 a{
+  background: url("../images/forum/icon_push_a.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 27px;
+    width: 78px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forumlist_like_box .forumlist_like_bk .forumlist_like_fontbox .forumlist_like_color .forumlist_like_color3{
+  display: none;
+    z-index: 10;
+  background: url("../images/forum/icon_push_c.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 27px;
+    width: 78px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forumlist_like_box .forumlist_like_bk .forumlist_like_fontbox .forumlist_like_color .forumlist_like_color3 a{
+  background: url("../images/forum/icon_push_c.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 27px;
+    width: 78px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forumlist_like_box .forumlist_like_bk .forumlist_like_fontbox .forumlist_like_color .forumlist_like_color2{
+  display: none;
+    z-index: 10;
+  background: url("../images/forum/icon_push_b.gif") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 27px;
+    width: 78px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forumlist_like_box .forumlist_like_bk .forum_like_text_box{
+  float: left;
+    padding: 8px 0 0 5px;
+    width: 530px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forumlist_like_box .forumlist_like_bk .forum_like_text_box input.forum_like_text_t12{
+  font-size: 15px;
+    width: 520px;
+  border: 1px solid #c1c1c1;
+    color: #333333;
+    font-family: "Arial","新細明體";
+    height: 22px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.content .left_forum .forum3 .forum3_box .forum3_box_bottom .forumlist_like_box .forumlist_like_bk .forum_send_button{
+  background: url("../images/forum/forum_send_button.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 24px;
+    margin: 8px 0 0 -2px;
+    width: 62px;
+}
+
+
+/*down_頁數&項目*/
+.content .left_forum .forum4{float:left; width:790px;}
+.content .left_forum .forum4 .page_box{ float:left; width:680px; margin-top:20px;}
+.content .left_forum .forum4 .page_box span.page{
+    background-color: #ffffff;
+    border: 1px solid #bb3404;
+    color: #bb3404;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 2px 6px;
+}
+.content .left_forum .forum4 .page_box p.page_font{
+  font-size: 12px;
+    margin-top: -20px;
+  margin-left:-575px;
+    text-align: center;
+}
+
+
+
+/*上一則or下一則*/
+.content .left_forum .previous_next{ float:left; width:778px;}
+
+/*上一則*/
+.content .left_forum .previous_next .previous_article{
+  float:left;
+  width:280px;
+  height:30px;
+  margin-top:20px;
+  background-color:#e3d6c5;
+  border:1px solid #c4c4b8;
+}
+.content .left_forum .previous_next .previous_article .previous_box{ width:280px; line-height:30px;}
+.content .left_forum .previous_next .previous_article .previous_box p.previous{ float:left; font-size:12px; margin-left:5px; color:#666;}
+.content .left_forum .previous_next .previous_article .previous_box p.article{ float:left; font-size:12px; margin-left:20px; color:#333; display:block; width:200px; height:30px; overflow:hidden;}
+
+/*下一則*/
+.content .left_forum .previous_next .next_article{
+  float:right;
+  width:280px;
+  height:30px;
+  margin-top:20px;
+  background-color:#e3d6c5;
+  border:1px solid #c4c4b8;
+  margin-left:50px;
+}
+.content .left_forum .previous_next .next_article .next_box{ width:280px; line-height:30px;}
+.content .left_forum .previous_next .next_article .next_box p.next{ float:left; font-size:12px; margin-left:5px; color:#666;}
+.content .left_forum .previous_next .next_article .next_box p.article{ float:left; font-size:12px; margin-left:20px; color:#333; display:block; width:200px; height:30px; overflow:hidden;}
+
+
+
+/*您或許對這些文章有興趣*/
+.content .left_forum .interested{
+  border: 1px solid #c9c7bb;
+    float: left;
+    margin: 50px 0 50px 0px;
+    width: 778px;
+}
+.content .left_forum .interested .interested_title{
+  background-color: #e69b83;
+    border: 1px solid #c9c7bb;
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    height: 38px;
+}
+.content .left_forum .interested .interested_title h4{
+  border-bottom: 1px dotted #ccc;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+}
+.content .left_forum .interested .interested_content{ margin: 20px 0 50px 35px;}
+.content .left_forum .interested .interested_content .item{
+  float: left;
+    margin-right: 15px;
+    width: 170px;
+}
+.content .left_forum .interested .interested_content .item .img_box{ float:left; height:130px}
+.content .left_forum .interested .interested_content .item .img_box a{
+  display: block;
+    height: 160px;
+    overflow: hidden;
+    width: 166px;
+}
+.content .left_forum .interested .interested_content .item .txt_box{
+  float: left;
+    height: 40px;
+    overflow: hidden;
+    padding: 0 0 20px;
+    width: 160px;
+}
+.content .left_forum .interested .interested_content .item .txt_box h4{
+  height: 30px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.content .left_forum .interested .interested_content .item .txt_box h4 a{
+  color: #666;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+
+/*right_最近瀏覽文章、你可能會喜歡的合購*/
+.content .right_forum {float: left}
+.content .right_forum .AD{width:192px; margin:90px 0 50px 10px; border: 1px solid #c9c7bb;}
+.content .right_forum .AD .AD_title{ background-color:#b8a39a; border: 1px solid #fff; height: 38px; line-height: 39px; width:190px;}
+.content .right_forum .AD .AD_title h2{ color: #FFF; font-size: 13px; font-weight: bold; letter-spacing: 1px; text-align:center; border-bottom: 1px dotted #ccc;}
+.content .right_forum .AD .AD_con{ padding:10px 0 0 13px; width:170px;}
+.content .right_forum .AD .AD_con .ADcon_box{ border-bottom: 1px dotted #bababa; margin-top:5px; margin-bottom: 15px; padding-bottom:10px;}
+.content .right_forum .AD .AD_con .ADcon_box .img_box{ height: 160px; padding-top:2px; padding-left: 3px; width: 160px;}
+.content .right_forum .AD .AD_con .ADcon_box .img_box img:hover{ opacity:0.9;}
+.content .right_forum .AD .AD_con .ADcon_box .event_name{ line-height: 18px; max-height: 36px; overflow: hidden; padding: 6px 0 0 3px; width: 160px;}
+.content .right_forum .AD .AD_con .ADcon_box .event_name a{ color: #454545; display: block; font-size: 12px; letter-spacing: 1px;}
+.content .right_forum .AD .AD_con .ADcon_box .price_howmany{ width:160px;}
+.content .right_forum .AD .AD_con .ADcon_box p.price_howmany{ font-size:13px; color:#999; margin-left:2px; margin-top:8px;}
+.content .right_forum .AD .AD_con .ADcon_box p.price_howmany span{ font-size:15px; color:#fc0000; margin-right:2px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

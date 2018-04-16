@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+#TopAd_apple_july{ width:980px; margin:0 auto;}
+#TopAd_apple_july .open{ width:980px; height:325px; margin-bottom:15px; background:url(../images/2011/ad_apple_july/july_apple_br.jpg) 0 0 no-repeat;}
+#TopAd_apple_july .open .top{width:980px; height:90px; margin:0 auto;}
+#TopAd_apple_july .open .top h2{width:259px; height:90px; display:block; float:left; text-indent:-9999px;}
+#TopAd_apple_july .open .top h4{width:621px; height:90px; display:block; float:left; text-indent:-9999px;}
+#TopAd_apple_july .open .top a.alliance{width:100px; height:90px; display:block; float:left; text-indent:-9999px;}
+#TopAd_apple_july .open .top a:hover.alliance{ background:url(../images/2011/ad_apple_july/july_apple_br_in2.jpg) 0 0 no-repeat;}
+
+/**------中間-----**/
+#TopAd_apple_july .open .center{width:980px; height:215px; margin:0 auto;}
+
+#TopAd_apple_july .open .center .left{ width:28px; height:215px; float:left; position:relative;}
+#TopAd_apple_july .open .center .left a{ position:absolute; width:48px; height:215px; display:block; background:url(../images/2011/ad_apple_july/btm_Arrow.png) 0 0 no-repeat; _background:url(../images/2011/ad_apple_july/btm_Arrow_ie6.gif) 0 0 no-repeat /*ie6*/; left:-20px; top:0px; z-index:5; text-indent:-9999px;}
+#TopAd_apple_july .open .center .left a:hover{ background:url(../images/2011/ad_apple_july/btm_Arrow.png) 0 -216px no-repeat;}
+
+#TopAd_apple_july .open .center .right{ width:28px; height:215px; float:left;position:relative;}
+#TopAd_apple_july .open .center .right a{ position:absolute; width:48px; height:215px; display:block; background:url(../images/2011/ad_apple_july/btm_Arrow.png) -48px 0 no-repeat; _background:url(../images/2011/ad_apple_july/btm_Arrow_ie6.gif) -48px 0 no-repeat /*ie6*/; left:0px; top:0px; z-index:5; text-indent:-9999px;}
+#TopAd_apple_july .open .center .right a:hover{ background:url(../images/2011/ad_apple_july/btm_Arrow.png) -48px -216px no-repeat;}
+
+#TopAd_apple_july .open .center .cen{ width:924px; height:215px; float:left; overflow:hidden;}
+
+#TopAd_apple_july .open .center .cen ul.shop{ width:1617px; height:215px;}
+#TopAd_apple_july .open .center .cen ul.shop li.mh{ float:left;}
+#TopAd_apple_july .open .center .cen ul.shop li.mh h3 a{  width:231px; height:215px; display:block; text-indent:-9999px; background:url(../images/2011/ad_apple_july/pro_img.jpg) 0 0 no-repeat;}
+#TopAd_apple_july .open .center .cen ul.shop li.mh h3 a:hover{ background:url(../images/2011/ad_apple_july/pro_img.jpg) 0 -215px no-repeat;}
+
+#TopAd_apple_july .open .center .cen ul.shop li.wen{ float:left;}
+#TopAd_apple_july .open .center .cen ul.shop li.wen h3 a{  width:231px; height:215px; display:block; text-indent:-9999px; background:url(../images/2011/ad_apple_july/pro_img.jpg) -231px 0 no-repeat;}
+#TopAd_apple_july .open .center .cen ul.shop li.wen h3 a:hover{ background:url(../images/2011/ad_apple_july/pro_img.jpg) -231px -215px no-repeat;}
+
+#TopAd_apple_july .open .center .cen ul.shop li.kkf{ float:left;}
+#TopAd_apple_july .open .center .cen ul.shop li.kkf h3 a{  width:231px; height:215px; display:block; text-indent:-9999px; background:url(../images/2011/ad_apple_july/pro_img.jpg) -462px 0 no-repeat;}
+#TopAd_apple_july .open .center .cen ul.shop li.kkf h3 a:hover{ background:url(../images/2011/ad_apple_july/pro_img.jpg) -462px -215px no-repeat;}
+
+#TopAd_apple_july .open .center .cen ul.shop li.lyn{ float:left;}
+#TopAd_apple_july .open .center .cen ul.shop li.lyn h3 a{  width:231px; height:215px; display:block; text-indent:-9999px; background:url(../images/2011/ad_apple_july/pro_img.jpg) -693px 0 no-repeat;}
+#TopAd_apple_july .open .center .cen ul.shop li.lyn h3 a:hover{ background:url(../images/2011/ad_apple_july/pro_img.jpg) -693px -215px no-repeat;}
+
+#TopAd_apple_july .open .center .cen ul.shop li.china{ float:left;}
+#TopAd_apple_july .open .center .cen ul.shop li.china h3 a{  width:231px; height:215px; display:block; text-indent:-9999px; background:url(../images/2011/ad_apple_july/pro_img.jpg) -924px 0 no-repeat;}
+#TopAd_apple_july .open .center .cen ul.shop li.china h3 a:hover{ background:url(../images/2011/ad_apple_july/pro_img.jpg) -924px -215px no-repeat;}
+
+#TopAd_apple_july .open .center .cen ul.shop li.yun{ float:left;}
+#TopAd_apple_july .open .center .cen ul.shop li.yun h3 a{  width:231px; height:215px; display:block; text-indent:-9999px; background:url(../images/2011/ad_apple_july/pro_img.jpg) -1155px 0 no-repeat;}
+#TopAd_apple_july .open .center .cen ul.shop li.yun h3 a:hover{ background:url(../images/2011/ad_apple_july/pro_img.jpg) -1155px -215px no-repeat;}
+
+#TopAd_apple_july .open .center .cen ul.shop li.hako{ float:left;}
+#TopAd_apple_july .open .center .cen ul.shop li.hako h3 a{  width:231px; height:215px; display:block; text-indent:-9999px; background:url(../images/2011/ad_apple_july/pro_img.jpg) -1386px 0 no-repeat;}
+#TopAd_apple_july .open .center .cen ul.shop li.hako h3 a:hover{ background:url(../images/2011/ad_apple_july/pro_img.jpg) -1386px -215px no-repeat;}
+
+
+#TopAd_apple_july .open a.bottom{width:980px; height:20px; display:block; margin:0 auto;}
+#TopAd_apple_july .open a:hover.bottom{ background:url(../images/2011/ad_apple_july/july_apple_br.jpg) 0  -325px no-repeat;}
+#TopAd_apple_july .open a.bottom p{ text-indent:-9999px;}
+
+
+
+
+/*收起的廣告*/
+
+#TopAd_apple_july a.close{ width:980px; height:65px; display:block; margin-bottom:15px; background: url(../images/2011/ad_apple_july/july_apple_s_br.gif) 0 0 no-repeat;}
+#TopAd_apple_july a:hover.close{background: url(../images/2011/ad_apple_july/july_apple_s_br.gif)  0 -65px no-repeat;}
+
+#TopAd_apple_july a.close h2,h4 { text-indent:-9999px;}

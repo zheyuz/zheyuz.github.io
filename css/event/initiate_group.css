@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.initiate_box{ width:328px; padding-top:4px; margin:0 auto;}
+.initiate_box .general_box{ width:328px;  height:87px; margin-bottom:2px; background-color:#f5f5f5; padding-top:18px;}
+.initiate_box .general_box p.go{ width:181px; height:41px; margin:0 auto; text-indent:-9999px;}
+.initiate_box .general_box p.go a{ width:181px; height:41px; display:block; background: url(../../images/user/mails/mails_btn.gif) no-repeat left -1084px;}
+.initiate_box .general_box p.go a:hover{ background: url(../../images/user/mails/mails_btn.gif) no-repeat left -1125px;}
+
+.initiate_box .fast_box{ width:328px; height:87px; background-color:#f5f5f5; border-top:#dddddd 1px solid; padding-top:18px;}
+.initiate_box .fast_box p.go{ width:181px; height:41px; margin:0 auto; text-indent:-9999px;}
+.initiate_box .fast_box p.go a{ width:181px; height:41px; display:block; background: url(../../images/user/mails/mails_btn.gif) no-repeat left -1002px;}
+.initiate_box .fast_box p.go a:hover{ background: url(../../images/user/mails/mails_btn.gif) no-repeat left -1043px;}
+
+.initiate_box p.go_fast_remark{ font-size:13px; text-align:center; color:#777777; line-height:40px; letter-spacing:1px;}

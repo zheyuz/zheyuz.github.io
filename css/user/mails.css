@@ -1,0 +1,1813 @@
+/*=====================主內容開始=====================*/
+h1, h2, h3, h4, h5, h6, p, a, ul, li{ color:#454545; font-family:Arial, Helvetica, sans-serif, "新細明體-ExtB";}
+p.require { float:left; color:#F64949; text-align:right; vertical-align:top; padding:0px 5px;}
+
+
+.main_content .focus{outline:3px solid #efefef; border:1px solid #9c9c9c !important;background:#fff; _outline:none;}
+.main_content .hover{border:1px solid #9c9c9c !important;}
+.main_content .select { border: 1px solid #CFCFCF;}
+
+/*==各項主要資訊內容==*/
+.main_content{width:790px; float:left;}
+
+/*==使用者ID_BOX==*/
+.main_content .user_box{float:left; height:22px; padding:0px 5px;}
+.main_content .user_box span.syst{ color:#44A205;}
+.main_content .user_box .h16{ float:left; border:1px solid #C1C1C1; height:16px; vertical-align:middle; margin-right:3px;}
+.main_content .user_box_Rpadding{float:left; height:22px; padding:0px 5px 0px 0px;}
+.main_content .user_boxh32{float:left; height:22px; padding:5px 0px;}
+
+/*==提醒==*/
+.main_content .Remind_box{float:left; width:100%; padding-top:10px;}
+
+/*==工具開始==*/
+.main_content .main_content_top{width:790px; float:left; _display:inline; margin-bottom: -15px;}
+.main_content .main_content_top_Lbox {width:70px; float:left; padding:10px 0px 0px 0px ; }
+
+/*==回舊版==*/
+.main_content .main_content_top_Lbox p.gotoOld a{ display:block; width:150px; height:18px; line-height:18px; font-size:13px; letter-spacing:1px; background: url(../../images/user/mails/gotoold_icon.gif) no-repeat left top; text-indent:20px; color:#858585; text-decoration:underline;}
+.main_content .main_content_top_Lbox p.gotoOld a:hover{ color:#454545;}
+
+/*==返回==*/
+.main_content .main_content_top_Lbox p.Return_bnt a{ display:block; width:55px;  height:18px; line-height:18px; font-size:15px; letter-spacing:1px; font-weight:bold; background: url(../../images/user/mails/gotoold_icon.gif) no-repeat left -36px; text-indent:20px; color:#454545; text-decoration:underline;}
+.main_content .main_content_top_Lbox p.Return_bnt  a:hover{ color:#858585; background: url(../../images/user/mails/gotoold_icon.gif) no-repeat -282px -36px;}
+
+
+/*==----6/11從舊信件搬過來----==*/
+/*==刪除按鈕==*/
+.main_content_top_Lbox_more {width:260px; float:left; padding-top:7px;}
+/*==刪除按鈕_內頁信件使用==*/
+.main_content_top_Lbox_more .functionLefticon_LBOX{ float:left; width:52px; height:19px;}
+.main_content_top_Lbox_more .functionLefticon_LBOX a{ display:block; width:52px; height:19px; line-height:19px;_line-height:22px; line-height:21px \9;/**/ color:#4a4a4a; font-size:12px; font-family:Arial, 新細明體; text-decoration:none; text-align:center; outline:none; text-indent:0; background: url(../../images/user/delete_small-19_bt.gif) no-repeat left top ; }
+/*==取消刪除功能==*/
+.main_content_top_Lbox_more .functionLefticon_LBOX p{ display:block; width:52px; height:19px; line-height:19px;_line-height:22px; line-height:22px \9;/**/ color:#aaa9a9; font-size:12px; font-family:Arial, 新細明體; text-decoration:none; text-align:center; outline:none; text-indent:0; background: url(../../images/user/delete_small-19_bt.gif) no-repeat left top ; }		
+.main_content_top_Lbox_more .functionLefticon_LBOX a:hover{ color: #000; background:url(../../images/user/delete_small-19_bt.gif) no-repeat left bottom; }
+/*==刪除按鈕_內頁信件使用_END==*/
+/*==更多功能_內頁信件使用==*/	
+.main_content_top_Lbox_more .functionLefticon_RBOX{ float: left; width:100px; height:19px;	 }
+.main_content_top_Lbox_more .functionLefticon_RBOX a{ display:block; width:85px; height:19px; line-height:19px;_line-height:22px; line-height:22px \9;/**/ color:#4a4a4a; font-size:12px; font-family:Arial, 新細明體; text-decoration:none; outline:none; text-indent:0; padding: 0px 0px 0px 15px; background: url(../../images/user/functionLefticonbt_small19.gif) no-repeat right top;	 }	
+.main_content_top_Lbox_more .functionLefticon_RBOX a:hover{ color: #000; background: url(../../images/user/functionLefticonbt_small19.gif) no-repeat right bottom; }		
+/*==更多功能_內頁信件使用_END==*/	
+/*==下一頁按鈕_內頁信件使用==*/
+.main_content_top_Lbox_more .functionLefticon_onclick{ float: left; width:52px; height:19px;_line-height:22px; line-height:22px \9;/**/ }
+.main_content_top_Lbox_more .functionLefticon_onclick a{ display:block; width:52px; height:19px; line-height:19px;_line-height:22px; line-height:22px \9;/**/ color:#105CB6; font-size:12px; font-family:Arial, 新細明體; text-decoration: underline;  text-align:center; outline:none; text-indent:0; }
+.main_content_top_Lbox_more .functionLefticon_onclick a:hover{ color:#ff9933; text-decoration: underline;}		
+/*==更多功能_END==*/	
+/*==----6/11從舊信件搬過來 結束----==*
+/
+
+/*==功能按鈕_BOX_開始==*/
+.main_content .main_content_top_Rbox{ height:32px; margin-bottom:15px; margin-top:-3px;}
+
+/*==功能按鈕==*/
+.main_content .mainShop_box{width:520px; float:left; position:relative;}
+.main_content .mainShop_box .noteOrder{ height:35px;  position:absolute; top:-40px; right:-120px; padding: 5px 5px 0px 5px; background:url(../../images/user/mails/noteorder_bg.gif) no-repeat left top ;}
+.main_content .mainShop_box .noteOrder p{font-size:12px; color:#454545; line-height:20px; _line-height:21px; letter-spacing:1px; text-indent:20px; background:url(../../images/user/mails/no_note_icom.gif) no-repeat left top; }
+.main_content .mainShop_box .noteOrder span.NO_note a{font-size:12px; color:#F64949; text-decoration:underline;}
+.main_content .mainShop_box .noteOrder span.NO_note a:hover{font-size:12px; color:#FF9933; text-decoration:underline;}
+
+.main_content .main_content_top_Rbox ul.mainShop {width:520px;}
+.main_content .main_content_top_Rbox ul.mainShop li {float: right; padding: 0px 5px 0px 0px; }
+.main_content .main_content_top_Rbox ul.mainShop li a.img_btn {font-size:13px; display:block; color:#454545;  float:left; letter-spacing:1px; text-align:center; text-decoration:none; background:url(../../images/user/mails/mails_btn.gif) no-repeat left top; min-width:110px; _width:110px;}
+.main_content .main_content_top_Rbox ul.mainShop li a.img_btn span{display:block; padding:0 20px; line-height:32px; background:url(../../images/user/mails/mails_btn.gif) no-repeat right -32px;}
+.main_content .main_content_top_Rbox ul.mainShop li a.img_btn:hover{ background-position:left -64px;} 
+.main_content .main_content_top_Rbox ul.mainShop li a.img_btn:hover span{ background-position: right -96px;}
+
+/*==更多工具_bnt==*/
+.main_content .main_content_top_Rbox .moerShop_box {float: right;  }
+.main_content .main_content_top_Rbox .moerShop_box .moerShop_bnt{ position:relative; width:100%; height:32px;}
+.main_content .main_content_top_Rbox .moerShop_box .moerShop_bnt a.moreshop_img_btn {width:100px; height:32px; padding-left:20px;  display:block; font-size:13px; line-height:32px; color:#454545;  float:left; letter-spacing:1px; text-decoration:none; background:url(../../images/user/mails/mails_btn.gif) no-repeat left -256px; }
+.main_content .main_content_top_Rbox .moerShop_box .moerShop_bnt a.moreshop_img_btn:hover{ background-position: left -289px;} 
+.main_content .main_content_top_Rbox .moerShop_box .moerShop_bnt a.moreshop_img_btn_active {width:100px; height:32px; padding-left:20px;  display:block; font-size:13px; line-height:32px; color:#454545;  float:left; letter-spacing:1px; text-decoration:none; background:url(../../images/user/mails/mails_btn.gif) no-repeat left -289px; }
+.main_content .main_content_top_Rbox .moerShop_box .moerShop_Menu{ display: block; width:118px; position:absolute; top:32px; left:0px;  background:#FFFFFF;	border-left:1px solid #7b7b7b; border-right:1px solid #7b7b7b; border-bottom:1px solid #7b7b7b; clear:both;/*==解除浮動解IE6==*/ }
+.main_content .main_content_top_Rbox .moerShop_box .moerShop_Menu ul.SHOPbox_list_mail {width:118px; float: right; }
+.main_content .main_content_top_Rbox .moerShop_box .moerShop_Menu ul.SHOPbox_list_mail li.Drop-shoplist a{display:block; width:118px; height:32px; line-height:32px; font-size:13px; color:#555555; text-align:center; text-decoration:none; _display: inline-block; letter-spacing:2px; }
+.main_content .main_content_top_Rbox .moerShop_box .moerShop_Menu ul.SHOPbox_list_mail li.Drop-shoplist a:hover{ color:#454545; background:#EAEFF9; text-decoration: underline;}
+/*.main_content_top_Rbox .moerShop_box .moerShop_Menu ul.SHOPbox_list_mail li.Drop-shoplist a:active{ color:#454545; background:#EAEFF9; text-decoration: underline;}*/
+/*==更多工具_bnt結束==*/
+/*==功能按鈕_BOX_結束==*/
+
+/*==標題BOX_開始==*/
+.main_content .mails_title_box{float:left; width:790px; height:30px; padding: 10px 0px 0px 0px; background-color:#637DBB; border-bottom:1px #315790 solid; overflow:hidden;}
+.main_content .mails_title { width:770px; float:left; padding:0 0 0 20px; }
+.main_content .mails_title .h1_box{width:770px; height:20px; overflow:hidden;}
+.main_content .mails_title .h1_box h1{float:left;  color:#ffffff; font-size:15px; font-weight:bold; letter-spacing:1px; line-height:20px;}
+.main_content .mails_title .h1_box h1 a{color:#ffffff;text-decoration:none;}
+.main_content .mails_title .h1_box h1 a:hover{color:#ffffff; text-decoration:underline;}
+.main_content .mails_title .h1_box img{ vertical-align:middle; }
+.main_content .mails_title .h1_box a.icon_link{ width:22px; height:20px; _display:inline; margin-right:4px;}
+.main_content .mails_title .h1_box a.icon_link img{ margin:0;_display:inline;  vertical-align:middle;}
+
+
+/*==區塊主選單_開始==*/
+/*==選單BOX_開始==*/
+.main_content .main_Tab_box{float:left; width:788px; background-color:#FBFBFB; _display: inline; padding-top:20px; border-left: 1px solid #ccc; border-right: 1px solid #ccc;}
+.main_content .main_Tab_box_Rbox{ float: right;width: 73px;margin-right: 20px;}
+.main_content .main_Tab_box_Rbox p.openBoxBtn a{ display:block; width:70px; height:33px; line-height:30px; _line-height:33px; line-height:33px \9;/**/ font-size:13px; background: url(../../images/user/mails/close_open_bnt_bg.gif) no-repeat left top; text-indent:20px; color:#858585; text-decoration:none; letter-spacing:1px; font-weight:bold;}
+.main_content .main_Tab_box_Rbox p.openBoxBtn a:hover{ text-decoration:none; color:#454545; background-position: -280px topp; text-decoration:none}
+.main_content .main_Tab_box_Rbox .openBoxBtn{border-bottom: 1px solid #ccc;}
+.main_content .main_Tab_box_Rbox p.closeBoxBtn a{ display:block; width:70px; height:33px; line-height:30px; _line-height:33px; line-height:33px \9;/**/ font-size:13px; background: url(../../images/user/mails/close_open_bnt_bg.gif) no-repeat left -51px; text-indent:20px; color:#858585; text-decoration:none; letter-spacing:1px; font-weight:bold;}
+.main_content .main_Tab_box_Rbox p.closeBoxBtn a:hover{ text-decoration:none; color:#454545; background-position: -280px -51px; text-decoration:none}
+.main_content .main_Tab_box_Rbox .closeBoxBtn{border-bottom: 1px solid #ccc;}
+/*==不設定間距==*/
+.main_content .main_Tab_box_NoM{ margin:0px; }
+/*==不設定底線==*/
+.main_content .main_Tab_box_no_line{float:left; width:790px; border-bottom: none; background:url(../../images/user/mails/main_tab_box_bg.gif) repeat-x left bottom; margin-top:15px; _display: inline;}
+
+/*==選單BOX_開始_左==*/
+.main_content .main_Tab_box_Lbox{ float:left; width:680px; padding-left:15px;}
+.main_content .main_Tab_box_Lbox ul.mainShop li {float: left; padding-right:5px;  }
+.main_content .main_Tab_box_Lbox ul.mainShop li a.img_btn {float: left; font-size:15px; display:block; color:#637db3;  text-decoration:none; font-weight:bold; text-align:center; letter-spacing:2px; background-color:#e1e9fa;  border-top:1px #e1e9fa solid; border-left:1px #e1e9fa solid; border-right:1px #e1e9fa solid; }
+.main_content .main_Tab_box_Lbox ul.mainShop li a.img_btn span{ display:block; padding:0 20px; line-height:32px; background-color:#e1e9fa;}
+.main_content .main_Tab_box_Lbox .main_use{border-bottom: 1px solid #ccc;}
+/*==固定選取==*/
+.main_content .main_Tab_box_Lbox ul.mainShop li a.img_btn_Active {float:left; font-size:15px; display:block; color:#ffffff; letter-spacing:1px; text-decoration:none; font-weight:bold; text-align:center; letter-spacing:2px; background-color:#637db3; border-top:1px #315790 solid; border-left:1px #315790 solid; border-right:1px #315790 solid;} 
+.main_content .main_Tab_box_Lbox ul.mainShop li a.img_btn_Active span{display:block; padding:0 20px; line-height:32px; background-color:#637db3;}
+
+/*==選單BOX_有提醒數字==*/
+.main_content .main_Tab_box_Lbox ul.mainShop li.notebnr a.img_btn_note { float:left; font-size:15px; display:block; color:#637db3; line-height:32px;  text-align:left; padding:0 20px; text-decoration:none; font-weight:bold; letter-spacing:2px; background-color:#e1e9fa;  border-top:1px #e1e9fa solid; border-left:1px #e1e9fa solid; border-right:1px #e1e9fa solid; }
+.main_content .main_Tab_box_Lbox ul.mainShop li.notebnr a.img_btn_note span.NoteNumber{ color:#FFFFFF; height:24px; line-height:24px; padding: 0 5px; margin: 5px 0px 0px 5px;	background-color: #F64949;	border-radius: 3px 3px 3px 3px; border-right:1px #f5f5f5 solid; border-bottom:1px #f5f5f5 solid;}
+/*==固定選取==*/
+.main_content .main_Tab_box_Lbox ul.mainShop li.notebnr a.img_btn_note_Active { float:left; font-size:15px; display:block; color:#ffffff; line-height:32px;  text-align:left; padding:0 20px; text-decoration:none; font-weight:bold; letter-spacing:2px; background-color:#637db3; border-top:1px #315790 solid; border-left:1px #315790 solid; border-right:1px #315790 solid }
+.main_content .main_Tab_box_Lbox ul.mainShop li.notebnr a.img_btn_note_Active span.NoteNumber{ color:#FFFFFF; height:24px; line-height:24px; padding: 0 5px; margin: 5px 0px 0px 5px;	background-color: #F64949;	border-radius: 3px 3px 3px 3px; border-right:1px #315790 solid; border-bottom:1px #315790 solid;}
+/*.main_content .main_Tab_box_Lbox ul.mainShop li a.img_btn:hover{ background-color:#637db3; color:#ffffff; border-top:1px #315790 solid; border-left:1px #315790 solid; border-right:1px #315790 solid;} 
+*/
+/*.main_content .main_Tab_box_Lbox ul.mainShop li a.img_btn:hover span{ background-color:#637db3; color:#ffffff;}
+*/
+
+/*==標題_區塊==*/
+.main_content .main_Tab_MsgBOX{float:left; width:788px; border-top:1px solid #CBCBCB; border-left: 1px solid #CBCBCB; border-right: 1px solid #CBCBCB;}
+.main_content .main_Tab_MsgBOX .MsgBOX_titleBOX{float:left; width:590px; height:46px; padding-left:16px;}
+.main_content .main_Tab_MsgBOX .MsgBOX_titleBOX h2{font-size:15px; color:#637cb2; line-height:46px; _line-height:45px; padding-left:50px; letter-spacing:1px; font-weight:bold; background:url(../../images/user/mails/msg_titleimg.gif) no-repeat left top;}
+.main_content .main_Tab_MsgBOX .MsgBOX_titleBOX h2.goods_icon{font-size:15px; color:#637cb2; line-height:46px; _line-height:45px; padding-left:50px; letter-spacing:1px; font-weight:bold; background:url(../../images/user/mails/msg_titleimg.gif) no-repeat left -46px;}
+.main_content .main_Tab_MsgBOX .MsgBOX_titleBOX h2.write_icon{font-size:15px; color:#637cb2; line-height:46px; _line-height:45px; padding-left:50px; letter-spacing:1px; font-weight:bold; background:url(../../images/user/mails/msg_titleimg.gif) no-repeat left -92px;}
+/*==區塊主選單_結束==*/
+
+/*==進度內容BOX_開始==*/
+.main_content .main_Content_box{float:left; padding:15px; border-left:1px #cbcbcb solid; border-right:1px #cbcbcb solid; border-bottom:none;background-color:#fbfbfb;border: 1px #cbcbcb solid;border-width: 0 1px 0px 1px; width: 758px;}
+.main_content .main_Content_box.no_margin{ margin:0;}
+.main_content .main_Content_box_mail{width: 788px;background-color: #fff; border-bottom: 1px #cbcbcb solid;}
+.main_content .main_Content_box.border_bottom{ border-bottom:1px #cbcbcb solid;}
+.main_content .MGb15px{ margin-bottom:15px;}
+
+.main_content .main_Content_box .schedule_box{float:left; width:189px;}
+.main_content .main_Content_box .schedule{float:left; width:189px; height:32px;}
+.main_content .main_Content_box .schedule img.schedulebg{width:189px; height:32px;}
+.main_content .main_Content_box .schedule_box p.schedule{width:189px; height:20px; line-height:20px; font-size:12px; color:#F64949; letter-spacing:1px; font-weight:bold; text-align:center;}
+.main_content .main_Content_box .schedule_box p.schedule_No{width:189px; height:20px; line-height:20px; font-size:12px; color:#666666; letter-spacing:1px; text-align:center;}
+
+/*==分享合購_進度內容BOX_開始==*/
+.main_content .main_Content_box .Share_schedule_box{float:left; width:252px;}
+.main_content .main_Content_box .Share_schedule{float:left; width:252px; height:32px;}
+.main_content .main_Content_box .Share_schedule img.schedulebg{width:252px; height:32px;}
+.main_content .main_Content_box .Share_schedule_box p.schedule{width:252px; height:20px; line-height:20px; font-size:12px; color:#F64949; letter-spacing:1px; font-weight:bold; text-align:center;}
+.main_content .main_Content_box .Share_schedule_box p.schedule_No{width:252px; height:20px; line-height:20px; font-size:12px; color:#666666; letter-spacing:1px; text-align:center;}
+
+/*==付款狀態_開始==*/
+.main_content .main_Content_box h2{ float:left; font-size:15px; color:#454545; line-height:32px; letter-spacing:5px; font-weight:bold;}
+.main_content .main_Content_box h3.OrderList{ float:left; font-size:15px; color:#454545; line-height:32px; letter-spacing:5px; font-weight:bold;}
+
+/*==未付款_深灰色==*/
+.main_content .main_Content_box h2.title_img{ float: left; font-size: 13px; display:block; color:#454545; letter-spacing:1px; text-decoration:none; margin-right:20px; _display: inline; border:1px solid #454545; border-radius:5px;}
+.main_content .main_Content_box h2.title_img span{ display:block; padding:0px 20px; line-height:32px;}
+
+.main_content .main_Content_box p.no{ font-size:13px; color:#F64949; line-height:30px; font-weight:bold; float:left;}
+/*==已付款_綠色==*/
+.main_content .main_Content_box h2.title_Greenimg{ float: left; font-size:13px;  display:block; color:#479f0b; letter-spacing:1px; text-decoration:none; margin-right:20px; _display: inline; border:1px solid #479f0b; border-radius:5px;}
+.main_content .main_Content_box h2.title_Greenimg span{ display:block; padding:0px 20px; line-height:32px;}
+/*==已確認_綠色==*/
+.main_content .main_Content_box h2.title_Tangerineimg{ float: left; font-size:13px;  display:block; color:#ed4a1f; letter-spacing:1px; text-decoration:none; margin-right:20px; _display: inline; border:1px solid #ed4a1f; border-radius:5px;}
+.main_content .main_Content_box h2.title_Tangerineimg span{ display:block; padding:0px 20px; line-height:32px; color:#ed4a1f;}
+/*==取消訂單_灰色==*/
+.main_content .main_Content_box h2.title_cancel{ float: left; font-size:13px;  display:block; color:#aaa; letter-spacing:1px; text-decoration:none; _display: inline; border:1px solid #aaa; border-radius:5px;}
+.main_content .main_Content_box h2.title_cancel span{ display:block; padding:0px 20px; line-height:32px;}
+
+
+/*==後台進去訂單==*/
+/*==未付款_深灰色==*/
+.main_content .main_Content_box h2.admin_title_img{ float: left; font-size: 13px; display:block; color:#454545; letter-spacing:1px; text-decoration:none; margin-right:20px; _display: inline; border:1px solid #454545; border-radius:5px;margin-right: 7px;}
+.main_content .main_Content_box h2.admin_title_img span{ display:block; padding:0px 20px; line-height:32px;}
+
+.main_content .main_Content_box p.no{ font-size:13px; color:#F64949; line-height:30px; font-weight:bold; float:left;}
+/*==已付款_綠色==*/
+.main_content .main_Content_box h2.admin_title_Greenimg{ float: left; font-size:13px;  display:block; color:#479f0b; letter-spacing:1px; text-decoration:none; margin-right:20px; _display: inline; border:1px solid #479f0b; border-radius:5px;margin-right: 7px;}
+.main_content .main_Content_box h2.admin_title_Greenimg span{ display:block; padding:0px 20px; line-height:32px;}
+/*==已確認_紅色==*/
+.main_content .main_Content_box h2.admin_title_Tangerineimg{ float: left; font-size:13px;  display:block; color:#ed4a1f; letter-spacing:1px; text-decoration:none; margin-right:20px; _display: inline; border:1px solid #ed4a1f; border-radius:5px;margin-right: 7px;}
+.main_content .main_Content_box h2.admin_title_Tangerineimg span{ display:block; padding:0px 20px; line-height:32px; color:#ed4a1f;}
+/*==取消訂單_灰色==*/
+.main_content .main_Content_box h2.admin_title_cancel{ float: left; font-size:13px;  display:block; color:#aaa; letter-spacing:1px; text-decoration:none; _display: inline; border:1px solid #aaa; border-radius:5px;margin-right:20px;margin-right: 7px;}
+.main_content .main_Content_box h2.admin_title_cancel span{ display:block; padding:0px 20px; line-height:32px; color:#aaa; }
+
+
+
+/*==宅配單號==*/
+.main_content .main_Content_box .Paymode_box .P_box .LlistMail_box{ float:left;}
+/*==check_in_選取按鈕==*/
+.main_content .main_Content_box .Paymode_box .P_box .LlistMail_box .check_in{ float:left; height:32px; margin-right:5px; _display:inline;}
+
+/*==內容文字==*/
+.main_content .main_Content_box p.noteTitle{ float:left; font-size:15px; color:#454545; line-height:32px; letter-spacing:1px; /*font-weight:bold;*/}
+
+/*==紅色文字粗體==*/
+.main_content .main_Content_box p.noteRed15{ float:left; font-size:15px; color:#F64949; line-height:30px; letter-spacing:2px; font-weight:bold;}
+.main_content .main_Content_box p.noteRed15.no_float{ float:none;} 
+.main_content .main_Content_box p.noteRed{ float:left; font-size:15px; color:#F64949; line-height:30px; letter-spacing:1px; font-weight:bold;}
+.main_content .main_Content_box p.noteRed_l10{ float:left; font-size:13px; color:#F64949; line-height:30px; letter-spacing:1px; font-weight:bold; padding-left:10px;}
+
+/*==文字-連結==*/
+.main_content .main_Content_box h3.noteRed a.ShortName{ display:block; float:left; font-size:15px; color:#454545; line-height:30px; letter-spacing:1px; font-weight:bold;}
+.main_content .main_Content_box h3.noteRed a.ShortName:hover{ color:#888888; text-decoration:underline;}
+.main_content .main_Content_box h3.noteRed img{ float:left; padding: 5px 5px 0px 0px;}
+
+/*==共用按鈕==*/
+.main_content .main_Content_box a.img_btn {  float: right; font-size:13px; display:block; color:#454545; letter-spacing:1px; text-decoration:none; background:url(../../images/user/mails/mails_btn.gif) no-repeat left top;}
+.main_content .main_Content_box a.img_btn span{  display:block; padding:0 20px; line-height:32px; background:url(../../images/user/mails/mails_btn.gif) no-repeat right -32px; text-align:center;}
+.main_content .main_Content_box a.img_btn:hover{ background-position:left -64px;} 
+.main_content .main_Content_box a.img_btn:hover span{ background-position: right -96px;}
+.main_content .main_Content_box a.img_btn.margin_top{ margin-top:-43px;}
+.main_content .main_Content_box a.img_btn.margin_top_10{ margin-top:-10px;}
+.main_content .main_Content_box a.img_btn.margin_top_85{ margin-top:-85px;}
+.main_content .main_Content_box a.img_btn.margin_top_25{ margin-top:-25px;}
+.main_content .main_Content_box a.img_btn.margin_top40{ margin-top:40px;}
+
+/*==共用按鈕_td_gopay退款_使用==*/
+.main_content .main_Content_box a.img_Tdbtn { background: url("../../images/user/order_img/function_btn.gif") no-repeat scroll left top transparent; color: #454545; display: block; float: left; font-size: 13px; margin: 5px 0 0 32px; _display: inline; text-decoration: none;}
+.main_content .main_Content_box a.img_Tdbtn span{ background: url("../../images/user/order_img/function_btn.gif") no-repeat scroll right -25px transparent; display: block; line-height: 25px; padding: 0 10px;}
+.main_content .main_Content_box a.img_Tdbtn:hover{ background: url("../../images/user/order_img/function_btn.gif") no-repeat scroll left -50px transparent;} 
+.main_content .main_Content_box a.img_Tdbtn:hover span{ background: url("../../images/user/order_img/function_btn.gif") no-repeat scroll right -75px transparent;}
+
+/*==共用按鈕_td_合購統計_使用==*/
+.main_content .main_Content_box a.img_Tdbtn10RM_L { float:left; width:95px; height:38px; display:block; font-size:15px; line-height:32px; color:#454545; letter-spacing:1px; text-decoration:none; font-weight:bold; text-align:center; background:url(../../images/user/mails/mails_btn.gif) no-repeat left -780px; }
+.main_content .main_Content_box a.img_Tdbtn10RM_L:hover{ background-position: left -890px; color:#454545;} 
+.main_content .main_Content_box a.img_Tdbtn10RM_L_active {float:left; width:95px; height:38px; display:block; font-size:15px; line-height:32px; color:#ffffff; letter-spacing:1px; text-decoration:none; font-weight:bold; text-align:center; background:url(../../images/user/mails/mails_btn.gif) no-repeat -95px -780px; }
+
+.main_content .main_Content_box a.img_Tdbtn10RM_R { float:left; width:95px; height:38px; display:block; font-size:15px; line-height:32px; color:#454545; letter-spacing:1px; text-decoration:none; font-weight:bold; text-align:center; background:url(../../images/user/mails/mails_btn.gif) no-repeat left -850px; }
+.main_content .main_Content_box a.img_Tdbtn10RM_R:hover{ background-position: right -890px; color:#454545;} 
+.main_content .main_Content_box a.img_Tdbtn10RM_R_active {float:left; width:95px; height:38px; display:block; font-size:15px; line-height:32px; color:#ffffff; letter-spacing:1px; text-decoration:none; font-weight:bold; text-align:center; background:url(../../images/user/mails/mails_btn.gif) no-repeat -95px -850px; }
+
+/*==共用按鈕_按鈕不能使用==*/
+.main_content .main_Content_box p.img_btn_NO {float: right; font-size:13px; display:block; color:#999999; letter-spacing:1px; text-decoration:none; background:url(../../images/user/mails/mails_btn.gif) no-repeat left top;}
+.main_content .main_Content_box p.img_btn_NO span{display:block; padding:0 20px; line-height:32px; background:url(../../images/user/mails/mails_btn.gif) no-repeat right -32px;}
+.main_content .main_Content_box p.img_btn_NO:hover{ background-position:left top;} 
+.main_content .main_Content_box p.img_btn_NO:hover span{ background-position: right -32px;}
+
+/*==共用按鈕_黃色==*/
+.main_content .main_Content_box a.img_btn_Yellow {float: right; font-size:13px; display:block; color:#454545; letter-spacing:1px; text-decoration:none; background:url(../../images/user/mails/mails_btn.gif) no-repeat left -128px;}
+.main_content .main_Content_box a.img_btn_Yellow span{display:block; padding:0 20px; line-height:32px; background:url(../../images/user/mails/mails_btn.gif) no-repeat right -160px;}
+.main_content .main_Content_box a.img_btn_Yellow:hover{ background-position:left -192px;} 
+.main_content .main_Content_box a.img_btn_Yellow:hover span{ background-position: right -224px;}
+
+.main_content .main_Content_box .Paymode_box{ float:left; width:738px; padding:10px; border-bottom:1px #cbcbcb dotted; background-color: #f3f3f3;}
+.main_content .main_Content_box .no_line{ border:none;}
+.main_content .main_Content_box .Paymode_box .P_Lbox{float:left; width:600px;}
+.main_content .main_Content_box .Paymode_box .P_Rbox{float:left; width:138px;}
+.main_content .main_Content_box .Paymode_box .P_box{float:left; width:738px; }
+.main_content .main_Content_box .Paymode_box .remind_red{font-size: 13px;color: #F64949;line-height: 20px;padding-left: 100px;}
+
+.main_content .main_Content_box .Paymode_box .mainText_box{float:left; width:630px; padding: 5px 0px 0px 0px;}
+.main_content .main_Content_box .Paymode_box .mainText_box p.TextNote{ float:left; font-size:13px; color:#454545; line-height:22px; letter-spacing:1px; }
+.main_content .main_Content_box .Paymode_box .mainText_box p.TextNote span{ color:#F64949; font-weight:bold;}
+.main_content .main_Content_box .Paymode_box .mainText_box p.TextNote a.moerbnt{font-size:13px; text-decoration: underline; color:#105CB6; font-weight:bold;}
+.main_content .main_Content_box .Paymode_box .mainText_box p.TextNote a.moerbnt:hover{ text-decoration:underline; color:#FF9933; }
+.main_content .main_Content_box .Paymode_box .mainText_box p.TextNote.no_float{ float:none; font-size:15px;}
+
+.main_content .main_Content_box .Paymode_box .mainText_box h3.TextNote_Red{ float:left; font-size:15px; color:#F64949; line-height:25px; letter-spacing:1px; font-weight:bold; }
+
+.main_content .main_Content_box .Paymode_box .PaySudmenu_box{float:left; width:630px; padding:10px 0px 0px 0px ;}
+.main_content .PaySudmenu_box ul.PaySudmenu {width: 630px; float: right; background:url(../../images/user/mails/paysudmenu_ui_bg.gif) no-repeat left top;}
+.main_content .PaySudmenu_box ul.PaySudmenu li {float: left; padding-right:5px;}
+
+.main_content .PaySudmenu_box ul.PaySudmenu li a.Pay_btn { font-size:15px; display:block; color:#4a4a4a; float:left; text-decoration:none; font-weight:bold; background-color:#f4f4f4;  border-top:2px #CBCBCB solid; border-left:1px #CBCBCB solid; border-right:1px #CBCBCB solid; text-align:center; min-width:116px;}
+.main_content .PaySudmenu_box ul.PaySudmenu li a.Pay_btn span{display:block; padding:0 20px; line-height:30px; background-color:#f4f4f4;}
+.main_content .PaySudmenu_box ul.PaySudmenu li a.Pay_btn:hover{font-size:15px; display:block; color:#4a4a4a; float:left; text-decoration:none; font-weight:bold; background-color:#ffffff;  border-top:2px #CBCBCB solid; border-left:1px #CBCBCB solid; border-right:1px #CBCBCB solid; text-align:center; min-width:116px;} 
+.main_content .PaySudmenu_box ul.PaySudmenu li a.Pay_btn:hover span{display:block; padding:0 20px; line-height:31px; background-color:#ffffff;}
+
+.main_content .PaySudmenu_box ul.PaySudmenu li a.Pay_btn_Active { font-size:15px; display:block; color:#4a4a4a; float:left; text-decoration:none; font-weight:bold; background-color:#ffffff;  border-top:2px #CBCBCB solid; border-left:1px #CBCBCB solid; border-right:1px #CBCBCB solid; text-align:center; min-width:116px; }
+.main_content .PaySudmenu_box ul.PaySudmenu li a.Pay_btn_Active span{display:block; padding:0 20px; line-height:31px; background-color:#ffffff;}
+
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox{float:left; width:628px; padding:15px 0px 15px 0px ; background-color:#FFFFFF;  border-bottom:1px #CBCBCB solid; border-left:1px #CBCBCB solid; border-right:1px #CBCBCB solid; /*border-top:1px #CBCBCB solid;*/}
+
+.main_content .main_Content_box .Paymode_box .Pay_Lbox{float:left; width:400px; padding-left:24px;}
+.main_content .main_Content_box .Paymode_box .Pay_Lbox p.TextNote{ float:left; width:340px; font-size:13px; color:#454545; line-height:22px; letter-spacing:1px; padding: 5px 0px; }
+.main_content .main_Content_box .Paymode_box .Pay_Lbox p.TextNote a{ color:#105CB6;}
+.main_content .main_Content_box .Paymode_box .Pay_Lbox p.TextNote a:hover{ color:#FF9933;}
+.main_content .main_Content_box .Paymode_box .Pay_Lbox p.TextNote_line{ float:left; width:340px; font-size:13px; color:#454545; line-height:22px; letter-spacing:1px; border-bottom: 1px dotted #CBCBCB; padding: 5px 0px;}
+
+.main_content .main_Content_box .Paymode_box .Pay_Lbox p span.TextRed{color:#F64949; padding: 0px 5px 0px 0px;}
+.main_content .main_Content_box .Paymode_box .Pay_Lbox p span.TextRed a{color:#888888; text-decoration:underline; padding-left:10px;}
+.main_content .main_Content_box .Paymode_box .Pay_Lbox p span.TextRed a:hover{color:#454545; text-decoration:underline;}
+.main_content .main_Content_box .Paymode_box .Pay_Rbox{float: right; width:179px; padding: 0px 24px 0px 0px; }
+
+.main_content .main_Content_box .Paymode_box .Pay_Lbox_Virtual{float:left; width:400px; padding-left:24px;}
+.main_content .main_Content_box .Paymode_box .Pay_Lbox_Virtual p.TextNote{ float:left; width:395px; font-size:13px; color:#454545; line-height:22px; letter-spacing:1px; padding: 5px 0px; }
+.main_content .main_Content_box .Paymode_box .Pay_Lbox_Virtual p.TextNote a{ color:#105CB6;}
+.main_content .main_Content_box .Paymode_box .Pay_Lbox_Virtual p.TextNote a:hover{ color:#FF9933;}
+.main_content .main_Content_box .Paymode_box .Pay_Lbox_Virtual p.TextNote span{ color:#F64949;}
+
+/*==提醒文字==*/
+.main_content .main_Content_box .Paymode_box .Pay_Rbox_Note{float: right; width:171px; padding:10px 10px 6px 10px; margin: 5px 10px 0px 0px; _display:inline;  border-bottom:1px #CBCBCB solid;  background:url(../../images/user/mails/pay_rbox_note_bgimg.gif) no-repeat left top; }
+.main_content .main_Content_box .Paymode_box .Pay_Rbox_Note p{font-size:12px; color:#454545; line-height:21px; letter-spacing:1px; text-indent:20px; background:url(../../images/user/mails/no_note_icom.gif) no-repeat left top; }
+.main_content .main_Content_box .Paymode_box .Pay_Rbox_Note p span.NO_note a{font-size:12px; color:#F64949; text-decoration:underline; }
+.main_content .main_Content_box .Paymode_box .Pay_Rbox_Note p span.NO_note a:hover{font-size:12px; color:#FF9933; text-decoration:underline; }
+/*==付款狀態_結束==*/
+
+/*==對帳表START==*/
+.main_Content_box .toaccount_box{float:left; width:758px;}
+.main_Content_box .toaccount_box .table_account{ width:758px; margin: 0 auto; margin-bottom:10px;}
+.main_Content_box .toaccount_box .table_account p{color:#666666; padding: 0 8px; line-height:20px; text-align:center;}
+.main_Content_box .toaccount_box .table_account p.ac_title{font-size:15px; font-weight:bold; padding:0;}
+.main_Content_box .toaccount_box .table_account p.left{ text-align: center;}
+.main_Content_box .toaccount_box .table_account p.red{ color:#F64949;}
+.main_Content_box .toaccount_box .table_account tr td{padding:8px 0; border-bottom:1px #cccccc dotted;}
+.main_Content_box .toaccount_box .table_account tr td.ac_confirm{ width:38px;}
+.main_Content_box .toaccount_box .table_account tr td.ac_purchaser{ width:120px;  display: table-cell;  text-align:inherit; vertical-align:inherit;}
+.main_Content_box .toaccount_box .table_account tr td.ac_amount{ width:52px;}
+.main_Content_box .toaccount_box .table_account tr td.ac_payable{ width:52px;}
+.main_Content_box .toaccount_box .table_account tr td.ac_payment{ width:52px;}
+.main_Content_box .toaccount_box .table_account tr td.ac_paydate{ width:90px;}
+.main_content .main_Content_box .toaccount_box .table_account tr td.ac_payway{ width:145px;}
+.main_Content_box .toaccount_box .table_account tr td.ac_host{ width: auto;}
+/*==勾選後改變_底色==*/
+.main_Content_box .toaccount_box .table_account tr td.ac_confirm_Graybg{ width:38px; background-color:#EBEBEB;}
+/*==對帳表END==*/
+
+/*==合購說明START==*/
+.main_content .main_Content_box .gathersbuy_box{float:left; width:758px;/* padding-bottom:10px;*/}
+.main_content .main_Content_box .gathersbuy_box .gathers_shop{ width:758px; height:85px; background-color:#f3f3f3;  margin:0px 0px 10px 0px; /*border: 1px #ccc solid; border-width:1px 0 1px 0;*/ }
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .shop_pic{ float:left; width:160px; height:55px; border:1px #bbb solid; margin:14px; padding:1px; _display:inline;}
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .shop_pic a{width:160px; height:55px; overflow:hidden;}
+
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .shop_name{ float:left; width:395px; height:58px; margin-top:20px; _display: inline; overflow:hidden;}
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .shop_name img{ vertical-align:middle;}
+
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .shop_name h1{font-size:15px; font-weight:bold; color:#454545; line-height:20px; _line-height:22px; letter-spacing:1px; height:20px; width:395px; display:block; overflow:hidden; }
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .shop_name h1 a{ font-size:15px; font-weight:bold; color:#454545; }
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .shop_name h1 a:hover{ color:#888888; text-decoration:underline;}
+
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .shop_name p.satisfied{ font-size:12px; color:#454545; padding:6px 0;}
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .shop_name p.satisfied span.stf_num{ font-size:18px; font-weight:bold; color:#F64949; padding: 0 10px 0 5px;}
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .shop_name p img{vertical-align: top;}
+
+.main_content .main_Content_box .gathersbuy_box .gathers_infor{ float:left; width:758px;  border: 1px #ccc solid; border-width:1px 0 1px 0; margin:0 auto; margin-bottom:12px; padding:1px 0px; }
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .copy_web{ float: right; width:150px; height:60px;margin:12px 15px 0 0; _display: inline; text-align:right;}
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .copy_web .copy_web_btn{ float:right; width:120px; height:32px;}
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .copy_web .copy_web_btn a{ display:block; font-size:13px; color:#454545; letter-spacing:1px; text-decoration:none;background:url(../../images/user/mails/mails_btn.gif) no-repeat left top; min-width:96px; text-align:center;}
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .copy_web .copy_web_btn a span{display:block; padding:0 5px; line-height:32px; background:url(../../images/user/mails/mails_btn.gif) no-repeat right -32px;}
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .copy_web .copy_web_btn a:hover{ background-position:left -64px;}
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .copy_web .copy_web_btn a:hover span{background-position: right -96px;}
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .copy_web a.copy_web_txt{float:right; display:block; width:150px; height:20px;font-size:13px; color:#888888; text-decoration: none; margin:8px 0;}
+.main_content .main_Content_box .gathersbuy_box .gathers_shop .copy_web a:hover.copy_web_txt{ text-decoration:underline; color:#454545;}
+.main_content .main_Content_box .gathersbuy_box .gathers_infor .table_ga_infor tr td{ border-top:1px #ccc dotted;}
+.main_content .main_Content_box .gathersbuy_box .gathers_infor .table_ga_infor tr td.ga_title{width:175px; background-color:#F3F3F3; border-right:1px #fff solid; padding:10px 0px;}
+.main_content .main_Content_box .gathersbuy_box .gathers_infor .table_ga_infor tr td.ga_con{ background-color: #f9f9f9; padding:10px 10px 10px 15px;}
+.main_content .main_Content_box .gathersbuy_box .gathers_infor .table_ga_infor tr td.ga_con p.title15{ float:left; font-size:15px; color:#454545; text-align: left; padding-right:10px; line-height:20px;}
+.main_content .main_Content_box .gathersbuy_box .gathers_infor .table_ga_infor tr td.ga_con p.title15 span.Red{ font-size:15px; color:#F64949;}
+
+.main_content .main_Content_box .gathersbuy_box .gathers_infor .table_ga_infor tr td.ga_title p.bold{ color:#666; font-weight:bold;text-align:center; letter-spacing:3px;}
+
+.main_content .main_Content_box .gathersbuy_box .gathers_infor .table_ga_infor tr td.ga_con .user_box{float:left; height:22px; padding:0px 10px 0px 0px;}
+
+.main_content .main_Content_box .gathersbuy_box .gathers_infor .table_ga_infor tr td.ga_con  p.gopay{ float:left; display:block; width:110px; line-height:20px; height:20px;}
+.main_content .main_Content_box .gathersbuy_box .gathers_infor .table_ga_infor tr td.ga_con  p.atm{ float:left; display:block; width:70px; line-height:20px; height:20px;}
+
+
+/*20160816 注意事項*/
+.main_content .main_Content_box .eventRule_content{ padding: 0 8px;}
+.main_content .main_Content_box .eventRule_content .rule_text_box p{ font-size: 14px; color: #666; line-height: 26px; letter-spacing: 1px;}
+.main_content .main_Content_box .eventRule_content .rule_img_box{ margin: 15px 0 10px;}
+.main_content .main_Content_box .eventRule_content .rule_img_box img{ max-width: 450px;}
+
+.popup_box .noframe_con .eventRule_con{ margin: 15px 25px 25px; max-width: 650px;}
+.popup_box .noframe_con .eventRule_con p.rule_title36{ font-size: 16px; font-weight: 700; color: #6d9b00; line-height: 52px; margin: 10px 2px 15px; background: url(../../images/image/green_remind_icon.png) no-repeat left center / 48px auto; padding: 0 0 0 55px; }
+.popup_box .noframe_con .eventRule_con .rule_text_box{ background: #f5f5f5; padding: 20px; border-radius: 5px; max-width: 580px; max-height: 250px; overflow-y: auto;}
+.popup_box .noframe_con .eventRule_con .rule_text_box p{ font-size: 13px; color: #555; line-height: 22px; letter-spacing: 1px;}
+.popup_box .noframe_con .eventRule_con .rule_text_box img{ max-width: 300px; margin: 15px 0 0;}
+
+/*==面交地點==*/
+.main_content .main_Content_box .place_box{ float:left; width:542px; padding:10px 5px;}
+/*==第二底色==*/
+.main_content .main_Content_box .place_boxColorBg{ float:left; width:542px; padding:10px 5px; background-color:#f3f3f3;}
+.main_content .main_Content_box .place{ float:left; width:300px;}
+.main_content .main_Content_box .place p { color:#454545; font-size:13px; line-height:17px; text-decoration:none; letter-spacing:1px}
+.main_content .main_Content_box .place p a{ color:#454545; font-size:13px; line-height:17px; text-decoration:none; letter-spacing:1px}
+.main_content .main_Content_box .place p a:hover{ color:#454545; font-size:13px; text-decoration:underline;}
+.main_content .main_Content_box .place p img{vertical-align: middle; margin-right:5px; _display:inline;}
+.main_content .main_Content_box .placeDate{ float:left; width:90px; }
+.main_content .main_Content_box .placeDate p{ color:#666666; font-size:12px; line-height:16px; text-decoration:none; letter-spacing:1px;}
+.main_content .main_Content_box .placetime{ float:left; width:100px; padding:0px 0px 0px 10px;}
+.main_content .main_Content_box .placetime p{ color:#666666; font-size:12px; line-height:16px; text-decoration:none; letter-spacing:1px;}
+
+/*==data面交地點_訂購頁使用==*/
+.main_content .main_Content_box .dataplace_box{ float:left; width:600px; padding:5px 5px 5px 5px;}
+/*==第二底色==*/
+.main_content .main_Content_box .dataplace_boxColorBg{ float:left; width:592px; padding:5px 5px 5px 5px; margin:5px 0px; _display:inline; background-color:#f3f3f3;}
+.main_content .main_Content_box .dataplace{ float:left; width:340px;}
+.main_content .main_Content_box .dataplace p { color:#454545; font-size:13px; line-height:17px; text-decoration:none; letter-spacing:1px}
+.main_content .main_Content_box .dataplace p a{ color:#454545; font-size:13px; line-height:17px; text-decoration:none; letter-spacing:1px}
+.main_content .main_Content_box .dataplace p a:hover{ color:#454545; font-size:13px; text-decoration:underline;}
+.main_content .main_Content_box .dataplace p img{vertical-align: middle; margin-right:5px; _display:inline;}
+.main_content .main_Content_box .dataplaceDate{ float:left; width:125px; }
+.main_content .main_Content_box .dataplaceDate p{ color:#666666; font-size:12px; line-height:16px; text-decoration:none; letter-spacing:1px;}
+.main_content .main_Content_box .dataplacetime{ float:left; width:85px; padding:0px 0px 0px 10px;}
+.main_content .main_Content_box .dataplacetime p{ color:#666666; font-size:12px; line-height:16px; text-decoration:none; letter-spacing:1px;}
+
+.main_content .main_Content_box .post_box{ float:left; height:25px; margin-right:10px; _display:inline; }
+.main_content .main_Content_box .post_box p{ color:#666666; font-size:13px; line-height:25px; text-decoration:none; letter-spacing:1px;}
+
+.main_content .main_Content_box .dataplace_box input.dataplace{color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px;  padding: 0 6px 0 6px; width: 477px;float:left;}
+
+.main_content .main_Content_box .dataplace_box .place_shop{ float:left; width:25px; height:25px; margin-right:5px; _display:inline; background: url(../../images/user/mails/place_shop_bg.gif) no-repeat left top;}
+.main_content .main_Content_box .dataplace_box .place_shop_gary{ float:left; width:25px; height:25px; margin-right:5px; _display:inline;  background: url(../../images/user/mails/place_shop_bg.gif) no-repeat  right top;}
+
+.main_content .main_Content_box .dataplace_box .place_shop .placeshop_bnt{ margin: 5px; _margin: 1px;}
+.main_content .main_Content_box .dataplace_box .place_shop_gary .placeshop_bnt{ margin: 5px; _margin: 1px;}
+
+/*==查看全部99個面交點==*
+/*.main_content .main_Content_box .gathersbuy_box .gathers_infor .table_ga_infor tr td.ga_con .show_other{ float:right; width:140px; height:20px;}
+.main_content .main_Content_box .gathersbuy_box .gathers_infor .table_ga_infor tr td.ga_con  p.orange{ font-size:12px; letter-spacing:2px;}
+.main_content .main_Content_box .gathersbuy_box .gathers_infor .table_ga_infor tr td.ga_con  p.orange a{color:#f1843a; text-decoration:none;}
+.main_content .main_Content_box .gathersbuy_box .gathers_infor .table_ga_infor tr td.ga_con  p.orange a:hover{ text-decoration:underline;}
+*/
+
+/*==付款方式_小圖==*/
+/*==格線使用==*/
+.main_content .main_Content_box .pay_mode_LI {border-right: 1px solid #E9E9E9; float: left; width:1px; height: 30px; margin-right:15px; text-indent: -9999px; _display: inline;}
+.main_content .main_Content_box .pay_mode_gopay {background: url(../../images/shop/store/pay_mode.gif) no-repeat scroll left 0 transparent;float: left;height: 30px;padding: 0 10px 0 0;text-indent: -9999px;width: 90px; _display: inline;}
+.main_content .main_Content_box .pay_mode_atm {background: url(../../images/user/mails/pay_mode.gif) no-repeat scroll left -30px transparent;float: left;height: 30px;padding: 0 10px 0 0;text-indent: -9999px;width: 80px;}
+.main_content .main_Content_box .pay_mode_deposit {background: url(../../images/user/mails/pay_mode.gif) no-repeat scroll left -60px transparent;float: left;height: 30px;padding: 0 10px 0 0;text-indent: -9999px;width: 74px;}
+.main_content .main_Content_box .pay_mode_reach {background: url(../../images/user/mails/pay_mode.gif) no-repeat scroll left -90px transparent;float: left;height: 30px;padding: 0 10px 0 0;text-indent: -9999px;width: 74px;}
+.main_content .main_Content_box .pay_mode_other {background: url(../../images/user/mails/pay_mode.gif) no-repeat scroll left -120px transparent;float: left;height: 30px;padding: 0 10px 0 0;text-indent: -9999px;width: 29px;}
+.main_content .main_Content_box .pay_mode_People {background: url(../../images/user/mails/pay_mode.gif) no-repeat scroll left -150px transparent;float: left;height: 30px;padding: 0 10px 0 0;text-indent: -9999px;width: 80px;}
+
+/*==編輯器產出_資-料=*/
+.main_content .main_Content_box .gathersbuy_box .gathers_editBOX{ float:left; width:100%; line-height:normal; overflow-x: auto;/*==解除ihergo.css的字距== *//*==內容超過758PX出現捲軸==*/ background-color:#F9F9F9;}
+.main_content .main_Content_box .gathersbuy_box .gathers_editBOX .gathers_data740{  width:740px; line-height:normal; margin: 0 auto;}
+/*==合購說明_END=*/ 
+/*==================合購統計=======================*/
+
+/*==商品名==*/
+/*==標題==*/
+.main_content .main_Content_box .goods_total .table_total .total_con h4.TitleLeft p.leftTitle{ display:block; float:left; width:503px; text-align:left; font-size:15px; color:#666666; padding-left:15px; line-height:22px; font-weight:bold; letter-spacing:1px; text-decoration:none;}
+.main_content .main_Content_box .goods_total .table_total .total_con h4.TitleLeft a.left{ display:block; float:left; width:503px; text-align:left; font-size:15px; color:#666666; padding-left:15px; line-height:22px; font-weight:bold; letter-spacing:1px; text-decoration:none;}
+.main_content .main_Content_box .goods_total .table_total .total_con h4.TitleLeft a.left:hover{ text-decoration:underline;}
+/*==商品_備註_規格==*/
+/*==備註==*/
+.main_content .main_Content_box .goods_total .table_total .total_con p.left_note{ display:block; text-align:left; width:503px; padding-left:15px; line-height:20px; font-size:13px; color: #666666;}
+/*==規格==*/
+.main_content .main_Content_box .goods_total .table_total .total_con p.left{ text-align:left; width:503px; padding-left:15px; line-height:20px; font-size:13px; color: #666666;}
+.main_content .main_Content_box .goods_total .table_total .total_con p.left span.text_L{ display:block; float:left; width:43px;}
+.main_content .main_Content_box .goods_total .table_total .total_con p.left span.text_R{ display:block; float:left; width:450px;}
+/*==商品名_結束==*/
+
+/*======合購統計01START_商品======*/
+.main_content .main_Content_box .totalbnt_box{width:758px; height:48px; /*background-color:#f3f3f3;*/ }
+.main_content .main_Content_box .goods_total{width:758px; background-color:#f3f3f3; /*border: 1px #ccc solid; border-width:0px 0 1px 0;*/ }
+.main_content .main_Content_box .goods_total .table_total{ width:758px; background-color: #f3f3f3;}
+.main_content .main_Content_box .goods_total .table_total .total_title{width:758px; height:38px; background-color:#ebebeb; border-bottom:1px #fff solid;}
+.main_content .main_Content_box .goods_total .table_total .total_title p.bold{ color:#666666; font-weight:bold; text-align:center; letter-spacing:1px;}
+/*==表格居中_文字==*/
+.main_content .main_Content_box .goods_total .table_total .total_con p.C_t15{font-size:15px; color:#454545; text-align:center; padding:10 0; letter-spacing:1px;}
+.main_content .main_Content_box .goods_total .table_total .total_con td.total_con_td{background-color: #f3f3f3; border-top:1px #ccc dotted; padding:10px 0 0 0;}
+/*======合購統計01END_商品=======*/
+
+/*======合購統計02START_團員======*/
+
+/*==商品名==*/
+/*==標題==*/
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .goods_infor .table_ga_total .total_con h4.TitleLeft p.leftTitle{ display:block; float:left; width:423px; text-align:left; font-size:15px; color:#666666; padding-left:15px; line-height:22px; font-weight:bold; letter-spacing:1px; text-decoration:none;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .goods_infor .table_ga_total .total_con h4.TitleLeft a.left{ display:block; float:left; width:423px; text-align:left; font-size:15px; color:#666666; padding-left:15px; line-height:22px; font-weight:bold; letter-spacing:1px; text-decoration:none;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .goods_infor .table_ga_total .total_con h4.TitleLeft a.left:hover{ text-decoration:underline;}
+
+/*==商品_備註_規格==*/
+/*==備註==*/
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .goods_infor .table_ga_total .total_con p.left_note{ display:block; text-align:left; width:423px; padding-left:15px; line-height:20px; font-size:13px; color: #666666;}
+
+/*==規格==*/
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .goods_infor .table_ga_total .total_con p.left{ text-align:left; width:423px; padding-left:15px; line-height:20px; font-size:13px; color: #666666;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .goods_infor .table_ga_total .total_con p.left span.text_L{ display:block; float:left; width:43px;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .goods_infor .table_ga_total .total_con p.left span.text_R{ display:block; float:left; width:380px;}
+
+/*==商品名_結束==*/
+.totaluser_box{float:left; height:22px; padding:0px 0px 0px 20px;}
+.main_content .main_Content_box .purchaser_total {width:758px;  border-width:1px 0 1px 0; /*border: 1px #ccc solid;*/}
+.main_content .main_Content_box .purchaser_total .table_total{ width:758px;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_title{width:758px; height:38px; background-color:#ebebeb; border-bottom:1px #fff solid; /*border-top:1px #ccc solid;*/}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_title p.bold{ color:#666666; font-weight:bold; text-align:center; letter-spacing:1px; _padding-top:2px; padding-top:2px \9;/**/}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box{ width:758px;}
+/*==團員列表_收起==*/
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .pur_infor { float:left; width:758px; background-color:#f3f3f3; margin:0px 0px 10px 0px; _display:inline; /*border-bottom:1px #ccc solid;*/ }
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .pur_infor:hover { background-color:#EBEBEB;}
+
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .pur_infor td.pur_infor_td{ padding:10px 0;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .pur_infor td.pur_infor_td p{ font-size:15px; color:#454545; text-align:center;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .pur_infor td.pur_infor_td p.left{ text-align:left; padding-left:15px;}
+/*==團員列表_展開==*/
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .pur_infor_active { float:left; width:758px; background-color: #ebebeb; margin: 0px 0px 0px 0px; border-top:1px #ccc solid;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .pur_infor_active  td.pur_infor_td{padding:10px 0;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .pur_infor_active td.pur_infor_td p{ font-size:15px; color:#454545; text-align:center;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .pur_infor_active td.pur_infor_td p.left{ text-align:left; padding-left:15px;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .goods_infor{ float:left; width:758px; border-bottom:1px #ccc solid; margin:0px 0px 10px 0px; _display:inline;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .goods_infor .table_ga_total{ width:758px; background-color: #f9f9f9;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .goods_infor .table_ga_total .total_title{width:758px; height:38px; /*background-color:#EBEBEB;*/ border-bottom:1px #ccc dotted;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .goods_infor .table_ga_total .total_title p.bold{ color:#666; font-weight:bold; text-align:center; letter-spacing:1px; background-color:#F9F9F9;}
+/*==表格居中_文字==*/
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .goods_infor .table_ga_total .total_con p.C_t15{font-size:15px; color:#454545; text-align:center; padding:10 0; letter-spacing:1px;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .goods_infor .table_ga_total .total_con td.total_con_td{background-color: #f9f9f9; border-top:1px #ccc dotted; padding:10px 0 0 0;}
+/*==合購統計02END_團員==*/
+
+/*==全部展開_按鈕==*/
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_title p.open a{ display:block; width:100px; height:20px; line-height:20px; font-weight:bold; text-align:center; color:#666666; margin:0 auto; _padding-top:2px; padding-top:2px \9;/**/   /*background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat left -66px;*/  /*text-indent:20px;*/ }
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_title p.open a:hover{ color: #454545; background-position: -130px -66px; text-decoration:none;}
+/*==按鈕結束==*/
+/*==全部收起_按鈕==*/
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_title p.close a{ display:block; width:85px; height:20px; line-height:20px; font-weight:bold; color:#666666; margin:0 auto; text-indent:20px; _padding-top:2px; padding-top:2px \9;/**/ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat left -88px}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_title p.close a:hover{ color: #454545;  background-position: -130px -88px; text-decoration:none;}
+/*==按鈕結束==*/
+/*==展開_按鈕==*/
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .pur_infor td.pur_infor_td p a.open_pur{display:block; width:65px; height:20px; line-height:20px; color:#666666; margin-left:20px; _padding-top:2px; padding-top:2px \9;/**/ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat left -66px;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .pur_infor td.pur_infor_td p a.open_pur:hover{ color: #454545; background-position: -130px -66px; text-decoration:none;}
+/*==按鈕結束==*/
+/*==展開_按鈕==*/
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .pur_infor_active td.pur_infor_td p a.open_pur{display:block; width:85px; height:20px; line-height:20px; font-weight:bold; color:#666666; margin:0 auto; text-indent:-10px; _padding-top:2px; padding-top:2px \9;/**/ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat left -66px;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .pur_infor_active td.pur_infor_td p a.open_pur:hover{ color: #454545; background-position: -130px -66px; text-decoration:none;}
+/*==按鈕結束==*/
+/*==收起_按鈕==*/
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .pur_infor_active td.pur_infor_td p a.close_pur{display:block; width:65px; height:20px; line-height:20px; color:#666666; margin-left:20px; _padding-top:2px; padding-top:2px \9;/**/ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat left -88px;}
+.main_content .main_Content_box .purchaser_total .table_total .purchaser_box .pur_infor_active td.pur_infor_td p a.close_pur:hover{ color: #454545;  background-position: -130px -88px; text-decoration:none;}
+/*==收起結束==*/
+
+/*==========================合購統計_END==========================*/
+
+/*==我的合購_團員合購_內容START==*/
+.main_content .main_Content_box .mybuy_box{width:758px; margin:0px auto;}
+
+/*==提醒==*/
+.main_content .mybuy_notebox{float: left;  width:738px; height:25px; padding: 10px 10px 0px 10px; height:27px \9;/**/  padding: 10px 10px 0px 10px \9;/**/ margin-bottom:10px; _display:inline; 
+background:url(../../images/user/mails/noteorder_bg.gif) no-repeat left -67px; overflow:hidden;}
+.main_content .mybuy_notebox p{ float:left; font-size:12px; color:#454545; line-height:20px; _line-height:21px; letter-spacing:1px;}
+.main_content .mybuy_notebox span.NO_note a{font-size:12px; color:#F64949; text-decoration:underline;}
+.main_content .mybuy_notebox span.NO_note a:hover{font-size:12px; color:#FF9933; text-decoration:underline;}
+
+/*==提醒_什麼是複製免帳號網址==*/
+.main_content .mybuy_COPYnotebox{ float: right; width:570px; height:25px; padding: 10px 0px 0px 13px; height:27px \9;/**/  padding: 10px 0px 0px 13px \9;/**/ margin-bottom:10px; _display:inline; 
+background:url(../../images/user/mails/noteorder_bg.gif) no-repeat left -175px; overflow:hidden;}
+.main_content .mybuy_COPYnotebox p{ float:left; font-size:13px; color:#454545; line-height:20px; _line-height:21px; letter-spacing:2px;}
+.main_content .mybuy_COPYnotebox span.NO_note a{font-size:12px; color:#F64949; text-decoration:underline;}
+.main_content .mybuy_COPYnotebox span.NO_note a:hover{font-size:12px; color:#FF9933; text-decoration:underline;}
+
+/*==團員合購_收起列表==*/
+/*==團員合購_排續==*/
+.main_content .main_Content_box .mybuy_box .mybuy_title_Tab{ float:left; width:758px; background-color: #F3F3F3; margin-bottom:10px; _display:inline; background:url(../../images/user/mails/paysudmenu_ui_bg.gif) no-repeat left top;}
+
+.main_content .main_Content_box ul.mybuy_Tab {float: right; background:url(../../images/user/mails/paysudmenu_ui_bg.gif) no-repeat left top;}
+.main_content .main_Content_box ul.mybuy_Tab li {float: left; padding-left:5px;}
+
+.main_content .main_Content_box ul.mybuy_Tab li a.Tab_btn { font-size:15px; display:block; color:#4a4a4a; float:left; text-decoration:none; font-weight:bold; background-color:#f4f4f4;  border-top:2px #CBCBCB solid; border-left:1px #CBCBCB solid; border-right:1px #CBCBCB solid; text-align:center;}
+.main_content .main_Content_box ul.mybuy_Tab li a.Tab_btn span{display:block; padding:0 15px; line-height:30px; background-color:#f4f4f4;}
+/*_btn:hover{font-size:15px; display:block; color:#4a4a4a; float:left; text-decoration:none; font-weight:bold; background-color:#ffffff;  border-top:2px #CBCBCB solid; border-left:1px #CBCBCB solid; border-right:1px #CBCBCB solid; text-align:center; min-width:116px;} 
+._btn:hover span{display:block; padding:0 20px; line-height:31px; background-color:#ffffff;}
+*/
+.main_content .main_Content_box ul.mybuy_Tab li a.Tab_btn_Active { font-size:15px; display:block; color:#4a4a4a; float:left; text-decoration:none; font-weight:bold; background-color:#FBFBFB;  border-top:2px #CBCBCB solid; border-left:1px #CBCBCB solid; border-right:1px #CBCBCB solid; text-align:center; }
+.main_content .main_Content_box ul.mybuy_Tab li a.Tab_btn_Active span{display:block; padding:0 15px; line-height:31px; background-color:#FBFBFB;}
+
+.main_content .main_Content_box ul.mybuy_Tab p.Title_Rt{ float:left; line-height:30px; padding-right:5px; font-weight:bold;}
+.main_content .main_Content_box ul.mybuy_Tab p.Title_Lt{ float:left; line-height:30px; padding-right:320px; font-size:12px;}
+
+/*==未讀取==*/
+.main_content .main_Content_box .mybuy_box .MB_titleUnread{ background-color: #DBDBDB;}
+.main_content .main_Content_box .mybuy_box .MB_titleUnread:hover{ background-color: #CBCBCB; }
+
+.main_content .main_Content_box .mybuy_box .mybuy_title{ height: 50px; background-color: #EBEBEB; margin-top: -15px;}
+/*==未付款==*/
+.main_content .main_Content_box .mybuy_box .mybuy_title p.LlistMail{ float:left; font-size:13px; color:#444; line-height:24px; font-weight:bold; padding:0px 5px; border:1px solid #444; border-radius:5px; -moz-border-radius:2px; -webkit-border-radius:2px; margin: 12px 0 0 20px;}
+/*==已付款==*/
+.main_content .main_Content_box .mybuy_box .mybuy_title p.LlistMail_Green{ float:left; font-size:13px; color:#479f0b; line-height:24px; font-weight:bold; padding:0px 5px; border:1px solid #479f0b; border-radius:5px; -moz-border-radius:2px; -webkit-border-radius:2px; margin: 12px 0 0 20px; background-color:#EBEBEB;}
+/*==已確認&已出貨==*/
+.main_content .main_Content_box .mybuy_box .mybuy_title p.LlistMail_Tangerine{ float:left; font-size:13px; color:#ed4a1f; line-height:24px; font-weight:bold; padding:0px 5px; border:1px solid #ed4a1f; border-radius:5px; -moz-border-radius:2px; -webkit-border-radius:2px; margin: 12px 0 0 20px; background-color:#EBEBEB;}
+/*==取消訂單==*/
+.main_content .main_Content_box .mybuy_box .mybuy_title p.LlistMail_Gray{ float:left; font-size:13px; color:#aaa; line-height:24px; font-weight:bold; padding:0px 5px; border:1px solid #aaa; border-radius:5px; -moz-border-radius:2px; -webkit-border-radius:2px; margin: 12px 0 0 20px;}
+
+.main_content .main_Content_box .mybuy_box .mybuy_title p.LlistMail_time{ float:right; font-size:12px; color:#aaa; line-height:22px; letter-spacing:0px; margin-right:20px;}
+.main_content .main_Content_box .mybuy_box .mybuy_title .user_box{float:left; height:22px; margin: 5px 0px 0px 10px;}
+.main_content .main_Content_box .mybuy_box .mybuy_title .user_box img{ float:left; margin-right:5px; margin-top:5px;}
+.main_content .main_Content_box .mybuy_box .mybuy_title .user_box a.user{ font-size: 12px; font-weight: bold; line-height: 40px;}
+.main_content .main_Content_box .mybuy_box .mybuy_title .user_box a.user:hover{ text-decoration:underline; color:#105CB6;}
+.main_content .main_Content_box .mybuy_box .mybuy_title .user_box a.origin:hover{ text-decoration:underline; color:#666;}
+
+.mybuy_box ul.ihergoMail_shopbox{ float:right; width:310px; height:22px; margin: 0px 15px 0 0px;}
+.mybuy_box ul.ihergoMail_shopbox.margin_left{ margin:0;}
+.mybuy_box ul.ihergoMail_shopbox li { float: right; margin:0px 5px 0 0; _display:inline;}
+.mybuy_box ul.ihergoMail_shopbox li a{ display:block; font-size:12px; color: #666666; letter-spacing:1px; text-decoration:none; background: transparent url("../../images/user/us_mails_btn.gif") repeat-x scroll left -256px; border: 1px solid #ccc; border-radius: 3px; padding: 0 5px 0 0;}
+.mybuy_box ul.ihergoMail_shopbox li a span {display:block; padding:0 0px 0 20px; color: #666666; line-height:22px; line-height:26px \9;/**/}
+.mybuy_box ul.ihergoMail_shopbox li a:hover{ color: #454545; }
+.mybuy_box ul.ihergoMail_shopbox li a span:hover{ color: #454545; }
+
+.mybuy_box ul.ihergoMail_shopbox li a span.undo{ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat 3px 4px;}
+.mybuy_box ul.ihergoMail_shopbox li a span.undoALL{ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat left -22px;}
+.mybuy_box ul.ihergoMail_shopbox li a span.delete{ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat 4px -38px;}
+.mybuy_box ul.ihergoMail_shopbox li a span.openbox{ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat left -66px;}
+.mybuy_box ul.ihergoMail_shopbox li a span.closebox{ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat left -88px;}
+.mybuy_box ul.ihergoMail_shopbox li a span.Modify{ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat 4px -106px;}
+/*取消訂單反灰*/
+.mybuy_box ul.ihergoMail_shopbox li a span.no_delete{ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat 4px -38px; color:#999;}
+.mybuy_box ul.ihergoMail_shopbox li a span.no_delete:hover{ color:#999;}
+
+.mybuy_box ul.ihergoMail_shopbox li a:hover span.undo{color: #454545; background-position: -126px 4px; text-decoration:none; }
+.mybuy_box ul.ihergoMail_shopbox li a:hover span.undoALL{color: #454545; background-position: -130px -22px; text-decoration:none; }
+.mybuy_box ul.ihergoMail_shopbox li a:hover span.delete{color:#F64949; background-position: -124px -38px; text-decoration:none; }
+.mybuy_box ul.ihergoMail_shopbox li a:hover span.openbox{color: #454545; background-position: -130px -66px; text-decoration:none; }
+.mybuy_box ul.ihergoMail_shopbox li a:hover span.closebox{color: #454545; background-position: -130px -88px; text-decoration:none; }
+.mybuy_box ul.ihergoMail_shopbox li a:hover span.Modify{color: #454545; background-position: -127px -106px; text-decoration:none; }
+
+/*==商品名==*/
+/*==標題==*/
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_con h4.TitleLeft p.leftTitle{ display:block; float:left; width:503px; text-align:left; font-size:15px; color:#666666; padding-left:10px; line-height:22px; font-weight:bold; letter-spacing:1px; text-decoration:none; }
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_con h4.TitleLeft a.left{ display:block; float:left; width:503px; text-align:left; font-size:15px; color:#666666; padding-left:10px; line-height:22px; font-weight:bold; letter-spacing:1px; text-decoration:none; }
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_con h4.TitleLeft a.left:hover{ text-decoration:underline;}
+/*==商品_備註_規格==*/
+/*==備註==*/
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_con p.left_note{ display:block; text-align:left; width:503px; padding-left:10px; line-height:20px; font-size:13px; color: #666666;}
+/*==規格==*/
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_con p.left{ text-align:left; width:503px; padding-left:10px; line-height:20px; color: #666666;}
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_con p.left span.text_L{ display:block; float:left; width:43px;}
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_con p.left span.text_R{ display:block; float:left; width:450px;}
+/*==商品名_結束==*/
+
+/*==表格居中_文字==*/
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_con p.C_t15{font-size:15px; color:#454545; text-align:center; padding:10 0; letter-spacing:1px;}
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_con p.gb{ font-size:15px; color:#454545; text-align:center; font-weight:bold; letter-spacing:1px;}
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_con p.gb_Red{ font-size:15px; color:#F64949; text-align:center; font-weight:bold; letter-spacing:1px;}
+
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_con p.L_15_Red{ font-size:15px; color:#F64949; text-align: left; font-weight:bold; letter-spacing:1px; text-indent:10px;}
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_con p.L_15{ font-size:15px; color:#454545; text-align: left; font-weight:bold; letter-spacing:1px; text-indent:10px;}
+
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_con p.R_15{ font-size:15px; color:#454545; text-align: right; font-weight:bold; letter-spacing:1px;}
+
+.main_content .main_Content_box .mybuy_box .mybuy_goods{ float:left; width:758px;  margin-bottom:10px; _display:inline; /*border: 1px #ccc solid; border-width:1px 0 1px 0;*/}
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total{ width:758px; background-color:#f9f9f9;}
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_title{height:38px; border-top:1px solid #ffffff; border-bottom: 1px dotted #CCCCCC; background:#F9F9F9; padding:10px 0px;}
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_title p.bold{ color:#666666; font-weight:bold; text-align:center; letter-spacing:1px;}
+
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_con td.total_con_td{background-color: #f9f9f9; border-top:1px #ccc dotted; padding:10px 0 0 0;}
+
+.main_content .main_Content_box .mybuy_box .mybuy_infor{ float:left; width:758px; border: 1px #ccc solid; border-width:1px 0 1px 0; margin-top:10px;}
+.main_content .main_Content_box .mybuy_box .mybuy_infor .mybuy{ height:45px; background-color:#EBEBEB;}
+.main_content .main_Content_box .mybuy_box .MGbottom10{ margin-bottom:10px; display: inline;}
+
+
+.main_content .main_Content_box .mybuy_box .mybuy_infor .table_mybuy_infor tr td{ border-top:1px #ccc dotted;}
+.main_content .main_Content_box  .mybuy_box .mybuy_infor .table_mybuy_infor tr td.ga_title{width:155px; padding:10px; background-color:#F3F3F3; border-right:1px #fff solid;}
+
+.main_content .main_Content_box  .mybuy_box .mybuy_infor .table_mybuy_infor tr td.ga_con{ background-color: #f9f9f9; padding:10px;}
+.main_content .main_Content_box  .mybuy_box .mybuy_infor .table_mybuy_infor tr td.ga_con p.title15{font-size:15px; color:#454545; text-align: left; letter-spacing:1px; line-height:20px;}
+.main_content .main_Content_box  .mybuy_box .mybuy_infor .table_mybuy_infor tr td.ga_con p img{vertical-align: middle; margin-right:5px; _display:inline;}
+.main_content .main_Content_box  .mybuy_box .mybuy_infor .table_mybuy_infor tr td.ga_title p.bold{ color:#666; font-weight:bold;text-align:center; letter-spacing:3px;}
+.main_content .main_Content_box  .mybuy_box .mybuy_infor .table_mybuy_infor tr td.ga_con p.red{ color:#F64949; letter-spacing:1px; font-weight:bold;}
+.main_content .main_Content_box  .mybuy_box .mybuy_infor .table_mybuy_infor tr td.ga_con p{ display:inline;}
+
+/*==我的提醒撰寫處==*/
+.main_content .main_Content_box  .mybuy_box .mybuy_note{ float:left;  width:758px; background-color:#FF0;}
+.main_content .main_Content_box  .mybuy_box .mybuy_note_MG15{ margin-bottom:15px; _display:inline;}
+
+/*==我的筆記==*/
+.main_content .main_Mynotes_box{float:left; width:758px; padding:15px; border:1px #cbcbcb solid; margin-top:15px; display:inline;}
+.Mynotes_input{float:left;  width:736px; height:48px; color: #454545; font-size: 15px;  line-height: 24px; letter-spacing: 1px; padding: 10px 10px ; border:1px #dedede solid; background-color:#FBFBFB; resize: none; }
+
+/*==我的合購_團員合購_內容END==*/
+
+/*==愛合購_合購站內信_展開列表==*/
+.ihergoMail_box_active{float:left; width:758px; height:22px; padding: 8px 15px; background-color:#eaeff9; border:1px #dedede solid; margin-top:15px; _display:inline;}
+
+/*==愛合購_合購站內信_收起列表==*/
+.ihergoMail_box{float:left; width:758px; height:22px; padding: 8px 15px; margin-top:15px; _display:inline; background-color:#eaeff9; border:1px #dedede solid;}
+.ihergoMail_box:hover{background-color:#eaeff9; border:1px solid #c1c1c1;}
+
+/*==愛合購站內信_列表內容==*/
+p.LlistMail{ float:left; font-size:15px; color:#454545; line-height:22px; padding-right:5px; font-weight:bold;}
+p.LlistMail_title{ float:left; width:395px; height:22px; font-size:15px; color:#454545; line-height:22px; font-weight:bold; overflow:hidden;}
+p.LlistMail_time{ float:left; font-size:13px; color:#666666; line-height:22px; letter-spacing:1px;}
+
+ul.ihergoMail_shopbox{ width:300px; height:22px; float: right; }
+ul.ihergoMail_shopbox li { float: right; margin:0px 5px; _display:inline;}
+ul.ihergoMail_shopbox li a{ display:block; font-size:13px; color: #666666; letter-spacing:1px; text-decoration:none; }
+ul.ihergoMail_shopbox li a span {display:block; padding:0 0px 0 20px; color: #666666; line-height:22px; line-height:26px \9;/**/}
+ul.ihergoMail_shopbox li a:hover{ color: #454545;  }
+ul.ihergoMail_shopbox li a span:hover{ color: #454545; }
+
+ul.ihergoMail_shopbox li a span.undo{ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat left top;}
+ul.ihergoMail_shopbox li a span.undoAll{ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat left -22px;}
+ul.ihergoMail_shopbox li a span.delete{ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat left -44px;}
+ul.ihergoMail_shopbox li a span.openbox{ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat left -66px;}
+ul.ihergoMail_shopbox li a span.closebox{ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat  left -88px;}
+ul.ihergoMail_shopbox li a span.ReportMail{ background:url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat  left -131px;}
+
+ul.ihergoMail_shopbox li a:hover span.undo{color: #454545; background-position: -130px top; text-decoration:none; }
+ul.ihergoMail_shopbox li a:hover span.undoAll{color: #454545; background-position: -130px -22px; text-decoration:none; }
+ul.ihergoMail_shopbox li a:hover span.delete{color:#F64949; background-position: -130px -44px; text-decoration:none; }
+ul.ihergoMail_shopbox li a:hover span.openbox{color: #454545; background-position: -130px -66px; text-decoration:none; }
+ul.ihergoMail_shopbox li a:hover span.closebox{color: #454545; background-position: -130px -88px; text-decoration:none; }
+ul.ihergoMail_shopbox li a:hover span.ReportMail{color: #454545; background-position: -130px -131px; text-decoration:none; }
+
+/*==愛合購站內信_展開==*/
+.ihergoMail_OpemBox{float:left; width:758px; padding: 10px 15px; background-color:#FFFFFF; border-bottom:1px #d1d1d1 solid; border-left:1px #d1d1d1 solid; border-right:1px #d1d1d1 solid; }
+/*==ID清單==*/
+.ihergoMail_OpemBox .OpemBox_ContentM{ float:left; width:748px; padding:0px 0px 10px 10px;  border-bottom: 1px dotted #CBCBCB;}
+.ihergoMail_OpemBox .OpemBox_ContentM .M_SenderBOX{ float:left; width:52px; }
+.ihergoMail_OpemBox .OpemBox_ContentM .M_SenderBOX p.Sender{ float:left; font-size:15px; color:#454545; font-weight:700;  line-height:22px; _line-height:22px; line-height:22px \9;/**/ letter-spacing:1px; }
+/*==朋友清單==*/
+.ihergoMail_OpemBox .OpemBox_ContentM_mailName{ float:left; width:735px; padding:0px 0px 10px 15px; margin-bottom:10px; _display:inline;  border-bottom: 1px dotted #CBCBCB;}
+.ihergoMail_OpemBox .OpemBox_ContentM_mailName .N_SenderBOX{ float:left; width:85px; }
+.ihergoMail_OpemBox .OpemBox_ContentM_mailName .N_SenderBOX p.Sender{ float:left; font-size:15px; color:#454545; font-weight:700;  line-height:22px; _line-height:22px; line-height:22px \9;/**/ letter-spacing:1px; }
+
+.ihergoMail_OpemBox .OpemBox_ContentM .M_UserBOX{ float: right; width:696px; }
+
+/*==站內信件文字區域==*/
+.ihergoMail_OpemBox .OpemBox_ContentNOm{ float:left; width:740px; padding:10px 9px 10px 9px;}
+.ihergoMail_OpemBox .OpemBox_ContentNOm p.Write{ float:left; width:740px; font-size:15px; color:#454545; line-height:25px; _line-height:25px; line-height:25px \9;/**/ letter-spacing:2px; background-color:#FFF; }
+.ihergoMail_OpemBox .OpemBox_ContentNOm p.Write a{ color:#105CB6;}
+/*=========================主內容結束=========================*/
+
+/*=========================商店_訂單_開始=========================*/
+/*==商店_訂購標題BOX_開始==*/
+.main_content .mails_storetitle_box{float:left; width:790px; height:30px; padding: 10px 0px 0px 0px; background-color:#f36d62; border-bottom:1px #d15333 solid; overflow:hidden; margin-top:15px;}
+.main_content .mails_storetitle { width:620px; float:left; padding:0 0 0 20px; }
+.main_content .mails_storetitle .h1_box{width:770px; height:20px;overflow:hidden; position: relative;}
+.main_content .mails_storetitle .h1_box h1{float:left; color:#ffffff; font-size:15px; font-weight:bold; letter-spacing:1px; line-height:20px;white-space: nowrap; width:730px;overflow:hidden;}
+.main_content .mails_storetitle .h1_box h1 a{color:#ffffff;text-decoration:none;}
+.main_content .mails_storetitle .h1_box h1 a:hover{color:#ffffff; text-decoration:underline;}
+.main_content .mails_storetitle .h1_box img{ vertical-align:middle; }
+.main_content .mails_storetitle .h1_box a.icon_link{ width:22px; height:20px; _display:inline; margin-right:4px;}
+.main_content .mails_storetitle .h1_box a.icon_link img{ margin:0;_display:inline;  vertical-align:middle;}
+.main_content .mails_storetitle .h1_box a.title_link{ font-size: 12px;color: #fff; letter-spacing: 1px; padding:0 10px 0 15px;  text-decoration: none;position: absolute; left:680px; background-color:#f36d62;}
+.main_content .mails_storetitle .h1_box a.title_link:hover {text-decoration: underline;}
+
+/*==選單BOX_開始==*/
+.main_content .main_storeTab_box{float:left; width:788px; border-left:1px #CBCBCB solid; border-right:1px #CBCBCB solid; background-color: #FBFBFB; padding-top:25px;}
+.main_content .main_storeTab_box_Rbox{ float:right; width:73px; border-bottom:1px solid #CBCBCB; margin-right:20px;}
+.main_content .main_storeTab_box_Rbox p.openBoxBtn a{ display:block; width:70px; height:33px; line-height:30px; _line-height:33px; line-height:33px \9;/**/ font-size:13px; background: url(../../images/user/mails/close_open_bnt_bg.gif) no-repeat left top; text-indent:20px; color:#858585; text-decoration:none; letter-spacing:1px; font-weight:bold;}
+.main_content .main_storeTab_box_Rbox p.openBoxBtn a:hover{ text-decoration:none; color:#454545; background-position: -280px topp; text-decoration:none}
+
+.main_content .main_storeTab_box_Rbox p.CloseBoxBtn a{ display:block; width:70px; height:33px; line-height:30px; _line-height:33px; line-height:33px \9;/**/ font-size:13px; background: url(../../images/user/mails/close_open_bnt_bg.gif) no-repeat left -51px; text-indent:20px; color:#858585; text-decoration:none; letter-spacing:1px; font-weight:bold;}
+.main_content .main_storeTab_box_Rbox p.CloseBoxBtn a:hover{ text-decoration:none; color:#454545; background-position: -280px -51px; text-decoration:none}
+
+/*==選單BOX_開始_左==*/
+.main_content .main_storeTab_box_Lbox{float: left; width: 680px; margin-left: 15px; border-bottom: 1px solid rgb(203, 203, 203);}
+.main_content .main_storeTab_box_Lbox ul.mainShop li {float: left; padding-right:5px;}
+.main_content .main_storeTab_box_Lbox ul.mainShop li a.img_btn {font-size:15px; display:block; color:#D15333; float:left; text-decoration:none; font-weight:bold; text-align:center; letter-spacing:2px; background-color:#ffc8c8;  border-top:1px #F36D62 solid; border-left:1px #F36D62 solid; border-right:1px #F36D62 solid; border-radius:3px 3px 0 0; }
+.main_content .main_storeTab_box_Lbox ul.mainShop li a.img_btn span{display:block; padding:0 20px; line-height:32px; border-radius:2px}
+
+/*==提醒==*/
+.main_content .main_Content_box.border_bottom.no_margin .alert{ margin-bottom:30px;}
+
+/*==固定選取==*/
+.main_content .main_storeTab_box_Lbox ul.mainShop li a.img_btn_Active {font-size:15px; display:block; color:#ffffff; text-decoration:none; font-weight:bold; text-align:center; letter-spacing:2px; background-color:#F36D62;  border-top:1px #D15333 solid; border-left:1px #D15333 solid; border-right:1px #D15333 solid; border-radius:3px 3px 0 0;}
+.main_content .main_storeTab_box_Lbox ul.mainShop li a.img_btn_Active span{display:block; padding:0 20px; line-height:32px; background-color:#F36D62; border-radius:2px}
+
+/*==商店訂單_功能按鈕==*/
+.main_content .mainstoreShop_box{width:500px; float: right; position:relative;}
+.main_content .mainstoreShop_box.margin_top{top: -30px;}
+.main_content .mainstoreShop_box .noteOrder{ height:35px;  position:absolute; top:-40px; right:-120px; padding: 5px 5px 0px 5px; background:url(../../images/user/mails/noteorder_bg.gif) no-repeat left top ;}
+.main_content .mainstoreShop_box .noteOrder p{font-size:12px; color:#454545; line-height:20px; _line-height:21px; letter-spacing:1px; text-indent:20px; background:url(../../images/user/mails/no_note_icom.gif) no-repeat left top; }
+.main_content .mainstoreShop_box .noteOrder span.NO_note a{font-size:12px; color:#F64949;}
+
+.main_content .main_content_top_Rbox ul.mainstoreShop {width:500px;}
+.main_content .main_content_top_Rbox ul.mainstoreShop li {float: right; padding: 0px 0px 0px 5px; }
+.main_content .main_content_top_Rbox ul.mainstoreShop li a.img_btn {display: block; width: 100px; height: 30px; border: 1px solid #C0C0C0; border-radius: 5px; background-color: #F9F7F7; text-align: center;}
+.main_content .main_content_top_Rbox ul.mainstoreShop li a.img_btn span{color: #656565; font-size: 12px; line-height: 30px; letter-spacing:2px;}
+.main_content .main_content_top_Rbox ul.mainstoreShop li a.img_btn:hover{text-decoration: none; border-color: #999;} 
+
+.main_content .main_content_top_Rbox ul.mainstoreShop li a.icon_btn { float:left; width:100px; font-size:13px; display:block; color:#454545; line-height:32px; letter-spacing:1px; text-decoration:none;}
+.main_content .main_content_top_Rbox ul.mainstoreShop li a.icon_btn:hover{ color:#333; text-decoration: underline;}
+.main_content .main_content_top_Rbox ul.mainstoreShop li img{ float:left; width:22px; height:20px; padding: 6px 5px 0px 0px;}
+
+/*==愛合購_訂單站內信_展開列表==*/
+.ihergoMailStore_box_active{float:left; width:758px; height:22px; padding: 8px 15px; background-color:#f9eff0; border:1px #dedede solid; margin-top:15px; _display:inline;}
+
+/*==愛合購_訂單站內信_收起列表==*/
+.ihergoMailStore_box{float:left; width:758px; height:22px; padding: 8px 15px; margin-top:15px; _display:inline; background-color:#f9eff0; border:1px #dedede solid;}
+.ihergoMailStore_box:hover{background-color:#f9eff0; border:1px solid #c1c1c1;}
+
+.main_content .main_Content_box .Paymode_box .P_box .Mail_input{float:left;  width:210px; color: #454545; font-size: 15px; height: 30px; line-height: 30px; letter-spacing: 1px; padding: 0px 10px ; border:1px #D1D1D1 solid; margin-right:5px; _display:inline; }
+
+/*=========================商店_訂單_結束=========================*/
+
+/*=========================合購_頁_開始=========================*/
+/*==商店訂單功能按鈕_BOX_開始==*/
+.main_content .main_content_top_Reventsbox{ width:790px; float:left;}
+/*==功能按鈕==*/
+.noteevents{ float:left; width:550px; height:25px; padding: 7px 0px 0px 5px; /*background:url(../../images/user/mails/noteorder_bg.gif) no-repeat left -120px;*/}
+.noteevents p{font-size:15px; color:#f37267; line-height:20px; _line-height:21px; letter-spacing:1px; text-indent:23px; font-weight:bold; background:url(../../images/user/mails/no_note_icom.gif) no-repeat left top; }
+.noteevents span.NO_noteevents a{font-size:15px; color:#858585; font-weight:bold; text-decoration: none;}
+.noteevents span.NO_noteevents a:hover{ text-decoration: underline; color:#637DBB;}
+
+.main_content .main_content_top_Reventsbox ul.maineventsShop {width:235px; float:right;}
+.main_content .main_content_top_Reventsbox ul.maineventsShop li {float: right; padding: 0px 0px 0px 5px; }
+.main_content .main_content_top_Reventsbox ul.maineventsShop li a.img_btn {font-size:13px; display:block; color:#454545;  float:left; letter-spacing:1px; text-align:center; text-decoration:none; background:url(../../images/user/mails/mails_btn.gif) no-repeat left top; min-width:110px; _width:110px;}
+.main_content .main_content_top_Reventsbox ul.maineventsShop li a.img_btn span{display:block; padding:0 20px; line-height:32px; background:url(../../images/user/mails/mails_btn.gif) no-repeat right -32px;}
+.main_content .main_content_top_Reventsbox ul.maineventsShop li a.img_btn:hover{ background-position:left -64px;} 
+.main_content .main_content_top_Reventsbox ul.maineventsShop li a.img_btn:hover span{ background-position: right -96px;}
+
+.main_content .main_content_top_Reventsbox ul.maineventsShop li a.icon_btn { float:left; width:100px; font-size:13px; display:block; color:#454545; line-height:32px; letter-spacing:1px; text-decoration:none;}
+.main_content .main_content_top_Reventsbox ul.maineventsShop li a.icon_btn:hover{ color:#333; text-decoration: underline;}
+.main_content .main_content_top_Reventsbox ul.maineventsShop li img{ float:left; width:22px; height:20px; padding: 6px 5px 0px 0px;}
+
+/*==流程==*/
+.process_wrapper{ width:100%; background:url(../../images/user/mails/process_wrapper_bg.jpg) repeat-x left top;}
+.process_wrapper .process{ position:relative; width:790px; height:163px; margin: 0 auto; background: url(../../images/user/mails/store_pic.jpg) no-repeat -8px -283px;}
+.process_wrapper .process p.Close_note a{ font-size:13px; color:#858585; line-height:20px;_line-height:24px; line-height:24px \9;/**/ letter-spacing:1px; text-indent:20px; font-weight:bold; background: url(../../images/user/mails/no_delete_icom.gif) no-repeat left top; text-decoration: none; position:absolute; top:10px; right:20px;}
+.process_wrapper .process p.Close_note a:hover{color:#F64949; text-decoration:underline;}
+
+.process_wrapper .process h2{ font-size:12px; float:left; width:70px; text-indent:-9999px;}
+.process_wrapper .process ul{ width:720px; float:left; padding: 130px 0 00px;} .process ul li{ float:left;}
+.process_wrapper .process ul li.step_1{padding:0 0 0 70px;}
+.process_wrapper .process ul li.step_2{padding:0 0 0 80px;}
+.process_wrapper .process ul li.step_3{padding:0 0 0 65px;}
+.process_wrapper .process ul li.step_4{padding:0 0 0 70px;}
+.process_wrapper .process ul li.step_5{padding:0 0 0 105px;}
+.process_wrapper .process ul li p{ font-size:12px; color:#666666;}
+.process_wrapper .process ul li p.note_no{ font-size:12px; color:#888888;}
+/*==流程結束==*/
+
+/*==FB讚和分享開始==*/
+.share_box{ width:100%; height:25px; padding-top:10px;}
+.share_box_P10{ padding:10px 0px; }
+.share_box .FB_like{ float:left; width:400px; height:25px;}
+.share_box .share{ float:right; width:240px; height:25px;}
+/*==FB讚和分享結束==*
+
+/*==參與家族BOX_開始==*/
+.main_content .main_Content_box .Pluspopular_box{float:left; width:738px; padding:10px;  }
+.main_content .main_Content_box .Pluspopular_box .P_Lbox{float:left; width:305px;  }
+.main_content .main_Content_box .Pluspopular_box .P_Rbox{float:left; width:433px;  }
+.main_content .main_Content_box .Pluspopular_box .P_box{float:left; width:738px; }
+
+/*==家族_選單==*/
+.main_content select { border: 1px solid #CFCFCF;}
+.search_item{ float:left;}
+.search_item select{ width:330px; height:32px; padding:6px 6px 6px 6px; overflow:hidden;}
+.Sortesearch_item{ float:left; margin-left:10px; _display:inline;}
+.Sortesearch_item select{ width:160px; height:34px; padding:6px 6px 6px 6px; overflow:hidden;}
+              
+/*=========================合購_頁_結束=========================*/
+
+/*=====================訂購資訊修改_開始=====================*/
+.main_content .order_wrp_Mails .pblish{ float:left; width:758px; padding: 10px 0px; _display:inline;}
+.main_content .order_wrp_Mails .pblish .pblish_title{float: left; margin: 0 10px 0 17px; overflow: hidden; }
+.main_content .order_wrp_Mails .pblish .pblish_title h3{ color: #666666;font-size: 13px; height: 22px;letter-spacing: 1px; line-height: 22px; width:80px;}
+.main_content .order_wrp_Mails .pblish .SALEmain_box{ float:left; width:600px;}
+.main_content .order_wrp_Mails .pblish .SALEmain_box ul.discount_list{ width:100%; padding:1px 0 0 0;}
+.main_content .order_wrp_Mails .pblish .SALEmain_box ul.discount_list li{float: left;margin: 0 0 8px;}
+.main_content .order_wrp_Mails .pblish .SALEmain_box ul.discount_list li.order{float: left; margin: 0 0 8px;}
+.main_content .order_wrp_Mails .pblish .SALEmain_box ul.discount_list li p{color: #666666; font-size: 13px;font-weight: bold; height: 20px; letter-spacing: 1px; margin: 0 15px 0 0; overflow: hidden; padding: 0 0 0 0px; width: 185px;}
+.main_content .order_wrp_Mails .pblish .SALEmain_box ul.discount_list li p span{color: #F64949;}
+
+/*訂購單內折扣優惠的 離島運費顯示*/
+.main_content .order_wrp_Mails .pblish .SALEmain_box ul.discount_list li p.freight{ width: 580px;}
+
+.main_content .order_wrp_Mails .detail_box{ float:left; _display:inline; width:100%; }
+.main_content .order_wrp_Mails .detail_box.NOfloat{ float:none; _display:inline; width:100%; }
+.main_content .order_wrp_Mails .detail_box table tr.title_tr {}
+.main_content .order_wrp_Mails .detail_box table tr.title_tr td{ height:38px; border-top:1px solid #cccccc; border-bottom: 1px dotted #CCCCCC; background:#ebebeb; _padding:1px 0px; padding:1px 0px \9;/**/}
+.main_content .order_wrp_Mails .detail_box table tr.title_tr td p{ font-size:15px; color:#666666; font-weight:bold;}
+.main_content .order_wrp_Mails .detail_box table tr.list_tr{ background:#f4f4f4;}
+.main_content .order_wrp_Mails .detail_box table tr.hover{ background::#ffffff;}
+.main_content .order_wrp_Mails .detail_box table tr td{ border-bottom:1px #b5b5b5 dotted; padding:10px 0;}
+.main_content .order_wrp_Mails .detail_box table tr td p{ text-align:center;}
+/*0709 EE新增*/
+.main_content .order_wrp_Mails .detail_box table tr td p.change_text{ font-size:12px; color:#888888;}
+.main_content .order_wrp_Mails .detail_box table tr td p.change_number{font-size:12px; color:#888888; text-decoration:line-through;}
+.main_content .order_wrp_Mails .detail_box table tr.highlight_color{ background:#ffffed;}
+/*0709 EE新增_結束*/
+
+.main_content .order_wrp_Mails .detail_box table tr td.hover_tr{}
+.main_content .order_wrp_Mails .detail_box table tr td.goods{ width:450px;}
+.main_content .order_wrp_Mails .detail_box table tr td.goods p{ text-align:left;}
+
+.main_content .order_wrp_Mails .detail_box table tr td.goods .goods_text{vertical-align:middle; float:left; width:363px; padding:0 0 0 10px; overflow:hidden;}
+.main_content .order_wrp_Mails .detail_box table tr td.goods .goods_text h4{font-size:15px; font-weight:normal; width:100%;}
+
+.main_content .order_wrp_Mails .detail_box table tr td.goods table td{ border:none;}
+.main_content .order_wrp_Mails .detail_box table tr td.goods  h4{ display:block; font-size:15px; font-weight:bold; padding:0 0 0px 20px; letter-spacing:1px; line-height:22px; color:#666666;}
+.main_content .order_wrp_Mails .detail_box table tr td.goods  h4 a{color:#666666;}
+.main_content .order_wrp_Mails .detail_box table tr td.goods  h5{line-height:20px; font-size:13px; font-weight:normal; padding:0 0 0 20px; color:#666666;letter-spacing:1px;}
+.main_content .order_wrp_Mails .detail_box table tr td.goods  p{line-height:20px; font-size:13px; font-weight:normal; padding:0 0 0 20px; color:#666666;letter-spacing:1px;}
+.main_content .order_wrp_Mails .detail_box table tr td.goods  p span.text_l{ display:block; float:left; width:43px;}
+.main_content .order_wrp_Mails .detail_box table tr td.goods  p span.text_r{display:block; float:left; width:370px;}
+
+.main_content .order_wrp_Mails .detail_box table tr td.delete { width:80px;}
+.main_content .order_wrp_Mails .detail_box table tr td.delete p{ width:60px; margin:0 auto;}
+.main_content .order_wrp_Mails .detail_box table tr td.delete p.gifts{ font-size:15px; font-weight:bold;color: #F64949; letter-spacing:1px;}
+.main_content .order_wrp_Mails .detail_box table tr td.delete p a{background: url(../../images/user/order_img/function_btn.gif) no-repeat left top ; color: #666666; display: block; float: left;font-size: 12px;text-decoration: none;}
+.main_content .order_wrp_Mails .detail_box table tr td.delete p a span{background: url(../../images/user/order_img/function_btn.gif) no-repeat right -25px; display: block;line-height: 25px; padding: 0 18px;}
+.main_content .order_wrp_Mails .detail_box table tr td.delete p a:hover{background:url(../../images/user/order_img/function_btn.gif) left -50px no-repeat; }
+.main_content .order_wrp_Mails .detail_box table tr td.delete p a:hover span{background:url(../../images/user/order_img/function_btn.gif) right -75px no-repeat; }
+.main_content .order_wrp_Mails .detail_box table tr td.delete p a:active{background:url(../../images/user/order_img/function_btn.gif) left -100px no-repeat;}
+.main_content .order_wrp_Mails .detail_box table tr td.delete p a:active span{background:url(../../images/user/order_img/function_btn.gif) right -125px no-repeat;  }
+.main_content .order_wrp_Mails .detail_box table tr td.Quantity{ width:64px;}
+.main_content .order_wrp_Mails .detail_box table tr td.Quantity input{color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px; margin:0 5px;  padding: 0 6px 0 6px; width: 40px; font-weight:bold; text-align:center; border: 1px solid #CFCFCF;}
+
+.main_content .order_wrp_Mails .detail_box .add_goods{ float: left; _display:inline; width:100%;background:#F4F4F4; border-bottom: 1px dotted #B5B5B5; padding:20px 0;}
+.main_content .order_wrp_Mails .detail_box .add_goods a{background: url(../../images/user/order_img/function_btn.gif) no-repeat left top ; color: #666666; display: block; float: left;font-size: 12px;text-decoration: none; margin:0 0 0 604px; letter-spacing:2px; _display:inline;}
+.main_content .order_wrp_Mails .detail_box .add_goods a span{background: url(../../images/user/order_img/function_btn.gif) no-repeat right -25px; display: block;line-height: 25px; padding: 0 40px;}
+.main_content .order_wrp_Mails .detail_box .add_goods a:hover{background:url(../../images/user/order_img/function_btn.gif) left -50px no-repeat; }
+.main_content .order_wrp_Mails .detail_box .add_goods a:hover span{background:url(../../images/user/order_img/function_btn.gif) right -75px no-repeat; }
+.main_content .order_wrp_Mails .detail_box .add_goods a:active{background:url(../../images/user/order_img/function_btn.gif) left -100px no-repeat;}
+.main_content .order_wrp_Mails .detail_box .add_goods a:active span{background:url(../../images/user/order_img/function_btn.gif) right -125px no-repeat;  }
+
+.main_content .order_wrp_Mails .statistics{ float:left; _display:inline; padding:15px 18px ; /*border-bottom: 1px solid #CCCCCC*/  background:#f4f4f4; margin-bottom:15px; _display:inline;}
+.main_content .order_wrp_Mails .statistics .s_box{ float:left;  border:#d1d0d0 1px solid; background:#FFF; width:720px;}
+.main_content .order_wrp_Mails .statistics .s_box p{ color:#666666; padding:4px 0;}
+.main_content .order_wrp_Mails .statistics .s_box td{border-bottom: 1px dotted #dedede;}
+/*==去除底線==*/
+.main_content .order_wrp_Mails .statistics .s_box_no_line td{ border: none;}
+/*==*/
+.main_content .order_wrp_Mails .statistics .s_box td.item{text-align:right; padding:0 4px 0 0; width:360px;}
+.main_content .order_wrp_Mails .statistics .s_box td.price{width:40px; padding-right:10px;}
+.main_content .order_wrp_Mails .statistics .s_box td.price p{ font-weight:bold; font-size:16px;}
+.main_content .order_wrp_Mails .statistics .s_box td.text{ font-size:12px;}
+.main_content .order_wrp_Mails .statistics .s_box p.total{ color:#f64949;}
+
+.main_content .order_wrp_Mails .enter_data{ float:left; _display:inline; width:100%; margin:0px 0 0px 0; }
+.main_content .order_wrp_Mails .MTop10{ margin-top:10px;}
+.main_content .order_wrp_Mails .MBottom20{ margin-bottom:20px;}
+
+.main_content .order_wrp_Mails .enter_data{ float:left; _display:inline; width:100%; margin:0px 0 0px 0; }
+.main_content .order_wrp_Mails .enter_data p.remind{ font-size:12px; color:#888888; line-height:32px; padding-left:10px; letter-spacing:2px;}
+.main_content .order_wrp_Mails .enter_data input[type="text"]{border: 1px solid #CFCFCF;}
+.main_content .order_wrp_Mails .enter_data textarea{border: 1px solid #CFCFCF; resize: none;}
+.main_content .order_wrp_Mails .enter_data p.thx_buy{ color:#666666; width:100%; border-bottom:1px solid #e7e7e7; font-size:13px; letter-spacing:1px; padding:8px 0 10px 0; text-indent:35px; margin:0 0 20px 0;}
+.main_content .order_wrp_Mails .enter_data p.thx_buy img { vertical-align:middle; padding:0 0 0 4px;}
+.main_content .order_wrp_Mails .enter_data p.thx_buy a{ padding:0 4px 0 4px;}
+
+.main_content .order_wrp_Mails .enter_data .left_box{ float:left; width:120px; padding:0 4px 0 0;}
+.main_content .order_wrp_Mails .enter_data .left_box h5{ font-size:15px; letter-spacing:1px; color:#666666; font-weight:bold; text-align:right; line-height:32px;}
+.main_content .order_wrp_Mails .enter_data .left_box h5 span.Red{color:#F64949; }
+
+.main_content .order_wrp_Mails .enter_data .left_Titlebox{ float:left; width:115px; padding:0 4px 0 0;}
+.main_content .order_wrp_Mails .enter_data .left_Titlebox h5{ font-size:15px; letter-spacing:1px; color:#666666; font-weight:bold; text-align: right; line-height:32px;}
+.main_content .order_wrp_Mails .enter_data .left_Titlebox h5 span.Red{color:#F64949; }
+
+.main_content .order_wrp_Mails .enter_data .right_box{ float:left; width:630px;}
+
+/*==自訂商品_選封面圖==*/
+/*==封面大圖區==*/
+.main_content .order_wrp_Mails .enter_data .right_box .googsImgsBOX{ float:left; width: 162px; height: 162px; }
+.main_content .order_wrp_Mails .enter_data .right_box .googsImgsBOX img{ width:160px; height:160px; border:1px solid #FFF;display:block; overflow:hidden;}
+/*==小圖_選擇區==*/
+.main_content .order_wrp_Mails .enter_data .right_box .googsImgsList{ float:left; width:447px; height:125px; background-color: #f3f3f3;}
+.main_content .order_wrp_Mails .enter_data .right_box .googsImgsList .G_ImgsList{float:left; width:100px; height:100px; margin-left:8px; _display:inline; border: 1px solid #CBCBCB; overflow:hidden;}
+.main_content .order_wrp_Mails .enter_data .right_box .googsImgsList .G_ImgsList:hover{border: 1px solid #9c9c9c;}
+
+.main_content .order_wrp_Mails .enter_data .bonus{ width:100%; padding:0px 0 10px 0;}
+.main_content .order_wrp_Mails .enter_data .bonus p.surplus{letter-spacing:1px; font-size:13px; line-height:32px; color:#f64949; font-weight:bold;}
+.main_content .order_wrp_Mails .enter_data .bonus p.surplus a{ margin:0 0 0 10px; font-size:12px; color:#105CB6;}
+.main_content .order_wrp_Mails .enter_data .bonus p.surplus span{font-size:15px; color:#f64949;}
+.main_content .order_wrp_Mails .enter_data .bonus p.surplus span a{font-size:15px; color:#f64949; margin:0px; padding:0 3px;}
+.main_content .order_wrp_Mails .enter_data .br_color {padding:5px 0 5px 0; background:#F4F4F4; border-bottom: 1px dotted #B5B5B5;}
+
+.main_content .order_wrp_Mails .enter_data .bonus input.input_check{ vertical-align:middle; margin:0 6px 0 0;}
+.main_content .order_wrp_Mails .enter_data .bonus p.Off_against{ line-height:32px; letter-spacing:1px;font-size:13px;}
+.main_content .order_wrp_Mails .enter_data .bonus p.Off_against span.remind{ font-size:13px; color:#888888; padding-left:8px;}
+
+.main_content .order_wrp_Mails .enter_data .total_price{ width:100%; padding:0 0 10px 0;}
+.main_content .order_wrp_Mails .enter_data .total_price p.money{ font-size:15px; color:#666666; float:left; line-height:32px;}
+.main_content .order_wrp_Mails .enter_data .total_price p.money span{ color:#F64949; font-size:20px; font-weight:bold; padding:0 4px 0 0;}
+.main_content .order_wrp_Mails .enter_data .morehei{padding-top:20px;}
+
+.main_content .order_wrp_Mails .enter_data .number{ width:100%;padding:0 0 10px 0;}
+.main_content .order_wrp_Mails .enter_data .number input{color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px;  padding: 0 6px 0 6px; width: 150px;float:left;}
+
+.main_content .order_wrp_Mails .enter_data .Invoice{ width:100%;padding:0 0 10px 0;}
+.main_content .order_wrp_Mails .enter_data .Invoice input{color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px;  padding: 0 6px 0 6px; width: 460px; float:left;}
+
+.main_content .order_wrp_Mails .enter_data .order_people{width:100%;padding:0 0 10px 0;}
+.main_content .order_wrp_Mails .enter_data .order_people h5{ padding:6px 0 0 0;}
+.main_content .order_wrp_Mails .enter_data .order_people .data_box{ background:#f5f5f5; padding:6px 0 6px 10px; height:32px; _width:520px;}
+.main_content .order_wrp_Mails .enter_data .order_people .data_box h6{ float:left; font-size:13px; color:#666666; font-weight:bold; line-height:32px;}
+.main_content .order_wrp_Mails .enter_data .order_people .data_box input{color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px;  padding: 0 6px 0 6px; width: 89px; float:left; margin:0 10px 0 0; _display:inline;}
+
+.main_content .order_wrp_Mails .enter_data .receiving_people{width:100%;padding:0 0 10px 0;}
+.main_content .order_wrp_Mails .enter_data .receiving_people h5{ line-height:24px; }
+
+.main_content .order_wrp_Mails .enter_data .receiving_people p.copy input{ vertical-align:middle; margin:0 6px 0 0; _margin:-3px 0 0 0;}
+.main_content .order_wrp_Mails .enter_data .receiving_people p.copy{font-size:13px; letter-spacing:1px; color:#666666; padding:0 0 6px 0;}
+.main_content .order_wrp_Mails .enter_data .receiving_people .data_box{ background:#f5f5f5; padding:6px 0 6px 10px; height:32px; _width:520px;}
+.main_content .order_wrp_Mails .enter_data .receiving_people .data_box h6{ float:left; font-size:13px; color:#666666; font-weight:bold; line-height:32px;}
+.main_content .order_wrp_Mails .enter_data .receiving_people .data_box input{color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px;  padding: 0 6px 0 6px; width: 89px; float:left; margin:0 10px 0 0; _display:inline;}
+
+.main_content .order_wrp_Mails .enter_data .Address{ width:100%;padding:0 0 10px 0;}
+.main_content .order_wrp_Mails .enter_data .Address input{color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px;  padding: 0 6px 0 6px; width: 430px; float:left;}
+
+.main_content .order_wrp_Mails .enter_data .zip{width:100%;padding:0 0 10px 0;}
+.main_content .order_wrp_Mails .enter_data .zip input{color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px;  padding: 0 6px 0 6px; width: 150px;float:left;}
+
+.main_content .order_wrp_Mails .enter_data .Arrival_day{width:100%;padding:0 0 10px 0;}
+.main_content .order_wrp_Mails .enter_data .Arrival_day input{color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px;  padding: 0 6px 0 6px; width: 150px;float:left;}
+.main_content .order_wrp_Mails .enter_data .Arrival_day p.none_day{ color:#f64949; font-size:12px; font-weight:bold; padding:3px 0 0 0;}
+.main_content .order_wrp_Mails .enter_data .Arrival_day a{ float:left;padding: 7px 0 0 8px;}
+
+.main_content .order_wrp_Mails .enter_data .Arrival_time{width:100%;padding:0 0 10px 0;}
+.main_content .order_wrp_Mails .enter_data .Arrival_time input{color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px;  padding: 0 6px 0 6px; width: 150px;float:left;}
+
+.main_content .order_wrp_Mails .enter_data .PS{width:100%;padding:0 0 0px 0;}
+.main_content .order_wrp_Mails .enter_data .PS textarea{ float:left; width:590px; height:70px; padding: 6px 6px 6px 6px; color:#666666;}
+
+.main_content .order_wrp_Mails a.enter{margin:0 0 15px 282px;  font-size:13px; display:block; color:#454545;  float:left; letter-spacing:1px;background: url(../../images/user/order_img/admin_btn.gif) no-repeat left -128px;text-decoration:none; _display:inline; }
+.main_content .order_wrp_Mails a.enter span{display:block;  padding:0 80px; line-height:32px;background: url(../../images/user/order_img/admin_btn.gif) no-repeat right -160px;}
+.main_content .order_wrp_Mails a.enter:hover{background: url(../../images/user/order_img/admin_btn.gif) no-repeat left -192px;}
+.main_content .order_wrp_Mails a.enter:hover span{background: url(../../images/user/order_img/admin_btn.gif) no-repeat right -224px;}
+
+.main_content .order_wrp_Mails a.Newbnt{margin:10px 0 10px 282px;  font-size:13px; display:block; color:#454545;  float:left; letter-spacing:1px; _display:inline; background:url(../../images/user/mails/mails_btn.gif) no-repeat left top; }
+.main_content .order_wrp_Mails a.Newbnt span{display:block;  padding:0 80px; line-height:32px; background:url(../../images/user/mails/mails_btn.gif) no-repeat right -32px;}
+.main_content .order_wrp_Mails a.Newbnt:hover{ background-position:left -64px; text-decoration:none;}
+.main_content .order_wrp_Mails a.Newbnt:hover span{background-position: right -96px;}
+
+.main_content .order_wrp_Mails .back{ font-size:12px; float:left; margin:0 0 0 20px; line-height:32px;}
+
+/*=====================訂購資訊修改_結束=====================*/
+
+/*=====================商品列表開始=====================*/
+.main_content .StoreMain_Tab_box{float:left; width:790px; margin-bottom:15px;  display:inline;}
+.main_content .StoreMain_Tab_box .StoreList_box{width:788px; border-bottom:1px #cbcbcb solid; border-left:1px #cbcbcb solid; border-right:1px #cbcbcb solid; background-color:#fbfbfb;}
+#new_ihergoevents_wrapper #store_wrapper #store_content .main_box .product_box .h2_box{ margin:0px;}/*==立即訂購開始==*/
+/*==立即訂購開始==*/
+.main_content .StoreMain_Tab_box .events_buyBOX{ width:788px; padding:15px 0; background:#f5f5f5; margin-top:10px;}
+.main_content .StoreMain_Tab_box a.events_btn{ width:160px; height:41px; text-indent:-9999px; background:url(../../images/user/mails/events_btn.gif) no-repeat left top; display:block; margin:0 auto;}
+.main_content .StoreMain_Tab_box a.events_btn:hover{background:url(../../images/user/mails/events_btn.gif) no-repeat -160px top;}
+.main_content .StoreMain_Tab_box a.events_btn:active{background:url(../../images/user/mails/events_btn.gif) no-repeat -320px top;}
+.main_content .StoreMain_Tab_box p.msg{ font-size:13px; letter-spacing:1px; text-align:center; padding:15px 0 0 0; color:#666666;}
+.main_content .StoreMain_Tab_box p.msg span.highlight{ font-weight:bold;}
+.main_content .StoreMain_Tab_box p.group_text{font-size:12px; letter-spacing:1px; text-align:center; padding:10px 0 0 0; color:#666666;}
+.main_content .StoreMain_Tab_box p.group_text a{ text-decoration:none; color:#666666;text-decoration:underline;}
+.main_content .StoreMain_Tab_box .main_box p.group_text a:hover{ text-decoration:underline;color:#454545;}
+/*==立即訂購結束==*/
+/*==前往合購單開始==*/
+.main_content .StoreMain_Tab_box a.gotoevents_btn{ width:160px; height:41px; text-indent:-9999px; background:url(../../images/user/mails/events_btn.gif) no-repeat left -41px; display:block; margin:0 auto;}
+.main_content .StoreMain_Tab_box a.gotoevents_btn:hover{background:url(../../images/user/mails/events_btn.gif) no-repeat -161px -41px;}
+.main_content .StoreMain_Tab_box a.gotoevents_btn:active{background:url(../../images/user/mails/events_btn.gif) no-repeat -320px -41px;}
+/*==前往合購單結束==*/
+/*=====================商品列表結束=====================*
+
+/*==================愛合購站內信系統=====================*/
+/*==購站內信系統標題BOX_開始==*/
+.main_content .mails_systemtitle_box{float:left; width:790px; height:30px; padding: 10px 0px 0px 0px; background-color:#F2F2F2; border-bottom:1px #e2e2e2 solid; overflow:hidden;}
+.main_content .mails_systemtitle { width:700px; float:left; padding:0 0 0 15px; }
+.main_content .mails_systemtitle .h1_box{width:700px; height:20px; overflow:hidden;}
+.main_content .mails_systemtitle .h1_box h1{float:left;  color:#454545; font-size:15px; font-weight:bold; letter-spacing:1px; line-height:20px;}
+.main_content .mails_systemtitle .h1_box h1 a{color:#454545;text-decoration:none;}
+.main_content .mails_systemtitle .h1_box h1 a:hover{color:#454545; text-decoration:underline;}
+.main_content .mails_systemtitle .h1_box img{ vertical-align:middle; }
+.main_content .mails_systemtitle .h1_box a.icon_link{ width:22px; height:20px; _display:inline; margin-right:4px;}
+.main_content .mails_systemtitle .h1_box a.icon_link img{ margin:0;_display:inline;  vertical-align:middle;}
+
+.main_content .Report_box{float: right; width:70px; height:20px;}
+.main_content .Report_box a.Report{ display: block; color:#777777; font-size:12px; line-height:20px; text-decoration:none;}
+.main_content .Report_box a.Report:hover{color:#454545; text-decoration:underline}
+
+/*==愛合購_合購站內信_收起列表==*/
+.ihergoMail_systembox{float:left; width:758px; height:22px; padding: 8px 15px; margin-top:15px; _display:inline; background-color:#F2F2F2; border:1px #EBEBEB solid;}
+.ihergoMail_systembox:hover{background-color:#F1F1F1; border:1px solid #ccc;}
+
+/*==愛合購_合購站內信_展開列表==*/
+.ihergoMail_systembox_active{float:left; width:758px; height:22px; padding: 8px 15px; background-color:#F2F2F2; border:1px #dedede solid; margin-top:15px; _display:inline;}
+.ihergoMail_systembox_active_MGno{float:left; width:758px; height:22px; padding: 8px 15px; background-color:#F2F2F2; border:1px #dedede solid; margin-top:0px; _display:inline;}
+/*==編輯器==*/
+/*.main_content .OpemBox_insertMail{ float:left; width:750px; padding:10px 0px 0px 8px; border-bottom:1px #CCCCCC solid; background: url(../../images/user/mails/opembox_insertmail_bg.gif) repeat-x left bottom;}
+*/
+.main_content .OpemBox_insertMail{ float:left; width:750px; padding:10px 0px 15px 8px;}
+.main_content .OpemBox_insertMail .insertMail_box{float:left; width:750px; /*background-color:#000;*/}
+.main_content .OpemBox_insertMail .insertMail_box p{ float:left; font-size:15px; font-weight:bold;  letter-spacing:1px; line-height:32px; }
+.main_content .OpemBox_insertMail .insertMail_box .Mail_input{float:left;  width:575px; color: #454545; font-size: 15px; height: 30px; line-height: 30px; letter-spacing: 1px; padding: 0px 10px ; border:1px #D1D1D1 solid; }
+
+.main_content .OpemBox_insertMail .insertMail_box p.input_note{ float:left; width:665px; font-size:13px; color:#858585; font-weight: normal; padding: 5px 0px 10px 15px ; letter-spacing:1px; line-height:15px; }
+
+.main_content .OpemBox_insertMail .insertMail_box .icon_box{ width:49px; height:62px; float:left;}
+.main_content .OpemBox_insertMail .insertMail_box p.icon_box_T{ float:left; font-size:15px; color:#F64949; font-weight:bold;  letter-spacing:1px; line-height:50px; text-indent:10px; }
+
+/*==編輯器朋友清單按鈕==*/
+.main_content .OpemBox_insertMail .insertMail_box .Mail_boxR{ float:right; width:68px;}
+.main_content .OpemBox_insertMail .insertMail_box .Mail_boxR a.img_btn {  float: right; font-size:12px; display:block; color:#454545; text-decoration:none; background:url(../../images/user/mails/mails_btn.gif) no-repeat left top;}
+.main_content .OpemBox_insertMail .insertMail_box .Mail_boxR a.img_btn span{  display:block; padding:0 6px; line-height:32px; background:url(../../images/user/mails/mails_btn.gif) no-repeat right -32px; text-align:center;}
+.main_content .OpemBox_insertMail .insertMail_box .Mail_boxR a.img_btn:hover{ background-position:left -64px;} 
+.main_content .OpemBox_insertMail .insertMail_box .Mail_boxR a.img_btn:hover span{ background-position: right -96px;}
+
+/*==編輯器大小==*/
+.main_content .OpemBox_insertMail .data_Box{float:left; width:740px; margin: 0px 0px 0px 3px; _display:inline; }
+
+/*==編輯器_共用按鈕_送出==*/
+.main_content .OpemBox_insertMail .OPENimg_btn_Box{float: left; width:467px; padding-left:276px; padding-bottom:25px;  border-bottom:1px #CCCCCC solid; background: url(../../images/user/mails/opembox_insertmail_bg.gif) repeat-x left bottom;}
+.main_content .OpemBox_insertMail .OPENimg_btn_Box_NO{ border-bottom: none; background: none; padding-bottom:0px;}
+.main_content .OpemBox_insertMail .OPENimg_btn_Box a.OPENimg_btn {  float: left; font-size:13px;  display:block; text-align:center; margin-right:20px; _display:inline; color:#454545; letter-spacing:1px; text-decoration:none; background:url(../../images/user/mails/mails_btn.gif) no-repeat left top;}
+.main_content .OpemBox_insertMail .OPENimg_btn_Box a.OPENimg_btn span{  display:block; padding:0 80px; line-height:32px; background:url(../../images/user/mails/mails_btn.gif) no-repeat right -32px;}
+.main_content .OpemBox_insertMail .OPENimg_btn_Box a.OPENimg_btn:hover{ background-position:left -64px;} 
+.main_content .OpemBox_insertMail .OPENimg_btn_Box a.OPENimg_btn:hover span{ background-position: right -96px;}
+
+/*==紅色文字編輯器_共用按鈕_取消==*/
+.main_content .OpemBox_insertMail .OPENimg_btn_Box a.OPENimg_btn_RedT {  float: left; font-size:13px;  display:block; letter-spacing:1px; text-decoration:none; width:50px;  /*background:url(../../images/user/mails/mails_btn.gif) no-repeat left top;*/ }
+.main_content .OpemBox_insertMail .OPENimg_btn_Box a.OPENimg_btn_RedT span{  display:block; line-height:32px; /*background:url(../../images/user/mails/mails_btn.gif) no-repeat right -32px;*/}
+.main_content .OpemBox_insertMail .OPENimg_btn_Box a.OPENimg_btn_RedT:hover{ background-position:left -64px;} 
+.main_content .OpemBox_insertMail .OPENimg_btn_Box a.OPENimg_btn_RedT:hover span{ background-position: right -96px;}
+
+/*==編輯器_結束==*/
+
+
+/*===發起合購_小茜撰寫_開始===*/
+
+/*合購頁BTN*/
+
+.main_content .enter_data .btn_box{ float:left; width:80px;height:30px; margin: 3px 0 0 10px; _display:inline;}
+.main_content .btn_box a.start_btn{ display:block;background: url(../../images/user/order_img/function_btn.gif) no-repeat left top ; color: #666666; display: block; float: left;font-size: 12px;text-decoration: none;}
+.main_content .btn_box a.start_btn span{
+background: url(../../images/user/order_img/function_btn.gif) no-repeat right -25px; display: block;line-height: 25px; padding: 0 18px;}
+.main_content .btn_box a.start_btn:hover{background:url(../../images/user/order_img/function_btn.gif) left -50px no-repeat; }
+.main_content .btn_box a.start_btn:hover span{background:url(../../images/user/order_img/function_btn.gif) right -75px no-repeat;}
+.main_content .btn_box a.start_btn:active{background:url(../../images/user/order_img/function_btn.gif) left -100px no-repeat;}
+.main_content .btn_box a.start_btn:active span{background:url(../../images/user/order_img/function_btn.gif) right -125px no-repeat;}
+
+.main_content .enter_data .btn_box60{ float:left; width:60px;height:30px; margin: 13px 0 0 10px; _margin: 15px 0 0 0; _display:inline;}
+.main_content .btn_box60 a.start_btn_s{ display:block;background: url(../../images/user/order_img/function_btn.gif) no-repeat left top ; color: #666666; display: block; float: left;font-size: 12px; text-decoration: none;}
+.main_content .btn_box60 a.start_btn_s span{
+background: url(../../images/user/order_img/function_btn.gif) no-repeat right -25px; display: block;line-height: 25px; padding: 0 10px; color:#666;}
+.main_content .btn_box60 a.start_btn_s:hover{background:url(../../images/user/order_img/function_btn.gif) left -50px no-repeat; text-decoration:none; }
+.main_content .btn_box60 a.start_btn_s:hover span{background:url(../../images/user/order_img/function_btn.gif) right -75px no-repeat;}
+.main_content .btn_box60 a.start_btn_s:active{background:url(../../images/user/order_img/function_btn.gif) left -100px no-repeat;}
+.main_content .btn_box60 a.start_btn_s:active span{background:url(../../images/user/order_img/function_btn.gif) right -125px no-repeat;}
+
+.main_content .enter_data .btn_box100{ float:left; width:96px;height:30px; margin: 13px 0 0 10px; _margin: 15px 0 0 0; _display:inline;}
+.main_content .btn_box100 a.start_btn_l{ display:block;background: url(../../images/user/order_img/function_btn.gif) no-repeat left top ; color: #666666; display: block; float: left;font-size: 12px; text-decoration: none;}
+.main_content .btn_box100 a.start_btn_l span{
+background: url(../../images/user/order_img/function_btn.gif) no-repeat right -25px; display: block;line-height: 25px; padding: 0 20px; color:#666;}
+.main_content .btn_box100 a.start_btn_l:hover{background:url(../../images/user/order_img/function_btn.gif) left -50px no-repeat; text-decoration:none; }
+.main_content .btn_box100 a.start_btn_l:hover span{background:url(../../images/user/order_img/function_btn.gif) right -75px no-repeat;}
+.main_content .btn_box100 a.start_btn_l:active{background:url(../../images/user/order_img/function_btn.gif) left -100px no-repeat;}
+.main_content .btn_box100 a.start_btn_l:active span{background:url(../../images/user/order_img/function_btn.gif) right -125px no-repeat;}
+
+/*發起合購_START*/
+.wrapper_start{width:100%; background:url(../../images/user/start/bg_banner.jpg) repeat-x 1px 1px;}
+.wrapper_start .start_banner{ position:relative; width:790px; height:156px; background:url(../../images/user/start/start_pic.jpg) no-repeat -3px -1px; margin:0 auto;}
+.wrapper_start .start_banner h2{ text-indent:-9999px;}
+.wrapper_start .start_banner p{position:absolute;left:166px;top:95px;width:355px; height:40px;color:#666;font-size:12px; line-height:20px; letter-spacing:1px;}
+.wrapper_start .start_banner ul{position:absolute;left:576px;top:0; width:216px; height:126px; padding-top:28px;}
+.wrapper_start .start_banner ul li{ float:left; text-indent:-9999px; width:214px; height:34px;}
+.wrapper_start .start_banner ul li.active01{background:url(../../images/user/start/start_pic.jpg) no-repeat -795px -28px;}
+.wrapper_start .start_banner ul li.active02{background:url(../../images/user/start/start_pic.jpg) no-repeat -795px -63px;}
+.wrapper_start .start_banner ul li.active03{background:url(../../images/user/start/start_pic.jpg) no-repeat -795px -97px;}
+/*發起合購_END*/
+
+
+/*選擇商店_START*/
+.main_content .start_title{ margin-top:20px;}
+.main_content .start_content{ width:760px; border:0;}
+
+.main_content .start_content .store_in{float:left;width:331px; height:145px; margin:40px 0 40px 14px; _display:inline;}
+.main_content .start_content .store_in a{ display:block;width:331px; height:145px; text-indent:-9999px; background:url(../../images/user/start/start_pic.jpg) no-repeat -2px -160px;}
+.main_content .start_content .store_in a:hover{ background-position:-2px -305px;}
+.main_content .start_content .store_line{ float:left; width:10px; height:165px; background:url(../../images/user/start/store_line.jpg); margin:25px 30px 0 30px; _display:inline;}
+.main_content .start_content .store_out{float:left;width:331px; height:145px; margin:40px 0;_display:inline;}
+.main_content .start_content .store_out a{ display:block;width:331px; height:145px; text-indent:-9999px; background:url(../../images/user/start/start_pic.jpg) no-repeat -337px -160px;}
+.main_content .start_content .store_out a:hover{ background-position:-337px -305px;}
+
+.main_content .enter_data .enter_web{ width:100%; padding: 0 0 10px 0;}
+.main_content .enter_data .outstore_name{ width:100%; padding: 0 0 10px 0;}
+.main_content .enter_data .events_name{width:100%; padding: 0 0 10px 0;}
+.main_content .enter_data .events_contact{width:100%; padding: 0 0 10px 0;}
+.main_content .enter_data .deadline{width:100%; padding: 0 0 10px 0;}
+.main_content .enter_data .pay_way{width:100%; padding: 0 0 10px 0;}
+.main_content .enter_data .extra{width:100%; padding: 0 0 10px 0;}
+.main_content .enter_data .post{width:100%; padding: 0 0 10px 0;}
+.main_content .enter_data .face_place{width:100%; padding: 0 0 10px 0;}
+.main_content .enter_data .events_explain{width:100%; padding: 0 0 20px 0;}
+.main_content .enter_data .self_goods{width:100%; padding: 0 0 10px 0;}
+.main_content .enter_data .goods_web{width:100%; padding: 0 0 10px 0;}
+.main_content .enter_data .goods_name{width:100%; padding: 0 0 10px 0;}
+.main_content .enter_data .set_goods{width:100%; padding: 20px 0 0 0; margin-top:30px; border-top:1px #ccc solid;}
+.main_content .enter_data .set_goods_BPM{border-top:0; padding-top:0; margin-top:10px;}
+
+
+.main_content .enter_data .l_row{ float:left; width:100px;height:30px;}
+.main_content .enter_data .r_row{ float:left; width:500px;height:30px;}
+.main_content .enter_data .H30{height:30px;}
+.main_content .enter_data .r_row_600{ float:left; width:600px;height: auto;}
+.main_content .enter_data .r_row_630{ float:left; width:630px;height: auto;}
+.main_content .enter_data .r_row p.textG12{font-size:12px; color:#666; padding: 0 2px 0 4px; line-height:30px;}
+.main_content .enter_data p.textR12{font-size:12px; color:#fe0000; padding: 0 2px 0 4px; line-height:30px; letter-spacing:1px; text-align:left;}
+.main_content .enter_data p.LH40{ line-height:40px;}
+.main_content .enter_data .cue_box{ float:left; width:450px; height:20px; margin-left:250px; _display:inline;}
+.main_content .enter_data .cue_box p{ font-size:12px; color:#ff743e; letter-spacing:2px; margin:3px auto;}
+.main_content .enter_data .ex_box{float:left; width:110px;height:30px; margin: 3px 0 0 10px; _display:inline;}
+.main_content .enter_data .ex_box p{ font-size:12px; color:#777; padding-top:5px;}
+.main_content .enter_data .ex_box a.ex_po{width:60px; height:20px; display:block; color:#105cb6; font-size:12px; line-height:20px; margin:5px 0 0 0; background:url(../../images/shop/store/admin/magnifier.jpg) no-repeat left top ; padding:0 0 0 18px;}
+.main_content .enter_data .ex_box a.ex_po:hover{ color:#ff9933;background:url(../../images/shop/store/admin/magnifier.jpg) no-repeat left bottom ;}
+.main_content .enter_data .r_row h3{ width:473px; height:25px; padding:5px 10px 0 5px; margin-left:5px; font-size:15px; color:#666;}
+.main_content .enter_data .r_row select{color: #454545; height: 28px; margin: 2px 10px 0 0;padding: 4px;}
+.main_content .enter_data .deadline p{ float:left; font-size:15px; color:#666; padding: 5px 11px 0 0;}
+.main_content .enter_data .deadline .date_box{ float:left; width:155px;}
+.main_content .enter_data .deadline .time_box{ float:left; width:116px;}
+.main_content .enter_data .pay_way .way_gopay{ float:left; width:185px; margin-left:5px; _display:inline;}
+.main_content .enter_data .pay_way .way_atm{ float:left; width:110px;}
+.main_content .enter_data .pay_way .way_face{ float:left; width:110px;}
+.main_content .enter_data .pay_way p{ font-size:15px; color:#666; letter-spacing:1px; padding-top:7px;}
+.main_content .enter_data .pay_way p span.gouse{ font-size:12px; color:#666; letter-spacing:0px;}
+.main_content .enter_data .pay_way p span.gouse a{ color:#105cb6;}
+.main_content .enter_data .pay_way p span.gouse a:hover{ color:#ff9933;}
+.main_content .enter_data .post .p_radio{ float:left; width:50px; margin:5px 0 0 5px; _display:inline;}
+.main_content .enter_data .post .postage{ float:left;}
+.main_content .enter_data span.textG15{font-size:15px; color:#666; padding: 0 10px 0 4px;}
+.main_content .enter_data span.textG12{font-size:12px; color:#454545; padding: 0 2px 0 4px;}
+.main_content .enter_data span.textG13{font-size:13px; color:#888; font-weight:normal;}
+.main_content .enter_data .face_place .fplace_box{ float:left; width:80px; margin-left:5px; _display:inline;}
+.main_content .enter_data .face_place .fplace_text_box{ float:left; width:360px;  _display:inline;}
+.main_content .enter_data .data_Box{float: left; margin: 0 0 0 10px; width: 740px;}
+.main_content .enter_data p.input_note { float: left;color: #858585; font-size: 13px;font-weight: normal;    letter-spacing: 1px;line-height: 15px;padding: 5px 0 10px 15px;width: 320px;_width: 340px;}
+.main_content .enter_data p.save_note { float: left;color:#ff0000; font-size: 12px;font-weight: normal;    letter-spacing: 1px;line-height: 15px;padding: 10px 0 10px 15px;width: 290px;}
+
+
+
+.main_content .enter_data .location_box{ float:left; width:600px;border-top:1px #ccc solid; margin: 10px 0 0 3px; background-color:#f4f4f4;}
+.main_content .enter_data .location_box .locat_title{ width:600px; height:40px; background-color:#ebebeb;}
+.main_content .enter_data .location_box .locat_title p{ font-size:15px; color:#666; font-weight:bold; height:40px; line-height:40px; text-align:center; letter-spacing:2px; }
+.main_content .enter_data .location_box .locat_con{ width:600px; height: 70px; border-top:1px #ccc dotted;}
+.main_content .enter_data .location_box .locat_con p{ font-size:13px; color:#454545; font-weight: normal; height:18px; line-height:18px; text-align: left; letter-spacing:1px; padding:5px; }
+.main_content .enter_data .location_box p img{ margin-right:5px; vertical-align:middle;}
+.main_content .enter_data .location_box p.locat_pad a{ color:#454545; text-decoration:none;}
+.main_content .enter_data .location_box p.locat_pad a:hover{ color:#454545; text-decoration: underline;}
+.main_content .enter_data .location_box .w_select{ float:left;  width:20px;}
+.main_content .enter_data .location_box .w_location{ float:left;  width:235px; _width:234px;}
+.main_content .enter_data .location_box .w_date{ float:left;  width:175px; _width:176px;}
+.main_content .enter_data .location_box .w_time{ float:left; width:80px;}
+.main_content .enter_data .location_box .w_edit{ float:left; width:60px;}
+
+.main_content .enter_data .location_box .select_text{ margin:: 10px 4px 0 6px;}
+.main_content .enter_data .location_box .padT25{ padding-top:25px;}
+.main_content .enter_data .location_box .padL15{ padding-left:15px;}
+.main_content .enter_data .location_box .padT5{ padding-top:5px;}
+.main_content .enter_data .location_box .marR15{ margin-right:15px;}
+.main_content .enter_data .location_box .marR10{ margin-right:10px;}
+.main_content .enter_data .location_box .marB7{ _margin-bottom:7px;}
+.main_content .enter_data .location_box .marT13{ margin-top:13px; _margin-top:15px;}
+.main_content .enter_data .location_box .marL0{ margin-left:0;}
+.main_content .enter_data .location_box .w_location p.locat_pad{ width:230px; height:42px; padding:15px 0 0 5px; overflow:hidden;}
+.main_content .enter_data .location_box .w_date .d_radio{float:left; width:48px; _width:50px; margin:20px 0 0 3px; _margin-left:0; _display:inline;}
+.main_content .enter_data .location_box .w_date .face_date{float:left; width:120px; _width:126px;margin:10px 0 0 3px; _margin-left:0px; _display:inline;}
+
+
+
+.main_content .enter_data .r_row .web_text{ width: 480px; color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px; margin:0 5px;  padding: 0 6px 0 6px; font-weight: normal;  border: 1px solid #CFCFCF;}
+.main_content .enter_data .r_row .outstore_text{ width: 480px; color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px; margin:0 5px;  padding: 0 6px 0 6px; font-weight: normal;  border: 1px solid #CFCFCF;}
+.main_content .enter_data .r_row .events_text{width: 480px; color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px; margin:0 5px;  padding: 0 6px 0 6px; font-weight: normal;  border: 1px solid #CFCFCF;}
+.main_content .enter_data .r_row .contact_text{width: 480px; color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px; margin:0 5px;  padding: 0 6px 0 6px; font-weight: normal;  border: 1px solid #CFCFCF;}
+.main_content .enter_data .r_row .date_text{width: 100px; color: #666666; font-size: 13px; height: 28px;letter-spacing: 1px;line-height: 30px; margin:0 5px;  padding: 0 6px 0 6px; font-weight: normal;  border: 1px solid #CFCFCF;}
+.main_content .enter_data .r_row .extra_text{width: 80px; color: #666666; font-size: 13px; height: 28px;letter-spacing: 1px;line-height: 30px; margin:0 5px;  padding: 0 6px 0 6px; font-weight: normal;  border: 1px solid #CFCFCF; text-align:center;}
+.main_content .enter_data .r_row .post_text{width: 60px; color: #666666; font-size: 13px; height: 28px;letter-spacing: 1px;line-height: 30px; margin:0 5px;  padding: 0 6px 0 6px; font-weight: normal;  border: 1px solid #CFCFCF; text-align:center;}
+.main_content .enter_data .r_row .fplace_text{width: 340px; color: #666666; font-size: 13px; height: 26px;letter-spacing: 1px;line-height: 30px; margin:2px 5px 0 5px;  padding: 0 6px 0 6px; font-weight: normal;  border: 1px solid #CFCFCF;}
+.main_content .enter_data .r_row .l_date_text{width: 70px; color: #666666; font-size: 12px; height: 28px;letter-spacing: 1px;line-height: 30px; margin:6px 0 0 4px;  padding: 0 4px 0 6px; font-weight: normal;  border: 1px solid #CFCFCF;}
+.main_content .enter_data .r_row .l_time_text{width: 70px; color: #888; font-size: 12px; height: 28px;letter-spacing: 1px;line-height: 30px; margin:6px 0 0 0;  padding: 0 4px 0 6px; font-weight: normal;  border: 1px solid #CFCFCF;}
+.main_content .enter_data .r_row .l_time_text:hover{ color:#666;}
+.main_content .enter_data .r_row .goods_text{width: 500px; color: #666666; font-size: 13px; height: 30px;letter-spacing:1px; line-height: 30px; margin:0 5px;  padding: 0 6px 0 6px; font-weight: normal;  border: 1px solid #CFCFCF;}
+.main_content .enter_data .r_row .price_text{width: 100px; color: #666666; font-size: 13px; height: 30px;letter-spacing:1px; line-height: 30px; margin:0 5px;  padding: 0 6px 0 6px; font-weight: normal;  border: 1px solid #CFCFCF; text-align:center;}
+.main_content .enter_data .r_row .self_text{ width:20px; height:20px; margin: 5px 0 0 0;}
+
+
+
+/*修改面交地點BOX*/
+.main_content .enter_data .location_box .locat_con_edit{ width:550px; height: 70px; background-color:#fff; margin:0 auto; padding:10px; margin-bottom:10px;}
+.main_content .enter_data .location_box .locat_con_edit .del_location{ float:left; width:120px; height:20px; margin: 15px 0 0 10px; _display:inline;}
+.main_content .enter_data .location_box .locat_con_edit .del_location p{color:#105CB6; font-size:12px; background:url(../../images/user/start/icon_del.png) no-repeat 0 2px; height:20px; line-height:20px; padding-left:22px; letter-spacing:1px;}
+.main_content .enter_data .location_box .locat_con_edit .del_location p a{ color:#105CB6;}
+.main_content .enter_data .location_box .locat_con_edit .del_location p a:hover{ color:#ff9933;}
+.main_content .enter_data .location_box .locat_con_edit .edit_btn_box{ float:right; width:180px;}
+
+/*展開進階設定*/
+.main_content .enter_data .more_set{ width:740px; height:30px; background:url(../../images/user/start/bg_moreset.jpg ) repeat-x; margin: 0 auto; padding-top:2px; margin-bottom:20px;}
+.main_content .enter_data .more_set p{ width:300px; height:30px; line-height:30px; text-align:center; margin: 0 auto; font-weight:bold;}
+.main_content .enter_data .more_set p a{ display:block; width:300px; height:30px; font-size:13px; color:#666; background:url(../../images/user/start/bg_moreset02.jpg) no-repeat left top; }
+.main_content .enter_data .more_set p a:hover{ color:#545454; text-decoration:none; background-position:left bottom;}
+
+/*自訂合購商品*/
+.main_content .enter_data .self_goods_box{ width:755px; background-color:#fff; padding:15px 0;}
+.main_content .enter_data .goods_btn{ width:700px; height:40px; margin: 0 auto;}
+.main_content .enter_data .goods_btn a.img_btn { font-size:13px; display:block; color:#454545; letter-spacing:1px; text-decoration:none; background:url(../../images/user/mails/mails_btn.gif) no-repeat left top;}
+.main_content .enter_data .goods_btn a.img_btn span{  display:block; padding:0 20px; line-height:32px; background:url(../../images/user/mails/mails_btn.gif) no-repeat right -32px; text-align:center;}
+.main_content .enter_data .goods_btn a.img_btn:hover{ background-position:left -64px;} 
+.main_content .enter_data .goods_btn a.img_btn:hover span{ background-position: right -96px;}
+
+/*新增商品列表*/
+.main_content .enter_data .goods_list_box{ width:755px; background-color:#f4f4f4;}
+.main_content .enter_data .goods_list_box .goods_list_title{ width:755px; height:40px; border-top:1px #ccc solid; border-bottom:1px #ccc dotted; background-color:#ebebeb;}
+.main_content .enter_data .goods_list_box .goods_list_con{ width:721px; height:86px; background-color:#f4f4f4; margin: 0 auto;border-top:1px #ccc dotted;}
+.main_content .enter_data .goods_list_box .t_check{ float:left; width:42px; height:27px; padding:13px 0 0 23px;}
+.main_content .enter_data .goods_list_box .t_pic{float:left; width:80px; height:40px;}
+.main_content .enter_data .goods_list_box .t_name{float:left; width:440px; height:40px;}
+.main_content .enter_data .goods_list_box .t_price{float:left; width:80px; height:40px;}
+.main_content .enter_data .goods_list_box .t_limit{float:left; width:80px; height:40px;}
+.main_content .enter_data .goods_list_box p.textG15B{ font-size:15px; font-weight:bold; text-align:center; color:#666; height:40px; line-height:40px;}
+.main_content .enter_data .goods_list_box p.textG15{ font-size:15px; font-weight: normal; text-align:center; color:#666; height:86px; line-height:86px; letter-spacing:1px;}
+.main_content .enter_data .goods_list_box p.textR15{ font-size:15px; font-weight: normal; text-align:center; color:#fe0000; height:86px; line-height:86px; letter-spacing:1px;}
+.main_content .enter_data .goods_list_box p.goods_name{font-size:15px; font-weight:bold; text-align:left; color:#666; width:410px; height:34px; line-height:22px; letter-spacing:1px; overflow:hidden; margin: 20px 0 0 20px;}
+
+.main_content .enter_data .goods_list_box .c_check{ float:left; width:42px; height:52px; padding:34px 0 0 6px;}
+.main_content .enter_data .goods_list_box .c_pic{float:left; width:73px; height:77px; padding: 9px 0 0 7px;}
+.main_content .enter_data .goods_list_box .c_name{float:left; width:440px; height:86px;}
+.main_content .enter_data .goods_list_box .c_price{float:left; width:80px; height:86px;}
+.main_content .enter_data .goods_list_box .c_limit{float:left; width:73px; height:86px;}
+.main_content .enter_data .goods_list_box .c_pic img{ width:63px; height:63px; border:1px #dcdcdc solid; padding:1px; overflow:hidden;}
+
+/*家族通知*/
+.main_content .enter_data .family_box{ width:755px; margin: 0 auto; margin-top:30px;}
+.main_content .enter_data .family_box .family_title{ width:755px; height:40px; background-color:#ebebeb; border-top:1px #ccc solid; border-bottom:1px #ccc dotted;}
+.main_content .enter_data .family_box .family_con{width:755px; background-color:#f4f4f4; padding: 10px 0 20px 0;}
+.main_content .enter_data .family_box .family_title .f_left{ float:left; width:530px; height:40px; margin-left:15px; _display:inline;}
+.main_content .enter_data .family_box h5{ color:#666; font-size:15px; letter-spacing:1px; line-height:40px;}
+.main_content .enter_data .family_box h5 span.textG12{ color:#666; font-size:12px; letter-spacing:1px; font-weight:normal;}
+.main_content .enter_data .f_right{ float:left; width:180px; height:40px;}
+.main_content .enter_data .f_right_R{ float:right;}
+.main_content .enter_data .more_check_box{ float:right; width:200px;}
+.main_content .enter_data .c_box{ float:left; width:18px; height:20px; margin:14px 2px 0 0; _margin-top:8px;}
+.main_content .enter_data .c_box_MT10{margin-top:9px; _margin-top:4px;}
+.main_content .enter_data .c_box_MT20{ margin-top:19px; _margin-top:13px;}
+.main_content .enter_data .c_box_ML20{margin-left:20px;}
+
+.main_content .enter_data .family_box .family_con .family_row{ width:600px; height:50px; margin: 0 auto; border-bottom:1px #b5b5b5 dotted;}
+.main_content .enter_data .family_box .family_con p.family_name{width:500px; height:50px; font-size:15px; color:#545454;letter-spacing:2px;line-height:50px;_height:20px; _line-height:20px; _margin-top:15px; }
+.main_content .enter_data .family_box .family_con .family_row img{ vertical-align: middle; margin-right:3px; padding-bottom:4px; _padding:0;}
+.main_content .enter_data .family_box .marLT{ margin: 0 0 0 20px;}
+
+
+/*站內搜尋START*/
+.main_content .main_Content_box .searchin_box{ width:750px; margin:0 auto;}
+.main_content .main_Content_box .searchin_box .search_bar{ width:710px; height:24px; background:url(../../images/user/start/search_bar.jpg) no-repeat; margin:0 auto;}
+.main_content .main_Content_box .searchin_box .search_con{ padding:8px 0 20px 0; width:710px; background-color:#f4f4f4; margin:0 auto; margin-bottom:15px; _padding-bottom:10px;}
+.main_content .main_Content_box .searchin_box .search_con .l_search{float:left; width:100px; margin-top:5px; _margin-top:0px;_display:inline;}
+.main_content .main_Content_box .searchin_box .search_con .l_search p{font-size:15px; font-weight:bold; color:#f12828; text-align:right;}
+.main_content .main_Content_box .searchin_box .search_con .r_search{float:right; width:580px; height:auto; padding: 0 15px;}
+.main_content .main_Content_box .searchin_box .search_con .r_search .store_row{width:580px; height:20px; margin: 5px auto;_margin: 0 auto;}
+.main_content .main_Content_box .searchin_box .search_con .r_search .store_row h3{float:left; width:340px; height:20px;background:url(https://www.ihergo.com/design/images/vip/icon_store.png) no-repeat 0 2px; _background-position:0 0; padding:0 10px 0 22px; overflow:hidden;}
+.main_content .main_Content_box .searchin_box .search_con .r_search .store_row h3 a{display:block; font-size:13px; color:#105cb6; font-weight:normal; letter-spacing:2px;}
+.main_content .main_Content_box .searchin_box .search_con .r_search .store_row h3 a:hover{color:#1072e6; text-decoration:none;}
+.main_content .main_Content_box .searchin_box .search_con .r_search .store_row .web_order{float:left; width:20px; height:20px; vertical-align:middle;}
+.main_content .main_Content_box .searchin_box .search_con .r_search .store_row .prize_vip{float:left; width:20px; height:20px; vertical-align:middle; margin-right:10px; _display:inline;}
+.main_content .main_Content_box .searchin_box .search_con .r_search .store_row .remark{float:left; width:150px; height:20px; overflow:hidden;}
+.main_content .main_Content_box .searchin_box .search_con .r_search .store_row .remark p{ font-size:12px; color:#666; letter-spacing:1px;}
+.main_content .main_Content_box .other_buy{width:750px; height:30px; margin:0 auto;}
+.main_content .main_Content_box .other_buy p{background:url(../../images/user/start/icon_sharestore.png) no-repeat 30px 2px; padding-left:52px; font-size:12px; color:#666; letter-spacing:2px;}
+.main_content .main_Content_box .other_buy p span.redP12 a{color:#f12828; padding:0 2px;}
+.main_content .main_Content_box .other_buy p span.redP12 a:hover{ text-decoration:underline;}
+.main_content .main_Content_box .other_buy p span.gbP12 a{color:#315790; text-decoration:underline; letter-spacing:1px; padding:0 2px;}
+.main_content .main_Content_box .other_buy p span.gbP12 a:hover{text-decoration:none;}
+
+/*站外搜尋START*/
+
+
+/*===發起合購_小茜撰寫_結束===*/
+
+
+/*----===EE 新增修改===----*/
+/*店長*/
+.main_content .main_Content_box .Paymode_box .P_box .oh_reminded { width:738px; margin-top:10px;}
+.main_content .main_Content_box .Paymode_box .P_box .oh_reminded p{ font-size:13px; color:#F64949; line-height:20px; padding-left:105px;}
+/*會員*/
+.main_content .main_Content_box .Paymode_box .P_box .oh_reminded_m { width:738px; margin-top:10px;}
+.main_content .main_Content_box .Paymode_box .P_box .oh_reminded_m p{ font-size:13px; color:#F64949; line-height:20px; text-indent:105px;}
+/*----===EE 新增修改 結束===----*/
+
+
+/*----=== 0710 EE新增===---*/
+/*訂購單工具列*/
+.main_content_top .L_fun{ float:left; width:250px; height:30px; position:relative;}
+.main_content_top .L_fun ul.mail_tool{ margin-top:3px;}
+.main_content_top .L_fun ul.mail_tool li{ float:left; font-size:12px; color:#454545;}
+.main_content_top .L_fun ul.mail_tool li.pre_event a{ display:block; width: 34px; height: 25px; border: 1px solid #c0c0c0; border-radius: 5px; background-color: #f9f7f7; color: #656565; font-size: 16px; text-align: center; line-height: 27px;}
+.main_content_top .L_fun ul.mail_tool li.pre_event a:hover{ text-decoration:none; border-color:#999;}
+.main_content_top .L_fun ul.mail_tool li.next_event a{ display:block; width: 34px; height: 25px; border: 1px solid #c0c0c0; border-radius: 5px; background-color: #f9f7f7; color: #656565; font-size: 16px; text-align: center; line-height: 27px; margin-left:2px;}
+.main_content_top .L_fun ul.mail_tool li.next_event a:hover{ text-decoration:none; border-color:#999;}
+
+
+.main_content_top .L_fun ul.mail_tool li.del_no a{ display:block; width: 50px; height: 25px; border: 1px solid #c0c0c0; border-radius: 5px; background-color: #f9f7f7; color: #656565; font-size: 11px; text-align: center; line-height: 27px; margin-left:20px;}
+.main_content_top .L_fun ul.mail_tool li.del_no a img{ margin-right:3px;}
+.main_content_top .L_fun ul.mail_tool li.del_no a:hover{ text-decoration:none; border-color:#999;}
+
+.main_content_top .L_fun ul.mail_tool li.more_event a{ display:block; width: 85px; height: 25px; border: 1px solid #c0c0c0; border-radius: 5px; background-color: #f9f7f7; color: #656565; font-size: 11px; text-align: center; line-height: 27px; margin-left:2px;}
+.main_content_top .L_fun ul.mail_tool li.more_event a img{ margin-right:3px;}
+.main_content_top .L_fun ul.mail_tool li.more_event a:hover{ text-decoration:none; border-color:#999;}
+.main_content_top .L_fun .more_event_box{position:relative; border:1px solid #c0c0c0; background-color:#f9f7f7; z-index:1}
+.main_content_top .L_fun .more_event_box.box_mails{left: 149px;top: -1px;width: 83px;height: 56px;}
+.main_content_top .L_fun .box_deliver{left:147px; top:29px; width:83px; height:28px;}
+.main_content_top .L_fun .more_event_box ul li{ float:left; }
+.main_content_top .L_fun .more_event_box ul li a{ display:block;width:83px; height:28px; font-size:12px; color:#656565; text-decoration:none; text-align:center; line-height:28px;}
+.main_content_top .L_fun .more_event_box ul li a:hover{ background-color:#eeeeee;}
+
+.main_content_top .L_fun .admin_more_event_box{position:relative; border:1px solid #c0c0c0; background-color:#f9f7f7; z-index:1}
+.main_content_top .L_fun .admin_more_event_box.box_mails{left: 149px;top: -1px;width: 83px;height: 56px;}
+.main_content_top .L_fun .admin_box_mails{left:77px; top:26px; width:83px; height:56px;}
+.main_content_top .L_fun .admin_more_event_box ul li{ float:left; }
+.main_content_top .L_fun .admin_more_event_box ul li a{ display:block;width:83px; height:28px; font-size:12px; color:#656565; text-decoration:none; text-align:center; line-height:28px;}
+.main_content_top .L_fun .admin_more_event_box ul li a:hover{ background-color:#eeeeee;}
+
+/*匯出訂購單&宅配單*/
+.main_content .main_content_top_Rbox ul.mainstoreShop li a.order_paper{float:left; width:90px; height:25px; display:block; font-size:12px; line-height:28px; color:#666666; background:url(../../images/user/mails/store_pic.jpg) no-repeat -342px -141px;padding:0 0 0 20px; _display:inline; margin-top:4px;}
+.main_content .main_content_top_Rbox ul.mainstoreShop li a.order_paper:hover{ color:#454545;}
+.main_content .main_content_top_Rbox ul.mainstoreShop li a.delivery_paper{ float:left; width:90px; height:25px; display:block; font-size:12px; line-height:28px; color:#666666; background:url(../../images/user/mails/store_pic.jpg) no-repeat -342px -99px; padding: 0 10px 0 20px; margin:0 0 0 10px;_display:inline;  margin-top:4px;}
+.main_content .main_content_top_Rbox ul.mainstoreShop li a.delivery_paper:hover{ color:#454545;}
+
+/*----=== 0710 EE新增 結束===---*/
+
+
+.main_content .order_wrp_Mails .enter_data .right_box .location_select { float:left;}
+.main_content .order_wrp_Mails .enter_data .right_box .location_select select {color: #454545; height: 28px; margin: 2px 6px 2px 0; padding: 4px; font-size:13px;}
+
+/*----=== 0824 EE新增 ===---*/
+.main_content .main_Content_box .Paymode_box .P_box input.datechang { border:1px solid #CFCFCF ; color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px;  padding: 0 6px 0 6px; width: 150px; float:left;}
+.main_content .main_Content_box .Paymode_box .P_box a.day_icon{ float:left;padding: 7px 0 0 8px;}
+.main_content .main_Content_box .Paymode_box .P_box p.remind{ float:left; line-height:32px; padding:0 0 0 10px; letter-spacing:2px; font-size:12px; color:#888888;}
+.main_content .main_Content_box .Paymode_box .P_box p.remind_gray{width:480px;font-size: 12px;color: #888888;float:left;}
+.main_content .main_Content_box .Paymode_box .P_box p.remind_red{color: #F64949}
+
+.main_content .order_wrp_Mails .statistics .s_box td.revision{width:50px; padding-right:5px;}
+.main_content .order_wrp_Mails .statistics .s_box td.revision input{color: #666666; width:48px; height:26px; font-size:13px; font-weight:bold; letter-spacing: 1px; line-height: 25px; margin:5px 0px;  padding: 0 3px 0 3px;; text-align:center; border: 1px solid #b1b1b1;}
+.main_content .order_wrp_Mails .statistics .s_box td.remind{ font-size:12px; text-align:center; letter-spacing:1px; }
+.main_content .order_wrp_Mails .statistics .s_box td.remind p{color:#888888; line-height:13px; padding-bottom:10px;}
+.main_content .order_wrp_Mails .statistics .s_box td.nobtline { border:none;}
+/*----=== 0824 EE新增 結束===---*/
+
+/*----=== 0827 EE新增 ===---*/
+.main_content .main_Content_box .Paymode_box .P_box .user_box{ margin-top:6px; padding-left:0px;}
+.main_content .main_Content_box .Paymode_box .P_box input.refund { border:1px solid #CFCFCF ; color: #666666; font-weight:bold; text-align:center; font-size: 15px; height: 30px;letter-spacing: 1px;line-height: 30px;  padding: 0 6px 0 6px; width: 60px; margin-right:5px; float:left;}
+.main_content .main_Content_box .Paymode_box .P_box textarea.refundcause { border:1px solid #CFCFCF ; color: #666666; font-size: 15px; height:88px;letter-spacing: 1px; padding:6px; width: 590px; margin-right:5px; float:left;}
+.main_content .main_Content_box .Paymode_box .P_box p.remindcause { width:500px;  line-height:32px; letter-spacing:2px; font-size:12px; color:#888888; margin-left:100px;}
+.main_content .main_Content_box .Paymode_box .P_box p.refundcause_box { float:left; font-size:13px; display:block; color:#666666; width:620px;  line-height:20px; letter-spacing:1px; min-height:32px; padding-top:5px;}
+
+.main_content .Paymode_box a.enter{display:block;  margin:5px 0 15px 272px;  font-size:13px; display:block; color:#454545;  float:left; letter-spacing:1px; background: url(../../images/user/order_img/admin_btn.gif) no-repeat left -128px;text-decoration:none; _display:inline; }
+.main_content .Paymode_box a.enter span{display:block;  padding:0 80px; line-height:32px;background: url(../../images/user/order_img/admin_btn.gif) no-repeat right -160px;}
+.main_content .Paymode_box a.enter:hover{ background: url(../../images/user/order_img/admin_btn.gif) no-repeat left -192px;}
+.main_content .Paymode_box a.enter:hover span{background: url(../../images/user/order_img/admin_btn.gif) no-repeat right -224px;}
+.main_content .Paymode_box .back{ font-size:12px; float:left; margin:5px 0 0 20px; line-height:32px;}
+
+.main_content .main_Content_box p.textcause{ float:left; font-size:13px; color:#666666; line-height:30px; letter-spacing:1px;}
+
+/*--退款申請的四步驟--*/
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step{ width:685px; height:72px; margin:0 0 12px 32px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step1{float:left}
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step1 p{ width:185px; height:72px; display:block; background:url(../../images/user/refund_4step.gif) 0 0 no-repeat; text-indent:-9999px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step2{float:left}
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step2 p{ width:185px; height:72px; display:block; background:url(../../images/user/refund_4step.gif) -185px 0 no-repeat; text-indent:-9999px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step3{float:left}
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step3 p{ width:190px; height:72px; display:block; background:url(../../images/user/refund_4step.gif) -370px 0 no-repeat; text-indent:-9999px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step4{float:left}
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step4 p{ width:125px; height:72px; display:block; background:url(../../images/user/refund_4step.gif) -560px 0 no-repeat; text-indent:-9999px;}
+/*--步驟進行中--*/
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step1_in{float:left}
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step1_in p{ width:185px; height:72px; display:block; background:url(../../images/user/refund_4step.gif) 0 -72px no-repeat; text-indent:-9999px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step2_in{float:left}
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step2_in p{ width:185px; height:72px; display:block; background:url(../../images/user/refund_4step.gif) -185px -72px no-repeat; text-indent:-9999px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step3_in{float:left}
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step3_in p{ width:190px; height:72px; display:block; background:url(../../images/user/refund_4step.gif) -370px -72px no-repeat; text-indent:-9999px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step4_in{float:left}
+.main_content .main_Content_box .Paymode_box ul.Refund_4Step li.step4_in p{ width:125px; height:72px; display:block; background:url(../../images/user/refund_4step.gif) -560px -72px no-repeat; text-indent:-9999px;}
+
+/*注意icon*/
+.main_content .main_Content_box p.note_icon{ float:left; width:33px; height:19px; display:block;text-indent:-9999px; background:url(../../images/user/note_icon.gif) 0 0 no-repeat;}
+
+.main_content .main_Content_box .Paymode_box .P_box .Refund_box{ width:630px; float:left;}
+.main_content .main_Content_box .Paymode_box .P_box .Refund_box .for_gopay { width:400px; float:left;}
+.main_content .main_Content_box .Paymode_box .P_box .Refund_box .for_other { width:630px; float:left;}
+.main_content .main_Content_box .Paymode_box .P_box .Refund_box input.option{ width:18px; height:24px; float:left; margin:2px 3px 0 0;}
+.main_content .main_Content_box .Paymode_box .P_box .fill_bankdata{ width:618px; height:32px; display:block; background-color:#f5f5f5; float:left; margin-top:6px; padding:6px;}
+
+.main_content .main_Content_box .Paymode_box .P_box .fill_bankdata p.DataList{ width:96px; float:left; font-size:13px; color:#666666; text-align:right; line-height:30px; letter-spacing:2px; font-weight:bold;}
+.main_content .main_Content_box .Paymode_box .P_box .fill_bankdata p.DataList span{ color:#f64949;}
+.main_content .main_Content_box .Paymode_box .P_box .fill_bankdata p.DataListRight{ width:70px; float:left; font-size:13px; color:#666666; text-align:right; line-height:30px; letter-spacing:2px; font-weight:bold;}
+.main_content .main_Content_box .Paymode_box .P_box .fill_bankdata p.DataListRight span{ color:#f64949;}
+.main_content .main_Content_box .Paymode_box .P_box .fill_bankdata p.DataListRight_bankname{ width:100px; float:left; font-size:13px; color:#666666; text-align:right; line-height:30px; letter-spacing:2px; font-weight:bold;}
+.main_content .main_Content_box .Paymode_box .P_box .fill_bankdata p.DataListRight_bankname span{ color:#f64949;}
+.main_content .main_Content_box .Paymode_box .P_box input.bankbox { border:1px solid #CFCFCF ; color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px;  padding: 0 6px 0 6px; width: 150px; float:left;}
+.main_content .main_Content_box .Paymode_box .P_box input.bank_namebox { border:1px solid #CFCFCF ; color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px;  padding: 0 6px 0 6px; width: 180px; float:left;}
+.main_content .main_Content_box .Paymode_box .P_box input.bank_code { border:1px solid #CFCFCF ; color: #666666; font-size: 13px; height: 30px;letter-spacing: 1px;line-height: 30px;  padding: 0 6px 0 6px; width: 120px; float:left;}
+
+/*----=== 0827 EE新增 結束===---*/
+
+
+/*----=== 0903 EE新增_併單等部分===----*/
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List {width:598px; margin:0 15px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List p.beginning{ width:598px; height:29px; display:block; background-color:#fbf4f4; border-bottom:1px #ddd7d7 solid; color:#7b5a5a; font-size:13px; font-weight:bold; line-height:28px; text-indent:15px; letter-spacing:1px;}
+
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block { width:598px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .left_payinfo{ width:445px; float:left; padding:10px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .left_payinfo p{ color:#454545; font-size:13px; line-height:26px; letter-spacing:1px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .left_payinfo p span{ color:#7d7d7d;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .left_payinfo p a{ color:#105CB6;}
+
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .right_btm {width:100px; float:right;position:relative;}
+
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .right_btm .Pay_Rbox{ width:100px; padding:10px 0px 0 0; position:relative;}
+/*==提醒文字==*/
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .right_btm .Pay_Rbox .Pay_Rbox_Note{ position:absolute;left:-91px; top:43px; z-index:5; float: right; width:171px; padding:10px 10px 6px 10px; margin: 0px 0px 0px 0px; _display:inline; border-bottom:1px #CBCBCB solid; background:url(../../images/user/mails/pay_rbox_note_bgimg.gif) no-repeat left top;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .right_btm .Pay_Rbox .Pay_Rbox_Note p{font-size:12px; color:#454545; line-height:21px; letter-spacing:1px; text-indent:20px; background:url(../../images/user/mails/no_note_icom.gif) no-repeat left top; }
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .right_btm .Pay_Rbox .Pay_Rbox_Note p span a{font-size:12px; color:#105CB6; text-decoration:underline; }
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .right_btm .Pay_Rbox .Pay_Rbox_Note p span a:hover{font-size:12px; color:#FF9933; text-decoration:underline; }
+
+/*按鈕*/
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .right_btm a.img_btn_Yellow {float: right; font-size:13px; display:block; color:#454545; letter-spacing:1px; text-decoration:none; background:url(../../images/user/mails/mails_btn.gif) no-repeat left -128px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .right_btm a.img_btn_Yellow span{display:block; padding:0 20px; line-height:32px; background:url(../../images/user/mails/mails_btn.gif) no-repeat right -160px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .right_btm a.img_btn_Yellow:hover{ background-position:left -192px;} 
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .right_btm a.img_btn_Yellow:hover span{ background-position: right -224px;}
+
+
+/*==付款狀態_結束==*/
+
+
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .virtual_account { width:598px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .virtual_account .row{ width:598px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .virtual_account .row p.bline{ background-color:#fbf4f4; border-bottom:1px #ddd7d7 solid;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .virtual_account .row p.rline{ border-right:1px #c4c4c4 solid;}
+
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .virtual_account .row p.row01{ width:196px; height:29px; float:left; display:block;  line-height:28px; color:#454545; text-align: center; font-size:13px; letter-spacing:1px; margin-right:2px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .virtual_account .row p.row02{ width:196px; height:33px; float:left; display:block;  line-height:33px; color:#454545; text-align: center; font-size:13px; letter-spacing:1px; margin-right:2px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .virtual_account .row p.row03{ width:598px; height:29px; display:block;  line-height:28px; color:#454545; text-align: center; font-size:13px; letter-spacing:1px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .virtual_account .row p.row04{ width:598px; line-height:30px; color:#ca4141; text-align: center; font-size:18px; letter-spacing:1px; padding:6px 0;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .virtual_account .row p.row04 span{ color:#666666; font-size:15px; font-weight:bold;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .virtual_account .row p.row05{ width:598px; height:29px; line-height:28px; color:#f64949; text-align: center; font-size:13px; letter-spacing:1px; font-weight:bold;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .virtual_account .row p.row06{ width:598px; line-height:20px; display:block; color:#666666; text-align: center; font-size:13px; letter-spacing:1px; margin:10px 0;}
+
+/*退款清單*/
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .orders_list{ width:598px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .orders_list .row{ width:598px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .orders_list .row p.p_order{ font-size:13px; color:#7d7d7d; letter-spacing:1px; font-weight:bold; line-height:33px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .orders_list .row .choose{ width:505px; float:left; padding-left:15px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .orders_list .row .subtotal{ width:70px; float:right; text-align:center; }
+
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .orders_list tr.br_color{ background-color:#f2f2f2;}
+
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .orders_list tr td.order_check { width:15px; padding:10px 8px 8px 15px; _display:inline; border-top:1px #c1c1c1 dotted;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .orders_list tr td {font-size:13px; color:#454545; letter-spacing:1px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .orders_list tr td.order_name{width:485px; border-top:1px #c1c1c1 dotted; padding:6px 0;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .orders_list tr td.order_money{width:70px; border-top:1px #c1c1c1 dotted;text-align:center;}
+
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .orders_list tr td.order_sname { width:508px; border-top:1px #c1c1c1 dotted; padding:6px 0; padding-left:15px;}
+
+
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .rowbox{width:598px; display:block; background-color:#fbf4f4; border-bottom:1px #ddd7d7 solid; padding:8px 0px; margin-top:2px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .rowbox p.total{ font-size:13px; color:#454545; text-align:right; letter-spacing:1px; padding-right:20px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .rowbox p.total span{ font-size:18px; color:#ca4141; margin:0 3px;}
+
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .rowbox p.totals{ font-size:15px; color:#666666; text-align:center; letter-spacing:1px; padding-right:20px; font-weight:bold; line-height:35px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .rowbox p.totals span{ font-size:20px; color:#ca4141; margin:0 5px; line-height:30px;}
+
+.main_content .Paymode_box a.interval{margin:15px 0 5px 195px;}
+.main_content .Paymode_box .backinterval{ margin:15px 0 0 20px;}
+
+/*----=== 0903 EE新增_併單等部分 結束===----*/
+
+/*---===0926 EE新增_訂購單上的地址區域輸入*/
+.main_content .order_wrp_Mails .enter_data .right_box .location_select { float:left;}
+.main_content .order_wrp_Mails .enter_data .right_box .location_select select {color: #454545; height: 28px; margin: 2px 6px 2px 0; padding: 4px; font-size:13px;}
+.main_content .order_wrp_Mails .enter_data .right_box .location_select .no_select{font-size: 13px;color: #666;font-weight: bold;line-height: 32px;}
+/*---===0926 EE新增_訂購單上的地址區域輸入_結束*/
+
+
+/*---===0108 EE新增 寬度限制*/
+.main_content .main_Content_box p.noteTitle_other{ width:630px; display:block;}
+.main_content .main_Content_box p.noteTitle_other span{ color: #f64949; margin-left:5px;}
+
+.main_content .PaySudmenu_box ul.PaySudmenu li a.Pay_btn_other { font-size:15px; display:block; color:#8c7a7a; float:left; text-decoration:none; font-weight:bold; background-color:#f4f4f4;  border-top:2px #CBCBCB solid; border-left:1px #CBCBCB solid; border-right:1px #CBCBCB solid; text-align:center; min-width:116px;}
+.main_content .PaySudmenu_box ul.PaySudmenu li a.Pay_btn_other span{display:block; padding:0 20px; line-height:30px; background-color:#f4f4f4;}
+.main_content .PaySudmenu_box ul.PaySudmenu li a.Pay_btn_other:hover{font-size:15px; display:block; color:#8c7a7a; float:left; text-decoration:none; font-weight:bold; background-color:#ffffff;  border-top:2px #CBCBCB solid; border-left:1px #CBCBCB solid; border-right:1px #CBCBCB solid; text-align:center; min-width:116px;} 
+.main_content .PaySudmenu_box ul.PaySudmenu li a.Pay_btn_other:hover span{display:block; padding:0 20px; line-height:31px; background-color:#ffffff;}
+
+.main_content .PaySudmenu_box ul.PaySudmenu li a.Pay_btn_other_Active { font-size:15px; display:block; color:#8c7a7a; float:left; text-decoration:none; font-weight:bold; background-color:#ffffff;  border-top:2px #CBCBCB solid; border-left:1px #CBCBCB solid; border-right:1px #CBCBCB solid; text-align:center; min-width:116px; }
+.main_content .PaySudmenu_box ul.PaySudmenu li a.Pay_btn_other_Active span{display:block; padding:0 20px; line-height:31px; background-color:#ffffff;}
+
+
+/*20130515_Evanna新增_貨到付款文字*/
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .left_payinfo p.txt_arrival{color: #454545; font-size: 13px; letter-spacing: 1px; line-height:26px; padding:10px 0; border-bottom:1px #ccc dotted; margin-bottom:10px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .left_payinfo p span.txtB12{ color:#454545; font-weight:bold;}
+.main_content .main_Content_box .Paymode_box .PaySudmenu_textbox .Payment_List .Pay_Block .left_payinfo p span.txt_red{ color:#F64949; font-weight:bold; padding: 0 4px; font-family:"Century Gothic"; font-size:14px;}
+
+.main_content .main_Content_box .mybuy_box .mybuy_goods .table_total .total_con p.txt_B15{font-size:15px; color:#454545; text-align: left; font-weight:bold; letter-spacing:1px; text-indent:10px;}
+
+
+/*20130531_Evanna新增_前往PayNii連結文字*/
+.main_content .main_Content_box p.noteRed a.go_paynii{ color:#105bc6; font-size:12px; font-weight:normal; letter-spacing:1px; text-decoration:underline; padding-left:15px; }
+.main_content .main_Content_box p.noteRed a:hover.go_paynii{ text-decoration:none;}
+.main_content .main_Content_box p.noteRed span.txt_gray12{ font-size:12px; color:#888; font-weight:normal;}
+.main_content .main_Content_box p.noteRed span.txt_gray12 a{ color:#105cb6; padding:0 3px;}
+
+
+/*20130605_Evanna新增_paynii退款文字*/
+.main_content .main_Content_box .Paymode_box .P_box p.refund_remind{ float:left; font-size:12px; color:#888; letter-spacing:1px; padding-left:95px; _padding-left:0; }
+.main_content .main_Content_box .Paymode_box .P_box p.refund_remind a{color:#105cb6; text-decoration:underline;}
+.main_content .main_Content_box .Paymode_box .P_box p.refund_remind a:hover{ text-decoration:none;}
+
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step{width: 685px; height:72px; margin: 0 0 12px 32px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step li{ float:left; height:72px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step li p{ text-indent:-9999px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step li.step1{ width:230px; background:url(../../images/user/refund_3step.jpg) no-repeat 0 0;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step li.step2{ width:230px; background:url(../../images/user/refund_3step.jpg) no-repeat -230px 0;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step li.step3{ width:225px; background:url(../../images/user/refund_3step.jpg) no-repeat -460px 0;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step li.step1_in{ width:230px; background:url(../../images/user/refund_3step.jpg) no-repeat 0 -72px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step li.step2_in{ width:230px; background:url(../../images/user/refund_3step.jpg) no-repeat -230px -72px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step li.step3_in{ width:225px; background:url(../../images/user/refund_3step.jpg) no-repeat -460px -72px;}
+
+.main_content .main_Content_box p.noteTitle a.txt_invoice{ color:#105cb6; text-decoration:underline; font-size:12px; padding-left:10px;}
+.main_content .main_Content_box p.noteTitle a.txt_invoice:hover{ text-decoration:none;}
+
+
+/*新增發票顏色-綠色*/
+.main_content .main_Content_box p.noteGreen{ float:left; font-size:13px; color:#454545; line-height:30px; letter-spacing:1px;}
+.main_content .main_Content_box p.noteGreen span{ color:#6D9B00; padding:0 3px; font-weight:bold;}
+
+/*新_付款方式選項*/
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box{ float:left; width:600px; padding:5px 15px 10px 15px; background-color:#FFF; border:1px solid #eee; border-radius:4px; letter-spacing:1px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box.no_bg{ background:none; border:none;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box h4{ font-size:15px; color:#f36d62; background:url(../../images/user/mails/icon_pay_options.gif) no-repeat 0 8px; text-indent:15px; line-height:25px; margin:10px 0;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box h4 span{ font-size:12px; color:#656565; font-weight:normal;}
+
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode{ width:570px; background-color:#f2f2f2; border:1px solid #e8e8e8; margin:-1px auto;padding:13px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode h5{ float:left; width:162px; color:#656565; font-size:15px; line-height:30px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode h5.icon_atm{ background:url(../../images/user/mails/icon_pay_options.gif) no-repeat 0 -55px; text-indent:45px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode h5.icon_card{ background:url(../../images/user/mails/icon_pay_options.gif) no-repeat 0 -103px; text-indent:45px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode h5.icon_ihergo{ background:url(../../images/user/mails/icon_pay_options.gif) no-repeat 0 -143px; text-indent:45px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode h5.icon_famiport{ background:url(../../images/user/mails/icon_pay_options.gif) no-repeat 0 -188px; text-indent:45px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode h5.icon_payarrive{ background:url(../../images/user/mails/icon_pay_options.gif) no-repeat 0 -270px; text-indent:45px;}
+
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode .Explain_Box{ float:left; border-left:#dddddd 1px solid; width:406px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode .Explain_Box p{ font-size:13px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode .Explain_Box p.delivery{ line-height:24px; border-bottom:1px dotted #CBCBCB; padding-bottom:5px; margin-bottom:5px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode .Explain_Box p span{ color:#f64949; font-weight:bold;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode .Explain_Box p a{ color:#105cb6;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode .Explain_Box .exp_content{ float:left; width:288px; min-height:33px; border-left:#FFFFFF 1px solid; padding-left:10px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode .Explain_Box .exp_content p.morehei { line-height:33px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode .Explain_Box .exp_content .bank{ margin-top:5px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode .Explain_Box .exp_content .bank a{ font-size:13px; padding:3px 10px; background-color:#FFF98E; text-decoration:none; border:1px solid #FFBC06; _border:none; *border:none; border-radius:4px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode .Explain_Box .exp_content .bank a:hover{ background-color:#fffaa5; border:1px solid #ff7800; _border:none; *border:none; color:#454545;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode .Explain_Box .more_width{ width:370px;}
+
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode .Explain_Box p.btm{ float:right; width:96px; height:32px; text-align:center; line-height:32px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode .Explain_Box p.btm a{ width:96px; height:32px; display:block; color:#454545;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Options_mode .Explain_Box p.btm a span{ color:#454545; font-weight:normal;}
+
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Amounts{ margin-top:10px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Amounts p.total{ float:left; font-size:13px; letter-spacing:1px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Amounts p.total span{ font-size:12px; color:#888888;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Amounts p.total span.money{ font-size:15px; color:#f64949; font-weight:bold;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Amounts input{ float:left; margin:5px 6px 0px 15px;  *margin:-1px 3px 0px 15px;}
+
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .Amounts p.br_red{ float:left; width:565px; background-color:#ffd6d6; font-size:13px; text-align:center; margin-top:6px; line-height:26px;}
+
+.main_content .main_Content_box .Paymode_box .EditPay_btn{margin: 0 auto;width: 100%;height: 32px;padding: 20px 0;}
+.main_content .main_Content_box .Paymode_box .EditPay_btn a.edit{margin: 15px 0 5px 320px;font-size: 13px;display: block;color: #454545;float: left;letter-spacing: 1px;background: url(../../images/shop/store/admin/admin_btn.gif) no-repeat left 0;text-decoration: none;}
+.main_content .main_Content_box .Paymode_box .EditPay_btn a.edit span{display: block;padding: 0 24px;line-height: 32px;background: url(../../images/shop/store/admin/admin_btn.gif) no-repeat right -32px;}
+.main_content .main_Content_box .Paymode_box .EditPay_btn a.edit:hover{background:url(../../images/shop/store/admin/admin_btn.gif) no-repeat left -64px;}
+.main_content .main_Content_box .Paymode_box .EditPay_btn a.edit:hover span{background:url(../../images/shop/store/admin/admin_btn.gif) no-repeat right -96px;}
+
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .box_con{ float:left; width:630px; margin: 0px 0 10px 5px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .box_con.margin_top{ margin-top:10px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .box_con .description{margin: 5px 0px 0px 18px;width: 360px;background-color: #F2F2F2;font-size: 13px; padding:15px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .box_con .description span{color: #F64949;font-weight: bold;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .box_con .big_img_radio{float: left;margin: 8px 5px 0px 0px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .box_con .how{float: left;color: #454545;letter-spacing: 1px;line-height: 30px;padding: 0px;font-size: 15px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .box_con .icon_ihergo{background: url(../../images/user/mails/icon_pay_options.gif) no-repeat 0 -143px;text-indent: 35px;height: 30px;margin-left: 20px;color: #454545;letter-spacing: 1px;line-height: 30px;padding: 0px;font-size: 13px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .box_con .icon_card{background: url(../../images/user/mails/icon_pay_options.gif) no-repeat 0 -103px;text-indent: 35px;height: 30px;margin-left: 20px;color: #454545;letter-spacing: 1px;line-height: 30px;padding: 0px;font-size: 13px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .box_con .icon_atm{background: url(../../images/user/mails/icon_pay_options.gif) no-repeat 0 -55px;text-indent: 35px;height: 30px;margin-left: 20px;color: #454545;letter-spacing: 1px;line-height: 30px;padding: 0px;font-size: 13px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .box_con .icon_famiport{background: url(../../images/user/mails/icon_pay_options.gif) no-repeat 0 -188px;text-indent: 35px;height: 30px;margin-left: 20px;color: #454545;letter-spacing: 1px;line-height: 30px;padding: 0px;font-size: 13px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .box_con .icon_payarrive{background: url(../../images/user/mails/icon_pay_options.gif) no-repeat 0 -270px;text-indent: 35px;height: 30px;margin-left: 20px;color: #454545;letter-spacing: 1px;line-height: 30px;padding: 0px;font-size: 13px;}
+.main_content .main_Content_box .Paymode_box .PaySudmenuOptions_box .box_con .others{height: 30px;margin-left: 20px;color: #454545;letter-spacing: 1px;line-height: 30px;padding: 0px;font-size: 13px;}
+/*==增加修改按鈕==*/
+.main_content .main_Content_box .mybuy_box .mybuy_infor .table_mybuy_infor a.edit_goods{color:#656565; text-decoration:none; font-size:12px; line-height:26px; _line-height:30px; padding: 3px 10px; *padding: 5px 10px 2px 10px; background:url(../../images/user/us_mails_btn.gif) repeat-x left -256px; border: 1px solid #b6b6b6; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); border-radius: 2px; margin-left:8px;}
+.main_content .main_Content_box .mybuy_box .mybuy_infor .table_mybuy_infor a.edit_goods:hover{ color:#888; border: 1px solid #aaa;}
+
+
+/*==付款回覆popup==*/
+.payment_reply_box{ width:550px; padding:15px 25px;}
+.payment_reply_box h4{ font-size:15px; color:454545; font-weight:normal; padding-left:20px;}
+.payment_reply_box .reply_content{ width:100%; margin-top:15px;}
+.payment_reply_box .reply_content .item_box{ padding:0 0 5px 0;}
+.payment_reply_box .reply_content .item_box .left_box{ float:left; width:100px;}
+.payment_reply_box .reply_content .item_box .right_box{ float:left; padding-left:5px;}
+.payment_reply_box .reply_content .item_box p{ font-size:15px; color:#666; line-height:30px; }
+.payment_reply_box .reply_content .item_box h5{ color:#454545; font-size:15px; text-align:right; line-height:30px;}
+
+.payment_reply_box .reply_content .item_box span.txt_red{ color:#f64949; font-weight:bold; padding-right:3px; font-family: Verdana, Geneva, sans-serif;}
+.payment_reply_box .reply_content .item_box span.txt_red12{ font-size:12px; color:#f64949; letter-spacing:1px; line-height:18px; display:block; margin-top:5px;}
+.payment_reply_box .reply_content .item_box span.txt_gray{ color:#888; font-size:12px; letter-spacing:1px;}
+.payment_reply_box .reply_content .item_box highlight{ color:#f64949;}
+.payment_reply_box .reply_content .item_box input{ height:30px; line-height:30px; padding: 0 8px; border:1px #e3e3e3 solid; font-size:13px; color:#454545; font-family:Arial, Helvetica, sans-serif;}
+.payment_reply_box .reply_content .item_box input.w100{ width:100px; margin-right:5px; letter-spacing:1px;}
+.payment_reply_box .reply_content .item_box input.w300{ width:340px;}
+
+
+/*==店長帳號後加客服電話==*/
+.main_content .user_box_margin{ margin-right:100px;}
+.main_content .user_boxh32 p.txt_tel{ font-size:12px; color:#105cb6;}
+
+
+/*==20150127_大合購退款流程==*/
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step_union{width: 685px; height:72px; margin: 0 0 12px 32px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step_union li{ float:left; height:72px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step_union li p{ text-indent:-9999px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step_union li.step1{ width:230px; background:url(../../images/user/Refund_3Step_union.jpg) no-repeat 0 0;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step_union li.step2{ width:230px; background:url(../../images/user/Refund_3Step_union.jpg) no-repeat -230px 0;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step_union li.step3{ width:225px; background:url(../../images/user/Refund_3Step_union.jpg) no-repeat -460px 0;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step_union li.step1_in{ width:230px; background:url(../../images/user/Refund_3Step_union.jpg) no-repeat 0 -72px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step_union li.step2_in{ width:230px; background:url(../../images/user/Refund_3Step_union.jpg) no-repeat -230px -72px;}
+.main_content .main_Content_box .Paymode_box ul.Refund_3Step_union li.step3_in{ width:225px; background:url(../../images/user/Refund_3Step_union.jpg) no-repeat -460px -72px;}
+
+
+/*==20151008_增加主購禮提醒==*/
+.main_content .order_wrp_Mails .detail_box .add_goods a{ margin:0 10px; float:right;}
+.main_content .order_wrp_Mails .detail_box .add_goods p.gift_remind{ float:left; font-size:15px; color: #F64949; line-height: 25px; letter-spacing:1px; font-weight: bold; margin: 0 0 0 20px;}
+.main_content .order_wrp_Mails .detail_box .add_goods p.gift_remind a.gift_rule_btn{ background:none; float:none; font-size:15px; color:#105CB6; margin:0 1px; letter-spacing:1px; display: inline;}
+.main_content .order_wrp_Mails .detail_box .add_goods p.gift_remind a.gift_rule_btn span{ background:none; padding:0; line-height:25px; display: inline;}
+.main_content .order_wrp_Mails .detail_box .add_goods p.gift_remind a.gift_rule_btn:hover{ text-decoration:underline;}
+
+/*==訂單站內信==*/
+.main_content #mails_content_wrapper .main_content{float: right;width: 790px;}
+.main_content #mails_content_wrapper .main_content .PadTop0{height: 40px;padding: 0;}
+.main_content #mails_content_wrapper .main_content .mails_title_box_deliver{width: 790px;height: 30px;padding: 5px 0px 10px 0px;background-color: #f36d62;border-bottom: 1px #d15333 solid;overflow: hidden;}
+.main_content #mails_content_wrapper .main_content .notify_title{width: 770px;padding-left: 20px;height: 30px;}
+.main_content #mails_content_wrapper .main_content .notify_title .l_notify{float: left;height: 20px;overflow: hidden;padding-top: 10px;}
+.main_content #mails_content_wrapper .main_content .notify_title .l_notify span.txt_notify2{font-size: 15px;color: #fff;font-weight: bold;letter-spacing: 2px;line-height: 20px;background: url(../../images/user/mails/mails_m_icom.jpg) no-repeat 0 4px;padding-left: 24px;}
+.main_content #mails_content_wrapper .main_content .notify_title .r_open_red{float: right;width: 100px;height: 20px;line-height: 20px;margin: 10px 15px 0 0;_display: inline;}
+.main_content #mails_content_wrapper .main_content .notify_title .r_open_red a.open_all{display: block;font-size: 12px;color: #fff;letter-spacing: 1px;background: url(../../images/user/mails/icon_stretch_red.gif) no-repeat 0 4px;text-indent: 16px;}
+.main_content #mails_content_wrapper .main_content .notify_title .r_open_red a.open_all:hover{background-position: 0 -21px;text-decoration: none;color: #e8ecf6;}
+
+.main_content .notify_row{padding: 8px 15px 0 15px;width: 758px;height: 43px;padding: 8px 15px 0 15px;border-bottom: 1px #d6d6d6 solid;background: #f3f3f3;position: relative;}
+.main_content .notify_row_button{width:758px; height:auto; border-bottom:0; background-color:#fff; background-image:none}
+.main_content .notify_row_reply{width:750px; height: auto; border-bottom:0; background-color:#fff; background-image:none; margin:10px 0 15px 0;}
+.main_content .notify_row_active{background:none ;background-color:#fff}
+.main_content .notify_row .icon_reply{ width:16px; height:16px; position:absolute; left:38px; top:33px; background:url(../../images/user/mails/icon_reply.png) no-repeat; *background:url(../../images/user/mails/icon_reply.gif) no-repeat; *left:43px; top:33px; text-indent:-9999px; }
+
+.main_content .notify_row_open{width: 758px;height: 42px;border-bottom: 0;background-color: #fff;background-image: none;padding: 8px 15px 0 15px;position: relative;}
+.main_content .l_member_pic{float: left;width: 30px;height: 30px;margin: 2px 9px 0 5px;}
+.main_content .notify_row .icon_reply {width: 16px;height: 16px;position: absolute;left: 38px;top: 33px;background: url(../../images/user/mails/icon_reply.png) no-repeat;top: 33px;text-indent: -9999px;}
+.main_content .r_mail {float: left;width: 713px;}
+.main_content .mail_infor {width: 713px;height: 16px;height: 18px;line-height: 16px;}
+.main_content .mail_infor h3 {float: left;font-size: 12px;color: #666;font-weight: normal; height: 16px;}
+.main_content span.textGR {font-size: 13px;color: #6d9b00;text-decoration: none;font-weight: bold;}
+.main_content .mail_infor p.mail_time {float: right;font-size: 12px;color: #999;height: 16px;}
+.main_content .mail_infor p.mail_time.margin_top{ margin-top:-10px;}
+.main_content .notify_row .mail_handle {width: 713px;height: auto;padding-top: 2px;position: relative;}
+.main_content .notify_row .mail_handle a.send {font-size: 12px;color: #888;text-decoration: none;}
+.main_content .notify_row .mail_handle a.to_open span {background: url(../../images/user/board/icon_mail.gif) no-repeat -5px -118px;}
+.main_content .notify_row .mail_handle a.send:hover {text-decoration: underline;}
+.main_content .l_addbooks{ float:right; width:713px; border-bottom:1px #ccc dotted; padding:5px 0 5px 0; margin-right:15px}
+.main_content .l_addbooks p.receiver_box{ float:left; height:20px; margin:0 10px 3px 0; font-size:12px; color:#666; _display: inline;}
+.main_content .l_addbooks p.receiver_box a.user{ font-size:12px; color:#666; text-decoration:none; font-weight:bold;}
+.main_content .l_addbooks p.receiver_box a:hover.user{ color:#666; text-decoration: underline;}
+.main_content .l_addbooks p.receiver_box span.textGR{ font-size:12px; color:#6d9b00; text-decoration:none; font-weight:bold;}
+.main_content .l_addbooks p.receiver_box span.text9 { font-size:11px; color:#666;}
+
+.main_content .notify_body{width:788px; border-bottom:1px solid #d6d6d6; background-color:#fff;}
+.main_content .notify_body p{ font-size:15px;}
+.main_content .notify_body .mail_content{float:right; width:713px; _width:708px; padding:10px 0; margin-right:15px; color:#454545; font-size:12pt; line-height:28px; font-family:arial, helvetica, sans-serif, "新細明體"} 
+.main_content .notify_body .mail_content p {padding: 0; margin: 0;}
+.main_content .notify_body .mail_content img {border:0;}
+.main_content .notify_body .mail_content a{color: #105CB6; text-decoration:none}
+.main_content .notify_body .mail_content a:hover {color: #ff9933; text-decoration:underline}
+.main_content .notify_body .mail_content .recommend_club {float: left; width:450px;}
+.main_content .notify_body .mail_content .recommend_club p.more_space {line-height:30px}
+.main_content .notify_body .mail_content .recommend_club a.private{color: #105CB6; text-decoration:none;background: transparent url("../../images/club/icon_private.gif") no-repeat scroll 0px 0px;padding-left: 22px;}
+.main_content .notify_body .mail_content .recommend_club a.protect{color: #105CB6; text-decoration:none;background: transparent url("../../images/club/icon_private.gif") no-repeat scroll 0px -46px;padding-left: 22px;}
+.main_content .notify_body .mail_content .recommend_club a.public{color: #105CB6; text-decoration:none;}
+.main_content .notify_body .mail_content .recommend_club a:hover {color: #ff9933; text-decoration:underline}
+
+.main_content .notify_body .map{width: 190px; height: 150px; float: right; margin: 50px 30px 0 0;}
+.main_content .notify_body .club_description{margin:20px 30px 0 0; padding:15px; background-color:#f1f1f1; font-size:14px; color:#454545;}
+.main_content .notify_body .club_description img.user{vertical-align:top; margin:-3px 3px 0 0;}
+.main_content .notify_body .btn .go{background-color: #F7CB00;color: #FFF;font-size: 18px; font-weight: bold;padding: 10px 50px;display: block;text-align: center;width: 100px; margin: 20px 0 10px 230px;border-radius: 4px;text-decoration: none;}
+.main_content .notify_body .btn .go:hover{ opacity:0.8; color: #FFF}
+.main_content .notify_body .btn .go_event{background-color: #60b9f7;color: #FFF;font-size: 18px; font-weight: bold;padding: 10px 50px;display: block;text-align: center;width: 100px; margin: 20px 0 10px 230px;border-radius: 4px;text-decoration: none;}
+.main_content .notify_body .btn .go_event:hover{ opacity:0.8; color: #FFF}
+
+.main_content .l_member_pic{ float:left; width:30px; height:30px; margin:2px 9px 0 5px;}
+.main_content .pic_PaddT4{ padding-top:4px;}
+.main_content .r_mail{ float:left; width:713px; _width:708px;}
+.main_content .mail_infor{ width:713px;_width:708px; height:16px; height:18px \9; line-height:16px}
+.main_content .mail_w600{ width:614px;}
+
+.main_content .r_reply_box{ float:left; width:654px; height:44px; border:1px #ddd solid; border-top:1px #ccc solid; margin: 8px 0 0 0; padding:6px 0 0 12px;}
+.main_content p.txt_N12_9{ font-size:12px; color:#999; letter-spacing:2px;}
+.main_content p.txt_N15_9{ font-size:12px; color:#999; letter-spacing:2px;}
+.main_content .r_reply_box p a{ text-decoration:underline; color:#454545;}
+.main_content .r_reply_box p a:hover{ text-decoration:none; color:#454545;}
+
+.main_content .r_mail .mail_to{font-size: 12px;color: #999;padding-top: 2px;float: left;}
+.main_content .r_mail p.view_w715{width: 715px;height: 16px;overflow: hidden;font-size: 12px;color: #666;letter-spacing: 1px;padding-top: 2px;}
+.main_content .r_mail .mybuy_tool_position {position: absolute;left: 498px;top: 0;width: 215px;height: 18px;}
+
+.main_content .OPENimg_btn_Box{width: auto;height: 30px;padding-left: 308px;padding-bottom: 25px;}
+.main_content .OPENimg_btn_Box_NO{border-bottom: none;background-image: none;padding-bottom: 10px;}
+.main_content .OPENimg_btn_Box a.OPENimg_btn {float: left;font-size: 13px;display: block;text-align: center;margin-right: 20px;color: #454545;letter-spacing: 1px;text-decoration: none;background: url(../../images/user/mails/mails_btn.gif) no-repeat left top;}
+.main_content .OPENimg_btn_Box a.OPENimg_btn span {display: block;padding: 0 80px;line-height: 32px;background: url(../../images/user/mails/mails_btn.gif) no-repeat right -32px;}
+.main_content .OPENimg_btn_Box a.OPENimg_btn_RedT {float: left;font-size: 13px;display: block;letter-spacing: 1px;text-decoration: none;width: 50px;}
+.main_content .OPENimg_btn_Box a.OPENimg_btn_RedT span {display: block;line-height: 32px;}
+.main_content .OPENimg_btn_Box a.OPENimg_btn:hover{ background-position:left -64px;} 
+.main_content .OPENimg_btn_Box a.OPENimg_btn:hover span {background-position: right -96px;}
+
+.main_content a.member_account {font-size: 13px;color: #3B5998;text-decoration: none;font-weight: bold;}
+.main_content a.member_account:hover{ text-decoration:underline;}
+.mybuy_tool ul li {float: right;margin-left: 5px;height: 18px;}
+.mybuy_tool ul li a {display: block;font-size: 13px;color: #666666;letter-spacing: 1px;text-decoration: none;}
+.mybuy_tool ul li a span.undo {background: url(../../images/user/mails/ihergomail_shopicon.gif) no-repeat 3px 1px;}
+.mybuy_tool ul li a span {padding: 0 0px 0 20px;color: #666666;}
+.mybuy_tool ul li a:hover span.undo {color: #454545;background-position: -126px 1px;text-decoration: none;}

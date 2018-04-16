@@ -1,0 +1,520 @@
+﻿@charset "utf-8";
+/* CSS Document */
+h1, h2, h3, h4, h5, h6, p, a, ul, li{ font-family:Arial, Helvetica, sans-serif, "新細明體-ExtB"; letter-spacing:1px;}
+.clearfix:after {content: "."; display: block; clear: both; visibility: hidden;	line-height: 0;	height: 0;}
+
+.index_wrapper{ width:100%; background-color:#fff;}
+.bg_special{/*background:url(../../images/home/ihergo_index/bg_index_event.jpg) no-repeat center 40px;*/}
+
+/*==廣告優惠曝光_開始==*/
+.index_wrapper .dialog_ADbox{ position:absolute; right:-50px; top:30px; width:250px; box-shadow:2px 4px 5px rgba(51, 51, 102, 0.6); z-index:10; background-color:#fff;}
+.index_wrapper .icon_close{position:absolute; right:10px; top:15px;width:14px; height:14px;}
+.index_wrapper .icon_close a{ display:block; width:14px; height:14px; background:url(../../images/ad/icon_close.jpg) no-repeat 0 0; text-indent:-9999px;}
+.index_wrapper .icon_close a:hover{background:url(../../images/ad/icon_close.jpg) no-repeat 0 -20px;}
+.index_wrapper .icon_arrow{position:absolute; right:50px; top:-6px; width:13px; height:7px; background:url(../../images/ad/icon_arrow.gif) no-repeat;}
+.index_wrapper .AD_content{width:250px; border:1px #919191 solid; background-color:#fff;}
+.index_wrapper .AD_content .imgAD{ width:250px; height:75px; margin:10px 0 3px 0;}
+.index_wrapper .AD_content .AD_free{ background:url(../../images/ad/Bigicon_buyAD.jpg) no-repeat 0 0;}
+.index_wrapper .AD_content .AD_10off{ background:url(../../images/ad/Bigicon_buyAD.jpg) no-repeat 0 -75px;}
+.index_wrapper .AD_content .AD_20off{ background:url(../../images/ad/Bigicon_buyAD.jpg) no-repeat 0 -150px;}
+.index_wrapper .AD_content .AD_30off{ background:url(../../images/ad/Bigicon_buyAD.jpg) no-repeat 0 -225px;}
+.index_wrapper .AD_content p{ font-size:15px; color:#454545; font-weight:normal; line-height:20px; letter-spacing:3px; padding: 0 10px 0 18px; text-align:left;}
+.index_wrapper .AD_content p span{ color:#ed5655; font-weight:bold;}
+.index_wrapper .AD_content a.btn_buy{ display:block; color:#105CB6; text-align:center; padding: 10px 0; font-size:13px; letter-spacing:2px; line-height:20px; font-weight:normal;}
+
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .the_title_box h2 .icon_arrow{right:100px; top:-6px;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .the_title_box h2 .dialog_ADbox{ top:34px;}
+
+
+/*==廣告區塊_開始==*/
+.index_wrapper .ad_auto_box a.banner_w980{ display:block; width:980px; height:50px; overflow:hidden;}
+
+.index_wrapper .index_main_box{ width:980px; margin: 0 auto; padding:10px 0;}
+.index_wrapper .index_main_box .left_wrp{ float:left; width:193px;}
+.index_wrapper .index_main_box .right_wrp{ float:right; width:767px;}
+
+/*==tab_開始==*/
+.index_wrapper .index_main_box .left_wrp .main_tab_box{ width:193px; margin: 0 auto;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box ul.main_tab{ width:193px; height:42px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box ul.main_tab li{ float:left; height:42px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box ul.main_tab li a{display:block; text-align:center; font-weight:bold; letter-spacing:2px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box ul.main_tab li a:hover{ text-decoration:none; opacity:0.9; filter:Alpha(Opacity=90);}
+
+.index_wrapper .index_main_box .left_wrp .main_tab_box ul.main_tab li a.tab_event_active{width:110px; height:42px; line-height:42px; background:url(../../images/home/ihergo_index/pic_tab.jpg) no-repeat left top; color:#743f31; font-size:15px; }
+.index_wrapper .index_main_box .left_wrp .main_tab_box ul.main_tab li a.tab_event{width:83px; height:36px; line-height:36px; color:#743f31; margin-top:6px; font-size:13px; background:url(../../images/home/ihergo_index/pic_tab.jpg) no-repeat left -42px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box ul.main_tab li a.tab_store_active{width:110px; height:42px; line-height:42px; background:url(../../images/home/ihergo_index/pic_tab.jpg) no-repeat right -42px; color:#fff; font-size:15px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box ul.main_tab li a.tab_store{width:83px; height:36px; line-height:36px; color:#fff; margin-top:6px; font-size:13px; background:url(../../images/home/ihergo_index/pic_tab.jpg) no-repeat right top;}
+
+/*==選區域_開始==*/
+.index_wrapper .index_main_box .left_wrp .main_tab_box .area_box{ width:181px; border:1px #e3e3e3 solid; border-width:1px 1px 0 1px; padding: 16px 0 17px 10px; *padding-bottom:4px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .area_box ul li{ margin-bottom:13px; *margin-bottom:10px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .area_box ul li:last-child{ margin-bottom:0;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .area_box ul li p{ padding-left:36px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .area_box ul li p a{ display:block; float:left; font-size:12px; color:#454545; letter-spacing:0; line-height:20px; padding: 0 5px; border-right:1px #d6d6d6 solid;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .area_box ul li p a:last-child{ border-right:none;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .area_box ul li.area_a{ height:40px; background:url(../../images/home/ihergo_index/pic_tab.jpg) no-repeat 0 -90px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .area_box ul li.area_a a{ padding: 0 6px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .area_box ul li.area_b{ height:20px; background:url(../../images/home/ihergo_index/pic_tab.jpg) no-repeat 0 -130px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .area_box ul li.area_c{ height:20px; background:url(../../images/home/ihergo_index/pic_tab.jpg) no-repeat 0 -150px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .area_box ul li.area_d{ height:20px; background:url(../../images/home/ihergo_index/pic_tab.jpg) no-repeat 0 -170px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .area_box ul li.area_e{ height:20px; background:url(../../images/home/ihergo_index/pic_tab.jpg) no-repeat 0 -190px;}
+
+/*==合購流程_開始==*/
+.index_wrapper .index_main_box .left_wrp .main_tab_box .event_process{ width:190px; height:160px; background:url(../../images/home/ihergo_index/pic_event_process.jpg) no-repeat; border:1px #e3e3e3 solid; border-width:0 1px 1px 1px; padding: 0 0 1px 1px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .event_process a{ display:block; width:190px; height:160px; text-indent:-9999px;}
+
+
+/*==合購聖品_開始==*/
+.index_wrapper .index_main_box .left_wrp .use_box{ width:193px; margin: 0 auto; margin-top:15px;}
+.index_wrapper .index_main_box .left_wrp .use_box p{ text-indent:-9999px; width:193px; height:172px; background:url(../../images/home/ihergo_index/pic_explain.jpg) no-repeat;}
+
+.index_wrapper .index_main_box .left_wrp .use_box .use_link_box{ width:191px; border:1px #e3e3e3 solid;}
+.index_wrapper .index_main_box .left_wrp .use_box .use_link_box a{ display:block; float:left; width:95px; height:33px; font-size:13px; font-weight:bold; color:#835b5b; text-align:center; padding-top:42px;}
+.index_wrapper .index_main_box .left_wrp .use_box .use_link_box a.how_group{ border-right:1px #e3e3e3 solid; background:url(../../images/home/ihergo_index/pic_explain.jpg) no-repeat 30px -170px;}
+.index_wrapper .index_main_box .left_wrp .use_box .use_link_box a.app_download{ background:url(../../images/home/ihergo_index/pic_explain.jpg) no-repeat -65px -170px;}
+
+
+/*==會員動態_開始==*/
+.index_wrapper .index_main_box .left_wrp .user_doing_box{ width:175px; border:1px #ffeba5 solid; background-color:#fffff1; margin-top:15px; padding:10px 8px;}
+.index_wrapper .index_main_box .left_wrp .user_doing_box p{line-height:16px; font-size:12px; color:#666; background:url(../../images/home/ihergo_index/icon_speaker.png) no-repeat 0 2px; text-align:justify; padding-left:20px;}
+.index_wrapper .index_main_box .left_wrp .user_doing_box a{ text-decoration:underline; padding: 0 2px;}
+.index_wrapper .index_main_box .left_wrp .user_doing_box a:hover{ text-decoration:underline;}
+
+
+/*==熱門合購_開始==*/
+.index_wrapper .index_main_box .left_wrp .raking_box{width:193px; margin: 0 auto; margin-top:15px;}
+.index_wrapper .index_main_box .left_wrp .raking_box .the_title_box{ height:35px; background:url(../../images/home/ihergo_index/pic_title.jpg) no-repeat;}
+.index_wrapper .index_main_box .left_wrp .raking_box .title_line h2{ line-height:30px; font-size:15px; color:#0268ba; padding-left:10px;}
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content{border:1px #e3e3e3 solid; border-width:0 1px 1px 1px;}
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li{border-bottom:1px #e3e3e3 solid;}
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li:last-child{ border-bottom:none;}
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li.rank_pic{ padding:10px; /*position:relative;*/ *height:64px; }
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li.rank_txt{ padding: 5px 10px 5px 5px; background-color:#fbfbfb; height:20px; line-height:20px; overflow:hidden;}
+
+
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li.rank_pic .top_rank{ display:block; width:20px; height:23px;background: url(../../images/shop/search/the_top_img.png) no-repeat center center; _background: url(../../images/shop/search/the_top_img_ie6.gif) no-repeat center center; position:absolute; left:-1px; top:-1px; z-index:5;}
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li.rank_pic .top_rank p.number{ color:#cc001d; font-weight:bold; font-size:12px; text-align:center;text-shadow:1px 1px 0px #ffffff; line-height:18px;}
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li.rank_pic .img_box{ float:left; width:63px; height:63px; margin-right:7px; position:relative;}
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li.rank_pic .img_box a{ display:block; width:63px; height:63px; overflow:hidden;}
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li.rank_pic .txt_box{ float:left; width:100px; height:63px; overflow:hidden;}
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li.rank_pic .txt_box h3 a{ display:block; font-size:13px; font-weight: normal; color:#454545; line-height:18px; height:36px; overflow: hidden;}
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li.rank_pic .txt_box h3 a:hover{ color:#888; text-decoration:none;}
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li.rank_pic .txt_box p{ color:#666; font-size:12px; text-align:right; margin-top:10px;}
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li.rank_pic .txt_box p span{ color:#f36167; font-weight:bold; padding: 0 2px;}
+
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li.rank_txt p{ float:left; width:22px; height:14px; line-height:16px; font-size:12px; font-weight:bold; border-right:2px #ffd800 solid;text-align:center; letter-spacing:0;  margin:3px 8px 0 0; }
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li.rank_txt h3{ float:left; height:20px; line-height:20px; width:143px;}
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li.rank_txt h3 a{ display:block; font-size:12px; font-weight:normal; color:#454545; line-height:20px; margin-top:1px; *margin-top:2px}
+.index_wrapper .index_main_box .left_wrp .raking_box .raking_content ul li.rank_txt h3 a:hover{ color:#888; text-decoration:none;}
+
+
+/*==合購家族_開始==*/
+.index_wrapper .index_main_box .left_wrp .family_box{width:193px; margin: 0 auto; margin-top:15px;}
+.index_wrapper .index_main_box .left_wrp .family_box .the_title_box{ height:35px; background:url(../../images/home/ihergo_index/pic_title.jpg) no-repeat 0 -35px;}
+.index_wrapper .index_main_box .left_wrp .family_box .the_title_box h2{ float:left; height:35px; line-height:35px; font-size:15px; font-weight:bold; color:#743f31; padding-left:12px;}
+.index_wrapper .index_main_box .left_wrp .family_box .the_title_box a.more{ float:right; display:block; color:#888; font-size:12px; text-decoration:none; height:35px; line-height:35px; margin-right:10px; display:inline;}
+.index_wrapper .index_main_box .left_wrp .family_box .the_title_box a.more:hover{ color:#aaa; text-decoration:none;}
+.index_wrapper .index_main_box .left_wrp .family_box .family_content{border:1px #e3e3e3 solid; border-width:0 1px 1px 1px;}
+
+.index_wrapper .index_main_box .left_wrp .family_box .family_content .family_txt{ padding:15px 10px; *padding:10px 10px;}
+.index_wrapper .index_main_box .left_wrp .family_box .family_content .family_txt h3{ font-size:13px; color:#454545; text-align:center; line-height:26px;}
+.index_wrapper .index_main_box .left_wrp .family_box .family_content .family_txt p{ font-size:13px; color:#454545; text-align:center; line-height:18px;}
+.index_wrapper .index_main_box .left_wrp .family_box .family_content .family_txt a{ display:inline-block; font-size:13px; color:#105cb6; text-decoration:none; padding-top:10px; text-align:center;}
+.index_wrapper .index_main_box .left_wrp .family_box .family_content .family_txt a:hover{ text-decoration:underline;}
+
+.index_wrapper .index_main_box .left_wrp .family_box ul li{ border-top:1px #e3e3e3 dotted; background-color:#fbfbfb; padding:5px 5px 5px 10px;}
+.index_wrapper .index_main_box .left_wrp .family_box ul li a{display:block; font-size:13px; color:#454545; font-weight:normal; line-height:20px;}
+.index_wrapper .index_main_box .left_wrp .family_box ul li a:hover{ text-decoration:none; color:#888;}
+.index_wrapper .index_main_box .left_wrp .family_box ul li a.private{background: url(../../images/club/icon_private.gif) no-repeat 0px 3px; padding-left:22px;}
+.index_wrapper .index_main_box .left_wrp .family_box ul li a.semi_closed{background: url(../../images/club/icon_private.gif) no-repeat 0px -46px; padding-left:22px;}
+
+.index_wrapper .index_main_box .left_wrp .family_box ul li p{ color:#666; font-size:12px; text-align:right; padding-right:5px;}
+.index_wrapper .index_main_box .left_wrp .family_box ul li p span{ color:#f36167; font-weight:bold; padding: 0 2px;}
+
+
+/*==新進店家_開始==*/
+.index_wrapper .index_main_box .left_wrp .new_store_box{width:193px; margin: 0 auto; margin-top:15px;}
+.index_wrapper .index_main_box .left_wrp .new_store_box .the_title_box{ height:35px; background:url(../../images/home/ihergo_index/pic_title.jpg) no-repeat 0 -35px;}
+.index_wrapper .index_main_box .left_wrp .new_store_box .the_title_box h2{ float:left; height:35px; line-height:35px; font-size:15px; font-weight:bold; color:#743f31; padding-left:12px;}
+.index_wrapper .index_main_box .left_wrp .new_store_box .the_title_box a.more{ float:right; display:block; color:#888; font-size:12px; text-decoration:none; height:35px; line-height:35px; margin-right:10px; display:inline;}
+.index_wrapper .index_main_box .left_wrp .new_store_box .the_title_box a.more:hover{ color:#aaa; text-decoration:none;}
+.index_wrapper .index_main_box .left_wrp .new_store_box .new_store_content{border:1px #e3e3e3 solid; border-width:0 1px 1px 1px; padding:10px 0;}
+.index_wrapper .index_main_box .left_wrp .new_store_box .new_store_content ul li{ margin:0 0 5px 13px;}
+.index_wrapper .index_main_box .left_wrp .new_store_box .new_store_content ul li:last-child{ margin-bottom:0;}
+.index_wrapper .index_main_box .left_wrp .new_store_box .new_store_content .img_new_store{ width:160px; height:55px; border:1px #e3e3e3 solid; padding:1px;}
+.index_wrapper .index_main_box .left_wrp .new_store_box .new_store_content .img_new_store a{ display:block;width:160px; height:55px; overflow:hidden;}
+.index_wrapper .index_main_box .left_wrp .new_store_box .new_store_content h3.store_name{ width:164px; line-height:18px; text-align:center; padding:5px 0; *padding:0;}
+.index_wrapper .index_main_box .left_wrp .new_store_box .new_store_content h3.store_name a{font-size:13px; color:#666; text-decoration:none;}
+.index_wrapper .index_main_box .left_wrp .new_store_box .new_store_content h3.store_name a:hover{ color:#888; text-decoration:none;}
+.index_wrapper .index_main_box .left_wrp .new_store_box .new_store_content h3.store_name img{ vertical-align:middle; margin-right:3px;}
+
+
+/*==大合購_開始==*/
+.index_wrapper .index_main_box .right_wrp .union_box{ width:765px; border:1px #e3e3e3 solid;}
+.index_wrapper .index_main_box .right_wrp .union_box .img_union_box{width:765px; height:280px;}
+.index_wrapper .index_main_box .right_wrp .union_box .img_union_box a{ display:block; width:765px; height:280px; overflow:hidden;}
+
+.index_wrapper .index_main_box .right_wrp .union_box .schedule_box{ width:765px; height:30px; background-color:#f8f8f8; border-top:1px #ddd dotted;}
+.index_wrapper .index_main_box .right_wrp .union_box .schedule_box a.apply_union{ float:left; display:block; color:#105cb6; font-size:12px; line-height:30px; padding-left:15px;}
+.index_wrapper .index_main_box .right_wrp .union_box .schedule_box .union_num{ float:right; height:30px; line-height:30px;}
+.index_wrapper .index_main_box .right_wrp .union_box .schedule_box .union_num ul li{ float:left; border-left:1px #e3e3e3 solid;}
+.index_wrapper .index_main_box .right_wrp .union_box .schedule_box .union_num ul li a{ display:block; font-weight:bold; font-size:12px; color:#666; letter-spacing:0; width:26px; text-align:center;}
+.index_wrapper .index_main_box .right_wrp .union_box .schedule_box .union_num ul li a:hover{ text-decoration:none;color:#454545; font-size:16px; font-weight:bold; background-color:#fff;}
+.index_wrapper .index_main_box .right_wrp .union_box .schedule_box .union_num ul li a.active{ color:#454545; font-size:16px; font-weight:bold; background-color:#fff;}
+.index_wrapper .index_main_box .right_wrp .union_box .schedule_box .union_num ul li a.prew{ text-indent:-9999px; background:url(../../images/home/ihergo_index/icon_arrow.gif) no-repeat 0 0;}
+.index_wrapper .index_main_box .right_wrp .union_box .schedule_box .union_num ul li a.prew:hover{ background-position:-26px 0;}
+.index_wrapper .index_main_box .right_wrp .union_box .schedule_box .union_num ul li a.next{ text-indent:-9999px; background:url(../../images/home/ihergo_index/icon_arrow.gif) no-repeat -52px 0;}
+.index_wrapper .index_main_box .right_wrp .union_box .schedule_box .union_num ul li a.next:hover{ background-position:-78px 0;}
+
+.index_wrapper .index_main_box .right_wrp .union_box .union_infor_box{ width:735px; height:64px; background-color:#fff; padding:0 15px;}
+.index_wrapper .index_main_box .right_wrp .union_box .union_infor_box .union_time_box{ float:left; width:180px; height:24px; margin-top:20px; _display:inline;}
+.index_wrapper .index_main_box .right_wrp .union_box .union_infor_box .union_time_box ul li{ float:left; margin:0 1px; _display:inline;}
+.index_wrapper .index_main_box .right_wrp .union_box .union_infor_box .union_time_box ul li p{ font-size:12px; height:24px; line-height:24px;}
+.index_wrapper .index_main_box .right_wrp .union_box .union_infor_box .union_time_box ul li p.txt_num{ color:#fff; font-weight:bold; background-color:#373741; border-radius:2px; padding:0 4px; *width:16px; *padding:0; text-align:center;}
+.index_wrapper .index_main_box .right_wrp .union_box .union_infor_box .union_time_box ul li p.txt_font{ color:#454545; font-size:12px; padding: 0 2px; *width:15px;}
+.index_wrapper .index_main_box .right_wrp .union_box .union_infor_box .union_time_box ul li p.w10{ width:10px; padding:0;}
+
+.index_wrapper .index_main_box .right_wrp .union_box .union_infor_box h3.union_title{ float:left; width:400px; height:20px; font-size:15px; font-weight:bold; color:#666; line-height:20px;  margin:20px 0 0 5px; _display:inline; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .union_box .union_infor_box h3.union_title a{ color:#454545;}
+.index_wrapper .index_main_box .right_wrp .union_box .union_infor_box h3.union_title a:hover{ color:#888; text-decoration:none;}
+.index_wrapper .index_main_box .right_wrp .union_box .union_infor_box .sell_results_box{ float:right; width:150px; margin-top:10px; _display:inline;}
+.index_wrapper .index_main_box .right_wrp .union_box .union_infor_box .sell_results_box p{ font-size:12px; color:#666; text-align:right;}
+.index_wrapper .index_main_box .right_wrp .union_box .union_infor_box .sell_results_box p span.txt_R13{ color:#f64949; font-weight:bold; font-size:13px; padding:0 2px;}
+.index_wrapper .index_main_box .right_wrp .union_box .union_infor_box .sell_results_box p span.txt_R18{ color:#f64949; font-size:18px; padding: 0 4px 0 0;}
+
+
+/*==右欄兩欄式框架共用==*/
+.index_wrapper .index_main_box .right_wrp .right_autoBox{ width:767px; margin: 0 auto;}
+.index_wrapper .index_main_box .right_wrp .right_autoBox .autoBox_left{ float:left;}
+.index_wrapper .index_main_box .right_wrp .right_autoBox .autoBox_right{ float:right;}
+
+.index_wrapper .index_main_box a:hover img{opacity:0.9; filter:Alpha(Opacity=90); zoom:1;}
+
+/*==會員帳號_共用==*/
+.index_wrapper .index_main_box .right_wrp p.member_box{ font-size:12px; color:#666; letter-spacing:0;}
+.index_wrapper .index_main_box .right_wrp p.member_box a.img_box{width:18px; height:18px; margin-right:3px;}
+.index_wrapper .index_main_box .right_wrp p.member_box a.img_box img{ width:16px; height:16px; border:1px #e3e3e3 solid; vertical-align:middle; }
+.index_wrapper .index_main_box .right_wrp p.member_box a.member{ color:#105cb6; letter-spacing:0;}
+.index_wrapper .index_main_box .right_wrp p.member_box a span.rating{ color:#666;}
+.index_wrapper .index_main_box .right_wrp p.member_box a span.rating:hover{ color:#888; text-decoration:none;}
+.index_wrapper .index_main_box .right_wrp p.member_box span.txt_G12{ color:#888; padding-left:3px;}
+
+/*==合購標題_共用==*/
+.index_wrapper .index_main_box .right_wrp h4.event_title a{ display:block; font-size:12px; color:#454545; text-decoration:none; font-weight:normal; }
+.index_wrapper .index_main_box .right_wrp h4.event_title a:hover{ color:#888; text-decoration:none;}
+
+
+/*==你可能會喜歡的合購_開始==*/
+.index_wrapper .index_main_box .right_wrp .recommend_box{ float:left; width:445px; margin-top:15px; _display:inline;}
+.index_wrapper .index_main_box .right_wrp .recommend_box .the_title_box{ width:445px; height:35px;background:url(../../images/home/ihergo_index/pic_title.jpg) no-repeat 0 -70px;}
+.index_wrapper .index_main_box .right_wrp .recommend_box .the_title_box h2{ float:left; height:35px; line-height:35px; font-size:15px; font-weight:bold; color:#743f31; padding-left:12px;}
+.index_wrapper .index_main_box .right_wrp .recommend_box .the_title_box a.more{ float:right; display:block; color:#888; font-size:12px; text-decoration:none; height:35px; line-height:35px; margin-right:10px; display:inline;}
+.index_wrapper .index_main_box .right_wrp .recommend_box .the_title_box a.more:hover{ color:#aaa; text-decoration:none;}
+
+.index_wrapper .index_main_box .right_wrp .recommend_box ul li{ margin-top:13px; width:445px;}
+.index_wrapper .index_main_box .right_wrp .recommend_box ul li .goods_box{ float:left; width:90px; height:90px; position:relative; margin-right:10px; _display:inline;}
+.index_wrapper .index_main_box .right_wrp .recommend_box ul li .goods_box a{ display:block; width:90px; height:90px; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .recommend_box ul li .goods_box p{ width:38px; height:38px;background:url(../../images/home/ihergo_index/icon_label_good.png) no-repeat; *background:url(../../images/home/ihergo_index/icon_label_good.gif) no-repeat; text-indent:-9999px; position:absolute; right:-18px; bottom:-7px; z-index:5;}
+.index_wrapper .index_main_box .right_wrp .recommend_box ul li .txt_box{ float:left; width:340px;}
+
+.index_wrapper .index_main_box .right_wrp .recommend_box h4.event_title{ width:340px; height:20px; overflow:hidden; padding-top:4px;}
+.index_wrapper .index_main_box .right_wrp p.txt_count{ font-size:12px; color:#888;}
+.index_wrapper .index_main_box .right_wrp p.txt_count span.txt_RB{ color:#f64949; font-weight:bold; padding-right:2px;}
+.index_wrapper .index_main_box .right_wrp .place_box{/* width:313px;*/ height:22px; background-color:#fffff1; border:1px #ffeba5 solid; padding: 0 15px 0 10px; margin-top:2px;}
+.index_wrapper .index_main_box .right_wrp .place_box p{ float:left; color:#666; font-size:12px; line-height:22px;}
+.index_wrapper .index_main_box .right_wrp .place_box a{ float:right; color:#ff9933; font-size:12px; line-height:22px; text-decoration:none;}
+.index_wrapper .index_main_box .right_wrp .place_box a:hover{ text-decoration:underline;}
+
+
+/*==最新合購_開始==*/
+.index_wrapper .index_main_box .right_wrp .new_event_box{ float:right; width:302px; margin-top:15px; _display:inline;}
+.index_wrapper .index_main_box .right_wrp .new_event_box .the_title_box{ width:302px; height:35px;background:url(../../images/home/ihergo_index/pic_title.jpg) no-repeat 0 -105px;}
+.index_wrapper .index_main_box .right_wrp .new_event_box .the_title_box h2{ float:left; height:35px; line-height:35px; font-size:15px; font-weight:bold; color:#743f31; padding-left:12px;}
+.index_wrapper .index_main_box .right_wrp .new_event_box .the_title_box a.more{ float:right; display:block; color:#888; font-size:12px; text-decoration:none; height:35px; line-height:35px; margin-right:10px; display:inline;}
+.index_wrapper .index_main_box .right_wrp .new_event_box .the_title_box a.more:hover{ color:#aaa; text-decoration:none;}
+
+.index_wrapper .index_main_box .right_wrp .new_event_box  ul li{ margin-top:10px; *margin-top:8px; width:300px; padding: 0 1px;}
+.index_wrapper .index_main_box .right_wrp .new_event_box  ul li .new_event_top{ width:300px;}
+.index_wrapper .index_main_box .right_wrp .new_event_box  ul li .new_event_top .goods_box{ float:left; width:63px; height:63px; margin-right:10px; _display:inline;}
+.index_wrapper .index_main_box .right_wrp .new_event_box  ul li .new_event_top .goods_box a{ display:block; width:63px; height:63px; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .new_event_box  ul li .new_event_top .txt_box{ float:left;}
+.index_wrapper .index_main_box .right_wrp .new_event_box h4.event_title { width:226px; height:36px; line-height:18px; overflow:hidden; padding-top:6px;}
+.index_wrapper .index_main_box .right_wrp .new_event_box .place_box{ width:273px; height:22px; background-color:#fffff1; border:1px #ffeba5 solid; padding: 0 15px 0 10px; margin-top:5px; *margin-top:0;}
+.index_wrapper .index_main_box .right_wrp .new_event_box .place_box p{ float:left; color:#666; font-size:12px; line-height:22px;}
+.index_wrapper .index_main_box .right_wrp .new_event_box .place_box a{ float:right; color:#ff9933; font-size:12px; line-height:22px; text-decoration:none;}
+.index_wrapper .index_main_box .right_wrp .new_event_box .place_box a:hover{ text-decoration:underline;}
+
+
+/*==廣告發燒焦點.黃金看板_開始==*/
+.index_wrapper .index_main_box .right_wrp .ad_w767_box{ width:767px; height:110px; margin-top:15px;}
+.index_wrapper .index_main_box .right_wrp .ad_w767_box a{ display:block; width:767px; height:110px; overflow:hidden;}
+
+
+/*==分頁點點共用_開始==*/
+.index_wrapper .index_main_box .right_wrp ul.paging_box{ float:right; width:54px; height:18px; margin:8px 10px 0 0; _display:inline;}
+.index_wrapper .index_main_box .right_wrp ul.paging_box li{ float:left;}
+.index_wrapper .index_main_box .right_wrp ul.paging_box li a{ display:block; width:18px; height:18px; background:url(../../images/home/ihergo_index/icon_paging.png) no-repeat -18px 0; *background:url(../../images/home/ihergo_index/icon_paging.gif) no-repeat -18px 0; text-indent:-9999px;}
+.index_wrapper .index_main_box .right_wrp ul.paging_box li a.active{background:url(../../images/home/ihergo_index/icon_paging.png) no-repeat 0 0; *background:url(../../images/home/ihergo_index/icon_paging.gif) no-repeat 0 0;}
+
+
+/*==揪團試吃_開始==*/
+.index_wrapper .index_main_box .right_wrp .trytoeat_box{width:445px; margin-top:15px;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .the_title_box{ width:445px; height:35px;background:url(../../images/home/ihergo_index/pic_title.jpg) no-repeat 0 -70px;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .the_title_box h2{ float:left; height:35px; line-height:35px; font-size:15px; font-weight:bold; color:#743f31; padding-left:12px; position:relative;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .title_line h2 img{ vertical-align:middle;}
+ 
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .trytoeat_content{ width:445px; height:90px; padding:10px 0; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .trytoeat_content ul { width:1000%;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .trytoeat_content ul li{ float:left; width:220px; padding-right:5px;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .trytoeat_content ul li.even{ padding-right:0;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .trytoeat_content ul li .img_box{ float:left; width:90px; height:90px; position:relative; *position:static;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .trytoeat_content ul li .img_box a{ display:block; width:90px; height:90px; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .trytoeat_content ul li .img_box p{ width:49px; height:49px; background:url(../../images/home/ihergo_index/icon_label_eat.png) no-repeat; *background:none; text-indent:-9999px; position:absolute; right:-23px; top:-5px; z-index:5;}
+
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .trytoeat_content ul li .txt_box{ float:left; width:130px; height:90px;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .trytoeat_content ul li .txt_box p{line-height:20px; padding-left:26px; font-size:12px;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .trytoeat_content ul li .txt_box p.list_price{color:#888; text-decoration:line-through; padding-top:5px; *padding-left:10px;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .trytoeat_content ul li .txt_box p.special_offer{color:#666; *padding-left:10px;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .trytoeat_content ul li .txt_box p.special_offer span{ color:#f64949; font-family:"Century Gothic"; font-size:18px; padding-left:2px;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .trytoeat_content ul li .txt_box h3 a{ display:block; width:120px; height:20px; line-height:20px; font-size:13px; font-weight:normal; color:#454545; padding:18px 0 0 10px; overflow:hidden; letter-spacing:0;}
+.index_wrapper .index_main_box .right_wrp .trytoeat_box .trytoeat_content ul li .txt_box h3 a:hover{ color:#888; text-decoration:none;}
+
+
+/*==超低免運門檻_開始==*/
+.index_wrapper .index_main_box .right_wrp .freight_box{width:445px; margin-top:10px;}
+.index_wrapper .index_main_box .right_wrp .freight_box .the_title_box{ width:445px; height:35px;background:url(../../images/home/ihergo_index/pic_title.jpg) no-repeat 0 -70px;}
+.index_wrapper .index_main_box .right_wrp .freight_box .the_title_box h2{ float:left; height:35px; line-height:35px; font-size:15px; font-weight:bold; color:#743f31; padding-left:12px;}
+ 
+.index_wrapper .index_main_box .right_wrp .freight_box .freight_content{ width:445px; height:90px; padding:10px 0; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .freight_box .freight_content ul{ width:1000%;}
+.index_wrapper .index_main_box .right_wrp .freight_box .freight_content ul li{ float:left; width:220px; padding-right:5px;}
+.index_wrapper .index_main_box .right_wrp .freight_box .freight_content ul li.even{ padding-right:0;}
+.index_wrapper .index_main_box .right_wrp .freight_box .freight_content ul li .img_box{ float:left; width:90px; height:90px; position:relative;*position:static;}
+.index_wrapper .index_main_box .right_wrp .freight_box .freight_content ul li .img_box a{ display:block; width:90px; height:90px; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .freight_box .freight_content ul li .img_box p{ width:58px; height:37px; background:url(../../images/home/ihergo_index/icon_label_freight.png) no-repeat; *background:none; text-indent:-9999px; position:absolute; right:-22px; top:-5px; z-index:5;}
+
+.index_wrapper .index_main_box .right_wrp .freight_box .freight_content ul li .txt_box{ float:left; width:130px; height:90px;}
+.index_wrapper .index_main_box .right_wrp .freight_box .freight_content ul li .txt_box p{line-height:20px; padding-left:26px; font-size:12px; color:#666; padding-top:5px; *padding-left:10px;}
+.index_wrapper .index_main_box .right_wrp .freight_box .freight_content ul li .txt_box p span{ color:#f64949; font-family:"Century Gothic"; font-size:18px; padding:0 2px;}
+.index_wrapper .index_main_box .right_wrp .freight_box .freight_content ul li .txt_box h3 a{ display:block; width:120px; height:20px; line-height:20px; font-size:13px; font-weight:normal; color:#454545; padding:38px 0 0 10px; overflow:hidden; letter-spacing:0;}
+.index_wrapper .index_main_box .right_wrp .freight_box .freight_content ul li .txt_box h3 a:hover{ color:#888; text-decoration:none;}
+
+
+/*==最新開箱評價_開始==*/
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box{ float:right; width:302px; margin-top:15px; _display:inline;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .the_title_box{ width:302px; height:35px;background:url(../../images/home/ihergo_index/pic_title.jpg) no-repeat 0 -105px;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .the_title_box h2{ float:left; height:35px; line-height:35px; font-size:15px; font-weight:bold; color:#743f31; padding-left:12px;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .the_title_box a.more{ float:right; display:block; color:#888; font-size:12px; text-decoration:none; height:35px; line-height:35px; margin-right:10px; display:inline;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .the_title_box a.more:hover{ color:#aaa; text-decoration:none;}
+
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content{ width:302px;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content .store_infor{ width:280px; border:1px #e3e3e3 solid; border-width:0 1px 1px 1px; padding:10px; }
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content .store_infor .img_box{ float:left; margin-right:10px; _display:inline;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content .store_infor .img_box a{ display:block; width:90px; height:90px; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content .store_infor .txt_box{ float:left; width:180px; height:90px; position:relative;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content .store_infor .txt_box h3{background:url(../../images/home/ihergo_index/icon_store.gif) no-repeat 0 2px; height:40px; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content .store_infor .txt_box h3 a{ display:block; color:#105cb6; font-size:13px; font-weight:normal; padding-left:20px;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content .store_infor .txt_box p{ font-size:12px; color:#666; padding-left:5px;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content .store_infor .txt_box p span.txt_RB{ font-size:12px; color:#f64949; font-weight:bold; padding: 0 4px;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content .store_infor .txt_box .star_box{ width:180px; position:absolute; left:5px; bottom:5px;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content .store_infor .txt_box .star_box img{ vertical-align:middle;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content .store_infor .txt_box .star_box span.txt_score{ color:#f64949; font-size:18px; font-family:"Century Gothic"; line-height:20px;}
+
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content .comment_box{ width:289px; background-color:#f8f8f8; padding:10px 5px 5px 8px;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content .comment_box ul li{ width:280px; height:20px; overflow:hidden; margin-bottom:5px;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content .comment_box ul li a.txt_comment{ font-size:12px; color:#666;}
+.index_wrapper .index_main_box .right_wrp .new_evaluate_box .new_evaluate_content .comment_box ul li a.txt_comment:hover{color:#999; text-decoration:none;}
+
+
+/*==話題_開始==*/
+.index_wrapper .index_main_box .right_wrp .topic_box{ width:765px; border:1px #e3e3e3 solid; padding-top:5px; margin-top:10px;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_title{ padding:0 0 0 10px; width:755px;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_title ul li{ float:left; margin-right:10px;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_title ul li a{ display:block; width:141px; height:33px; line-height:33px; text-align:center; font-size:13px; font-weight:bold; color:#fff;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_title ul li a.topic_a{ background-color:#FDCA00;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_title ul li a.topic_b{ background-color:#ee4b62;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_title ul li a.topic_c{ background-color:#ff7a3f;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_title ul li a.topic_d{ background-color:#adc910;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_title ul li a.topic_e{ background-color:#8ac3eb;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_title ul li a.active{ background-color:#fff; border:1px #e3e3e3 solid; border-width:1px 1px 0 1px; width:139px; height:32px; color:#655548;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_title ul li a:hover{ text-decoration:none; background-color:#fff; border:1px #e3e3e3 solid; border-width:1px 1px 0 1px; width:139px; height:32px; color:#655548;}
+
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_content{ padding:15px 0 15px 10px; width:755px;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_content ul li{ float:left; width:365px; margin-right:10px;}
+
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_content ul li .img_box{ float:left; width:160px; margin-right:10px; _display:inline;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_content ul li .img_box a{ display:block; width:160px; height:160px; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_content ul li .txt_box{ float:left; width:195px; height:160px; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_content ul li .txt_box h4{ max-height:36px; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_content ul li .txt_box h4 a{ color:#454545; font-size:13px; line-height:18px; }
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_content ul li .txt_box h4 a:hover{ color:#888;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_content ul li .txt_box p{ font-size:12px; color:#666; text-align:justify; padding-top:5px;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_content ul li .txt_box p.txt_buy{ color:#888;}
+.index_wrapper .index_main_box .right_wrp .topic_box .topic_content ul li .txt_box p.txt_buy span{ color:#f64949; font-weight:bold; padding: 0 2px;}
+
+
+/*小黃金連結_開始*/
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_gold_box{ width:765px; border-top:1px #e3e3e3 dotted;}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_gold_box ul li{ float:left; width:190px;}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_gold_box ul li a{ display:block; font-size:12px; color:#454545; text-align:center; height:30px; line-height:30px; overflow: hidden;}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_gold_box ul li a:hover{ color:#3b5998; text-decoration:underline;}
+
+/*焦點商品_開始*/
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_focus_box{ width:735px; padding: 20px 15px; border-top:1px #e3e3e3 solid; background-color:#f8f8f8; position:relative;}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_focus_box .ad_off_box{ position:absolute; right:8px; top:-6px;}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_focus_box .ad_off_box a{}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_focus_box .ad_off_box .dialog_ADbox{ right:0px; top:35px;}
+
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_focus_box ul li{ float:left; width:360px; margin-left:15px; *margin-left:8px;}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_focus_box ul li:first-child{ margin-left:0;}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_focus_box ul li .img_box{ float:left; width:90px; height:90px; margin-right:10px;}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_focus_box ul li .img_box a{ display:block; width:90px; height:90px; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_focus_box ul li .txt_box{ float:left; width:260px;}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_focus_box ul li .txt_box h3 a{ display:block; font-size:13px; color:#454545; padding-bottom:5px;}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_focus_box ul li .txt_box h3 a:hover{color:#3b5998;}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_focus_box ul li .txt_box p.ad_word{ width:250px; height:64px; font-size:12px; color:#454545; text-align:justify; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_focus_box ul li .txt_box .event_infor{ width:250px; height:28px; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_focus_box ul li .txt_box .event_infor p{ float:left; padding-right:10px; color:#858585; line-height:28px; font-size:12px;}
+.index_wrapper .index_main_box .right_wrp .topic_box .ad_focus_box ul li .txt_box .event_infor p span.txt_R12{ color:#F36167; font-weight:bold; width:auto;}
+
+
+/*熱門話題討論_開始*/
+.index_wrapper .index_main_box .right_wrp .discuss_box{ width:767px; margin-top:15px;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .the_title_box{ width:767px; height:35px;background:url(../../images/home/ihergo_index/pic_title.jpg) no-repeat 0 -140px;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .the_title_box h2{ float:left; height:35px; line-height:35px; font-size:15px; font-weight:bold; color:#743f31; padding-left:12px; letter-spacing:2px;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .the_title_box a.more{ float:right; display:block; color:#888; font-size:12px; text-decoration:none; height:35px; line-height:35px; margin-right:10px; display:inline;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .the_title_box a.more:hover{ color:#aaa; text-decoration:none;}
+
+.index_wrapper .index_main_box .right_wrp .discuss_box .discuss_content{ padding:10px 0;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .discuss_content .left_discuss{ float:left; width:383px; border-right:1px #e3e3e3 solid;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .discuss_content .right_discuss{ float:left; width:383px;}
+
+.index_wrapper .index_main_box .right_wrp .discuss_box .discuss_content .left_discuss .img_box{ float:left; margin-right:10px; _display:inline;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .discuss_content .left_discuss .img_box a{ display:block; width:90px; height:90px; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .discuss_content .left_discuss .txt_box{ float:left; width:270px; height:90px; overflow:hidden; padding-right:10px;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .discuss_content .left_discuss .txt_box h3{ width:270px; height:20px; overflow:hidden; padding:5px 0;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .discuss_content .left_discuss .txt_box h3 a{ display:block; font-size:13px; color:#454545;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .discuss_content .left_discuss .txt_box h3 a:hover{ color:#888;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .discuss_content .left_discuss .txt_box a{ font-size:12px; text-align:justify; color:#666;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .discuss_content .left_discuss .txt_box a:hover{ color:#999; text-decoration:none;}
+
+.index_wrapper .index_main_box .right_wrp .discuss_box .discuss_content .right_discuss ul{ padding:3px 0 0 10px; width:370px;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .discuss_content .right_discuss ul li{ height:20px; font-size:12px; color:#454545; overflow:hidden; padding-bottom:2px;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .discuss_content .right_discuss ul li a{ font-size:12px; color:#454545; text-decoration:underline;}
+.index_wrapper .index_main_box .right_wrp .discuss_box .discuss_content .right_discuss ul li a:hover{ text-decoration:none;}
+
+
+/*==左上頁籤_找商店_開始==*/
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box{ width:191px;border:1px #e3e3e3 solid; border-width:0 1px 0 1px; position:relative;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box ul li{ border-bottom:1px #e3e3e3 solid;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box ul li h4 a{ display:block; width:191px; height:44px; line-height:44px; font-size:15px; font-weight:bold; color:#666; text-align:center; text-indent:24px; letter-spacing:4px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box ul li h4 a.food{background:url(../../images/shop/search/category_icon/food.gif) no-repeat 34px center;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box ul li h4 a.beauty{background:url(../../images/shop/search/category_icon/beauty.gif) no-repeat 34px center;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box ul li h4 a.clothes{background:url(../../images/shop/search/category_icon/clothes.gif) no-repeat 34px center;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box ul li h4 a.family{background:url(../../images/shop/search/category_icon/family.gif) no-repeat 34px center;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box ul li h4 a.home{background:url(../../images/shop/search/category_icon/home.gif) no-repeat 34px center;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box ul li h4 a.leisure{background:url(../../images/shop/search/category_icon/leisure.gif) no-repeat 34px center;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box ul li h4 a:hover{ text-decoration:none; color:#fff; background-color:#ec5876;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box ul li h4 a.active{color:#fff; background-color:#ec5876;}
+
+.index_wrapper .index_main_box .left_wrp .main_tab_box .open_store{ width:193px; height:64px; background-color:#f8f8f8; border-top:1px #f0f0f0 solid;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .open_store a{ display:block; width:193px; height:64px; line-height:64px; background:url(../../images/home/ihergo_index/icon_open_store.gif) no-repeat 34px center; text-align:center; font-size:15px; font-weight:bold; color:#835b5b; text-indent:28px; letter-spacing:5px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .open_store a:hover{text-decoration:none; opacity:0.8; filter:Alpha(Opacity=80);}
+
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box .mega_ad{ width:470px; height:320px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box .second_wrp{ border:3px #ea4f6e solid; position:absolute; left:180px; top:0; box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3); z-index:99; background-color:#f98aa0;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box .second_wrp ul{ float:left; width:110px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box .second_wrp ul li{ border-bottom:0;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box .second_wrp ul li a{ display:block; height:35px; line-height:35px; color:#fff; font-weight:bold; text-align:center; font-size:13px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box .second_wrp ul li a:hover{ background-color:#fff; color:#ea4f6e; text-decoration:none;}
+
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box .second_wrp .mega_ad_box{ float:right; width:360px; height:320px; background-color:#fff;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box .second_wrp .mega_ad_box a{ display:block;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box .second_wrp .mega_ad_box .type_a01{ position:relative; top:-20px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box .second_wrp .mega_ad_box .type_a02{ position:relative; top:-25px; right:-20px;}
+.index_wrapper .index_main_box .left_wrp .main_tab_box .find_store_box .second_wrp .mega_ad_box .type_b{ display:block; width:360px; height:320px;}
+
+
+/*==未登入popup視窗==*/
+.unlogin_box{ width:750px; height:430px; background:url(../../images/home/ihergo_index/img_process.jpg) no-repeat; position:relative;}
+.unlogin_box .btn_unlogin{ width:173px; height:24px; position:absolute; right:20px; bottom:16px; background:url(../../images/home/ihergo_index/btn_process.jpg) no-repeat;}
+.unlogin_box a{ display:inline-block; height:24px; line-height:26px; color:#edcb1f; font-size:12px; text-align:center;}
+.unlogin_box a.btn_register{ width:72px; margin-left:25px; }
+.unlogin_box a.btn_more{ width:70px;}
+
+
+/*==標題共用_開始==*/
+.index_wrapper .index_main_box .title_line{height:30px; border-bottom:3px #454545 solid;}
+.index_wrapper .index_main_box .title_line h2{ float:left; font-size:15px; color:#0268ba; padding-left:10px; line-height:30px; letter-spacing:2px;}
+.index_wrapper .index_main_box .title_line a.more{ float:right; display:block; font-size:12px; color:#666; line-height:30px; padding-right:10px;}
+.index_wrapper .index_main_box .title_line a.more:hover{ text-decoration:none; color:#999;}
+
+
+/*==大合購精選_開始==*/
+.index_wrapper .index_main_box .right_wrp .union_choice_box{ width:767px; margin-top:15px; }
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul{ width:100%; margin-top:10px;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li{ float:left; width:244px; border:1px #e3e3e3 solid; margin-left:14px; _display:inline;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li.mar0{ margin-left:0;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .union_goods{ width:230px; background-color:#f6f7f9; padding:7px; position:relative;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .union_amount{ background-color:#f2f2f2; border:1px #e3e3e3 solid; border-width:1px 0; height:35px; line-height:35px;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .account_box{ background-color:#fff; padding-top:8px;}
+
+
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .union_goods p{ width:48px; height:58px; font-size:18px; font-family:"微軟正黑體"; color:#fff; position:absolute; left:14px; top:4px; padding:8px 0 0 10px; z-index:20;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .union_goods p.union_tag_a{ background:url(../../images/home/ihergo_index/icon_tag_union.png) no-repeat; *background:url(../../images/home/ihergo_index/icon_tag_union.gif) no-repeat;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .union_goods p.union_tag_b{ background:url(../../images/home/ihergo_index/icon_tag_union.png) no-repeat -60px 0; *background:url(../../images/home/ihergo_index/icon_tag_union.gif) no-repeat -60px 0;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .union_goods p.union_tag_c{background:url(../../images/home/ihergo_index/icon_tag_union.png) no-repeat -120px 0; *background:url(../../images/home/ihergo_index/icon_tag_union.gif) no-repeat -120px 0; color:#454545;}
+
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .union_goods img{ width:230px; height:230px;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .union_goods h3{ margin:7px 0 3px 5px;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .union_goods h3 a{ display:block; font-size:15px; font-family:"微軟正黑體"; color:#454545; line-height:18px; height:36px; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .union_goods h3 a:hover{ text-decoration:none; color:#666;}
+
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .union_amount p{ padding-left:12px; line-height:35px; font-size:12px; color:#7a6665;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .union_amount p span{ font-size:15px; font-weight:bold; color:#ef165b; padding:0 4px;}
+
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .account_box .one_host{ padding: 0 5px 0 8px; height:20px; margin-bottom:7px; position:relative;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .account_box .one_host a.img_box{ float:left; display:block; width:25px; height:18px; color:#666; font-size:12px; text-decoration:none;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .account_box .one_host a.img_box img{ width:16px; height:16px; border:1px #e3e3e3 solid; vertical-align:middle; margin-right:3px;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .account_box .one_host a.event_title{ float:left; width:200px; height:20px; overflow:hidden; color:#666; font-size:12px; padding-left:5px;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .account_box .one_host a.event_title:hover{ color:#999; text-decoration:none;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .account_box .one_host .event_detail_box{ position:absolute; border:2px #454545 solid; width:280px; background-color:#fff; padding:8px; z-index:40;}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .account_box .one_host .event_detail_box .host_data{}
+.index_wrapper .index_main_box .right_wrp .union_choice_box ul li .account_box .one_host .event_detail_box .arrow_box{ width:17px; height:10px; background:url(../../images/home/ihergo_index/icon_arrow02.gif) no-repeat; position:absolute; }
+.index_wrapper .index_main_box .right_wrp .host_data h4.event_title{font-size:12px; color:#454545; font-weight:normal; height:20px; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .host_data p.member_box a{ text-decoration:none;}
+.index_wrapper .index_main_box .right_wrp .host_data p.member_box a span.rating:hover{color:#666;}
+
+.index_wrapper .index_main_box .right_wrp .host_data .place_box p{ float:none;}
+
+
+/*==人氣必敗商店_開始==*/
+.index_wrapper .index_main_box .right_wrp .bebuy_store_box{ width:767px; margin-top:15px; }
+.index_wrapper .index_main_box .right_wrp .bebuy_store_box ul{ margin-top:10px; padding:0 0 0 7px;}
+.index_wrapper .index_main_box .right_wrp .bebuy_store_box ul li{ float:left; margin-right:17px; _display:inline;}
+.index_wrapper .index_main_box .right_wrp .bebuy_store_box ul li a.img_box{ display:block; width:135px; height:135px; overflow:hidden;}
+.index_wrapper .index_main_box .right_wrp .bebuy_store_box ul li h3{width:135px; height:20px; overflow:hidden; margin:5px 0; line-height:20px;}
+.index_wrapper .index_main_box .right_wrp .bebuy_store_box ul li h3 a{ font-size:12px; color:#454545; font-weight:normal; padding-left:2px; }
+.index_wrapper .index_main_box .right_wrp .bebuy_store_box ul li h3 img{ vertical-align:middle;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

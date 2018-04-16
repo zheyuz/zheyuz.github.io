@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+div.headbar {height:25px}
+
+div.superDiv {background-color:#fff8d6; font-size:13px; color:#454545; line-height:18px}
+div.superDiv div.superHeaderLine {height:2px; line-height:0px; font-size:0px; background-color:#BB0311}
+div.superDiv div.superHeader {text-align:center; background:url(../super/handbg.gif) top left repeat-x}
+div.superDiv a.grey {color:#454545; text-decoration:none}
+div.superDiv a.grey:hover {color:#8f8479; text-decoration:underline}
+
+div.superDiv textarea.message {font-size: 13px;font-family: Arial;height: 18px;line-height: 18px;color: #454545; background-color:#FFF;border: 1px solid #ffffff; }
+
+div.superDiv .logoin {background-color:#FFF;border: 1px solid #72202e;}
+
+div.superDiv .t11 {font-size:12px;font-family:"Arial","新細明體"; color:#a09f9b}
+div.superDiv .t11w {font-size:11px;font-family:"Arial","新細明體"; color:#ffffff}
+
+div.superDiv .t11p {font-size:12px;font-family:"Arial","新細明體"; color:#b45889}
+div.superDiv .t11p a:hover {color:#cd71a2; text-decoration:underline}
+div.superDiv .t11p a {color:#b45889; text-decoration:none}
+
+div.superDiv .t12w {font-size:12px;font-family:"Arial","新細明體"; color:#ffffff}
+div.superDiv .t12w a:hover {color:#ffffff; text-decoration:underline}
+div.superDiv .t12w a {color:#ffffff; text-decoration:none}
+
+div.superDiv .t12p {font-size:12px;font-family:"Arial","新細明體"; color:#b45889}
+div.superDiv .t12blue {font-size:12px;font-family:"Arial","新細明體"; color:#009fc3;font-weight: bold}
+div.superDiv .t12k {font-size:12px;font-family:"Arial","新細明體"; color:#454545;font-weight: bold}
+div.superDiv .t12g {font-size:15px;font-family:"Arial","新細明體"; color:#454545;line-height: 24px}
+
+div.superDiv .t12gb {font-size:12px;font-family:"Arial","新細明體"; color:#333333;font-weight: bold; background-color:#ebffbf}
+div.superDiv .t12yb {font-size:15px;font-family:"Arial","新細明體"; color:#333333;font-weight: bold; background-color:#fff100}
+
+div.superDiv .t12u {font-size:11px;font-family:"Arial","新細明體"; color:#632531; text-align:center}
+div.superDiv .t12u1 {font-size:12px;font-family:"Arial"; color:#632531;font-weight: bold; text-align:center}
+
+div.superDiv .t12b {font-size:12px;font-family:"Arial","新細明體"; color:#454545;font-weight: bold}
+div.superDiv .t12b a:hover {color:#8f8479; text-decoration:underline}
+div.superDiv .t12  a {color:#454545; text-decoration:none}
+
+div.superDiv .t11pb {font-size:11px;font-family:"Arial","新細明體"; color:#b45889;font-weight: bold}
+div.superDiv .t11pb a:hover {color:#c7689b; text-decoration:underline}
+div.superDiv .t11pb a {color:#b45889; text-decoration:none}
+
+div.superDiv .t13 {font-size:13px;font-family:"Arial","新細明體"; color:#505050;font-weight: bold}
+div.superDiv .t13 a:hover {color:#707070; text-decoration:underline}
+div.superDiv .t13 a {color:#505050; text-decoration:none}
+
+div.superDiv .t13w {font-size:13px;font-family:"Arial","新細明體"; color:#ffffff;font-weight: bold}
+
+div.superDiv .t13p {font-size:13px;font-family:"Arial","新細明體"; color:#b45889;font-weight: bold}
+div.superDiv .t13p a:hover {color:#c7689b; text-decoration:underline}
+div.superDiv .t13p a {color:#b45889; text-decoration:none}
+
+div.superDiv .t13g {font-size:13px;font-family:"Arial","新細明體"; color:#df5629;font-weight: bold}
+
+div.superDiv .t15b {font-size:15px;font-family:"Arial","新細明體"; color:#747474;font-weight: bold}
+div.superDiv .t15b a:hover {color:#939393; text-decoration:underline}
+div.superDiv .t15b a {color:#747474; text-decoration:none}
+
+div.superDiv .t16 {font-size:16px;font-family:"Arial","新細明體"; color:#ffffff;font-weight: bold}
+div.superDiv .t16 a:hover {color:#ffffff; text-decoration:underline}
+div.superDiv .t16 a {color:#ffffff; text-decoration:none}
+
+div.superDiv .t16p {font-size:16px;font-family:"Arial","新細明體"; color:#b45889;font-weight: bold}
+div.superDiv .t16p a:hover {color:#c7689b; text-decoration:underline}
+div.superDiv .t16p a {color:#b45889; text-decoration:none}
+
+div.superDiv .t16b {font-size:16px;font-family:"Arial","新細明體"; color:#eb7107;font-weight: bold}
+div.superDiv .t16b a:hover {color:#f38424	; text-decoration:underline}
+div.superDiv .t16b a {color:#eb7107; text-decoration:none}
+
+div.superDiv .t16w {font-size:16px;font-family:"Arial","新細明體"; color:#ffffff;font-weight: bold}
+div.superDiv .t16w a:hover {color:#ffffff; text-decoration:underline}
+div.superDiv .t16w a {color:#ffffff; text-decoration:none}
+
+div.superDiv .t14 {font-size:14px;font-family:"Arial","新細明體"; color:#b45889;font-weight: bold; }
+div.superDiv .t14w {font-size:14px;font-family:"Arial","新細明體"; color:#ffffff;font-weight: bold; }
+div.superDiv .t24 {font-size:26px;font-family:"Arial","新細明體"; color:#b45889;font-weight: bold;}
+div.superDiv .t24w {font-size:26px;font-family:"Arial","新細明體"; color:#ffffff;font-weight: bold;}
+
+div.superDiv .t36 {font-size:36px;font-family:"Arial","新細明體"; color:#b45889;font-weight: bold; }
+div.superDiv .t24de {font-size:26px;font-family:"Arial","新細明體"; color:#b45889;font-weight: bold; line-height: 32px; text-decoration: line-through}
+div.superDiv .t24dew {font-size:20px;font-family:"Arial","新細明體"; color:#ffffff;text-decoration: line-through}
+
+div.superDiv .t40r {font-size:40px;font-family:"Arial","新細明體"; color:#ba3403;font-weight: bold;line-height: 32px;}
+div.superDiv .t22r {font-size:22px;font-family:"Arial","新細明體"; color:#ba3403;font-weight: bold;line-height: 35px;}
+
+div.superDiv .t26w {font-size:26px;font-family:"Arial","新細明體"; color:#505050;font-weight: bold;line-height: 32px;}
+div.superDiv .t26w a:hover {color:#707070; text-decoration:underline}
+div.superDiv .t26w a {color:#505050; text-decoration:none}
+
+div.superDiv .t36w {font-size:36px;font-family:"Arial","新細明體"; color:#ffffff;font-weight: bold;line-height: 32px;}
+div.superDiv .t36w a:hover {color:#ffffff; text-decoration:underline}
+div.superDiv .t36w a {color:#ffffff; text-decoration:none}
+
+div.superDiv .photo {border-width:1px; border-color:#d6e3eb; border-style:solid}

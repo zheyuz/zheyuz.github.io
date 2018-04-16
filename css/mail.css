@@ -1,0 +1,1555 @@
+﻿#ihergoMessaging{
+	width:780px;
+	margin: 0 auto;
+/*	background-color:#0FC;*/
+	}
+#ihergoMessaging .ihergoMessaging_top{
+	width:780px;
+	height:38px;
+	background:url(../images/mail/ihergomessaging_top_bg_01.gif) no-repeat left top;
+	display: inline-block;
+	}
+/*==訊息路徑==*/
+#ihergoMessaging .ihergoMessaging_top_LBox{
+	float:left;
+	width:350px;
+	height:38px;
+	padding: 0px 0px 0px 10px;	
+	}	
+#ihergoMessaging .ihergoMessaging_top_LBox h1{
+	float:left;
+	display:block;
+	color: #666;
+	font-size:13px;
+	height: 38px;
+	line-height:36px;
+	line-height:40px \9;/*IE8*/
+    _line-height:38px; /*IE6 */
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	background: url(../images/mail/title_mail.gif) no-repeat left top;
+	padding: 0px 0px 0px 32px;
+	}
+
+#ihergoMessaging .top_LBox_event h1 {background: url(../images/mail/title_event.gif) no-repeat left top;}
+#ihergoMessaging .top_LBox_deliver h1 {background: url(../images/mail/title_deliver.gif) no-repeat left top;}
+#ihergoMessaging .top_LBox_reward h1 {background: url(../images/mail/title_reward.gif) no-repeat left top;}
+
+#ihergoMessaging .ihergoMessaging_top_LBox p{
+	float:left;	
+	color: #333;
+	font-size:13px;
+	height: 38px;
+	line-height:36px;
+	line-height:40px \9;/*IE8*/
+    _line-height:38px; /*IE6 */
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-weight:bold;
+	background:url(../images/mail/ihergomessaging_picon.gif) no-repeat top left;
+	padding:0px 0px 0px 27px;
+	
+	}	
+/*==訊息路徑_NED==*/	
+/*==搜尋訊息==*/
+#ihergoMessaging .ihergoMessaging_top_RsearchBox{
+	float: right;
+	width:280px;
+	height:31px;
+	background:url(../images/mail/ihergomessaging_top_rbox1.gif) repeat-x top right;
+	padding: 7px 10px 0px 0px;
+	_padding: 4px 10px 0px 0px;
+	z-index:0;	
+	}
+/*==搜尋訊息_按鈕==*/
+#ihergoMessaging .ihergoMessaging_top_RsearchBox ul.searchiBt{
+	float:right;
+	display:block;
+	width:50px;
+	height:24px;
+	}
+#ihergoMessaging .ihergoMessaging_top_RsearchBox ul.searchiBt li{}
+#ihergoMessaging .ihergoMessaging_top_RsearchBox ul.searchiBt li a{
+	display:block;
+	width:50px;
+	height:24px;
+	line-height:24px;
+	color:#FFF;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	outline:none;
+	background:url(../images/mail/messaging_searchibt.gif) no-repeat left top;
+	text-indent:-9999px;
+	}
+#ihergoMessaging .ihergoMessaging_top_RsearchBox ul.searchiBt li a:hover{
+	color:#3e3e3e;
+	background:url(../images/mail/messaging_searchibt.gif) no-repeat left bottom;
+	}
+#ihergoMessaging .ihergoMessaging_top_RsearchBox_Right10PX{
+	float: right;
+	width:10px;
+	height:38px;
+	background: url(../images/mail/ihergomessaging_top_rbox10.gif) no-repeat left top;
+	}	
+/*==搜尋訊息_按鈕_END==*/
+/*==搜尋訊息_文字蘇輸入==*/
+#ihergoMessaging .ihergoMessaging_top_RsearchBox .searchitext{
+	float:right;
+	width:200px;
+	height:31px;
+	padding: 0px 10px 0px 10px;
+	_padding: 2px 10px 0px 0px;
+	}
+#ihergoMessaging .ihergoMessaging_top_RsearchBox .searchitext .searchitext_in{
+	float:right;
+	width:200px;
+	height:20px;
+	font-size:12px;
+	line-height:20px;
+	padding-left: 10px;
+	}
+/*==搜尋訊息_文字蘇輸入_END==*/
+/*==下拉式選單購買日期==*/
+#ihergoMessaging .ihergoMessaging_top_Rsearch_LBox{
+	float: right;
+	width:100px;
+	height:31px;
+	background:url(../images/mail/ihergomessaging_top_rbox1.gif) repeat-x top right;
+	padding: 7px 0px 0px 0px;
+	_padding: 4px 0px 0px 0px;
+	}
+
+#ihergoMessaging .ihergoMessaging_top_Rsearch_LBox .Fillmenu{
+	float: right;
+	display:block;
+	width:100px;
+	height:22px;
+	line-height:22px;
+	padding-top:1px;
+	_padding-top:2px;
+	}
+#ihergoMessaging .ihergoMessaging_top_Rsearch_LBox .Fillmenu .Text{
+	width:100px;
+	font-size: 13px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	line-height:22px;
+	font-weight:bolder;
+	color: #187fc4;
+	border:1px solid #BBBBBB;
+	}
+/*==下拉式選單購買日期_END==*/
+/*==搜尋訊息_END==*/
+/*==功能與標籤==*/
+#ihergoMessaging .HeaderPage{
+	float: left;
+	width:780px;
+	height:38px;
+	padding: 10px 0px 0px 0px;
+    background:url(../images/mail/headerpage_bg.gif)  repeat-x left top;
+	background-color:#FFF;
+	}
+/*==功能==*/
+#ihergoMessaging .HP_functionLeft{
+	float: left;
+	width:200px;
+	height:38px;
+	position:relative;
+	}
+#ihergoMessaging .HP_functionLeft .checkicon{
+	float: left;
+	width:35px;
+	height:38px;
+	}
+#ihergoMessaging .HP_functionLeft .checkicon .check_in{
+	position:absolute;
+	top:12px;
+	left: 10px;
+	_top:8px;
+    _left: 6px;
+	}			
+#ihergoMessaging .HeaderPage .HP_functionLeft .functionLefticon_LBOX{
+	float: left;
+	width:52px;
+	height:34px;
+	padding-top:4px;	
+	}
+#ihergoMessaging .HeaderPage .HP_functionLeft .functionLefticon_LBOX a{
+	display:block;
+	width:52px;
+	height:30px;
+	line-height:30px;
+	color:#4a4a4a;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	text-align:center;
+	outline:none;
+	text-indent:0;
+	background:url(../images/mail/deletebt.gif) no-repeat left top ;
+	}	
+#ihergoMessaging .HeaderPage .HP_functionLeft .functionLefticon_LBOX a:hover{
+	color: #000;
+	background:url(../images/mail/deletebt.gif) no-repeat left bottom;
+	}
+#ihergoMessaging .HeaderPage .HP_functionLeft .functionLefticon_LBOX p{
+	display:block;
+	width:52px;
+	height:30px;
+	line-height:30px;
+	color:#aaa9a9;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	text-align:center;
+	outline:none;
+	text-indent:0;
+	background:url(../images/mail/deletebt.gif) no-repeat left top ;
+	}		
+#ihergoMessaging .HeaderPage .HP_functionLeft .functionLefticon_RBOX{
+	float: left;
+	width:96px;
+	height:38px;
+	padding-top:4px;	
+	}
+#ihergoMessaging .HeaderPage .HP_functionLeft .functionLefticon_RBOX a{
+	display:block;
+	width:85px;
+	height:30px;
+	line-height:30px;
+	color:#4a4a4a;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	outline:none;
+	text-indent:0;
+	padding: 0px 0px 0px 15px;
+	background:url(../images/mail/functionLefticonbt.gif) no-repeat right top;	
+	}	
+#ihergoMessaging .HeaderPage .HP_functionLeft .functionLefticon_RBOX a:hover{
+	color: #000;
+	background:url(../images/mail/functionLefticonbt.gif) no-repeat right bottom;	
+	}		
+/*==功能_END==*/	
+/*==標籤==*/
+#ihergoMessaging .HeaderPage .HP_MenuRight{
+	float: right;
+	width:530px;
+	height:38px;
+	}
+#ihergoMessaging .HeaderPage .HP_MenuRight ul.RR{
+	width:530px;
+	height:38px;
+    }
+#ihergoMessaging .HeaderPage .HP_MenuRight ul.RR li{
+	float:right;
+    background-image: url(../images/mail/hp_menuright_li-rr.jpg);
+	background-repeat:no-repeat;
+	background-position: right center;
+	padding: 0 1px;
+	}
+#ihergoMessaging .HeaderPage .HP_MenuRight ul.RR li a{
+	display:block;
+	line-height: 38px;
+	padding: 0 10px;
+	font-family:Arial, 新細明體;
+	color:#4a4a4a;
+	font-size:12px;
+	letter-spacing:2px;
+	text-decoration:none;
+	background:url(../images/mail/hp_menuright_ul-rr.gif) repeat-x right center;
+    }
+#ihergoMessaging .HeaderPage .HP_MenuRight ul.RR li a:hover{
+	color: #000;
+	background-image: url(../images/mail/hp_menuright_ul-rr_hover.gif);
+	background-repeat:no-repeat;
+	background-position: right center; 
+    }
+#ihergoMessaging .HeaderPage .HP_MenuRight ul.RR li.active a{
+	color: #000;
+	background-image: url(../images/mail/hp_menuright_ul-rr_active.gif);
+	background-repeat:no-repeat;
+	background-position: right center; 
+    }	
+#ihergoMessaging .HeaderPage .HP_MenuRight ul.RR li.sidebarBOX h1{
+	display:block;
+	line-height: 38px;
+	padding: 0 10px;
+	font-family:Arial, 新細明體;
+	color:#4a4a4a;
+	font-size:12px;
+	letter-spacing:2px;
+	text-decoration:none;
+	background:url(../images/mail/sidebarbox_bg.gif) repeat-x right center;
+}
+/*==標籤_END==*/		
+/*==功能與標籤_END==*/
+/*==UI頭像_訊息資料==*/
+#ihergoMessaging .UiHeaderWithImage{
+	float: left;
+	width:780px;
+	height:60px;
+	border-bottom: 1px dotted #CCC;
+	padding: 0px 0px 10px 0px;	
+	background: #FFF;
+	}	
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft{
+	float: left;
+	width:300px;
+	height:45px;
+	padding: 13px 0px 0px 0px; 
+	}	
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .checkicon{
+	float: left;
+	width:35px;
+	height:44px;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .checkicon .check_in{
+  margin: 15px 0 0 10px;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .ListNumber{
+	float: left;
+	width:20px;
+	height:44px;
+	padding-right:5px;
+	}
+/*==顯示合購圖片==*/
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft_Goodsimage{
+	float: left;
+	width:300px;
+	height:80px;
+	position:relative;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft_Goodsimage .checkicon{
+	float: left;
+	width:35px;
+	height:80px;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft_Goodsimage .checkicon .check_in{
+	position:absolute;
+	top:30px;
+	left: 10px;
+	_top:30px;
+	_left: 6px;
+	height: 19px;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft_Goodsimage .ListNumber{
+	float: left;
+	width:20px;
+	height:80px;
+	padding-right:5px;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft_Goodsimage .ListNumber p{
+	float:left;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	width:20px;
+	height:80px;
+	line-height:80px;
+	color: #8a8a8a;
+	text-align:center;
+	overflow:hidden;
+	}	
+/*==商品圖像==*/
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft_Goodsimage .GOODSImageBOX{
+	float: left;
+	width:75px;
+	height:75px;
+	padding: 1px;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	overflow:hidden;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft_Goodsimage .GOODSImageBOX a img{
+	margin: 0 auto;
+	display:block;
+	font-size:0;
+	height:75px;
+	outline:none;
+	opacity: 1;/* 透明度60% FireFox 的寫法 */ 
+	filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */ 	
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft_Goodsimage .GOODSImageBOX a:hover img{
+	opacity: 0.8;
+	filter: Alpha(Opacity=80); 	
+	}	
+/*==顯示合購圖片_END==*/
+
+/*==訊息數==*/
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .ListNumber p{
+	float:left;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	width:20px;
+	height:44px;
+	line-height:44px;
+	color: #8a8a8a;
+	text-align:center;
+	overflow:hidden;
+	}	
+
+/*==UI頭像==*/
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .UiImageBOX{
+	float: left;
+	width:40px;
+	height:40px;
+	padding: 1px;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	overflow:hidden;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .UiImageBOX a img{
+	margin: 0 auto;
+	display:block;
+	font-size:0;
+	height:40px;
+	outline:none;
+	opacity: 1;/* 透明度60% FireFox 的寫法 */ 
+	filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */ 
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .UiImageBOX a:hover img{
+	opacity: 0.7;
+	filter: Alpha(Opacity=70); 	
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .UiImageBOX_CancelIMG{
+	float: left;
+	width:40px;
+	height:40px;
+	padding: 1px;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	overflow:hidden;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .UiImageBOX_CancelIMG a img{
+	margin: 0 auto;
+	display:block;
+	font-size:0;
+	height:40px;
+	outline:none;
+	opacity: 0.5;/* 透明度60% FireFox 的寫法 */ 
+	filter: Alpha(Opacity=50); /* 透明度60% IE 的寫法 */ 
+	}	
+/*==UI頭像_END==*/		
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .Ui_ID_TimeBOX{
+	float: left;
+	width:185px;
+	height:44px;
+	padding: 0px 0px 0px 0px;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .Ui_ID_TimeBOX h1.IDText a{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	height:22px;
+	line-height:22px;
+	color: #105CB6;
+	padding: 0px 0px 0px 10px;
+	text-decoration:none;
+	outline:none;
+	overflow:hidden;		
+	}	
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .Ui_ID_TimeBOX h1.IDText a:hover{
+	color: #ea5532;
+	text-decoration: underline;		
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .Ui_ID_TimeBOX p.IDText a{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:15px;
+	height:22px;
+	line-height:22px;
+	_line-height:25px;
+	color: #105CB6;
+	padding: 0px 0px 0px 10px;
+	text-decoration:none;
+	outline:none;
+	overflow:hidden;		
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .Ui_ID_TimeBOX p.IDText a:hover{
+	color: #ea5532;
+	text-decoration: underline;		
+	}
+.UH_uiImageLeft .Ui_ID_TimeBOX p.IDText span.textGR{
+	color: #44a205;
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:15px;
+	height:22px;
+	line-height:22px;
+	_line-height:25px;
+	padding: 0px 0px 0px 10px;
+	text-decoration:none;
+	outline:none;
+	overflow:hidden;
+}
+.UH_uiImageLeft .Ui_ID_TimeBOX p.IDText span.textB{
+	color: #454545;
+  float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	height:22px;
+	line-height:22px;
+	_line-height:25px;
+	padding: 0px 0px 0px 10px;
+	text-decoration:none;
+	outline:none;
+	overflow:hidden;
+}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .Ui_ID_TimeBOX h1 span.subText a{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	height:22px;
+	line-height:22px;
+	color: #454545;
+	padding: 0px 0px 0px 5px;
+	text-decoration:none;
+	outline:none;
+	overflow:hidden;		
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .Ui_ID_TimeBOX h1 span.subText a:hover{
+	color: #ea5532;
+	text-decoration: underline;		
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .Ui_ID_TimeBOX p span.subText a{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	height:22px;
+	line-height:22px;
+	_line-height:25px;
+	color: #454545;
+	padding: 0px 0px 0px 5px;
+	text-decoration:none;
+	outline:none;
+	overflow:hidden;		
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .Ui_ID_TimeBOX p span.subText a:hover{
+	color: #ea5532;
+	text-decoration: underline;		
+	}				
+#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .Ui_ID_TimeBOX p.IDTime_in{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	width: 175px;
+	height:22px;
+	line-height:22px;
+	color: #8a8a8a;
+	padding: 0px 0px 0px 10px;
+	text-decoration:none;
+	overflow:hidden;		
+	}
+/*#ihergoMessaging .UiHeaderWithImage .UH_uiImageLeft .Ui_ID_TimeBOX p.IDTime_in a:hover{
+	color: #545556;
+	text-decoration: underline;		
+	}*/
+/*==UI頭像_訊息資料_END==*/	
+/*==訊息標題_數據==*/
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight{
+	float: right;
+	width:470px;
+	height:55px;
+	padding: 0px 0;
+	position:relative;
+	}
+/*==標題_BOX==*/
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageTextBOX{
+	float: right;
+	height:35px;
+	padding: 0px 0;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageTextBOX .MessageLOGO{
+	height:20px;
+	padding: 2px 0px 5px 2px;
+	_padding: 4px 0px 3px 2px;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageTextBOX .MessageTEXT {
+	float: left;
+	height:20px;
+	width:460px;
+	white-space:nowrap;
+	overflow:hidden; 
+	padding: 5px 5px 5px 0px;
+
+	margin-right:5px;
+	}	
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageTextBOX .MessageTEXT a{
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:15px;
+	height:23px;
+	line-height:26px;
+	_line-height:32px;	
+	color: #105CB6;
+	text-decoration:none;
+	outline:none;
+	font-weight:normal;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageTextBOX .MessageTEXT a:hover{
+	color: #ea5532;
+	text-decoration: underline;	
+	}
+
+/*==數據_BOX==*/
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX{
+	float: left;
+	width:463px; /*==原本貼齊468PX==*/
+	height:22px;
+	background: #f6faed;
+	padding: 0px 0px 0px 0px;
+	border:1px solid #7ecef4;
+	position:relative;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX .pathTO{
+	display:block;
+	width:5px;
+	height:5px;
+	background:url(../images/mail/pathto_img.gif) no-repeat left top;
+	position:absolute;
+	top:-5px;
+	left:13px;
+	}				
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX .R-DataTEXT{
+	float: left;
+	/*width:345px;*/
+	height:22px;
+	padding: 0px 10px 0px 10px;
+	}	
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX .R-DataTEXT p{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+    height:22px;
+	line-height:22px;
+	_line-height:24px;
+	color: #454545;
+	text-align:center;
+	overflow:hidden;	
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX .R-DataTEXT450{
+	float: left;
+	width:450px;
+	height:22px;
+	padding: 0px 0px 0px 10px;
+	}	
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX .R-DataTEXT450 p{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+    height:22px;
+	line-height:22px;
+	_line-height:24px;	
+	color: #454545;
+	text-align:center;
+	overflow:hidden;	
+	}
+
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX_system{
+	float: right;
+	width:470px;
+	height:22px;
+	padding: 0px 0px 0px 0px;
+	position:relative;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX_system .R-DataTEXT450{
+	float: left;
+	width:465px;
+	height:22px;
+	padding: 0px 0px 0px 0px;
+	}	
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX_system .R-DataTEXT450 p{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+    height:22px;
+	_height:20px;   /*hack_IE6*/
+	line-height:22px;
+	_line-height:20px;   /*hack_IE6*/
+	color: #777777;
+	text-align:center;
+	overflow:hidden;	
+	}
+		
+.CopiesTEXR{
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	height:22px;
+	line-height:22px;
+	color: #000;
+	font-weight:bold;
+	padding: 0 2px;		
+	}
+.CopiesTEXR_space{
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	height:22px;
+	line-height:22px;
+	color: #999;
+	padding: 0 2px;	
+	_padding: 0 1px;		
+	}	
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX .L-DataBt{
+	float: right;
+	height:22px;
+	padding: 0px 0px 0px 0px;
+	background: url(../images/mail/l-databt_bg.gif) no-repeat left center;
+	}	
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX .L-DataBt a{
+	display:block;
+	width:70px;
+	height:22px;
+	line-height:22px;
+	_line-height:22px;
+	color: #FFF;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	text-align:center;
+	outline:none;
+	text-indent: -9999px;
+	background:url(../images/mail/l-databt.gif) no-repeat right center;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX .L-DataBt a:hover{
+	background:url(../images/mail/l-databt_hover.gif) no-repeat right top;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX .L-DataBt h1{
+	width:70px;
+	height:18px;
+	line-height:22px;
+	_line-height:22px;
+	color: #e94c1f;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	text-align:center;
+	text-indent:0;
+	}
+	
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX .L-DataBt_Blue{
+	float: right;
+	height:22px;
+	padding: 0px 0px 0px 0px;
+	background: url(../images/mail/l-databt_bg.gif) no-repeat left center;
+	}	
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX .L-DataBt_Blue a{
+	display:block;
+	width:70px;
+	height:22px;
+	line-height:22px;
+	_line-height:22px;
+	color: #FFF;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	text-align:center;
+	outline:none;
+	text-indent: -9999px;
+	background: url(../images/mail/l-databt_blue.gif) no-repeat left center;
+	}
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX .L-DataBt_Blue a:hover{
+	background: url(../images/mail/l-databt_blue_hover.gif) no-repeat right top;
+	}
+	
+#ihergoMessaging .UiHeaderWithImage .UH_uiMessagingRight .MessageDataBOX .L-DataBt_Blue h1{
+	width:70px;
+	height:22px;
+	line-height:22px;
+	_line-height:22px;
+	color: #e94c1f;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	text-align:center;
+	text-indent:0;
+	}
+	
+#ihergoMessaging p.un_paynotice_block{
+	width:70px;
+	height:22px;
+	line-height:22px;
+	_line-height:22px;
+	color: #999;
+	font-weight:bold;
+	font-size:12px;
+	text-decoration:none;
+	text-align:center;
+	text-indent:0;
+	}
+	
+.UH_uiMessagingRight .MessageDataBOX .L-DataBt span{
+	width:70px;
+	height:18px;
+	line-height:22px;
+	_line-height:22px;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	text-align:center;
+	text-indent:0;
+	}
+.UH_uiMessagingRight .MessageDataBOX .L-DataBt span.paid{
+		color: #44a205;
+	}
+.UH_uiMessagingRight .MessageDataBOX .L-DataBt span.delete{
+		color: #999;
+	}
+.UH_uiMessagingRight .MessageDataBOX .L-DataBt span.cancel{
+	color: #666;
+}
+.UH_uiMessagingRight .MessageDataBOX .L-DataBt_Blue span{
+	width:70px;
+	height:18px;
+	line-height:22px;
+	_line-height:22px;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	text-align:center;
+	text-indent:0;
+	}
+.UH_uiMessagingRight .MessageDataBOX .L-DataBt_Blue span.paid{
+		color: #44a205;
+	}
+.UH_uiMessagingRight .MessageDataBOX .L-DataBt_Blue span.delete{
+		color: #999;
+	}
+
+/*==訊息標題_數據_END==*/
+/*==UI頭像_訊息資料_未讀資料==*/
+#ihergoMessaging .UiHeaderWithImage_Graybg{
+	float: left;
+	width:780px;
+	height:60px;
+	border-bottom: 1px dotted #CCC;
+	padding: 0px 0px 10px 0px;	
+	background: #edf7fd;
+	margin-bottom:2px
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft{
+	float: left;
+	width:300px;
+	height:45px;
+	padding: 13px 0px 0px 0px; 
+	position:relative;
+	}	
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .checkicon{
+	float: left;
+	width:35px;
+	height:44px;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .checkicon .check_in{
+	position:absolute;
+	top:25px;
+	left: 10px;
+	_top:25px;
+	_left: 6px;
+	height: 19px;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .ListNumber{
+	float: left;
+	width:20px;
+	height:44px;
+	padding-right:5px;
+	}
+/*==顯示合購圖片==*/
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft_Goodsimage{
+	float: left;
+	width:300px;
+	height:80px;
+	position:relative;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft_Goodsimage .checkicon{
+	float: left;
+	width:35px;
+	height:80px;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft_Goodsimage .checkicon .check_in{
+	position:absolute;
+	top:30px;
+	left: 10px;
+	_top:30px;
+	_left: 6px;
+	height: 19px;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft_Goodsimage .ListNumber{
+	float: left;
+	width:20px;
+	height:80px;
+	padding-right:5px;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft_Goodsimage .ListNumber p{
+	float:left;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	width:20px;
+	height:80px;
+	line-height:80px;
+	color: #8a8a8a;
+	text-align:center;
+	overflow:hidden;
+	}	
+/*==商品圖像==*/
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft_Goodsimage .GOODSImageBOX{
+	float: left;
+	width:75px;
+	height:75px;
+	padding: 1px;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	overflow:hidden;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft_Goodsimage .GOODSImageBOX a img{
+	margin: 0 auto;
+	display:block;
+	font-size:0;
+	height:75px;
+	outline:none;
+	opacity: 1;/* 透明度60% FireFox 的寫法 */ 
+	filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */ 	
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft_Goodsimage .GOODSImageBOX a:hover img{
+	opacity: 0.8;
+	filter: Alpha(Opacity=80); 	
+	}	
+/*==顯示合購圖片_END==*/
+
+/*==訊息數==*/
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .ListNumber p{
+	float:left;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	width:20px;
+	height:44px;
+	line-height:44px;
+	color: #8a8a8a;
+	text-align:center;
+	overflow:hidden;
+	}	
+
+/*==UI頭像==*/
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .UiImageBOX{
+	float: left;
+	width:40px;
+	height:40px;
+	padding: 1px;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	overflow:hidden;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .UiImageBOX a img{
+	margin: 0 auto;
+	display:block;
+	font-size:0;
+	height:40px;
+	outline:none;
+	opacity: 1;/* 透明度60% FireFox 的寫法 */ 
+	filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */ 
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .UiImageBOX a:hover img{
+	opacity: 0.7;
+	filter: Alpha(Opacity=70); 	
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .UiImageBOX_CancelIMG{
+	float: left;
+	width:40px;
+	height:40px;
+	padding: 1px;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	overflow:hidden;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .UiImageBOX_CancelIMG a img{
+	margin: 0 auto;
+	display:block;
+	font-size:0;
+	height:40px;
+	outline:none;
+	opacity: 0.5;/* 透明度60% FireFox 的寫法 */ 
+	filter: Alpha(Opacity=50); /* 透明度60% IE 的寫法 */ 
+	}	
+/*==UI頭像_END==*/		
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .Ui_ID_TimeBOX{
+	float: left;
+	width:185px;
+	height:44px;
+	padding: 0px 0px 0px 0px;
+	}
+
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .Ui_ID_TimeBOX h1.IDText a{
+	float:left;
+
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	height:22px;
+	line-height:22px;
+	color: #105CB6;
+	padding: 0px 0px 0px 10px;
+	text-decoration:none;
+	outline:none;
+	overflow:hidden;		
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .Ui_ID_TimeBOX h1.IDText a:hover{
+	color: #ea5532;
+	text-decoration: underline;		
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .Ui_ID_TimeBOX p.IDText a{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:15px;
+	height:22px;
+	line-height:22px;
+	_line-height:25px;
+	color: #105CB6;
+	padding: 0px 0px 0px 10px;
+	text-decoration:none;
+	outline:none;
+	overflow:hidden;		
+	}	
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .Ui_ID_TimeBOX p.IDText a:hover{
+	color: #ea5532;
+	text-decoration: underline;		
+	}
+
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .Ui_ID_TimeBOX h1 span.subText a{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	height:22px;
+	line-height:22px;
+	color: #454545;
+	padding: 0px 0px 0px 5px;
+	text-decoration:none;
+	outline:none;
+	overflow:hidden;		
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .Ui_ID_TimeBOX h1 span.subText a:hover{
+	color: #ea5532;
+	text-decoration: underline;		
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .Ui_ID_TimeBOX p span.subText a{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	height:22px;
+	line-height:22px;
+	_line-height:25px;
+	color: #454545;
+	padding: 0px 0px 0px 5px;
+	text-decoration:none;
+	outline:none;
+	overflow:hidden;		
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .Ui_ID_TimeBOX p span.subText a:hover{
+	color: #ea5532;
+	text-decoration: underline;		
+	}			
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .Ui_ID_TimeBOX p.IDTime_in{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	width: 175px;
+	height:22px;
+	line-height:22px;
+	color: #8a8a8a;
+	padding: 0px 0px 0px 10px;
+	text-decoration:none;
+	overflow:hidden;		
+	}
+/*#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiImageLeft .Ui_ID_TimeBOX p.IDTime_in a:hover{
+	color: #545556;
+	text-decoration: underline;		
+	}*/
+/*==UI頭像_訊息資料_END==*/	
+/*==訊息標題_數據==*/
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight{
+	float: right;
+	width:470px;
+	height:55px;
+	padding: 0px 0;
+	position:relative;
+	}
+/*==標題_BOX==*/
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageTextBOX{
+	float: right;
+	height:35px;
+	padding: 0px 0;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageTextBOX .MessageLOGO{
+	height:20px;
+	padding: 2px 0px 5px 2px;
+	_padding: 4px 0px 3px 2px;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageTextBOX .MessageTEXT {
+	float: left;
+	height:20px;
+	width:460px;
+	white-space:nowrap;
+	overflow:hidden; 
+	padding: 5px 5px 5px 0px;
+
+	margin-right:5px;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageTextBOX .MessageTEXT a{
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:15px;
+	height:23px;
+	line-height:26px;
+	_line-height:32px;
+	color: #105CB6;
+	text-decoration:none;
+	outline:none;
+	font-weight:bold;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageTextBOX .MessageTEXT a:hover{
+	color: #ea5532;
+	text-decoration: underline;	
+	}
+	
+/*==數據_BOX==*/
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX{
+	float: left; 
+	width:463px; /*==原本貼齊468PX==*/
+	height:22px;
+	background: #f6faed;
+	padding: 0px 0px 0px 0px;
+	border:1px solid #7ecef4;
+	position:relative;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX .pathTO{
+	display:block;
+	width:5px;
+	height:5px;
+	background:url(../images/mail/pathto_img.gif) no-repeat left top;
+	position:absolute;
+	top:-5px;
+	left:13px;
+	}				
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX .R-DataTEXT{ float: left;/*width:345px;*/ height:22px;	padding: 0px 10px 0px 10px;}	
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX .R-DataTEXT p{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+    height:22px;
+	line-height:22px;
+	_line-height:24px;
+	color: #454545;
+	text-align:center;
+	overflow:hidden;	
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX .R-DataTEXT450{
+	float: left;
+	width:450px;
+	height:22px;
+	padding: 0px 0px 0px 10px;
+	}	
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX .R-DataTEXT450 p{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+    height:22px;
+	line-height:22px;
+	_line-height:24px;	
+	color: #454545;
+	text-align:center;
+	overflow:hidden;	
+	}
+
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX_system{
+	float: right;
+	width:470px;
+	height:22px;
+	padding: 0px 0px 0px 0px;
+	position:relative;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX_system .R-DataTEXT450{
+	float: left;
+	width:465px;
+	height:22px;
+	padding: 0px 0px 0px 0px;
+	}	
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX_system .R-DataTEXT450 p{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+    height:22px;
+	line-height:22px;
+	_line-height:20px;   /*hack_IE6*/
+	color: #777777;
+	text-align:center;
+	overflow:hidden;	
+	}
+.CopiesTEXR{
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	height:22px;
+	line-height:22px;
+	color: #000;
+	font-weight:bold;
+	padding: 0 2px;		
+	}
+.CopiesTEXR_space{
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	height:22px;
+	line-height:22px;
+	color: #999;
+	padding: 0 2px;	
+	_padding: 0 1px;		
+	}	
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX .L-DataBt{
+	float: right;
+	height:22px;
+	padding: 0px 0px 0px 0px;
+	background: url(../images/mail/l-databt_bg.gif) no-repeat left center;
+	}	
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX .L-DataBt a{
+	display:block;
+	width:70px;
+	height:22px;
+	line-height:22px;
+	_line-height:22px;
+	color: #FFF;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	text-align:center;
+	outline:none;
+	text-indent: -9999px;
+	background:url(../images/mail/l-databt.gif) no-repeat right center;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX .L-DataBt a:hover{
+	background:url(../images/mail/l-databt_hover.gif) no-repeat right top;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX .L-DataBt h1{
+	width:70px;
+	height:18px;
+	line-height:22px;
+	_line-height:22px;
+	color: #e94c1f;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	text-align:center;
+	text-indent:0;
+	}
+	
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX .L-DataBt_Blue{
+	float: right;
+	height:22px;
+	padding: 0px 0px 0px 0px;
+	background: url(../images/mail/l-databt_bg.gif) no-repeat left center;
+	}	
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX .L-DataBt_Blue a{
+	display:block;
+	width:70px;
+	height:22px;
+	line-height:22px;
+	_line-height:22px;
+	color: #FFF;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	text-align:center;
+	outline:none;
+	text-indent: -9999px;
+	background:url(../images/mail/l-databt_blue.gif) no-repeat right center;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX .L-DataBt_Blue a:hover{
+	background:url(../images/mail/l-databt_blue_hover.gif) no-repeat right top;
+	}
+#ihergoMessaging .UiHeaderWithImage_Graybg .UH_uiMessagingRight .MessageDataBOX .L-DataBt_Blue h1{
+	width:70px;
+	height:22px;
+	line-height:22px;
+	_line-height:22px;
+	color: #e94c1f;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	text-align:center;
+	text-indent:0;
+	}
+/*==訊息標題_數據_END==*/
+
+/*==頁數==*/
+#ihergoMessaging .MessagingbottomContent{
+	float: left;
+	width:780px;
+	height:40px;
+	margin-top: 10px;
+	}
+
+/*==刪除按鈕_內頁信件使用==*/
+.functionLefticon_LBOX{
+	float: left;
+	width:52px;
+	height:19px;
+	}
+.functionLefticon_LBOX a{
+	display:block;
+	width:52px;
+	height:19px;
+	line-height:19px;
+	color:#4a4a4a;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	text-align:center;
+	outline:none;
+	text-indent:0;
+	background: url(../images/mail/delete_small-19_bt.gif) no-repeat left top ;
+	}
+/*==取消刪除功能==*/
+.functionLefticon_LBOX p{
+	display:block;
+	width:52px;
+	height:19px;
+	line-height:19px;
+	color:#aaa9a9;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	text-align:center;
+	outline:none;
+	text-indent:0;
+	background: url(../images/mail/delete_small-19_bt.gif) no-repeat left top ;
+	}		
+.functionLefticon_LBOX a:hover{
+	color: #000;
+	background:url(../images/mail/delete_small-19_bt.gif) no-repeat left bottom;
+	}
+/*==更多功能_內頁信件使用==*/	
+.functionLefticon_RBOX{
+	float: left;
+	width:100px;
+	height:19px;	
+	}
+.functionLefticon_RBOX a{
+	display:block;
+	width:85px;
+	height:19px;
+	line-height:19px;
+	color:#4a4a4a;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration:none;
+	outline:none;
+	text-indent:0;
+	padding: 0px 0px 0px 15px;
+	background: url(../images/mail/functionLefticonbt_small19.gif) no-repeat right top;	
+	}	
+.functionLefticon_RBOX a:hover{
+	color: #000;
+	background: url(../images/mail/functionLefticonbt_small19.gif) no-repeat right bottom;
+	}		
+/*==更多功能_內頁信件使用_END==*/	
+/*==下一頁按鈕_內頁信件使用==*/
+.functionLefticon_onclick{
+	float: left;
+	width:45px;
+	height:19px;
+	}
+.functionLefticon_onclick a{
+	display:block;
+	width:52px;
+	height:19px;
+	line-height:19px;
+	color:#105CB6;
+	font-size:12px;
+	font-family:Arial, 新細明體;
+	text-decoration: none; 
+	text-align:right;
+	outline:none;
+	text-indent:0;
+	}
+.functionLefticon_onclick a:hover{
+	color:#ff9933;
+	text-decoration: underline;
+  }
+/*==下拉選單==*/
+#listMailActionLinksDiv{
+  position:absolute; 
+  top:0; 
+  left:0;
+  z-index:22;
+}
+.Feature_list {
+  float: left;
+	width: 100px;
+ } 
+.Feature_list_top{
+	display:block;
+	width:100px;
+	height:3px;
+	background:url(../images/mail/feature/feature_list_top_bg.gif) no-repeat left top;
+	line-height:1px; /*解除IE六問題*/
+	font-size:1px;/*解除IE六問題*/
+	} 
+.Feature_list_center{
+	display:block;
+	width:100px;
+	background:url(../images/mail/feature/feature_list_center_bg.gif) repeat-y left top;
+	font-size:0;
+	}
+.Feature_list_bottom{
+	width:100px;
+	height:5px;
+	background:url(../images/mail/feature/feature_list_bottom_bg.gif) no-repeat left top;
+	line-height:1px; /*解除IE六問題*/
+	font-size:1px;/*解除IE六問題*/
+	}
+
+.Feature_list ul.Feature_list_ad {
+	width:100px;
+}
+.Feature_list ul.Feature_list_ad li {
+}
+.Feature_list ul.Feature_list_ad li a {
+	display:block;
+	width:100px;
+	line-height:28px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	color:#555555;
+	text-align: center;
+	background:url(../images/mail/feature/feature_list_center_li.gif) no-repeat left center;
+	text-decoration:none;
+	_display:inline-block;
+}
+.Feature_list ul.Feature_list_ad li a:hover {	
+	color:#333333;
+	background:url(../images/mail/feature/feature_list_center_lihover.gif) no-repeat left top;
+	text-decoration: underline;
+}
+.Feature_list ul.Feature_list_ad li.active a {
+	color:#333333;
+	background:url(../images/mail/feature/feature_list_center_lihover.gif) no-repeat left top;
+	text-decoration: underline;
+}
+.Feature_list ul.Feature_list_ad li.notuseicom{
+	display:block;
+	width:100px;
+	line-height:28px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	color: #B4B4B4;
+	text-align: center;
+	background:url(../images/mail/feature/feature_list_center_li.gif) no-repeat left center;
+	text-decoration:none;
+	_display:inline-block;
+}
+
+
+div.box_payment{width:720px; float:left;background:url(../images/mail/box_payment_center.gif)}
+div.box_payment_top{ width:720px;height:42px; float:left; background:url(../images/mail/box_payment_top.gif); vertical-align:middle;}
+div.box_payment_top_fontbox{ width:720px;height:42px; line-height:42px; padding-left:10px; float:left; font-size:16px; color:#bf0000; font-weight: bold;}
+div.box_payment_down{width:720px;height:11px; float:left; background:url(../images/mail/box_payment_down.gif); margin-top:5px}
+div.box_payment_center{width:700px; float:left; padding:10px 0 0 15px }
+
+.box_payment_a_button{background:url(../images/mail/box_payment_a_button.gif) repeat-y;width:195px;height:35px; float:left}
+.box_payment_a_button a{background:url(../images/mail/box_payment_a_button.gif) repeat-y;width:195px;height:35px; float:left}
+.box_payment_a_button a:hover{background:url(../images/mail/box_payment_a_buttonm.gif) repeat-y;width:195px;height:35px; float:left}
+
+.box_payments_button{background:url(../images/mail/box_payment_button.gif) repeat-y;width:168px;height:35px; float:left}
+.box_payments_button a{background:url(../images/mail/box_payment_button.gif) repeat-y;width:168px;height:35px; float:left}
+.box_payments_button a:hover{background:url(../images/mail/box_payment_buttonm.gif) repeat-y;width:168px;height:35px; float:left}
+
+.box_payment_b_button{background:url(../images/mail/box_payment_b_button.gif) repeat-y;width:168pxheight:35px; float:left}
+.box_payment_b_button a{background:url(../images/mail/box_payment_b_button.gif) repeat-y;width:168px;height:35px; float:left}
+.box_payment_b_button a:hover{background:url(../images/mail/box_payment_b_buttonm.gif) repeat-y;width:168px;height:35px; float:left}
+
+.box_payment_c_button{background:url(../images/mail/box_payment_c_button.gif) repeat-y;width:185px;height:35px; float:left}
+.box_payment_c_button a{background:url(../images/mail/box_payment_c_button.gif) repeat-y;width:185px;height:35px; float:left}
+.box_payment_c_button a:hover{background:url(../images/mail/box_payment_c_buttonm.gif) repeat-y;width:185px;height:35px; float:left}
+
+.box_payment_d_button{background:url(../images/mail/box_payment_d_button.gif) repeat-y;width:193px;height:35px; float:left}
+.box_payment_d_button a{background:url(../images/mail/box_payment_d_button.gif) repeat-y;width:193px;height:35px; float:left}
+.box_payment_d_button a:hover{background:url(../images/mail/box_payment_d_buttonm.gif) repeat-y;width:193px;height:35px; float:left}
+
+.box_payment_e_button{background:url(../images/mail/box_payment_e_button.gif) repeat-y;width:195px;height:35px; float:left}
+.box_payment_e_button a{background:url(../images/mail/box_payment_e_button.gif) repeat-y;width:195px;height:35px; float:left}
+.box_payment_e_button a:hover{background:url(../images/mail/box_payment_e_buttonm.gif) repeat-y;width:195px;height:35px; float:left}
+
+.payment_go_button{background:url(../images/mail/payment_go.jpg) repeat-y;width:173px;height:44px; float:left}
+.payment_go_button a{background:url(../images/mail/payment_go.jpg) repeat-y;width:173px;height:44px; float:left}
+.payment_go_button a:hover{background:url(../images/mail/payment_gom.jpg) repeat-y;width:173px;height:44px;float:left}
+
+.payment_reply_button{background:url(../images/mail/payment_reply.jpg) repeat-y;width:173px;height:44px; float:left}
+.payment_reply_button a{background:url(../images/mail/payment_reply.jpg) repeat-y;width:173px;height:44px; float:left}
+.payment_reply_button a:hover{background:url(../images/mail/payment_replym.jpg) repeat-y;width:173px;height:44px;float:left}
+
+.payment_sure_button{background:url(../images/mail/payment_sure.jpg) repeat-y;width:173px;height:44px; float:left}
+.payment_sure_button a{background:url(../images/mail/payment_sure.jpg) repeat-y;width:173px;height:44px; float:left}
+.payment_sure_button a:hover{background:url(../images/mail/payment_surem.jpg) repeat-y;width:173px;height:44px;float:left}
+
+
+/*==20140731_新增好康主購區塊==*/
+.feedback_box{ float:left; width:748px; border:1px #f2b596 solid; padding:15px 10px 15px 20px; margin:0 auto; background-color:#fff6df; margin-bottom:15px; _display:inline;}
+.feedback_box h4{ float:left; font-size:15px; color:#454545; line-height:34px; background:url(../images/user/feedback/icon_gift.png) no-repeat 0 9px; padding-left:24px; letter-spacing:1px;}
+
+.feedback_box a.join_feedback{ float:right; height:34px; line-height:34px; font-size:15px; color:#fff; font-weight:bold; letter-spacing:2px; text-decoration:none; background-color:#ea6060; padding:0 40px; margin-right:10px; _display:inline;}
+.feedback_box a.join_feedback:hover{ text-decoration:none; background-color:#dd5454;}
+
+.feedback_box p{ float:left; line-height:20px; font-size:13px; letter-spacing:1px; padding-left:15px; border-left:1px #b8b8b8 solid; margin:0 0 0 15px; _display:inline;}
+.feedback_box p span{ color:#105cb6; font-weight:bold; letter-spacing:1px; padding: 0 4px;}
+.feedback_box p span.txt_12{ font-size:12px; font-weight:normal; color:#454545; padding:0 2px 0 0;}
+
+.feedback_box a.more{ font-size:12px; color:#105cb6; font-weight:normal; padding-left:5px; letter-spacing:1px;}
+.feedback_box a.more:hover{ color:#105cb6; text-decoration:underline;}
+
+
+/*==20140820_訂單列表下加工具列==*/
+#ihergoMessaging .EndPage{ width:780px; margin-top:15px;}
+#ihergoMessaging .EndPage .forumlist_page{ float:right; width:500px; text-align:right;}
+
+
+/*==20141203_取消訂單審核==*/
+#ihergoMessaging .UH_uiMessagingRight .MessageDataBOX .status_cancel{ float:right; width:60px; background: url(../images/mail/l-databt_bg.gif) no-repeat left center;}
+#ihergoMessaging .UH_uiMessagingRight .MessageDataBOX .status_cancel p{ height:22px; line-height:22px; color:#999; font-weight:bold; font-size:12px; text-align:center;}
+
+
+/*==20150211_人氣商店推薦廣告==*/
+#ihergoMessaging .hotshop_adbox{ float:left; width:780px; background-color:#fff; border-bottom:1px #ccc dotted; padding:12px 0; cursor:pointer; height:55px;}
+#ihergoMessaging .hotshop_adbox .ad_img{ float:left; width:160px; margin:0 15px 0 60px; _display:inline;}
+#ihergoMessaging .hotshop_adbox .ad_img a img{ width:160px; height:55px;}
+#ihergoMessaging .hotshop_adbox .ad_img a:hover img{ opacity:0.9;}
+#ihergoMessaging .hotshop_adbox .ad_content{ float:left; width:540px;}
+#ihergoMessaging .hotshop_adbox .ad_content h3 a{ font-size:15px; color:#105cb6; font-weight:normal; letter-spacing:1px;}
+#ihergoMessaging .hotshop_adbox .ad_content p{ font-size:12px; color:#666; letter-spacing:1px; line-height:18px; width:540px; height:36px; overflow:hidden;}
+
+/*==20150305_調整人氣商店推薦廣告==*/
+#ihergoMessaging .hotshop_adbox{ float:left; width:780px; background-color:#fff; border-bottom:1px #ccc dotted; padding:12px 0; cursor:pointer; height:55px;}
+#ihergoMessaging .hotshop_adbox .ad_img{ float:left; width:160px; margin:0 15px 0 60px; _display:inline;}
+#ihergoMessaging .hotshop_adbox .ad_img a img{ width:160px; height:55px;}
+#ihergoMessaging .hotshop_adbox .ad_img a:hover img{ opacity:0.9;}
+#ihergoMessaging .hotshop_adbox .ad_content{ float:left; width:400px; margin-left:75px; margin-top:8px;}
+#ihergoMessaging .hotshop_adbox .ad_content h3 a{ font-size:15px; color:#105cb6; font-weight:normal; letter-spacing:1px; float:left;}
+#ihergoMessaging .hotshop_adbox .ad_content p.ad_name{
+	background: url("../images/find_event/icon_famous.jpg") no-repeat 0 1px;
+    color: #a0a0a0;
+    float: right;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-left: 18px;
+	width:80px;
+	height:23px;
+	margin-right:-70px;
+}
+#ihergoMessaging .hotshop_adbox .ad_content p{ font-size:12px; color:#666; letter-spacing:1px; line-height:18px; width:540px; height:36px; overflow:hidden; margin-top:0px;}
+
+
+

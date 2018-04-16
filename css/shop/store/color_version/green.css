@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==區塊標題顏色==*/
+#store_wrapper #store_content h2{color:#666;}
+#store_wrapper #store_content .product_h2_box h2{color:#fff;}
+#store_wrapper #store_content .main_box .h2_box h2{color:#666666;}
+
+/*==主選單==*/
+#store_wrapper #store_NAV ul.NAV_box li a{ background:url(../../../../images/shop/store/color_version/green/NAV_style.gif) no-repeat left top;color:#fff;}
+#store_wrapper #store_NAV ul.NAV_box li a span {background:url(../../../../images/shop/store/color_version/green/NAV_style.gif) no-repeat right -37px; }
+#store_wrapper #store_NAV ul.NAV_box li a:hover {background:url(../../../../images/shop/store/color_version/green/NAV_style.gif) no-repeat left -74px;color:#fff;}
+#store_wrapper #store_NAV ul.NAV_box li a:hover span{background:url(../../../../images/shop/store/color_version/green/NAV_style.gif) no-repeat right -111px;}
+#store_wrapper #store_NAV ul.NAV_box li.target  a{background:url(../../../../images/shop/store/color_version/green/NAV_style.gif) no-repeat left -148px; color:#fff; }
+#store_wrapper #store_NAV ul.NAV_box li.target  a span {background:url(../../../../images/shop/store/color_version/green/NAV_style.gif) no-repeat right -185px; }
+#store_wrapper #store_NAV ul.NAV_box li.admin_target  a{background:url(../../../../images/shop/store/color_version/green/NAV_style.gif) no-repeat left -148px; color:#fff; font-weight:bold; }
+#store_wrapper #store_NAV ul.NAV_box li.admin_target  a span {background:url(../../../../images/shop/store/color_version/green/NAV_style.gif) no-repeat right -185px; }
+
+/*==右側切換排序按鈕==*/
+#store_wrapper #store_content ul.list_order li a{ background:url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -361px -81px;color:#fff;}
+#store_wrapper #store_content ul.list_order li a:hover {background:url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -419px -81px;color:#fff;}
+#store_wrapper #store_content ul.list_order li a.ttag {background:url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -303px -81px;color:#FFF;} 
+#store_wrapper #store_content ul.list_order li a:hover.ttag {background:url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat  -303px -81px;color:#FFF;} 
+
+/*==側邊攔標題底圖==*/
+#store_wrapper #store_content .SUB_box .SUB_content .h2_box{background:url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -495px -81px;}
+
+/*==免費索取==*/
+#store_wrapper #store_content .main_box .free_take .h2_box { background:url(../../../../images/shop/store/color_version/green/store_color.jpg) -7px -44px no-repeat;}
+#store_wrapper #store_content .main_box .free_take .h2_box h2 { color:#FFF;}
+
+/*==促銷商品==*/
+#store_wrapper #store_content .main_box .deal_goods .h2_box { background:url(../../../../images/shop/store/color_version/green/store_color.jpg) -7px -44px no-repeat;}
+#store_wrapper #store_content .main_box .deal_goods .h2_box h2 { color:#FFF;}
+
+/*==右側標題底圖==*/
+#store_wrapper #store_content .main_box .h2_box {background:url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -7px -0px;}
+#store_wrapper #store_content .list_wrp .h2_box ul.tab_btn_box li h2 a{background:url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -101px -81px; color:#ffffff;}
+#store_wrapper #store_content .list_wrp .h2_box ul.tab_btn_box li h2 a:hover {background:url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -195px -81px; }
+#store_wrapper #store_content .list_wrp .h2_box ul.tab_btn_box li.target h2 a{ background:url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -7px -81px; color:#FFFFFF;}
+#store_wrapper #store_content .list_wrp .h2_box ul.tab_btn_box li.target h2 a:hover {background:url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -7px -81px; }
+
+
+/*==超值加購==*/
+#store_wrapper #store_content .main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_box {	background-color:#fffdd6;}
+#store_wrapper #store_content .main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_box .Plusbuy_contentbox {background-color:#fffdd6;}
+#store_wrapper #store_content .main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_box .Plusbuy_bottom {background-color:#fffdd6;	border-bottom: 5px #fffdd6 solid;}
+
+/*==最新消息標題==*/
+#store_wrapper #store_content .main_box h2.news_h2{color:#FFF; background:url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -7px -186px;}
+#store_wrapper #store_content .main_box h2.pblish_h2{color:#FFF; background:url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -114px -186px;}
+#store_wrapper #store_content .main_box h2.pay_mode_h2{color:#FFF; background:url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -221px -186px;}
+
+
+
+
+
+/*============================= 20150513_商店、商品頁改版 =============================*/
+/* 商店最新消息、付款方式、折扣說明標題 */
+#store_wrapper #store_content .store_explain_box .news .news_h2{ color: #FFF; background: url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -7px -186px;}
+#store_wrapper #store_content .store_explain_box .pay_mode .pay_mode_h2{ color: #FFF; background: url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -221px -186px;}
+#store_wrapper #store_content .store_explain_box .pblish .pblish_h2{ color: #FFF; background: url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -114px -186px;}
+#store_wrapper #store_content .store_explain_box .website .website_h2{ color: #FFF; background: url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -221px -186px;}
+
+/* 商品列表標題 */
+.product_h2_box{ color:#fff; background: url(../../../../images/shop/store/color_version/green/store_color.jpg) -7px -220px no-repeat;}
+
+/* 商店合購、關於商店、問與答標題 */
+.event_function_content .left_function_block .titleBox { background: url(../../../../images/shop/store/color_version/green/store_color.jpg) -7px -44px no-repeat;}
+.right_function_block .right_titleBox{ background:#018f5f; }
+#store_wrapper #store_content .right_function_block .right_titleBox h2{ color: #fff;}
+#store_wrapper #store_content .event_function_content .titleBox h2{ color:#fff;}
+.left_function_block .question_titleBox .ask_btn{ color: #018f5f;}
+
+/* 商店介紹標題 */
+#store_wrapper #store_content .eventBox .small_title{ color: #FFF; background: url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -221px -186px;}
+
+
+/* ===商品頁標題=== */
+.event_function_block .titleBox{ background:url(../../../../images/shop/store/color_version/green/store_color.jpg) -7px -360px no-repeat;}
+
+/*==商店其他頁_標題底圖==*/
+#store_wrapper #store_content .right_explain .h2_box{background:url(../../../../images/shop/store/color_version/green/store_color.jpg)  no-repeat -7px -440px; height:35px;}
+#store_wrapper #store_content .stf_main .h2_box {background:url(../../../../images/shop/store/color_version/green/store_color.jpg)  no-repeat -7px -400px;}
+#store_wrapper #store_content .about_main .h2_box { background: url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -7px -400px; height: 35px;}
+#store_wrapper #store_content .together_main .h2_box { background: url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -7px -400px; height: 35px;}
+#store_wrapper #store_content .qa_main .h2_box { background: url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -7px -400px; height: 35px;}
+
+/*自訂商品*/
+#store_wrapper #store_content .main_box .product_box .h2_box{  background: url(../../../../images/shop/store/color_version/green/store_color.jpg) no-repeat -7px -400px; height: 33px;}
+
+/*============================= 20150226_商店、商品頁改版 =============================*/
+/*商品類別－單項分類*/
+#store_wrapper .store_item_grid.store_full_product_list .full_product_item_category .category_item:hover{
+	border-bottom: 4px solid #148f61;
+}
+#store_wrapper .store_item_grid.store_full_product_list .full_product_item_category .category_item.current{
+	border-bottom: 4px solid #148f61;
+}
+/*完整商品清單換頁*/
+#store_wrapper .store_item_grid.store_full_product_list .product_item_pager .product_item_pager_con .pager_list a{
+	border:1px solid #148f61;
+	color:#148f61;
+}
+#store_wrapper .store_item_grid.store_full_product_list .product_item_pager .product_item_pager_con .pager_list a:hover{
+	color:#148f61;
+}
+#store_wrapper .store_item_grid.store_full_product_list .product_item_pager .product_item_pager_con .pager_list a.current{
+	background: #148f61;
+}
+/* 商店購物流程 */
+#store_wrapper .shopping_process_container .process_con .shop_steps_wrp li.shop_step.step_current .step_circle{
+	background: #148f61;
+	border:1px solid transparent;
+	color:#ffffff;
+}
+#store_wrapper .shopping_process_container .process_con .shop_steps_wrp li.shop_step.step_current .step_info{
+	color:#148f61;
+}

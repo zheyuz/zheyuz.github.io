@@ -1,0 +1,30 @@
+h1, h2, h3, h4, h5, h6, p, a, ul, li{ color:#454545; font-family:Arial, Helvetica, sans-serif, "新細明體-ExtB";}
+p.require {color:#F64949; text-align:right; vertical-align:top; padding:0px 5px;}
+
+#new_ihergoMails_wrapperBG{ width:100%; background-color:#F9F7F7;}
+
+/*==合購_單==*/
+#new_ihergoMails_wrapper { width:790px; margin:0 auto; position:relative;}
+
+/*==合購_頁==*/
+#new_ihergoevents_wrapper { width:790px; margin:0 auto; position:relative;}
+
+/*==回TOP==*/
+/* #go_top { width:45px; height:45px; position:fixed; right:2%; bottom:9%; _position:absolute; _right:50px; _bottom:50px;z-index:16;} */
+/* #go_top a{ width:45px; height:45px; background: url(../images/user/go_top.png) left top no-repeat; display:block; text-indent:-9999px; _background: url(../images/user/go_top.gif) left top no-repeat;} */
+/* #go_top a:hover{ background: url(../images/user/go_top.png) left bottom no-repeat;_background: url(../images/user/go_top.gif) left bottom no-repeat;} */
+/*==回TOP_結束==*/
+
+.main_content span.highlight{ color:#F64949;}
+
+/*==合購_單==*/
+#new_ihergoMails_content{ width:790px; /*padding-top:30px;*/}
+/*==合購_頁==*/
+#new_ihergoevents_content{ width:790px;}
+/*==以上設計兩攔式共用==*/
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+.EventTrack_box h1, .EventTrack_box h2, .EventTrack_box h3, .EventTrack_box h4, .EventTrack_box h5, .EventTrack_box h6, .EventTrack_box p{ font-size:12px; letter-spacing:1px; color:#666; font-family:Arial, Helvetica, sans-serif;}
+.EventTrack_box{width:92%; margin: 0 auto; }
+
+.EventTrack_box .EventTrack_header{ width:100%; height:31px; border:1px #e7e7e7 solid; border-width:1px 0; background:url(images/bg_EventTrack_header.jpg) repeat-x;}
+.EventTrack_box .EventTrack_header h3{ font-size:13px; letter-spacing:3px; line-height:30px; *line-height:31px; text-indent:15px;}
+.EventTrack_box .MarTop{ margin-top:15px;}
+
+.EventTrack_box .EventTrack_con{ padding:15px; border-bottom:1px #ccc dotted;}
+.EventTrack_box .noBorder{ border-bottom:none;}
+.EventTrack_box h4{font-size:13px; letter-spacing:2px; font-weight:normal; margin-bottom:2px;}
+.EventTrack_box h4 span{ font-size:12px; color:#999; letter-spacing:1px; padding-left:5px;}
+
+.EventTrack_box .check_row{ width:100%; padding: 5px 0;}
+.EventTrack_box .check_row .ck_box{ float:left; padding:3px 8px 0 0; *padding:0 8px 0 0;}
+.EventTrack_box .check_row p.txt_track{ float:left; color:#105cb6; letter-spacing:2px;}
+.EventTrack_box .check_row p.txt_track span{font-weight:bold; padding: 0 5px;}
+.EventTrack_box .check_row a{ float:left; display:block; font-size:12px; color:#105cb6; text-decoration:none; letter-spacing:2px; padding-left:25px; *padding-left:20px;}
+.EventTrack_box .check_row a:hover{ text-decoration:underline;}
+.EventTrack_box .check_row a.private{ background: url(../images/club/icon_private.gif) no-repeat 5px 2px; *background-position:0px 2px;}
+.EventTrack_box .check_row a.semi_closed{ background: url(../images/club/icon_private.gif) no-repeat 5px -47px; *background-position:0px 2px;}
+
+.EventTrack_box a.more_family{ display:block; font-size:12px; color:#666; letter-spacing:2px; text-decoration:underline; padding:10px 0 5px 5px;}
+.EventTrack_box a.more_family:hover{ text-decoration:none;}
+
+.alert_box{ padding-top:10px;}

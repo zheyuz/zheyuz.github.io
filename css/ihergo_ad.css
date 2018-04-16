@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*20130222_揪團試吃廣告開始*/
+.tryeat_adBox h1, .tryeat_adBox h2, .tryeat_adBox h3, .tryeat_adBox h4, .tryeat_adBox h5, .tryeat_adBox h6, .tryeat_adBox p, .tryeat_adBox a{ font-size:12px; color:#666; letter-spacing:1px; font-family:Arial, Helvetica, sans-serif;}
+
+.tryeat_adBox{ width:173px; border:1px #e3e3e3 solid; margin-top:15px;}
+.tryeat_adBox .h2_box{ width:171px; height:32px; background-color:#f5f5f5; border:1px #fff solid; position:relative;}
+.tryeat_adBox .h2_box h2{ font-size:15px; text-indent:15px; line-height:32px;}
+.tryeat_adBox .h2_box a.buyAD{ color:#454545; text-decoration:none; font-weight:normal; padding-left:30px;}
+.tryeat_adBox .h2_box a:hover.buyAD{ text-decoration:underline;}
+.tryeat_adBox .h2_box a.buyAD_discount{color:#454545; text-decoration:none; font-weight:normal; padding-left:1px;}
+.tryeat_adBox .h2_box a.buyAD_discount img{ vertical-align:middle;}
+
+.tryeat_adBox .tryeat_con{ width:100%; border-top:1px #e3e3e3 solid; padding:15px 0; cursor:pointer;}
+.tryeat_adBox .tryeat_con .img_box{ width:145px; height:145px; margin: 0 auto;}
+.tryeat_adBox .tryeat_con .img_box a{ display:block; width:145px; height:145px; overflow:hidden;}
+.tryeat_adBox .tryeat_con .img_box a:hover{opacity: 0.9;filter:alpha(opacity=90); zoom:1;}
+.tryeat_adBox .tryeat_con h3{ width:150px; height:20px; margin: 0 auto;}
+.tryeat_adBox .tryeat_con h3 a{ display:block; width:150px; height:20px; font-size:13px; font-weight:normal; line-height:20px; text-align:center; overflow:hidden; padding-top:2px;}
+.tryeat_adBox .tryeat_con h3 a:hover{ text-decoration:none;}
+.tryeat_adBox .tryeat_con p{text-align:center; font-size:12px; height:20px; overflow:hidden;}
+.tryeat_adBox .tryeat_con p span.original{ color:#888; text-decoration:line-through; padding-right:5px; border-right:1px #666 solid; margin-right:5px;}
+.tryeat_adBox .tryeat_con p span.highlight{ font-family:"Century Gothic"; color:#F64949; font-size:15px; font-weight:400; padding-left:3px;}
+
+
+/*20130227_全站注目廣告開始*/
+.attention_adBox h1, .attention_adBox h2, .attention_adBox h3, .attention_adBox h4, .attention_adBox h5, .attention_adBox h6, .attention_adBox p, .attention_adBox a{font-size:12px; color:#454545; letter-spacing:1px; font-family:Arial, Helvetica, sans-serif;}
+
+.attention_adBox{ width:980px; margin: 0 auto; padding-top:35px; position:relative; z-index:6;}
+.padTop{ padding-top:0;}
+.attention_adBox .label_off{ position:absolute; right:0; top:0; width:86px; height:30px; z-index:6;}
+.attention_adBox .label_off a.buyAD{ display:block; width:86px; height:30px; color:#645447; letter-spacing:2px; padding:12px 10px 0 0; text-align:right;}
+.attention_adBox .label_off a.buyAD_free{ display:block; width:86px; height:30px; text-indent:-9999px; background:url(../images/ad/pic_buyAD.jpg) no-repeat left top;}
+.attention_adBox .label_off a.buyAD_10off{ display:block; width:86px; height:30px; text-indent:-9999px; background:url(../images/ad/pic_buyAD.jpg) no-repeat left -30px;}
+.attention_adBox .label_off a.buyAD_20off{ display:block; width:86px; height:30px; text-indent:-9999px; background:url(../images/ad/pic_buyAD.jpg) no-repeat left -60px;}
+.attention_adBox .label_off a.buyAD_30off{ display:block; width:86px; height:30px; text-indent:-9999px; background:url(../images/ad/pic_buyAD.jpg) no-repeat left -90px;}
+.attention_adBox .label_off a:hover{opacity: 0.8;filter:alpha(opacity=80); zoom:1; text-decoration:none;}
+
+.attention_adBox .att_ad{ float:left; width:294px; height:95px; background-color:#fff7f7; border:1px #ffe0e0 solid; padding:10px; margin-right:16px; _display:inline;}
+.attention_adBox .MarR{ margin-right:0;}
+.attention_adBox .att_ad .img_box{ float:left; width:90px; height:90px; border:2px solid #fff;}
+.attention_adBox .att_ad .img_box img{ width:90px;}
+.attention_adBox .att_ad .img_box a{ display:block; width:90px; height:90px; overflow:hidden;}
+.attention_adBox .att_ad .img_box a:hover{opacity: 0.9;filter:alpha(opacity=90); zoom:1;}
+.attention_adBox .att_ad .txt_box{ float:left; width:190px; height:90px; overflow:hidden; padding-left:10px;}
+.attention_adBox .att_ad .txt_box h3 a{ display:block; font-size:13px; height:36px; line-height:18px; overflow:hidden; margin-bottom:15px;}
+.attention_adBox .att_ad .txt_box h3 a:hover{ color:#666; text-decoration:none;}
+.attention_adBox .att_ad .txt_box p{ font-size:12px; height:20px; overflow:hidden; margin-bottom:2px;}
+.attention_adBox .att_ad .txt_box p span.txt_price{font-family:"Century Gothic"; color:#F64949; font-size:14px; font-weight:bold; padding-right:6px; border-right:1px #ddd solid; margin-right:7px;}
+.attention_adBox .att_ad .txt_box p span.txtR12{ color:#F64949; font-size:12px; font-weight:bold;}
+.attention_adBox .att_ad .txt_box h2 a{ /*display:block;*/ font-size:12px; color:#666; font-weight:normal; background:url(../images/ad/icon_store.jpg) no-repeat 0 2px; padding-left:14px; height:20px; overflow: hidden;}
+.attention_adBox .att_ad .txt_box h2 a.vip{ display:inline; padding:0; background:none;}
+.attention_adBox .att_ad .txt_box h2 a.vip img{ vertical-align:middle;}
+
+/*20130408_新增廣告優惠對話框*/
+/*揪團試吃_START*/
+.tryeat_adBox .dialog_ADbox{ position:absolute; left:10px; top:33px; width:250px; box-shadow:0 0 10px rgba(51, 51, 102, 0.6); z-index:6;}
+.tryeat_adBox .icon_close{position:absolute; right:10px; top:15px;width:14px; height:14px;}
+.tryeat_adBox .icon_close a{ display:block; width:14px; height:14px; background:url(../images/ad/icon_close.jpg) no-repeat 0 0; text-indent:-9999px;}
+.tryeat_adBox .icon_close a:hover{background:url(../images/ad/icon_close.jpg) no-repeat 0 -20px;}
+.tryeat_adBox .icon_arrow{position:absolute; left:102px; top:-6px; width:13px; height:7px; background:url(../images/ad/icon_arrow.gif) no-repeat;}
+.tryeat_adBox .AD_content{width:250px; height:160px; border:1px #919191 solid; background-color:#fff;}
+.tryeat_adBox .AD_content .imgAD{ width:250px; height:75px; margin:10px 0 3px 0;}
+.tryeat_adBox .AD_content .AD_free{ background:url(../images/ad/Bigicon_buyAD.jpg) no-repeat 0 0;}
+.tryeat_adBox .AD_content .AD_10off{ background:url(../images/ad/Bigicon_buyAD.jpg) no-repeat 0 -75px;}
+.tryeat_adBox .AD_content .AD_20off{ background:url(../images/ad/Bigicon_buyAD.jpg) no-repeat 0 -150px;}
+.tryeat_adBox .AD_content .AD_30off{ background:url(../images/ad/Bigicon_buyAD.jpg) no-repeat 0 -225px;}
+.tryeat_adBox .AD_content p{ font-size:15px; color:#454545; letter-spacing:3px; padding: 0 10px 0 18px; text-align:left;}
+.tryeat_adBox .AD_content p span{ color:#ed5655; font-weight:bold;}
+/*揪團試吃_END*/
+
+/*全站注目_START*/
+.attention_adBox .dialog_ADbox{ position:absolute; right:0px; top:33px; width:250px; box-shadow:0 0 10px rgba(51, 51, 102, 0.6); z-index:6;}
+.attention_adBox .icon_close{position:absolute; right:10px; top:15px;width:14px; height:14px;}
+.attention_adBox .icon_close a{ display:block; width:14px; height:14px; background:url(../images/ad/icon_close.jpg) no-repeat 0 0; text-indent:-9999px;}
+.attention_adBox .icon_close a:hover{background:url(../images/ad/icon_close.jpg) no-repeat 0 -20px;}
+.attention_adBox .icon_arrow{position:absolute; right:48px; top:-6px; width:13px; height:7px; background:url(../images/ad/icon_arrow.gif) no-repeat;}
+.attention_adBox .AD_content{width:250px; height:160px; border:1px #919191 solid; background-color:#fff;}
+.attention_adBox .AD_content .imgAD{ width:250px; height:75px; margin:10px 0 3px 0;}
+.attention_adBox .AD_content .AD_free{ background:url(../images/ad/Bigicon_buyAD.jpg) no-repeat 0 0;}
+.attention_adBox .AD_content .AD_10off{ background:url(../images/ad/Bigicon_buyAD.jpg) no-repeat 0 -75px;}
+.attention_adBox .AD_content .AD_20off{ background:url(../images/ad/Bigicon_buyAD.jpg) no-repeat 0 -150px;}
+.attention_adBox .AD_content .AD_30off{ background:url(../images/ad/Bigicon_buyAD.jpg) no-repeat 0 -225px;}
+.attention_adBox .AD_content p{ font-size:15px; color:#454545; letter-spacing:3px; padding: 0 10px 0 18px; text-align:left;}
+.attention_adBox .AD_content p span{ color:#ed5655; font-weight:bold;}
+/*全站注目_END*/
+
+
+/*置頂黃金連結_START*/
+.index_wrapper .ad_auto_box{ width:980px; margin: 0 auto; padding:20px 0 10px;}
+.index_wrapper .posit_re{ position:relative;}
+.index_wrapper .ad_auto_box a.txt_gold{ display:block; float:left; width:235px; height:20px; line-height:20px; padding: 0 5px; color:#454545; font-size:15px; text-align:center; text-decoration:none; overflow:hidden; *letter-spacing:0px;}
+.index_wrapper .ad_auto_box a.txt_gold:hover{ color:#105cb6; text-decoration:underline;}
+
+.index_wrapper .ad_auto_box a.buyAD{display:block; height:30px; position:absolute; right:-30px; top:0px;}
+.index_wrapper .ad_auto_box a.buyAD img{ vertical-align:middle;}
+.index_wrapper .ad_auto_box a.icon_off{position:absolute; right:-58px; top:-5px;}
+
+/*置頂黃金連結_END*/
+
+
+
+
+
+

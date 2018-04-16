@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+#TopAd_apple_may{ width:980px; margin:0 auto;}
+#TopAd_apple_may .top{ width:980px; height:258px; float:left; background:url(../images/2011/ad_apple_may/br_00.jpg) left top no-repeat;}
+
+#TopAd_apple_may .top .left_tit{ width:200px; height:258px; float:left;}
+#TopAd_apple_may .top .left_tit h2{ text-indent:-9999px;}
+#TopAd_apple_may .top .left_tit h3{ text-indent:-9999px;}
+#TopAd_apple_may .top .left_tit p{ text-indent:-9999px;}
+
+#TopAd_apple_may .top .rightbox{width:780px; height:258px; float:left;}
+#TopAd_apple_may .top .rightbox ul.droducts{width:780px; height:258px; position:relative;}
+
+#TopAd_apple_may .top .rightbox ul.droducts li.d1 {position:absolute; left:0px; top:0px; float:left;}
+#TopAd_apple_may .top .rightbox ul.droducts li.d1 p a{width:185px; height:165px; display:block ;text-indent:-9999px;}
+#TopAd_apple_may .top .rightbox ul.droducts li.d1 p a:hover{background:url(../images/2011/ad_apple_may/br_01.jpg) no-repeat; left:0px; top:0px; background-position:-200px 0px; text-indent:-9999px;}
+
+#TopAd_apple_may .top .rightbox ul.droducts li.d2 {position:absolute; left:185px; top:0px; float:left;}
+#TopAd_apple_may .top .rightbox ul.droducts li.d2 p a{width:157px; height:165px; display:block ;text-indent:-9999px;}
+#TopAd_apple_may .top .rightbox ul.droducts li.d2 p a:hover{background:url(../images/2011/ad_apple_may/br_01.jpg) no-repeat; left:-185px; top:0px; background-position:-385px 0px; text-indent:-9999px;}
+
+#TopAd_apple_may .top .rightbox ul.droducts li.d3 {position:absolute; left:130px; top:165px; float:left;}
+#TopAd_apple_may .top .rightbox ul.droducts li.d3 p a{width:212px; height:93px; display:block ;text-indent:-9999px;}
+#TopAd_apple_may .top .rightbox ul.droducts li.d3 p a:hover{background:url(../images/2011/ad_apple_may/br_01.jpg) no-repeat; left:-130px; top:-165px; background-position:-330px -165px; text-indent:-9999px;}
+
+#TopAd_apple_may .top .rightbox ul.droducts li.d4 {position:absolute; left:342px; top:0px; float:left;}
+#TopAd_apple_may .top .rightbox ul.droducts li.d4 p a{width:120px; height:258px; display:block ;text-indent:-9999px;}
+#TopAd_apple_may .top .rightbox ul.droducts li.d4 p a:hover{background:url(../images/2011/ad_apple_may/br_01.jpg) no-repeat; background-position:-542px 0px; text-indent:-9999px;}
+
+#TopAd_apple_may .top .rightbox ul.droducts li.d5 {position:absolute; left:462px; top:0px; float:left;}
+#TopAd_apple_may .top .rightbox ul.droducts li.d5 p a{width:318px; height:114px; display:block ;text-indent:-9999px;}
+#TopAd_apple_may .top .rightbox ul.droducts li.d5 p a:hover{background:url(../images/2011/ad_apple_may/br_01.jpg) no-repeat; background-position:-662px 0px; text-indent:-9999px;}
+
+#TopAd_apple_may .top .rightbox ul.droducts li.d6 {position:absolute; left:462px; top:114px; float:left;}
+#TopAd_apple_may .top .rightbox ul.droducts li.d6 p a{width:153px; height:144px; display:block ;text-indent:-9999px;}
+#TopAd_apple_may .top .rightbox ul.droducts li.d6 p a:hover{background:url(../images/2011/ad_apple_may/br_02.jpg) no-repeat; background-position:0px 0px; text-indent:-9999px;}
+
+#TopAd_apple_may .top .rightbox ul.droducts li.d7 {position:absolute; left:580px; top:165px; float:left;}
+#TopAd_apple_may .top .rightbox ul.droducts li.d7 p a{width:200px; height:93px; display:block ;text-indent:-9999px;}
+#TopAd_apple_may .top .rightbox ul.droducts li.d7 p a:hover{background:url(../images/2011/ad_apple_may/br_01.jpg) no-repeat; background-position:-780px -165px; text-indent:-9999px;}
+
+#TopAd_apple_may .top_small{ width:980px; height:72px; float:left; background:url(../images/2011/ad_apple_may/br_00.jpg) 0 -258px no-repeat; text-indent:-9999px;}
+
+
+#TopAd_apple_may .bottom{ width:980px; height:23px; float:left;padding-bottom:10px;}
+#TopAd_apple_may .bottom p{ width:980px; height:23px; display:block; background:url(../images/2011/ad_apple_may/br_bottom.jpg) left top no-repeat;}
+#TopAd_apple_may .bottom p a{ width:980px; height:23px; display:block; background:url(../images/2011/ad_apple_may/br_bottom.jpg) 0 0 no-repeat; text-indent:-9999px;}
+#TopAd_apple_may .bottom p a:hover{ width:980px; height:23px; display:block; background:url(../images/2011/ad_apple_may/br_bottom.jpg) 0 -23px; text-indent:-9999px;}
+
+#TopAd_apple_may .bottom_open{ width:980px; height:23px; float:left;padding-bottom:10px;}
+#TopAd_apple_may .bottom_open p{ width:980px; height:23px; display:block; background:url(../images/2011/ad_apple_may/br_bottom.jpg) 0 -46px no-repeat;}
+#TopAd_apple_may .bottom_open p a{ width:980px; height:23px; display:block; background:url(../images/2011/ad_apple_may/br_bottom.jpg) 0 -46px no-repeat; text-indent:-9999px;}
+#TopAd_apple_may .bottom_open p a:hover{ width:980px; height:23px; display:block; background:url(../images/2011/ad_apple_may/br_bottom.jpg) 0 -69px; text-indent:-9999px;}
+

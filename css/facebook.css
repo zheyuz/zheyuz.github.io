@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+div.fbTitle {border:1px solid #C1C1C1; background-color:#f6f6f6}
+div.fbBox {font-family:arial, helvetica, sans-serif, "新細明體"; border-bottom:1px solid #C1C1C1; border-left:1px solid #C1C1C1; border-right:1px solid #C1C1C1;background-color:#ffffff}
+
+span.fbText {font-size:12px; color:#999999}
+span.fbTextb {font-size:12px; color:#424542; font-weight:700}
+
+div.fbUserBox {border:1px solid #ffffff; width:134px; height:64px; margin:2px; text-decoration:none; cursor:pointer; margin-top:1px}
+div.fbUserPhotoOut {float:left; margin:7px 0 0 7px; _margin:7px 0 0 3px}
+div.fbUserPhotoIn {width:50px; height:50px; float:left; *margin-top:-1px}
+
+input.fbInput {width:300px; height:19px; font-size:10pt; line-height:17px; border:1px solid #bdc7de; vertical-align:middle}
+textarea.fbArea {width:500px; height:48px; font-size:10pt; line-height:17px; border:1px solid #bbbbbb; padding:3px 0 0 3px}
+
+a.fbShare {background:url(../images/images/good.gif) no-repeat; width:90px; height:23px; margin-right:1px}
+a.fbShare:hover {background:url(../images/images/good_m.gif) no-repeat; width:90px; height:23px}
+a.plurkShare {background:url(../images/images/plurk.gif) no-repeat; width:88px; height:23px; margin-left:10px}
+a.plurkShare:hover {background:url(../images/images/plurk_m.gif) no-repeat; width:88px; height:23px}
+
+div.fbShareAmount div.fb_l{float:left; width:5px; height:23px;background:url(../images/images/good_l.gif) no-repeat}
+div.fbShareAmount div.fb_r{float:left; text-align:center;width:2px; height:23px;background:url(../images/images/good_r.gif) no-repeat}
+div.fbShareAmount div.fb_font{float:left; height:23px;text-align:center;background:url(../images/images/good_c.gif) repeat-x; padding:2px 5px 0 6px;font-size:12px; color:#ffffff}
+
+a.fbUser div.fbUserBox {background:url(../images/images/fbUser.gif) no-repeat top left}
+a.fbUser:hover div.fbUserBox {background:url(../images/images/fbUserOver.gif) no-repeat top left}
+a.fbUser div.fbUserBox div.fbUserName {width:65px; height:48px; overflow:hidden; float:left; color:#000000; font-size:12px; margin:7px 0 0 9px}
+
+a.fbUserSelect div.fbUserBox,
+a.fbUserSelect:hover div.fbUserBox {background:url(../images/images/fbUserSelected.gif) no-repeat top left}
+a.fbUserSelect div.fbUserBox div.fbUserName {width:65px; height:48px; overflow:hidden; float:left; color:#ffffff; font-size:12px; margin:7px 0 0 9px}
+
+a.fbButton {background-color:#3b5998; border-top:1px solid #d9dfea; border-left:1px solid #d9dfea; border-bottom:1px solid #0e1f5b; border-right:1px solid #0e1f5b; text-decoration:none; padding:3px; line-height:30px}
+a.fbButton span.fbButtonText {color:#ffffff; font-size:12px; margin:3px 5px}
+a.fbButton:active span.fbButtonText {margin:3px 3px 3px 7px}
+
+a.fbGrayButton {background-color:#f7f7f7; border-top:1px solid #e0e0e0; border-left:1px solid #e0e0e0; border-bottom:1px solid #636563; border-right:1px solid #636563; text-decoration:none; padding:3px; line-height:30px}
+a.fbGrayButton span.fbGrayButtonText {color:#454545; font-size:12px; margin:3px 5px}
+a.fbGrayButton:active span.fbGrayButtonText {margin:3px 3px 3px 7px}

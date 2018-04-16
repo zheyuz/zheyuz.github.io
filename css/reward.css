@@ -1,0 +1,332 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper_rebate ul, .wrapper_rebate li, .wrapper_rebate h1, .wrapper_rebate h2, .wrapper_rebate h3, .wrapper_rebate h4, .wrapper_rebate h5, .wrapper_rebate h6, .wrapper_rebate a, .wrapper_rebate p{ color:#666; font-size:12px; letter-spacing:1px;}
+
+.wrapper_rebate{ float:right; width:790px;}
+
+.wrapper_rebate .rebate_title{ width:770px; height:40px; background-color:#61a598; border-bottom:1px #4e8a7f solid; padding:10px 0 0 20px}
+
+.wrapper_rebate .mails_title_box_reward{width:790px; height:30px; padding: 10px 0px 0px 0px; background-color:#61a598; border-bottom:1px #4e8a7f solid; overflow:hidden;}
+.wrapper_rebate .mails_title { width:770px; float:left; padding:0 0 0 20px; }
+.wrapper_rebate .mails_title .h1_box{width:770px; height:20px; overflow:hidden; position: relative}
+.wrapper_rebate .mails_title .h1_box h1{float:left;  color:#ffffff; font-size:15px; font-weight:bold; letter-spacing:1px; line-height:20px;white-space: nowrap; width:730px;overflow:hidden;}
+.wrapper_rebate .mails_title .h1_box a h1{color:#ffffff;text-decoration:none;}
+.wrapper_rebate .mails_title .h1_box a:hover h1{color:#ffffff; text-decoration:underline; cursor: pointer}
+.wrapper_rebate .mails_title .h1_box img{ vertical-align:middle; }
+#admin_wrapper .wrapper_rebate .mails_title .h1_box h1{color:#ffffff} /*為了在商店後台標題可以正確呈現白色*/
+
+.wrapper_rebate .rebate_content_box{ width:758px; background-color:#fbfbfb; border:1px #cbcbcb solid; border-width:0 1px 1px 1px; padding:15px; /*margin-bottom:20px;*/}
+
+/*狀態表START*/
+.wrapper_rebate .rebate_content_box .process_box{ width:720px; height:92px; position:relative; padding: 0 19px;}
+.wrapper_rebate .rebate_content_box .process_box .process_step1{ float:left; width:273px;}
+.wrapper_rebate .rebate_content_box .process_box .process_step2{ float:left; width:203px;}
+.wrapper_rebate .rebate_content_box .process_box .process_step3{ float:left; width:244px;}
+
+.wrapper_rebate .rebate_content_box .process_box .pro_a01{ width:273px; height:52px; background:url(../images/reward/img_process.jpg) no-repeat;}
+.wrapper_rebate .rebate_content_box .process_box .pro_a02{ width:273px; height:52px; background:url(../images/reward/img_process.jpg) no-repeat 0 -52px;}
+.wrapper_rebate .rebate_content_box .process_box .pro_b01{ width:203px; height:52px; background:url(../images/reward/img_process.jpg) no-repeat -273px 0;}
+.wrapper_rebate .rebate_content_box .process_box .pro_b02{ width:203px; height:52px; background:url(../images/reward/img_process.jpg) no-repeat -273px -52px;}
+.wrapper_rebate .rebate_content_box .process_box .pro_b03{ width:203px; height:52px; background:url(../images/reward/img_process.jpg) no-repeat -273px -104px;}
+.wrapper_rebate .rebate_content_box .process_box .pro_b04{ width:203px; height:52px; background:url(../images/reward/img_process.jpg) no-repeat -273px -156px;}
+.wrapper_rebate .rebate_content_box .process_box .pro_c01{ width:244px; height:52px; background:url(../images/reward/img_process.jpg) no-repeat -476px 0;}
+.wrapper_rebate .rebate_content_box .process_box .pro_c02{ width:244px; height:52px; background:url(../images/reward/img_process.jpg) no-repeat -476px -52px;}
+.wrapper_rebate .rebate_content_box .process_box .pro_c03{ width:244px; height:52px; background:url(../images/reward/img_process.jpg) no-repeat -476px -104px;}
+
+.wrapper_rebate .rebate_content_box .process_box p.sum{ width:125px; height:20px; font-size:13px; color:#454545; text-align:center;}
+.wrapper_rebate .rebate_content_box .process_box p.sum span{ font-weight:bold; font-family:Verdana, Geneva, sans-serif;}
+.wrapper_rebate .rebate_content_box .process_box p.sum_a{ position:absolute; left:124px; top:16px;}
+.wrapper_rebate .rebate_content_box .process_box p.sum_b{ position:absolute; left:327px; top:16px;}
+.wrapper_rebate .rebate_content_box .process_box p.sum_c{ position:absolute; left:556px; top:16px;}
+
+.wrapper_rebate .rebate_content_box .process_box .pro_txt_a01{position:absolute;left:133px;	top:50px;line-height:18px;text-align:center;color:#666;	font-size:12px;	letter-spacing:1px;}
+.wrapper_rebate .rebate_content_box .process_box .pro_txt_a02{position:absolute;left:112px;	top:50px;line-height:18px;text-align:center;color:#666;	font-size:12px;	letter-spacing:1px;}
+.wrapper_rebate .rebate_content_box .process_box .pro_txt_b01{position:absolute; left:392px; top:50px; line-height:18px; text-align:center; color:#666; font-size:12px; letter-spacing:1px; _width:155px; _left:350px;}
+.wrapper_rebate .rebate_content_box .process_box .pro_txt_b02{position:absolute; left:325px; top:50px; line-height:18px; text-align:center; color:#666; font-size:12px; letter-spacing:1px; _width:155px; _left:315px;}
+.wrapper_rebate .rebate_content_box .process_box .pro_txt_b03{position:absolute; left:322px; top:50px; line-height:18px; text-align:center; color:#666; font-size:12px; letter-spacing:1px; _width:155px; _left:282px;}
+.wrapper_rebate .rebate_content_box .process_box .pro_txt_b04{position:absolute; left:314px; top:50px; line-height:18px; text-align:center; color:#666; font-size:12px; letter-spacing:1px; _width:155px; _left:282px;}
+.wrapper_rebate .rebate_content_box .process_box .pro_txt_c01{position:absolute; left:570px; top:50px; line-height:18px; text-align:center; color:#666; font-size:12px; letter-spacing:1px; _width:155px; _left:535px;}
+.wrapper_rebate .rebate_content_box .process_box .pro_txt_c02{position:absolute; left:560px; top:50px; line-height:18px; text-align:center; color:#666; font-size:12px; letter-spacing:1px; _width:155px; _left:535px;}
+
+.wrapper_rebate .rebate_content_box .process_box p.txt_n66{ color:#666;}
+.wrapper_rebate .rebate_content_box .process_box p.txt_n66 span.txtR12{ color:#F64949;}
+.wrapper_rebate .rebate_content_box .process_box p.txt_grey{ color:#999;}
+.wrapper_rebate .rebate_content_box .process_box p span.txt_red{ color:#F64949; font-weight:bold; font-family:Verdana, Geneva, sans-serif;}
+.wrapper_rebate .rebate_content_box .process_box p.bold{ font-weight:bold;}
+/*狀態表END*/
+
+.wrapper_rebate .tab_box{ width:790px; background:url(../images/reward/main_tab_box_bg.gif) repeat-x left bottom; border-bottom:1px #cbcbcb solid; margin-top:20px;}
+.wrapper_rebate .tab_box .tab_box_Lbox{ float:left; width:695px; padding-left:15px;}
+.wrapper_rebate .tab_box .tab_box_Rbox{ float:right; width:60px;}
+
+.wrapper_rebate .tab_box .tab_box_Lbox ul.main_use li{ float:left; padding-right:5px;}
+.wrapper_rebate .tab_box .tab_box_Lbox ul.main_use li a{ display:block; font-size:15px; background-color:#61a598; border:1px #4E8A7F solid; border-width:1px 1px 0 1px; border-radius:3px 3px 0 0; text-align:center; line-height:32px; padding: 0 11px; text-decoration:none;}
+.wrapper_rebate .tab_box .tab_box_Lbox ul.main_use li a.active{ font-weight:bold; color:#fff;}
+
+.wrapper_rebate .tab_box .tab_box_Rbox a.close_btn{ display:block; height:33px; font-size:13px; color:#858585; line-height:30px; font-weight:bold; background:url(../images/reward/close_open_btn_bg.gif) no-repeat left -51px; text-indent:20px;}
+.wrapper_rebate .tab_box .tab_box_Rbox a:hover.close_btn{ background-position:-280px -51px; text-decoration:none; color:#454545;}
+.wrapper_rebate .tab_box .tab_box_Rbox a.open_btn{ display:block; height:33px; font-size:13px; color:#858585; line-height:30px; font-weight:bold; background:url(../images/reward/close_open_btn_bg.gif) no-repeat left top; text-indent:20px;}
+.wrapper_rebate .tab_box .tab_box_Rbox a:hover.open_btn{ background-position:-280px top; text-decoration:none; color:#454545;}
+
+.wrapper_rebate .rebate_store{width:758px}
+.wrapper_rebate .rebate_store .store_infor{width:758px;/* padding-bottom:10px;*/}
+.wrapper_rebate .rebate_store .gathers_shop{ width:758px; height:85px; background-color:#f3f3f3;  margin:0px 0px 10px 0px; /*border: 1px #ccc solid; border-width:1px 0 1px 0;*/ }
+.wrapper_rebate .rebate_store .gathers_shop .shop_pic{ float:left; width:160px; height:55px; border:1px #bbb solid; margin:14px; padding:1px; _display:inline;}
+.wrapper_rebate .rebate_store .gathers_shop .shop_pic a{width:160px; height:55px; display:block; overflow:hidden;}
+.wrapper_rebate .rebate_store .gathers_shop .shop_name{ float:left; width:555px; height:58px; margin-top:20px; _display: inline; overflow:hidden;}
+.wrapper_rebate .rebate_store .gathers_shop .shop_name img{ vertical-align:middle;}
+.wrapper_rebate .rebate_store .gathers_shop .shop_name h1{font-size:15px; font-weight:bold; color:#454545; line-height:20px; _line-height:22px; letter-spacing:1px; height:20px; width:555px; display:block; overflow:hidden; }
+.wrapper_rebate .rebate_store .gathers_shop .shop_name h1 a{ font-size:15px; font-weight:bold; color:#454545; }
+.wrapper_rebate .rebate_store .gathers_shop .shop_name h1 a:hover{ color:#888888; text-decoration:underline;}
+
+.wrapper_rebate .rebate_store .gathers_shop .shop_name p.satisfied{ font-size:12px; color:#454545; padding:6px 0;}
+.wrapper_rebate .rebate_store .gathers_shop .shop_name p.satisfied span.stf_num{ font-size:18px; font-weight:bold; color:#F64949; padding: 0 10px 0 5px;}
+.wrapper_rebate .rebate_store .gathers_shop .shop_name p img{vertical-align: top;}
+
+
+.wrapper_rebate .rebate_infor{ width:758px; border:1px #ccc solid; border-width:1px 0; padding:1px 0;}
+.wrapper_rebate .rebate_infor table tr td{ border-top:1px #ccc dotted;}
+.wrapper_rebate .rebate_infor table tr td.no_borderTop{ border-top:none;}
+.wrapper_rebate .rebate_infor table tr td.table_title{ width:175px; background-color:#f3f3f3; border-right:1px #fff solid; padding:10px 0;}
+.wrapper_rebate .rebate_infor table tr td.table_title h5{ font-size:15px; text-align:center; letter-spacing:3px;}
+
+.wrapper_rebate .rebate_infor table tr td.table_con{ padding:10px 0 10px 15px;}
+.wrapper_rebate .rebate_infor table tr td.table_con p{ font-size:15px;}
+.wrapper_rebate .rebate_infor table tr td.table_con p span.txt_red{ color:#F64949;}
+
+
+.wrapper_rebate .mode_box{ width:738px; padding:10px;}
+.wrapper_rebate .mode_box p.rebate_mode_ok{ float:left; color:#fff; font-size:13px; font-weight:bold; line-height:32px; background:url(../images/user/mails/h2title_imgbg.gif) no-repeat left -128px; margin-right:20px; _display:inline;}
+.wrapper_rebate .mode_box p.rebate_mode_ok span{ display: block; background:url(../images/user/mails/h2title_imgbg.gif) no-repeat right -160px; padding: 0 20px;}
+.wrapper_rebate .mode_box p.rebate_txt_red{ float:left; color:#F64949; font-size:15px; line-height:32px; font-weight:bold;letter-spacing:2px;}
+
+.wrapper_rebate .mode_box p.rebate_mode_no{ float:left; color:#fff; font-size:13px; font-weight:bold; line-height:32px; background:url(../images/user/mails/h2title_imgbg.gif) no-repeat left top; margin-right:20px; _display:inline;}
+.wrapper_rebate .mode_box p.rebate_mode_no span{ display: block; background:url(../images/user/mails/h2title_imgbg.gif) no-repeat right -32px; padding: 0 20px;}
+.wrapper_rebate .mode_box p.rebate_txt_grey{ float:left; color:#666; font-size:15px; line-height:32px; font-weight:bold;letter-spacing:2px;}
+.wrapper_rebate .mode_box p.rebate_txt_grey span{ color:#F64949;}
+
+
+.wrapper_rebate .remind_box{ width:738px; _height:20px; padding: 5px 10px 0 10px; _padding: 5px 10px 0 10px; position:relative; margin-bottom:15px;}
+.wrapper_rebate .remind_box p.arrow_top{ width:30px; height:5px; background:url(../images/reward/icon_arrow.jpg) no-repeat -50px 0; position:absolute; left:25px; top:1px;}
+.wrapper_rebate .remind_box p.remind{ float:left; _float:none; height:30px; line-height:30px; background-color:#fff; border:1px #929292 solid; border-width:1px 0 1px 1px; background:url(../images/reward/icon_remind.jpg) no-repeat 10px 7px; text-indent:20px; font-size:13px; background-color:#fff;}
+.wrapper_rebate .remind_box p.remind span.bk_remind{ display:block; height:30px; line-height:30px; border-right:1px #929292 solid;padding: 0 10px;}
+.wrapper_rebate .remind_box p.remind span.no_tip a{ color:#F64949; text-decoration:underline; padding: 0 10px; letter-spacing:2px;}
+.wrapper_rebate .remind_box p.remind span.no_tip a:hover{ text-decoration:none;}
+
+
+.wrapper_rebate .rebate_total_box{ width:738px; margin: 0 auto;}
+.wrapper_rebate .rebate_total_box .total_title{ width:738px; background-color:#ebebeb; border-bottom:1px #fbfbfb solid;}
+.wrapper_rebate .rebate_total_box .title_ok{ width:738px; background-color:#c7eae3; border-bottom:1px #fbfbfb solid;}
+.wrapper_rebate .rebate_total_box .total_title p{ font-size:15px; font-weight:bold; text-align:center; padding: 10px 0; letter-spacing:2px;}
+.wrapper_rebate .rebate_total_box .total_title p span{ font-size:12px; font-weight:normal;}
+
+.wrapper_rebate .rebate_total_box .total_con{ width:738px; background-color:#f3f3f3;}
+.wrapper_rebate .rebate_total_box .con_ok{ width:738px; background-color:#f4f9f8;}
+.wrapper_rebate .rebate_total_box .total_con table tr td{ border-top:1px #ccc dotted; padding:10px 0 3px 0;}
+.wrapper_rebate .rebate_total_box .total_con table tr.theTop td{ border-top:none; padding-top:0;}
+.wrapper_rebate .rebate_total_box .total_con table tr td p{ font-size:15px; padding: 0 5px 0 10px; line-height:18px; text-align:center;}
+.wrapper_rebate .rebate_total_box .total_con table tr td p.txt_left{ text-align:left;}
+.wrapper_rebate .rebate_total_box .total_con table tr td p.bold{ font-weight:bold;}
+.wrapper_rebate .rebate_total_box .total_con table tr td p span{ font-weight:bold; padding-right:5px;}
+.wrapper_rebate .rebate_total_box .total_con table tr td p a{ font-size:15px;}
+
+.wrapper_rebate .box_line{ width:738px; margin:15px auto 15px auto; border-bottom:1px #bbb solid; border-top:none;}
+
+.wrapper_rebate .reward_remind_box{ width:738px; margin: 15px auto;}
+.wrapper_rebate .reward_remind_box .remind_pic{ float:left; width:30px; height:30px; background:url(../images/reward/icon_moneybag.jpg) no-repeat 12px 5px; padding-left:10px; }
+.wrapper_rebate .reward_remind_box  .event_remind{ float:left; _width:410px;}
+.wrapper_rebate .reward_remind_box  .event_remind p.remind{ height:32px; font-size:13px; text-align:right; background:url(../images/reward/bk_remind.gif) no-repeat left top; line-height:32px; text-align:right;}
+.wrapper_rebate .reward_remind_box .event_remind p.remind span{ display:block; height:32px; background:url(../images/reward/bk_remind.gif) no-repeat right bottom; padding: 0 10px 0 20px; }
+
+.wrapper_rebate .tab_box_Rbox{ float:right; width:60px;}
+.wrapper_rebate .tab_box_Rbox p.openBoxBtn a{ display:block; width:60px; height:33px; line-height:30px; _line-height:33px; line-height:33px \9; font-size:13px; background: url(../images/user/mails/close_open_bnt_bg.gif) no-repeat left top; text-indent:20px; color:#858585; text-decoration:none; letter-spacing:1px; font-weight:bold;}
+.wrapper_rebate .tab_box_Rbox p.openBoxBtn a:hover{ text-decoration:none; color:#454545; background-position: -280px top; text-decoration:none}
+.wrapper_rebate .tab_box_Rbox p.closeBoxBtn a{ display:block; width:60px; height:33px; line-height:30px; _line-height:33px; line-height:33px \9; font-size:13px; background: url(../images/user/mails/close_open_bnt_bg.gif) no-repeat left -51px; text-indent:20px; color:#858585; text-decoration:none; letter-spacing:1px; font-weight:bold;}
+.wrapper_rebate .tab_box_Rbox p.closeBoxBtn a:hover{ text-decoration:none; color:#454545; background-position: -280px -51px; text-decoration:none}
+
+/*店家頭像*/
+.wrapper_rebate .host_box{ width:743px; height:72px; padding:15px 25px 17px 20px; border:1px #cbcbcb solid;border-width:0 1px 1px 1px; background:url("../images/user/board/bg_host.jpg") repeat-x;}
+.wrapper_rebate .host_box .host_img{ float:left; width:70px; width:70px; overflow: hidden; border-radius: 3px; margin:3px 7px 0 0; _display:inline;}
+.wrapper_rebate .host_box .host_msg{ float:right; width:666px; height:70px; color:#666; font-size:11px;}
+.wrapper_rebate .host_box .host_msg .host_row{height:19px; margin-left:10px; line-height:19px; padding-bottom:3px;}
+.wrapper_rebate .host_box .host_msg .host_row p.l_row{ float:left; color:#666;}
+.wrapper_rebate .host_box .host_msg .host_row p.r_row{ float:right;font-size:12px; color:#666; padding-right:10px; letter-spacing:1px;}
+.wrapper_rebate a.host_account{ font-size:14px; color:#3B5998; font-weight:bold;}
+.wrapper_rebate a:hover.host_account{text-decoration:underline;}
+.wrapper_rebate a span.rating{ font-size:11px; color:#666;}
+.wrapper_rebate a:hover span.rating{ text-decoration:underline;}
+.wrapper_rebate .host_box .host_msg .host_board{width:666px; height:51px;}
+.wrapper_rebate .host_box .host_msg .host_board .l_board{float:left; width:20px; height:51px; background:url("../images/user/board/host_board.gif") no-repeat left top;}
+.wrapper_rebate .host_box .host_msg .host_board .c_board{float:left; width:636px; height:51px; background:url("../images/user/board/host_board.gif") repeat-x 0 -51px; }
+.wrapper_rebate .host_box .host_msg .host_board .r_board{float:left; width:10px; height:51px; background:url("../images/user/board/host_board.gif") no-repeat right top;}
+.wrapper_rebate .host_box .host_msg .host_board .c_board p{ font-size:13px; color:#454545; letter-spacing:2px; padding:5px 0 0 0; width:636px; height:42px; overflow:hidden;}
+
+/*編輯器產出_資料*/
+.wrapper_rebate .rebate_content_box .gathers_editBOX{ float:left; width:100%; line-height:normal; overflow-x: auto;/*==解除ihergo.css的字距== *//*==內容超過758PX出現捲軸==*/ background-color:#F9F9F9;}
+
+
+/*發送回饋邀請_填寫資料_START*/
+#admin_wrapper .admin_main .rebate_invite_box{ width:790px; margin:20px 0;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_tab{ height:47px; background:url(../images/reward/main_tab_box_bg.gif) repeat-x left bottom; border:1px #ddd4d4 solid;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_tab h3{ font-size:15px; color:#c1384d; letter-spacing:2px; line-height:47px; background:url(../images/reward/icon_invite.gif) no-repeat 20px 7px; padding-left:74px;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_con_box{ padding:10px 30px 20px 30px; background-color:#fbfbfb; border:1px #ddd4d4 solid; border-width:0 1px 1px 1px;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_con_box .item_box{ width:728px; padding:15px 0; _padding:10px 0; border-bottom:1px #ccc dotted;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_con_box .noBotborder{ border-bottom:none;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_con_box .item_box .left_box{ float:left; width:100px; text-align:right; height:30px;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_con_box .item_box .left_box h4{ font-size:15px; color:#666; line-height:30px; letter-spacing:1px; padding-right:5px;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_con_box .item_box .left_box span.highlight{ color:#F64949;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_con_box .item_box .right_box{ float:left; width:620px; color:#666;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_con_box .item_box .right_box span.ps{ color:#999; font-size:12px; padding-left:5px; letter-spacing:1px;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_con_box .item_box .right_box .date_box{ float:left; width: auto; padding-right:10px;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_con_box .item_box .right_box .date_box a:hover{ text-decoration:none;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_con_box .item_box .right_box .time_box{ float:left; width: auto; font-size:15px; color:#666;padding-right:10px;}
+
+.rebate_invite_box .item_box .right_box select{height:32px; line-height:32px; color:#454545; padding: 4px 6px; border:1px #e3e3e3 solid; margin-right:10px;}
+.rebate_invite_box .item_box .right_box input{ font-size:13px; color:#454545; letter-spacing:1px; font-family:Arial, Helvetica, sans-serif;}
+.rebate_invite_box .item_box .right_box input.input_w600{ width:580px; height:30px; line-height:30px; padding: 0 8px; border:1px #e3e3e3 solid;}
+.rebate_invite_box .item_box .right_box input.input_w420{ width:450px; height:30px; line-height:30px; padding: 0 8px; border:1px #e3e3e3 solid;}
+.rebate_invite_box .item_box .right_box input.input_w80{ width:80px; height:30px; line-height:30px; padding: 0 8px; border:1px #e3e3e3 solid; text-align:center; margin-right:5px;}
+.rebate_invite_box .item_box .right_box input.input_w60{ width:60px; height:30px; line-height:30px; padding: 0 8px; border:1px #e3e3e3 solid; text-align:center; margin-right:5px;}
+
+.rebate_invite_box .data_box{ width:610px;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_con_box .item_box .right_box p.input_note{ float:left; font-size:13px; color:#858585; line-height:15px; letter-spacing:1px; padding:10px 0;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_con_box .item_box .right_box .btn_box100{ float:right; width:96px; height:30px; margin: 5px 8px 0 0;}
+#admin_wrapper .admin_main .rebate_invite_box .invite_con_box .item_box .right_box p.save_note{ float:right; font-size:12px; color:#ff0000; line-height:15px; letter-spacing:1px; padding:10px 5px 10px 10px; text-align:right;}
+
+
+.rebate_invite_box a.start_btn_l{background: url(../images/reward/function_btn.gif) no-repeat left top;color: #666666;display: block;float: left;font-size: 12px; text-decoration: none;}
+.rebate_invite_box a.start_btn_l span {background: url(../images/reward/function_btn.gif) no-repeat right -25px;color: #666666;display: block;line-height: 25px;padding: 0 20px;}
+.rebate_invite_box a.start_btn_l:hover {background: url(../images/reward/function_btn.gif) no-repeat left -50px;text-decoration: none;}
+.rebate_invite_box a.start_btn_l:hover span {background: url(../images/reward/function_btn.gif) no-repeat right -75px;}
+.rebate_invite_box a.start_btn_l:active {background: url(../images/reward/function_btn.gif) no-repeat left -100px;}
+.rebate_invite_box a.start_btn_l:active span {background: url(../images/reward/function_btn.gif) no-repeat right -125px;}
+
+.rebate_invite_box .enter_box{ width:728px; border-top:1px #ccc solid; padding:25px 0 0 0; margin: 0 auto; text-align:center;}
+.rebate_invite_box .enter_box a.enter{ float:left; display:block; font-size:13px; color:#454545; line-height:32px; letter-spacing:2px; background:url(../images/reward/admin_btn.gif) no-repeat left -128px; margin: 0 0 0 280px; _display:inline;}
+.rebate_invite_box .enter_box a.enter span{ display:block; line-height:32px; background:url(../images/reward/admin_btn.gif) no-repeat right -160px; padding: 0 40px;}
+.rebate_invite_box .enter_box a.enter:hover{background:url(../images/reward/admin_btn.gif) no-repeat left -192px; text-decoration:none;}
+.rebate_invite_box .enter_box a.enter:hover span{background:url(../images/reward/admin_btn.gif) no-repeat right -224px;}
+.rebate_invite_box .enter_box a.cancel{float:left; font-size:13px; color:#105CB6; text-decoration:underline; line-height:32px; letter-spacing:3px; margin: 0 0 0 20px; _display:inline;}
+.rebate_invite_box .enter_box a.cancel:hover{text-decoration:none;}
+/*發送回饋邀請_填寫資料_END*/
+
+/*主購搜尋工具_START*/
+.search_host_box{ width:790px; margin-top:15px;}
+.search_host_box .search_title{ width:790px; height:34px; background: url("../images/shop/store/admin/admin_pic.jpg") no-repeat left -671px;}
+.search_host_box .search_title span.title{ float:left; color:#454545; font-size:15px; line-height:34px; padding-left:20px; letter-spacing:2px;}
+.search_host_box .search_title p{ float:right; font-size:12px; color:#666; letter-spacing:1px; line-height:34px; padding-right:15px;}
+.search_host_box .search_title p span.num_invite{ color:#f64949; font-size:13px; font-weight:bold; font-family: Verdana, Geneva, sans-serif;}
+.search_host_box .search_title p a{ color:#105cb6; text-decoration:none;}
+.search_host_box .search_title p a:hover{ text-decoration:underline;}
+.search_host_box .search_content{ width:748px; border:1px #DBD4D4 solid; border-width:0 1px 1px 1px; padding:0 20px;}
+.search_host_box .search_content .item_box{ width:748px; border-bottom:1px #ccc dotted; padding:15px 0;}
+.search_host_box .search_content .noBotborder{ border-bottom:none;}
+.search_host_box .search_content .item_box .left_box{ float:left; width:100px; height:30px;}
+.search_host_box .search_content .item_box .left_box h4{ font-size:13px; color:#454545; text-align:right; letter-spacing:2px; line-height:30px;}
+.search_host_box .search_content .item_box .right_box{ float:left; width:640px; padding-left:5px;}
+.search_host_box .search_content .item_box .right_box p.condition_box{ float:left;}
+.search_host_box .search_content .item_box .right_box select{height:32px; line-height:32px; color:#454545; padding: 4px 7px; border:1px #e3e3e3 solid; margin-right:12px; letter-spacing:1px;}
+.search_host_box .search_content .item_box .right_box p.condition_box a{ display:block; float:left; height:23px; background:url(../images/reward/btn_condition.gif) no-repeat left top; font-size:12px; color:#666; line-height:23px; letter-spacing:1px; margin:3px 10px 0 0; _display:inline;}
+.search_host_box .search_content .item_box .right_box p.condition_box a span{ display:block; background:url(../images/reward/btn_condition.gif) no-repeat right -23px; padding: 0 30px 0 10px;}
+.search_host_box .search_content .item_box .right_box p.condition_box a:hover{ text-decoration:none; color:#999;}
+.search_host_box .search_content .item_box .right_box p.condition_box a:hover span{ background:url(../images/reward/btn_condition.gif) no-repeat right -46px;}
+
+.search_host_box .search_content .item_box .right_box .result_box{ width:610px; background-color:#fff9f8; border:1px #fbdada solid; padding:10px 15px 5px 15px;}
+.search_host_box .search_content .item_box .right_box .result_box .host_AccBox{ float:left; padding:3px 15px 8px 0;}
+.search_host_box .search_content .item_box .right_box .result_box .host_AccBox p.select_box{ float:left; width:16px; height:16px; padding:3px 5px 0 0;}
+.search_host_box .search_content .item_box .right_box .result_box .host_AccBox p.host_name{ float:left; font-size:12px; color:#666;}
+
+.search_host_box .search_content .enter_box{ width:748px; border-top:1px #ccc solid; padding:20px 0 0 0; margin: 0 auto; text-align:center;}
+.search_host_box .search_content .enter_box a.enter{ float:left; display:block; font-size:13px; color:#454545; line-height:32px; letter-spacing:2px; background:url(../images/reward/admin_btn.gif) no-repeat left -128px; margin: 0 0 0 280px; _display:inline;}
+.search_host_box .search_content .enter_box a.enter span{ display:block; line-height:32px; background:url(../images/reward/admin_btn.gif) no-repeat right -160px; padding: 0 40px;}
+.search_host_box .search_content .enter_box a.enter:hover{background:url(../images/reward/admin_btn.gif) no-repeat left -192px; text-decoration:none;}
+.search_host_box .search_content .enter_box a.enter:hover span{background:url(../images/reward/admin_btn.gif) no-repeat right -224px;}
+
+/*提示警語*/
+.result_box .alert_small{ letter-spacing:1px; padding:5px 0 10px 40px; }
+.result_box .alert_small a{ color:#105CB6; font-weight:bold; text-decoration:none;}
+.result_box .alert_small a:hover{ color:#ff9933; text-decoration:none;}
+.result_box .alert_small span{ padding: 0 3px; font-size:15px;}
+
+.search_host_box .search_content .item_box .right_box a.go_search{font-size:13px; display:block; color:#454545;  float:left; letter-spacing:1px;background:url(../images/shop/store/admin/admin_btn.gif) no-repeat left 0;text-decoration:none; margin:0px 0 0 0px;_display:inline;}
+.search_host_box .search_content .item_box .right_box a.go_search span{display:block;  padding:0 24px; line-height:32px;background:url(../images/shop/store/admin/admin_btn.gif) no-repeat right -32px;}
+.search_host_box .search_content .item_box .right_box a.go_search:hover{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat left -64px;}
+.search_host_box .search_content .item_box .right_box a.go_search:hover span{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat right -96px;}
+
+/*流程圖*/
+.wrapper_rebate .pic_process{ width:790px; height:163px; background:url(../images/reward/pic_process01.jpg) no-repeat; position:relative; margin-bottom:10px;}
+.wrapper_rebate .pic_process h2{ float:left; text-indent:-9999px; width:70px;}
+.wrapper_rebate .pic_process ul{ float:left; width:720px; padding-top:120px;}
+.wrapper_rebate .pic_process ul li{ float:left;}
+.wrapper_rebate .pic_process ul li.p_step01{ padding-left:60px;}
+.wrapper_rebate .pic_process ul li.p_step02{ padding-left:70px;}
+.wrapper_rebate .pic_process ul li.p_step03{ padding-left:50px;}
+.wrapper_rebate .pic_process ul li.p_step04{ padding-left:65px;}
+.wrapper_rebate .pic_process ul li p{color:#666; text-align:center; line-height:16px;}
+.wrapper_rebate .pic_process a.close{ display:block; width:29px; height:29px; background:url(../images/shop/store/admin/admin_pic.jpg) no-repeat -277px -123px; position:absolute; right:0; top:0; text-indent:-9999px;opacity: 0.5;filter: Alpha(Opacity=50); zoom:1;}
+.wrapper_rebate .pic_process a:hover.close{background:url(../images/shop/store/admin/admin_pic.jpg) no-repeat -306px -123px;opacity: 0.7;filter: Alpha(Opacity=70); zoom:1;}
+
+/*20130205_新增回饋單發送設定*/
+.search_host_box .search_content .sendout_box{ width:748px; padding: 15px 0 5px 0; margin-bottom:10px;}
+.search_host_box .search_content .sendout_box p.txt_sendout{ float:left; font-size:13px; letter-spacing:1px; height:32px; line-height:32px;}
+.search_host_box .search_content .sendout_box p.txt_sendout span{ font-size:12px; color:#999; padding: 0 5px;}
+.search_host_box .search_content .sendout_box .sendout_open{ float:right;}
+
+.search_host_box .search_content .sendout_box .sendout_open a.enter_open{float:left; display:block; font-size:13px; color:#454545; line-height:32px; letter-spacing:2px; background:url(../images/reward/admin_btn.gif) no-repeat left -128px; _display:inline;}
+.search_host_box .search_content .sendout_box .sendout_open a.enter_open span{ display:block; line-height:32px; background:url(../images/reward/admin_btn.gif) no-repeat right -160px; padding: 0 20px;}
+.search_host_box .search_content .sendout_box .sendout_open a.enter_open:hover{background:url(../images/reward/admin_btn.gif) no-repeat left -192px; text-decoration:none;}
+.search_host_box .search_content .sendout_box .sendout_open a.enter_open:hover span{background:url(../images/reward/admin_btn.gif) no-repeat right -224px;}
+
+.search_host_box .search_content .sendout_box .sendout_open a.enter_close{font-size:13px; display:block; color:#999; letter-spacing:1px; text-align:center; text-decoration:none; background:url(../images/user/mails/mails_btn.gif) no-repeat left top; min-width:110px; _width:140px;}
+.search_host_box .search_content .sendout_box .sendout_open a.enter_close span{display:block; padding:0 20px; line-height:32px; background:url(../images/user/mails/mails_btn.gif) no-repeat right -32px;}
+.search_host_box .search_content .sendout_box .sendout_open a.enter_close:hover{ background-position:left -64px;} 
+.search_host_box .search_content .sendout_box .sendout_open a.enter_close:hover span{ background-position: right -96px;}
+
+.search_host_box .search_content .preview_box{ width:96%; _width:95%; padding:10px 15px; margin-bottom:20px; background-color:#f4f4f4; border:1px #ccc dotted;}
+.search_host_box .search_content .preview_box p.txt_preview{ float:left; font-size:12px; color:#666; letter-spacing:1px;}
+.search_host_box .search_content .preview_box p.txt_preview span{ font-weight:bold;}
+
+.search_host_box .search_content .preview_box .pre_edit{ float:right;}
+.search_host_box .search_content .preview_box .pre_edit a.pre_edit {font-size:12px;width:77px;  display:block;	color:#666666; letter-spacing:3px; font-weight: normal;text-align:center;	line-height:25px;text-decoration:none; background: url(../images/reward/pre_edit.gif) no-repeat 0 0; margin:10px auto 0 auto;}
+.search_host_box .search_content .preview_box .pre_edit a.pre_edit:hover{color:#454545;background-position: -78px 0;}
+.search_host_box .search_content .preview_box .pre_edit a.pre_edit:active{color:#454545;background-position: -156px 0;}
+
+/*新功能開新視窗*/
+.reward_NewOpen{ width:500px; padding:10px 15px;}
+.reward_NewOpen .New_con{ width:96%; border-bottom:1px #ebebeb solid; padding:15px 10px;}
+.reward_NewOpen .New_con p.NewOpen_title{ font-size:15px; font-weight:bold; color:#105cb6; letter-spacing:1px;}
+.reward_NewOpen .New_con p.NewOpen_title span{ color:#fff; background-color:#f64949; padding:5px 3px 5px 5px; margin-right:10px;}
+.reward_NewOpen .New_con p.NewOpen_con{ font-size:13px; color:#454545; letter-spacing:1px; line-height:24px;}
+.reward_NewOpen .New_con p.NewOpen_con span{ font-size:12px; color:#999;}
+
+.reward_NewOpen .Newopen_Btn{ padding:15px 0;}
+.reward_NewOpen .Newopen_Btn a.enter_open{float:left; display:block; font-size:13px; color:#454545; line-height:32px; letter-spacing:2px; background:url(../images/reward/admin_btn.gif) no-repeat left -128px; _display:inline; margin-left:150px;}
+.reward_NewOpen .Newopen_Btn a.enter_open span{ display:block; line-height:32px; background:url(../images/reward/admin_btn.gif) no-repeat right -160px; padding: 0 20px;}
+.reward_NewOpen .Newopen_Btn a.enter_open:hover{background:url(../images/reward/admin_btn.gif) no-repeat left -192px; text-decoration:none;}
+.reward_NewOpen .Newopen_Btn a.enter_open:hover span{background:url(../images/reward/admin_btn.gif) no-repeat right -224px;}
+
+.reward_NewOpen .Newopen_Btn a.close{ color:#999; font-size:12px; text-decoration:underline; letter-spacing:3px; padding-left:10px; height:32px; line-height:32px;}
+.reward_NewOpen .Newopen_Btn a.close:hover{ text-decoration:none;}
+
+/*發起合購按鈕*/
+.wrapper_rebate .rebate_infor a.event{background:url(../images/reward/buydigital_button.gif) repeat-y;width:64px;height:25px;margin-left:10px}
+.wrapper_rebate .rebate_infor a.event:hover{background:url(../images/reward/buydigital_buttonm.gif) repeat-y;width:64px;height:25px}
+
+/*20130321_新增流程圖收起*/
+.wrapper_rebate .process_close{ width:790px; height:33px;}
+.wrapper_rebate .process_close a{ display:block; width:790px; height:33px; background:url(../images/reward/process_close.jpg) no-repeat left top; text-indent:-9999px;}
+.wrapper_rebate .process_close a:hover{ background-position:left bottom;}
+
+/*加入好康商店按鈕*/
+#admin_wrapper .admin_main .join_btn a.join{ display:block; font-size:13px; color:#454545; line-height:32px; letter-spacing:2px; background:url(../images/reward/admin_btn.gif) no-repeat left -128px; _display:inline; float:left; margin-left:320px; margin-top:25px; margin-bottom:40px;}
+
+#admin_wrapper .admin_main .join_btn a.join span{background: url(../images/reward/admin_btn.gif) no-repeat scroll right -160px rgba(0, 0, 0, 0); display: block; line-height: 32px; padding: 0 20px;float:left;}
+
+/*已加入好康商店訊息欄*/
+#admin_wrapper .admin_main .join_btn p.join{ display:block; font-size:13px; color:#454545; line-height:32px; letter-spacing:2px; background:url(../images/reward/admin_btn.gif) no-repeat left -128px; _display:inline; float:left; margin-left:320px; margin-top:25px; margin-bottom:40px;}
+
+#admin_wrapper .admin_main .join_btn p.join span{background: url(../images/reward/admin_btn.gif) no-repeat scroll right -160px rgba(0, 0, 0, 0); display: block; line-height: 32px; padding: 0 20px;float:left;}
+
+#admin_wrapper .admin_main p.say{ display:block; font-size:13px; width:300px; float:left; margin-top:-10px;}
+#admin_wrapper .admin_main p.say span{color:#f64949; font-weight:bold;}

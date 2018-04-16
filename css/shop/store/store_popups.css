@@ -1,0 +1,112 @@
+/*== 購買方式 ==*/
+body.height_fixed { height: 100%; overflow: hidden; }
+#store_wrapper .shopping_method_wrp { width: 100%; height: 100%; z-index: 1000; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, .8); display: none; }
+#store_wrapper .shopping_method_wrp::before { content: ''; width: 0; height: 100%; display: inline-block; position: relative; vertical-align: middle; }
+#store_wrapper .shopping_method_wrp .shopping_method_message { width: 360px; background: #ffffff; border-radius: 10px; z-index: 2; margin: 0 auto; display: inline-block; margin-left: calc((100% - 360px)/2); }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con { padding: 37px 20px; text-align: center; position: relative; }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con .message_title { font-size: 16px; font-weight: bold; }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con a.close_message { width: 16px; height: 16px; display: block; background: url('../../../images/shop/store/new_store_design/shopping_method_close_message.png'); position: absolute; top: 15px; right: 15px; cursor: pointer; }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con a:hover.close_message { opacity: .8; }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con .message_info { font-size: 13px; color: #888888; font-weight: bold; margin-top: 27px; line-height: 24px; }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con .message_action_btn { width: 236px; margin: 27px auto 0 auto; }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con .message_action_btn span.CLEAR { height: 1px; display: block; }
+/*-------有合購時-------*/
+#store_wrapper .shopping_method_wrp .shopping_method_message_con.group_event_available .message_info span.select_area { color: #f1843a; font-size: 14px; margin-right: 5px; }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con.group_event_available .message_info span.event_counts { color: #f1843a; font-size: 14px; margin: 0 5px; }
+/*-------無合購時-------*/
+#store_wrapper .shopping_method_wrp .shopping_method_message_con.group_event_unavailable .message_info b { color: #666666; }
+/*-------歇業中-------*/
+#store_wrapper .shopping_method_wrp .shopping_method_message_con.group_event_store_rest .message_action_btn { display: none; }
+/*-------大合購截止時-------*/
+#store_wrapper .shopping_method_wrp .shopping_method_message_con.group_event_promo_deadline .message_info span.select_area { margin-top: 20px; display: inline-block; color: #f1843a; font-size: 14px; margin-right: 5px; }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con.group_event_promo_deadline .message_info span.event_counts { color: #f1843a; font-size: 14px; margin: 0 5px; }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con.group_event_promo_deadline .message_action_btn a.go_event_list { float: none; margin: 0 auto; }
+/*-------分享商店時-------*/
+#store_wrapper .shopping_method_wrp .shopping_method_message_con.group_event_store_share .message_info span.select_area { margin-top: 20px; display: inline-block; color: #f1843a; font-size: 14px; margin-right: 5px; }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con.group_event_store_share .message_info span.event_counts { color: #f1843a; font-size: 14px; margin: 0 5px; }
+/*我要跟團按鈕*/
+#store_wrapper .shopping_method_wrp .shopping_method_message_con .message_action_btn a.go_event_list { width: 118px; height: 37px; line-height: 37px; background: #69bdfd; color: #ffffff; text-align: center; font-size: 14px; font-weight: bold; border-radius: 8px; display: block; float: left; }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con .message_action_btn a:hover.go_event_list { text-decoration: none; opacity: .8; }
+/*這次自己買*/
+#store_wrapper .shopping_method_wrp .shopping_method_message_con .message_action_btn a.go_shopping { width: 118px; height: 37px; line-height: 37px; color: #888888; text-align: center; font-size: 13px; font-weight: bold; display: block; float: left; }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con .message_action_btn a:hover.go_shopping { text-decoration: none; opacity: .8; }
+/*下載訂購單*/
+#store_wrapper .shopping_method_wrp .shopping_method_message_con .message_action_btn a.go_download { width: 118px; height: 37px; line-height: 37px; color: #888888; text-align: center; font-size: 13px; font-weight: bold; display: block; float: left; }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con .message_action_btn a:hover.go_download { text-decoration: none; opacity: .8; }
+/*許願*/
+#store_wrapper .shopping_method_wrp .shopping_method_message_con .message_action_btn a.go_wish { width: 118px; height: 37px; display: block; border-radius: 5px; background: url(../../../images/shop/store/icon_like.png) no-repeat 20px 8px #fee3e7; background-repeat: no-repeat; color: #ea5f73; text-decoration: none; text-indent: 30px; text-align: center; letter-spacing: 8px; line-height: 34px; font-size: 14px; font-weight: bold; float: left; }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con .message_action_btn a:hover.go_wish { background: url(../../../images/shop/store/icon_like.png) no-repeat 20px -73px #EE7F8F; color: #ffffff; }
+#store_wrapper .shopping_method_wrp .shopping_method_message_con .message_action_btn a.go_wish.go_unwish{
+	 background: url(../../../images/shop/store/icon_like.png) no-repeat 20px -73px #EE7F8F; color: #ffffff; 
+}
+/*== 購買方式 End==*/
+
+/*== 單項商品 ==*/
+#store_wrapper .single_item_details_wrp { width: 100%; height: 100%; z-index: 1000; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, .8); overflow: scroll; display: none; }
+#store_wrapper .single_item_details_wrp::before { content: ''; width: 0; height: 100%; display: inline-block; position: relative; vertical-align: middle; }
+#store_wrapper .single_item_details_wrp .single_item_details_container { width: 830px; background: #ffffff; border-radius: 10px; z-index: 2; margin: 0 auto; display: inline-block; margin-left: calc((100% - 830px)/2); vertical-align: middle; }
+#store_wrapper .single_item_details_wrp .single_item_details_con { padding: 52px 50px; position: relative; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_img { width: 300px; margin-right: 33px; position: relative; float: left; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_img span.product_image { width: 298px; height: 298px; border-top: 1px solid #e5e5e5; border-left: 1px solid #e5e5e5; border-right: 1px solid #e5e5e5; display: block; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_img span.product_image img { width: 298px; height: 298px; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_img span.product_image img:hover { opacity: 1; }
+
+/*小圖切換*/
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_img .product_image_change_nav { width: 300px; height: 87px; background: #d8d7d7; overflow: hidden; padding:0 0 0 -20px; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_img .product_image_change_nav li { width: 69px; height: 77px; list-style: none; display: block; float: left; margin: 0 0 12px calc((100% - 276px)/5); }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_img .product_image_change_nav li img { width: 63px; height: 63px; margin: 11px auto 0 auto; display: block; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_img .product_image_change_nav li:hover { }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_img .product_image_change_nav li.current { background: url('../../../images/shop/store/new_store_design/single_item_details_item_aside_current.png') no-repeat; }
+#store_wrapper .single_item_details_wrp .single_item_details_con a.close_message { width: 16px; height: 16px; display: block; background: url('../../../images/shop/store/new_store_design/shopping_method_close_message.png') no-repeat; position: absolute; top: 15px; right: 15px; cursor: pointer; }
+#store_wrapper .single_item_details_wrp .single_item_details_con a:hover.close_message { opacity: .8; }
+
+/*商品標籤*/
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_img p.tag { display: none; background: url('../../../images/shop/store/new_store_design/item_grid_item_tag.png') no-repeat; overflow: hidden; }
+
+/*本店推薦*/
+#store_wrapper .single_item_details_wrp .single_item_details_con.item_recommend .item_img p.tag { display: block; width: 107px; height: 107px; position: absolute; top: 0; left: 0; background-position: -10px -234px; }
+
+/*熱銷商品*/
+#store_wrapper .single_item_details_wrp .single_item_details_con.item_hot_tag .item_img p.tag { display: block; width: 107px; height: 107px; position: absolute; top: 0; left: 0;  background-position: -10px -117px; }
+
+/*限時免運*/
+#store_wrapper .single_item_details_wrp .single_item_details_con.item_free_shipping_tag .item_img p.tag { display: block; width: 107px; height: 107px; position: absolute; top: 0; left: 0; background-position: -10px -0px; }
+
+/* 單項商品說明 */
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container { width: 397px; float: left; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information { border-bottom: 1px solid #e5e5e5; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information .item_title { font-size: 16px; font-weight: bold; color: #555555; width: 100%; max-height: 40px; overflow: hidden; display: block; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information .item_intro { font-size: 13px; color: #333333; line-height: 24px; width: 100%; display: block; margin-top: 17px; margin-bottom: 21px; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information .item_price_rank_con { margin: 21px 0; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information .item_price_rank_con span { width: 100%; display: inline-block; line-height: 24px; font-size: 13px; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information .item_price_rank_con span.discount_price discount { color: #f64949; font-weight: bold; font-size: 15px; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information .item_price_rank_con span.discount_price discount:before { content: '$'; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information .item_price_rank_con span.full_price fullprice { text-decoration: line-through; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information .item_price_rank_con span.full_price fullprice:before { content: '$'; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information .item_price_rank_con span.item_type { }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information .item_price_rank_con span.item_type a { color: #555555; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information .item_price_rank_con span.item_type a:hover { text-decoration: none; color: #333333; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information .item_price_rank_con span.item_type a.item_type_name:after { content: url('../../../images/shop/store/new_store_design/single_item_details_item_type_arrow.png'); margin: 0 10px; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information .item_price_rank_con span.item_type a.item_type_name_current:after { content: ''; margin: 0; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information .item_price_rank_con span.item_rank { color: #fead10; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_container .item_detail_information .item_price_rank_con span.item_rank itemrank:after { content: '人'; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_by_store_manager { width: 100%; }
+#store_wrapper .single_item_details_wrp .single_item_details_con .item_detail_by_store_manager img { max-width: 100%; }
+
+/*== 單項商品 End==*/
+
+/*== 聯絡店長 ==*/
+#store_wrapper .store_contact_wrp { width: 100%; height: 100%; z-index: 1000; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, .8); overflow: scroll; display: none; }
+#store_wrapper .store_contact_wrp::before { content: ''; width: 0; height: 100%; display: inline-block; position: relative; vertical-align: middle; }
+#store_wrapper .store_contact_wrp .store_contact_demo {
+	width: 600px;
+	margin-left:calc((100% - 600px)/2);
+	vertical-align: middle;
+	padding:20px;
+	background: #ffffff;
+	border-radius:10px;
+}
+#store_wrapper .store_contact_wrp .store_contact_demo:hover{
+	opacity: 1;
+}
+/*== 聯絡店長 End==*/

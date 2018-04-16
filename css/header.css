@@ -1,0 +1,152 @@
+﻿#listUserLinksDiv {position:absolute; top:0; left:0; z-index:19; font-family:"新細明體"; width:65px; text-align:left; background-color:#eaeaea; border-right:1px solid #b6b6b6; border-bottom:1px solid #b6b6b6; border-left:1px solid #b6b6b6}
+#listStoreLinksDiv {position:absolute; top:0; left:0; z-index:20; font-family:"新細明體"; width:70px; text-align:left; background-color:#eaeaea; text-align:left; border-right:1px solid #b6b6b6; border-bottom:1px solid #b6b6b6; border-left:1px solid #b6b6b6}
+
+﻿div.h2 {font-size:0px; line-height:2px; clear:both; height:2px}
+
+.headbar_boxbg {width:100%; height:70px; background:url(../images/images/ihergo_home_head_bg.gif)}
+.headbar_box {width:992px; height:70px; background:url(../images/images/ihergo_home_headbar_bg_c.gif)}
+.headbar_right { float:right; width:10px ; height:70px; background:url(../images/images/ihergo_home_headbar_bg_r.gif)}
+.headbar_left { float:left; width:10px ; height:70px; background:url(../images/images/ihergo_home_headbar_bg_l.gif)}
+.headbar_ihergologo { float:left; width:260px ; height:56px; margin-left:10px}
+.headbar_bottonbox { float:left; width:380px ; height:62px; margin-left:25px}
+
+.headbar_main_login_l { width:15px; height:26px;float:right; background:url(../images/images/ihergo_home_basic_left.gif)}
+.headbar_main_login_r { width:15px; height:26px;float:right; background:url(../images/images/ihergo_home_basic_right.gif)}
+.headbar_main_login_c {  height:26px;float:right; background:url(../images/images/ihergo_home_basic_center.gif)}
+
+.headbar_main_login_al { width:15px; height:26px;float:right; background:url(../images/images/ihergo_home_basic_aleft.gif)}
+.headbar_main_login_ar { width:15px; height:26px;float:right; background:url(../images/images/ihergo_home_basic_aright.gif)}
+.headbar_main_login_ac {  height:26px;float:right; background:url(../images/images/ihergo_home_basic_acenter.gif)}
+
+.headbar_main_buttonbox { width:160px; height:31px;float:right}
+.headbar_logo_buttonbox { width:230px; height:18px; margin-left:20px}
+
+.headbar_font_adbox { width:980px; height:20px; margin:0 auto; text-align:center}
+
+.ihergo_home_today{height:19px;float:right}
+
+.headbar_bottonbox { float:left; height:62px;  margin-left:25px}
+.headbar_main_logotextbox { width:260px; height:31px;float:left;}
+.headbar_main_allbox { width:270px; height:62px;float:left; margin-left:10px}
+.headbar_main_allboxin { width:270px; height:31px; padding-top:2px; float:right}
+.headbar_main_allfontbox {width:270px; height:20px; float:left}
+.headbar_main_allfontline { width:11px;height:16px;float:right; background:url(../images/images/ihergo_home_menu_line_1.gif)}
+
+.ihergo_home_button_buytogether{background:url(../images/images/ihergo_home_button_buytogether.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_buytogether a{background:url(../images/images/ihergo_home_button_buytogether.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_buytogether a:hover{background:url(../images/images/ihergo_home_button_buytogetherm.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_buytogetherOn {background:url(../images/images/ihergo_home_button_buytogetherm.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_buytogetherOn a{background:url(../images/images/ihergo_home_button_buytogetherm.gif) repeat-y;width:95px;height:62px;float:left}
+
+.ihergo_home_button_shopping{background:url(../images/images/ihergo_home_button_shopping.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_shopping a{background:url(../images/images/ihergo_home_button_shopping.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_shopping a:hover{background:url(../images/images/ihergo_home_button_shoppingm.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_shoppingOn {background:url(../images/images/ihergo_home_button_shoppingm.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_shoppingOn a{background:url(../images/images/ihergo_home_button_shoppingm.gif) repeat-y;width:95px;height:62px;float:left}
+
+.ihergo_home_button_discount{background:url(../images/images/ihergo_home_button_discount.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_discount a{background:url(../images/images/ihergo_home_button_discount.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_discount a:hover{background:url(../images/images/ihergo_home_button_discountm.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_discountOn {background:url(../images/images/ihergo_home_button_discountm.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_discountOn a{background:url(../images/images/ihergo_home_button_discountm.gif) repeat-y;width:95px;height:62px;float:left}
+
+.ihergo_home_button_talk{background:url(../images/images/ihergo_home_button_talk.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_talk a{background:url(../images/images/ihergo_home_button_talk.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_talk a:hover{background:url(../images/images/ihergo_home_button_talkm.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_talkOn {background:url(../images/images/ihergo_home_button_talkm.gif) repeat-y;width:95px;height:62px;float:left}
+.ihergo_home_button_talkOn a{background:url(../images/images/ihergo_home_button_talkm.gif) repeat-y;width:95px;height:62px;float:left}
+
+.ihergo_number_font { font-size:11px;font-family: Arial;color:#ffffff; line-height:12px; font-weight: bold}
+
+.ihergo_more_t12{font-size:12px;font-family: "Arial", "新細明體";color:#4e4f45; line-height:20px}
+.ihergo_more_t12 a:hover{color:#fb8215;text-decoration:underline}
+.ihergo_more_t12 a{color:#4e4f45;text-decoration: none}
+
+.header_icon_line{background:url(../images/images/header_icon_line.gif) no-repeat;width:1px;height:28px;float:right}
+.header_icon_line_notice {background:url(../images/images/header_icon_line_notice.gif) no-repeat;width:1px;height:28px;float:right}
+
+.header_icon_user{background:url(../images/images/header_icon_user.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_user a{background:url(../images/images/header_icon_user.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_user a:hover{background:url(../images/images/header_icon_userm.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_user_active{background:url(../images/images/header_icon_user_active.jpg) no-repeat;width:43px;height:28px;float:right}
+.header_icon_user_active{background:url(../images/images/header_icon_user_active.jpg) no-repeat;width:43px;height:28px;float:right}
+.header_icon_user_active a{background:url(../images/images/header_icon_user_active.jpg) no-repeat;width:43px;height:28px;float:right}
+
+.header_icon_mail{background:url(../images/images/header_icon_mail.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_mail a{background:url(../images/images/header_icon_mail.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_mail a:hover{background:url(../images/images/header_icon_mailm.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_mail_active{background:url(../images/images/header_icon_mailm.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_mail_active a{background:url(../images/images/header_icon_mailm.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+
+.header_icon_calendar{background:url(../images/images/header_icon_calendar.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_calendar a{background:url(../images/images/header_icon_calendar.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_calendar a:hover{background:url(../images/images/header_icon_calendarm.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_calendar_active{background:url(../images/images/header_icon_calendarm.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_calendar_active a{background:url(../images/images/header_icon_calendarm.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+
+.header_icon_point{background:url(../images/images/header_icon_point.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_point a{background:url(../images/images/header_icon_point.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_point a:hover{background:url(../images/images/header_icon_pointm.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_point_active{background:url(../images/images/header_icon_pointm.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_point_active a{background:url(../images/images/header_icon_pointm.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+
+.header_icon_store{background:url(../images/images/header_icon_store.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_store a{background:url(../images/images/header_icon_store.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_store a:hover{background:url(../images/images/header_icon_storem.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_store_active{background:url(../images/images/header_icon_storem.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+.header_icon_store_active a{background:url(../images/images/header_icon_storem.gif) 9px 4px no-repeat;width:43px;height:28px;float:right}
+
+.ihergo_number_box { float:right; height:12px; padding:13px 4px 0 0;cursor:pointer}
+.ihergo_number_l { float:left; width:3px; height:12px; background:url(../images/images/ihergo_number_l.gif) no-repeat}
+.ihergo_number_r { float:left; width:3px; height:12px; background:url(../images/images/ihergo_number_r.gif) no-repeat}
+.ihergo_number_c { float:left; height:12px;; background:url(../images/images/ihergo_number_c.gif)}
+
+.login_fb{background:url(../images/images/login_fb.gif) repeat-y;width:110px;height:18px;float:left}
+.login_fb a{background:url(../images/images/login_fb.gif) repeat-y;width:110px;height:18px;float:left}
+.login_fb a:hover{background:url(../images/images/login_fbm.gif) repeat-y;width:110px;height:18px;float:left}
+
+.login_ihergo{background:url(../images/images/login_ihergo.gif) repeat-y;width:110px;height:18px;float:left}
+.login_ihergo a{background:url(../images/images/login_ihergo.gif) repeat-y;width:110px;height:18px;float:left}
+.login_ihergo a:hover{background:url(../images/images/login_ihergom.gif) repeat-y;width:110px;height:18px;float:left}
+
+/* 通知 */
+.ihergo_home_friends_boxtop { width:272px; height:4px; float:left; background:url(../images/images/ihergo_home_friends_boxtop.gif); font-size:0px; line-height:4px;}
+.ihergo_home_friends_boxcenter {width:272px; float:left; background:url(../images/images/ihergo_home_friends_boxcenter.gif);}
+.ihergo_home_friends_boxdown {width:272px; height:7px; float:left ; background:url(../images/images/ihergo_home_friends_boxdown.gif); line-height:7px; *line-height:12px; font-size:0px}
+.ihergo_home_friends_bartopbox {width:233px; height:22px; padding-left:5px; float:left;}
+.ihergo_home_friends_bartop { width:260px; height:22px; background-color:#9ddee8 ; float:left}
+.ihergo_friendsfont_box{width:250px; height:22px; margin: 0 auto; text-align:left; _padding-top:3px ; *padding-top:2px}
+.ihergo_friendsfont_t15{font-size:13px;font-family: "新細明體";color:#505050; font-weight: bold }
+.ihergo_friendsfont_red{font-size:18px;font-family: "Arial";color:#e84c1f; font-weight: bold;}
+
+.ihergo_myNotice_moreBtnIn {width:52px; height:17px; float:right; padding-top:2px; padding-right:4px;}
+.ihergo_myNotice_moreBtn {background:url(../images/images/myNoticeMoreAllBtn.gif) repeat-y; width:52px; height:17px; float:left}
+.ihergo_myNotice_moreBtn a{background:url(../images/images/myNoticeMoreAllBtn.gif) repeat-y; width:52px; height:17px; float:left}
+.ihergo_myNotice_moreBtn a:hover{background:url(../images/images/myNoticeMoreAllBtn_m.gif) repeat-y; width:52px; height:17px; float:left}
+
+.ihergo_myNotice_QuestionIn {width:17px; height:17px; float:right; padding-top:2px;}
+.ihergo_myNotice_Question {background:url(../images/images/myNoticeQuestion.gif) repeat-y; width:17px; height:17px; float:left}
+.ihergo_myNotice_Question a{background:url(../images/images/myNoticeQuestion.gif) repeat-y; width:17px; height:17px; float:left}
+.ihergo_myNotice_Question a:hover{background:url(../images/images/myNoticeQuestion_m.gif) repeat-y; width:17px; height:17px; float:left}
+
+.ihergo_home_friends_bardown { width:260px; height:22px; background-color:#eeeeee; float:left}
+.ihergo_friendsfont_downbox{width:230px; height:16px; margin: 0 auto; text-align:center; _padding-top:3px ; *padding-top:2px }
+.ihergo_home_friends_bartopbox1 { width:260px; height:22px; padding-left:5px; float:left;}
+
+.ihergo_home_friends_scrollbar {width:260px; float:left; padding-left:5px; overflow-x:hidden; overflow-y:auto;}
+.ihergo_home_friends_loading {width:260px; float:left;}
+.ihergo_home_friends_information_box {width:260px; float:left;} 
+
+.ihergo_home_friends_information_fontbox {width:235px; height:22px; float:left; padding-left:5px;}
+.ihergo_home_friends_information_accountbox {width:175px; height:20px; float:left; text-align:left; font-size:13px; font-family:"Arial", "新細明體";}
+.ihergo_home_friends_information_time {width:60px; height:20px; float:right; font-size:11px;font-family:  "Arial", "新細明體";color:#b3b3b3; padding-top:3px; text-align:right;}
+.ihergo_home_friends_information_point { width:235px; height:1px; float:left; line-height:1px; background: url(../images/images/ihergo_home_friends_point.gif);font-size:0px;}
+.ihergo_home_friends_information_accountfontbox {text-align:left; width:235px; height:20px; float:left; padding-left:5px; font-size:13px; font-family:"Arial", "新細明體"; color:#505050;}
+.ihergo_home_friends_information_accountfontbox a:hover{color:#336699;text-decoration:underline;}
+.ihergo_home_friends_information_accountfontbox  a{color:#336699;text-decoration: none;}
+
+.header_icon_new{background:url(../images/images/ihergo_home_basic_iconnew.gif) no-repeat;width:43px;height:28px;float:right}
+.header_icon_new a{background:url(../images/images/ihergo_home_basic_iconnew.gif) no-repeat;width:43px;height:28px;float:right}
+.header_icon_new a:hover{background:url(../images/images/ihergo_home_basic_iconnewm.gif) no-repeat;width:43px;height:28px;float:right}
+.header_icon_new_active{background:url(../images/images/ihergo_home_basic_iconnewm.gif) no-repeat;width:43px;height:28px;float:right}
+.header_icon_new_active a{background:url(../images/images/ihergo_home_basic_iconnewem.gif) no-repeat;width:43px;height:28px;float:right}

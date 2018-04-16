@@ -1,0 +1,155 @@
+h1, h2, h3, h4, h5, h6, p, a, ul, li{ font-family:Arial, Helvetica, sans-serif, "新細明體-ExtB";}
+p.require {color:#F64949; text-align:right; vertical-align:top; padding:0px 5px;}
+
+#new_ihergoMails_wrapperBG{ width:100%; background-color:#F9F7F7;}
+
+/*==合購_單==*/
+#new_ihergoMails_wrapper { width:980px; margin:0 auto; position:relative;}
+/*==合購_頁==*/
+#new_ihergoevents_wrapper { width:790px; margin:0 auto; position:relative;}
+
+.main_content span.highlight{ color:#F64949;}
+
+/*==合購_單==*/
+#new_ihergoMails_content{ width:980px; padding-top:30px;}
+/*==合購_頁==*/
+#new_ihergoevents_content{ width:790px;}
+
+
+/*=====================以下側邊欄_公版開始===================*/
+#mails_wrapper .mails_SUB{ width:175px; margin:0 15px 0 0; float:left; _display:inline;}
+#mails_wrapper .mails_SUB .SUB_menu{ width:155px; padding:10px 10px 0 10px ; background:#f9f7f7;}
+
+/*==ID區==*/
+#mails_wrapper .mails_SUB .SUB_menu .topid_box{ height:44px; margin:0 0 10px 0px;}
+#mails_wrapper .mails_SUB .SUB_menu .topid_box .UiImageBOX{	float: left;width:40px; height:40px; padding: 1px; background-color:#FFFFFF; border:1px solid #BBBBBB; overflow:hidden;}
+#mails_wrapper .mails_SUB .SUB_menu .topid_box .UiImageBOX a img{ margin: 0 auto; display:block; font-size:0; height:40px; outline:none; opacity: 1;/* 透明度60% FireFox 的寫法 */ filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */ }
+#mails_wrapper .mails_SUB .SUB_menu .topid_box .UiImageBOX a:hover img{opacity: 0.7; filter: Alpha(Opacity=70)	
+	}
+
+#mails_wrapper .mails_SUB .SUB_menu .topid_box .UiIDBOX{ float: left; width:111px; height:22px; overflow:hidden;}
+#mails_wrapper .mails_SUB .SUB_menu .topid_box .UiIDBOX a{ display:block; font-size:12px; color:#454545; text-decoration:none; line-height:22px; text-indent:4px; overflow:hidden;}
+#mails_wrapper .mails_SUB .SUB_menu .topid_box .UiIDBOX a:hover{ text-decoration:underline; color:#F1843a;}
+#mails_wrapper .mails_SUB .SUB_menu .topid_box .UiIDBOX_R{ float: left; height:22px; min-width:50px;}
+#mails_wrapper .mails_SUB .SUB_menu .topid_box .UiIDBOX_R a.userNumber{ display:block; font-size:11px; color:#454545; text-decoration:none; line-height:22px; text-indent:4px; overflow:hidden;}
+#mails_wrapper .mails_SUB .SUB_menu .topid_box .UiIDBOX_L{ float: left; width:22px; height:22px;}
+/*==ID區==*/
+
+#mails_wrapper .mails_SUB .SUB_menu .btn_group_box{ margin:0 0 10px 0px;}
+#mails_wrapper .mails_SUB .SUB_menu h3 { font-weight:bold; font-size:15px; line-height:34px; letter-spacing:1px;}
+#mails_wrapper .mails_SUB .SUB_menu h3.single a{background: url(../../images/user/user2012/user2012_SUB_menu.jpg) no-repeat left top;}
+/*==日曆==*/
+#mails_wrapper .mails_SUB .SUB_menu h3.calendar a{width:155px; height:34px; color:#454545; display:block; text-decoration:none; text-indent:15px; background: url(../../images/user/user2012/user2012_SUB_menu.jpg)  no-repeat left -102px;}
+#mails_wrapper .mails_SUB .SUB_menu h3.calendar a:hover{width:155px; height:34px; color:#454545; display:block; text-decoration:none;
+                                          text-indent:15px; background:url(../../images/user/user2012/user2012_SUB_menu.jpg)  no-repeat -155px -102px;}
+/*==選單標題背景==*/
+#mails_wrapper .mails_SUB .SUB_menu h3.group a{background:url(../../images/user/user2012/user2012_SUB_menu.jpg)  no-repeat right top;}
+#mails_wrapper .mails_SUB .SUB_menu h3.group_open a{background:url(../../images/user/user2012/user2012_SUB_menu.jpg)  no-repeat center top;}
+
+/*==選單標題==*/
+#mails_wrapper .mails_SUB .SUB_menu h3 a{ width:155px; height:34px; color:#454545; display:block; text-decoration:none;  text-indent:15px; }
+#mails_wrapper .mails_SUB .SUB_menu h3 a:hover{ width:155px; height:34px; color:#454545; display:block; text-decoration:none;text-indent:15px;}
+
+#mails_wrapper .mails_SUB .SUB_menu h3.group a:hover{background:url(../../images/user/user2012/user2012_SUB_menu.jpg)  no-repeat center-34px;}
+#mails_wrapper .mails_SUB .SUB_menu h3.group_open a:hover{background:url(../../images/user/user2012/user2012_SUB_menu.jpg)  no-repeat center -34px;}
+
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list{ width:153px; border-bottom:1px #cdc5c5 solid; border-left:1px #cdc5c5 solid; border-right:1px #cdc5c5 solid; padding:5px 0 10px 0;  background:#FFF; display: block; /*display:none;*/}
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li{  width:133px; border-bottom:1px dotted #b5b5b5; margin:0 0 0 10px;}
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li.NO-border{  width:133px; border-bottom:1px dotted #FFFFFF; margin:0 0 0 10px;}
+
+/*==撰寫郵件==*/
+#mails_wrapper .mails_SUB .SUB_menu .BtnBox{ width:133px; height:32px; margin: 0 auto; padding:5px 0px 5px 0px;}
+#mails_wrapper .mails_SUB .SUB_menu .BtnBox a{width:133px; height:32px; line-height:32px; font-size:15px; display:block; color:#898989;  float:left; letter-spacing:1px; text-decoration:none; font-weight:bold; background: url(../../images/user/user2012/but_toou.gif) no-repeat left top; text-align:center; }
+#mails_wrapper .mails_SUB .SUB_menu .BtnBox a:hover{color:#454545; background-position: right -33px; text-decoration:none;}
+#mails_wrapper .mails_SUB .SUB_menu .BtnBox a:active{color:#898989; background-position: right -66px; text-decoration:none;}
+/*==撰寫郵件_END==*/
+
+
+
+/*==子選單==*/
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4{ width:133px; line-height:18px; _line-height:22px;	line-height:22px \9;/**/  font-weight:normal; padding: 6px 0px;}
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4 a.list_T{ font-size:13px; display:block; color:#454545; letter-spacing:1px; text-indent:3px; _text-indent:0px; }
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4 a:hover{ color:#888888; text-decoration:none;}
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4 a.list_T span.UserNumber{ font-size:12px; color: #E84C1F; letter-spacing:2px; }
+
+
+
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4 p{ font-size:13px; display:block; color:#454545; letter-spacing:1px; text-align:justify;}
+
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4 p span.GoBnt a{ font-size:12px; display:block; color:#105CB6; padding:5px 0px 0px 0px;}
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4 p span.GoBnt a:hover{ color:#FF9933; text-decoration:underline;}
+
+/*==目標target==*/
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li.Menutarget { background-color: #f1f1f1;}
+
+/*==刪除子選單btn==*/
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4 p.List_D{ float:left; display:block; width:18px; height:18px; line-height:18px; background: url(../../images/user/user2012/user2012_menulist_l-dicom.gif) no-repeat left top;}
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4 a.Deletebtu{ float:left;  width:18px; height:18px; line-height:18px; font-size:15px;\9;/**/  background:url(../../images/user/user2012/user2012_menulist_l-dicom.gif) no-repeat left top; text-align:center; color:#9fa0a0; }
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4 a.Deletebtu:hover{color:#d35656; background:url(../../images/user/user2012/user2012_menulist_l-dicom.gif) no-repeat  right top;}
+
+/*==mail==*/
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4.maillist a{ font-size:15px; display:block; color:#454545; letter-spacing:1px; text-indent:22px; font-weight:bold;  background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left top;}
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4.maillist a:hover{ color:#888888; text-decoration:none;}
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4.maillist a span.UserNumber{font-size:13px; color: #E84C1F;}
+
+/*==合購單==*/
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4.Grouplist a{ font-size:15px; display:block; color:#454545; letter-spacing:1px; text-indent:22px; font-weight:bold;  background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left -24px;}
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4.Grouplist a:hover{ color:#888888; text-decoration:none;}
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4.Grouplist a span.UserNumber{font-size:12px; letter-spacing:2px;color: #E84C1F;}
+
+/*==訂購單==*/
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4.Orderlist a{ font-size:15px; display:block; color:#454545; letter-spacing:1px; text-indent:22px; font-weight:bold;  background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left -54px;}
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4.Orderlist a:hover{ color:#888888; text-decoration:none;}
+#mails_wrapper .mails_SUB .SUB_menu ul.group_list li h4.Orderlist a span.UserNumber{font-size:12px; letter-spacing:2px;color: #E84C1F;}
+
+/*==左側廣告==*/
+#mails_wrapper .mails_SUB .AD_wrapper{width:100%; padding:10px 0 5px 0;}
+#mails_wrapper .mails_SUB .AD_wrapper h4.Title{width:145px; height:26px; color:#666666; font-size:15px; line-height:26px; overflow:hidden; text-indent:2px; padding: 0px 0px 10px 10px;}
+#mails_wrapper .mails_SUB .AD_wrapper .AD_box{ padding:0 10px 10px 10px;}
+#mails_wrapper .mails_SUB .AD_wrapper .AD_box a.AD_img{ width:151px; height:80px; padding:1px; border:1px solid #cdc5c5; display:block;overflow:hidden;}
+#mails_wrapper .mails_SUB .AD_wrapper .AD_box a.AD_img img{ opacity:1.0;filter:alpha(opacity=100);}
+#mails_wrapper .mails_SUB .AD_wrapper .AD_box a:hover.AD_img img{ opacity:0.8;filter:alpha(opacity=80);}
+#mails_wrapper .mails_SUB .AD_wrapper .AD_box a.AD_img{ width:151px; height:80px; padding:1px; border:1px solid #cdc5c5; display:block;overflow:hidden;}
+#mails_wrapper .mails_SUB .AD_wrapper .AD_box h5{ font-weight:normal; width:155px; height:26px; line-height:26px; overflow:hidden; text-indent:2px;}
+#mails_wrapper .mails_SUB .AD_wrapper .AD_box h5 a{ font-size:12px; color:#454545;}
+#mails_wrapper .mails_SUB .AD_wrapper .AD_box h5 a:hover{ color:#888888;}
+
+#mails_wrapper .mails_SUB .AD_wrapper .AD_box h6{ font-weight:normal; width:155px; height:18px; line-height:18px; overflow:hidden; text-indent:2px;}
+#mails_wrapper .mails_SUB .AD_wrapper .AD_box h6 a{ font-size:12px; color:#888888;}
+#mails_wrapper .mails_SUB .AD_wrapper .AD_box h6 a:hover{ color:#454545;}
+
+/*=====================側邊欄結束=====================*/
+/*==以上設計兩攔式共用==*/
+
+/*信件全部展開*/
+.r_open{ float:right; width:100px; height:30px; line-height:30px; margin: 5px 15px 0 0; display:inline;}
+.r_open a.open_all{ display:block; font-size:12px; color:#fff; letter-spacing:1px; background:url(../../images/user/mails/icon_stretch_blue.gif) no-repeat 0 8px; text-indent:16px;}
+.r_open a:hover.open_all{ background-position:0 -17px; text-decoration:none; color:#e8ecf6;}
+.r_open a.close_all{ display:block; font-size:12px; color:#fff; letter-spacing:1px; background:url(../../images/user/mails/icon_stretch_blue.gif) no-repeat -100px 9px; text-indent:16px;}
+.r_open a:hover.close_all{ background-position:-100px -16px; text-decoration:none; color:#e8ecf6;}
+
+.r_open_red { float:right; width:100px; height:30px; line-height:30px; margin: 5px 15px 0 0; display:inline;}
+.r_open_red a.open_all{ display:block; font-size:12px; color:#fff; letter-spacing:1px; background:url(../../images/user/mails/icon_stretch_red.gif) no-repeat 0 8px; text-indent:16px;}
+.r_open_red a:hover.open_all{ background-position:0 -17px; text-decoration:none; color:#e8ecf6;}
+.r_open_red a.close_all{ display:block; font-size:12px; color:#fff; letter-spacing:1px; background:url(../../images/user/mails/icon_stretch_red.gif) no-repeat -100px 9px; text-indent:16px;}
+.r_open_red a:hover.close_all{ background-position:-100px -16px; text-decoration:none; color:#e8ecf6;}
+
+.r_open_green { float:right; width:100px; height:30px; line-height:30px; margin: 5px 15px 0 0; display:inline;}
+.r_open_green a.open_all{ display:block; font-size:12px; color:#fff; letter-spacing:1px; background:url(../../images/user/mails/icon_stretch_green.gif) no-repeat 0 8px; text-indent:16px;}
+.r_open_green a:hover.open_all{ background-position:0 -17px; text-decoration:none; color:#e8ecf6;}
+.r_open_green a.close_all{ display:block; font-size:12px; color:#fff; letter-spacing:1px; background:url(../../images/user/mails/icon_stretch_green.gif) no-repeat -100px 9px; text-indent:16px;}
+.r_open_green a:hover.close_all{ background-position:-100px -16px; text-decoration:none; color:#e8ecf6;}
+
+.r_open_white{ float:right; width:100px; height:20px; line-height:20px; margin: 10px 15px 0 0; _display:inline;}
+.r_open_white a.open_all{ display:block; font-size:12px; color:#888; letter-spacing:1px; background:url(../../images/user/mails/icon_stretch_gray.gif) no-repeat 0 4px; text-indent:18px;}
+.r_open_white a:hover.open_all{ background-position:0 -21px; text-decoration:none; color:#a7a7a7;}
+.r_open_white a.close_all{ display:block; font-size:12px; color:#888; letter-spacing:1px; background:url(../../images/user/mails/icon_stretch_gray.gif) no-repeat -100px 4px; text-indent:18px;}
+.r_open_white a:hover.close_all{ background-position:-100px -21px; text-decoration:none; color:#a7a7a7;}
+
+/*檢舉信件*/
+.report_mail{ float:right;}
+.report_mail a{ display:block; height:20px; line-height:30px; font-size:12px; color:#888; padding:10px 15px 0 0;}
+.report_mail a:hover{ text-decoration:none; color:#ccc;}
+
+p.remind_funding{ float:left; width:572px; background:#f4f8ff; font-size:12px; line-height:18px; color:#888888; border:#cadaf7 1px solid; padding:10px 15px;  text-align:justify; margin:10px 0 10px 124px; letter-spacing:1px; _display:inline;}
+p.remind_funding span{ text-decoration:underline; font-size:13px; padding:0 3px;}

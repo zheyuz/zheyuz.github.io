@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*=======撰寫信件=======*/
+.WriteMailBox{ width:758px;}
+.WriteMailBox .mail_row{ width:758px; margin-bottom:15px;}
+.WriteMailBox .mail_row .l_mail_con{ float:left; width:90px;}
+.WriteMailBox .mail_row .r_mail_con{ float:left; width:628px;}
+
+/*搜尋ID*/
+.mail_row .r_mail_con .mail_receiver_box{ width:635px; max-width:635px; min-height:30px; max-height:650px; overflow: hidden; border:#cfcfcf 1px solid; padding:2px;}
+.mail_row .r_mail_con .mail_receiver_box:hover{ border:1px solid #9C9C9C !important;}
+
+.WriteMailBox .mail_row .r_mail_con .mail_title_box	{ width:635px; max-width:635px; min-height:30px; max-height:650px; overflow: hidden; border:#cfcfcf 1px solid; padding:2px;}
+.WriteMailBox .mail_row .r_mail_con .mail_title_box:hover{ border:1px solid #9C9C9C !important;}
+
+.WriteMailBox .mail_row p.txt_B12_6{ font-size:15px; color:#666; line-height:34px; font-weight:bold; text-align:right; letter-spacing:1px;}
+
+.WriteMailBox .mailtitle_input{ width:620px; min-height:28px; color:#454545; font-size: 13px; height: auto ;letter-spacing: 1px; line-height: 20px; _line-height: 25px; padding: 3px 5px; font-weight: normal;  font-family:Tahoma, Geneva, sans-serif; resize:none; border:none;}
+	
+.WriteMailBox .data_con{ width:640px; padding-top:8px;}
+
+.WriteMailBox p.txt_N15_9{ font-size:12px; color:#999; letter-spacing:2px;}
+
+/*ID點下去動作中的狀態*/
+.WriteMailBox .b_Color{ outline:3px solid #EFEFEF; border:1px solid #9C9C9C !important;}
+/**/
+
+

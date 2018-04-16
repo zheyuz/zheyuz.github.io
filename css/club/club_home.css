@@ -1,0 +1,687 @@
+@charset "utf-8";
+/* =================================== 20151202 個人家族頁改版_開始 =================================== */
+.club_index_wrapper { width: 980px; margin: 20px auto 40px; }
+
+a{ color: #105CB6;text-decoration: none}
+a:hover{ color: #ff9933; text-decoration: underline}
+
+/*左選單*/
+.club_tab_box { width: 51px; height: 325px; position: fixed; left: 50%; top: 32%; margin-left: -560px; _position: absolute; z-index: 20; }
+@media screen and (max-width:1100px) {
+	.club_tab_box { left: 0; margin-left: 0; }
+}
+.club_tab_box ul li a { display: block; width: 52px; height: 85px; text-decoration: none; }
+.club_tab_box ul li a span { font-size: 13px; color: #999; position: relative; top: 65px; }
+.club_tab_box ul li.family_union a span { top: 49px; }
+.club_tab_box ul li a:hover span { color: #777; }
+.club_tab_box ul li.admin a span { color: #e63; }
+.club_tab_box ul li.admin a:hover span { color: #d94e1a; }
+.club_tab_box ul li.family_union a { background: url(../../images/club/club_icon_tab.png) no-repeat 0 0;  }
+.club_tab_box ul li.family_favor a { background: url(../../images/club/club_icon_tab.png) no-repeat 0 -70px; }
+.club_tab_box ul li.family_comment a { background: url(../../images/club/club_icon_tab.png) no-repeat 0 -156px; height: 70px;}
+.club_tab_box ul li.admin a { background: url(../../images/club/club_icon_tab.png) no-repeat 0 -328px; height: 67px; }
+.club_tab_box ul li.family_union a:hover { background: url(../../images/club/club_icon_tab.png) no-repeat -65px 0; }
+.club_tab_box ul li.family_favor a:hover { background: url(../../images/club/club_icon_tab.png) no-repeat -65px -70px; }
+.club_tab_box ul li.family_comment a:hover { background: url(../../images/club/club_icon_tab.png) no-repeat -65px -156px; }
+.club_tab_box ul li.admin a:hover { background: url(../../images/club/club_icon_tab.png) no-repeat -65px -328px; }
+
+/*家族banner*/
+.club_index_wrapper .club_header_block { width: 980px; height: 200px; background-repeat: no-repeat; background-image: url(../../images/club/club_bg/bg_red.jpg); background-size: 100% auto; display: block; position: relative; }
+.club_index_wrapper .club_header_block:after{ border: 1px solid rgba(0, 0, 0, .13); bottom: 0; content: ''; left: 0; position: absolute; right: 0; top: 0}
+.club_index_wrapper .club_header_block .family_headerTitle { position: absolute; bottom: 0px; left: 0px; width: 100%; background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%); background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%); background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%); z-index: 1;}
+.club_index_wrapper .club_header_block .family_headerTitle .family_imageBox { float: left; height: 100px; background-color: #fff; padding: 4px; overflow: hidden; border-radius: 5px; position: relative; bottom: 15px; left: 15px;}
+.club_index_wrapper .club_header_block .family_headerTitle .family_imageBox img { height: 100px; }
+.club_index_wrapper .club_header_block .family_headerTitle .family_nameBox { float: left; margin: 70px 0 0 15px; position: relative; bottom: 15px; left: 15px; }
+.club_index_wrapper .club_header_block .family_headerTitle .family_nameBox h1.name_h1 { font-size: 20px; font-weight: bold; color: #fff; }
+.club_index_wrapper .club_header_block .family_headerTitle .family_nameBox h1.name_h1 a.name_title { font-weight: bold; font-size: 20px; line-height: 30px; color: #fff; text-shadow: 0 1px 3px rgba(0, 0, 0, .7);}
+.club_index_wrapper .club_header_block .family_headerTitle .family_nameBox h1.name_h1 a.name_title:hover { text-decoration: underline; }
+.club_index_wrapper .club_header_block .family_headerTitle .family_nameBox img.locked_img { margin-right: 4px; position: relative; top: 5px; width: 25px; height: 25px; }
+
+/* 家族新朋友 */
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper { width: 728px; border: 1px solid #fdefd1; border-radius: 8px; background: url('../../images/club/newfriend_block_bg.png'); display: none; margin-bottom: 15px; position: relative; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper a.newfriend_block_close_btn { position: absolute; right: 16px; top: 16px; cursor: pointer; background: url('../../images/club/club_index_new_friend_sprite.png'); background-position: -0px -18px; width: 13px; height: 13px; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container { padding: 46px 43px 26px 43px; color: #ffffff; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container_expand { padding: 46px 43px; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .welcome_msg { font-size: 15px; font-weight: bold; margin-bottom: 10px; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .welcome_msg .user_account { margin: 0px 6px; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg { min-height: 54px; line-height: 54px; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_icon { width: 54px; height: 54px; float: left; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_icon img { width: 50px; height: 50px; border-radius: 50%; border: 2px solid #fef5e1; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_msg { float: left; height: 54px; line-height: 54px; margin-left: 12px; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_msg_expand { height: auto !important; position: relative; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_msg form { position: relative; top: calc((100% - 34px)/2); }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_msg .form_expand { top: 9px; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_msg .user_msg_container { width: 413px; height: 16px; line-height: 16px; padding: 9px 15px; background: #ffffff; font-size: 13px; border: 0; border-radius: 5px; color: #bebdbd; -webkit-box-shadow: 0px 3px 0px 0px rgba(229, 227, 227, 1); -moz-box-shadow: 0px 3px 0px 0px rgba(229, 227, 227, 1); box-shadow: 0px 3px 0px 0px rgba(229, 227, 227, 1); float: left; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_msg .user_msg_container_expand { height: auto !important; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_msg .user_msg_container:before { content: ''; position: relative; left: -20px; background: url('../../images/club/club_index_new_friend_sprite.png'); background-position: -0px -0px; width: 7px; height: 8px; display: inline-block; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_msg textarea { border: 0; font-size: 13px; line-height: 26px; color: #777777; width: 100%; max-height: 120px; display: none; margin-top: -7px; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_msg textarea::-webkit-input-placeholder { color: #bebdbd; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_msg textarea::-moz-placeholder { color: #bebdbd; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_msg textarea::-ms-input-placeholder { color: #bebdbd; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_msg span.write_down_btn { cursor: pointer; margin-left: -10px; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_msg a.submit_msg { float: left; width: 83px; height: 37px; line-height: 37px; border: 0; border-radius: 8px; background: #57c2e9; color: #ffffff; font-size: 14px; text-align: center; margin-left: 12px; cursor: pointer; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_msg a.submit_msg_expand { position: absolute; bottom: 0; }
+.club_index_wrapper .club_main_block .leftMain_newfriendClub_wrapper .newfriendClub_container .newfriend_msg .user_msg a:hover.submit_msg { text-decoration: none; }
+
+/* ---------- 家族左內容 ---------- */
+.club_index_wrapper .club_main_block { margin: 15px auto; }
+.club_index_wrapper .club_main_block .club_leftMain { float: left; width: 730px; }
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_box { width: 730px; margin-bottom: 40px; }
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_box .leftMain_title { background-color: #fff; border: 1px solid #e6e6e6; padding: 1px; }
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_box .leftMain_title h2.title_h2 { line-height: 30px; padding-left: 10px; }
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_box .btn_more { text-align: right; font-size: 13px; display: block; margin-right: 5px; }
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_box .btn_more a{ color: #105CB6; text-decoration:underline;}
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_box .btn_more a:hover{ color: #ff9933;}
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_content { }
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_content .p_box { font-size: 13px; color: #666; line-height: 25px; margin-top: 15px; letter-spacing: 1px; word-break: break-all; }
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_content .p_box .content { padding: 0 5px; }
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_content .p_box .content p { font-size: 13px; }
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_content .p_box a.see_all_btn_open { font-weight: bold; font-size: 12px; color: #666; background: url(../../images/shop/store/store_pic.jpg) no-repeat -190px -57px; letter-spacing: 1px; line-height: 25px; padding: 0px 0px 0px 6px; margin: 10px auto 0 auto; width: 71px; text-decoration: none; text-align: center; display: block; }
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_content .p_box a.see_all_btn_close { font-weight: bold; font-size: 12px; color: #666; background: url(../../images/shop/store/store_pic.jpg) no-repeat -190px -57px; letter-spacing: 1px; line-height: 25px; padding: 0px 0px 0px 6px; margin: 10px auto 0 auto; width: 71px; text-decoration: none; text-align: center; display: block; }
+
+/*家族合購*/
+.club_index_wrapper .club_main_block .leftMain_unionClub { }
+.club_index_wrapper .club_main_block .leftMain_unionClub .union_search { padding: 15px 5px; border-bottom: 1px solid #e5e5e5; margin-bottom: 15px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .union_search .search_box { float: left; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .union_search .search_box input.search_input { width: 220px; border: 1px solid #ddd; border-radius: 2px; font-size: 13px; color: #666; letter-spacing: 1px; height: 26px; line-height: 26px; padding: 0 6px; background: #fff; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .union_search .search_box a.btn_search { display: block; float: left; color: #666; font-size: 12px; background: url(../../images/shop/store/function_btn.gif) no-repeat left top; text-decoration: none; margin: 2px 0 0 5px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .union_search .search_box a.btn_search span { display: block; background: url(../../images/shop/store/function_btn.gif) right -25px no-repeat; padding: 0 15px; line-height: 25px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .union_search .search_box a.btn_search:hover { background: url(../../images/shop/store/function_btn.gif) left -50px no-repeat; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .union_search .search_box a.btn_search:hover span { background: url(../../images/shop/store/function_btn.gif) right -75px no-repeat; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .union_search a.btn_start { float: right; background: #57c2e9; color: #fff; font-weight: bold; font-size: 13px; text-decoration: none; line-height: 28px; width: 100px; text-align: center; border-radius: 4px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .union_search a.btn_start:hover { opacity: 0.8; }
+
+/* 一則合購 */
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box { width: 100%; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .member_icon { float: left; margin-right: 10px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .member_icon img { width: 54px; height: 54px; border-radius: 50%; margin-top: 15px; border: 1px solid #ececec;}
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content { float: left; width: calc(100% - 71px); margin: 0 0 30px 0; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .member_info { height:30px; line-height: 30px;}
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .member_info a.user_name { font-size: 13px; font-weight: bold; color: #3b5998; padding-right: 1px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .member_info small.user_rating { color: #666666; font-size: 11px; margin-right: 4px;}
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .member_info .due_date { display: inline-block; font-size:12px; color:#666666;}
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .member_info .due_date hour { padding:0 5px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description { width: 100%; min-height:200px; border: 1px solid #e6e6e6; border-radius: 5px; position: relative; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description:before { content: url(../../images/club/club_event_arrow.png); position: absolute; top: 10px; left: -7px; display: inline-block; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_title { padding: 12px 20px; background: #f6f5f5; border-radius: 5px 5px 0 0; border-bottom: 1px solid #eeeeee; line-height: 24px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_title a { font-size: 15px; font-weight: bold; color: #105cb6; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_title .event_target { display: inline-block; width: calc(100% - 198px); max-height: 50px; overflow: hidden; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_title a:hover { text-decoration: none; opacity: .8; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_title span.target_store { width: calc(100% - 220px); display: block; background: url(../../images/find_event/icon_store_normal.gif) no-repeat 0 3px; padding-left: 20px;  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_title span.target_store a { font-size: 13px; color: #555555; font-weight: bold;text-overflow:ellipsis; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_title a img { width: 180px; height: 180px; border: 1px solid #dad7d7; box-shadow: 5px 5px 0px #dad7d7; position: absolute; right: 22px; top: -18px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_title a:hover img { opacity: 1; box-shadow: 7px 7px 0px #dad7d7; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_info { padding: 12px 20px; background: #ffffff; border-radius: 0 0 5px 5px; color: #7f7d7d; font-size: 12px; line-height: 25px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_info .summary { width: calc(100% - 198px); color:#555555; font-size:13px;  }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_info .summary span { font-size:14px; padding:0 5px;}
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_info .summary .quantity_count { }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_info .summary .quantity_count_10_above { color:#f64949; font-size:14px; font-weight: bold; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_info .meeting_place { width: 100%; height: auto; color: #666666;}
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_info .meeting_place .meeting_place_tag { width: 36px; display: inline-block; vertical-align: top; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_info .meeting_place .meeting_place_address { width: calc(100% - 198px - 36px); display: inline-block; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_info .meeting_place .meeting_place_address p { display: block; height: 25px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_info .meeting_place .meeting_place_address p a { color: #666666; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_info a.meeting_place_readmore { color: #bbbb96 !important; position: relative; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_info a.meeting_place_readmore:after { content: ''; width: 0; height: 0; border-style: solid; border-width: 6px 4.5px 0 4.5px; border-color: #baba95 transparent transparent transparent; margin-left: 6px; position: absolute; bottom: 4px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_info a.meeting_place_readless { color: #bbbb96 !important; position: relative; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .club_event_box .event_content .event_description .event_info a.meeting_place_readless:after { content: ''; width: 0; height: 0; border-style: solid; border-width: 0 4.5px 6px 4.5px; border-color: transparent transparent #baba95 transparent; margin-left: 6px; position: absolute; bottom: 4px; }
+
+/*.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box { padding: 0 5px 15px; border-bottom: 1px solid #e5e5e5; margin-bottom: 15px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .member_pic { float: left; margin-right: 10px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .member_pic a.pic_box { display: block; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .member_pic a.pic_box img { width: 54px; border-radius: 50%; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .event_content { width: calc(100% - 64px); margin-left: 64px; border: 1px solid #e6e6e6; border-radius: 5px; padding: 12px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .event_content .member_name { display: block; height: 20px; margin-bottom: 5px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .event_content p.member_box { float: left; font-size: 13px; color: #666; line-height: 20px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .event_content p.member_box a.member { font-weight: bold; color: #3B5998; font-size: 13px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .event_content p.member_box a span.rating { color: #666; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .event_content p.member_box a:hover { color: #ff9933; text-decoration: underline; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .event_content p.member_box a span.rating:hover { color: #ff9933; text-decoration: underline; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .event_content p.member_box span.txt_gray { color: #666; padding-left: 5px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .event_content p.txt_eventtime { float: right; font-size: 12px; color: #999; letter-spacing: 1px; line-height: 20px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .event_content p.txt_eventtime span { padding: 0 6px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .detail_content { }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .detail_content .product_pic { float: left; width: 140px; height: 140px; border: 1px solid #e5e5e5; padding: 1px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .detail_content .product_pic a { width: 140px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .detail_content .product_pic img { width: 140px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .detail_content .event_detail { margin-left: 155px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .detail_content .event_detail a.event_title { display: block; font-size: 15px; color: #3b5998; font-weight: bold; max-height: 40px; overflow: hidden; line-height: 20px; margin-bottom: 10px; letter-spacing: 1px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .detail_content .event_detail a.event_title:hover { }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .detail_content p.explain { color: #888; font-size: 12px; line-height: 18px; margin-bottom: 15px; letter-spacing: 1px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .detail_content p.txt_count { font-size: 13px; color: #666; height: 20px; line-height: 20px; margin-bottom: 5px; letter-spacing: 1px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .detail_content p.txt_count span.point { color: #f64949; font-weight: bold; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .detail_content a.store { display: block; background: url(../../images/find_event/icon_store_normal.gif) no-repeat 0 1px; font-size: 12px; color: #3B5998; padding-left: 22px; height: 20px; overflow: hidden; letter-spacing: 1px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .detail_content a.store:hover { }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .location_box { font-size: 12px; background-color: #fffff1; border: 1px #ffeba5 solid; padding: 10px; color: #666; margin-top: 10px; overflow: hidden; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .location_box p.title_gray { float: left; color: #888; font-size: 12px; width: 40px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .location_box .txt_location { margin-left: 40px; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .location_box .txt_location p { color: #666; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .location_box .txt_location a.txt_address { color: #666; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .location_box .txt_location a.txt_address:hover { color: #888; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .location_box a.location_all { color: #f1843a; text-decoration: none; display: block; }
+.club_index_wrapper .club_main_block .leftMain_unionClub .event_content_box .location_box a.location_all:hover { text-decoration: underline; }*/
+
+/*喜歡的商店*/
+.club_index_wrapper .club_main_block .leftMain_favStore .remind_box { padding: 10px 5px 15px; }
+.club_index_wrapper .club_main_block .leftMain_favStore .remind_box p.remind_text { color: #666; font-size: 13px; line-height: 22px; }
+.club_index_wrapper .club_main_block .leftMain_favStore .remind_box p.remind_text a { font-size: 13px; color: #105CB6; padding: 0 4px; text-decoration: underline; }
+.club_index_wrapper .club_main_block .leftMain_favStore .remind_box p.remind_text a:hover { color: #f1843a; text-decoration: underline; }
+.club_index_wrapper .club_main_block .leftMain_favStore .text_gray_666 { color: #666; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids { border: 1px solid #e6e6e6; border-radius: 5px; margin: 0 5px 30px; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids span.highligh { color: #f64949; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info { height: 60px; border-bottom: 1px solid #eee; padding: 12px 10px 8px 10px; background: #f6f5f5; border-radius: 5px 5px 0 0; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_img { float: left; width: 160px; height: 55px; margin-right: 15px; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_img img { width: 160px; height: 55px; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_description { float: left; width: 410px; height: 100%; margin-right: 15px; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_description .store_name { width: 100%; height: 18px; margin-top: 4px; margin-bottom: 8px; clear: both; line-height: 18px; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_description .store_name img { float: left; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_description .store_name span.text_gray_45 { float: left; margin: 0 8px; font-size: 16px; font-weight: bold; max-width: 355px; white-space: nowrap; overflow: hidden; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_description .store_name span.text_gray_45 a { text-decoration: none; color: #454545; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_description .store_name span.text_gray_45 a:hover { text-decoration: underline; color: #666; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_description .store_events { width: 100%; height: 22px; line-height: 22px; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_description .store_events li { float: left; width: 22px; height: 22px; border-radius: 50%; background: #eee; list-style: none; margin: 0 3px; display: block; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_description .store_events li:nth-of-type(1) { margin-left: 0; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_description .store_events li img { width: 22px; height: 22px; border-radius: 50%; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_description .store_events .event_info { display: inline; font-size: 12px; margin-left: 10px; color: #666; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_description .store_events .event_info span.highlight { font-size: 13px; padding:0 5px;}
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_rating { width: 90px; height: 55px; float: right; margin-right: 6px; text-align: right; position: relative; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_rating:after { content: ''; width: 0; height: 100%; display: inline-block; position: relative; vertical-align: middle; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_rating .rating_content { margin: 11px 0; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_rating .rating_stars { cursor: pointer; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_rating .rating_counts { margin-top: 5px; font-size: 12px; color: #666; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_info .store_rating .rating_counts span.highlight { color: #F64949; font-weight: bold; padding:0 5px; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_rating .reason_box { display: none; position: absolute; top: 50px; right: 0; width: 240px; height: 153px; border: 2px solid #ff7a3f; border-radius: 5px; background: #fff; text-align: left; font-size: 12px; -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1); z-index: 3; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_rating .reason_box div { padding: 10px; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_rating .reason_box li { list-style: none; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_rating .reason_box li span.comment_text { letter-spacing: 1px; color: #454545; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_rating .reason_box li img { width: 220px; margin: 5px 0; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_list_grids .store_divider { width: 668px; height: 1px; background: #eeeeee; margin: 0 auto; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_product_grids { padding: 25px 25px 15px;}
+.club_index_wrapper .club_main_block .leftMain_favStore .store_product_grids .product { float: left; width: 200px; margin-right: 34px; position: relative; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_product_grids .product:nth-of-type(3) { margin: 0; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_product_grids .product .special_offer { position: absolute; top: -9px; left: -15px; width: 55px; height: 55px; background: url(../../images/shop/search/discount_img.png) no-repeat center center; _background: url(../../images/shop/search/discount_img_ie6.gif) no-repeat center center; z-index: 2; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_product_grids .product .special_offer .offer_content { padding: 11px 8px 7px 8px; font-size: 10px; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_product_grids .product .special_offer span.highlight { font-size: 20px; color: #fff !important; margin-left: 3px; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_product_grids .product a.p_photo img { width: 198px; border:1px solid #efefef;}
+.club_index_wrapper .club_main_block .leftMain_favStore .store_product_grids .product .description { margin-top: 15px; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_product_grids .product .description div{ width:200px; height:20px; overflow: hidden; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_product_grids .product .description .divider{ font-size:11px; color:#666666; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_product_grids .product .description .store_product_title { margin-bottom: 5px; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_product_grids .product .description .store_product_title a { color: #555555; font-size: 13px; font-weight: bold; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_product_grids .product .description .price { font-size: 13px; color: #666; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_product_grids .product .description .price span.highlight { color: #f64949; font-size: 14px; font-weight: 700; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_like { padding: 10px 0 10px 0; width: 668px; height: 26px; line-height: 26px; margin: 0 auto; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_like a.wish_btn {
+	background: url(../../images/shop/store/icon_like.png) no-repeat 8px 6px #feeef1;
+	background-size: 15px auto !important;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ea5f73;
+	width: auto;
+	height: 26px;
+	border-radius: 5px;
+	letter-spacing: 8px;
+	line-height: 35px;
+	text-decoration: none;
+	padding-right: 8px;
+}
+.club_index_wrapper .club_main_block .leftMain_favStore .store_like a.wish_btn:hover {
+	background: url(../../images/shop/store/icon_like.png) no-repeat 8px -55px #EE7F8F;
+	color: #ffffff;
+	text-decoration: none;
+}
+.club_index_wrapper .club_main_block .leftMain_favStore .store_like a.wish_btn span {
+	display: inline-block;
+	margin-left: 28px;
+	letter-spacing: 2px;
+	height: 26px;
+	position: relative;
+	top: -4px;
+}
+.club_index_wrapper .club_main_block .leftMain_favStore .store_like a.unwish {
+	background: url(../../images/shop/store/icon_like.png) no-repeat 8px -55px #EE7F8F;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
+	width: auto;
+	height: 26px;
+	border-radius: 5px;
+	letter-spacing: 8px;
+	line-height: 35px;
+	text-decoration: none;
+	padding-right: 8px;
+}
+.club_index_wrapper .club_main_block .leftMain_favStore .store_like a.unwish span {
+	display: inline-block;
+	margin-left: 28px;
+}
+.club_index_wrapper .club_main_block .leftMain_favStore .store_like .like_counts { display: inline-block; height: 18px; background: #fff; font-size: 12px; line-height: 18px; letter-spacing: 1px; position: relative; border: 0; margin-left: 5px; padding: 0; top: -4px; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_like .like_counts a { font-size: 13px; font-weight: bold; text-decoration: none; color: #3b5998; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_like .like_counts a:hover { opacity: 0.9; }
+.club_index_wrapper .club_main_block .leftMain_favStore .store_like .like_counts a span.highlight { color: #3b5998; font-size:12px; font-weight: normal; margin:0 3px;}
+.club_index_wrapper .club_main_block .leftMain_favStore .store_like .like_counts span.family_light { font-size: 12px; font-weight: normal; color: #666666; padding: 0 5px; }
+/*家族討論*/
+.club_index_wrapper .club_main_block .comment_search { padding: 15px 5px; }
+.club_index_wrapper .club_main_block .comment_search .search_box { float: left; }
+.club_index_wrapper .club_main_block .comment_search .search_box input.search_input { width: 220px; border: 1px solid #ddd; border-radius: 2px; font-size: 13px; color: #666; letter-spacing: 1px; height: 26px; line-height: 26px; padding: 0 6px; background: #fff; }
+.club_index_wrapper .club_main_block .comment_search .search_box a.btn_search { display: block; float: left; color: #666; font-size: 12px; background: url(../../images/shop/store/function_btn.gif) no-repeat left top; text-decoration: none; margin: 2px 0 0 5px; }
+.club_index_wrapper .club_main_block .comment_search .search_box a.btn_search span { display: block; background: url(../../images/shop/store/function_btn.gif) right -25px no-repeat; padding: 0 15px; line-height: 25px; }
+.club_index_wrapper .club_main_block .comment_search .search_box a.btn_search:hover { background: url(../../images/shop/store/function_btn.gif) left -50px no-repeat; }
+.club_index_wrapper .club_main_block .comment_search .search_box a.btn_search:hover span { background: url(../../images/shop/store/function_btn.gif) right -75px no-repeat; }
+.club_index_wrapper .club_main_block .comment_search a.btn_write_new { float: right; background: #ffc600; color: #fff; font-weight: bold; font-size: 13px; text-decoration: none; line-height: 28px; width: 100px; text-align: center; border-radius: 4px; }
+.club_index_wrapper .club_main_block .comment_search a.btn_write_new:hover { opacity: 0.8; }
+.club_index_wrapper .club_main_block .leftMain_commentClub { }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_list { margin: 0 0 10px; width: 730px;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_list .row_wrapper{ width:730px;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_list .forumlist_row { border-bottom: 1px dotted #ddd; height: 50px; border-top:0px; width:730px; margin:0; overflow:hidden;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_list .top_row { color: #666; line-height: 30px; font-size: 13px; font-weight: bold; text-align: center; height: 30px; border-top:0px; width:730px; margin:0; border-top: 1px solid #e6e6e6;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row li { float: left; margin: 5px 0; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .top_row li { margin: 0; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row li.forum_subject { width: 48%; max-height:40px; overflow:hidden;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row li._admin{ width: 39%;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row li.forum_author { width: 26%; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row li.forum_reply { width: 7%; text-align: center; line-height: 40px; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row li.forum_pushto { width: 7%; text-align: center; line-height: 40px; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row li.forum_new_re { width: 10%; text-align: center; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row li.forum_new_re_admin{ width:20%; text-align: center;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .top_row li.forum_reply { line-height: 30px; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .top_row li.forum_pushto { line-height: 30px; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_subject .red_arrow { padding-left: 10px; width:330px;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_subject .red_arrow .top_txt { font-family: Verdana, Geneva, sans-serif; margin-left: 20px; padding-right: 10px; max-height: 44px; float:none; width:310px; text-align:left;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_subject .red_arrow .top_txt a { font-size: 13px; color: #454545; letter-spacing: 1px; text-decoration: none; line-height: 20px; font-weight: normal; margin-right: 5px; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_subject .red_arrow .top_txt a:hover{ text-decoration:underline;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_subject .red_arrow .top_icon { float: left; height: 20px; width: 15px; margin-right: 8px; background: url(../../images/forum/icon_arrow_a01.gif) no-repeat 0 3px; text-indent: -9999px; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_subject .at_top { padding-left: 10px; width:340px;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_subject .at_top .top_icon { float: left; height: 20px; width: 36px; margin-right: 8px; background: url(../../images/forum/icon_top.gif) no-repeat 0 2px; text-indent: -9999px; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_subject .at_top .top_txt { font-family: Verdana, Geneva, sans-serif; margin-left: 45px; padding-right: 10px; max-height: 44px; float:none; width:280px; text-align:left;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_subject .at_top .top_txt a { font-size: 13px; color: #3E6EAC; letter-spacing: 1px; text-decoration: none; line-height: 20px; font-weight: bold; margin-right: 5px; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_subject .at_top .top_txt a:hover{ text-decoration:underline;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_author .user_img { float: left; width: 30px; padding-top: 5px; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_author .user_img img { width: 30px; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_author .user_id { margin-left: 35px; text-align: left; padding-right: 10px; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_author .user_id p.IDText { font-size: 12px; line-height: 20px; text-align:left; white-space:nowrap; overflow:hidden;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_author .user_id p.IDText a.user { font-size: 12px; font-weight: bold; color: #3b5998; padding-right: 3px; padding-left:0;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_author .user_id p.IDText a.origin { color: #454545; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_author .user_id p.IDText a.origin:hover { color: #ff9933; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_author .user_id p.IDTime_in { color: #8a8a8a; padding-left:0; text-align:left;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_new_re p.new_re_time { font-size:12px; color: #8a8a8a; text-align: center; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_list .row_unread { background-color: #fefede; width:730px;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_list .row_unread li.forum_subject a { font-weight: bold; color: #454545; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_list .row_unread li.forum_subject .at_top a { color: #3E6EAC; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_list .row_unread li.forum_author .user_id p.IDText a.origin { font-weight: bold; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_list .row_unread li.forum_author .user_id p.IDTime_in { font-weight: bold; }
+
+/* ---------- 家族右欄 ---------- */
+.club_index_wrapper .club_main_block .club_rightMenu { float: right; width: 220px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox { background-color: #e6e6e6; padding: 5px; margin-bottom: 30px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .rightMenu_content { background-color: #fff; padding: 10px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox a.joinClub_btn { font-size: 15px; font-weight: bold; color: #fff; background-color: #ffcc02; line-height: 35px; display: block; text-align: center; text-decoration: none; border-radius: 5px; margin: 5px 10px 15px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox a.joinClub_btn:hover { opacity: 0.8; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox a.joinNone_btn { font-size: 15px; font-weight: bold; color: #9eadad; background-color: #eef1f2; line-height: 35px; display: block; text-align: center; text-decoration: none; border-radius: 5px; margin: 5px 10px 15px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox a.joinNone_btn:hover { background-color: #ebeeef; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox p.samll_title { color: #454545; font-weight: bold; line-height: 30px; font-size: 14px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .clubMap_box { padding-bottom: 10px; border-bottom: 1px dotted #ccc; margin-bottom: 10px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .clubMap_box .gmap { width: 190px; height: 150px; background-color: #eee; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .clubMap_box p.address_text { font-size: 13px; line-height: 22px; color: #666; margin-top: 7px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .clubMaster_box { padding-bottom: 10px; border-bottom: 1px dotted #ccc; margin-bottom: 10px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .clubMaster_box p.master_box { line-height: 30px; margin-bottom: 10px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .clubMaster_box a.master_img { float: left; width: 30px; height: 30px; overflow: hidden; margin-right: 7px; border: 1px solid #c1c1c1; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .clubMaster_box a.master_img img { width: 30px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .clubMaster_box a.master_id { font-size: 13px; color: #3B5998; font-weight: bold; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .clubMaster_box a.master_id:hover { color: #ff9933; text-decoration: underline; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .clubMaster_box span.master_number { font-size: 12px; color: #666; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .clubMaster_box span.master_number a { color: #666; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .clubMaster_box span.master_number a:hover { color: #ff9933; text-decoration: underline; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .otherInfo_box { margin-bottom: 10px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .otherInfo_box p.peopleNum_text { font-size: 13px; color: #666; line-height: 25px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .otherInfo_box p.peopleNum_text span { font-size: 14px; color: #454545; font-weight: bold; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .otherInfo_box p.clubType_text { font-size: 13px; color: #666; line-height: 25px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox .otherInfo_box p.clubType_text span { font-size: 14px; color: #454545; font-weight: bold; }
+
+/* 熱門合購商店 */
+.club_index_wrapper .club_main_block .rightMenu_HotBox { border: 1px solid #e6e6e6; padding: 1px; }
+.club_index_wrapper .club_main_block .rightMenu_HotBox .right_titleBox { line-height: 30px; text-align: center; }
+.club_index_wrapper .club_main_block .rightMenu_HotBox .right_titleBox h2 { padding-left: 10px; }
+.club_index_wrapper .club_main_block .rightMenu_HotBox .rightMenu_content { position: relative; min-height: 1030px; overflow: hidden; }
+.club_index_wrapper .club_main_block .rightMenu_HotBox .rightMenu_content ul.ul_box { height: 1000%; position: absolute; top: 0; left: 0; }
+.club_index_wrapper .club_main_block .rightMenu_HotBox li.hot_buy_item { padding: 15px 20px; border-top: 1px dotted #d5d5d5; text-align: center; }
+.club_index_wrapper .club_main_block .rightMenu_HotBox li.hot_buy_item .product_img img { width: 150px; height: 150px; }
+.club_index_wrapper .club_main_block .rightMenu_HotBox li.hot_buy_item h3 { font-size: 12px; height: 40px; overflow: hidden; margin-top: 5px; }
+.club_index_wrapper .club_main_block .rightMenu_HotBox li.hot_buy_item h3 img { padding-right: 6px; }
+.club_index_wrapper .club_main_block .rightMenu_HotBox li.hot_buy_item h3 a { color: #777; font-weight: normal; }
+.club_index_wrapper .club_main_block .rightMenu_HotBox li.hot_buy_item .price { color: #f06354; font-family: "Century Gothic"; font-size: 12px; }
+.club_index_wrapper .club_main_block .rightMenu_HotBox li.hot_buy_item .price span { font-size: 14px; font-weight: bold; }
+.club_index_wrapper .club_main_block .rightMenu_HotBox .rightMenu_content a.listBtn_more { display: block; height: 35px; width: 100%; background: url(../../images/club/list_btn_down.png) no-repeat; border-top: 1px solid #e3e3e3; position: absolute; bottom: 0; }
+.club_index_wrapper .club_main_block .rightMenu_HotBox .rightMenu_content a.listBtn_more:hover { opacity: 0.7; }
+.club_index_wrapper .club_main_block .rightMenu_HotBox .rightMenu_content a.disable, .club_main_block .rightMenu_HotBox .rightMenu_content a.disable:hover { opacity: 0.3; }
+
+/* 未加入家族 */
+.club_index_wrapper .club_main_block .club_leftMain .join_remind { background-color: #f8f8f8; display: block; padding: 5px; margin-bottom: 15px; }
+.club_index_wrapper .club_main_block .club_leftMain .join_remind p.join_text { background: url(../../images/image/info.gif) no-repeat left center / 60px auto; color: #6d9b00; font-weight: bold; font-size: 15px; line-height: 60px; padding-left: 60px; margin: 0 32px; }
+.club_index_wrapper .club_main_block .club_leftMain .join_remind a.joinClub_btn { font-size: 15px; font-weight: bold; color: #fff; background-color: #ffcc02; line-height: 35px; text-align: center; text-decoration: none; border-radius: 5px; padding: 9px 25px; margin-left: 10px; }
+.club_index_wrapper .club_main_block .club_leftMain .join_remind a.joinClub_btn:hover { opacity: 0.8; }
+
+/* 家族合購、喜歡商店、討論空白 */
+.club_index_wrapper .club_main_block .leftMain_content .nothing_remind { padding: 40px; margin: 20px auto 50px; border: 1px dashed #ddd; }
+.club_index_wrapper .club_main_block .leftMain_content .nothing_remind p { color: #666; text-align: center; font-weight: bold; font-size: 14px; line-height: 25px; text-align: center; max-width: 500px; margin: 0 auto; }
+.club_index_wrapper .club_main_block .leftMain_content .nothing_remind p a { margin-left: 5px; }
+.club_index_wrapper .club_main_block .leftMain_content .aboutClub_remind { margin: 50px auto 80px; padding: 0; border: 0px; }
+.club_index_wrapper .club_main_block .leftMain_content .aboutClub_remind p { color: #666; text-align: center; max-width: 500px; margin: 0 auto; padding: 0; line-height: 25px; }
+.club_index_wrapper .club_main_block .leftMain_content .head_remind { border: 1px #f2b596 solid; background-color: #fff6df; padding: 30px 20px; margin: 15px auto 50px; }
+.club_index_wrapper .club_main_block .leftMain_content .head_remind p { color: #666; text-align: center; max-width: 500px; margin: 0 auto; padding: 0; line-height: 25px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox p.no_gmap_remind { font-size: 13px; text-align: center; padding: 30px 10px; border: 1px dashed #e5e5e5; color: #bbb; background-color: #fafafa; margin: 5px auto 10px; }
+.club_index_wrapper .club_main_block .club_rightMenu .rightMenu_inforBox p.setting_address_remind { font-size: 12px; font-weight: bold; border: 1px #f2b596 solid; background-color: #fff6df; padding: 8px; margin: 5px 0 5px; }
+
+/* =================================== 20151202 個人家族頁改版_結束 =================================== */
+
+
+/* =================================== 20151231 個人家族合購、喜歡商店、討論頁_開始 =================================== */
+/*家族頁碼*/
+.club_index_wrapper .club_main_block .page_wrp{ width: 730px; margin:0 auto;}
+.club_index_wrapper .club_main_block .page_wrp p.page_text{ float: left; font-size: 12px; max-width: 200px; line-height: 22px; letter-spacing: 1px; text-indent: 10px; padding: 8px 0; color: #666;}
+.club_index_wrapper .club_main_block .page_wrp .page_btn_box{ float: right; padding:5px 0; display:block;}
+.club_index_wrapper .club_main_block .page_wrp .page_btn_box ul.page_list{ padding: 0 10px 0 0;}
+.club_index_wrapper .club_main_block .page_wrp .page_btn_box ul.page_list li.number{ float: left; margin: 0 0 0 5px; _display: inline;}
+.club_index_wrapper .club_main_block .page_wrp .page_btn_box ul.page_list li.number span.target{ padding: 3px 7px; border: 1px solid #666; background: #fff; font-size: 12px; color: #666; font-weight: bold; line-height: 28px;}
+.club_index_wrapper .club_main_block .page_wrp .page_btn_box ul.page_list li.number a{ padding: 3px 7px; border: 1px solid #e1e0e0; background: #FFF; font-size: 12px; color: #666; line-height: 28px;}
+.club_index_wrapper .club_main_block .page_wrp .page_btn_box ul.page_list li.number a:hover{ text-decoration: none; background: #9b9b9b; border: 1px solid #9b9b9b; color: #FFF;}
+
+/*家族合購＿截止合購*/
+.club_index_wrapper .club_main_block .leftMain_unionClub .finish_event .event_content .event_description .event_title a{ color:#9c9c9c;}
+
+/*家族討論＿內容*/
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li p{ font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #555; text-align: center; font-weight: normal}
+.club_index_wrapper .club_main_block .leftMain_content h3.forum_title{ font-size:18px; margin:30px 0 15px; color: #555;}
+
+/* 投票專區 */
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .voting{ padding-left: 10px; width:330px;}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .voting .top_icon{ float: left; height: 20px; width: 34px; margin-right: 8px; background-image: url(../../images/forum/icon_vote.gif); background-repeat: no-repeat; background-position: 0 2px; text-indent: -9999px;}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .voting .top_txt{ font-family: Verdana, Geneva, sans-serif; margin-left: 40px; padding-right: 10px; max-height: 44px; float:none; text-align:left; width:275px; overflow:hidden;}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .voting .top_txt a{ font-size: 15px; color: #3E6EAC; letter-spacing: 1px; text-decoration: none; line-height: 20px; font-weight:normal; margin-right: 5px; display:block; height:40px;}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .folder{ padding-left:10px; width:260px}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .folder .top_icon{ float: left; height: 20px; width: 22px; margin-right: 8px; background-image: url(../../images/forum/icon_folder.gif); background-repeat: no-repeat; background-position: 0 2px; text-indent: -9999px;}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .folder .top_txt{ font-family: Verdana, Geneva, sans-serif; margin-left: 20px; padding-right: 10px; max-height: 44px; float:none; text-align:left; width:220px; overflow:hidden;}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .folder .top_txt a{ font-size: 15px; color: #3E6EAC; letter-spacing: 1px; text-decoration: none; line-height: 20px; font-weight: bold; display: block; height:40px;}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .folder .top_txt a:hover{ text-decoration:underline;}
+
+.club_index_wrapper .club_main_block .leftMain_content .forum_main table{ width:100%; padding:0 10px;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_main table ul.forum_PollTab{ width:500px;}
+
+
+/* =================================== 20151231 個人家族合購、喜歡商店、討論頁_結束 =================================== */
+
+/* === 20160113 家族討論修改至上方_開始 === */
+.club_tab_box ul li.family_comment a { background: url(../../images/club/club_icon_tab.png) no-repeat 0 -172px; }
+.club_tab_box ul li.family_comment a:hover { background: url(../../images/club/club_icon_tab.png) no-repeat -65px -172px; }
+.club_tab_box ul li.family_comment a span{ position: relative; top: 49px;}
+/* === 20160113 家族討論修改至上方_結束 === */
+
+
+
+/* =================================== 20160127 個人家族頁優化_開始 =================================== */
+
+/* 家族header主選單 */
+.club_index_wrapper .club_menu_block{ background-color:#fdfdfd; border:1px solid #e5e5e5; border-top:0; position:relative;}
+.club_index_wrapper .club_menu_block ul.club_menu_ul{ width:290px; margin:0 auto; text-align:center;}
+.club_index_wrapper .club_menu_block ul.club_menu_ul li.club_menu_li{ display:inline-block; margin:0 5px; height:43px;}
+.club_index_wrapper .club_menu_block ul.club_menu_ul li.club_menu_li a{ font-size:14px; color:#777; text-decoration:none; line-height:40px; padding: 13px 11px; text-align:center;}
+.club_index_wrapper .club_menu_block ul.club_menu_ul li.club_menu_li:hover a{ color:#777;}
+.club_index_wrapper .club_menu_block ul.club_menu_ul li.target{}
+.club_index_wrapper .club_menu_block ul.club_menu_ul li.target a{ }
+.club_index_wrapper .club_menu_block ul.club_menu_ul li.target:hover a{}
+
+.club_index_wrapper .club_menu_block .club_setting_box{ position:absolute; top:0; right:0;}
+.club_index_wrapper .club_menu_block .club_setting_box a.club_setting_btn{ width:43px; height:43px; background:url(../../images/club/icon_setting_46.png) no-repeat center center / 18px 18px; display:block; cursor:pointer;}
+.club_index_wrapper .club_menu_block .club_setting_box a.club_setting_btn:hover{ opacity:0.8;}
+.club_index_wrapper .club_menu_block .club_setting_box ul.setting_menu{ width:130px; padding:5px 0; background-color:#fff; border:1px solid #c9c9c9; border-radius:5px; box-shadow:0 2px 7px rgba(0,0,0,0.17); position:absolute; right:-1px; top:40px; z-index:1;}
+.club_index_wrapper .club_menu_block .club_setting_box ul.setting_menu:before{ border-left: 8px solid rgba(0, 0, 0, 0); border-right: 8px solid rgba(0, 0, 0, 0); border-bottom: 8px solid #fff; position: absolute; left: 81%; top: -7px; width: 0; height: 0; content: ""; margin-left: -5px; display: block; z-index: 2;}
+.club_index_wrapper .club_menu_block .club_setting_box ul.setting_menu:after{ border-left: 8px solid rgba(0, 0, 0, 0); border-right: 8px solid rgba(0, 0, 0, 0); border-bottom: 8px solid #bbb; position: absolute; left: 81%; top: -8px; width: 0; height: 0; content: ""; margin-left: -5px; display: block; z-index: 1;}
+.club_index_wrapper .club_menu_block .club_setting_box ul.setting_menu li{ cursor:pointer;}
+.club_index_wrapper .club_menu_block .club_setting_box ul.setting_menu li a{ font-size:12px; color:#777; line-height:25px; text-decoration:none; padding:4px 0px 4px 25px; margin:0 10px; display:block;}
+.club_index_wrapper .club_menu_block .club_setting_box ul.setting_menu li:hover{ background-color:#f5f5f5;}
+.club_index_wrapper .club_menu_block .club_setting_box ul.setting_menu li.follow_btn a{ background: url(../../images/club/icon_unfollow_26.png) no-repeat 4px center / 13px 13px; color:#777;}
+.club_index_wrapper .club_menu_block .club_setting_box ul.setting_menu li.following a{ background: url(../../images/club/icon_following_26.png) no-repeat 4px center / 13px 13px; color:#9a9a9a;}
+.club_index_wrapper .club_menu_block .club_setting_box ul.setting_menu li.admin_btn a{ background: url(../../images/club/icon_admin_26.png) no-repeat 4px center / 13px 13px;}
+.club_index_wrapper .club_menu_block .club_setting_box ul.setting_menu li.goaway_btn a{ background: url(../../images/club/icon_goaway_26.png) no-repeat 6px center / 13px 13px; color:#c9c9c9; border-top: 1px solid #eee;}
+.club_index_wrapper .club_menu_block .setting_box_hover{ width:180px; height:150px; position:absolute; right:-5px;}
+
+/* 家族主選單Fixed */
+.club_index_wrapper .club_menu_fixed{ background:rgba(255, 255, 255, .93); border-bottom: 1px solid #e4e5e6; position:fixed; top:0; left:0; width:100%; z-index:99;}
+.club_index_wrapper .club_menu_fixed .fixed_menu_block{ width:980px; margin:0 auto; text-align:center; position:relative;}
+.club_index_wrapper .club_menu_fixed .club_name_box{ width:325px; float: left; }
+.club_index_wrapper .club_menu_fixed h2.club_name_h2{ float:left; max-width:325px; margin-top:20px; overflow:hidden; white-space: nowrap; text-overflow: ellipsis;}
+.club_index_wrapper .club_menu_fixed h2.club_name_h2:hover{ opacity:0.8;}
+.club_index_wrapper .club_menu_fixed h2.club_name_h2 img{ width:20px;}
+.club_index_wrapper .club_menu_fixed h2.club_name_h2 a{ font-size:18px; line-height:30px; color:#555; position:relative; top:-2px; left:1px; text-decoration:none;}
+.club_index_wrapper .club_menu_fixed ul.club_menu_ul{ margin-left:20px; float:left; text-align:center;}
+.club_index_wrapper .club_menu_fixed ul.club_menu_ul li.club_menu_li{ display:inline-block; margin:0 5px; height:65px;}
+.club_index_wrapper .club_menu_fixed ul.club_menu_ul li.club_menu_li a{ font-weight:bold; font-size:14px; color:#777; text-decoration:none; line-height:65px; padding: 23px 11px; text-align:center; }
+.club_index_wrapper .club_menu_fixed ul.club_menu_ul li.club_menu_li:hover a{ color:#777; }
+.club_index_wrapper .club_menu_fixed ul.club_menu_ul li.target{}
+.club_index_wrapper .club_menu_fixed ul.club_menu_ul li.target a{ }
+.club_index_wrapper .club_menu_fixed ul.club_menu_ul li.target:hover a{ }
+
+.club_index_wrapper .club_menu_fixed .menu_right_box{ width:180px; position:absolute; top:16px; right:0;}
+.club_index_wrapper .club_menu_fixed .menu_right_box .club_setting_box{ position:absolute; top:0; right:0; }
+.club_index_wrapper .club_menu_fixed .menu_right_box .club_setting_box a.club_setting_btn{ width:45px; height:30px; background:url(../../images/club/icon_setting_46.png) no-repeat center center / 23px 23px; display:block; cursor:pointer;}
+.club_index_wrapper .club_menu_fixed .menu_right_box .club_setting_box a.club_setting_btn:hover{ opacity:0.8;}
+.club_index_wrapper .club_menu_fixed .menu_right_box .club_setting_box ul.setting_menu{ width:130px; padding:5px 0; background-color:#fff; border:1px solid #c9c9c9; border-radius:5px; box-shadow:0 2px 5px rgba(0,0,0,0.17); position:absolute; right:-1px; top:40px; z-index:1;}
+.club_index_wrapper .club_menu_fixed .menu_right_box .club_setting_box ul.setting_menu:before{ border-left: 8px solid rgba(0, 0, 0, 0); border-right: 8px solid rgba(0, 0, 0, 0); border-bottom: 8px solid #fff; position: absolute; left: 80%; top: -7px; width: 0; height: 0; content: ""; margin-left: -5px; display: block; z-index: 2;}
+.club_index_wrapper .club_menu_fixed .menu_right_box .club_setting_box ul.setting_menu:after{ border-left: 8px solid rgba(0, 0, 0, 0); border-right: 8px solid rgba(0, 0, 0, 0); border-bottom: 8px solid #bbb; position: absolute; left: 80%; top: -8px; width: 0; height: 0; content: ""; margin-left: -5px; display: block; z-index: 1;}
+.club_index_wrapper .club_menu_fixed .menu_right_box .club_setting_box ul.setting_menu li{ cursor:pointer;}
+.club_index_wrapper .club_menu_fixed .menu_right_box .club_setting_box ul.setting_menu li a{ font-weight:bold; font-size:12px; color:#777; line-height:25px; text-decoration:none; padding:4px 0px 4px 25px; margin:0 10px; display:block; cursor:pointer;}
+.club_index_wrapper .club_menu_fixed .menu_right_box .club_setting_box ul.setting_menu li:hover{ background-color:#f5f5f5;}
+.club_index_wrapper .club_menu_fixed .menu_right_box .club_setting_box ul.setting_menu li.follow_btn a{ background: url(../../images/club/icon_unfollow_26.png) no-repeat 4px center / 13px 13px; color:#777;}
+.club_index_wrapper .club_menu_fixed .menu_right_box .club_setting_box ul.setting_menu li.following a{ background: url(../../images/club/icon_following_26.png) no-repeat 4px center / 13px 13px; color:#9a9a9a;}
+.club_index_wrapper .club_menu_fixed .menu_right_box .club_setting_box ul.setting_menu li.admin_btn a{ background: url(../../images/club/icon_admin_26.png) no-repeat 4px center / 13px 13px;}
+.club_index_wrapper .club_menu_fixed .menu_right_box .club_setting_box ul.setting_menu li.goaway_btn a{ background: url(../../images/club/icon_goaway_26.png) no-repeat 6px center / 13px 13px; color:#c9c9c9; border-top: 1px solid #eee;}
+.club_index_wrapper .club_menu_fixed .menu_right_box a.joinClub_btn { font-size: 15px; font-weight: bold; color: #fff; background-color: #ffcc02; line-height: 35px; display: block; text-align: center; text-decoration: none; border-radius: 5px;}
+.club_index_wrapper .club_menu_fixed .menu_right_box a.joinClub_btn:hover { opacity: 0.8; }
+
+/* ---------- 家族左內容 ---------- */
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_box .btn_more{ text-align: center; font-size: 13px; display: block; margin:0; clear:both;}
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_box .btn_more a{ background-color:#f5f5f5; color:#7a7a7a; font-size:12px; line-height:32px; margin:0 3px; text-decoration:none; display:block; border-radius:4px;}
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_box .btn_more a:hover{ color:#999;}
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_box .btn_more a span{ padding:0 2px;}
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_content .p_box a.see_all_btn_open{ font-weight: bold; font-size: 12px; color: #777; background: url(../../images/club/icon_seemore_down.png) no-repeat 12px 8px / 12px 12px #f5f5f5; letter-spacing: 1px; line-height: 25px; padding: 1px 5px 1px 15px; margin: 10px auto 0 auto; width: 70px; text-decoration: none; text-align: center; display: block; border-radius:4px;}
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_content .p_box a.see_all_btn_open:hover{ color:#999;}
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_content .p_box a.see_all_btn_close{ font-weight: bold; font-size: 12px; color: #777; background: url(../../images/club/icon_seemore_up.png) no-repeat 17px 8px / 12px 12px #f5f5f5; letter-spacing: 1px; line-height: 25px; padding: 1px 5px 1px 15px; margin: 10px auto 0 auto; width: 70px; text-decoration: none; text-align: center; display: block; border-radius:4px;}
+.club_index_wrapper .club_main_block .club_leftMain .leftMain_content .p_box a.see_all_btn_close:hover{ color:#999;}
+/*討論表格*/
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row li.forum_subject { width: 54%;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row li._admin{ width: 45%;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row li.forum_author { width: 26%;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row li.forum_reply { width: 8%;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row li.forum_new_re { width: 10%; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row li.forum_new_re_admin{ width:21%; }
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_subject .red_arrow .top_txt{ width: 340px;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .forumlist_row ul li.forum_subject .at_top .top_txt{ width: 320px;}
+/*討論區tab*/
+.club_index_wrapper .club_main_block .leftMain_commentClub .comment_tab{ background-color:#fcfcfc; border:1px solid #e6e6e6; border-radius:2px; margin-bottom:10px;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .comment_tab ul{ height:25px;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .comment_tab li{ float:left; padding: 7px 0;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .comment_tab li a{ font-size:11px; padding:0 10px; display:block; color:#777; text-decoration:none; color: #888; border-left:1px solid #ccc; line-height:10px;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .comment_tab li.target span{ font-size:11px; padding:0 10px; display:block; line-height:12px; border-left:1px solid #ccc;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .comment_tab li.first_li a{ border:0;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .comment_tab li.first_li span{ border:0;}
+.club_index_wrapper .club_main_block .leftMain_commentClub .comment_tab li:hover a{ text-decoration:none;}
+
+/* --- 討論內容 --- */
+.club_index_wrapper .club_main_block .comment_title_box { padding: 15px 5px; }
+.club_index_wrapper .club_main_block .comment_title_box h3.forum_title { float: left; font-size: 16px; color:#c33; line-height:22px; margin:0; max-width:550px;}
+.club_index_wrapper .club_main_block .comment_title_box a.btn_write_new { float: right; background: #ffc600; color: #fff; font-weight: bold; font-size: 13px; text-decoration: none; line-height: 28px; width: 100px; text-align: center; border-radius: 4px; }
+.club_index_wrapper .club_main_block .comment_title_box a.btn_write_new:hover { opacity: 0.8; }
+
+.club_index_wrapper .club_main_block .leftMain_content .forum_790{ width:730px;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_function{ width:700px; border:1px solid #e6e6e6; border-bottom:0; border-radius:5px 5px 0px 0px; padding:7px 14px 0;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_function .forumlist_list_top{ float:none; width:700px; padding:0 0 5px; border:0; border-bottom:1px solid #e6e6e6; background-color:transparent;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_main{ float:left; width:730px; margin-bottom:20px; margin-top:0;}
+.club_index_wrapper .club_main_block .leftMain_content .forumlist_row ul li img{ vertical-align: middle;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_main .forumlist_list_t{ float: left; width: 730px; height: 0px; background-color: #fff; border: 0px solid #eee;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_main .forumlist_list_c{ width:728px; border: 1px solid #e6e6e6 ;border-top:0px; overflow:hidden;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_main .forumlist_list_c .forumlist_inside_information_in{ width:700px; margin: 0 auto; padding: 15px 0 10px;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_main .forumlist_list_c .forumlist_inside_photo{ float: left; width: 100px; height: 100px;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_main .forumlist_list_c .forumlist_inside_photo img.h100{ border:1px solid #e6e6e6; border-radius:5px;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_main .forumlist_list_c .forumlist_inside_information_box{ float: left; width: 590px; height: 30px; padding-left: 10px;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_main .forumlist_list_c .forumlist_inside_information_box a.user{ color:#3B5998;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_main .forumlist_list_c .forumlist_inside_information_box a.user:hover{ color:#ff9933;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_main .forumlist_list_c .forumlist_inside_information_box span.text9{ color:#666;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_main .forumlist_list_c .forumlist_inside_information_box1{ float: left; width: 590px; height: 35px; padding-left: 10px;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_main .forumlist_list_c .forumlist_inside_information_box3{ float: left; width: 400px; height: 20px; padding: 15px 0 0 10px;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_main .forumlist_list_c .forumlist_inside_tit_in{ width: 700px; margin: 0 auto; padding: 15px 0;}
+.club_index_wrapper .club_main_block .leftMain_content .forum_main .forumlist_list_c .forumlist_bottom_box{ border-bottom:1px solid #e6e6e6; height:1px; width:730px;}
+
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block{ border-top:1px solid #eee; margin:25px 14px 5px; padding:10px 5px;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .one_forumlist_reply{ padding-top:15px;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .one_forumlist_reply .left_user_photo{ float:left; width:40px; height:40px; }
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .one_forumlist_reply .left_user_photo img{ width:40px; border-radius:50%;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .one_forumlist_reply .right_reply_infor{ float:left; margin-left: 15px; display:inline-block; position: relative; border-bottom:1px solid #f0f0f0;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .one_forumlist_reply .right_reply_infor p.user_id_box{ font-size:12px; color:#777; width:635px;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .one_forumlist_reply .right_reply_infor p.user_id_box a.user{ font-size:12px; font-weight:bold;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .one_forumlist_reply .right_reply_infor span.reply_time{ font-size:11px; color:#aaa; position:absolute; right:0;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .one_forumlist_reply .right_reply_infor p.user_reply_txt{ font-size:12px; color:#777; padding: 0 0 15px; max-width:500px;}
+/*討論回答區塊*/
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .answer_box{ margin:25px 0;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .answer_box .answer_input_box{ float:left;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .answer_box .left_user_photo{ float:left; width:40px; height:40px; }
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .answer_box .left_user_photo img{ width:40px; border-radius:50%;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .answer_box .right_answer_input{ float:left; display:inline-block;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .answer_box .right_answer_input .answer_input_box{ border:1px solid #e8e8e8; border-radius:5px; padding: 10px 10px; margin-left:15px; width:500px; position:relative;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .answer_box .right_answer_input .answer_input_box:before{ border-bottom: 5px solid rgba(0, 0, 0, 0); border-top: 5px solid rgba(0, 0, 0, 0); border-right: 5px solid #fff; position: absolute; left: 0px; top: 12px; width: 0; height: 0; content: ""; margin-left: -5px; display: block; z-index: 2;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .answer_box .right_answer_input .answer_input_box:after{ border-bottom: 5px solid rgba(0, 0, 0, 0); border-top: 5px solid rgba(0, 0, 0, 0); border-right: 5px solid #e0e0e0; position: absolute; left: -1px; top: 12px; width: 0; height: 0; content: ""; margin-left: -5px; display: block; z-index: 1;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .answer_box .right_answer_input input.answer_input_t12{ font-size:12px; color:#777; border:0; width:100%;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .answer_box a.submit_answer_btn{ float:left; background-color:#fbd550; color:#fff; font-size:12px; font-weight:bold; text-align:center; display:inline-block; padding: 5px 30px; border-radius:5px; margin:4px 0 0 10px;}
+.club_index_wrapper .club_main_block .forum_main .forumlist_reply_block .answer_box a.submit_answer_btn:hover{ opacity:0.8; text-decoration:none;}
+.club_index_wrapper .club_main_block .see_more_reply{}
+.club_index_wrapper .club_main_block .see_more_reply a{ font-size:12px; color:#777; background:url(../../images/club/icon_seemore_down.png) no-repeat left center /12px 12px; line-height:12px; padding-left:15px;}
+.club_index_wrapper .club_main_block .see_more_reply a.open{ font-size:12px; color:#777; background:url(../../images/club/icon_seemore_up.png) no-repeat left center /12px 12px; line-height:12px; padding-left:15px;}
+
+.club_index_wrapper .club_main_block .forum_main p.forumlist_floor_no{ text-align:right; height:22px; width:35px; float:right; font-size:12px; font-family: Arial;color:#ff943d; line-height: 22px; }
+/*討論內容工具列*/
+.club_index_wrapper .club_main_block .forumlist_button_setFavoriteIn{ float: right; width:auto !important; height:20px; padding: 3px 5px 0px 0px;}
+.club_index_wrapper .club_main_block .forumlist_button_setFavorite{ width:auto !important; height:20px; float:right; background:none;}
+.club_index_wrapper .club_main_block .forumlist_button_setFavorite a{ float:left; background:url(../../images/forum/new_forum/icon_set_favorite_26.png) no-repeat 7px center / 13px 13px #fff; font-size:11px; color:#999; padding:0 5px 0 25px; line-height:20px; width:auto !important; border:1px solid #ccc; border-radius:3px; text-decoration:none;}
+.club_index_wrapper .club_main_block .forumlist_button_setFavorite a:hover{ float:left; background:url(../../images/forum/new_forum/icon_set_favorite_26_b.png) no-repeat 7px center / 13px 13px #fff; color:#777; padding:0 5px 0 25px; line-height:20px; width:auto !important; border:1px solid #888; }
+
+.club_index_wrapper .club_main_block .forumlist_button_insertTopicIn{ float: right; width:auto !important; height:20px; padding: 3px 5px 0px 0px;}
+.club_index_wrapper .club_main_block .forumlist_button_insertTopic{ width:auto !important; height:20px; float:right; background:none;}
+.club_index_wrapper .club_main_block .forumlist_button_insertTopic a{ float:left; background:url(../../images/forum/new_forum/icon_forward_26.png) no-repeat 5px center / 13px 13px #fff; font-size:11px; color:#999; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #ccc; border-radius:3px; text-decoration:none;}
+.club_index_wrapper .club_main_block .forumlist_button_insertTopic a:hover{ float:left; background:url(../../images/forum/new_forum/icon_forward_26_b.png) no-repeat 5px center / 13px 13px #fff; color:#777; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #777;}
+
+.club_index_wrapper .club_main_block .forumlist_button_delIn{ float: right; width:auto !important; height:20px; padding: 3px 5px 0px 0px;}
+.club_index_wrapper .club_main_block .forumlist_button_del{ width:auto !important; height:20px; float:right; background:none;}
+.club_index_wrapper .club_main_block .forumlist_button_del a{ float:left; background:url(../../images/forum/new_forum/icon_delete_26.png) no-repeat 5px center / 13px 13px #fff; font-size:11px; color:#999; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #ccc; border-radius:3px; text-decoration:none;}
+.club_index_wrapper .club_main_block .forumlist_button_del a:hover{ float:left; background:url(../../images/forum/new_forum/icon_delete_26_b.png) no-repeat 5px center / 13px 13px #fff; color:#777; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #777;}
+
+.club_index_wrapper .club_main_block .forumlist_button_setTopIn{ float: right; width:auto !important; height:20px; padding: 3px 5px 0px 0px;}
+.club_index_wrapper .club_main_block .forumlist_button_setTop{ width:auto !important; height:20px; float:right; background:none;}
+.club_index_wrapper .club_main_block .forumlist_button_setTop a{ float:left; background:url(../../images/forum/new_forum/icon_set_top_26.png) no-repeat 5px center / 13px 13px #fff; font-size:11px; color:#999; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #ccc; border-radius:3px; text-decoration:none;}
+.club_index_wrapper .club_main_block .forumlist_button_setTop a:hover{ float:left; background:url(../../images/forum/new_forum/icon_set_top_26_b.png) no-repeat 5px center / 13px 13px #fff; color:#777; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #777;}
+
+.club_index_wrapper .club_main_block .forumlist_button_delTopIn{ float: right; width:auto !important; height:20px; padding: 3px 5px 0px 0px;}
+.club_index_wrapper .club_main_block .forumlist_button_delTop{ width:auto !important; height:20px; float:right; background:none;}
+.club_index_wrapper .club_main_block .forumlist_button_delTop a{ float:left; background:url(../../images/forum/new_forum/icon_del_top_26.png) no-repeat 5px center / 13px 13px #fff; font-size:11px; color:#999; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #ccc; border-radius:3px; text-decoration:none;}
+.club_index_wrapper .club_main_block .forumlist_button_delTop a:hover{ float:left; background:url(../../images/forum/new_forum/icon_del_top_26_b.png) no-repeat 5px center / 13px 13px #fff; color:#777; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #777;}
+
+.club_index_wrapper .club_main_block .forumlist_button_letterin{ float: right; width:auto !important; height:20px; padding: 0px 0px 0px 5px;}
+.club_index_wrapper .club_main_block .forumlist_button_letter{ width:auto !important; height:20px; float:right; background:none;}
+.club_index_wrapper .club_main_block .forumlist_button_letter a{ float:left; background:url(../../images/forum/new_forum/icon_send_mail_26.png) no-repeat 5px center / 13px 13px #fff; font-size:11px; color:#999; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #ccc; border-radius:3px; text-decoration:none;}
+.club_index_wrapper .club_main_block .forumlist_button_letter a:hover{ float:left; background:url(../../images/forum/new_forum/icon_send_mail_26_b.png) no-repeat 5px center / 13px 13px #fff; color:#777; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #777;}
+
+.club_index_wrapper .club_main_block .forumlist_button_reportin{ float: right; width:auto !important; height:20px; padding: 0px 0px 0px 5px;}
+.club_index_wrapper .club_main_block .forumlist_button_report{ width:auto !important; height:20px; float:right; background:none;}
+.club_index_wrapper .club_main_block .forumlist_button_report a{ float:left; background:url(../../images/forum/new_forum/icon_report_26.png) no-repeat 5px center / 13px 13px #fff; font-size:11px; color:#999; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #ccc; border-radius:3px; text-decoration:none;}
+.club_index_wrapper .club_main_block .forumlist_button_report a:hover{ float:left; background:url(../../images/forum/new_forum/icon_report_26_b.png) no-repeat 5px center / 13px 13px #fff; color:#777; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #777;}
+
+.club_index_wrapper .club_main_block .forumlist_button_replyWithoutSourcein{ float: right; width:auto !important; height:20px; padding: 0px 0px 0px 5px;}
+.club_index_wrapper .club_main_block .forumlist_button_replyWithoutSource{ width:auto !important; height:20px; float:right; background:none;}
+.club_index_wrapper .club_main_block .forumlist_button_replyWithoutSource a{ float:left; background:url(../../images/forum/new_forum/icon_quote_26.png) no-repeat 5px center / 13px 13px #fff; font-size:11px; color:#999; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #ccc; border-radius:3px; text-decoration:none;}
+.club_index_wrapper .club_main_block .forumlist_button_replyWithoutSource a:hover{ float:left; background:url(../../images/forum/new_forum/icon_quote_26_b.png) no-repeat 5px center / 13px 13px #fff; color:#777; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #777;}
+
+.club_index_wrapper .club_main_block .forumlist_button_replyin{ float: right; width:auto !important; height:20px; padding: 0px 0px 0px 5px;}
+.club_index_wrapper .club_main_block .forumlist_button_reply{ width:auto !important; height:20px; float:right; background:none;}
+.club_index_wrapper .club_main_block .forumlist_button_reply a{ float:left; background:url(../../images/forum/new_forum/icon_reply_26.png) no-repeat 5px center / 13px 13px #bbb; font-size:11px; color:#fff; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #aaa; border-radius:3px; text-decoration:none;}
+.club_index_wrapper .club_main_block .forumlist_button_reply a:hover{ float:left; background:url(../../images/forum/new_forum/icon_reply_26.png) no-repeat 5px center / 13px 13px #999; color:#fff; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #777;}
+
+.club_index_wrapper .club_main_block .forumlist_button_delPostin{ float: right; width:auto !important; height:20px; padding: 0px 0px 0px 5px;}
+.club_index_wrapper .club_main_block .forumlist_button_delPost{ width:auto !important; height:20px; float:right; background:none;}
+.club_index_wrapper .club_main_block .forumlist_button_delPost a{ float:left; background:url(../../images/forum/new_forum/icon_delete_26.png) no-repeat 5px center / 13px 13px #fff; font-size:11px; color:#999; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #ccc; border-radius:3px; text-decoration:none;}
+.club_index_wrapper .club_main_block .forumlist_button_delPost a:hover{ float:left; background:url(../../images/forum/new_forum/icon_delete_26_b.png) no-repeat 5px center / 13px 13px #fff; color:#777; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #777;}
+
+.club_index_wrapper .club_main_block .forumlist_button_modifyin{ float: right; width:auto !important; height:20px; padding: 0px 0px 0px 5px;}
+.club_index_wrapper .club_main_block .forumlist_button_modify{ width:auto !important; height:20px; float:right; background:none;}
+.club_index_wrapper .club_main_block .forumlist_button_modify a{ float:left; background:url(../../images/forum/new_forum/icon_edit_26.png) no-repeat 5px center / 13px 13px #fff; font-size:11px; color:#999; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #ccc; border-radius:3px; text-decoration:none;}
+.club_index_wrapper .club_main_block .forumlist_button_modify a:hover{ float:left; background:url(../../images/forum/new_forum/icon_edit_26_b.png) no-repeat 5px center / 13px 13px #fff; color:#777; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #777;}
+/*精華區工具列*/
+.club_index_wrapper .club_main_block div.forumlist_list_top{ float: left; width: 730px; height: 26px; background-color: #fcfcfc; border:0; border-top: 1px solid #e6e6e6; padding:3px 0 5px;}
+.club_index_wrapper .club_main_block .forumlist_button_editKindIn{ float: right; width:auto !important; height:20px; padding: 3px 5px 0px 0px;}
+.club_index_wrapper .club_main_block .forumlist_button_editKind{ width:auto !important; height:20px; float:right; background:none;}
+.club_index_wrapper .club_main_block .forumlist_button_editKind a{ float:left; background:url(../../images/forum/new_forum/icon_edit_kind_26_w.png) no-repeat 5px center / 13px 13px #aaa; font-size:11px; color:#fff; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #999; border-radius:3px; text-decoration:none;}
+.club_index_wrapper .club_main_block .forumlist_button_editKind a:hover{ float:left; background:url(../../images/forum/new_forum/icon_edit_kind_26_w.png) no-repeat 5px center / 13px 13px #888; color:#fff; padding:0 5px 0 22px; line-height:20px; width:auto !important; border:1px solid #777;}
+
+.club_index_wrapper .club_main_block .forumlist_button_editFolderIn{ float: right; width:auto !important; height:20px; padding: 3px 5px 0px 0px;}
+.club_index_wrapper .club_main_block .forumlist_button_editFolder{ width:auto !important; height:20px; float:right; background:none;}
+.club_index_wrapper .club_main_block .forumlist_button_editFolder a{ float:left; background:url(../../images/forum/new_forum/icon_add_folder_26_w.png) no-repeat 7px center / 13px 13px #aaa; font-size:11px; color:#fff; padding:0 5px 0 25px; line-height:20px; width:auto !important; border:1px solid #999; border-radius:3px; text-decoration:none;}
+.club_index_wrapper .club_main_block .forumlist_button_editFolder a:hover{ float:left; background:url(../../images/forum/new_forum/icon_add_folder_26_w.png) no-repeat 7px center / 13px 13px #888; color:#fff; padding:0 5px 0 25px; line-height:20px; width:auto !important; border:1px solid #777;}
+
+/* 投票專區 */
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .voting{ padding-left: 10px; width:360px;}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .voting .top_icon{ float: left; height: 20px; width: 34px; margin-right: 8px; background-image: url(../../images/forum/icon_vote.gif); background-repeat: no-repeat; background-position: 0 2px; text-indent: -9999px;}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .voting .top_txt{ font-family: Verdana, Geneva, sans-serif; margin-left: 40px; padding-right: 10px; max-height: 44px; float:none; text-align:left; width:300px; overflow:hidden;}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .voting .top_txt a{ font-size: 15px; color: #3E6EAC; letter-spacing: 1px; text-decoration: none; line-height: 20px; font-weight:normal; margin-right: 5px; display:block; height:40px; cursor:pointer;}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .voting .top_txt a:hover{ text-decoration:underline;}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .folder{ padding-left:10px; width:290px}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .folder .top_icon{ float: left; height: 20px; width: 22px; margin-right: 8px; background-image: url(../../images/forum/icon_folder.gif); background-repeat: no-repeat; background-position: 0 2px; text-indent: -9999px;}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .folder .top_txt{ font-family: Verdana, Geneva, sans-serif; margin-left: 20px; padding-right: 10px; max-height: 44px; float:none; text-align:left; width:245px; overflow:hidden;}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .folder .top_txt a{ font-size: 15px; color: #3E6EAC; letter-spacing: 1px; text-decoration: none; line-height: 20px; font-weight: bold; display: block; height:40px;}
+.club_index_wrapper .club_main_block .forumlist_row ul li.forum_subject .folder .top_txt a:hover{ text-decoration:underline;}
+
+
+/* ---------- 右欄內容 ---------- */
+/*最近瀏覽文章*/
+.looked_theme{width:218px; margin: 0 auto; margin-bottom:30px; border:1px #e6e6e6 solid; padding:1px;}
+.looked_theme .looked_title{ width:218px; height:32px; line-height:32px; border:0; background-color:#f9f9f9;}
+.looked_theme .looked_title h2{font-size:15px; color:#777; font-weight:bold; letter-spacing:1px; padding-left:0; text-align:center;}
+.looked_theme .looked_con{ width:218px; height: auto; border:0;}
+.looked_theme .looked_con ul{ width:218px; margin: 0 auto; padding:0;}
+.looked_theme .looked_con ul li{ float:left; width:200px; border-top:1px #ddd dotted; border-bottom:0; margin: 0 auto; padding:8px 9px; font-size:12px; color:#666;}
+.looked_theme .looked_con ul li .looked_icon{ float:left; width:16px; height:16px; background:url(../../images/forum/icon_bluearrow.png) no-repeat -1px 2px;}
+.looked_theme .looked_con ul li .looked_txt{ float:right; width:180px;}
+.looked_theme .looked_con ul li .looked_txt h4 a{font-size:12px; color:#666666;line-height:18px; font-weight:normal; letter-spacing:1px;}
+.looked_theme .looked_con ul li .looked_txt span.page_no a{ color: #09F; font-size:10px; padding-left:5px;}
+/*最近發表文章*/
+.posted_theme{width:218px; margin: 0 auto; margin-bottom:30px; border:1px #e6e6e6 solid; padding:1px;}
+.posted_theme .posted_title{ width:218px; height:32px; line-height:32px; border:0; background-color:#f9f9f9;}
+.posted_theme .posted_title h2{font-size:15px; color:#777; font-weight:bold; letter-spacing:1px; padding-left:0; text-align:center;}
+.posted_theme .posted_con{ width:218px; height: auto; border:0;}
+.posted_theme .posted_con ul{ width:218px; margin: 0 auto; padding:0;}
+.posted_theme .posted_con ul li{ float:left; width:200px; border-top:1px #ddd dotted; border-bottom:0; margin: 0 auto; padding:8px 9px; font-size:12px; color:#666;}
+.posted_theme .posted_con ul li .posted_icon{ float:left; width:16px; height:16px; background:url(../../images/forum/icon_posted.png) no-repeat -1px 2px;}
+.posted_theme .posted_con ul li .posted_txt{ float:right; width:180px;}
+.posted_theme .posted_con ul li .posted_txt h4 a{ font-size:12px; color:#666666;line-height:18px; font-weight:normal; letter-spacing:1px;}
+.posted_theme .posted_con ul li .posted_txt span.page_no a{ color: #09F; font-size:10px; padding-left:5px;}
+
+
+/* =================================== 20160127 個人家族頁優化_結束 =================================== */
+
+/* =================================== 20160316 家族後台修改(面交點)_開始 =================================== */
+.box_content table td span.textb_1{ position: relative; top: 3px;}
+.box_content table td .add_place a.add_place_btn{ height: 28px; line-height: 28px; font-weight: normal; font-size: 12px; color: #454545; letter-spacing: 2px; text-align: center; background: url(../../images/images/btn_pop.gif) repeat-x 0 0; padding: 7px 0; position: relative; top: 0px; text-decoration: none;}
+.box_content table td .add_place a.add_place_btn span{ line-height: 28px; padding: 7px 10px 7px 12px; background: url(../../images/images/btn_pop.gif) no-repeat right -28px;}
+.box_content table td .add_place a.add_place_btn:hover{ opacity: 0.8;}
+.box_content table td .add_place a.change_place_btn{ height: 18px; line-height: 18px; font-weight: normal; font-size: 12px; color: #454545; letter-spacing: 0; text-align: center; background: url(../../images/images/btn_pop.gif) repeat-x 0 -112px; padding: 2px 0;  text-decoration: none; position: relative; top: -5px;}
+.box_content table td .add_place a.change_place_btn span{ line-height: 18px; padding: 2px 6px 2px 8px; background: url(../../images/images/btn_pop.gif) no-repeat right -130px;}
+.box_content table td .add_place a.change_place_btn:hover{ opacity: 0.8;}
+
+/* =================================== 20160316 家族後台修改(面交點)_結束 =================================== */
+
+.box .box_content .data input{ float:left; margin-right: 3px;}
+.box .box_content .data p{ float:left;}
+.box .box_content .data p.remind{ margin-left:5px; color:#999;}
+.box .box_content .data img{ float:left; margin-right: 3px;}
+.box .box_content .data .data_box{ width:648px; height:30px; padding-top: 3px;}
+.box .box_content .data .data_box input{ margin-top:3px;}
+.box .box_content .data .data_box  img.private{ margin:0 6px 0 3px;}
+.box .box_content .data .data_box p span{ color:#999; margin-left:5px;}

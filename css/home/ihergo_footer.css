@@ -1,0 +1,32 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.ihergo_footer_wrapper h1,.ihergo_footer_wrapper h2,.ihergo_footer_wrapper h3,.ihergo_footer_wrapper h4,.ihergo_footer_wrapper h5,.ihergo_footer_wrapper h6,.ihergo_footer_wrapper p,.ihergo_footer_wrapper a,.ihergo_footer_wrapper ul,.ihergo_footer_wrapper li{ font-family:Arial, Helvetica, sans-serif, "新細明體-ExtB"; letter-spacing:1px;}
+
+.ihergo_footer_wrapper{ width:100%; background-color:#f9f9f9; border-top:5px #ececec solid; margin-top:15px;}
+.ihergo_footer_wrapper.no_margin_top{ margin-top:0px;}
+
+.ihergo_footer_wrapper .sitemap_wrapper{width:940px; margin: 0 auto; padding:15px 0 15px 40px; border-bottom:1px #ececec solid;}
+.ihergo_footer_wrapper .footer_box{width:980px; margin: 0 auto; padding:10px 0; border-top:1px #fff solid;}
+
+.ihergo_footer_wrapper .sitemap_wrapper .sitemap_box{ float:left; padding-top:15px;}
+.ihergo_footer_wrapper .sitemap_wrapper .fb_likebox{ float:right; width:255px; height:220px;}
+
+.ihergo_footer_wrapper .sitemap_wrapper .sitemap_box ul li{ float:left; margin-right:50px; _display:inline;}
+.ihergo_footer_wrapper .sitemap_wrapper .sitemap_box ul li h3{ font-size:15px; color:#835b5b; margin:10px 0 15px 0;}
+.ihergo_footer_wrapper .sitemap_wrapper .sitemap_box ul li .site_link{ margin-bottom:10px; padding-left:2px;}
+.ihergo_footer_wrapper .sitemap_wrapper .sitemap_box ul li .site_link a{ display:block; font-size:13px; color:#454545; letter-spacing:2px;}
+.ihergo_footer_wrapper .sitemap_wrapper .sitemap_box ul li .site_link a:hover{ text-decoration:none; color:#666;}
+.ihergo_footer_wrapper .sitemap_wrapper .sitemap_box ul li .site_link p{ font-size:12px; color:#888;}
+
+.ihergo_footer_wrapper .sitemap_wrapper .sitemap_box ul li .store_sort_link{ width:150px; margin-bottom:10px; padding-left:2px;}
+.ihergo_footer_wrapper .sitemap_wrapper .sitemap_box ul li .store_sort_link a{ float:left; display:block; font-size:13px; color:#454545; letter-spacing:2px; margin-right:10px; _display:inline; height:28px; line-height:28px;}
+.ihergo_footer_wrapper .sitemap_wrapper .sitemap_box ul li .store_sort_link a:hover{text-decoration:none; color:#666;}
+.ihergo_footer_wrapper .sitemap_wrapper .sitemap_box a.btn_app{ display:block; width:138px; height:28px; background: url(../../images/home/ihergo_header/btn_app.jpg) no-repeat left top; text-indent:-9999px; margin-top:20px;}
+.ihergo_footer_wrapper .sitemap_wrapper .sitemap_box a.btn_app:hover{ background-position: left bottom;}
+
+.ihergo_footer_wrapper .footer_box .footer_link{ text-align:center; height:25px; line-height:25px;}
+.ihergo_footer_wrapper .footer_box .footer_link a{ font-size:12px; color:#666; padding:0 10px;}
+.ihergo_footer_wrapper .footer_box .footer_link a:hover{ text-decoration:none; color:#888;}
+.ihergo_footer_wrapper .footer_box p.copyright{ text-align:center; color:#999; font-size:12px; line-height:25px;}
+.ihergo_footer_wrapper .footer_box p.copyright a{ text-align:center; color:#999; font-size:12px; line-height:25px;}
+

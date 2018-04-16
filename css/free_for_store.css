@@ -1,0 +1,167 @@
+img {border: 0}
+
+.free_storeName {width:250px; height:24px; margin-top:0px;}
+.free_storeSmallIcon {float:left; height:16px; width:16px; padding-right:5px; margin-top:6px; *margin-top:4px;}
+.free_t13s {font-size: 13px; font-family: "Arial", "新細明體"; color: #f56700; font-weight:bold; float:left; margin-top:4px; margin-top:5px\9; *margin-top:3px; overflow:hidden; height:22px; width:220px;}
+.free_t13s a:hover {color: #f97e25; text-decoration: underline;}
+.free_t13s a {color: #f56700; text-decoration: none;}
+
+.free_t12 {
+	font-size: 13px;
+	font-family: "Arial", "新細明體";
+	color: #505050
+}
+
+.free_t12 a:hover {
+	color: #734d00;
+	text-decoration: underline;
+}
+
+.free_t12 a {
+	color: #734d00;
+	text-decoration: none;
+}
+
+.free_t13 {
+	font-size: 13px;
+	font-family: "Arial", "新細明體";
+	color: #505050
+}
+
+.free_t13 a:hover {
+	color: #734d00;
+	text-decoration: underline
+}
+
+.free_t13 a {
+	color: #505050;
+	text-decoration: none
+}
+
+.free_st14 {
+  font-size: 13px;
+  font-family: "Arial", "新細明體";
+  color: #f56700;
+  font-weight: bold;
+}
+
+.free_st14 a:hover {
+  color: #f97e25;
+  text-decoration: underline
+}
+
+.free_st14 a {
+  color: #f56700;
+  text-decoration: none
+}
+
+.free_t15 {
+	font-size: 15px;
+	font-family: "Arial", "新細明體";
+	color: #505050;
+	font-weight: bold
+}
+
+.free_t15 a:hover {
+	color: #734d00;
+	text-decoration: underline
+}
+
+.free_t15 a {
+	color: #505050;
+	text-decoration: none
+}
+
+.free_day {
+	font-size: 13px;
+	font-family: "Arial", "新細明體";
+	color: #bd1d01;
+	font-weight: bold
+}
+
+.free_man {
+	font-size: 22px;
+	font-family: "Arial";
+	color: #e84c1f;
+	font-weight: bold
+}
+
+.free_money {
+	font-size: 28px;
+	font-family: "Arial";
+	color: #e84c1f;
+	font-weight: bold
+}
+.free_money_div {width:100px; margin-top:10px; margin-top:7px\9; *margin-top:9px; line-height:25px;}
+
+.forumlist_page1 {
+	text-align: right;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.forumlist_page a,.pageList .this-page {
+	padding-top: 2px;
+	padding-right: 6px;
+	padding-bottom: 2px;
+	padding-left: 6px;
+	border: 1px solid #cdc4af;
+	background-color: #ffffff;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: "Arial", "新細明體";
+	color: #777777
+}
+
+.forumlist_page a:visited:hover,.forumlist_page a:hover,.forumlist_page a:active
+	{
+	color: #ffffff;
+	background-color: #ff9d7f;
+	background-image: none;
+	background-repeat: repeat;;
+	border: 1px solid #ff9d7f;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+}
+
+.forumlist_page .this-page {
+	padding-top: 2px;
+	padding-right: 6px;
+	padding-bottom: 2px;
+	padding-left: 6px;;
+	border: 1px solid #bb3404;
+	background-color: #ffffff;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: "Arial", "新細明體";
+	color: #bb3404;
+	font-weight: bold
+}
+
+.forumlist_list_t {
+	width: 788px;
+	height: 2px;
+	background-color: #f4efe9;
+	float: left;
+	border-width: 1px 1px 0 1px;
+	border-color: #cdc4af;
+	border-style: solid
+}
+
+.forumlist_list_c {
+	width: 788px;
+	float: left;
+	border-width: 0 1px 1px 1px;
+	border-color: #cdc4af;
+	border-style: solid;
+}
+.free_quantity {margin-top:0px; margin-top:3px\9; *margin-top:4px;}
+.free_day_div {margin-top:1px; margin-top:-2px\9; *margin-top:-1px;}

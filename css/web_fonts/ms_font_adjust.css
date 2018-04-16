@@ -1,0 +1,35 @@
+body, a, h1, h2, h3, h4, h5, h6, p, ul, li {
+font-family: '微軟正黑體', 'Microsoft Jhenghei', Arial !important;
+}
+
+header{
+	font-family: '微軟正黑體', 'Microsoft Jhenghei', Arial !important;	
+}
+header .hero_content .sub_title{
+	font-family: '微軟正黑體', 'Microsoft Jhenghei', Arial !important;
+	margin-top:30px !important;
+}
+header .hero_content a.register_btn{
+	font-weight: bold !important;
+}
+header nav.main_menu .menu_btns a.host_recruit{
+	font-weight: bold !important;
+}
+header nav.main_menu .menu_btns a.signin{
+	font-weight: bold !important;
+}
+section.main_content article.howitworks{
+	font-family: '微軟正黑體', 'Microsoft Jhenghei', Arial !important;	
+}
+section.main_content article.qa_slides{
+	font-family: '微軟正黑體', 'Microsoft Jhenghei', Arial !important;	
+}
+section.main_content article.testimony{
+	font-family: '微軟正黑體', 'Microsoft Jhenghei', Arial !important;
+}
+footer {
+	font-family: '微軟正黑體', 'Microsoft Jhenghei', Arial !important;
+}
+footer article.footer_registration a.register_btn{
+	font-weight: bold !important;
+}

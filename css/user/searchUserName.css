@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*搜尋ID*/
+.search_user_wrapper .search_user_default{ width:635px; max-width:635px; min-height:30px; max-height:650px; overflow: hidden; border:#cfcfcf 1px solid; padding:2px;}
+.search_user_wrapper .search_user_default:hover{ border:1px solid #9C9C9C !important;}
+
+.search_user_wrapper .search_user_name_box p.mail_userID{ font-size:13px; height:18px; letter-spacing:1px; *height:19px; line-height:18px; padding:1px 6px; margin:2px; float:left; white-space: nowrap; width:auto; border:#dadada 1px solid; border-radius:3px; background-color:#f5f5f5;}
+.search_user_wrapper .search_user_name_box p.mail_userID span.id_delete{ display:inline; *display:inline-block; cursor:pointer; background:url(../../images/user/mails/user_delete_icon.gif) 1px -2px no-repeat; padding:0 3px 0 5px; margin-left:4px;}
+.search_user_wrapper .search_user_name_box p.mail_userID:hover{ border-color:#b3b3b3;}
+.search_user_wrapper .search_user_name_box p.mail_userID:focus{ outline:3px solid #EFEFEF; border:1px solid #9C9C9C !important;}
+.search_user_wrapper .search_user_name_box p.mail_userID span.id_delete:hover{ background:url(../../images/user/mails/user_delete_icon.gif) -11px -2px no-repeat;}
+
+.search_user_wrapper .search_user_name_box p.mail_unknowUser{ font-size:13px; height:18px; letter-spacing:1px; *height:19px; line-height:18px; padding:1px 5px 1px 3px; margin:2px; float:left; white-space: nowrap; width:auto; border-bottom:2px dotted #E84C1F;}
+.search_user_wrapper .search_user_name_box p.mail_unknowUser span.keyword{padding:0 1px 0 3px;}
+.search_user_wrapper .search_user_name_box p.mail_unknowUser span.keyword:hover{ color:#E84C1F; cursor:pointer;}
+.search_user_wrapper .search_user_name_box p.mail_unknowUser span.id_delete{ display:inline; *display:inline-block; cursor:pointer; background:url(../../images/user/mails/user_delete_icon.gif) 1px -2px no-repeat; padding:0 3px 0 5px; margin-left:4px;}
+.search_user_wrapper .search_user_name_box p.mail_unknowUser span.id_delete:hover{ background:url(../../images/user/mails/user_delete_icon.gif) -11px -2px no-repeat;}
+
+.search_user_wrapper .search_user_name_box input.the_id{ float:left; color:#454545; width:auto; height:20px; margin:2px 3px; font-family: Arial, Helvetica, sans-serif; line-height:20px; border:0 none !important; box-shadow:none; white-space:pre; padding:2px; font-size:13px; resize: none; overflow: hidden;}
+
+/*ID關鍵字*/
+.search_user_wrapper .KeywordBox{ width:100%; position:relative; z-index:45;}
+.search_user_wrapper .KeywordBox ul.ID_list{ position:absolute; left:0px; top:-1px; *padding-top:5px; width:300px; border:1px solid #9C9C9C; padding:1px; background-color:#FFF; box-shadow: 0 1px 3px #CCCCCC;}
+.search_user_wrapper .KeywordBox ul.ID_list li{ width:280px; padding:8px 10px; background-color:#f5f5f5; border-bottom:1px solid #FFF; *margin:-3px 0; }
+.search_user_wrapper .KeywordBox ul.ID_list li.br_color{background-color:#ffedbe;}
+
+.search_user_wrapper .KeywordBox ul.ID_list li .member_pic{ float:left; width:40px; height:40px; outline:1px solid #e5e5e5; overflow:hidden; margin-right:10px;}
+.search_user_wrapper .KeywordBox ul.ID_list li .member_id{ float:left; width:230px;}
+.search_user_wrapper .KeywordBox ul.ID_list li .member_id p{ font-size:13px; color:#454545; font-weight:bold; letter-spacing:1px; width:230px; overflow:hidden;}
+.search_user_wrapper .KeywordBox ul.ID_list li .member_id p span.evaluation{ font-weight:normal; font-size:12px; color:#666666;}
+.search_user_wrapper .KeywordBox ul.ID_list li .member_id p.nickname{ color:#999999; font-size:12px; font-weight:normal;}
+
+/*紅字keyword*/
+.search_user_wrapper .KeywordBox ul.ID_list li .member_id span.keyword { color:#F64949;}
+
+/*ID點下去動作中的狀態*/
+.search_user_wrapper .b_Color{ outline:3px solid #EFEFEF; border:1px solid #9C9C9C !important;}
+/**/

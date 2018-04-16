@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+#taishi_act_warpper{/* 台新活動頁 */
+	background: url(https://www.ihergo.com/html/20111001_campaign_taishin/images/taishi_act_br.jpg) left top repeat-x;
+	padding:0;
+	margin:0;
+	width:100%;
+	}
+
+.taishi_active{
+	width:1080px;
+	height:2595px;
+	margin:0px auto;
+	}	
+
+
+#taishi_exp_warpper{/* 台新活動說明頁 */
+	background: url(https://www.ihergo.com/html/20111001_campaign_taishin/images/taishi_exp_br.jpg) left top repeat-x;
+	padding:0;
+	margin:0;
+	width:100%;
+	}
+.taishi_explain{
+	width:1080px;
+	height:1600px;
+	margin:0px auto;
+	}		

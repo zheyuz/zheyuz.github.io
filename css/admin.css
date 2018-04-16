@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+SPAN.TreeviewSpanArea A {
+	font-size: 10pt;
+	font-family: verdana, helvetica;
+	text-decoration: none;
+	color: black;
+}
+
+SPAN.TreeviewSpanArea A:hover {
+	color: '#820082';
+}
+
+BODY {
+	background-color: white;
+}
+
+TD {
+	font-size: 10pt;
+	font-family: verdana, helvetica;
+}
+
+Table.listTable {	
+	cellspacing: 10px;
+	cellpadding: 10px; 	
+	border-style: ridge;
+	border-width: 1px;
+	border-color: lightgray;	
+	width: 100%;	
+	font-size: 12px;
+}
+
+Table.listTable tr th {
+	background: lightgray;
+	font-size: 14px;				
+}
+
+Table.listTable tr td {	
+	font-size: 12px;			
+	border-top-style: ridge;
+	border-top-width: 1px;
+	border-top-color: lightgray;	
+}
+
+div.title {
+	background: url(../images/admin/book.gif);		
+	background-repeat: no-repeat;	
+	padding-left: 25px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold; 
+	font-color: blue;
+	display:block;
+}
+
+span.textB {color:#000000}
+span.textLG {color:#999999}
+span.textXLG {color:#B1B1B1}
+span.textR {color:#F22525}
+span.textBL {color:#487acc}
+span.textGR {color:#44a205}
+span.textOR {color:#f56701}
+span.textOrigin {color:#454545}
+span.textn {font-weight:normal}
+span.textb {font-weight:700}
+span.textBb {color:#000000; font-weight:700}
+span.textRb {color:#F22525; font-weight:700}
+span.textGRb {color:#6d9b00; font-weight:700}
+span.star {font-size:18px; color:#f56701; font-weight:700; margin-right:5px}
+span.star_mini {font-size:13px; color:#f56701; font-weight:700; margin-right:2px}
+span.hint {color:#888888; font-size:12px; font-weight:500}
+span.listing {font-size:12px; float:left}
+span.good {color:#F22525; font-size:18pt; font-weight:700}
+span.bad {color:#82b70f; font-size:18pt; font-weight:700}
+span.title {color:#f47700; font-size:20pt; font-weight:700}
+span.title_sub {color:#f47700; font-size:16pt; font-weight:700}
+span.worth {color:#777777; text-decoration:line-through}
+
+input.box_xxs {width:15px; height:19px; font-size:10pt; line-height:17px; border:1px solid; border-color:#7F7F7F #D7D7D7 #D7D7D7 #7F7F7F; vertical-align:middle}
+input.box_xms {width:20px; height:19px; font-size:10pt; line-height:17px; border:1px solid; border-color:#7F7F7F #D7D7D7 #D7D7D7 #7F7F7F; vertical-align:middle}
+input.box_xs {width:30px; height:19px; font-size:10pt; line-height:17px; border:1px solid; border-color:#7F7F7F #D7D7D7 #D7D7D7 #7F7F7F; vertical-align:middle}
+input.box_s {width:60px; height:19px; font-size:10pt; line-height:17px; border:1px solid; border-color:#7F7F7F #D7D7D7 #D7D7D7 #7F7F7F; vertical-align:middle}
+input.box_m {width:120px; height:19px; font-size:10pt; line-height:17px; border:1px solid; border-color:#7F7F7F #D7D7D7 #D7D7D7 #7F7F7F; vertical-align:middle}
+input.box_l {width:240px; height:19px; font-size:10pt; line-height:17px; border:1px solid; border-color:#7F7F7F #D7D7D7 #D7D7D7 #7F7F7F; vertical-align:middle}
+input.box_xl {width:400px; height:19px; font-size:10pt; line-height:17px; border:1px solid; border-color:#7F7F7F #D7D7D7 #D7D7D7 #7F7F7F; vertical-align:middle}
+input.box_xxl {width:500px; height:19px; font-size:10pt; line-height:17px; border:1px solid; border-color:#7F7F7F #D7D7D7 #D7D7D7 #7F7F7F; vertical-align:middle}
+input.box_search {width:200px; height:19px; font-size:10pt; line-height:17px; border:1px solid; border-color:#7F7F7F #D7D7D7 #D7D7D7 #7F7F7F; vertical-align:middle}
+input.box_main {width:260px; height:17px; font-size:10pt; line-height:17px; border:1px solid #f47700; padding-left:2px}
+
+div.alert {background:no-repeat top left url(../images/image/alert.gif) #ffffff; font-size:15px; font-weight:700; color:#ff4800; padding:16px 0 16px 70px; margin:0 0 10px 0}
+div.confirm {background:no-repeat top left url(../images/image/alert.gif) #ffffff; font-size:15px; font-weight:700; color:#ff4800; padding:16px 0 16px 70px; margin:0 0 10px 0}
+div.info {background:no-repeat top left url(../images/image/info.gif) #ffffff; font-size:15px; font-weight:700; color:#6d9b00; padding:16px 0 16px 70px; margin:0 0 10px 0}
+div.help {background:no-repeat top left url(../images/image/help.gif) #ffffff; font-size:15px; font-weight:700; color:#00a0e9; padding:16px 0 16px 70px; margin:0 0 10px 0}
+
+a.active:link {font-weight:bold; color:red}
+a.active:hover  {font-weight:bold; color:red}
+a.active:active  {font-weight:bold; color:red}
+a.active:visited  {font-weight:bold; color:red}

@@ -1,0 +1,489 @@
+@import url("reset.css");
+body {
+	background-color:#fff;
+}
+
+
+#QA_WRAPPER {
+	width:650px;
+	margin: 0 auto;
+	}
+
+#QA_WRAPPER .QA_top{
+	width:650px;
+	height:35px;
+	background:url(../images/images/q-a_top.jpg) no-repeat left top;
+	}
+
+#QA_WRAPPER .QA_center{
+	width:650px;
+	background:url(../images/images/q-a_center.jpg) repeat-y left top;
+	padding-left: 0px;
+	
+	}
+#QA_WRAPPER .QA_center .center_Q_BOX{
+	width:650px;
+	padding: 8px 0px 8px 0px;
+	border-top: 1px dotted #CCC;
+	}
+#QA_WRAPPER .QA_center .center_Q_BOX .ShopGoods_name{
+	float:left;
+	width:553px;
+	background-color: #F6F6F6;
+	}
+/*==商品名稱的連結==*/
+#QA_WRAPPER .QA_center .center_Q_BOX .ShopGoods_name h4 a{
+	float:left;
+	display: block;
+	width:530px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	line-height:22px;
+	color:#415cc1;
+	padding: 0px 5px 5px 20px;
+	background:url(../images/images/shopgoods_name_icon.gif) no-repeat left top;
+	text-decoration: underline;		
+	}
+#QA_WRAPPER .QA_center .center_Q_BOX .ShopGoods_name h4 a:hover{
+	text-decoration: underline;	
+	color:#004ea2;	
+	}
+/*===問題攔位===*/
+#QA_WRAPPER .QA_center .center_Q{
+	float:left;
+	width:555px;
+	padding: 3px 0px 3px 10px;
+	}
+/*===問題一===*/
+#QA_WRAPPER .QA_center .center_Q h1{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:15px;
+	line-height:22px;
+	color: #187fc4;
+	padding: 0px 10px 0px 0px;
+	text-decoration:none;	
+	}
+/*===ID照片===*/		
+#QA_WRAPPER .QA_center .center_Q h2{
+	float:left;
+	display: block;
+	width:16px;
+	height:16px;
+	line-height:24px;
+	padding: 1px;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	overflow:hidden;
+	}
+#QA_WRAPPER .QA_center .center_Q h2 a img{
+	display:block;
+	margin: 0 auto;
+	opacity: 1;/* 透明度60% FireFox 的寫法 */ 
+	filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */ 
+	}
+#QA_WRAPPER .QA_center .center_Q h2 a:hover img{
+	opacity: 0.7;
+	filter: Alpha(Opacity=70); 
+	}
+#QA_WRAPPER .QA_center .center_Q h2 .NOIMG{
+	float:left;
+	display: block;
+	width:16px;
+	height:16px;
+	line-height:24px;
+	padding: 1px;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	overflow:hidden;
+	}
+/*===ID===*/
+#QA_WRAPPER .QA_center .center_Q h3{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	line-height:22px;
+	color:#415cc1;
+	padding: 0px 5px 0px 5px;
+	}	
+#QA_WRAPPER .QA_center .center_Q h3 a{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	line-height:22px;
+	color:#415cc1;
+	padding: 0px 5px 0px 5px;
+	text-decoration: none;
+	}
+#QA_WRAPPER .QA_center .center_Q h3 a:hover{
+	text-decoration: underline;
+	color:#F1843A;	
+	}
+/*==問題內容==	*/
+#QA_WRAPPER .QA_center .center_Q p{
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	line-height:22px;
+	color:#1A1A1A;
+	padding: 0px 5px 0px 5px;	
+	LETTER-SPACING:1px;/* ==文字間距==*/
+	word-break:break-all;/*強迫斷航*/
+	word-wrap: break-word; /*強迫斷航*/
+	}
+
+#QA_WRAPPER .QA_center .QTAME{
+	float: left;
+	width:75px;	
+	height:22px;
+	line-height:22px;
+	padding: 3px 0px 3px 5px;
+	overflow:hidden;
+	}
+#QA_WRAPPER .QA_center .QTAME p{
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	line-height:22px;
+	color: #999;
+	text-align: left
+	}
+/*==問題內容_END==	*/
+/*===問題攔位_END===*/
+
+/*===回答攔位===*/
+#QA_WRAPPER .QA_center .center_A_BOX{
+	width:650px;
+	border-bottom: 0px dashed #ddd;
+	margin: 0px 0px 10px 0px;
+	}
+
+#QA_WRAPPER .QA_center .center_A{
+	float:left;
+	width:540px;
+	margin-left:10px;
+	_display:inline;
+	background: #f6faed;
+	padding: 3px 0px 8px 10px;
+	border:1px solid #7ecef4;
+	position:relative;
+	}
+#QA_WRAPPER .QA_center .center_A .pathTO{
+	display:block;
+	width:5px;
+	height:5px;
+	background:url(../images/images/pathto_img.gif) no-repeat left top;
+	position:absolute;
+	top:-5px;
+	left:12px;
+	}	
+/*===回答一===*/
+#QA_WRAPPER .QA_center .center_A h1{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	line-height:22px;
+	color: #4c4a4b;
+	padding: 0px 10px 0px 0px;
+	text-decoration:none;	
+	}
+/*===回答ID照片===*/		
+#QA_WRAPPER .QA_center .center_A h2{
+	float:left;
+	display: block;
+	width:16px;
+	height:16px;
+	line-height:24px;
+	padding: 1px;
+	background-color:#FFFFFF;
+	border:1px solid #BBBBBB;
+	overflow:hidden;
+	}
+#QA_WRAPPER .QA_center .center_A h2 a img{
+	display:block;
+	margin: 0 auto;
+	opacity: 1;/* 透明度60% FireFox 的寫法 */ 
+	filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */ 
+	}
+#QA_WRAPPER .QA_center .center_A h2 a:hover img{
+	opacity: 0.7;
+	filter: Alpha(Opacity=70); 
+	}
+/*===回答ID===*/	
+#QA_WRAPPER .QA_center .center_A h3 a{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	line-height:22px;
+	color:#415cc1;
+	padding: 0px 5px 0px 5px;
+	text-decoration: none;	
+	}
+#QA_WRAPPER .QA_center .center_A h3 a:hover{
+	text-decoration: underline;
+	color:#F1843A;	
+	}
+/*==回答內容==	*/
+#QA_WRAPPER .QA_center .center_A p{
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	line-height:22px;
+	color:#1A1A1A;
+	padding: 0px 5px 0px 5px;
+	word-break:break-all;/*強迫斷航*/	
+	word-wrap: break-word; /*強迫斷航*/
+	}
+
+#QA_WRAPPER .QA_center .ATAME{
+	float: left;
+	width:75px;	
+	height:22px;
+	line-height:22px;
+	padding: 3px 0px 3px 7px;
+	overflow:hidden;
+	}
+#QA_WRAPPER .QA_center .ATAME p{
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	line-height:22px;
+	color: #999;
+	text-align: left;
+	word-break:break-all;/*強迫斷航*/
+	word-wrap: break-word; /*強迫斷航*/
+	}
+/*==回答內容_END==	*/
+/*===回答攔位_END===*/
+
+#QA_WRAPPER .QA_center .fillinBOX{
+	width:630px;
+	height:200px;
+	margin: 0 auto;
+	padding:30px 0px 10px 0px;
+	}
+#QA_WRAPPER .QA_center .fillinBOX .fillin_left{
+	float:left;
+	width:380px;
+	height:200px;
+	}
+#QA_WRAPPER .QA_center .fillinBOX .fillin_left h1{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:15px;
+	line-height:22px;
+	color: #187fc4;
+	padding: 0px 5px 0px 0px;
+	}
+#QA_WRAPPER .QA_center .fillinBOX .fillin_left .Fillmenu{
+	float:left;
+	width:100px;
+	height:22px;
+	line-height:22px;
+	}
+#QA_WRAPPER .QA_center .fillinBOX .fillin_left .Fillmenu .Text{
+	width:100px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	font-weight:bold;
+	line-height:22px;
+	color: #187fc4;
+	border:1px solid #BBBBBB;
+	}
+
+#QA_WRAPPER .QA_center .fillinBOX .fillin_left .EntertextQ{
+	float:left;
+	width:375px;
+	height:150px;
+	background:#FFF;
+	padding:10px 0px 5px 0px;
+	}
+#QA_WRAPPER .QA_center .fillinBOX .fillin_left .EntertextQ .EntertextQ_TP{
+	width:365px;
+	height:140px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:14px;
+	line-height:18px;
+	color: #333;
+	padding: 5px 5px 5px 5px;
+	}
+#QA_WRAPPER .QA_center .fillinBOX .fillin_left .T250{
+	float:left;
+	display: block;
+	width:200px;
+	line-height:22px;
+	line-height:22px;
+	background: url(../images/images/entercaptcha_icon.gif) no-repeat left bottom;
+	padding: 0px 0px 0px 22px;
+	}
+#QA_WRAPPER .QA_center .fillinBOX .fillin_left .T250 p{
+	float:left;
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	line-height:22px;
+	color: #333;
+	word-break:break-all;/*強迫斷航*/
+	word-wrap: break-word; /*強迫斷航*/
+	}
+#QA_WRAPPER .QA_center .fillinBOX .fillin_right{
+	float:left;
+	width:240px;
+	height:200px;
+	padding: 0px 0px 0px 10px;
+	}
+#QA_WRAPPER .QA_center .fillinBOX .fillin_right p{
+	display: block;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	line-height:22px;
+	color: #333;
+	word-break:break-all;/*強迫斷航*/
+	}
+#QA_WRAPPER .QA_center .fillinBOX .fillin_right .captchaTry{
+	float:left;
+	display: block;
+	width:200px;
+	line-height:22px;
+	line-height:22px;
+	background:url(../images/images/captchaTry_icon.gif) no-repeat left top;
+	padding: 0px 0px 10px 22px;
+	}
+#QA_WRAPPER .QA_center .fillinBOX .fillin_right .captchaTry p a{
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	line-height:22px;
+	color: #333;
+	}	
+#QA_WRAPPER .QA_center .fillinBOX .fillin_right .captchaTry p a:hover{
+	color:#039;
+	}
+
+#QA_WRAPPER .QA_center .fillinBOX .fillin_right .captchaTry_Input{
+	float:left;
+	display: block;
+	width:240px;
+	line-height:22px;
+	line-height:22px;
+	}
+#QA_WRAPPER .QA_center .fillinBOX .fillin_right .captchaTry_Input h1{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	line-height:22px;
+	color: #333;
+	padding: 0px 5px 0px 0px
+	}
+#QA_WRAPPER .QA_center .fillinBOX .fillin_right .captchaTry_Input .Input_T{
+	float:left;
+	width:100px;
+	height:22px;
+	line-height:22px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	line-height:22px;
+	color: #333;
+	}
+
+#QA_WRAPPER .QA_center .fillinBOX .fillin_right .captchaBOX{
+	float:left;
+	width:230px;
+	height:60px;
+	margin: 0 auto;
+	border:1px solid #BBBBBB;
+	} 
+#QA_WRAPPER .QA_center .fillinBOX .fillin_right .captchaBOX img{
+	display:block;
+	height:60px;
+	margin:0 auto;
+	}
+
+#QA_WRAPPER .QA_center .fillinBOX .fillin_right .EnterCaptcha{
+	float:left;
+	display: block;
+	width:110px;
+	height:22px;
+	line-height:22px;
+	background: url(../images/images/entercaptcha_icon.gif) no-repeat left bottom;
+	padding: 20px 0px 0px 22px;
+	}
+#QA_WRAPPER .QA_center .fillinBOX .fillin_right .EnterCaptcha p{
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	line-height:22px;
+	color: #333;
+	word-break:break-all;/*強迫斷航*/
+	word-wrap: break-word; /*強迫斷航*/
+	}	
+
+#QA_WRAPPER .QA_center .fillinBOX .fillin_right .EnterCaptchaBT a {
+	float:right;
+	margin: 20px 10px 0px 0px;
+    _margin: 20px 5px 0px 0px;
+	_display:inline;
+	display: block;
+	width:58px;
+	height:22px;
+	line-height:22px;
+	text-indent:-9999px;
+	background:url(../images/images/entercaptcha_bt.gif) no-repeat left top;
+	}
+#QA_WRAPPER .QA_center .fillinBOX .fillin_right .EnterCaptchaBT a:hover{
+	background-position: left bottom;
+	}
+
+
+
+#QA_WRAPPER .QA_bottom{
+	width:650px;
+	height:5px;
+	background:url(../images/images/q-a_bottom.jpg) no-repeat left top;
+/*	padding: 0xp 0px 20px 0px;*/
+	}
+
+#ALLicon_QAbox{
+	float:left;
+	width:280px;
+	height:30px;
+	line-height:30px;
+    padding: 0px 10px 0px 10px;
+	}
+#ALLicon_QAbox .qaallicom_rBox{
+	float: right;
+	width:5px;
+	height:26px;
+	line-height:26px;
+	background: #000;
+	background:url(../images/images/qaallicon_r.gif) no-repeat left top;
+	}	
+#ALLicon_QAbox .qaallicom_lBox{
+	float: right;
+	width:5px;
+	height:26px;
+	line-height:26px;
+	background: #000;
+	background:url(../images/images/qaallicon_l.gif) no-repeat left top;
+	}
+#ALLicon_QAbox a.qaallicom_cBox{
+	float: right;
+	display:block;
+	height:26px;
+	line-height:26px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:14px;
+	LETTER-SPACING:0pt;/* ==文字間距==*/
+	color: #FFF;
+	font-weight:bold;
+	text-align: center;
+	text-decoration: none;
+	background:url(../images/images/qaallicon_c.gif) repeat-x left top;
+	padding: 0px 10px 0px 10px;
+	}	
+	
+#ALLicon_QAbox a:hover.qaallicom_cBox{
+	color: #FF6;
+	}	
+
+	

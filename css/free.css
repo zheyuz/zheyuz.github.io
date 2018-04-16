@@ -1,0 +1,330 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #fff9e0;
+}
+
+img {
+	border: 0;
+}
+.free_storeName {width:250px; height:24px; margin-top:0px;}
+.free_storeSmallIcon {float:left; height:16px; width:16px; padding-right:5px; margin-top:6px; *margin-top:4px;}
+.free_t13s {font-size: 13px; font-family: "Arial", "新細明體"; color: #f56700; font-weight:bold; float:left; margin-top:4px; margin-top:5px\9; *margin-top:3px; overflow:hidden; height:22px; width:220px;}
+.free_t13s a:hover {color: #f97e25; text-decoration: underline;}
+.free_t13s a {color: #f56700; text-decoration: none;}
+
+.free_t12 {
+	font-size: 13px;
+	font-family: "Arial", "新細明體";
+	color: #505050
+}
+
+.free_t12 a:hover {
+	color: #734d00;
+	text-decoration: underline;
+}
+
+.free_t12 a {
+	color: #734d00;
+	text-decoration: none;
+}
+
+.free_t13 {
+	font-size: 13px;
+	font-family: "Arial", "新細明體";
+	color: #505050
+}
+
+.free_t13 a:hover {
+	color: #734d00;
+	text-decoration: underline
+}
+
+.free_t13 a {
+	color: #505050;
+	text-decoration: none
+}
+
+.free_st14 {
+  font-size: 13px;
+  font-family: "Arial", "新細明體";
+  color: #f56700;
+  font-weight: bold;
+}
+
+.free_st14 a:hover {
+  color: #f97e25;
+  text-decoration: underline
+}
+
+.free_st14 a {
+  color: #f56700;
+  text-decoration: none
+}
+
+.free_t15 {
+	font-size: 15px;
+	font-family: "Arial", "新細明體";
+	color: #505050;
+	font-weight: bold
+}
+
+.free_t15 a:hover {
+	color: #734d00;
+	text-decoration: underline
+}
+
+.free_t15 a {
+	color: #505050;
+	text-decoration: none
+}
+
+.free_day {
+	font-size: 13px;
+	font-family: "Arial", "新細明體";
+	color: #bd1d01;
+	font-weight: bold
+}
+
+.free_man {font-size: 22px; font-family: "Arial"; color: #e84c1f; font-weight: bold;}
+
+.free_money {
+	font-size: 28px;
+	font-family: "Arial";
+	color: #e84c1f;
+	font-weight: bold
+}
+
+.free_money_div {width:100px; margin-top:10px; margin-top:7px\9; *margin-top:9px; line-height:25px;}
+
+.forumlist_page1 {
+	text-align: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.forumlist_pagefont {
+	padding-left: 7px;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	font-family: "Arial", "新細明體";
+}
+
+.forumlist_list_t {
+	width: 788px;
+	height: 2px;
+	background-color: #f4efe9;
+	float: left;
+	border-width: 1px 1px 0 1px;
+	border-color: #cdc4af;
+	border-style: solid
+}
+
+.forumlist_list_c {
+	width: 788px;
+	float: left;
+	border-width: 0 1px 1px 1px;
+	border-color: #cdc4af;
+	border-style: solid;
+}
+.free_quantity {margin-top:0px; margin-top:3px\9; *margin-top:4px;}
+
+h1, h2, h3, h4, h5, h6, p{font-family: Arial, Helvetica, sans-serif; color: #454545;}
+#free_rside{width:300px;margin: 0 auto; background-color:#fff9e0;}
+/*店長報名START*/	
+#free_rside #shopkeeper a{ display:block;width:300px; height:140px; background-image:url(../images/free/shopkeeper_signup.jpg); background-position:left top; background-repeat:no-repeat; text-indent:-9999px;}
+#free_rside #shopkeeper a:hover{ background-position:left bottom;}
+/*店長報名END*/
+/*發出份數START*/		
+#free_rside #sendout{width:300px; height:62px; background-image:url(../images/free/icon_request.jpg); background-repeat:no-repeat; background-position:0 0; padding-top:42px; margin-bottom:10px;}
+#free_rside #sendout p{width:100px; height:30px; display:block; text-align:center; color:#c12c12; font-size:24px; font-weight:bold; margin-left:155px;}
+/*發出份數END*/
+/*排行榜START*/		
+#free_rside #billboard{ width:300px; margin: 0 auto;}
+#free_rside #billboard #billboard_top{ width:300px; height:48px; background-image: url(../images/free/icon_request.jpg); background-repeat:no-repeat; background-position:0 -111px;}
+#free_rside #billboard #billboard_con{width:300px; background-image:url(../images/free/billboard_con.jpg); background-repeat:repeat-y;}
+#free_rside #billboard #billboard_end{width:300px; height:10px; background-image:url(../images/free/billboard_end.jpg); background-repeat:no-repeat; margin-bottom:8px; _margin-bottom:0px;}
+
+#free_rside #billboard #billboard_con ul{ width:260px; margin: 0 auto; padding-top:10px;}
+#free_rside #billboard #billboard_con ul li{float:left; width:260px; }
+#free_rside #billboard #billboard_con ul li.free_pic{ position:relative; width:260px; height:90px; border-bottom:1px #c0c0c0 dotted;margin-bottom:10px;}
+
+#free_rside #billboard #billboard_con ul li.free_pic .bill_photo{width:100px; height:75px;padding:2px; border:1px #c0c0c0 solid;}
+#free_rside #billboard #billboard_con ul li.free_pic .bill_photo a{display:block;width:100px; height:75px;overflow:hidden;}
+#free_rside #billboard #billboard_con ul li.free_pic h3{position:absolute; left:117px; top:0;}
+#free_rside #billboard #billboard_con ul li.free_pic h3 a{display: block;width:143px; height:50px; line-height:16px; color:#734d00; font-size:12px; font-weight:normal; text-align:justify;}
+#free_rside #billboard #billboard_con ul li.free_pic p{ display:block; width:50px;color:#bc1704; font-size:18px; font-weight:bold; text-align: left; line-height:30px; margin:3px 20px 0 90px; *margin-top:2px;}
+#free_rside #billboard #billboard_con ul li.free_pic .popularity_01{position:absolute; left:112px; top:50px;;width:148px; height:30px; background-image: url(../images/free/icon_request.jpg); background-repeat:no-repeat; background-position: 0 -221px; _background-position: 0 -220px;}
+#free_rside #billboard #billboard_con ul li.free_pic .popularity_02{position:absolute; left:112px; top:50px;;width:148px; height:30px; background-image: url(../images/free/icon_request.jpg);
+background-repeat:no-repeat; background-position: 0 -251px; _background-position: 0 -250px;}
+#free_rside #billboard #billboard_con ul li.free_pic .popularity_03{position:absolute; left:112px; top:50px;;width:148px; height:30px; background-image: url(../images/free/icon_request.jpg); background-repeat:no-repeat; background-position: 0 -281px; _background-position: 0 -280px;}
+#free_rside #billboard #billboard_con ul li h4 a{display:block;padding-left:24px; font-size:12px;line-height:16px; color:#734d00; border-top:1px #c0c0c0 dotted; font-weight:normal; padding-bottom:3px; padding-top:5px; width:236px;}
+#free_rside #billboard #billboard_con ul li.no4 h4 a{display:block; background-image:url(../images/free/number.gif); background-repeat:no-repeat; background-position:0 -117px; }
+#free_rside #billboard #billboard_con ul li.no5 h4 a{display:block; background-image:url(../images/free/number.gif); background-repeat:no-repeat; background-position:0 -157px; }
+#free_rside #billboard #billboard_con ul li.no6 h4 a{display:block; background-image:url(../images/free/number.gif); background-repeat:no-repeat; background-position:0 -197px; }
+#free_rside #billboard #billboard_con ul li.no7 h4 a{display:block; background-image:url(../images/free/number.gif); background-repeat:no-repeat; background-position:0 -237px; }
+#free_rside #billboard #billboard_con ul li.no8 h4 a{display:block; background-image:url(../images/free/number.gif); background-repeat:no-repeat; background-position:0 -277px; }
+#free_rside #billboard #billboard_con ul li.no9 h4 a{display:block; background-image:url(../images/free/number.gif); background-repeat:no-repeat; background-position:0 -317px; }
+#free_rside #billboard #billboard_con ul li.no10 h4 a{display:block; background-image:url(../images/free/number.gif); background-repeat:no-repeat; background-position:0 -357px; }
+/*排行榜END*/
+
+/*容易抽中START*/
+#free_rside #drawlots{width:300px; margin: 0 auto;}
+#free_rside #drawlots #drawlots_top{width:300px; height:48px; background-image: url(../images/free/icon_request.jpg); background-repeat:no-repeat; background-position: 0 -160px;}
+#free_rside #drawlots #drawlots_con{width:300px;background-image:url(../images/free/billboard_con.jpg); background-repeat:repeat-y;}
+#free_rside #drawlots #drawlots_end{width:300px; height:10px; background-image:url(../images/free/billboard_end.jpg); background-repeat:no-repeat;}
+
+#free_rside #drawlots #drawlots_con ul{ width:290px; margin: 0 auto;}
+#free_rside #drawlots #drawlots_con ul li{ display:block; float:left; width:290px; _display:inline;}
+#free_rside #drawlots #drawlots_con ul li .draw_box{position:relative;width:240px; height:210px; margin: 0 auto; margin-top:8px; margin-bottom:2px;}
+#free_rside #drawlots #drawlots_con ul li .draw_box .draw_pic{width:200px; height:150px; margin:0 auto;padding:2px 2px 28px 2px; _padding:2px 2px 0 2px; border:1px #c0c0c0 solid;}
+#free_rside #drawlots #drawlots_con ul li .draw_box .draw_pic a{display:block;width:200px; height:150px;overflow:hidden;}
+#free_rside #drawlots #drawlots_con ul li .draw_box .draw_pic p{ display:block; width:190px; height:28px; line-height:28px;font-size:12px; text-align:right; padding-right:10px;}
+#free_rside #drawlots #drawlots_con ul li .draw_box .draw_pic p span.red_num{ color:#bd1d01; font-size:15px; font-weight:bold; padding:0 5px 0 0;}
+#free_rside #drawlots #drawlots_con ul li .draw_box .percent{position:absolute;	left:0;	top:105px;	width:88px;	height:88px;background-image: url(../images/free/bg_percent.png);background-repeat:no-repeat;
+}
+#free_rside #drawlots #drawlots_con ul li .draw_box .percent p{ display:block; width:56px; height:20px;color:#fff; font-size:20px; font-weight:bold; text-align:center; margin:42px 0 0 12px;}
+#free_rside #drawlots #drawlots_con ul li .draw_box h3 a{display:block; width:200px; height:20px; margin: 0 auto; font-size:13px; color:#545454; line-height:18px; margin-top:12px; text-align:center; overflow:hidden;}
+#free_rside #drawlots #drawlots_con ul li .draw_box h3 a:hover{ color: #888888; text-decoration:none;}
+#free_rside #drawlots #drawlots_con ul li.draw_line{ width:290px; height:17px; background-image:url(../images/free/icon_request.jpg); background-repeat:no-repeat; background-position:0 -310px;}
+#free_rside #drawlots #drawlots_con ul li.draw_line_withoutPic {width:290px; height:5px;}
+/*容易抽中END*/
+
+
+/*免費帶走START*/
+#take_box{width:616px; height:auto; margin: 10px auto;}
+#take_box .take_title{ width:616px; height:26px; border-bottom:3px #365889 solid; background-image: url(../images/free/icon_request.jpg); background-repeat:no-repeat; background-position: 10px -340px; text-indent:-9999px;}
+#take_box .take_con{ width:586px; height:auto; padding:15px; background-color:#f8f8f8;}
+#take_box .take_con .l_take{ float:left;width:170px; height:auto; margin-right:15px; _display:inline;}
+#take_box .take_con .r_take{ float:left; width:370px; height:auto; padding-left:15px; border-left: 1px #bbbbbb dotted;}
+#take_box .take_con .r_take h2{ font-size:15px; font-weight:bold; color:#454545; line-height:18px;}
+#take_box .take_con .r_take .msg_con{ position:relative; width:364px; height:62px; background-image:url(../images/free/icon_request.jpg); background-repeat:no-repeat; background-position: 0 -365px; margin-top:5px;}
+#take_box .take_con .r_take .msg_con p{position:absolute; left:55px; top:12px; display:block; width:300px; height:40px; font-size:13px; font-weight:bold; color:#52231b;}
+#take_box .take_con .r_take .fb_box{width:340px; height:35px; margin: 0 auto;}
+#take_box .take_con .r_take .fb_box p{ font-size:12px; color:#454545; float:left;}
+#take_box .take_con .r_take .fb_box p.log_fb a{ display:block; width:110px; height:18px; text-indent:-9999px; background-image:url(../images/free/log_fb.jpg); background-repeat:no-repeat; background-position:left top; margin:0 5px;}
+#take_box .take_con .r_take .fb_box p.log_fb a:hover{ background-position:right top;}
+#take_box .take_con .r_take .fb_box p.log_ihergo a{ display:block; width:110px; height:18px; text-indent:-9999px; background-image:url(../images/free/log_ihergo.jpg); background-repeat:no-repeat; background-position:left top; margin:0 5px;}
+#take_box .take_con .r_take .fb_box p.log_ihergo a:hover{ background-position:right top;}
+#take_box .take_con .r_take .show_text{width:250px; height:22px; background-color:#eceef5; margin: 0 auto;}
+#take_box .take_con .r_take .show_text p{ font-size:13px; color:#eb0000; font-weight:bold; text-align:center; line-height:22px;}
+/*免費帶走END*/
+
+/* 有興趣的START */
+#interested_box{width:616px; height:200px; margin: 0 auto; border:1px #dddddd solid;}
+#interested_box #interested_title{width:616px; height:33px; background-image:url(../images/free/icon_request.jpg); background-repeat:no-repeat; background-position: 10px -430px; background-color:#f8f8f8;}
+#interested_box #interested_sd{ width:616px; height:3px; background-image:url(../images/free/intrsd_sd.jpg); background-repeat:repeat-x;}
+#interested_box #interested_con{ width:586px; height:134px; padding:15px; _padding:0 15px;}
+#interested_box #interested_con ul li{ float:left; width:135px; height:137px; margin-right:15px; _display:inline;}
+#interested_box #interested_con ul li .int_pic a{display:block; height:100px; overflow:hidden;}
+#interested_box #interested_con ul li h3 a{ display:block; font-size:13px; color:#545454; font-weight:bold; line-height:18px; text-align:left;}
+#interested_box #interested_con ul li h3 a:hover{ color:#888888; text-decoration:none;}
+/* 有興趣的END */
+
+.vipshop_Box1CONTENT {
+	float:left;
+	width:206px;
+	margin-bottom:14px;
+	_display:inline;
+}
+.vipshopAdBOX {
+	display:block;
+	width:170px;
+	margin: 0 auto;
+}
+.vipshopAdBOX_img {
+	display:block;
+	width:160px;
+	height:55px;
+	font-size:0;
+	overflow:hidden;
+	border:1px solid #BBBBBB;
+	padding:1px;
+}
+.vipshopAdBOX_img a img {
+	display:block;
+	height:55px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.vipshopAdBOX_img a:hover img {
+	opacity: 0.9;
+	filter: Alpha(Opacity=90);
+}
+.vipshopAdBOX h2.vipshop a{
+	display: block;
+	width:156px;
+	height:30px;
+	padding-left: 15px;
+	font-size:12px;
+	line-height:30px;
+	_line-height:34px;/*==hack_IE6==*/
+	line-height:34px \9; /*==hack_IE8==*/
+	color: #666666;
+	text-decoration:none;
+	font-weight:normal;
+	background: url(../images/2011/store-small.gif) no-repeat left top;
+	overflow: hidden;
+}
+.vipshopAdBOX h2.vipshop a:hover {
+	text-decoration:underline;
+	color: #666666;
+}
+
+.AllStore_goodIcon{
+  display: block;
+  height: 17px;
+  line-height:17px;
+  padding: 3px 5px 0px 0px;
+  width: 160px;
+}
+.AllStore_goodIcon a img{
+  margin: 0px 5px 0px 3px; 
+  opacity: 1;/* 透明度60% FireFox 的寫法 */ 
+  filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */ 
+}
+.AllStore_goodIcon a:hover img{ 
+  opacity: 0.7;/* 透明度60% FireFox 的寫法 */ 
+  filter: Alpha(Opacity=70); /* 透明度60% IE 的寫法 */
+}
+
+/*2012/4/30---------EE新增*/
+.The_TopFreeBox{ width:626px; overflow:hidden; border-bottom:#fac786 2px solid;  margin:15px 0px; font-family: "Arial", "新細明體";}
+.The_TopFreeBox .left_img_box{  float:left; width:150px; height:150px; margin:0px 15px 12px 0px;}
+.The_TopFreeBox .right_free_content{ float:left; width:460px; }
+.The_TopFreeBox .right_free_content .top { float:left; width:460px; margin:0px 0px 10px 0px;}
+.The_TopFreeBox .right_free_content .top h2{ float:left; width:400px; color:#505050; display:block; font-size:15px; font-weight:bold; letter-spacing:1px;}
+.The_TopFreeBox .right_free_content .top .fb_p_link { float:right; width:42px; height:16px; }
+.The_TopFreeBox .right_free_content .top .fb_p_link a.fb{ float:left; width:16px; height:16px; display:block; background:url(../images/free/GO_ICON_FB.gif) no-repeat 0px 0px; margin-right:5px;}
+.The_TopFreeBox .right_free_content .top .fb_p_link a.plu{ float:left; width:16px; height:16px; display:block; background: url(../images/free/GO_ICON_PL.gif) no-repeat 0px 0px;}
+
+.The_TopFreeBox .right_free_content .middle { float:left; width:460px; }
+.The_TopFreeBox .right_free_content .middle .left_info{ width:277px; height:90px; float:left;}
+
+.The_TopFreeBox .right_free_content .middle .left_info .time{ width:277px; height:25px; float:left;}
+.The_TopFreeBox .right_free_content .middle .left_info .time p.over_time{float:left; width:64px; height:17px;  display:block; background-color:#a4003a; border-radius:3px; color:#FFF; text-align:center; margin-right:5px; font-size:12px; line-height:17px;line-height:19px \9; /*==hack_IE8==*/_line-height:19px;*line-height:19px; font-weight:bold; letter-spacing:1px;}
+.The_TopFreeBox .right_free_content .middle .left_info .time p.to_time{float:left;color:#c81d00; font-size:13px;  line-height:17px; font-weight:bold;}
+
+.The_TopFreeBox .right_free_content .middle .left_info .money{ width:277px; float:left; font-size:13px;}
+.The_TopFreeBox .right_free_content .middle .left_info .money p{ color:#505050; letter-spacing:1px;}
+.The_TopFreeBox .right_free_content .middle .left_info .money p span.dele{ color:#777777;text-decoration:line-through;}
+.The_TopFreeBox .right_free_content .middle .left_info .money p span.nub{ color:#bd1d01; font-weight:bold;}
+
+.The_TopFreeBox .right_free_content .middle .right_ask{ width:174px; height:90px; float:right;}
+.The_TopFreeBox .right_free_content .middle .right_ask p.many{ width:168px; text-align:right; font-size:13px; color:#505050; display:block; margin:8px 0px 3px 0px;}
+.The_TopFreeBox .right_free_content .middle .right_ask p.many span{ font-size:22px; color:#E84C1F; font-weight:bold; font-family:Arial, Helvetica, sans-serif;}
+.The_TopFreeBox .right_free_content .middle .right_ask p.want a{ width:174px; height:44px; display:block; background:url(../images/free/want_but.gif) no-repeat 0px 0px; text-indent:-9999px;}
+.The_TopFreeBox .right_free_content .middle .right_ask p.want a:hover{width:174px; height:45px; background:url(../images/free/want_but.gif) no-repeat 0px -44px;}
+.The_TopFreeBox .right_free_content .middle .right_ask p.join_in { width:174px; height:44px; display:block; background:url(../images/free/button_join.gif) no-repeat 0px 0px; text-indent:-9999px;}
+.The_TopFreeBox .right_free_content .middle .right_ask p.end { width:174px; height:44px; display:block; background:url(../images/free/button_end.gif) no-repeat 0px 0px; text-indent:-9999px;}
+
+
+.The_TopFreeBox .right_free_content .shop_name{ width:461px; height:30px; float:left; background-color:#f6f6f6; margin-bottom:5px;}
+.The_TopFreeBox .right_free_content .shop_name h3.thesotre a{ width:350px; display: block; overflow:hidden; background:url(../images/free/free_shop.gif) no-repeat 8px 6px; font-size:13px; color:#505050; font-weight:bold; letter-spacing:1px; padding-top:5px; line-height:18px;line-height:20px \9; /*==hack_IE8==*/_line-height:20px;*line-height:20px; float:left; text-indent:30px; font-weight:normal; height:18px;}
+.The_TopFreeBox .right_free_content .shop_name h3.thesotre a:hover{ color:#F56700;}
+.The_TopFreeBox .right_free_content .shop_name p.view a{ float:right; font-size:12px; color:#777777; letter-spacing:1px; line-height:18px;line-height:20px \9; /*==hack_IE8==*/_line-height:20px;*line-height:20px; padding: 3px 10px 0px 0px ;}
+
+/*2012/4/30---------EE新增 結束*/

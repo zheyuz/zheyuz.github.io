@@ -1,0 +1,86 @@
+/*-----2012/5/2  新增後台處理頁面---- */
+/*----- 評鑑商品框-----*/ 
+.warpper_evaluation_ackstage{width:1100px; overflow:hidden; margin:0 auto; font-family:"Arial","新細明體"; }
+.warpper_evaluation_ackstage .products_box{ width:1098px; height:620px; float:left; border:#c8c8c8 1px solid; margin-bottom:20px; }
+.warpper_evaluation_ackstage .products_box h3.top_title{ width:1098px; height:29px; background:#cfd4e4; border-bottom:#c8c8c8 1px solid; font-size:13px; color:#000; text-indent:15px; line-height:29px; font-weight:normal; display:block; }
+
+/*產品圖上傳*/
+.warpper_evaluation_ackstage .products_box .photo_Block{ width:325px; height:474px; float:left; margin:40px 30px 0px 40px; border:#c8c8c8 1px solid; }
+.warpper_evaluation_ackstage .products_box .photo_Block .upload_pic_a{ width:292px; height:325px; margin:15px 0px 10px 16px; float:left; }	
+	
+.warpper_evaluation_ackstage .products_box .photo_Block .upload_pic_a .img{ width:290px; height:290px; border:#c8c8c8 1px solid; float:left; background-color:#f1f2f3; }	
+.warpper_evaluation_ackstage .products_box .photo_Block .upload_pic_a .btm{ width:165px;	 float:left; padding:5px 0px 0px 117px; }	
+
+.warpper_evaluation_ackstage .products_box .photo_Block .upload_pic_b{ width:80px; height:115px; margin:0px 9px 0px 17px; float:left; }	
+.warpper_evaluation_ackstage .products_box .photo_Block .upload_pic_b .img{ width:78px; height:78px; border:#c8c8c8 1px solid; float:left; background-color:#f1f2f3; }
+.warpper_evaluation_ackstage .products_box .photo_Block .upload_pic_b .btm{ width:70px; height:24px; float:left; padding:5px 0px 0px 10px; }	
+
+/*產品資料*/
+.warpper_evaluation_ackstage .products_box .pro_data_top{ width:695px; height:200px;float:left;margin-top:40px;	}
+.warpper_evaluation_ackstage .products_box .pro_data_top .left{ width:325px; height:200px; float:left; }
+.warpper_evaluation_ackstage .products_box .pro_data_top .left .type{ width:325px;height:30px; float:left; margin-top:5px; }
+.warpper_evaluation_ackstage .products_box .pro_data_top .left .type p{ float:left; width:80px; text-align:right; font-size:13px; color:#000; letter-spacing:1px; display:block; }
+.warpper_evaluation_ackstage .products_box .pro_data_top .left .type p span{ color:#F00; }	
+
+.warpper_evaluation_ackstage .products_box .pro_data_top .left .type .el_enter{ width:210px; height:25px; font-family:"Arial","新細明體"; font-size:13px; line-height:25px; padding-left:5px; }
+.warpper_evaluation_ackstage .products_box .pro_data_top .right {width:300px; height:200px; float:left; }
+.warpper_evaluation_ackstage .products_box .pro_data_top .right .type{ width:345px; height:30px; float:left; margin-top:5px; }
+.warpper_evaluation_ackstage .products_box .pro_data_top .right .type p{ float:left; width:105px; text-align:right; font-size:13px; color:#000; letter-spacing:1px; display:block; }
+.warpper_evaluation_ackstage .products_box .pro_data_top .right .type p span{ color:#F00; }	
+.warpper_evaluation_ackstage .products_box .pro_data_top .right .type .el_enter{ width:190px; height:25px; font-family:"Arial","新細明體"; font-size:13px; line-height:25px; padding-left:5px; }
+
+/*下面-整體評價 & 評價參考*/
+.warpper_evaluation_ackstage .products_box .pro_data_cen{ width:660px; height:275px; border-bottom:#707070 1px solid; float:left; }
+.warpper_evaluation_ackstage .products_box .pro_data_cen .box{ width:325px; height:275px; float:left;margin-right:5px; }
+.warpper_evaluation_ackstage .products_box .pro_data_cen .box .begin{ width:300px; height:30px;	 border-bottom:#707070 1px solid; margin-bottom:20px; }	
+.warpper_evaluation_ackstage .products_box .pro_data_cen .box .begin p{ width:136px; height:29px; display:block; border-top:#c8c8c8 1px solid; border-left:#c8c8c8 1px solid; border-right:#c8c8c8 1px solid; float:left; background-color:#f1f2f3; font-size:13px;letter-spacing:1px; line-height:29px; text-align:center; color:#000; }
+.warpper_evaluation_ackstage .products_box .pro_data_cen .box .begin span{font-size:12px;letter-spacing:1px; line-height:29px; text-align:center; color:#C00; padding-left:5px; }
+
+
+.warpper_evaluation_ackstage .products_box .pro_data_cen .box .type{ width:300px; height:30px; float:left; margin-top:8px; }
+.warpper_evaluation_ackstage .products_box .pro_data_cen .box .type p{ float:left; width:80px; text-align:right; font-size:13px; color:#000; letter-spacing:1px; display:block; }
+.warpper_evaluation_ackstage .products_box .pro_data_cen .box .type p span{ color:#F00; }	
+.warpper_evaluation_ackstage .products_box .pro_data_cen .box .type .el_enter{ width:210px; height:25px; font-family:"Arial","新細明體"; font-size:13px; line-height:25px; padding-left:5px; }
+
+.warpper_evaluation_ackstage .products_box .pro_data_bottom{  width:520px; height:50px; float:left; margin:15px 0px 0px 465px; }
+.warpper_evaluation_ackstage .products_box .pro_data_bottom .btm{ width:130px; height:40px; display:block; float:left; }	
+
+/*----- 評鑑商品框 結束-----*/ 		
+	
+		
+/*----- 評鑑會員框----- */	
+.warpper_evaluation_ackstage .member_box{ width:1098px; overflow:hidden; float:left; border:#c8c8c8 1px solid; margin-bottom:10px; }
+.warpper_evaluation_ackstage .member_box h3.top_title{ width:1098px; height:29px; background:#cfd4e4; border-bottom:#c8c8c8 1px solid; font-size:13px; color:#000; text-indent:15px; line-height:29px; font-weight:normal; display:block; }
+
+.warpper_evaluation_ackstage .member_box .look_for{ width:1090px; height:50px; float:left}
+.warpper_evaluation_ackstage .member_box .look_for .left1{ width:200px; height:30px; float:left; padding:15px 0px 0px 10px;}
+.warpper_evaluation_ackstage .member_box .look_for .left1 .el_enter{ width:190px; height:25px; font-family:"Arial","新細明體"; font-size:13px; line-height:25px; padding-left:5px; }
+.warpper_evaluation_ackstage .member_box .look_for .left2{ width:100px; height:30px; float:left; padding:15px 0px 0px 10px;}
+.warpper_evaluation_ackstage .member_box .look_for .left3{ width:125px; height:30px; float:right; padding:10px 0px 0px 0px;}
+
+.warpper_evaluation_ackstage .member_box .mem_top{ width:1080px; height:30px; margin-left:10px;; float:left; display:block;}
+.warpper_evaluation_ackstage .member_box .mem_top ul.top{ width:1078px; height:28px; float:left; border:#c8c8c8 1px solid;  background-color:#f1f2f3; font-size:13px; text-align:center; line-height:28px;}
+.warpper_evaluation_ackstage .member_box .mem_top ul.top li.s_delete {width:79px; height:28px; float:left; border-right:#c8c8c8 1px solid;}
+.warpper_evaluation_ackstage .member_box .mem_top ul.top li.a_ID{ width:120px; height:28px; float:left; border-right:#c8c8c8 1px solid;}
+.warpper_evaluation_ackstage .member_box .mem_top ul.top li.b_name{ width:98px; height:28px; float:left; border-right:#c8c8c8 1px solid;}
+.warpper_evaluation_ackstage .member_box .mem_top ul.top li.c_phone{ width:110px; height:28px; float:left; border-right:#c8c8c8 1px solid;}
+.warpper_evaluation_ackstage .member_box .mem_top ul.top li.d_add{ width:360px; height:28px; float:left; border-right:#c8c8c8 1px solid;}
+.warpper_evaluation_ackstage .member_box .mem_top ul.top li.e_time{ width:154px; height:28px; float:left; border-right:#c8c8c8 1px solid;}
+.warpper_evaluation_ackstage .member_box .mem_top ul.top li.f_state{ width:148px; height:28px; float:left;}
+
+.warpper_evaluation_ackstage .member_box .mem_list ul.color { background-color:#f1f2f3;}
+
+.warpper_evaluation_ackstage .member_box .mem_list{ width:1080px; height:300px; overflow-x:hidden; overflow-y:scroll; float:left; margin:0px 0px 10px 10px}
+.warpper_evaluation_ackstage .member_box .mem_list ul.below{ width:1075px; height:29px; float:left; border-left:#c8c8c8 1px solid; border-right:#c8c8c8 1px solid; border-bottom:#c8c8c8 1px solid; font-size:13px; line-height:28px;}
+.warpper_evaluation_ackstage .member_box .mem_list ul.below p{ text-indent:10px}
+.warpper_evaluation_ackstage .member_box .mem_list ul.below li.s_delete {width:69px; height:25px; float:left; border-right:#c8c8c8 1px solid; padding-left:10px; padding-top:3px \9;/*==hack_IE8==*/ *padding-top:3px   /*hack_IE7*/ ;_padding-top:3px;  /*==hack_IE6==*/}
+.warpper_evaluation_ackstage .member_box .mem_list ul.below li.a_ID{ width:120px; height:28px; float:left; border-right:#c8c8c8 1px solid;}
+.warpper_evaluation_ackstage .member_box .mem_list ul.below li.b_name{ width:98px; height:28px; float:left; border-right:#c8c8c8 1px solid;}
+.warpper_evaluation_ackstage .member_box .mem_list ul.below li.c_phone{ width:110px; height:28px; float:left; border-right:#c8c8c8 1px solid;}
+.warpper_evaluation_ackstage .member_box .mem_list ul.below li.d_add{ width:360px; height:28px; float:left; border-right:#c8c8c8 1px solid;}
+.warpper_evaluation_ackstage .member_box .mem_list ul.below li.e_time{ width:154px; height:28px; float:left; border-right:#c8c8c8 1px solid;}
+.warpper_evaluation_ackstage .member_box .mem_list ul.below li.f_state{ width:148px; height:28px; float:left;}
+
+/*----- 評鑑會員框 結束----- */			
+		
+/*-----2012/5/2  新增後台處理頁面 結束---- */

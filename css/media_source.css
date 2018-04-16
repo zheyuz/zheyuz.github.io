@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.media_wrapper{ width:1000px; margin:30px auto; position:relative;}
+
+.media_wrapper .nav{ width:170px; position:fixed;}
+.media_wrapper .nav h2 { font-size:20px; color:#32616e; padding:0 0 10px 0; margin:0 0 10px 0; border-bottom:1px solid #eeeeee;}
+.media_wrapper .nav a.item{ display:block; color:#32616e; font-size:15px; text-indent:12px; width:100%; height:32px; line-height:32px;}
+.media_wrapper .nav a.item:hover{ background:#f2f5f6; border-radius:4px; text-decoration:none;}
+.media_wrapper .nav a.target{background:#f2f5f6; border-radius:4px; font-weight:bold; font-size:16px;}
+.media_wrapper .nav .download_box{border-top:1px solid #eeeeee; margin:10px 0 0 0; padding:10px 0 0 0;}
+.media_wrapper .nav .download_box a{display:block; width:99%; height:32px; font-size:13px; color:#32616e; line-height:32px; border-radius:8px; border:1px solid #32616e; text-align:center; margin:0 auto 10px auto;transition:0.2s; -webkit-transition:0.2s;}
+.media_wrapper .nav .download_box a:hover{ text-decoration:none; background:#57737e; border:1px solid #57737e; color:#fff; transition:0.2s; -webkit-transition:0.2s;}
+
+.media_wrapper .source_content{ width:800px; float:right;}
+.media_wrapper .source_content .brand_img{ width:100%; position:relative;}
+.media_wrapper .source_content .brand_img img{ width:800px; vertical-align:middle;}
+
+.media_wrapper .source_content .brand_img p.color_1{ position:absolute; top:270px; left:40px; }
+.media_wrapper .source_content .brand_img p.color_1 span{ display:block; letter-spacing:1px;color:#FFFFFF; font-weight:bold; font-size:12px;}
+.media_wrapper .source_content .brand_img p.color_2{ position:absolute; top:94px; left:607px; }
+.media_wrapper .source_content .brand_img p.color_2 span{ display:block; letter-spacing:1px;color:#FFFFFF; font-weight:bold; font-size:12px;}
+.media_wrapper .source_content .brand_img p.color_3{ position:absolute; top:270px; left:607px; }
+.media_wrapper .source_content .brand_img p.color_3 span{ display:block; letter-spacing:1px;color:#FFFFFF; font-weight:bold; font-size:12px;}
+
+.media_wrapper .source_content .brand_img p.text_1{ position:absolute; top:200px; left:90px;}
+.media_wrapper .source_content .brand_img p.text_1 span{ font-size:20px; color:#32616e;}
+.media_wrapper .source_content .brand_img p.text_2{ position:absolute; top:200px; left:262px;}
+.media_wrapper .source_content .brand_img p.text_2 span{ font-size:20px; color:#7d9da2;}
+.media_wrapper .source_content .brand_img p.text_3{ position:absolute; top:200px; left:432px;}
+.media_wrapper .source_content .brand_img p.text_3 span{ font-size:20px; color:#aebdbd;}
+.media_wrapper .source_content .brand_img p.text_4{ position:absolute; top:200px; left:608px;}
+.media_wrapper .source_content .brand_img p.text_4 span{ font-size:20px; color:#0084c2; text-decoration:underline;}
+
+/* ---------- 20151211_增加首頁連結_開始 ---------- */
+.media_wrapper .nav .ihergo_logo{ width: 170px; height: 42px; margin:3px auto 20px;}
+.media_wrapper .nav .ihergo_logo a.logo{ display: block; width: 170px; height: 42px; background: url(../images/media_source/ihergo_logo.png) no-repeat center center / 170px 42px; text-indent: -9999px;}
+
+/* ---------- 20151211_增加首頁連結_結束 ---------- */

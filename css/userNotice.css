@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.feedListBox{width:330px; position:absolute; float:right; overflow:hidden; border-bottom:2px solid #fdd100; border-left:2px solid #fdd100; border-right:2px solid #fdd100; background:none repeat scroll 0 0 #FFFFFF; box-shadow:0 2px 4px rgba(0, 0, 0, 0.2); }
+.notbox_top{widows:330px; height:30px; }
+.notbox_top p{font-size:13px; font-family:"Arial","新細明體"; font-weight:bold; color:#505050; text-indent:15px; line-height:30px; }
+/*顯示所有動態追蹤*/
+a.notbox_bottom div{width:205px; height:35px; border-top:1px solid #fdd100; background-color:#f3f3f3; padding-left:125px; float:left; }
+a.notbox_bottom div p{font-size:12px; font-family:"Arial","新細明體"; color:#666666; display:block; line-height:35px; letter-spacing:1px; font-weight:bold; } 
+a:hover.notbox_bottom div p{font-size:12px; font-family:"Arial","新細明體"; color:#666666; display:block; line-height:35px; letter-spacing:1px; font-weight:bold; text-decoration:underline} 
+a:hover.notbox_bottom {cursor:pointer}
+.notice_con_img{width:55px; height:55px; padding:10px 0px 0px 15px; float:left; } 
+.notimg_box{width:40px; height:40px; display:block; border:1px solid #BBBBBB; padding:1px; }  
+/*點選到的位置與反應*/
+a.notice_content{width:330px; overflow:hidden; background-color:#FFF; float:left; border-top:1px solid #dcdcdc; position:relative;}
+a:hover.notice_content{background-color:#fefede;text-decoration:none; cursor:pointer}
+a.notice_content_in{background-color:#ffffcc; border-top:1px solid #dcdcdc; text-decoration:none;}
+a:hover.notice_content_in{background-color:#ffffbe;} 
+
+/*合購通知*/   
+.notice_con_right_group{width:258px; overflow:hidden; padding:5px 0px; float:left; }
+.notice_con_right_group p{font-size:11px; font-family:"Arial","新細明體"; color:#666666; width:247px; display:block; float:left; line-height:18px; letter-spacing:1px; }
+.notice_con_right_group p span.b_fo{font-size:12px; font-family:"Arial","新細明體"; color:#3B5998; font-weight:bold; padding-right:5px; } 
+.notice_con_right_group h2{font-size:12px; font-family:"Arial","新細明體"; color:#454545; width:248px; overflow:hidden; height:16px; display:block; float:left; text-align:justify; line-height:16px; font-weight:normal; text-indent:17px; letter-spacing:1px; background: url(../images/images/balloon-left.gif) no-repeat; background-position:2px 5px;}
+.notice_con_right_group h3{font-size:12px; font-family:"Arial","新細明體"; color:#454545; line-height:18px; font-weight:normal; width:248px; height:18px; overflow:hidden; letter-spacing:1px; display:block; float:left;}
+.notice_con_right_group h2 span{color:#a1a1a1; }
+.notice_con_right_group span.topic{font-size:12px; font-family:"Arial","新細明體"; color:#aaa; line-height:18px; font-weight:normal; width:248px; height:18px; overflow:hidden; letter-spacing:1px; display:block; float:left;} 
+
+/*合購通知 END */ 
+/*發文通知*/  
+.notice_con_right{width:258px; overflow:hidden; padding:5px 0px; float:left;}
+.notice_con_right p{font-size:12px; font-family:"Arial","新細明體"; color:#666666; width:254px; display:block; float:left; line-height:16px; letter-spacing:1px; }
+.notice_con_right h2{font-size:12px; font-family:"Arial","新細明體"; color:#454545; width:248px; max-height:36px; display:block; float:left; text-align:justify; line-height:18px; overflow:hidden; background:url(images/document-small.gif) no-repeat; text-indent:15px; background-position:1px 5px; font-weight:normal; }
+.notice_con_right h2.talksomething{font-size:12px; font-family:"Arial","新細明體"; color:#454545; width:248px; max-height:40px; display:block; float:left; text-align:justify; line-height:17px; overflow:hidden; font-weight:normal; background:url(images/balloon-left.gif) no-repeat; text-indent:15px; background-position:2px 5px;}
+/*沒有通知*/
+.no_notice_content{padding:10px 15px;border-top:1px solid #fdd100;white-space:normal;}
+.no_notice_content p.notice_hint{font-size:13px; color:#999999}
+.no_notice_content p.no_notice{font-size:14px; font-weight:bold;padding-bottom:10px}
+
+/* 顯示時間的框框--*/ 
+.time_show{position:absolute; left:225px; top:3px; height:19px; display:block; float:left; padding:0px 0px 0px 11px; width:85px; background-color:#fff}
+.time_show p{text-align:right; font-size:12px; height:19px; color:#999999; float:right; padding:0px 3px 0px 3px; }  
+a.notice_content .time_show{background-color:#ffffff;}
+a:hover.notice_content .time_show{background-color:#fefede;}
+a.notice_content_in .time_show{background-color:#ffffcc;}
+a:hover.notice_content_in .time_show{background-color:#ffffbe;}

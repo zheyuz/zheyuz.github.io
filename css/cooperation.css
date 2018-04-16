@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* the overlayed element */
+.simple_overlay { /* must be initially hidden */
+  /* must be initially hidden */
+  display: none;
+  /* place overlay on top of other elements */
+  z-index: 10000;
+  /* styling */
+  background-color: #fff;
+  min-width: 630px;
+  max-width: 640px;
+  min-height: 300px;
+  max-height: 450px;
+  border: 1px solid #666;
+  /* CSS3 styling for latest browsers */
+  -moz-box-shadow: 0 0 90px 5px #000;
+  -webkit-box-shadow: 0 0 90px #000;
+  overflow: -moz-scrollbars-vertical !important;
+  overflow: auto;
+  overflow-x: hidden; 
+}
+
+.simple_overlay .close {
+  background-image:
+    url(../images/shop/ad_role/close_ad_tmp.png);
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  cursor: pointer;
+  height: 35px;
+  width: 35px;
+}
+
+.simple_overlay img {
+  border: 0px;
+}
+
+.simple_overlay1 { /* must be initially hidden */
+  background-color: #333;
+  width: 625px;
+  height: 210px;
+  border: 1px solid #666;
+  /* CSS3 styling for latest browsers */
+  -moz-box-shadow: 0 0 90px 5px #000;
+  -webkit-box-shadow: 0 0 90px #000;
+  border: 1px solid #666;
+}

@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin:0;
+  padding:0;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+fieldset, img {
+  border:0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style:normal;
+  font-weight:normal;
+}
+ol, ul {
+  list-style:none;
+}
+caption, th {
+  text-align:left;
+}
+/*h1, h2, h3, h4, h5, h6 {
+  font-size:100%;
+  font-weight:normal;
+}*/
+q:before, q:after {
+  content:'';
+}
+abbr, acronym {
+  border:0;
+}
+.CLEAR {
+  clear:both;
+  height: 0;
+  font-size: 1px;
+  line-height: 0;
+}
+a { cursor:pointer;}
+
+/*===========================頁面CSS開始===========================*/
+
+#union_wrapper {
+	width:100%;
+	background:#fffde8 url(../../images/shop/unions/body_top_bg.jpg) repeat-x top center;
+}
+
+#union_bottom{
+	width:100%;
+	height:25px;
+	background:url(../../images/shop/unions/union_bottom_bg.gif) top center repeat-x;}
+
+#union_content {
+	width:970px;
+	margin:0 auto;
+}
+
+#union_header {
+	width:970px;
+	height:130px;
+	background:url(../../images/shop/unions/header_bg.jpg) no-repeat top center;
+	position:relative;}
+	
+#union_header h1.union_title{
+	width:250px;
+	height:130px;
+	text-indent:-9999px;
+	position:absolute;
+	z-index:1;
+	top:0px;
+	left:0px;
+	}	
+	
+#union_header ul {
+	width:575px;
+	height:130px;
+	position:absolute;
+	top:0px;
+	left:250px;
+	z-index:2;}	
+	
+#union_header ul li {
+	display:block;
+	float:left;
+	height:130px;
+	text-indent:-9999px;
+	background:no-repeat left top;}
+
+#union_header ul li.li_01 {
+	background:url(../../images/shop/unions/header_ul_01.jpg);
+	width:115px;}
+	
+#union_header ul li.li_02 {
+	background:url(../../images/shop/unions/header_ul_02.jpg);
+	width:115px;}
+	
+#union_header ul li.li_03 {
+	background:url(../../images/shop/unions/header_ul_03.jpg);
+	width:115px;}
+	
+#union_header ul li.li_04 {
+	background:url(../../images/shop/unions/header_ul_04.jpg);
+	width:115px;}
+	
+#union_header ul li.li_05 {
+	background:url(../../images/shop/unions/header_ul_05.jpg);
+	width:115px;}				
+	
+p.join_text {
+	width:65px;
+	font-size:12px;
+	color:#FFF;
+	line-height:14px;
+	position:absolute;
+	top:31px;
+	right:28px;
+}	
+
+#union_header a.join {
+	text-indent:-9999px;
+	width:111px;
+	height:41px;
+	display:block;
+	position:absolute;
+	top:68px;
+	right:24px;
+	background:url(../../images/shop/unions/join_btn.jpg) no-repeat top center;
+	}
+	
+#union_header a:hover.join {
+	background: url(../../images/shop/unions/join_btn.jpg) no-repeat bottom center;}
+/*===========================大合購LIST開始===========================*/
+#union_box{
+  width:970px;}
+  
+#union_box ul{
+  width:961px;
+  padding:0 0 0 9px;} 
+  
+#union_box ul li.list_box {
+  float:left;
+  width:306px;
+  margin:0 0 10px 10px;
+  _display:inline;}
+  
+#union_box ul li.un_bg {
+  float:left;
+  width:306px;
+  height:340px;
+  margin:0 0 10px 10px;
+  _display:inline;
+  background: url(../../images/shop/unions/list_bg.gif) center center no-repeat;}  
+  
+#union_box ul li.list_box .top {
+  width:306px;
+  height:4px;
+  font-size:0;
+  line-height:0;
+  background:url(../../images/shop/unions/list_box_bg.gif) top center no-repeat;}  
+
+#union_box ul li.list_box .center {
+  width:289px;
+  background:url(../../images/shop/unions/list_box_bg.gif) center center no-repeat;
+  padding:10px 0 7px 17px;
+}   
+    
+#union_box ul li.list_box .bottom {
+  width:306px;
+  height:4px;
+  font-size:0;
+  line-height:0;
+  background:url(../../images/shop/unions/list_box_bg.gif) bottom center no-repeat;}   
+  
+#union_box ul li.list_box .center .img_ad {
+  width:269px;
+  height:98px;
+  padding:1px;
+  border:1px solid #b2b2b2;
+  /*background:url(../../images/shop/unions/no_ad_img.gif) no-repeat center center;*/
+  text-align:center;
+  vertical-align:middle;
+  display:table-cell;
+
+}
+
+#union_box ul li.list_box .center .img_ad img{
+  border:0px;
+  margin:0;
+  padding:0;
+  
+}
+
+div span.img_ie6_hack { _height:100%; _display:inline-block;}
+div#union_box ul li.list_box .center .img_ad *{ _vertical-align:middle;}
+
+
+#union_box ul li.list_box .center h2 {
+  width:273px;
+  height:30px;
+  margin:3px 0 0 0;
+  overflow:hidden;}
+  
+#union_box ul li.list_box .center h2 a {
+  line-height:30px;
+  font-size:16px;
+  font-weight:bold;
+    color:#0055bf;
+  text-decoration:none;
+  } 
+  
+#union_box ul li.list_box .center h2 a:hover {
+  line-height:32px;
+  text-decoration:none;
+  color:#ec4e2f;
+  }   
+
+#union_box ul li.list_box .center p.much {
+  text-indent:20px;
+  width:273px;
+  color:#ff2645;
+  font-size:12px;
+  border-bottom: #999 dashed 1px;
+  background:url(../../images/shop/unions/list_icon_01.gif) left 10px no-repeat;
+  line-height:30px;
+  }
+  
+#union_box ul li.list_box .center p.much span {
+  padding:0 5px 0 3px;
+  font-size:22px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;}  
+  
+#union_box ul li.list_box .center p.time {
+  text-indent:20px;
+  width:273px;
+  color:#4c3d39;
+  font-size:12px;
+  border-bottom: #999 dashed 1px;
+  background:url(../../images/shop/unions/list_icon_02.gif) left 8px no-repeat;
+  } 
+  
+#union_box ul li.list_box .center p.time span {
+  font-size:15px;
+  font-weight:bold;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height:30px;}  
+  
+#union_box ul li.list_box .center a.buy_btn {
+  width:83px;
+  height:32px;
+  display:block;
+  background:url(../../images/shop/unions/buy_btn.gif) no-repeat top center;
+  font-size:12px;
+  text-align:center;
+  text-decoration:none;
+  line-height:32px;
+  color:#a60707;
+  margin:10px 0 0 94px;}
+  
+#union_box ul li.list_box .center a:hover.buy_btn {
+  line-height:32px;
+  background:url(../../images/shop/unions/buy_btn.gif) no-repeat center center;} 
+  
+.note_box {
+  width:970px;
+  height:47px;
+  position:relative;
+  background:url(../../images/shop/unions/note_bg.gif) 22px center no-repeat;}
+  
+.note_box p.end_union{
+  width:90px;
+  height:30px;
+  position:absolute;
+  top:9px;
+  left:860px;
+}
+  
+.note_box p.end_union a{
+  color:#ff2400;
+  font-size:12px;
+  line-height:30px;}  
+
+.note_box p.end_union a:hover{
+  text-decoration:none;
+  color:#ff6c00;}
+
+.note_box .content_left {
+  width:200px;
+  height:47px;
+  line-height:47px;
+  float:left;
+  padding:0 0 0 40px;}
+  
+.note_box .content_left p {
+  font-size:12px;
+  color:#333;
+  font-family:Arial, Helvetica, sans-serif;}
+  
+.note_box .content_right {
+  height:25px;
+  float:right;
+  margin:10px 36px 0 0;
+  display:inline;
+} 
+
+.note_box .content_right a.l_btn{
+  float:left;
+  padding:0 3px 0 0;}
+
+.note_box .content_right .number_box{
+  float:left;
+  padding:0 3px 0 0;}
+
+.note_box .content_right .number_box p {
+  font-weight:700;}
+
+.note_box .content_right a.r_btn{
+  float:left;
+  padding:0 3px 0 0;}
+
+.note_box .content_right .page_list{
+  float:left;
+  padding:0 3px 0 0;}
+
+
+/*========================截止頁CSS============================*/
+
+p.end_icon {
+  width:83px;
+  height:32px;
+  background:url(../../images/shop/unions/buy_btn.gif) center bottom no-repeat;
+  font-size:12px;
+  color:#666;
+  text-align:center;
+  line-height:32px;
+  margin:10px 0 0 94px;}

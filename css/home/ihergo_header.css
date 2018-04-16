@@ -1,0 +1,365 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+h1, h2, h3, h4, h5, h6, p, ul, li{ font-family:Arial, Helvetica, sans-serif, "新細明體-ExtB"; color:#454545;}
+.ihergo_header_wrapper a{ text-decoration:none; outline: none; /* for Firefox Google Chrome  */ behavior:expression(this.onFocus=this.blur()); /* for IE */font-family:Arial, Helvetica, sans-serif, "新細明體-ExtB";color:#454545; font-size:12px;}
+
+.ihergo_header_wrapper{width:100%; background-color:#fcfbfa;}
+.ihergo_header_wrapper .topline{ width:100%; height:4px; background-color:#fdd100;}
+
+.ihergo_header_wrapper .function_box{ width:980px; height:64px; margin: 0 auto;}
+
+/*==logo==*/
+.ihergo_header_wrapper .function_box .ihergo_logo{ float:left; width:180px; height:64px; z-index:5;}
+.ihergo_header_wrapper .function_box .ihergo_logo a.logo{ display:block; width:180px; height:64px; background:url(../../images/home/ihergo_header/ihergo_logo.gif) no-repeat; text-indent:-9999px;}
+.ihergo_header_wrapper .function_box .ihergo_logo a.logo:hover{filter:alpha(opacity=80);opacity:0.8;zoom:1;}
+
+/*==未登入區塊==*/
+.ihergo_header_wrapper .function_box .member_box ul.login_box{ height:64px;}
+.ihergo_header_wrapper .function_box .member_box ul.login_box li{ float:right;}
+.ihergo_header_wrapper .function_box .member_box ul.login_box li a{display:block; width:33px; height:32px; line-height:32px; font-size:13px; text-indent:-9999px; text-decoration:none; margin:16px 0 0 6px;}
+.ihergo_header_wrapper .function_box .member_box ul.login_box li a:hover{filter:alpha(opacity=90);opacity:0.9;zoom:1; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);}
+.ihergo_header_wrapper .function_box .member_box ul.login_box li a.login_yahoo{background:url(../../images/home/ihergo_header/logo_login.gif) no-repeat left -80px;}
+.ihergo_header_wrapper .function_box .member_box ul.login_box li a.login_google{background:url(../../images/home/ihergo_header/logo_login.gif) no-repeat left -40px;}
+.ihergo_header_wrapper .function_box .member_box ul.login_box li a.login_fb{background:url(../../images/home/ihergo_header/logo_login.gif) no-repeat left top;}
+.ihergo_header_wrapper .function_box .member_box ul.login_box li p{ font-size:12px; color:#666; letter-spacing:2px; height:64px; line-height:64px; background:url(../../images/home/ihergo_header/login_line.jpg) no-repeat left top; padding:0 5px 0 15px; _width:84px;}
+
+.ihergo_header_wrapper .function_box .member_box ul.login_box li a.login_ihergo{ text-indent:0; height:30px; line-height:30px; color:#454545; font-size:12px; font-weight:bold; background-color:#fdd100; border: 1px solid #f0bc1b; border-radius:3px; letter-spacing:2px; text-align:center; width:auto; padding: 0 10px; margin-right:15px; _width:132px;}
+.ihergo_header_wrapper .function_box .member_box ul.login_box li a.login_ihergo:hover{background-color:#ffe100;  border: 1px solid #e9b800; color: #3B5998; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);}
+.ihergo_header_wrapper .function_box .member_box ul.login_box li a.sign_up{ font-size:12px; text-indent:0; font-weight:bold; color:#3B5998; width:auto; height:64px; line-height:64px; margin:0 10px 0 0; letter-spacing:2px; _width:60px;}
+.ihergo_header_wrapper .function_box .member_box ul.login_box li a.sign_up:hover{ box-shadow:none; text-decoration:underline;}
+
+
+/*==聯名廠商==*/
+.ihergo_header_wrapper .function_box .joint_box{ float:left; width:160px; height:55px; margin-top:5px; _display:inline;}
+.ihergo_header_wrapper .function_box .joint_box a{ display:block; width:160px; height:55px;}
+.ihergo_header_wrapper .function_box .joint_box a:hover{filter:alpha(opacity=90);opacity:0.9;zoom:1;}
+
+.ihergo_header_wrapper .function_box .member_box{ float:right; width:640px; height:64px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box{ height:64px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li{ float:right;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li.gray_line{ background:url(../../images/home/ihergo_header/header_line01.jpg) no-repeat 0 0; _width:60px; position:relative; z-index:35;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li.account_box{ width:470px\0; /*IE9*/}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li a.light_btn{ display:block; font-size:12px; color:#454545; text-align:center; height:44px; padding: 10px 12px 10px 14px; line-height:22px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li a.light_btn:hover{ text-decoration:none;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li a.light_active{ background-color:#353535; color:#fff;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li a.light_btn span{ display:block; background-color:#e9e9e9; color:#fff; padding: 0 6px; padding-right:4px\0;/*IE8.9*/ font-family: "Times New Roman",Times,serif; font-weight:bold; font-size:18px; border-radius:3px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li a.light_btn span.unread{ background-color:#f64949;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li a.light_btn:hover{ background-color:#353535; color:#fff;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li a.light_btn span.active{ background-color:#454545;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box{ height:20px; margin-top:8px; text-align:right; position:relative;  z-index:49;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box .user_name{ float:right;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box .user_name img.h16{ height:16px; border:1px #ccc solid; vertical-align:middle;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box a.user{ color:#105cb6; font-weight:bold; font-size:12px; text-decoration:none;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box a.user:hover{ color:#ff9933; text-decoration:underline;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box span.text9{ font-size:11px; color:#666; padding-right:5px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box span.text9 a.origin{ font-size:9pt; color:#666;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box a.logout{ font-size:11px; padding-right:5px; color:#105cb6; letter-spacing:2px;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function{ height:30px; margin-top:6px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page{ float:right; background:url(../../images/home/ihergo_header/header_line02.jpg) no-repeat 0 0px; height:28px; position:relative; z-index:35;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page:hover{ background-color:#353535;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .active{background-color:#454545;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .active a{color:#fff;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .w_B{}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page a.mine{ font-size:12px; padding:6px 8px 6px 20px; letter-spacing:1px; line-height:25px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page a.mine:hover{ color:#fff; text-decoration:none; /*background:#353535;*/}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page a span.arrow{border-left: 5px solid #FCFBFA; border-top: 5px solid #454545; border-right: 5px solid #FCFBFA; position:absolute; top:10px; left:6px; background:none; display:inline-block; *background:url(../../images/home/ihergo_header/header_arrow.gif) no-repeat -3px -6px; _border:none; _width:15px; _height:5px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page a span.arrow_active{border-left: 5px solid #454545; border-top: 5px solid #FCFBFA; border-right: 5px solid #454545; *display:block; margin:0 5px 1px 0; display:inline-block; *background:url(../../images/home/ihergo_header/header_arrow.gif) no-repeat -3px -35px; _border:none; _width:15px; _height:5px;  position:absolute; top:9px; left:6px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page a span.ihergo_point{ color:#F36167; font-weight:bold; letter-spacing:0; padding-left:3px;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_calendar{ float:right; }
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_calendar a{ letter-spacing:1px; padding:0 8px; height:24px; line-height:24px; line-height:30px\9;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_calendar a:hover{ color:#105cb6; text-decoration:underline;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_calendar a.notice_red{ height:24px; line-height:24px; font-size:12px; background-color: #F64949; border-left: 1px solid #F76464; border-radius: 0 3px 3px 0; color:#FFF; font-weight: bold; padding: 4px 8px 3px 6px;  padding: 4px 6px 3px 4px; }
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_calendar a.notice_red:hover{color:#fff; text-decoration:underline;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_calendar a.notice_matter{ height:24px; line-height:24px; font-size:12px; background-color: #F64949; border-radius: 3px 0 0 3px; border-right: 1px solid #E24242; color:#FFF; font-weight: bold; padding: 4px 6px 3px 8px; padding: 4px 4px 3px 5px\0; /*IE8/9*/}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_calendar a.notice_matter:hover{ color:#fff; text-decoration:underline;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .notify_family{ _width:75px;}
+
+/*=全站服務_開始=*/
+.ihergo_header_wrapper .menu_wrapper{ width:100%; height:34px; border:1px #e5e5e5 solid; border-width:1px 0; background-color:#f5f5f5;}
+.ihergo_header_wrapper .menu_wrapper .menu_box{ width:980px; height:34px; border-left:1px #d8d8d8 solid; margin:0 auto;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li{ float:left; height:34px; }
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li a{ display:block; text-align:center; height:34px; line-height:34px; width:114px; font-size:15px; font-weight:bold; letter-spacing:1px;border-right:1px #d8d8d8 solid;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li a:hover{ text-decoration:none;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.storelist_box{ position:relative; z-index:35;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.storelist_box a.store_list{ width:173px; position:relative; color:#D55555; background: url(../../images/home/ihergo_header/arrow_storelist.gif) no-repeat 16px 3px #fffcd9;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.storelist_box a.store_list:hover{ color:#fbfbfb; background: url(../../images/home/ihergo_header/arrow_storelist.gif) no-repeat 16px -61px #454545; border-bottom:1px #454545 solid;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.storelist_box a.active{ color:#fff; background: url(../../images/home/ihergo_header/arrow_storelist.gif) no-repeat 16px -61px #454545;}
+
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li a.bg_yellow{ color:#BB8383; background-color:#fffcd9;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li a.bg_yellow:hover{ color:#d55555;background-color:#fdece7;  border-bottom:1px solid #D55555;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li a.bg_blue{ color:#7492B2; background-color:#eff5f9;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li a.bg_blue:hover{color:#1783ce; background-color:#ddeff5; border-bottom:1px solid #105CB6;}
+ 
+ 
+/*==搜尋_開始==*/
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.search_box{ float:right; height:29px; padding:4px 0 0 0; _padding:0; border:none; }
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.search_box .search_bar{ float:left; height:24px; _height:20px; border:1px #cdcdcd solid; border-width:1px 1px 1px 1px; background-color:#fff; _margin-top:3px; _display:inline; _border-width:1px; _width:274px; position:relative; z-index:3;}
+
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.search_box .search_bar input{ width:185px; height:22px; border:1px #fff solid; border-width: 0 1px; color:#454545; font-size:12px; padding:0 0 0 26px; font-family:Arial, Helvetica, sans-serif; letter-spacing:1px; background: url(../../images/home/ihergo_header/icon_search.jpg) no-repeat 2px 0; _padding:0px 0 0 26px; z-index:3;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.search_box .search_bar select.search_type{height:24px; line-height:24px; border:1px #cdcdcd solid; border-width:0 0 0 1px; color:#454545; font-size:12px; padding:3px 2px 3px 4px; display:inline; letter-spacing:2px; text-align:center;}
+
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.search_box a.btn_search{ float:left; width:52px; height:24px; line-height:24px; background: url(../../images/home/ihergo_header/icon_search.jpg) no-repeat 0 -34px; text-indent:-9999px; margin:1px 0 0 4px; _margin:5px 0 0 6px; _display:inline;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.search_box a.btn_search:hover{ background-position:0 -78px;}
+
+
+/*==關鍵字欄位_開始==*/
+.ihergo_header_wrapper .second_wrapper{ width:100%; height:27px; background: url(../../images/home/ihergo_header/bg_keyword.jpg) repeat-x;}
+.ihergo_header_wrapper .second_wrapper .second_box{ width:980px; margin: 0 auto;}
+
+.ihergo_header_wrapper .second_wrapper .second_box .breadcrumb{float:left; height:26px; line-height:28px;}
+.ihergo_header_wrapper .second_wrapper .second_box .breadcrumb p{ font-size:12px; color:#666; letter-spacing:1px; padding-left:5px;}
+.ihergo_header_wrapper .second_wrapper .second_box .breadcrumb p a{ color:#105cb6; text-decoration:none;}
+.ihergo_header_wrapper .second_wrapper .second_box .breadcrumb p a:hover{ text-decoration:underline;}
+.ihergo_header_wrapper .second_wrapper .second_box .breadcrumb p span{ padding:0 2px;}
+.ihergo_header_wrapper .second_wrapper .second_box .breadcrumb p span.txt_target{ color:#888; font-weight:bold;}
+
+
+.ihergo_header_wrapper .second_wrapper .second_box .keyword_box{float:right; /*width:470px;*/ height:26px; line-height:26px;}
+.ihergo_header_wrapper .second_wrapper .second_box .keyword_box p{ float:right; width:340px; height:26px; color:#944848; text-align:left; letter-spacing:1px; font-size:12px; overflow:hidden;}
+.ihergo_header_wrapper .second_wrapper .second_box .keyword_box a{ color:#105cb6; text-decoration:none; padding:0 4px;}
+.ihergo_header_wrapper .second_wrapper .second_box .keyword_box a:hover{ text-decoration:underline;}
+
+
+/*==商店街下拉選單_開始==*/
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.storelist_box .store_sort{ position:absolute; width:173px; background-color:#f5f5f5; border:2px #454545 solid; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3); z-index:99;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.storelist_box .store_sort ul li{height:31px;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.storelist_box .store_sort ul li a{ display:block; width:173px; height:30px; line-height:30px; text-align:center; font-size:13px; font-weight:normal; color:#666; border:1px #d8d8d8 solid; border-width:0 0 1px 0; letter-spacing:3px;background: url(../../images/home/ihergo_header/arrow_storelist.gif) no-repeat 15px -96px;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.storelist_box .store_sort ul li a:hover{ font-weight:bold; color:#fff; background: url(../../images/home/ihergo_header/arrow_storelist.gif) no-repeat 15px -128px #555; border-bottom:1px #555 solid;}
+
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.storelist_box .store_sort ul.sub_options li a{ background:none;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.storelist_box .store_sort ul.sub_options li a:hover{ color:#454545; background-color:#fff; font-weight:normal; border-bottom:1px #d8d8d8 solid;}
+
+
+/*==通知下拉_開始==*/
+.header_notice_box{position: absolute; top:64px; right:0px; width:380px; overflow:hidden;  background-color:#f5f5f5; border:2px solid #454545; z-index:99;} 
+.header_notice_box .notice_top{ width:100%; height:36px; line-height:36px; background-color:#454545;}
+.header_notice_box .notice_top h4{ float:left; font-size:13px; color:#dcdcdc; text-indent:15px; letter-spacing:2px;}
+.header_notice_box .notice_top a{ float:right; display:block; font-size:12px; color:#dcdcdc; padding: 0 15px;}
+.header_notice_box .notice_top a:hover{ color:#a9a9a9;}
+
+/*==Loading==*/
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .notice_loading{ padding:10px 0; text-align:center;}
+
+.header_notice_box .notice_content{ width:380px;}
+.header_notice_box .notice_content a{ display:block; padding:10px 10px 8px 10px; width:360px; border-top:1px solid #dcdcdc; background-color:#fff;}
+.header_notice_box .notice_content a:hover{ background-color:#f5f5f5; _text-decoration:none;}
+.header_notice_box .notice_content a.unread{ background-color:#ffedbe;}
+.header_notice_box .notice_content a.unread:hover{ background-color:#fde9b7; _text-decoration:none;}
+
+.header_notice_box .notice_content .img_box{float:left; width:40px; height:40px; margin-right:10px; _display:inline;}
+.header_notice_box .notice_content .txt_box{float:left; width:310px;}
+.header_notice_box .notice_content .txt_box p{ font-size:13px; letter-spacing:1px; color:#444; line-height:18px; word-break:break-all;}
+.header_notice_box .notice_content .txt_box b.txt_member{ color:#3B5998; letter-spacing:0;}
+.header_notice_box .notice_content .txt_box p span.rating{ font-size:12px; color:#888; font-weight:normal; padding:0 5px 0 2px;}
+.header_notice_box .notice_content .txt_box p span.txt_store{ font-weight:bold; padding: 0 3px;}
+.header_notice_box .notice_content .txt_box p span.txt_bb13{ font-weight:bold; color:#3B5998; font-size:13px; padding: 0 4px;}
+.header_notice_box .notice_content .txt_box p.txt_time{ font-size:12px; color:#999; text-align:right; padding:4px 5px 0 0;}
+
+.header_notice_box .other_notice{ width:380px; border-top:1px solid #dcdcdc; background-color:#f5f5f5;}
+.header_notice_box .other_notice a{ display:block; width:350px; padding:10px 15px; font-size:12px; letter-spacing:1px; color:#444; line-height:18px; word-break:break-all;}
+.header_notice_box .other_notice a:hover{_text-decoration:none;}
+.header_notice_box .other_notice a span{ text-decoration:underline; padding: 0 4px;}
+
+.header_notice_box .notice_bottom{ height:38px; line-height:38px;}
+.header_notice_box .notice_bottom a{ display:block; color:#3B5998; font-weight:bold; text-align:center; background: url(../../images/home/notice_box/notbox_bottom_bg.gif) no-repeat left top;}
+.header_notice_box .notice_bottom a:hover{ background-position:left bottom;_text-decoration:none;}
+
+
+/*==我的下拉選單_開始==*/
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .mypage_sort{ position:absolute; width:160px; background-color:#f5f5f5; border:2px #454545 solid; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3); z-index:99; top:28px; right:0; }
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .mypage_sort ul li{height:31px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .mypage_sort ul li a{ display:block; width:160px; height:30px; line-height:30px; text-align:center; font-size:13px; font-weight:normal; color:#666; border:1px #d8d8d8 solid; border-width:0 0 1px 0; letter-spacing:3px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .mypage_sort ul li a:hover{ font-weight:normal; color:#454545; background-color:#fff; border-bottom:1px #d8d8d8 solid; text-decoration:none;}
+/*.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .mypage_sort ul li a span{ font-size:15px; font-family:"Times New Roman",Times,serif; color:#fff; background-color:#f64949; border-radius:2px; padding:0 5px; letter-spacing:0;}
+*/.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .mypage_sort ul li a span{color:#f64949; font-weight:bold;}
+
+
+/*下拉標題共用_開始*/
+.ihergo_header_wrapper .function_box .member_box .noteBox_top{ width:100%; height:30px; background-color:#f5f5f5;}
+.ihergo_header_wrapper .function_box .member_box .noteBox_top h4{ float:left; line-height:30px; font-size:13px; color:#555; letter-spacing:2px; text-indent:15px;}
+.ihergo_header_wrapper .function_box .member_box .noteBox_top p{ font-weight:bold; line-height:30px; font-size:13px; color:#555; letter-spacing:2px; text-indent:15px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .noteBox_top a.more{ float:right; display:block; color:#777; line-height:30px; font-size:12px; letter-spacing:1px; margin-right:10px; _display:inline;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .noteBox_top a.more:hover{ color:#999;}
+.ihergo_header_wrapper .function_box .member_box .noteBox_bottom{width:100%; height:38px; background-color:#fbfbfb; }
+.ihergo_header_wrapper .function_box .member_box .noteBox_bottom a{ display:block; letter-spacing:1px;line-height:38px; }
+.ihergo_header_wrapper .function_box .member_box .noteBox_bottom p.txt_none{ height:38px; line-height:38px; color:#666; text-align:center; font-weight:bold; border-top: 1px #ccc solid; font-size:12px;}
+
+
+/*==紅利下拉_開始==*/
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .point_box{position:absolute; width:360px; background-color:#f5f5f5; border:2px #454545 solid; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3); z-index:99; top:28px; right:0;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .point_box .point_content{ width:340px; padding:10px 5px 10px 15px; background-color:#fff; border-top:1px #dcdcdc solid;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .point_box .point_content p{ color:#454545; letter-spacing:1px;font-size:12px; line-height:18px; letter-spacing:1px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .point_box .point_content a{ color:#105cb6; text-decoration:none;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .point_box .point_content a:hover{ text-decoration:underline;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .point_box .point_content a span.txt_RB12{ font-weight:bold; color:#f64949; padding: 0 8px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .noteBox_bottom a.txt_morepoint{ display:block; font-size:12px; color:#3B5998; text-align:center; font-weight:bold;  background:url(../../images/home/notice_box/notbox_bottom_bg.gif) no-repeat left top;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .noteBox_bottom a.txt_morepoint:hover{ text-decoration:underline;  background:url(../../images/home/notice_box/notbox_bottom_bg.gif) no-repeat left bottom;}
+
+/*各店家紅利金額*/
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .point_box ul.point_store_box{ width:360px; background-color:#fff; overflow:hidden; }
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .point_box ul.point_store_box li{ border-top:1px #dcdcdc solid ; width:360px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .point_box ul.point_store_box li a{ width:330px; display:block; background-color:#fff; color:#666666; padding:5px 15px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .point_box ul.point_store_box li a:hover{ background-color:#f8f8f8;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .point_box ul.point_store_box li p{ float:left; letter-spacing:1px; line-height:20px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .point_box ul.point_store_box li p.txt_end{ float:right; color:#888;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .point_box ul.point_store_box li p.txt_end_red{ float:right; color:#f64949;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .personal_function .my_page .point_box ul.point_store_box li p span.highlight{ color:#f64949; padding:0 3px;}
+
+
+/*==關鍵字索引_開始==*/
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.search_box .search_remind{ position:absolute; left:-1px; top:24px; width:216px; background-color:#fbfbfb; border:1px #bcbcbc solid; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1); z-index:99;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.search_box .search_remind ul li{ border-bottom:1px #dcdcdc solid;  overflow:hidden; float:none; height: auto;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.search_box .search_remind ul li.keydown_active{background-color:#eee;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.search_box .search_remind ul li a{ display:block; width:192px; height:20px; font-size:12px; color:#105cb6; line-height:20px; font-weight:normal; text-align:left; border:none; padding:3px 12px; text-indent:16px;}
+.ihergo_header_wrapper .menu_wrapper .menu_box ul li.search_box .search_remind ul li a:hover{ background-color:#eee; text-decoration:none;}
+
+
+/*==家族文章下拉_開始==*/
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .family_box{position:absolute; width:222px; background-color:#f5f5f5; border:2px #454545 solid; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3); z-index:99; top:28px; right:0;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .family_box ul.family_list{ width:222px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .family_box ul.family_list li{ border-top:1px #dcdcdc solid; float:none;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .family_box ul.family_list li a{ display:block; width:222px; padding:10px 0; overflow:hidden; text-align:center; color:#105cb6; text-decoration:none; letter-spacing:0; background-color:#fff;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .family_box ul.family_list li a:hover{ background-color:#f5f5f5; color:#105cb6; text-decoration:none;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .family_box ul.family_list li a.unread{ background-color:#FFEDBE;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .family_box ul.family_list li a.unread:hover{ background-color:#fde9b7;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .family_box ul.family_list li a span.private{ background: url(../../images/2011/private.gif) no-repeat scroll -2px -4px transparent; padding-left: 15px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .family_box ul.family_list li a span.semi_closed{ background: url(../../images/2011/private.gif) no-repeat scroll -2px -27px transparent; padding-left: 15px;}
+
+.ihergo_header_wrapper .function_box .member_box  ul.light_box li .family_box .noteBox_bottom a.txt_clear{ color:#666; text-align:center; font-weight:bold; background:url(../../images/home/notice_box/notbox_bottom_bg.gif) no-repeat left top; line-height:38px;}
+.ihergo_header_wrapper .function_box .member_box  ul.light_box li .family_box .noteBox_bottom a.txt_clear:hover{ text-decoration:underline; background-color:#f5f5f5; background:url(../../images/home/notice_box/notbox_bottom_bg.gif) no-repeat left bottom;}
+
+
+/*==信件下拉_開始==*/
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box{position:absolute; width:160px; background-color:#f5f5f5; border:2px #454545 solid; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3); z-index:99; top:64px; right:0;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box ul{ width:160px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box ul li{ border-top:1px #dcdcdc solid; float:none;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box ul li a{display:block; width:160px; height:30px; line-height:30px; font-size:13px; overflow:hidden; text-align:center; color:#666; text-decoration:none; letter-spacing:3px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box ul li a:hover{ background-color:#fff; text-decoration:none;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box ul li a span.unread{color:#FFF; font-weight:bold; font-family: "Times New Roman",Times,serif; padding: 1px 4px 1px 6px; background-color:#F64949; border-radius: 3px; letter-spacing:1px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box ul li a span.red_w{ color:#F64949; font-size:12px; font-weight:bold; letter-spacing:0px;}
+
+/*未登入區塊_開始*/
+.ihergo_header_wrapper .unlogin_wrapper{ width:100%; background-color:#fff;}
+.ihergo_header_wrapper .unlogin_box{ width:980px; height:114px; margin: 0 auto; background:url(../../images/home/ihergo_header/pic_unlogin.jpg) no-repeat; position:relative;}
+.ihergo_header_wrapper .unlogin_box h3{ text-indent:-9999px;}
+.ihergo_header_wrapper .unlogin_box p{ text-indent:-9999px;}
+.ihergo_header_wrapper .unlogin_box a.close_pic{ display:block; width:22px; height:22px; position:absolute; right:1px; top:0; background:url(../../images/home/ihergo_header/icon_close.jpg) no-repeat; text-indent:-9999px;opacity: 0.7;filter: Alpha(Opacity=70); zoom:1;}
+.ihergo_header_wrapper .unlogin_box a.close_pic:hover{opacity:1;filter: Alpha(Opacity=100); zoom:1;}
+
+.ihergo_header_wrapper .unlogin_box a.go_register{display:block; width:85px; height:25px; line-height:25px; position:absolute; right:10px; bottom:0; background:url(../../images/home/ihergo_header/icon_love.gif) no-repeat; padding-left:28px; color:#105cb6; letter-spacing:1px; }
+.ihergo_header_wrapper .unlogin_box a.go_register:hover{ text-decoration:underline;}
+
+
+
+/*==訂單下拉 - 列表呈現_開始==*/
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list{ position:absolute; width:496px; background-color:#ffffff; border:2px #454545 solid; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3); z-index:99; top:64px; right:0;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list p{ letter-spacing:1px; font-size:13px; }
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .top_tab{ width:476px; height:36px; border-bottom:1px solid #dcdcdc; background-color:#454545; padding:0 10px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .top_tab p{ line-height:36px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .top_tab p a{ color:#dcdcdc; font-size:13px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .top_tab p a:hover{ text-decoration:none; color:#a9a9a9;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .top_tab p span{ color:#F36167; font-weight:bold;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .top_tab ul.left_type{ width:100%;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .top_tab ul.left_type li{ float:right; margin-right:15px; _display:inline;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .top_tab ul.left_type li.btm_in{ float:left;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .top_tab ul.left_type li.btm_in p{ color:#dcdcdc;}
+/*.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .top_tab ul.left_type li p a:hover{ font-weight:bold; color:#505050;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .top_tab ul.left_type li.btm_in p a{font-weight:bold; color:#505050;}*/
+
+/*.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .top_tab p.other_tools{ float:right;}*/
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .top_tab p.other_tools a:hover{ text-decoration:underline;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box{ width:496px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box a{ width:496px; height:70px; display:block; border-bottom:1px solid #dcdcdc;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box a:hover{ background-color:#f5f5f5; text-decoration:none;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box a.unread{ background-color:#FFEDBE;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box a.unread:hover{ background-color:#fde9b7;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box .img_box{ float:left; width:40px; height:40px; overflow:hidden; margin:8px 10px;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box .txt_box{ width:426px; float:left; padding-top:5px;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box p.txt_member{ font-size:13px; color:#3b5998; font-weight:bold; float:left;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list p.txt_time{ float:right; font-size:12px; color:#888888;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box p.txt_system{ color:#44A205; font-weight:bold; float:left;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box p.txt_member span{ font-size:12px; color:#888888; font-weight:normal;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box .txt_box p.order_tite{ width:426px; height:22px; display:block; overflow:hidden; text-indent:23px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box .txt_box p.icon_group{ background: url(../../images/user/user2012/user2012_menulist_icom.png) no-repeat scroll left -25px rgba(0, 0, 0, 0); _background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left -25px; *background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left -25px;  background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left -25px \9;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box .txt_box p.icon_order{ background: url(../../images/user/user2012/user2012_menulist_icom.png) no-repeat scroll left -55px rgba(0, 0, 0, 0); _background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left -55px; *background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left -55px; background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left -55px \9;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box .txt_box p.icon_reward{ background: url(../../images/user/user2012/user2012_menulist_icom.png) no-repeat scroll left -86px rgba(0, 0, 0, 0); _background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left -86px; *background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left -86px; background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left -86px \9;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box .txt_box p.icon_mail{ background: url(../../images/user/user2012/user2012_menulist_icom.png) no-repeat scroll left top rgba(0, 0, 0, 0); _background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left top; *background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left top; background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left top \9;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box .txt_box p.icon_notice{ background: url(../../images/user/user2012/user2012_menulist_icom.png) no-repeat scroll left -223px rgba(0, 0, 0, 0); _background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left -223px; *background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left -223px; background: url(../../images/user/user2012/user2012_menulist_icom.gif) no-repeat left -223px \9;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box .txt_box .s_data{ width:426px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box .txt_box .s_data p.m_w{ width:320px; height:20px; display:block; overflow:hidden;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box .txt_box .s_data p.txt_content{font-size:12px; color:#888888; height:20px; overflow:hidden;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list .list_box .txt_box .s_data p.txt_content span{ color:#c4c4c4;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list p.more{ line-height:38px; text-align:center;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list p.more a{ width:496px; height:38px; display:block; color:#3b5998; font-weight:bold;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .mail_box_list p.more a:hover{ background-color:#f5f5f5;}
+
+.mail_box_list .other_notice{ width:496px; background-color:#f5f5f5;}
+.mail_box_list .other_notice a{ display:block; padding:10px 15px; font-size:12px; letter-spacing:1px; color:#444; line-height:18px; word-break:break-all; text-align:center;}
+.mail_box_list .other_notice a:hover{_text-decoration:none;}
+.mail_box_list .other_notice a span{ text-decoration:underline; padding: 0 4px;} 
+
+
+/*==我的下拉(帳號旁邊)==*/
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box .my_page{ float:right;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box .my_page a.mine{ width:20px; height:20px; display:block; position:relative; overflow:hidden;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box .my_page a.mine:hover{ color:#fff; text-decoration:none; background-color:#353535;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box .my_page a span.arrow{ border-left: 5px solid #FCFBFA; border-top: 5px solid #454545; border-right: 5px solid #FCFBFA; position:absolute; right:5px; top:8px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box .my_page a span.arrow_active{ border-left: 5px solid #454545; border-top: 5px solid #FCFBFA; border-right: 5px solid #454545; position:absolute; right:5px; top:8px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box .my_page a span.ihergo_point{ color:#F36167; font-weight:bold; letter-spacing:0; padding-left:3px;}
+
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box .active{ background-color:#454545;}
+
+
+/*==我的下拉選單_開始==*/
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box .my_page .mypage_sort{ position:absolute; top:20px; right:0; width:160px; background-color:#f5f5f5; border:2px #454545 solid; box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3); z-index:99; }
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box .my_page .mypage_sort ul li{ height:31px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box .my_page .mypage_sort ul li a{ display:block; width:160px; height:30px; line-height:30px; text-align:center; font-size:13px; font-weight:normal; color:#666; border:1px #d8d8d8 solid; border-width:0 0 1px 0; letter-spacing:3px;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box .my_page .mypage_sort ul li a:hover{ font-weight:normal; color:#454545; background-color:#fff; border-bottom:1px #d8d8d8 solid; text-decoration:none;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box .my_page .mypage_sort ul li a span{ font-size:15px; font-family:"Times New Roman",Times,serif; color:#fff; background-color:#f64949; border-radius:2px; padding:0 5px; letter-spacing:0;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li .user_box .my_page .mypage_sort ul li a.logout{ color:#105CB6; padding:0px;}
+
+/*==20140619數字為零時顯示圖示==*/
+.ihergo_header_wrapper .function_box .member_box ul.light_box li a.light_btn span.pic_order{ display:block; width:12px; height:22px; background:url(../../images/home/ihergo_header/icon_main.png) no-repeat -1px 0;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li a.light_btn span.pic_mail{ display:block; width:12px; height:22px; background:url(../../images/home/ihergo_header/icon_main.png) no-repeat -34px 0;}
+.ihergo_header_wrapper .function_box .member_box ul.light_box li a.light_btn span.pic_notify{ display:block; width:12px; height:22px; background:url(../../images/home/ihergo_header/icon_main.png) no-repeat -63px 0;}
+
+
+/*==20140909_新增辦公室合購&好康主購==*/
+.ihergo_header_wrapper .second_wrapper .second_box .other_service{ float:left; height:26px; line-height:28px; margin:0 0 0 20px; padding-left:15px; border-left:1px #d5d5d5 solid; _display:inline;}
+.ihergo_header_wrapper .second_wrapper .second_box .other_service a{float:left; display:block; padding-left:20px; _display:inline; color:#454545; opacity:0.8;}
+.ihergo_header_wrapper .second_wrapper .second_box .other_service a:hover{ opacity:1;}
+.ihergo_header_wrapper .second_wrapper .second_box .other_service a.office_event{ background:url(../../images/home/ihergo_header/icon_office.png) no-repeat 0 5px; margin-right:18px;}
+.ihergo_header_wrapper .second_wrapper .second_box .other_service a.my_feedback{ background:url(../../images/home/ihergo_header/icon_feedback.png) no-repeat 0 5px;}
+.ihergo_header_wrapper .second_wrapper .second_box .other_service a.good_article{ background:url(../../images/home/ihergo_header/icon_good_article.png) no-repeat 10px 4px;margin-left:5px; padding-left:31px;}
+	
+
+/*==20150126_新增面交店==*/
+.ihergo_header_wrapper .second_wrapper .second_box .other_service a.FacetoFace{ background:url(../../images/home/ihergo_header/icon_FaceToFace.png) no-repeat 0 4px; margin-left:17px;}
+
+
+
+
+
+
+
+

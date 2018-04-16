@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+#vip_prize_box{width:980px; height:auto; margin:0 auto;}
+
+
+/*上方menu內容START*/
+#prize_menu{ width:980px; height:120px; margin: 0 auto; margin-bottom:10px;}
+
+#prize_menu ul li{ float:left; height:120px; }
+#prize_menu ul li a{ display:block; height:120px; text-indent:-9999px; background:url(../images/vip/pic_vip.jpg) no-repeat;}
+
+#prize_menu ul li.diamond a{ display:block; width:125px; height:120px; background-position: 0 -120px;}
+#prize_menu ul li.gold a{ display:block; width:125px; height:120px; background-position: -125px -120px;}
+#prize_menu ul li.silver a{ display:block; width:120px; height:120px; background-position: -250px -120px;}
+#prize_menu ul li.main {width:240px; height:120px; background:url(../images/vip/pic_vip.jpg) no-repeat -370px 0;}
+#prize_menu ul li.copper a{ display:block; width:120px; height:120px; background-position: -610px -120px;}
+#prize_menu ul li.progress a{ display:block; width:125px; height:120px; background-position: -730px -120px;}
+#prize_menu ul li.new_enter a{ display:block; width:125px; height:120px; background-position: -855px -120px;}
+
+#prize_menu ul li.diamond a:hover{ display:block; width:125px; height:120px; background-position: 0 0;}
+#prize_menu ul li.gold a:hover{display:block; width:125px; height:120px; background-position: -125px 0;}
+#prize_menu ul li.silver a:hover{display:block; width:120px; height:120px; background-position: -250px 0;}
+#prize_menu ul li.copper a:hover{display:block; width:120px; height:120px; background-position: -610px 0;}
+#prize_menu ul li.progress a:hover{display:block; width:125px; height:120px; background-position: -730px 0;}
+#prize_menu ul li.new_enter a:hover{display:block; width:125px; height:120px; background-position: -855px 0;}
+
+#prize_menu ul li.diamond_active{ width:125px; height:120px; background-position: 0 0;}
+#prize_menu ul li.gold_active{ width:125px; height:120px; background-position: -125px 0;}
+#prize_menu ul li.silver_active{ width:120px; height:120px; background-position: -250px 0;}
+#prize_menu ul li.copper_active{ width:120px; height:120px; background-position: -610px 0;}
+#prize_menu ul li.progress_active{ width:125px; height:120px; background-position: -730px 0;}
+#prize_menu ul li.new_enter_active{ width:125px; height:120px; background-position: -855px 0;}
+
+#prize_menu ul li.main span{ display:block; width:155px; height:44px; background:url(../images/vip/pic_vip.jpg) no-repeat; margin:13px 0 0 11px;}
+#prize_menu ul li.main span.month_01{ background-position: 0 -240px;}
+#prize_menu ul li.main span.month_02{ background-position: -155px -240px;}
+#prize_menu ul li.main span.month_03{ background-position: -310px -240px;}
+#prize_menu ul li.main span.month_04{ background-position: -465px -240px;}
+#prize_menu ul li.main span.month_05{ background-position: -620px -240px;}
+#prize_menu ul li.main span.month_06{ background-position: -775px -240px;}
+#prize_menu ul li.main span.month_07{ background-position: 0 -284px;}
+#prize_menu ul li.main span.month_08{ background-position: -155px -284px;}
+#prize_menu ul li.main span.month_09{ background-position: -310px -284px;}
+#prize_menu ul li.main span.month_10{ background-position: -465px -284px;}
+#prize_menu ul li.main span.month_11{ background-position: -620px -284px;}
+#prize_menu ul li.main span.month_12{ background-position: -775px -284px;}
+/*上方menu內容END*/
+
+#plist_content{ width:960px; margin:0 auto;}
+#plist_content .plist_box{ width:960px; margin: 0 auto;}
+
+/*TOP_START*/
+#plist_content .plist_box .plist_top{ width:950px; height:32px; border-bottom:1px #d6b175 solid; padding-left:10px;}
+
+#plist_content .plist_box .plist_top .name01{ float:left; width:105px; height:32px; background:url(../images/vip/pic_vip.jpg) no-repeat 0 -328px;}
+#plist_content .plist_box .plist_top .name02{ float:left; width:105px; height:32px; background:url(../images/vip/pic_vip.jpg) no-repeat -105px -328px;}
+#plist_content .plist_box .plist_top .name03{ float:left; width:105px; height:32px; background:url(../images/vip/pic_vip.jpg) no-repeat -210px -328px;}
+#plist_content .plist_box .plist_top .name04{ float:left; width:105px; height:32px; background:url(../images/vip/pic_vip.jpg) no-repeat -315px -328px;}
+#plist_content .plist_box .plist_top .name05{ float:left; width:105px; height:32px; background:url(../images/vip/pic_vip.jpg) no-repeat -420px -328px;}
+#plist_content .plist_box .plist_top .name06{ float:left; width:105px; height:32px; background:url(../images/vip/pic_vip.jpg) no-repeat -525px -328px;}
+#plist_content .plist_box .plist_top .name07{ float:left; width:130px; height:32px; background:url(../images/vip/pic_vip.jpg) no-repeat -630px -328px;}
+
+#plist_content .plist_box .plist_top .time{ float:right; height:20px; background:url(../images/vip/pic_vip.jpg) no-repeat 0 -406px; padding-left:22px; margin:6px 5px 0 0; _display:inline;}
+#plist_content .plist_box .plist_top .time p{ color:#7c3c00; font-size:12px; letter-spacing:1px; }
+#plist_content .plist_box .plist_top .rules{ float:right;width:68px; height:26px; margin:2px 10px 0 0; _display:inline; _margin-right:3px;}
+#plist_content .plist_box .plist_top .rules a{display:block; width:68px; height:26px;text-indent:-9999px;background:url(../images/vip/pic_vip.jpg) no-repeat 0 -360px;}
+#plist_content .plist_box .plist_top .rules a:hover{ background-position: -68px -360px;}
+#plist_content .plist_box .plist_top .gotop{ float:right; width:54px; height:18px; margin:10px 20px 0 0; _display:inline; }
+#plist_content .plist_box .plist_top .gotop a{ display:block; width:54px; height:18px;background:url(../images/vip/pic_vip.jpg) no-repeat -136px -360px; text-indent:-9999px;}
+#plist_content .plist_box .plist_top .gotop a:hover{ background-position: -190px -360px;}
+/*TOP_END*/
+
+/*鑽石級內容START*/
+#plist_content .plist_box .plist_con ul.diamond{width:934px; padding:25px 0 10px 26px; _padding-bottom:20px; margin-bottom:30px; background-color:#FAF9F4; border-top:1px #eee solid; box-shadow:1px 2px 3px rgba(20%,20%,40%,0.1);}
+#plist_content .plist_box .plist_con ul.diamond li{float:left; width:290px; height:165px; margin: 0 25px 20px 0; _display:inline; position:relative;}
+#plist_content .plist_box .plist_con ul.diamond li h2{ position:absolute; left:0; top:0; width:290px; height:20px; background:url(../images/vip/icon_store.png) no-repeat 0 2px; overflow:hidden;}
+#plist_content .plist_box .plist_con ul.diamond li h2 a{ display:block; color:#454545; font-size:15px; font-weight:bold; padding-left:20px;}
+#plist_content .plist_box .plist_con ul.diamond li h2 a:hover{ color:#999; text-decoration:none;}
+#plist_content .plist_box .plist_con ul.diamond li .diamond_pic {position:absolute; left:2px; top:24px; width:130px; height:130px;}
+#plist_content .plist_box .plist_con ul.diamond li .diamond_pic a{display:block; width:130px; height:130px; padding:1px; border:1px #dbdbdb solid;}
+#plist_content .plist_box .plist_con ul.diamond li .diamond_pic a:hover{opacity:0.8;filter:alpha(opacity=80);opacity:0.8;zoom:1;}
+#plist_content .plist_box .plist_con ul.diamond li .sort{position:absolute; left:147px;; top:25px; width:140px; height:20px; font-size:12px; color:#b7b7b7;}
+#plist_content .plist_box .plist_con ul.diamond li .goods_name{position:absolute; left:147px;; top:50px; width:140px; height:40px; overflow:hidden;}
+#plist_content .plist_box .plist_con ul.diamond li .goods_name a{ display:block; color:#454545; font-size:13px; letter-spacing:1px;}
+#plist_content .plist_box .plist_con ul.diamond li .goods_name a:hover{ color:#999; text-decoration:none;}
+#plist_content .plist_box .plist_con ul.diamond li .buy_num{position:absolute; left:147px;; top:94px; width:140px; height:24px;color:#454545; font-size:12px;}
+#plist_content .plist_box .plist_con ul.diamond li .buy_num span.red{ font:Arial, Helvetica, sans-serif; font-size:15px; color:#f64949; font-weight:bold; letter-spacing:1px; padding:0 4px;}
+#plist_content .plist_box .plist_con ul.diamond li .more{position:absolute; left:150px;; top:124px; width:122px; height:29px;}
+#plist_content .plist_box .plist_con ul.diamond li .more a{ display:block; width:122px; height:29px;background:url(../images/vip/more.jpg) no-repeat left top; text-indent:-9999px;}
+#plist_content .plist_box .plist_con ul.diamond li .more a:hover{ background-position:left bottom;}
+
+/*鑽石級內容END*/
+
+/*商店內容START*/
+#plist_content .plist_box .plist_con{ width:960px; height:auto;  margin:0 auto;}
+#plist_content .plist_box .plist_con ul{ width:934px; padding:25px 0 10px 26px; margin-bottom:30px; background-color:#FAF9F4; border-top:1px #eee solid; box-shadow:1px 2px 3px rgba(20%,20%,40%,0.1);}
+#plist_content .plist_box .plist_con ul li{ float:left; width:164px; height:96px; position:relative; margin: 0 22px 12px 0; _display:inline;}
+#plist_content .plist_box .plist_con ul li .vip_pic{ width:160px; height:55px; border:1px #dbdbdb solid; padding:1px;}
+#plist_content .plist_box .plist_con ul li .vip_pic a{ display:block; width:160px; height:55px; overflow:hidden;}
+#plist_content .plist_box .plist_con ul li .vip_pic a:hover{opacity:0.8;filter:alpha(opacity=80);opacity:0.8;zoom:1;}
+#plist_content .plist_box .plist_con ul li h3{ width:158px; height:32px; margin:0 auto; overflow:hidden; margin-top:4px;}
+#plist_content .plist_box .plist_con ul li h3 a{ display:block; font-size:12px; color:#666666; letter-spacing:1px; line-height:16px;}
+#plist_content .plist_box .plist_con ul li h3 a:hover{ color:#999999; text-decoration:none;}
+
+#plist_content .plist_box .plist_con ul li .sort{height:18px;position:absolute;right:1px;top:77px;color:#b7b7b7;font-size:12px;background-color:#FAF9F4;}
+
+/*商店內容END*/
+
+
+#plist_content .plist_box .plist_con .l_analyze{ float:left; width:246px; height:330px;background:url(../images/vip/pic_analyze.jpg) no-repeat; margin:30px 70px 30px 45px; _display:inline;}
+#plist_content .plist_box .plist_con .r_analyze{ float:left; width:570px; height:330px; margin:30px 0 30px 0; _display:inline;}
+#plist_content .plist_box .plist_con .r_analyze ul{ width:560px; height:330px; background-color:#fff; border:1px #fff solid;}
+#plist_content .plist_box .plist_con .r_analyze ul li{ float:left; width:504px; height:auto; background:url(../images/vip/icon_vip01.jpg) no-repeat 14px 14px; margin:0 auto; _display:inline; border:1px #74b2e0 solid; padding:10px; margin-bottom:20px; display:inline; background-position:14px 13px\9;}
+#plist_content .plist_box .plist_con .r_analyze ul li p{ color:#666666; font-size:13px; letter-spacing:1px; padding-left:24px;}
+#plist_content .plist_box .plist_con .r_analyze ul li p span.point{ color:#0095d8; font-weight:bold;}

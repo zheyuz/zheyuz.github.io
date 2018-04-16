@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+body, table {background:#FFFFFF; color:#454545; font-size:12pt; line-height:28px; font-family:arial, helvetica, sans-serif, "新細明體"}
+p {padding: 0; margin: 0}
+img {border:0;}
+a{color: #105CB6; text-decoration:none}
+a:hover {color: #ff9933; text-decoration:underline}
+td, th{color:#454545; font-size:12pt; font-family:arial, helvetica, sans-serif}

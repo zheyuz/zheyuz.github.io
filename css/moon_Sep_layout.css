@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
+.MOON_sep_box{ width:980px; height:134px; display:block; background:url(../images/2011/moon_Sep/moon2012_banner.jpg); margin:0 auto; margin-bottom:10px;}
+a.MOON_sep_box_go{ width:980px; height:134px; display:block; background:url(../images/2011/moon_Sep/moon2012_banner_go.jpg); margin:0 auto; margin-bottom:10px;}
+.MOON_sep_box_go{ width:980px; height:134px; display:block;background:url(../images/2011/moon_Sep/moon2012_banner_go.jpg); margin:0 auto; margin-bottom:10px; }

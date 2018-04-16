@@ -1,0 +1,2824 @@
+@charset "utf-8";
+/* CSS Document */
+.ihergo_00top{/* ihergo的天*/
+	margin:0 auto;	
+	height:146px;
+	width:100%;
+	overflow:auto;
+	margin:0 auto;
+	}
+
+.ihergo_00top p{
+	margin:0 auto;
+	display:block;
+	width:980px;
+	height:146px;
+	text-indent:-9999px;
+	}	
+	
+.ihergo_00bottom{/* ihergo的地*/
+	margin:0 auto;	
+	height:390px;
+	width:100%;
+	overflow:auto;
+	margin:0 auto;
+	}
+
+.ihergo_00bottom p{
+	margin:0 auto;
+	display:block;
+	width:980px;
+	height:390px;
+	text-indent:-9999px;
+	}	
+	
+/* 評鑑團的底 - 陰影*/	
+.warpper_evaluation_2012{
+	margin:0 auto;
+	width:1012px;
+	overflow:hidden;
+	width:100%;
+	background:url(../images/evaluate/evaluation_br.jpg) top center no-repeat;
+	font-family:"Arial","新細明體";
+	}
+.evaluation_box{/*中間可延伸區塊*/
+	margin:0 auto;
+	width:980px;
+	overflow:hidden;
+	_width:980px;	
+	}
+/*top*/	
+.evaluation_top{
+	width:960px;
+	height:54px;
+	margin:0 auto;
+	background:url(../images/evaluate/evaluation_top_h1_br.jpg) left top no-repeat;
+	padding-left:20px;
+	}
+h1.el_place a{/*h1評鑑中心*/
+	width:145px;
+	height:54px;
+	float:left;
+	background:url(../images/evaluate/evaluation_top_h1_br.jpg) no-repeat;
+	background-position:-980px 0px;
+	text-indent:-9999px;
+	display:block;
+	}	
+h4.el_product a{/*h4評鑑商品*/
+	width:145px;
+	height:54px;
+	float:left;	
+	background:url(../images/evaluate/evaluation_top_h1_br.jpg) no-repeat;
+	background-position:-1125px 0px;
+	text-indent:-9999px;
+	display:block;
+	}
+p.back_elhome a{/*回評鑑中心*/	
+    float:right;
+	width:110px;
+	height:29px;
+	font-size:12px;
+	color:#4a4a4a;		
+	letter-spacing:1px;
+	padding-top:25px;
+	display:block;
+	background:url(../images/evaluate/evaluation_icons.gif) no-repeat;
+	background-position:70px 25px;
+	opacity: 1;/* 透明度60% FireFox 的寫法 */
+	filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */	
+	}
+p.back_elhome a:hover{
+	opacity: 0.8;
+	filter: Alpha(Opacity=90);
+	}				
+p.go_invite a{/*評鑑邀請*/
+	float:right;
+	width:165px;
+	height:29px;
+	font-size:12px;
+	color:#884000;		
+	letter-spacing:1px;
+	padding-top:25px;
+	display:block;
+	background: url(../images/evaluate/evaluation_icons.gif) no-repeat;
+	text-indent:40px;
+	background-position:-45px 22px;
+	opacity: 1;/* 透明度60% FireFox 的寫法 */
+	filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */		
+	}	
+p.go_invite a:hover{
+	opacity: 0.8;
+	filter: Alpha(Opacity=90);	
+	}	
+p.go_invite .thefont_red12{/*紅色數字*/
+	width:128px;
+	height:29px;
+	font-size:12px;
+	color:#ca1414;		
+	letter-spacing:1px;
+	font-weight:bold;
+	}				
+/*top END*/	
+
+
+
+/*center_left 左邊可變動區塊*/	
+.evaluation_center_left{
+	width:740px;
+	float:left;
+	overflow:hidden;
+	}
+.new_el_report_box{/*最新評鑑報告*/
+	float:left;
+	width:740px;
+	height:500px; /*default 521px*/
+	padding-top:15px;
+	position:relative;
+	}
+.new_el_report_box .el_the_arrow_left a{/*左邊 箭頭*/
+	width:40px;
+	height:485px;
+	background:url(../images/evaluate/el_thearrow.png) no-repeat;
+	_background:url(../images/evaluate/el_thearrow.gif) no-repeat;
+	background:url(../images/evaluate/el_thearrow.gif) no-repeat \9;
+	*background:url(../images/evaluate/el_thearrow.gif) no-repeat ;
+	background-position:0px 215px;
+	position:absolute;
+	left:5px;
+	top:45px;
+	font-size:12px;
+	display:block;
+	text-indent:-9999px;
+	color:#7d7d7d;
+	line-height:55px;
+	opacity: 0.5;/* 透明度60% FireFox 的寫法 */
+	filter: Alpha(Opacity=50); /* 透明度60% IE 的寫法 */
+	behavior: url(iepngfix.htc);
+	}
+.new_el_report_box .el_the_arrow_left a:hover{
+	text-indent:-9999px;
+	text-decoration:none;
+	opacity: 1;
+	filter: Alpha(Opacity=100);	
+	}			
+.new_el_report_box .el_the_arrow_right a{/*右邊 箭頭*/
+	width:40px;
+	height:485px;
+	background:url(../images/evaluate/el_thearrow.png) no-repeat;
+	_background:url(../images/evaluate/el_thearrow.gif) no-repeat;
+	background:url(../images/evaluate/el_thearrow.gif) no-repeat \9;
+	*background:url(../images/evaluate/el_thearrow.gif) no-repeat ;
+	background-position:-40px 215px;
+	position:absolute;
+	right:10px;
+	top:45px;
+	font-size:12px;
+	display:block;
+	text-indent:-9999px;
+	color:#7d7d7d;
+	line-height:55px;
+	opacity: 0.5;/* 透明度60% FireFox 的寫法 */
+	filter: Alpha(Opacity=50); /* 透明度60% IE 的寫法 */
+	}
+.new_el_report_box .el_the_arrow_right a:hover{
+	text-indent:-9999px;
+	text-decoration:none;
+	opacity: 1;
+	filter: Alpha(Opacity=100);	
+	}		
+.new_el_report_box h2{
+	width:720px;
+	height:30px;
+	display:block;
+	background:url(../images/evaluate/evaluation_cen_h2_br.jpg) no-repeat;
+	background-position:0px 0px; 
+	text-indent:-9999px;
+	}	
+.al_products_box{ /*包住六塊產品*/
+	width:720px;
+	height:450px; /*default 476px*/
+	float:left;
+	padding:15px 0px 0px 20px;
+	}
+	
+/*-----評鑑商品 box-----*/	
+.the_alproducts_box{ 
+	width:350px;
+	height:152px;
+	float:left;
+	}
+a.che_col_box{
+	width:342px;
+	height:142px;
+	display:block;
+	background-color:#FFF;
+	border:#fff 1px solid;	
+	}
+a:hover.che_col_box{
+	background-color:#f7f6eb;
+	border:#f5c263 1px solid;
+	text-decoration:none;
+	}
+.pro_img_box{/*左邊評鑑產品圖*/
+	width:120px;
+	height:120px;
+	padding:11px 14px 0px 11px;
+	float:left;
+	}
+.pro_data{/*右邊 評鑑產品內容*/
+	width:185px;
+	height:105px;
+	padding-top:13px;
+	padding-left:5px;
+	float:left;
+	}
+.pro_data h3.col_brown_name{/*名稱*/
+	font-size:13px;
+	color:#994737;
+	line-height:22px;	
+	font-weight:bold;
+	width:180px;
+	max-height:44px;
+	overflow:hidden;		
+	}
+.pro_data p.col_detail{/*資料*/
+	font-size:12px;
+	color:#626262;		
+	letter-spacing:1px;
+	line-height:20px;
+	}
+.pro_data p.col_detail .thefont_org13{/*橘色分數*/
+	font-size:13px;
+	color:#ed6301;		
+	letter-spacing:1px;
+	font-weight:bold;
+	padding-right:3px;
+	}	
+	
+		
+.pro_data_nice{/*右邊 --  好評標章 商品*/
+	width:185px;
+	height:105px;
+	padding-top:13px;
+	padding-left:5px;
+	float:left;
+	position:relative;
+	}
+.pro_data_nice h3.col_brown_name{/* 好評標章 -- 商品 名稱*/
+	font-size:13px;
+	color:#994737;
+	line-height:22px;	
+	font-weight:bold;
+	width:125px;
+	max-height:44px;
+	overflow:hidden;
+	display:block;	
+	}	
+.pro_data_nice p.col_detail{/* 好評標章 -資料*/
+	font-size:12px;
+	color:#626262;		
+	letter-spacing:1px;
+	line-height:20px;
+	}
+.pro_data_nice p.col_detail .thefont_org13{/* 好評標章 -橘色分數*/
+	font-size:13px;
+	color:#ed6301;		
+	letter-spacing:1px;
+	font-weight:bold;
+	padding-right:3px;
+	}
+h4.elmark_nice{/* 好評標章*/
+	width:51px;
+	height:53px;
+	display:block;
+	background:url(../images/evaluate/el_mark_nice.gif) no-repeat;
+	background-position:0px 0px;
+	position:absolute;
+	top:10px;
+	left:128px;
+	text-indent:-9999px;
+	}	
+	
+	
+.pro_data_golink{
+	width:190px;
+	height:20px;
+	float:left;		
+	}	
+.pro_data_golink p.col_golink{/*golink*/
+	font-size:12px;
+	color:#626262;		
+	letter-spacing:1px;
+	line-height:20px;
+	text-indent:108px;
+	text-decoration:underline;
+	background:url(../images/evaluate/evaluation_icons.gif) no-repeat;
+	background-position:170px -37px;
+	}				
+/*-----評鑑商品 box END-----*/		
+.new_el_posts_box{/*精選文章*/
+	float:left;
+	width:740px;
+	height:374px;	
+	}
+/*新增08/15*/
+.new_el_posts_box .topbox{
+	width:700px;
+	height:29px;
+	display:block;
+	text-indent:-9999px;
+	margin-left:20px;
+	border-bottom:1px #f6b801 solid;
+	}
+.new_el_posts_box .topbox h2{
+	width:170px;
+	height:25px;
+	display:block;
+	background:url(../images/evaluate/evaluation_cen_h2_br.jpg) -20px -30px no-repeat;
+	text-indent:-9999px;	
+	float:left;	
+	}
+.new_el_posts_box .topbox p.btm_left{
+	width:22px;
+	height:22px;
+	float:right;
+	margin-top:2px;
+	}
+.new_el_posts_box .topbox p.btm_left a{
+	width:22px;
+	height:22px;
+	display:block;
+	float:right;
+	background: url(../images/evaluate/evaluation_cen_h2_br.jpg) -698px -30px  no-repeat;
+	text-indent:-9999px;
+	margin-right:5px;
+	opacity: 0.8;/* 透明度60% FireFox 的寫法 */
+	filter: Alpha(Opacity=80); /* 透明度60% IE 的寫法 */	
+	}	
+.new_el_posts_box .topbox p.btm_left a:hover{	
+	opacity: 1;
+	filter: Alpha(Opacity=100);
+	}
+.new_el_posts_box .topbox p.btm_right{
+	width:22px;
+	height:22px;
+	float:right;
+	margin-top:2px;
+	}
+.new_el_posts_box .topbox p.btm_right a{
+	width:22px;
+	height:22px;
+	display:block;
+	float:right;
+	background: url(../images/evaluate/evaluation_cen_h2_br.jpg) -676px -30px  no-repeat;
+	text-indent:-9999px;
+	opacity: 0.8;/* 透明度60% FireFox 的寫法 */
+	filter: Alpha(Opacity=80); /* 透明度60% IE 的寫法 */		
+	}	
+.new_el_posts_box .topbox p.btm_right a:hover{	
+	opacity: 1;
+	filter: Alpha(Opacity=100);
+	}	
+/*新增08/15_結束*/
+/*修改08/15*/
+.new_el_posts_box .al_posts_wap{
+	width:700px;
+	height:319px;
+	padding:25px 20px 0px 20px;
+	float:left;
+	background-position:0px 0px;
+	}
+/*修改08/15_結束*/	
+.new_el_posts_box .al_posts_wap .posts_single{
+	width:175px;
+	height:310px;
+	float:left;
+	}
+.new_el_posts_box .al_posts_wap .posts_single .posts_img_box {
+	width:140px;
+	height:140px;
+	float:left;
+	padding:0px 0px 0px 17px;	
+	}	
+.new_el_posts_box .al_posts_wap .posts_single .posts_img_box a{
+	width:140px;
+	height:140px;
+	opacity: 1;/* 透明度60% FireFox 的寫法 */
+	filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */
+	}	
+.new_el_posts_box .al_posts_wap .posts_single .posts_img_box a:hover{
+	opacity: 0.9;
+	filter: Alpha(Opacity=90);	
+	}	
+		
+.new_el_posts_box .al_posts_wap .posts_single .posts_data{
+	width:140px;
+	height:165px;
+	padding:0px 0px 0px 17px;
+	float:left;	
+	}
+.new_el_posts_box .al_posts_wap .posts_single .posts_data h3 {
+	font-size:13px;
+	color:#727272;
+	line-height:30px;	
+	font-weight:bold;
+	width:140px;
+	height:30px;
+	overflow:hidden;
+	_width:140px;
+	display:block;
+	}		
+.new_el_posts_box .al_posts_wap .posts_single .posts_data h3 a{
+	font-size:13px;
+	color:#994737; /*#727272;*/
+	line-height:30px;	
+	font-weight:bold;
+	width:140px;
+	height:30px;
+	}	
+.new_el_posts_box .al_posts_wap .posts_single .posts_data h3 a:hover{
+	color:#994737;	
+	}		
+.new_el_posts_box .al_posts_wap .posts_single .posts_data p{
+	font-size:12px;
+	color:#727272;
+	line-height:20px;
+	text-align:justify;
+	letter-spacing:1px;
+	width:140px;
+	height:120px; /* default 60px */
+	overflow:hidden;
+	_width:140px;
+	display:block;	
+	}					
+/*center_left 左邊可變動區塊 END*/	
+
+		
+/*center_right 右邊固定區塊*/
+.evaluation_center_right{
+	width:240px;
+	float:left;
+	overflow:hidden;
+	}
+/*--右上角得報名區塊*/	
+.register_box{
+	width:223px;
+	height:109px;
+	float:left;
+	padding:15px 15px 0px 0px;
+	}
+.register_box h4.product_regel{/*商品報名評鑑團*/
+	width:223px;
+	height:45px;
+	text-indent:-9999px;
+	float:left;	
+	display:block;	
+	}	
+.register_box h4.product_regel a{
+	width:223px;
+	height:45px;
+	display:block;
+	background:url(../images/evaluate/the_el_button.gif) no-repeat;
+	background-position:0px 0px;
+	opacity: 1;/* 透明度60% FireFox 的寫法 */
+	filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */
+	}	
+.register_box h4.product_regel a:hover{
+	opacity: 0.9;
+	filter: Alpha(Opacity=90);		
+	}	
+.register_box h4.join_theel{/*我想加入評鑑團*/
+	width:223px;
+	height:45px;
+	text-indent:-9999px;
+	float:left;
+	padding-top:7px;
+	display:block;		
+	}	
+.register_box h4.join_theel a{
+	width:223px;
+	height:45px;
+	display:block;
+	background:url(../images/evaluate/the_el_button.gif) no-repeat;
+	background-position:0px -52px;	
+	opacity: 1;/* 透明度60% FireFox 的寫法 */
+	filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */	
+	}
+.register_box h4.join_theel a:hover{
+	opacity: 0.9;
+	filter: Alpha(Opacity=90);		
+	}
+/*--右上角得報名區塊 END*/	
+
+.el_lover_box{
+	width:240px;
+	float:left;
+	overflow:hidden;
+	_width:100%;
+	padding-bottom:20px;	
+	}
+.el_lover_br{
+	width:205px;
+	background-color:#f4f4f4;
+	border-top:#d7d7d7 2px solid;
+	padding:0px 0px 5px 15px;
+	overflow:hidden;
+	}	
+.el_lover_br .star_top{
+	width:191px;
+	height:28px;
+	display:block;
+	border-bottom:#FFF 1px solid;
+	padding-top:10px;
+	}	
+.el_lover_br .star_top h5{ /*最多人看的評鑑報告字樣*/
+	font-size:13px;
+	height:27px;	
+	font-weight:bold;
+	color:#884000;
+	width:191px;
+	display:block;
+	border-bottom:#dedede 1px solid;
+	text-indent:24px;
+	line-height:15px;
+	line-height:20px \9; /*==hack_IE8==*/
+	*line-height:20px;   /*hack_IE7*/
+	_line-height:20px;  /*==hack_IE6==*/	
+	background:url(../images/evaluate/evaluation_icons.gif) no-repeat;
+	background-position:0px -78px;
+	}
+.el_lover_br .top_cen{
+	width:191px;
+	float:left;
+	padding-top:10px;
+	}	
+.top_cen .left_number{
+	width:190px;
+	float:left;
+	overflow:hidden;
+	max-height:35px;	
+	}	
+.top_cen .left_number p{
+	font-size:13px;
+	line-height:18px;
+	width:18px;
+	height:18px;
+	text-align:center;
+	font-weight:bold;
+	display:block;
+	color:#FFF;
+
+	border-bottom:#FFF 1px solid;
+	border-right:#FFF 1px solid;
+	float:left;
+	}
+.top_cen h5.right_pro_name{
+	width:160px;
+	float:left;
+	font-size:13px;
+	line-height:18px;
+	font-weight:normal;
+	color:#666666;
+	padding-left:8px;
+	letter-spacing:1px;
+	overflow:hidden;
+	max-height:18px;
+  cursor: pointer;
+	}
+	
+.pro_img_box2{/*右邊排行產品圖*/
+	width:75px;
+  height:75px;
+  margin:12px 10px 5px 0px;
+  display:block;
+  float:left;
+	}	
+	
+.pro_data2{/*排行榜上評鑑產品內容*/
+	width:103px;
+  height:90px;
+  margin-top:8px;
+  display:block;
+  float: left;
+	}
+.pro_data2 p.col_detail{/*資料*/
+	font-size:12px;
+  color:#626262;
+  letter-spacing:1px;
+  line-height:20px;
+  overflow:hidden;
+  height:20px;
+	}
+.pro_data2 p.col_detail .thefont_org13{/*橘色分數*/
+	font-size:13px;
+	color:#ed6301;		
+	letter-spacing:1px;
+	font-weight:bold;
+	padding-right:3px;
+	}
+
+ .pro_data2 p.col_golink{/*golink*/
+ background:url(../images/evaluate/evaluation_icons.gif) no-repeat;
+ background-position:75px -37px;
+ text-indent:15px;
+ }
+
+ .pro_data2 p.col_golink a{/*golink*/
+ font-size:12px;
+ color:#884000;
+ line-height:20px;
+ line-height:23px \9; /*==hack_IE8==*/
+ *line-height:23px;   /*hack_IE7*/
+ _line-height:23px;  /*==hack_IE6==*/
+ background:url(../images/evaluate/evaluation_icons.gif) no-repeat;
+ background-position:170px -37px;
+ }
+ .pro_data2 p.col_golink a:hover{/*golink*/
+  text-decoration:underline;
+  }
+
+.dashed_1px{/*是虛線*/
+	width:190px;
+	height:1px;
+	float:left;
+	background:url(../images/evaluate/el_pro_mem_dashed_br.gif) no-repeat;
+	background-position:0px 0px;
+	font-size:0px;
+	line-height:0px;
+	display:block;
+	}	
+
+/*未展開*/
+.top_cen_s{
+	width:191px;
+	height:18px;
+	float:left;
+	padding:7px 0px 5px 0px;
+	display:block;
+	}
+.el_lover_br a:hover.top_cen_s{
+	text-decoration:none;
+	}		
+.top_cen_s .left_number{
+	width:190px;
+	height:15px;
+	float:left;		
+	}	
+.top_cen_s .left_number p{
+	font-size:11px;
+	line-height:15px;
+	width:18px;
+	height:15px;
+	text-align:center;
+	font-weight:bold;
+	display:block;
+	color:#cbab8f;
+	border-right:#cbab8f 1px solid;
+	float:left;
+	}
+.top_cen_s h5.right_pro_name{
+	float:left;	
+	width:158px;
+	display:block;
+	font-size:12px;
+	line-height:15px;
+	line-height:16px \9; /*==hack_IE8==*/
+	*line-height:16px;   /*hack_IE7*/
+	_line-height:16px;  /*==hack_IE6==*/	
+	font-weight:normal;
+	color:#666666;
+	padding-left:8px;
+	overflow:hidden;
+	height:15px;
+	letter-spacing:1px;
+  cursor: pointer;
+	}					
+/*center_right 右邊固定區塊 END*/	
+
+
+
+/*-------------下面灰色漸層部分------------*/	
+
+.evaluation_bottom{
+	margin:0 auto;
+	width:980px;
+	height:165px;
+	float:left;
+	padding:35px 0px 65px 43px;
+	background:url(../images/evaluate/el_gray_br.gif) no-repeat;
+	background-position:0px 15px;
+	}
+	
+/*評鑑團介紹*/	
+ul.el_introduce{
+	width:212px;
+	height:185px;
+	float:left;
+	}	
+ul.el_introduce li h6{
+	width:139px;
+	height:35px;
+	display:block;
+	text-indent:-9999px;	
+	}
+ul.el_introduce li p a{
+	color:#7a7a7a;
+	font-size:12px;
+	line-height:25px;
+	padding-left:40px;
+	letter-spacing:1px;
+	}	
+ul.el_introduce li p a:hover{
+	color:#9e9e9e;
+	text-decoration:none;
+	}
+	
+/*會員常見問題*/	
+ul.el_member_qa{
+	width:230px;
+	height:185px;
+	float:left;	
+	}	
+ul.el_member_qa li h6{
+	width:139px;
+	height:35px;
+	display:block;
+	text-indent:-9999px;	
+	}
+ul.el_member_qa li p a{
+	color:#7a7a7a;
+	font-size:12px;
+	line-height:25px;
+	padding-left:38px;
+	letter-spacing:1px;
+	}	
+ul.el_member_qa li p a:hover{
+	color:#9e9e9e;
+	text-decoration:none;
+	}
+ul.el_member_qa li.focus_rule p a{
+	color:#9b1017;
+	font-size:12px;
+	line-height:25px;
+	padding-left:38px;
+	letter-spacing:1px;
+	}	
+ul.el_member_qa li.focus_rule p a:hover{
+	color:#C00;
+	text-decoration:none;
+	}
+	
+/*廠商常見問題*/	
+ul.el_supplier_qa{
+	width:230px;
+	height:185px;
+	float:left;	
+	}	
+ul.el_supplier_qa li h6{
+	width:139px;
+	height:35px;
+	display:block;
+	text-indent:-9999px;	
+	}
+ul.el_supplier_qa p a{
+	color:#7a7a7a;
+	font-size:12px;
+	line-height:25px;
+	padding-left:38px;
+	letter-spacing:1px;
+	}	
+ul.el_supplier_qa p a:hover{
+	color:#9e9e9e;
+	text-decoration:none;
+	}
+/*聯絡我們*/		
+ul.el_contact_us{
+	width:250px;
+	height:185px;
+	float:left;
+	padding-left:15px;	
+	}
+ul.el_contact_us li h6{
+	width:152px;
+	height:43px;		
+	}
+ul.el_contact_us li h6 a{
+	width:152px;
+	height:43px;	
+	display:block;
+	text-indent:-9999px;
+	background:url(../images/evaluate/el_evaluation_button.gif) no-repeat;
+	background-position:-554px 0px;	
+	}
+ul.el_contact_us li h6 a:hover{
+	background-position:-554px -42px;	
+	}		
+ul.el_contact_us p{
+	color:#7a7a7a;
+	font-size:11px;
+	line-height:20px;
+	padding:5px 0px 0px 5px;
+	letter-spacing:1px;
+	}							
+/*-------------下面灰色漸層部分  END ------------*/	
+
+
+
+/*-----------評鑑商品 頁面 ----------*/
+.the_products_box{
+	float:left;
+	width:667px;
+	height:462px;
+	padding:15px 45px 0px 28px;
+	}
+/*左邊圖片*/
+.the_products_photo{
+	float:left;
+	width:308px;
+	height:402px;
+	background:url(../images/evaluate/el_pro_imgs_br.gif) no-repeat;
+	background-position:0px 0px;
+	padding:10px 10px 0px 10px;
+	}
+.the_products_photo .pro_img_main{
+	float:left;
+	width:292px;
+	height:292px;
+	background-color:#FFF;
+	border:#cccccc 1px solid;
+	padding:7px 7px;
+	line-height:0px;
+	font-size:0px;
+	}
+.the_products_photo .pro_img_secondary{
+	float:left;
+	width:308px;
+	height:75px;
+	padding-top:10px;
+	}
+.the_products_photo .pro_img_secondary .pro_img_sec2{
+	float:left;
+	width:60px;
+	height:60px;
+	background-color:#FFF;
+	border:#cccccc 1px solid;
+	padding:4px 4px;
+	line-height:0px;
+	font-size:0px;		
+	}
+.the_products_photo .pro_img_secondary .pro_img_sec2 a{
+	opacity: 1;/* 透明度6 0% FireFox 的寫法 */
+	filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */	
+	}	
+.the_products_photo .pro_img_secondary .pro_img_sec2 a:hover{
+	opacity: 0.9;
+	filter: Alpha(Opacity=90);	
+	}	
+.the_products_photo .pro_img_secondary .pro_img_interval{
+	width:9px;
+	height:20px;
+	float:left;
+	}		
+/*左邊圖片 END*/
+
+/*右邊資料*/
+.the_products_detail{
+	float:left;
+	width:300px;
+	height:411px;
+	padding-left:39px;			
+	}
+.the_products_detail h1.pro_name{/*名稱*/
+	font-size:15px;
+	color:#666666;
+	line-height:30px;	
+	font-weight:bold;
+	width:295px;
+	height:34px;
+	overflow:hidden;
+	padding-left:5px;
+	display:block;
+	float:left;
+	}
+.the_products_detail .pro_othet{
+	width:300px;
+	height:207px;
+	float:left;
+	background:url(../images/evaluate/el_pro_name_br.gif) no-repeat;
+	background-position:0px -1px;
+	padding-top:15px;
+	position:relative;	
+	}	
+.the_products_detail .pro_othet .pro_detbox{
+	width:300px;
+	height:40px;
+	float:left;
+	background:url(../images/evaluate/el_pro_name_br.gif) no-repeat;
+	background-position:0px 39px;	
+	}
+.the_products_detail .pro_othet .pro_detbox .left_det{
+	width:75px;
+	height:33px;
+	float:left;	
+	padding-top:7px;
+	}	
+.the_products_detail .pro_othet .pro_detbox .left_det p{
+	width:63px;
+	height:25px;
+	display:block;
+	background-color:#b18534;
+	font-size:12px;
+	color:#FFF;
+	text-align:center;
+	line-height:24px;
+	line-height:25px \9; /*==hack_IE8==*/
+	*line-height:25px;   /*hack_IE7*/
+	_line-height:25px;  /*==hack_IE6==*/	
+	border-left:#997127 1px solid;
+	border-top:#997127 1px solid;			
+	}
+.the_products_detail .pro_othet .pro_detbox .left_det2{
+	width:75px;
+	height:33px;
+	float:left;	
+	padding-top:7px;
+	}	
+.the_products_detail .pro_othet .pro_detbox .left_det2 p{
+	width:63px;
+	height:25px;
+	display:block;
+	background-color:#c9a053;
+	font-size:12px;
+	color:#FFF;
+	text-align:center;
+	line-height:24px;
+	line-height:28px \9; /*==hack_IE8==*/
+	*line-height:26px;   /*hack_IE7*/
+	_line-height:26px;  /*==hack_IE6==*/	
+	border-right:#ae8a48 1px solid;
+	border-bottom:#ae8a48 1px solid;			
+	}	
+.the_products_detail .pro_othet .pro_detbox h3.right_det{
+	font-size:13px;
+	color:#626262;
+	font-weight:normal;
+	line-height:38px;
+	line-height:40px \9; /*==hack_IE8==*/
+	*line-height:40px;   /*hack_IE7*/
+	_line-height:40px;  /*==hack_IE6==*/	
+	width:225px;
+	overflow:hidden;
+	float:left;
+	letter-spacing:1px;
+	display:block;
+  height:38px;
+	}
+	.the_products_detail .pro_othet .pro_detbox h3.right_det a{
+  color:#626262;
+  }
+h4.elmark_nice_big{/* 好評標章*/
+	width:90px;
+	height:97px;
+	display:block;
+	position:absolute;
+	background:url(../images/evaluate/el_big_mark_nice.gif) no-repeat;
+	background-position:0px 0px;
+	top:124px;
+	left:209px;
+	text-indent:-9999px;
+	}
+/*長條圖*/	
+.pro_chart{
+	width:300px;
+	height:155px;
+	float:left;
+	}
+.pro_chart .cha_title{
+	width:300px;
+	height:26px;
+	float:left;	
+	}	
+.pro_chart .cha_title p{
+	width:110px;
+	height:25px;
+	text-align:center;
+	display:block;
+	font-size:12px;
+	line-height:23px;
+	line-height:26px \9; /*==hack_IE8==*/
+	*line-height:26px;   /*hack_IE7*/
+	_line-height:26px;  /*==hack_IE6==*/		
+	color:#FFF;
+	background-color:#a4597a;
+	border-top:#88475d 1px solid;
+	border-left:#88475d 1px solid;		
+	}
+.pro_chart .cha_score{
+	width:286px;
+	height:123px;
+	float:left;
+	background-color:#efefef;
+	border-top:#e4e4e4 1px solid;
+	border-left:#e4e4e4 1px solid;
+	padding:5px 0px 0px 13px;	
+	}
+	
+.pro_chart .cha_score .cha_item{
+	width:280px;
+	height:23px;
+	float:left;	
+	}
+.pro_chart .cha_score .cha_item p{
+	float:left;
+	color:#626262;
+	font-size:12px;
+	line-height:20px;
+	line-height:22px \9; /*==hack_IE8==*/
+	*line-height:22px;   /*hack_IE7*/
+	_line-height:22px;  /*==hack_IE6==*/		
+	}	
+.pro_chart .cha_score .cha_item p.left_w {
+	width:45px;
+	float:left;
+	color:#626262;
+	font-size:12px;
+	line-height:20px;
+	line-height:22px \9; /*==hack_IE8==*/
+	*line-height:22px;   /*hack_IE7*/
+	_line-height:22px;  /*==hack_IE6==*/
+	letter-spacing:1px;	
+	}
+span.the_gary_tit{
+	width:24px;
+	text-align:right;
+	float:left;
+	color:#ea6301;
+	font-size:12px;
+	font-weight:bold;
+	line-height:20px;
+	line-height:22px \9; /*==hack_IE8==*/
+	*line-height:22px;   /*hack_IE7*/
+	_line-height:22px;  /*==hack_IE6==*/
+	padding-right:3px;		
+	}	
+	
+.pro_chart .cha_score .cha_item .graph_total{
+    width:180px;
+    height:16px;
+    padding-top:5px;
+    float:left;	 
+	}		
+.pro_chart .cha_score .cha_item .graph{
+    position:inherit; /* IE is dumb */
+    width:173px;
+    height:8px;
+    background-color:#FFF;
+	border:#c05f8a 1px solid;
+	padding:1px 1px;
+	line-height:0;
+	font-size:0;	
+	}
+.pro_chart .cha_score .cha_item .graph .bar{
+    display:block;
+    position:inherit;
+    height:8px;
+	background:url(../images/evaluate/el_pro_graph_br.gif) no-repeat;
+	background-position:0px 0px;
+	}
+			
+/*長條圖 END*/			
+/*右邊資料 END*/
+
+/*下方 FB 噗浪 */
+.the_products_share{
+	float:left;	
+	width:667px;
+	height:50px;
+	}
+.the_products_share .fb_good{
+	float:left;	
+	width:400px;
+	height:40px;
+	background-position:0px 0px;
+	padding:10px 0px 0px 10px;
+	}
+.the_products_share .fb_pl_share{
+	float:right;
+	width:100px;
+	height:40px;
+	padding-top:10px;
+	}
+.the_products_share .fb_pl_share .fb_share{
+	width:16px;
+	height:16px;
+	float:right;
+	}	
+.the_products_share .fb_pl_share .fb_share a{
+	width:16px;
+	height:16px;
+	background:url(../images/evaluate/evaluation_icons.gif) no-repeat;
+	background-position:0px -113px;
+	display:block;
+	}
+.the_products_share .fb_pl_share .pl_share{
+	width:16px;
+	height:16px;
+	float:right;
+	padding-left:10px;
+	}	
+.the_products_share .fb_pl_share .pl_share a{
+	width:16px;
+	height:16px;
+	background:url(../images/evaluate/evaluation_icons.gif) no-repeat;
+	background-position:0px -145px;
+	display:block;
+	}		
+/*下方 FB 噗浪 END */	
+
+
+/* ------ 評鑑 商品 頁籤 ----- */
+.el_product_tab{
+	float:left;
+	width:667px;
+	height:41px;
+	padding:5px 0px 0px 28px;
+	}	
+ul.pro_page{
+	width:667px;
+	height:40px;
+	border-bottom:#b2b2b2 1px solid;	
+	}
+/*以下是 【未選取】到範圍 */		
+ul.pro_page li.experience{ /*評鑑心得*/
+	float:left;
+	width:142px;
+	height:36px;
+	border-top:#d2d2d2 1px solid;
+	border-left:#d2d2d2 1px solid;
+	border-right:#d2d2d2 1px solid;
+	border-bottom:#FFF 1px solid;	
+	}
+ul.pro_page li.experience p{
+	font-size:13px;
+	line-height:34px;
+	line-height:35px \9; /*==hack_IE8==*/
+	*line-height:35px;   /*hack_IE7*/
+	_line-height:35px;  /*==hack_IE6==*/	
+	text-align:center;
+	background:url(../images/evaluate/el_page_br.gif) repeat-x;
+	background-position:0px 0px;
+	display:block;
+	border-top:#FFF 2px solid;
+	border-left:#FFF 2px solid;	
+	border-right:#FFF 2px solid;
+	text-decoration:none;		
+	}
+ul.pro_page li.experience p a{
+	color:#555555;		
+	}
+ul.pro_page li.experience p a:hover{
+	text-decoration:none;
+	color:#818181;		
+	}
+	
+ul.pro_page li.evaluation_list{/*本次參與名單*/
+	float:left;
+	width:172px;
+	height:36px;
+	border-top:#d2d2d2 1px solid;
+	border-left:#d2d2d2 1px solid;
+	border-right:#d2d2d2 1px solid;
+	border-bottom:#FFF 1px solid;	
+	}
+ul.pro_page li.evaluation_list p{
+	font-size:13px;
+	line-height:34px;
+	line-height:35px \9; /*==hack_IE8==*/
+	*line-height:35px;   /*hack_IE7*/
+	_line-height:35px;  /*==hack_IE6==*/	
+	text-align:center;
+	background:url(../images/evaluate/el_page_br.gif) repeat-x;
+	background-position:0px 0px;
+	display:block;
+	border-top:#FFF 2px solid;
+	border-left:#FFF 2px solid;	
+	border-right:#FFF 2px solid;
+	text-decoration:none;		
+	}
+ul.pro_page li.evaluation_list p a{
+	color:#555555;
+	}
+ul.pro_page li.evaluation_list p a:hover{
+	text-decoration:none;
+	color:#818181;	
+	}
+ul.pro_page li.product_int{ /*產品介紹*/
+	float:left;
+	width:112px;
+	height:36px;
+	border-top:#d2d2d2 1px solid;
+	border-left:#d2d2d2 1px solid;
+	border-right:#d2d2d2 1px solid;
+	border-bottom:#FFF 1px solid;	
+	}
+ul.pro_page li.product_int p{
+	font-size:13px;
+	line-height:34px;
+	line-height:35px \9; /*==hack_IE8==*/
+	*line-height:35px;   /*hack_IE7*/
+	_line-height:35px;  /*==hack_IE6==*/	
+	text-align:center;
+	background:url(../images/evaluate/el_page_br.gif) repeat-x;
+	background-position:0px 0px;
+	display:block;
+	border-top:#FFF 2px solid;
+	border-left:#FFF 2px solid;	
+	border-right:#FFF 2px solid;
+	text-decoration:none;		
+	}
+ul.pro_page li.product_int p a{
+	color:#555555;		
+	}
+ul.pro_page li.product_int p a:hover{
+	text-decoration:none;
+	color:#818181;		
+	}
+/*以下是 【未選取】 到範圍 END */		
+
+/*以下是 【選取到】 範圍*/	
+ul.pro_page li.experience_in{ /*評鑑心得*/
+	float:left;
+	width:142px;
+	height:39px;
+	border-top:#b2b2b2 1px solid;
+	border-left:#b2b2b2 1px solid;
+	border-right:#b2b2b2 1px solid;
+	border-bottom:#FFF 1px solid;	
+	}
+ul.pro_page li.experience_in p{
+	font-size:13px;
+	line-height:34px;
+	line-height:35px \9; /*==hack_IE8==*/
+	*line-height:35px;   /*hack_IE7*/
+	_line-height:35px;  /*==hack_IE6==*/	
+	text-align:center;
+	display:block;
+	border-top:#FFF 2px solid;
+	border-left:#FFF 2px solid;	
+	border-right:#FFF 2px solid;
+	text-decoration:none;
+	font-weight:bold;
+	color:#555555;
+	}
+	
+ul.pro_page li.evaluation_list_in{/*本次參與名單*/
+	float:left;
+	width:172px;
+	height:39px;
+	border-top:#b2b2b2 1px solid;
+	border-left:#b2b2b2 1px solid;
+	border-right:#b2b2b2 1px solid;
+	border-bottom:#FFF 1px solid;	
+	}
+ul.pro_page li.evaluation_list_in p{
+	font-size:13px;
+	line-height:34px;
+	line-height:35px \9; /*==hack_IE8==*/
+	*line-height:35px;   /*hack_IE7*/
+	_line-height:35px;  /*==hack_IE6==*/	
+	text-align:center;
+	display:block;
+	border-top:#FFF 2px solid;
+	border-left:#FFF 2px solid;	
+	border-right:#FFF 2px solid;
+	text-decoration:none;
+	font-weight:bold;
+	color:#555555;			
+	}
+ul.pro_page li.product_int_in{ /*產品介紹*/
+	float:left;
+	width:112px;
+	height:39px;
+	border-top:#b2b2b2 1px solid;
+	border-left:#b2b2b2 1px solid;
+	border-right:#b2b2b2 1px solid;
+	border-bottom:#FFF 1px solid;	
+	}
+ul.pro_page li.product_int_in p{
+	font-size:13px;
+	line-height:34px;
+	line-height:35px \9; /*==hack_IE8==*/
+	*line-height:35px;   /*hack_IE7*/
+	_line-height:35px;  /*==hack_IE6==*/	
+	text-align:center;
+	display:block;
+	border-top:#FFF 2px solid;
+	border-left:#FFF 2px solid;	
+	border-right:#FFF 2px solid;
+	text-decoration:none;
+	font-weight:bold;
+	color:#555555;			
+	}
+/*以下是 【選取到】 範圍 END */	
+		
+ul.pro_page li.pac10{/*間隔*/
+	float:left;
+	width:5px;
+	height:30px;
+	}
+/* ------ 評鑑 商品 頁籤 END----- */	
+
+
+/*點選到"本次參與評鑑團名單"後的下面框框*/
+.el_pro_experience_page{
+	float:left;
+	width:667px;
+	padding-left:28px;
+	overflow:hidden;
+	padding-bottom:60px;	
+	}
+.el_pro_experience_page .exp_page{
+	width:665px;
+	display:block;
+	border-left:#b2b2b2 1px solid;
+	border-right:#b2b2b2 1px solid;
+	border-bottom:#b2b2b2 1px solid;
+	overflow:hidden;
+	}
+.el_pro_experience_page .exp_page .inpage_top{/*本次名單上頭標題*/
+	width:660px;
+	height:40px;
+	float:left;
+	padding-top:15px;	
+	}
+	
+	
+.el_pro_experience_page .exp_page .inpage_top ul.top_tit{
+	width:660px;
+	height:40px;
+	}
+.el_pro_experience_page .exp_page .inpage_top ul.top_tit li.tit_a{/*會員帳號*/
+	width:190px;
+	height:29px;
+	float:left;
+	padding-left:10px;	
+	}
+.el_pro_experience_page .exp_page .inpage_top ul.top_tit li.tit_a p{
+	text-align:center;
+	width:189px;
+	height:29px;
+	display:block;
+	line-height:29px;
+	border-right:#cfc8b7 1px solid;
+	border-bottom:#cfc8b7 1px solid;
+	background-color:#f1ede3;
+	color:#555555;
+	font-size:12px;
+	}
+.el_pro_experience_page .exp_page .inpage_top ul.top_tit li.tit_p{/*文章連結*/
+	width:327px;
+	height:29px;
+	float:left;
+	padding-left:3px;	
+	}
+.el_pro_experience_page .exp_page .inpage_top ul.top_tit li.tit_p p{
+	text-align:center;
+	width:326px;
+	height:29px;
+	display:block;
+	line-height:29px;
+	border-right:#cfc8b7 1px solid;
+	border-bottom:#cfc8b7 1px solid;
+	background-color:#f1ede3;
+	color:#555555;
+	font-size:12px;
+	}	
+.el_pro_experience_page .exp_page .inpage_top ul.top_tit li.tit_t{
+	width:120px;
+	height:29px;
+	float:left;
+	padding-left:3px;	
+	}
+.el_pro_experience_page .exp_page .inpage_top ul.top_tit li.tit_t p{/*發文時間*/
+	text-align:center;
+	width:119px;
+	height:29px;
+	display:block;
+	line-height:29px;
+	border-right:#cfc8b7 1px solid;
+	border-bottom:#cfc8b7 1px solid;
+	background-color:#f1ede3;
+	color:#555555;
+	font-size:12px;
+	}
+	
+					
+
+.el_pro_experience_page .exp_page_cen{ /*一組一組名單*/
+	width:650px;
+	height:64px;
+	float:left;
+	padding-left:10px;
+	}
+.el_pro_experience_page .exp_page_cen .cen_ba{
+	width:640px;
+	height:52px;	
+	padding:8px 0px 0px 8px;
+	background:url(../images/evaluate/el_pro_mem_dashed_br.gif) no-repeat;
+	background-position:5px 59px;	
+	}
+.el_pro_experience_page .exp_page_cen .cen_ba .mem_photo{/*會員照片*/
+	width:40px;
+	height:40px;
+	float:left;
+	border:#bbbbbb 1px solid;
+	padding:1px 1px;	
+	}
+.el_pro_experience_page .exp_page_cen .cen_ba  p.mem_acc{/*會員帳號*/
+	width:130px;
+	height:40px;
+	float:left;
+	padding-left:10px;
+	color:#336699;
+	font-size:12px;
+	line-height:38px;
+	display:block;	
+	}
+.el_pro_experience_page .exp_page_cen .cen_ba span.num_g{
+	color:#666666;
+	font-size:12px;
+	line-height:38px;	
+	}	
+.el_pro_experience_page .exp_page_cen .cen_ba  p.mem_web a{/*文章連結*/
+	width:325px;
+	height:40px;
+	float:left;
+	padding-left:5px;
+	color:#666666;
+	font-size:12px;
+	line-height:38px;
+	display:block;
+	overflow:hidden;
+	}
+.el_pro_experience_page .exp_page_cen .cen_ba  p.mem_time{/*發文時間*/
+	width:110px;
+	height:40px;
+	float:left;
+	padding-left:10px;
+	color:#666666;
+	font-size:12px;
+	line-height:38px;
+	display:block;
+	}
+	
+/*--下面頁碼--*/	
+.next_pages{
+	width:655px;
+	height:50px;	
+	float:left;
+	padding-top:15px;
+	margin:0 auto;
+	}
+.next_pages .page_btn_box{
+	width:100%; 
+	}
+.next_pages .page_btn_box ul.page_list{
+	margin:0 auto; 
+	width:350px;
+	}
+.next_pages .page_btn_box ul.page_list li.number{
+	float:left;
+	margin:0 0 0 5px;
+	_display:inline; 
+	}
+.next_pages .page_btn_box ul.page_list li.number a{
+	padding:3px 7px; border:1px solid #e1e0e0; 
+	background:#FFF; 
+	font-size:12px; 
+	color:#454545;
+	line-height:28px;
+	}
+.next_pages .page_btn_box ul.page_list li.number a:hover{
+	text-decoration:none;
+	background:#9b9b9b;
+	border:1px solid #9b9b9b; 
+	color:#FFF;
+	}
+.next_pages .page_btn_box ul.page_list li.number span.target{
+	padding:3px 7px;
+	border:1px solid #666666; 
+	background:#fff; 
+	font-size:12px; 
+	color:#454545; 
+	font-weight:bold;
+	line-height:28px;
+	}
+.next_pages .page_btn_box ul.page_list li.number span.dotted{
+	padding:3px 7px; 
+	letter-spacing:1px; 
+	line-height:28px;
+	}
+/*--下面頁碼 END--*/		
+
+			
+/*-------評鑑邀請函 --*/
+.invite_letter_box{
+	float:left;
+	width:667px;
+	height:332px;
+	padding:15px 45px 0px 28px;
+	background:url(../images/evaluate/invite_letter_box_br.gif) no-repeat;
+	background-position:28px 15px;
+	}
+.invite_letter_box h6.ihergo_letter_main{
+	float:left;
+	width:667px;
+	height:65px;
+	text-align:center;
+	font-size:15px;
+	color:#555555;
+	padding-top:55px
+	}
+p.forname{
+	float:left;
+	width:593px;
+	height:34px;
+	line-height:34px;
+	font-size:13px;
+	color:#a4597a;
+	font-weight:bold;
+	padding-left:60px;
+	letter-spacing:1px;	
+	}
+.invite_letter_box p.forcen{
+	float:left;
+	width:570px;
+	height:100px;	
+	line-height:28px;
+	font-size:13px;	
+	padding-left:60px;
+	letter-spacing:1px;
+	color:#4c4b4b;
+	display:block;
+	text-align:justify;
+	}
+.invite_letter_box p.forcen span.red_date{
+	line-height:28px;
+	font-size:13px;	
+	letter-spacing:1px;
+	color:#ca1414;
+	font-weight:bold;
+	}	
+.invite_letter_box .btm_yesorno{
+	float:left;	
+	width:400px;
+	height:40px;
+	padding:5px 0px 0px 202px;
+	}
+.invite_letter_box .btm_yesorno p a{
+	width:108px;
+	height:25px;
+	float:left;
+	text-align:center;
+	display:block;
+	font-size:12px;
+	line-height:23px;
+	line-height:26px \9; /*==hack_IE8==*/
+	*line-height:26px;   /*hack_IE7*/
+	_line-height:26px;  /*==hack_IE6==*/		
+	color:#FFF;
+	background-color:#a4597a;
+	border-top:#88475d 1px solid;
+	border-left:#88475d 1px solid;
+	margin:0px 10px 0px 10px;
+	}
+.invite_letter_box .btm_yesorno p a:hover{
+	background-color:#be5f89;
+	text-decoration:none;
+	}				
+/*-------評鑑邀請函 END --*/
+
+
+/*-------提醒通知 --*/
+.invite_remind_box{
+	float:left;
+	width:667px;
+	height:175px;
+	padding:15px 45px 0px 28px;
+	background:url(../images/evaluate/invite_letter_box_br.gif) no-repeat;
+	background-position:28px -325px;
+	}
+p.forremind{
+	width:500px;
+	height:51px;
+	float:left;
+	color:#555555;
+	font-size:13px;
+	line-height:40px;
+	font-weight:bold;
+	padding-left:20px;
+	display:block;
+	}
+.invite_remind_box .forname{
+	float:left;
+	width:593px;
+	height:30px;
+	line-height:30px;
+	font-size:13px;
+	color:#a4597a;
+	font-weight:bold;
+	padding-left:60px;
+	}
+.invite_remind_box .forcen{
+	float:left;
+	width:420px;
+	height:70px;	
+	line-height:28px;
+	font-size:13px;	
+	padding-left:60px;
+	letter-spacing:1px;
+	color:#4c4b4b;
+	display:block;	
+	}
+.invite_remind_box span.red_date{
+	line-height:28px;
+	font-size:13px;	
+	letter-spacing:1px;
+	color:#ca1414;
+	font-weight:bold;
+	}
+.invite_remind_box .btm_reply{
+	float:left;
+	width:155px;
+	height:40px;
+	padding:30px 0px 0px 15px;
+	}	
+.invite_remind_box .btm_reply p a{
+	width:125px;
+	height:25px;
+	float:left;
+	text-align:center;
+	display:block;
+	font-size:13px;
+	line-height:23px;
+	line-height:26px \9; /*==hack_IE8==*/
+	*line-height:26px;   /*hack_IE7*/
+	_line-height:26px;  /*==hack_IE6==*/		
+	color:#FFF;
+	background-color:#a4597a;
+	border-right:#FFF 1px solid;
+	border-bottom:#FFF 1px solid;	
+	border-top:#88475d 1px solid;
+	}
+.invite_remind_box .btm_reply p a:hover{
+	background-color:#be5f89;
+	text-decoration:none;
+	}						
+/*-------提醒通知 END --*/
+
+
+/*點選到"評鑑心得"後的下面框框*/
+.el_pro_feelings_page{
+	float:left;
+	width:667px;
+	padding-left:28px;
+	overflow:hidden;
+	padding-bottom:20px;	
+	}
+.el_pro_feelings_page .feelings_box{
+	width:667px;
+	height:360px;
+	padding-top:25px;
+	float:left;	
+	}
+.el_pro_feelings_page .feelings_box .the_feelbox{
+	width:665px;
+	height:358px;
+	border:#b2b2b2 1px solid;	
+	}
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_top{/*上頭文章標題*/
+	width:663px;
+	height:46px;
+	border:#FFF 1px solid;
+	background-color:#f3f3f3;
+	float:left;
+	}
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_top h3{
+	width:620px;
+	height:46px;
+	font-size:15px;
+	line-height:44px;
+	color:#9f3363;
+	float:left;
+	background:url(../images/evaluate/evaluation_icons.gif) no-repeat;
+	background-position:10px -172px;
+	text-indent:30px;
+	display:block;
+	overflow:hidden;
+	}	
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_top p{
+	font-size:13px;
+	line-height:44px;
+	color:#888888;	
+	text-align:center;	
+	}
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_mem{/*會員帳號語評分*/
+	width:665px;
+	height:74px;
+	border-bottom:#cecece 1px solid;
+	float:left;
+	}	
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_mem .thefbox_mem_left{
+	width:300px;
+	height:55px;
+	float:left;
+	padding:15px 0px 0px 30px;
+	}	
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_mem .thefbox_mem_left .mem_photo{/*會員照片*/
+	width:40px;
+	height:40px;
+	float:left;
+	border:#bbbbbb 1px solid;
+	padding:1px 1px;	
+	}
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_mem .thefbox_mem_left  p.mem_acc{/*會員帳號*/
+	width:180px;
+	height:20px;
+	float:left;
+	padding-left:10px;
+	color:#0887b6;
+	font-size:13px;
+	line-height:20px;
+	display:block;
+	font-weight:bold;
+	}
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_mem .thefbox_mem_left span.num_g{
+	color:#666666;
+	font-size:12px;
+	line-height:20px;
+	font-weight: normal;		
+	}	
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_mem .thefbox_mem_left  p.mem_time{/*發文時間*/
+	width:220px;
+	height:20px;
+	float:left;
+	padding-left:10px;
+	color:#666666;
+	font-size:12px;
+	line-height:20px;
+	display:block;	
+	}
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_mem .thefbox_mem_right{ /*右邊評分表格*/
+	width:300px;
+	height:58px;
+	float:left;
+	padding-top:12px;
+	}
+.thefbox_mem_right .feel_score{
+	width:288px;
+	height:56px;
+	}
+.thefbox_mem_right .feel_score ul.top_category{
+	width:280px;
+	height:26px;
+	display:block;
+	background-color:#fddddd;
+	float:left;
+	border-right:#cb7474 1px solid;		
+	}
+.thefbox_mem_right .feel_score ul.top_category li{
+	width:55px;
+	height:26px;
+	float:left;
+	border-left:#cb7474 1px solid;
+	border-top:#cb7474 1px solid;	
+	}
+.thefbox_mem_right .feel_score ul.top_category li p{
+	text-align:center;
+	line-height:24px;
+	font-size:12px;
+	color:#ab5454;
+	line-height:26px \9; /*==hack_IE8==*/
+	*line-height:26px;   /*hack_IE7*/
+	_line-height:26px;  /*==hack_IE6==*/		
+	}
+.thefbox_mem_right .feel_score ul.bottom_category{
+	width:280px;
+	height:26px;
+	display:block;
+	background-color:#fff5f5;
+	float:left;	
+	border-right:#cb7474 1px solid;		
+	border-bottom:#cb7474 1px solid;	
+	}
+.thefbox_mem_right .feel_score ul.bottom_category li{
+	width:55px;
+	height:26px;
+	float:left;
+	border-left:#cb7474 1px solid;
+	border-top:#cb7474 1px solid;	
+	}
+.thefbox_mem_right .feel_score ul.bottom_category li p{
+	text-align:center;
+	line-height:24px;
+	font-size:12px;
+	color:#ea6301;
+	font-weight:bold;
+	line-height:26px \9; /*==hack_IE8==*/
+	*line-height:26px;   /*hack_IE7*/
+	_line-height:26px;  /*==hack_IE6==*/	
+	}
+.thefbox_mem_right .feel_score ul.bottom_category li span{
+	text-align:center;
+	font-size:12px;
+	color:#626262;
+	font-weight: normal;
+	padding-left:3px;
+	}	
+	
+
+	
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_per{/*下面文章照片與截取文章內容*/
+	width:620px;
+	height:205px;
+	float:left;
+	padding:20px 0px 0px 30px;
+	}		
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_per .per_photo{/*會員照片*/
+	width:224px;
+	height:194px;
+	float:left;
+	}	
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_per p{
+	width:330px;
+	height:165px;
+	float:left;
+	padding-left:45px;
+	font-size:13px;
+	color:#656565;
+	line-height:26px;
+	line-height:26px \9; /*==hack_IE8==*/
+	*line-height:28px;   /*hack_IE7*/
+	_line-height:28px;  /*==hack_IE6==*/	
+	text-align:justify;
+	overflow:hidden;
+	letter-spacing:1px;
+	max-height:160px;
+	}
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_per span a{
+	width:125px;
+	height:26px;
+	float:left;
+	font-size:13px;
+	color:#336699;
+	line-height:26px;
+	text-align:right;
+	font-weight:bold;
+	margin-left:250px;
+	display:block;
+	}	
+	
+	
+	
+	
+/*點選到"商品介紹"後的下面框框*/
+/*跟參與名單吃同支外包div> el_pro_experience_page*/
+.el_pro_experience_page .proint_page{/*商品介紹*/
+	width:665px;
+	display:block;
+	border-left:#b2b2b2 1px solid;
+	border-right:#b2b2b2 1px solid;
+	border-bottom:#b2b2b2 1px solid;
+	overflow:hidden;
+	padding-bottom:30px;
+	}
+.el_pro_experience_page .proint_page .inpage_photo{/*塞入圖片和文字*/
+	width:575px;
+	float:left;
+	padding:20px 0px 0px 40px;
+	overflow:hidden;
+	line-height:30px;
+	color:#555555;
+	font-size:13px;
+	text-align:justify;
+	letter-spacing:1px;			
+	}	
+.el_pro_experience_page .proint_page .inpage_top{/*商品介紹 左邊灰色標題*/
+	width:645px;
+	height:40px;
+	float:left;
+	padding:15px 0px 0px 10px;	
+	}	
+.el_pro_experience_page .proint_page .inpage_top .top_tit{/*灰色框*/
+	width:643px;
+	height:29px;
+	border-right:#e7e7e7 1px solid;
+	border-bottom:#e7e7e7 1px solid;
+	background-color:#f4f4f4;	
+	}
+.el_pro_experience_page .proint_page .inpage_top .top_tit p{/*標題*/
+	width:189px;
+	height:29px;
+	line-height:29px;
+	color:#555555;
+	font-weight:bold;
+	font-size:13px;
+	text-indent:35px;
+	background: url(../images/evaluate/evaluation_icons.gif) no-repeat;
+	background-position:15px -222px;
+	}
+.el_pro_experience_page .proint_page .shop_data{/*下面框內的文字*/
+	width:575px;
+	float:left;
+	padding:0px 0px 20px 45px;
+	display:block;
+	}
+.el_pro_experience_page .proint_page .shop_data p{
+	line-height:30px;
+	color:#555555;
+	font-size:13px;
+	text-align:justify;
+	letter-spacing:1px;
+	}										
+/*-----------評鑑商品 頁面 END ------*/	
+
+
+
+/*---------- 【客服部分頁面】 -----------*/
+.el_help_int{
+	width:920px;
+	overflow:hidden;
+	padding:30px 30px 80px 30px;
+	}
+.el_help_int .top_helplist{/*說明 上頭按鈕*/
+	width:920px;
+	height:84px;
+	float:left;	
+	}
+.el_help_int .top_helplist ul.lehelp_btm{
+	width:920px;
+	height:54px;	
+	}
+	
+	
+.el_help_int .top_helplist ul.lehelp_btm li.about_us{/*按鈕 - 評鑑團介紹*/
+	width:157px;
+	height:42px;
+	float:left;
+	padding-right:15px;
+	}
+.el_help_int .top_helplist ul.lehelp_btm li.about_us h2 a{
+	width:157px;
+	height:42px;
+	display:block;
+	background:url(../images/evaluate/el_evaluation_button.gif) no-repeat;
+	background-position:0px 0px;
+	text-indent:-9999px;	
+	}
+.el_help_int .top_helplist ul.lehelp_btm li.about_us h2 a:hover{
+	background-position:0px -43px;	
+	}
+.el_help_int .top_helplist ul.lehelp_btm li.about_us_in h2 {/*點進去*/
+	width:157px;
+	height:42px;
+	float:left;
+	display:block;
+	background:url(../images/evaluate/el_evaluation_button.gif) no-repeat;
+	background-position:0px -86px;
+	text-indent:-9999px;
+	padding-right:15px;		
+	}
+		
+		
+.el_help_int .top_helplist ul.lehelp_btm li.mem_qa{/*按鈕 - 會員常見問題*/
+	width:176px;
+	height:42px;
+	float:left;
+	padding-right:15px;	
+	}
+.el_help_int .top_helplist ul.lehelp_btm li.mem_qa h2 a{
+	width:176px;
+	height:42px;
+	display:block;
+	background:url(../images/evaluate/el_evaluation_button.gif) no-repeat;
+	background-position:-172px 0px;
+	text-indent:-9999px;	
+	}
+.el_help_int .top_helplist ul.lehelp_btm li.mem_qa h2 a:hover{
+	background-position:-172px -43px;	
+	}	
+.el_help_int .top_helplist ul.lehelp_btm li.mem_qa_in h2 {/*點進去*/
+	width:176px;
+	height:42px;
+	float:left;
+	display:block;
+	background:url(../images/evaluate/el_evaluation_button.gif) no-repeat;
+	background-position:-172px -86px;
+	text-indent:-9999px;
+	padding-right:15px;		
+	}
+	
+		
+.el_help_int .top_helplist ul.lehelp_btm li.store_qa{/*按鈕 - 廠商常見問題*/
+	width:176px;
+	height:42px;
+	float:left;
+	padding-right:15px;		
+	}
+.el_help_int .top_helplist ul.lehelp_btm li.store_qa h2 a{
+	width:176px;
+	height:42px;
+	display:block;
+	background:url(../images/evaluate/el_evaluation_button.gif) no-repeat;
+	background-position:-363px 0px;
+	text-indent:-9999px;	
+	}
+.el_help_int .top_helplist ul.lehelp_btm li.store_qa h2 a:hover{
+	background-position:-363px -43px;	
+	}	
+.el_help_int .top_helplist ul.lehelp_btm li.store_qa_in h2 {/*點進去*/
+	width:176px;
+	height:42px;
+	float:left;
+	display:block;
+	background:url(../images/evaluate/el_evaluation_button.gif) no-repeat;
+	background-position:-363px -86px;
+	text-indent:-9999px;
+	padding-right:15px;		
+	}	
+	
+	
+	
+.el_help_int .top_helplist ul.lehelp_btm li.contact_us{/*按鈕 - 聯絡我們*/
+	width:152px;
+	height:42px;
+	float:left;
+	padding-right:15px;		
+	}
+.el_help_int .top_helplist ul.lehelp_btm li.contact_us h2 a{
+	width:152px;
+	height:42px;
+	display:block;
+	background:url(../images/evaluate/el_evaluation_button.gif) no-repeat;
+	background-position:-554px 0px;
+	text-indent:-9999px;	
+	}
+.el_help_int .top_helplist ul.lehelp_btm li.contact_us a:hover{
+	background-position:-554px -43px;	
+	}
+.el_help_int .top_helplist ul.lehelp_btm li.contact_us_in h2 {/*點進去*/
+	width:152px;
+	height:42px;
+	float:left;
+	display:block;
+	background:url(../images/evaluate/el_evaluation_button.gif) no-repeat;
+	background-position:-554px -86px;
+	text-indent:-9999px;
+	padding-right:15px;		
+	}
+	
+		
+.el_help_int .top_helplist ul.lehelp_btm li.contact_us_time{
+	width:195px;
+	height:54px;
+	float:left;
+	}
+.el_help_int .top_helplist ul.lehelp_btm li.contact_us_time p{
+	font-size:12px;
+	height:20px;
+	color:#555555;
+	}
+	
+	
+.el_help_int .cen_helpbox1{/*說明理的標題 問*/
+	width:920px;
+	height:39px;
+	background:url(../images/evaluate/el_page_br.gif) repeat-x;
+	float:left;
+	}	
+.el_help_int .cen_helpbox1 h3{
+	font-size:15px;
+	color:#a4597a;
+	line-height:36px;
+	font-weight:bold;
+	background:url(../images/evaluate/evaluation_icons.gif) no-repeat;
+	background-position:15px -69px;
+	text-indent:40px;
+	}
+.el_help_int .cen_helpbox2{
+	width:850px;
+	float:left;
+	padding:20px 0px 50px 40px;
+	}
+.el_help_int .cen_helpbox2 h4{/*說明裡 答*/
+	font-size:15px;
+	color:#a4597a;
+	line-height:28px;
+	}
+.el_help_int .cen_helpbox2 p{
+	font-size:13px;
+	color:#555555;
+	line-height:28px;
+	text-align:justify;
+	letter-spacing:1px;
+	}
+.el_help_int .cen_helpbox2 span{
+	font-size:13px;
+	color:#993662;
+	line-height:28px;
+	text-align:justify;
+	letter-spacing:1px;
+	}
+.el_help_int .cen_helpbox3{/*廠商常見問說明內的框框*/
+	width:808px;
+	float:left;
+	padding:20px 40px 30px 40px;
+	border:#cbcbcb 1px solid;
+	background-color:#faf9f4;
+	}
+.el_help_int .cen_helpbox3 p{
+	font-size:13px;
+	color:#914566;
+	line-height:28px;
+	text-align:justify;
+	letter-spacing:1px;
+	}	
+	
+	
+.el_help_int .cen_helpbox_contact_us{/*聯絡我們的表格*/
+	width:700px;
+	height:745px;
+	float:left;
+	padding:0px 110px 0px 110px;
+	}
+.el_help_int .cen_helpbox_contact_us h3{
+	width:700px;
+	height:160px;
+	float:left;
+	display:block;
+	background:url(../images/evaluate/el_evaluation_br_05.jpg) no-repeat;
+	background-position:0px 0px;
+	text-indent:-9999px;
+	}
+.write_table1{
+	width:698px;
+	height:54px;
+	float:left;
+	background-color:#f6f6f6;
+	border-left:#dddddd 1px solid; 
+	border-right:#dddddd 1px solid; 
+	border-bottom:#dddddd 1px solid;
+	line-height:50px;	 		
+	}
+p.font_color_gray13{
+	font-size:13px;
+	color:#333333;
+	letter-spacing:1px;
+	text-indent:15px;
+	}
+p.font_color_gray13 span{
+	width:5px;
+	color:#ff0000;
+	width:15px;
+	height:20px;
+	}		
+.write_table2{
+	width:698px;
+	height:44px;
+	float:left;
+	border-left:#dddddd 1px solid; 
+	border-right:#dddddd 1px solid; 
+	border-bottom:#dddddd 1px solid; 	
+	line-height:40px;	 			
+	}	
+	
+.write_table2 .towrite_left{
+	width:171px;
+	height:44px;
+	border-right:#dddddd 1px solid;
+	background-color:#f6f6f6;
+	float:left;		
+	}		
+.write_table2 .towrite_right{
+	float:left;
+	width:482px;
+	height:30px;
+	padding: 11px 0px 0px 15px;	
+	}
+.write_table2 .towrite_right .el_enter_box1{
+	width:170px;
+	height:20px;
+	font-family:"Arial","新細明體";
+    font-size:13px;
+	line-height:20px;	
+	}
+	
+	
+.write_table3{
+	width:698px;
+	height:198px;
+	float:left;
+	border-left:#dddddd 1px solid; 
+	border-right:#dddddd 1px solid; 
+	border-bottom:#dddddd 1px solid; 
+	line-height:40px;				
+	}		
+.write_table3 .towrite_left{
+	width:171px;
+	height:198px;
+	border-right:#dddddd 1px solid;
+	background-color:#f6f6f6;
+	float:left;		
+	}
+.write_table3 .towrite_right{
+	float:left;
+	width:482px;
+	height:170px;
+	padding: 11px 0px 0px 15px;
+	}	
+	
+.write_table3 .towrite_right .el_enter_box2{
+	width:480px;
+	height:150px;
+	font-family:"Arial","新細明體";
+    font-size:13px;
+	line-height:20px;	
+	}
+	
+	
+.btm_mail_enter{
+	float:left;	
+	width:300px;
+	height:30px;
+	padding:15px 0px 0px 270px;
+	}
+.btm_mail_enter p a{
+	width:108px;
+	height:25px;
+	float:left;
+	text-align:center;
+	display:block;
+	font-size:12px;
+	line-height:23px;
+	line-height:26px \9; /*==hack_IE8==*/
+	*line-height:26px;   /*hack_IE7*/
+	_line-height:26px;  /*==hack_IE6==*/		
+	color:#FFF;
+	background-color:#a4597a;
+	border-top:#88475d 1px solid;
+	border-left:#88475d 1px solid;
+	}
+.btm_mail_enter p a:hover{
+	background-color:#be5f89;
+	text-decoration:none;
+	}																				
+/*---------- 【客服部分頁面】 END-----------*/
+
+
+/*---------回填評鑑表格區塊*/
+.user_fuli_box_top{
+	width:920px;
+	height:330px;
+	float:left;
+	background:url(../images/evaluate/el_evaluation_br_06.jpg) no-repeat;
+	background-position:0px 0px;
+	}
+.user_fuli_box_top h3{
+	font-size:15px;
+	line-height:22px;
+	color:#a4597a;
+	text-align:center;
+	}
+.user_fuli_box_neame{
+	width:920px;
+	height:38px;
+	float:left;	
+	}	
+
+.user_fuli_box_neame h2{
+	font-size:13px;
+	line-height:34px;
+	color:#5f5f5f;
+	}	
+.user_fuli_box_neame h2 a{
+	color:#105cb6;
+	}
+.the_fulibox{ /*下方的填寫格*/
+	width:920px;
+	overflow:hidden; /*03.28 新增這屬性 - 刪除 原本的height:795px*/
+	float:left;		
+	}
+	
+/*第一行*/	
+.write_table_a1{
+	width:918px;
+	height:48px;
+	float:left;
+	background-color:#f6f6f6;
+	border:#dddddd 1px solid; 		
+	}
+.write_table_a1 .towrite_left{/*評分項目*/
+	width:119px;
+	height:49px;
+	float:left;
+	text-align:right;
+	padding-right:10px;
+	line-height:48px;	
+	border-right:#dddddd 1px solid; 		
+	}
+.write_table_a1 .towrite_left2{/*分數*/	
+    width:50px;
+	height:44px;
+	float:left;
+	vertical-align:bottom;	
+	padding-top:5px;	
+	border-right:#dddddd 1px solid; 	
+	}
+.write_table_a1 .towrite_left2 p{
+	font-size:13px;
+	color:#a4597a;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:bottom;
+	line-height:18px;		
+	}
+.write_table_a1 .towrite_right{/*右邊評分參考框*/
+    width:200px;
+	height:49px;
+	float:left;
+	line-height:48px;
+	}	
+	
+p.font_color_gray13b{/*評分專用粗體字*/
+	font-size:13px;
+	color:#5f5f5f;
+	font-weight:bold;
+	letter-spacing:1px;
+	text-indent:15px;
+	}
+p.font_color_gray13b span{
+	width:5px;
+	color:#ff0000;
+	width:15px;
+	height:20px;
+	}
+/*第二行*/	
+.write_table_a2{
+	width:918px;
+	height:35px;
+	float:left;
+	border-left:#dddddd 1px solid; 	
+	border-right:#dddddd 1px solid; 		
+	border-bottom:#dddddd 1px solid; 			
+	}
+.write_table_a2 .towrite_left{/*左邊紫色字體的框*/
+	width:119px;
+	height:35px;
+	float:left;
+	text-align:right;
+	padding-right:10px;
+	line-height:33px;	
+	background-color:#f6f6f6;	
+	border-right:#dddddd 1px solid; 		
+	}
+.write_table_a2 .towrite_left2{/*可點選的圈圈*/	
+    width:32px;
+	height:25px;
+	float:left;
+	vertical-align:bottom;	
+	padding:10px 0px 0px 18px;	
+	border-right:#dddddd 1px solid; 	
+	}		
+.write_table_a2 .towrite_right{/*右邊評分參考框的紫色字體*/
+  width:260px;
+	height:35px;
+	float:left;
+	line-height:33px;
+	}	
+
+p.font_color_purple13{/*評分專用粗體字*/
+	font-size:13px;
+	color:#a4597a;
+	letter-spacing:1px;
+	text-indent:15px;
+	}
+	
+	
+	
+/*第三行*/	
+.write_table_a3{
+	width:918px;
+
+	float:left;
+	border-left:#dddddd 1px solid; 	
+	border-right:#dddddd 1px solid; 		
+	border-bottom:#dddddd 1px solid; 			
+	}
+.write_table_a3 .towrite_left{/*部落格連結*/
+	width:119px;
+	height:103px;
+	float:left;
+	text-align:right;
+	padding-right:10px;
+	line-height:33px;	
+	background-color:#f6f6f6;	
+	border-right:#dddddd 1px solid; 		
+	}
+
+/**03.28 新增 - 上傳圖片後撐開*/
+.write_table_a3 .towrite_left_up{
+	width:119px;
+	height:303px;
+	float:left;
+	text-align:right;
+	padding-right:10px;
+	line-height:33px;
+	background-color:#f6f6f6;
+	border-right:#dddddd 1px solid;
+	}
+.write_table_a3 .towrite_right3{
+    width:224px;
+	height:194px;
+	float:left;
+	padding-left:15px;
+	}
+
+/**03.28 新增 - 上傳圖片後撐開 END***/
+
+.write_table_a3 .towrite_right1{
+    width:780px;
+	height:35px;
+	float:left;
+	line-height:33px;	
+	}
+.write_table_a3 .towrite_right1 .towrite_right_full{/*輸入框*/
+	float:left;
+	width:455px;
+	height:33px;
+	padding-left:13px;
+	}
+.write_table_a3 .towrite_right1 a.upload_btm{/*上傳字樣*/
+	float:left;
+	width:72px;
+	height:29px;
+	border:#b6b6b6 1px solid;
+	padding:2px;
+	}
+.write_table_a3 .towrite_right1 a:hover.upload_btm{
+	border:#686868 1px solid;
+	text-decoration:none;
+	}	
+.write_table_a3 .towrite_right1 a.upload_btm p{
+	font-size:15px;
+	color:#383838;
+	text-align:center;
+	line-height:30px;
+	width:72px;
+	height:29px;
+	display:block;
+	background:url(../images/evaluate/el_page_br.gif) repeat-x;
+	background-position:0px 0px;
+	}
+			
+	
+	
+	
+	
+	
+.write_table_a3 .towrite_right1 .towrite_right_full .el_full_01{
+	width:455px;
+	height:32px;
+	font-family:"Arial","新細明體";
+    font-size:13px;
+	line-height:30px;
+	text-indent:5px;	
+	}
+.write_table_a3 .towrite_right1 .towrite_right_full2{/*輸入框*/
+	float:left;
+	width:380px;
+	height:33px;
+	padding-left:13px;
+	}	
+.write_table_a3 .towrite_right1 .towrite_right_full2 .el_full_02{
+	width:372px;
+	height:32px;
+	font-family:"Arial","新細明體";
+    font-size:13px;
+	line-height:30px;
+	text-indent:5px;	
+	}	
+.write_table_a3 .towrite_right2{
+    width:780px;
+	height:30px;
+	float:left;
+	line-height:30px;
+	}
+/**/		
+p.font_color_gray12{/*提醒灰色字體*/
+	font-size:12px;
+	color:#888888;
+	letter-spacing:1px;
+	text-indent:15px;
+	}
+p.gray12_height{
+    line-height: 35px;
+}
+p.font_color_gray12 span{
+	color:#ff0000;
+	}
+p.font_color_gray12 span.green_done{/*綠色完成*/
+	float:left;
+	width:100px;
+	height:33px;
+	color:#03b048;
+	line-height:40px;
+	display:block;
+	background:url(../images/evaluate/evaluation_icons.gif) no-repeat;
+	background-position:0px -259px;
+	margin-left:15px;
+	text-indent:20px;
+	}			
+/**/
+/*第四行*/	
+.write_table_a4{
+	width:918px;
+	height:75px;
+	float:left;
+	border-left:#dddddd 1px solid; 	
+	border-right:#dddddd 1px solid; 		
+	border-bottom:#dddddd 1px solid; 			
+	}
+.write_table_a4 .towrite_left{/*文章標題*/
+	width:119px;
+	height:75px;
+	float:left;
+	text-align:right;
+	padding-right:10px;
+	line-height:33px;	
+	background-color:#f6f6f6;	
+	border-right:#dddddd 1px solid; 		
+	}		
+.write_table_a4 .towrite_right1{
+    width:780px;
+	height:45px;
+	float:left;
+	line-height:44px;
+	_line-height:46px;	
+	}
+.write_table_a4 .towrite_right1 .towrite_right_full{/*輸入框*/
+	float:left;
+	width:455px;
+	height:33px;
+	padding:10px 0px 0px 13px;
+	}
+.write_table_a4 .towrite_right1 .towrite_right_full .el_full_01{
+	width:455px;
+	height:32px;
+	font-family:"Arial","新細明體";
+    font-size:13px;
+	line-height:30px;
+	text-indent:5px;	
+	}		
+.write_table_a4 .towrite_right2{
+    width:780px;
+	height:28px;
+	float:left;
+	line-height:28px;
+	}	
+	
+/*第五行*/	
+.write_table_a5{
+	width:918px;
+	height:215px;
+	float:left;
+	border-left:#dddddd 1px solid; 	
+	border-right:#dddddd 1px solid; 		
+	border-bottom:#dddddd 1px solid; 			
+	}
+.write_table_a5 .towrite_left{/*文章標題*/
+	width:119px;
+	height:215px;
+	float:left;
+	text-align:right;
+	padding-right:10px;
+	line-height:33px;	
+	background-color:#f6f6f6;	
+	border-right:#dddddd 1px solid; 		
+	}		
+.write_table_a5 .towrite_right1{
+    width:780px;
+	height:182px;
+	float:left;
+	line-height:44px;
+	_line-height:46px;	
+	}
+.write_table_a5 .towrite_right1 .towrite_right_full{/*輸入框*/
+	float:left;
+	width:455px;
+	height:170px;
+	padding:10px 0px 0px 13px;
+	}
+.write_table_a5 .towrite_right1 .towrite_right_full .el_enter_box2{
+	width:455px;
+	height:170px;
+	font-family:"Arial","新細明體";
+    font-size:13px;
+	line-height:30px;
+	text-indent:5px;	
+	}		
+.write_table_a5 .towrite_right2{
+    width:780px;
+	height:28px;
+	float:left;
+	line-height:28px;
+	}
+	
+	
+/*第六行*/	
+.write_table_a6{
+	width:818px;
+	height:45px;
+	float:left;
+	padding:20px 0px 0px 125px;		
+	}			
+						
+/*---------回填評鑑表格區塊 END*/	
+
+
+
+
+/*-----彈跳出來的 參加結果頁*/
+.outcome_sayyes_box{
+	width:655px;
+	margin:10 auto;
+	background-color:#a4597a;
+	padding:5px;
+	margin:15px auto;
+	overflow:hidden;
+	}
+.outcome_sayyes_box .purple_frame{
+	width:655px;
+	margin:0 auto;
+	background-color:#FFF;	
+	overflow:hidden;
+	padding-bottom:20px;		
+	}
+.outcome_sayyes_box .purple_frame .tittop{
+	width:651px;
+	height:65px;
+	float:left;
+	border:2px #FFF solid;
+	background: url(../images/evaluate/invite_letter_box_br.gif) no-repeat;
+	background-position:-8px -529px;
+	}
+.outcome_sayyes_box .purple_frame .tittop span{
+	width:58px;
+	height:30px;
+	float:right;
+	padding:5px 10px 0px 0px;
+	}
+.outcome_sayyes_box .purple_frame .tittop span a{
+	width:58px;
+	height:29px;
+	background:url(../images/evaluate/eil_close_btm.gif) no-repeat;
+	background-position:0px 0px;
+	display:block;
+	text-indent:-9999px;
+	}
+.outcome_sayyes_box .purple_frame .tittop span a:hover{
+	width:58px;
+	height:29px;
+	background:url(../images/evaluate/eil_close_btm.gif) no-repeat;
+	background-position:0px -29px;
+	display:block;
+	text-indent:-9999px;
+	}	
+
+.cen_full_mem p.forcen{
+	float:left;
+	width:540px;
+	overflow:hidden;	
+	line-height:25px;
+	font-size:13px;	
+	padding-left:60px;
+	letter-spacing:1px;
+	color:#4c4b4b;
+	display:block;
+	text-align:justify;
+	padding-bottom:10px;
+	}
+.cen_full_mem p.forcen span.red_date{
+	line-height:28px;
+	font-size:13px;	
+	letter-spacing:1px;
+	color:#ca1414;
+	}
+	
+.cen_full_mem p.ending{
+	float:left;
+	width:540px;	
+	line-height:25px;
+	font-size:13px;	
+	padding-left:60px;
+	letter-spacing:1pxs;
+	color:#4c4b4b;
+	display:block;
+	text-align:right;
+	}
+
+
+.outcome_sayyes_box .out_write_table{/*下面資料確認填寫區塊*/
+	width:590px;
+	height:35px;
+	float:left;
+	padding-left:47px;
+	}
+.outcome_sayyes_box .out_write_table .out_write_l{
+	width:100px;
+	height:32px;
+	float:left;
+	text-align:right;
+	padding-right:5px;
+	line-height:32px;
+	}
+.outcome_sayyes_box .out_write_table .out_write_r{
+	width:465px;
+	height:32px;
+	float:left;
+	}
+.outcome_sayyes_box .out_write_table .out_write_r .wfellxf{
+	width:50px;
+	height:30px;
+	float:left;		
+	}
+	
+.outcome_sayyes_box .out_write_table .out_write_r .wfellx1{
+	width:150px;
+	height:27px;
+	float:left;
+	padding-top:5px;
+	color:#333333;	
+	}			
+.outcome_sayyes_box .out_write_table .out_write_r .wfellx1 .el_fullmem{	/*填寫的框框*/
+    width:148px;
+	height:22px;
+	font-family:"Arial","新細明體";
+    font-size:13px;
+	text-indent:5px;
+	}
+.outcome_sayyes_box .out_write_table .out_write_r .wfellx2{
+	width:350px;
+	height:27px;
+	float:left;
+	padding-top:5px;
+	}			
+.outcome_sayyes_box .out_write_table .out_write_r .wfellx2 .el_fullmem2{/*填寫的框框*/
+    width:348px;
+	height:22px;
+	font-family:"Arial","新細明體";
+    font-size:13px;
+	text-indent:5px;
+	color:#333333;
+	}	
+.outcome_sayyes_box .out_write_table .out_write_r .wfellx2 .el_fullmem3{/*填寫的框框*/
+    width:348px;
+	height:22px;
+	font-family:"Arial","新細明體";
+    font-size:13px;
+	text-indent:5px;
+	color:#AEAEAE;
+	}
+.outcome_sayyes_box .out_write_table .out_write_r .wfellx2 .el_fullmem3_in{/*提醒框框 點選到變黑色*/
+	width:348px;
+	height:22px;
+	font-family:"Arial","新細明體";
+    font-size:13px;
+	text-indent:5px;
+	color:#333333;
+	}									
+/**/		
+p.font_color_k13{/*填寫標題*/
+	font-size:13px;
+	color:#333333;
+	letter-spacing:1px;
+	text-indent:10px;
+	line-height:30px;
+	}
+p.font_color_k13 span{
+	color:#ff0000;
+	}
+p.font_color_k13 span.red_01 a{/*紅字加底線*/
+	color:#d00000;
+	text-decoration:underline;
+	}
+p.font_color_k13 span.red_01 a:hover{
+	color:#F00;	
+	}				
+/**/					
+/*-----彈跳出來的 參加結果頁  END*/
+
+/*-----2012/5/11 新增修改按鈕----*/
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_top h3.tit{ width:550px; height:46px; font-size:15px; line-height:44px; color:#9f3363; float:left; background:url(../images/images/evaluation_icons.gif) no-repeat; background-position:10px -172px; text-indent:30px; display:block; overflow:hidden;}
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_top p.chang a{ width:70px; height:23px; display:block; color:#FFF; float:left; background-color:#999; margin-top:10px; text-align:center; font-size:12px; line-height:23px; line-height:25px \9; /*==hack_IE8==*/ *line-height:25px;   /*hack_IE7*/ _line-height:25px;  /*==hack_IE6==*/         background-color:#a4597a; border-top:#88475d 1px solid; border-bottom:#FFF 1px solid; }
+.el_pro_feelings_page .feelings_box .the_feelbox .fbox_top p.chang a:hover{ background-color:#be5f89; text-decoration:none; }
+/*-----2012/5/11 新增修改按鈕 結束----*/

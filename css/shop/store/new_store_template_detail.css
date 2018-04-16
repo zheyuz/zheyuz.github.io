@@ -1,0 +1,395 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==商品詳細==*/
+.main_box .product_box .product_DetailBox {width: 788px;border-bottom:1px #e5e5e5 solid;}
+/*==商品詳細_左區==*/
+.main_box .product_box .product_DetailBox .DetailBox_laft {float: left;width: 328px;padding: 15px;}
+.main_box .product_box .product_DetailBox .DetailBox_laft .DetailBox_laftIMG {width: 306px;background-color: #fbf7f7;padding:11px;}
+.main_box .product_box .product_DetailBox .DetailBox_laft .DetailBox_laftIMG .BigImg {border: 1px #e8e8e8 solid;background-color:#FFF;padding: 2px 2px 2px 2px;}
+.main_box .product_box .product_DetailBox .DetailBox_laft .DetailBox_laftIMG .BigImg a {display:block;width: 300px;height: 300px; overflow:hidden;}
+.main_box .product_box .product_DetailBox .DetailBox_laft .DetailBox_laftIMG_List {float:left;width: 328px;height:72px;background-color: #fbf7f7;padding:0px 0px 11px 0px;}
+.main_box .product_box .product_DetailBox .DetailBox_laft .DetailBox_laftIMG_List .ListImg {float:left;display:block;width: 69px;	height: 69px;background-color: #FFF;margin-left:10px;_display:inline;}
+.main_box .product_box .product_DetailBox .DetailBox_laft .DetailBox_laftIMG_List .ListImg a {float:left;display:block;width: 63px;height: 63px;background-color: #FFF;padding: 2px 2px 2px 2px;border: 1px #e8e8e8 solid;}
+.main_box .product_box .product_DetailBox .DetailBox_laft .DetailBox_laftIMG_List .ListImg a:hover {float:left;display:block;width: 63px;height: 63px;background-color: #FFF;padding: 2px 2px 2px 2px;border: 1px #888888 solid;}
+.main_box .product_box .product_DetailBox .DetailBox_laft .DetailBox_laftIMG_List .ListImg a.active {	float:left;	display:block;width: 63px;height: 63px;background-color: #FFF;padding: 2px 2px 2px 2px;border: 1px #888888 solid;}
+/*==商品詳細_左區結束==*/
+/*==商品詳細_右區==*/
+/*==大標_副標==*/
+.main_box .product_box .product_DetailBox .DetailBox_right {float: right;width: 430px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .DetailTitle {	width: 430px;padding: 21px 0px 0px 0px;clear:both;}
+.main_box .product_box .product_DetailBox .DetailBox_right .DetailTitle h1 {width: 430px;color:#454545;font-size:16px;font-weight:bold;letter-spacing:1px;line-height:26px; padding:4px 0 8px 0;}
+.main_box .product_box .product_DetailBox .DetailBox_right .DetailTitle p {width: 428px;color:#666666;font-size:13px;font-weight:bold;letter-spacing:1px;	line-height:20px; padding:0 0 8px 2px;}
+/*==大標_副標結束==*/
+
+/*==SUB_自訂分類開始==*/
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail {width: 428px;padding-bottom:12px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail ul.Detail_list {width: 425px;padding:0 0 10px 0;margin:5px 0px 0px 2px;border-bottom:1px #e3e3e3 solid;}
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail ul.Detail_list li {height:25px;line-height:25px;	padding: 3px 0px 3px 0px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail ul.Detail_list li p {font-size:13px;color:#454545;letter-spacing:1px;height:25px;line-height:25px;text-align: left;}
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail ul.Detail_list li p strong.SALEmoney {font-size:18px;color:#F64949;font-weight:bold;padding-right:2px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail ul.Detail_list li p strong.GoodsBuy {	font-size:13px;	color:#F64949;	font-weight:bold;padding-right:2px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail ul.Detail_list li p span.money {color:#454545;text-decoration:line-through;}
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail ul.Detail_list li p span.Sort a {	color:#454545;text-decoration: underline;padding-left: 2px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail ul.Detail_list li p span.Sort a:hover {color: #888888;text-decoration:none;}
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail ul.Detail_list li p span.Part {color:#454545;}
+
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail ul.Detail_list li .sp_select_box div.tag_select{padding:0px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail ul.Detail_list li .sp_select_box div.tag_select_hover{ padding:0;}
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail ul.Detail_list li .sp_select_box div.tag_select_open{ padding:0;}
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail ul.Detail_list li .sp_select_box ul.tag_options li{ padding:0;}
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail ul.Detail_list li .sp_select_box ul.tag_options li.open_hover{ padding:0;}
+.main_box .product_box .product_DetailBox .DetailBox_right .sort_Detail ul.Detail_list li .sp_select_box ul.tag_options li.open_selected{ padding:0;}
+
+/*==SUB_自訂分類結束==*/
+
+/*==輸入數量==*/
+.main_box .product_box .product_DetailBox .DetailBox_right .addcar_box{width: 428px; height:28px; margin: 12px 0px 0px 2px;}
+.main_box .product_box .product_DetailBox .DetailBox_right p.enter_quantity_box{float:left; font-size:13px; color:#454545; letter-spacing:1px;  line-height:28px; text-align: left;}
+.main_box .product_box .product_DetailBox .DetailBox_right .enter_quantity{ width:26px; height:26px; border:1px #cfcfcf solid; float:left; line-height:26px; text-align:center; letter-spacing:1px; color:#595757;}
+.main_box .product_box .product_DetailBox .DetailBox_right p.add_number{ float:left; font-size:15px; letter-spacing:1px; line-height:28px; padding:0 0 0 14px; color:#F64949; font-weight:bold;}
+
+/*==輸入數量結束==*
+
+
+/*==加入購物車按鈕==*/
+.main_box .product_box .product_DetailBox .DetailBox_right .addcar_BTbox {width:350px;height:58px;padding: 20px 0px 0px 72px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .addcar_BTbox a.addcar_btn_buy  { font-size:15px;float:left;width:120px;height:38px;background: url(../../../images/shop/store/store_pic.jpg) no-repeat -190px -8px;	color:#F64949;text-align:center;line-height:38px;	text-decoration:none;	padding: 0px 0px 0px 12px;font-weight:bold;}
+.main_box .product_box .product_DetailBox .DetailBox_right .addcar_BTbox a:hover.addcar_btn_buy {background-position: -322px -8px; color:#931d1d;}
+.main_box .product_box .product_DetailBox .DetailBox_right .addcar_BTbox a:active.addcar_btn_buy {background-position: -454px -8px;}
+
+/*==我要提問==*/
+.main_box .product_box .product_DetailBox .DetailBox_right .addcar_BTbox a.want_QA {display:block;font-size:12px;float:left;width:55px;height:16px;color:#666666;text-align: right;line-height:16px;_line-height:18px; /*IE6 */line-height:18px \9;/*IE8*/text-decoration:underline;margin: 13px 0px 0px 10px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .addcar_BTbox a:hover.want_QA {text-decoration:none; color:#888888;}
+/*==我要提問結束==*/
+/*==加入購物車按鈕結束==*/
+
+
+/*==超值加購商品==*/
+.main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_box {	width:428px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_box h3 {width: 420px;height:28px;color:#454545;font-size:13px;font-weight:bold;letter-spacing:1px;line-height:33px;padding-left: 10px;overflow:hidden;}
+.main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_contentbox {width:428px;height:28px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_contentbox .checkicon {float: left;width:28px;height:28px;position:relative;}
+.main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_contentbox .checkicon .check_in {position:absolute;top:8px;left: 10px;_top:4px; /*IE6*/_left: 6px;/*IE6*/}
+.main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_contentbox h4{font-size:13px;color:#454545;width:390px;height:28px;letter-spacing:1px;line-height:28px;  _line-height:28px; /*IE6 */line-height:28px \9;/*IE8*/text-align: left;font-weight:normal;	overflow:hidden;}
+.main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_contentbox h4 strong.PlusBuy {font-size:13px;	color:#f64949;font-weight:bold;	padding: 0px 2px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_contentbox h4 a{color:#454545;text-decoration:none;padding-left: 2px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_contentbox h4 a:hover{text-decoration: underline;}
+.main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_bottom {float:left;width:428px;height:28px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_bottom p.enter_quantity_box{float:left;height:28px;color:#454545;font-size:13px;letter-spacing:1px;line-height:28px;padding:0 1px 0 29px;_padding-left: 31px;}
+/*==超值加購_輸入數量==*/
+.main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_bottom .enter_quantity_box{ float:left;font-size:12px; color:#595757; line-height:28px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_bottom .enter_quantity{ width:26px; height:26px; border:1px #bfb8b8 solid; float:left; line-height:26px; text-align:center; letter-spacing:1px; color:#595757; font-family:Arial, Helvetica, sans-serif, "新細明體-ExtB";}
+.main_box .product_box .product_DetailBox .DetailBox_right .Plusbuy_bottom .enter_quantity:hover{ border:1px #909090 solid;}
+/*==超值加購_輸入數量結束==*
+
+/*==超值加購商品結束==*/
+/*==商品詳細_右區結束==*/           
+/*==商品詳細結束==*/
+
+/*==商品_規定圖片==*/
+.main_box .product_box .product_GDetailBox {width: 728px;padding: 20px 30px 40px 30px;}
+.main_box .product_box .product_GDetailBox .DetailImg {width:100%; line-height:normal; overflow-x:auto;}
+.main_box .product_box .product_GDetailBox .DetailImg img {display:block;margin: 0 auto;/*padding: 0px 0px 15px 0px;*/ }
+.main_box .product_box .product_GDetailBox .DetailImg p{ font:;}
+/*==商品_規定圖片結束==*/
+
+/*==商品介紹_注意事項==*/
+.main_box .product_box .sort_ItemsList {width: 730px;	padding: 10px 30px 35px 30px;;line-height:24px;font-size:13px;color:#666666;letter-spacing:1px;}
+.main_box .product_box .sort_ItemsList ul.ItemsList {	width: 100%;}
+.main_box .product_box .sort_ItemsList ul.ItemsList li {line-height:25px;}
+.main_box .product_box .sort_ItemsList ul.ItemsList li h5 {width:100%;height:25px;line-height:25px;	font-size:13px;	color:#454545;	letter-spacing:1px;	text-align: left;overflow:hidden;}
+.main_box .product_box .sort_ItemsList p{	width:100%;line-height:24px;font-size:13px;color:#666666;letter-spacing:1px;text-align: left;overflow:hidden;}
+/*==商品介紹_注意事項結束==*/	
+
+
+
+/*==逛了此商品的人也逛了_2開始==*/
+
+.main_box .push_box .push_content { width:790px; padding:15px 0px 0px 0px; border-bottom:#e5e5e5 1px solid; }
+
+.main_box .push_box .push_content .left_btn{ width:16px; height:205px; padding:0 14px 0 0;float:left;}
+.main_box .push_box .push_content .left_btn a{ width:16px; height:30px; display:block; background:url(../../../images/shop/store/store_pic.jpg) no-repeat -459px -57px;text-indent:-9999px; margin:80px 0 0 0;}
+.main_box .push_box .push_content .left_btn a:hover { background:url(../../../images/shop/store/store_pic.jpg) no-repeat -491px -57px;}
+.main_box .push_box .push_content .left_btn a.none{background:url(../../../images/shop/store/store_pic.jpg) no-repeat -523px -57px;}
+
+.main_box .push_box .push_content .right_btn{width:16px; height:205px; padding:0 0 0 14px;float:left;}
+.main_box .push_box .push_content .right_btn a{ width:16px; height:30px; display:block; background:url(../../../images/shop/store/store_pic.jpg) no-repeat -475px -57px;text-indent:-9999px;margin:80px 0 0 0; }
+.main_box .push_box .push_content .right_btn a:hover {background:url(../../../images/shop/store/store_pic.jpg) no-repeat -507px -57px;}
+.main_box .push_box .push_content .right_btn a.none{background:url(../../../images/shop/store/store_pic.jpg) no-repeat -539px -57px;}
+
+.main_box .push_box .push_content .wrp_box{ float:left; width:730px; height:215px; overflow:hidden; position:relative;}
+.main_box .push_box .push_content .wrp_box ul.push_list{ width:1000%; position:absolute; top:0px; left:0px; height:215px;}
+.main_box .push_box .push_content .wrp_box ul.push_list li{ width:730px; float:left;}
+.main_box .push_box .push_content .wrp_box ul.push_list li .list_box{ width:124px; height:215px; padding:0 11px; float:left; _display:inline;}
+.main_box .push_box .push_content .wrp_box ul.push_list li .list_box .img_box{ width:124px; margin:0 auto;}
+.main_box .push_box .push_content .wrp_box ul.push_list li .list_box .img_box a{ width:124px; height:124px; display:block;}
+.main_box .push_box .push_content .wrp_box ul.push_list li .list_box .img_box a:hover img{opacity: 0.8;filter:alpha(opacity=80); zoom:1;}
+.main_box .push_box .push_content .wrp_box ul.push_list li .list_box h4{margin:8px 0 4px 0; width:124px;}
+.main_box .push_box .push_content .wrp_box ul.push_list li .list_box h4 a{ font-size:12px; font-weight:normal; line-height:18px; color:#666666;width:124px; height:36px; display:block;overflow:hidden; }
+.main_box .push_box .push_content .wrp_box ul.push_list li .list_box h4 a:hover { text-decoration:underline;}
+.main_box .push_box .push_content .wrp_box ul.push_list li .list_box p.price_text{ margin:0px auto 0 auto; width:124px; height:20px; overflow:hidden; background:url(../../../images/shop/store/store_pic.jpg) no-repeat -8px -244px; font-size:12px; text-indent:17px; color:#666666;}
+.main_box .push_box .push_content .wrp_box ul.push_list li .list_box p.price_text span { font-weight:bold; color:#f64949;}
+
+/*==逛了此商品的人也逛了_2結束==*/
+
+
+/*====付款方式開始====*/
+.main_box .product_box .product_DetailBox .DetailBox_right .pay_mode_small{ border-bottom:1px solid #e3e3e3; padding:15px 0; width:100%;}
+
+.main_box .product_box .product_DetailBox .DetailBox_right .pay_mode_small .left_box{ float:left; width:70px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .pay_mode_small .left_box p{ font-size:13px; color:#454545; letter-spacing:1px; line-height:30px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .pay_mode_small .right_box { float:left; width:350px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .pay_mode_small .right_box div{ float:left; text-indent:-9999px; padding:0 20px 0 0;}
+
+.main_box .product_box .product_DetailBox .DetailBox_right .pay_mode_small .right_box .gopay{ width:98px; height:30px; background:url(../../../images/shop/store/pay_mode_small.gif) no-repeat left 0px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .pay_mode_small .right_box .atm{width:80px; height:30px; background:url(../../../images/shop/store/pay_mode_small.gif) no-repeat left -30px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .pay_mode_small .right_box .deposit{width:74px; height:30px; background:url(../../../images/shop/store/pay_mode_small.gif) no-repeat left -60px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .pay_mode_small .right_box .reach{width:74px; height:30px; background:url(../../../images/shop/store/pay_mode_small.gif) no-repeat left -90px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .pay_mode_small .right_box .other{width:30px; height:30px; background:url(../../../images/shop/store/pay_mode_small.gif) no-repeat left -120px;} 
+.main_box .product_box .product_DetailBox .DetailBox_right .pay_mode_small .right_box .credit{width:70px; height:30px; background:url(../../../images/shop/store/pay_mode_small.gif) no-repeat left -180px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .pay_mode_small .right_box .famiport{width:105px; height:30px; background:url(../../../images/shop/store/pay_mode_small.gif) no-repeat left -211px;}
+
+
+/*====付款方式結束====*/
+
+/*20130320_Evanna新增_試吃商品區塊_START*/
+.main_box .product_box .product_DetailBox .DetailBox_right .trytoeat_box{ width:426px; background-color:#fffff1; border:1px #ffeba5 solid; margin-bottom:12px;}
+.main_box .product_box .product_DetailBox .DetailBox_right .trytoeat_box p{ font-size:13px; letter-spacing:2px; text-align:center; padding:5px 0;}
+.main_box .product_box .product_DetailBox .DetailBox_right .trytoeat_box p span.limit{ color:#F64949; font-size:15px; font-weight:bold; padding: 0 3px;}
+
+/*20130320_Evanna新增_試吃商品區塊_END*/
+
+
+
+
+
+/*========================================20150513_商品頁改版===============================================*/
+
+/*===== 商品詳細_右區 =====*/
+.right_explain .DetailBox_laft{ float: left; width:330px;}
+.right_explain .DetailBox_right{ float: right; width: 420px;}
+
+.right_explain .h2_box{ width: 750px; padding: 0 0 0 15px; margin-bottom: 15px;}
+.right_explain .h2_box h2{}
+
+/* 商品詳細_圖片展示 */
+.right_explain .DetailBox_laft .DetailBox_laftIMG{ width: 310px; background:#ececec; padding:10px;}
+.right_explain .DetailBox_laft .DetailBox_laftIMG .BigImg{ border: 1px #ddd solid; background-color: #FFF; padding: 4px;}
+.right_explain .DetailBox_laft .DetailBox_laftIMG .BigImg a{ display: block; width: 300px; height: 300px; overflow: hidden;}
+
+.right_explain .DetailBox_laft .DetailBox_laftIMG_List{ float: left; width: 330px; height:72px; background-color:#ececec; padding: 0px 0px 10px 0px;}
+.right_explain .DetailBox_laft .DetailBox_laftIMG_List .ListImg{ float: left; width: 70px; height: 70px; background-color: #FFF; margin-left: 10px; display: block; _display: inline;}
+.right_explain .DetailBox_laft .DetailBox_laftIMG_List .ListImg a{ float: left; width: 64px; height: 64px; background-color: #FFF; padding: 2px; border: 1px #e8e8e8 solid; display: block;}
+.right_explain .DetailBox_laft .DetailBox_laftIMG_List .ListImg a:hover{ border: 1px #888888 solid;}
+.right_explain .DetailBox_laft .DetailBox_laftIMG_List .ListImg a.active{ border: 1px #888888 solid;}
+
+/* 商品詳細_注意事項 */
+.right_explain .DetailBox_right .DetailTitle{ width: 420px; padding: 0; clear: both; }
+.right_explain .DetailBox_right .DetailTitle h1{ color: #454545; font-size: 16px; font-weight: bold; line-height: 26px; letter-spacing: 1px; padding: 0px 0 8px 0; width: 430px;}
+.right_explain .DetailBox_right .DetailTitle p{ width: 428px; color: #666; font-size: 13px; font-weight: bold; line-height: 20px; letter-spacing: 1px; padding: 0 0 8px 2px;}
+
+.right_explain .DetailBox_right .sort_Detail{ width: 420px; padding-bottom: 12px;}
+.right_explain .DetailBox_right .sort_Detail ul.Detail_list{ width: 420px; padding: 0 0 10px 0; margin: 5px 0px 0px 2px; border-bottom: 1px #e3e3e3 solid;}
+.right_explain .DetailBox_right .sort_Detail ul.Detail_list li{ height: 25px; line-height: 25px; padding: 3px 0px 3px 0px;}
+.right_explain .DetailBox_right .sort_Detail ul.Detail_list li p{ font-size: 13px; color: #454545; letter-spacing: 1px; height: 25px; line-height: 25px; text-align: left;}
+.right_explain .DetailBox_right .sort_Detail ul.Detail_list li p strong.SALEmoney{ font-size: 18px; color: #F64949; font-weight: bold; padding-right: 2px;}
+.right_explain .DetailBox_right .sort_Detail ul.Detail_list li p span.money{ color: #454545; text-decoration: line-through;}
+.right_explain .DetailBox_right .sort_Detail ul.Detail_list li p strong.GoodsBuy{ font-size: 13px; color: #F64949; font-weight: bold; padding-right: 2px;}
+.right_explain .DetailBox_right .sort_Detail ul.Detail_list li p span.Sort a{ color: #454545; text-decoration: underline; padding-left: 2px;}
+.right_explain .DetailBox_right .sort_Detail ul.Detail_list li p span.Sort a:hover{ color: #666; text-decoration: none;}
+
+/* 商品詳細_付款方式 */
+.right_explain .DetailBox_right .pay_mode_small{ border-bottom: 1px solid #e3e3e3; padding: 15px 0; width: 100%;}
+.right_explain .DetailBox_right .pay_mode_small .left_box{ float:left; width:70px;}
+.right_explain .DetailBox_right .pay_mode_small .left_box p{ font-size: 13px; color: #454545; line-height: 30px; letter-spacing: 1px;}
+
+.right_explain .DetailBox_right .pay_mode_small .right_box{ float: left; width: 350px;}
+.right_explain .DetailBox_right .pay_mode_small .right_box div{ float: left; padding: 0 20px 0 0; text-indent: -9999px;}
+.right_explain .DetailBox_right .pay_mode_small .gopay	{ width: 80px; height: 30px; background: url(../../../images/shop/store/pay_mode_small.gif) no-repeat left 0px;}
+.right_explain .DetailBox_right .pay_mode_small .atm		{ width: 80px; height: 30px; background: url(../../../images/shop/store/pay_mode_small.gif) no-repeat left -30px;}
+.right_explain .DetailBox_right .pay_mode_small .deposit	{ width: 74px; height: 30px; background: url(../../../images/shop/store/pay_mode_small.gif) no-repeat left -60px;}
+.right_explain .DetailBox_right .pay_mode_small .reach	{ width: 74px; height: 30px; background: url(../../../images/shop/store/pay_mode_small.gif) no-repeat left -90px;}
+.right_explain .DetailBox_right .pay_mode_small .other	{ width: 30px; height: 30px; background: url(../../../images/shop/store/pay_mode_small.gif) no-repeat left -120px;}
+.right_explain .DetailBox_right .pay_mode_small .credit	{ width: 70px; height: 30px; background: url(../../../images/shop/store/pay_mode_small.gif) no-repeat left -180px;}
+.right_explain .DetailBox_right .pay_mode_small .famiport{ width: 105px; height: 30px; background: url(../../../images/shop/store/pay_mode_small.gif) no-repeat left -211px;}
+
+/* 商品詳細_規格 */
+.right_explain .DetailBox_right .addcar_box{ width:420px; height:28px;margin:12px 0px 0px 2px;}
+.right_explain .DetailBox_right p.enter_quantity_box{ float: left; font-size: 13px; color: #454545; letter-spacing: 1px; line-height: 28px; text-align: left;}
+.right_explain .DetailBox_right .sp_select_box_big{ float: left; width: 300px; height: 28px; position: relative; z-index: 2;}
+.right_explain .DetailBox_right .sp_select_box_big .select_box{ width: 300px; height: 28px; font-size: 12px;}
+.right_explain .DetailBox_right .sp_select_box_big div.tag_select{ background: url(../../../images/shop/store/store_pic.jpg) no-repeat -839px -455px; color: #595757; line-height: 28px; text-indent: 10px; padding: 0 22px 0 0; width: 278px; height: 28px; overflow: hidden; display: block;}
+.right_explain .DetailBox_right .sp_select_box_big ul.tag_options{ position: absolute; padding: 0; margin: 0; list-style: none; width: 300px; padding: 0 0 3px 0; background: url(../../../images/shop/store/store_pic.jpg) no-repeat -839px bottom;}
+.right_explain .DetailBox_right .sp_select_box_big ul.tag_options li.open_selected{color: #fff; background: url(../../../images/shop/store/store_pic.jpg) no-repeat -1150px -567px; width: 300px !Important; height: 28px; float: none !Important;}
+.right_explain .DetailBox_right .sp_select_box_big ul.tag_options li{ display: block; width: 300px !Important; height: 28px; float: none !Important; text-decoration: none; color: #595757; background: url(../../../images/shop/store/store_pic.jpg) no-repeat -1150px -511px; text-indent: 20px; line-height: 28px; overflow: hidden;}
+
+
+/* 商品詳細_數量 */
+.right_explain .DetailBox_right .enter_quantity{ float: left; border:1px #cfcfcf solid; width:50px; height:26px; color:#595757; line-height:26px; text-align:center; letter-spacing:1px;}
+.right_explain .DetailBox_right .addcar_box .delete_product_icon{ float:left; background:url(../../../images/shop/store/addcar_icon.jpg) no-repeat 0px -80px; height:18px; width:18px; margin:5px 5px 0 0;}
+.right_explain .DetailBox_right .addcar_box .add_product_icon{ float:left; background:url(../../../images/shop/store/addcar_icon.jpg) no-repeat 0px -110px; height:18px; width:18px; margin:5px 0 0 5px;}
+.right_explain .DetailBox_right p.add_number{ float: left; color: #F64949; font-weight: bold; font-size: 15px; letter-spacing: 1px; line-height: 28px; padding: 0 0 0 14px;}
+
+/* 商品詳細_試吃 */
+.right_explain .DetailBox_right .trytoeat_box{ width: 418px; background-color: #fffff1; border: 1px #ffeba5 solid; margin-bottom: 12px;}
+.right_explain .DetailBox_right .trytoeat_box p{ font-size: 13px; letter-spacing: 2px; text-align: center; padding: 5px 0;}
+.right_explain .DetailBox_right .trytoeat_box p span.limit{ color: #F64949; font-size: 15px; font-weight: bold; padding: 0 3px;}
+
+
+/* 商品詳細_加購 */
+/* .right_explain .DetailBox_right .Plusbuy_box{ background-color: #fffdd6;}
+.right_explain .DetailBox_right .Plusbuy_box h3{ width: 420px; height: 28px; color: #454545; font-size: 13px; font-weight: bold; letter-spacing: 1px; line-height: 33px; padding-left: 10px; overflow: hidden;}
+.right_explain .DetailBox_right .Plusbuy_box .Plusbuy_contentbox{ background-color: #fffdd6; width: 420px; height: 28px;}
+.right_explain .DetailBox_right .Plusbuy_contentbox .checkicon{ float: left; width: 28px; height: 28px; position: relative;}
+.right_explain .DetailBox_right .Plusbuy_contentbox .checkicon .check_in{ position: absolute; top: 8px; left: 10px; _top: 4px; _left: 6px;}
+.right_explain .DetailBox_right .Plusbuy_contentbox h4{ font-size: 13px; color: #454545;  font-weight: normal; width: 390px; height: 28px; letter-spacing: 1px; line-height: 28px; text-align: left; overflow: hidden; _line-height: 28px; line-height: 28px \9;}
+.right_explain .DetailBox_right .Plusbuy_contentbox h4 strong.PlusBuy{font-size: 13px; color: #f64949; font-weight: bold; padding: 0px 2px;}
+.right_explain .DetailBox_right .Plusbuy_contentbox h4 a{color: #454545; text-decoration: none; padding-left: 2px;}
+.right_explain .DetailBox_right .Plusbuy_box .Plusbuy_bottom{ background-color: #fffdd6; border-bottom: 5px #fffdd6 solid; float: left; width: 420px; height: 28px;}
+.right_explain .DetailBox_right .Plusbuy_bottom p.enter_quantity_box{ float: left; color: #454545; font-size: 13px; height: 28px; letter-spacing: 1px; line-height: 28px; padding: 0 1px 0 29px; _padding-left: 31px;}
+.right_explain .DetailBox_right .Plusbuy_bottom .enter_quantity{ float: left; color: #595757; width: 26px; height: 26px; line-height: 26px; text-align: center; letter-spacing: 1px; font-family: Arial, Helvetica, sans-serif, "新細明體-ExtB";} */
+
+/* 商品詳細_加入購物車 */
+.right_explain .DetailBox_right .addcar_BTbox{ width: 350px; height: 50px; padding: 10px 0px 0px 4px;}
+.right_explain .DetailBox_right .addcar_BTbox a.addcar_btn_buy{ float: left; font-family:"微軟正黑體"; font-weight: bold; font-size: 15px; color: #fff; width: 150px; height: 35px; background: url(../../../images/shop/store/store_pic.jpg) no-repeat -1290px 0; line-height: 35px; padding: 0px 0px 0px 12px; text-align: center; text-decoration: none;}
+.right_explain .DetailBox_right .addcar_BTbox a.addcar_btn_buy:hover{ background: url(../../../images/shop/store/store_pic.jpg) no-repeat -1290px -45px;}
+.right_explain .DetailBox_right .addcar_BTbox a.back_shopping{ float: left; display: block; font-size: 12px; width: 55px; height: 16px; color: #666; margin: 10px 0px 0px 10px; text-align: right; line-height: 16px; text-decoration: underline; _line-height: 18px; line-height: 18px \9;}
+.right_explain .DetailBox_right .addcar_BTbox a.back_shopping:hover{ color: #888; text-decoration: none;}
+.right_explain .DetailBox_right .addcar_BTbox a.disable, .right_explain .DetailBox_right .addcar_BTbox a.disable:hover{ background: url(../../../images/shop/store/store_pic.jpg) no-repeat -1290px -255px;}
+
+.event_function_block .titleBox { width:960px; height:35px; margin:0 auto; padding:0 10px; line-height:35px;}
+.event_function_block .titleBox h2{ color:#666; font-size: 15px; line-height: 35px; height: 35px; padding: 0 0 0 0px; letter-spacing: 1px;}
+
+.together_buy .product_listBox{ border:1px solid #e5e5e5; border-top: 0; text-align:center; *min-height:220px; }
+.together_buy .product_listBox .list_content{ float: left; position: relative; width: 900px; height: 200px; margin: 15px auto; overflow: hidden;}
+.together_buy .product_listBox ul.ul_box{ width: 10000%; top: 0px; left: 0px; position: absolute;}
+.together_buy .product_listBox li.product_item{ float: left; width:142px; display:inline-block; vertical-align:top; margin: 0 4px; *float:left;}
+.together_buy .product_item .product_img{ position: relative; width: 132px; height: 132px; padding: 0 0 0 10px;}
+.together_buy .product_item .product_img a{ position: absolute; left: 10px; border: 1px solid #fff; width: 130px; height: 130px; display: block; overflow: hidden; z-index: 1;}
+.together_buy .product_item h3{width: 130px; height: 36px; margin-top: 5px; padding-left: 10px; overflow: hidden;}
+.together_buy .product_item h3 a{ display: block; font-size: 12px; font-weight: bold; color: #454545; line-height: 18px; letter-spacing: 1px; text-decoration: none;}
+.together_buy .product_item h3 a:hover{ color: #6c6c6c;}
+.together_buy .product_item .p_text_box{ display: inline; line-height: 20px;}
+.together_buy .product_item .p_text_box p{ color: #f64949; font-size: 12px;}
+.together_buy .product_item .p_text_box span{ font-size: 14px; font-family: "Century Gothic"; font-weight:bold;}
+
+.together_buy .product_listBox a.listBtn_prev{ display: block; float: left; width: 30px; height: 60px; background: url(../../../images/shop/store/list_btn_pre.png) no-repeat center center; margin:80px 0; z-index: 1; border:1px solid #e7e7e7; border-left: 0; border-radius: 0 6px 6px 0;}
+.together_buy .product_listBox a.listBtn_next{ display: block; float: right; width: 30px; height: 60px; background: url(../../../images/shop/store/list_btn_next.png) no-repeat center center; margin:80px 0; z-index: 1; border:1px solid #e7e7e7; border-right: 0; border-radius: 6px 0 0 6px;}
+.together_buy .product_listBox a.listBtn_prev:hover, .together_buy .product_listBox a.listBtn_next:hover{ opacity: 0.7;}
+.together_buy .product_listBox a.disable, .together_buy .product_listBox a.disable:hover{ opacity: 0.2}
+
+
+/*=====商品_規定圖片=====*/
+.product_GDetailBox { width: 920px; padding: 20px 30px 40px 30px; margin:0 auto;}
+.product_GDetailBox .DetailImg { width:100%; line-height:normal; overflow-x:auto;}
+.product_GDetailBox .DetailImg img { display:block; margin: 0 auto; }
+.product_GDetailBox .DetailImg p{ font:;}
+
+/*=====商品_說明=====*/
+.event_function_block .sort_ItemsList{ width: 920px; padding: 10px 30px 30px 30px; font-size: 13px; color: #666; line-height: 24px; letter-spacing: 1px;}
+
+/*=====商品_加入購物車_Big=====*/
+.addcart_box{ padding: 20px; border-top:1px solid #e5e5e5; margin:20px 0 40px;}
+.addcart_box a.addcart_Big_btn{ display:block; font-family:"微軟正黑體"; font-weight: bold; font-size: 16px; color: #fff; letter-spacing: 1px; text-indent: 10px; width: 140px; height: 45px; background: url(../../../images/shop/store/store_pic.jpg) no-repeat -1290px -90px; line-height: 45px; padding: 0px 0px 0px 20px; margin: 0 auto; text-align: center; text-decoration: none;}
+.addcart_box a.addcart_Big_btn:hover{ background: url(../../../images/shop/store/store_pic.jpg) no-repeat -1290px -145px;}
+.addcart_box a.disable, .addcart_box a.disable:hover{ background: url(../../../images/shop/store/store_pic.jpg) no-repeat -1290px -200px;}
+
+/*=====商品_問與答=====*/
+.question_titleBox h2{ float:left;}
+.question_titleBox .ask_btn{ float: right; background: url(../../../images/shop/store/store_pic.jpg) no-repeat -744px -8px;  color: #fff; font-size: 12px; width: 72px; height: 20px; line-height: 20px; margin: 8px 0px 0 0; text-indent: 15px; display: block; _display: inline; }
+
+.question_mainBox .sort_ItemsListQA{ width: 920px; border-bottom: 1px solid #e5e5e5; padding: 20px 30px 30px;}
+.question_mainBox .sort_ItemsListQA .LEFTno{ float: left; background: url(../../../images/shop/store/store_pic.jpg) no-repeat -592px -72px; width: 50px; height: 50px; margin: 10px 10px 0 0;}
+.question_mainBox .sort_ItemsListQA .LEFTno p{ color: #5a5a5a; font-size: 15px; font-weight: bold; width: 50px; line-height: 50px; text-align: center; overflow: hidden;}
+.question_mainBox .sort_ItemsListQA .QA_box{ float: left; width: 860px;}
+.question_mainBox .sort_ItemsListQA .q_box_wrp{ width: 860px; padding: 0;}
+.question_mainBox .sort_ItemsListQA .QA_Title{ width: 730px; height: 20px; padding: 10px 0 0px 0; overflow: hidden;}
+.question_mainBox .sort_ItemsListQA .QA_Title p.title{ float: left; font-size: 12px; color: #666; font-weight: bold; line-height: 20px; padding: 0 5px 0 0;}
+.question_mainBox .sort_ItemsListQA .QA_Title h3{ float: left; font-size: 12px; font-weight: normal; line-height: 20px;}
+.question_mainBox .sort_ItemsListQA .Q_box_name{ float: left; width: 730px; padding: 8px 0 0px;}
+.question_mainBox .sort_ItemsListQA .Q_box_name p.title{ float: left; line-height: 22px; font-size: 12px; font-weight: bold; color: #666; text-align: left; overflow: hidden;}
+.question_mainBox .sort_ItemsListQA .Q_box_name p.store_manager{ float: left; line-height: 20px; padding: 0px 2px; overflow: hidden;}
+.question_mainBox .sort_ItemsListQA .Q_box_name h4.QAtaxt{ font-size: 13px; font-weight: normal; color: #666; letter-spacing: 1px; line-height: 22px; padding: 0px 10px 0 5px; overflow: hidden; height: 100%; text-align: left;}
+.question_mainBox .sort_ItemsListQA .Q_box_Time{ float: right; padding: 8px 10px 0 0; height: 20px; width: 100px; overflow: hidden; display: block;}
+.question_mainBox .sort_ItemsListQA .Q_box_Time p.Time{ font-size: 12px; color: #acacac; line-height: 20px; text-align: right; overflow: hidden;}
+
+.question_mainBox .sort_ItemsListQA .Aen_Box{ width: 860px; padding: 4px 0 0 0;}
+.question_mainBox .sort_ItemsListQA .Aen_Box .Top_ImgBox{ width: 860px; height: 5px; line-height: 5px;}
+.question_mainBox .sort_ItemsListQA .Aen_Contentbox{ width: 860px; background: #f5f5f5; border: 1px solid #f1f1f1;}
+.question_mainBox .sort_ItemsListQA .Aen_box_name{ float: left; width: 730px; padding: 10px 0px 10px 14px;}
+.question_mainBox .sort_ItemsListQA .Aen_box_name p.title{ float: left; font-weight: bold; font-size: 12px; color: #5a5a5a; line-height: 20px; text-align: left; overflow: hidden;}
+.question_mainBox .sort_ItemsListQA .Aen_box_name h4.QAtaxt{ font-size: 12px; color: #666; font-weight: normal; letter-spacing: 1px; padding: 0px 0px 0 5px; overflow: hidden; text-align: left;}
+.question_mainBox .sort_ItemsListQA .Aen_box_Time{ float: right; width: 100px; height: 20px; display: block; overflow: hidden; padding: 10px 10px 0px 0px;}
+.question_mainBox .sort_ItemsListQA .Aen_box_Time p.Time{ font-size: 12px; color: #acacac; line-height: 20px; overflow: hidden; text-align: right;}
+
+
+/*問與答_提出問題*/
+.question_event_box .reply_word_box{ width: 900px; margin: 0 auto; padding: 10px 0 20px 0;}
+.question_event_box .reply_word_box .word_content{ width: 850px; padding: 15px; border: 10px solid #F8F7F7;}
+.question_event_box .reply_word_box .word_content .member_pic{ float: left; width: 40px; height: 40px; margin-right: 10px; _display: inline;}
+.question_event_box .reply_word_box .word_content .question_box{ float:left; width:500px}
+
+.question_event_box .reply_word_box .word_content .question_box .text_box{ float: left; width: 500px;}
+.question_event_box .reply_word_box .word_content .question_box .text_box textarea{ border: 1px solid #D2D2D2; resize: none;}
+.question_event_box .reply_word_box .word_content .question_box .text_box .text_question{  width: 482px; color: #666; font-size: 13px; height: 140px; letter-spacing: 1px; line-height: 22px; padding: 5px 8px; resize: none; border: 1px #d2d2d2 solid;}
+.question_event_box .reply_word_box .word_content .question_box .ask_box{ width:500px; height:38px; line-height:38px; border:1px #d2d2d2 solid; cursor:pointer;}
+.question_event_box .reply_word_box .word_content .question_box .ask_box a{ color: #666; font-size: 12px; padding-left: 20px; letter-spacing: 2px;}
+
+.question_event_box .reply_word_box .submit_box{ float: left; width: 250px;}
+.question_event_box .reply_word_box .submit_box .code_box{ width: 240px; padding-left: 15px; margin-bottom: 15px;}
+.question_event_box .reply_word_box .submit_box .code_box a.textbt{ line-height: 25px; font-size: 12px; color: #666; letter-spacing: 1px; padding: 6px 0px 0px 18px; background: url(../../../images/shop/store/test_icon.gif) no-repeat left -4px; letter-spacing: 0; display: inline-block;}
+.question_event_box .reply_word_box .submit_box .code_box p{ font-size: 12px; font-weight: bold; color: #666; letter-spacing: 1px;}
+.question_event_box .reply_word_box .submit_box .code_box p span{ font-weight: normal;}
+.question_event_box .reply_word_box .submit_box .enter_box{ width: 240px; padding-left: 15px;}
+.question_event_box .reply_word_box .submit_box .enter_box .enter_code{ float: left; width: 110px; color: #666; font-size: 15px; height: 23px; letter-spacing: 2px; line-height: 23px; padding: 0 6px;}
+.question_event_box .reply_word_box .submit_box .enter_box .btn_enter_qa{ float: left; height: 25px; margin-left: 6px;}
+.question_event_box .reply_word_box .submit_box .enter_box .btn_enter_qa a.btn_enter{ font-size: 12px; color: #666666; background: url(../../../images/shop/store/function_btn.gif) left top no-repeat; float: left; text-decoration: none; display: inline;}
+.question_event_box .reply_word_box .submit_box .enter_box .btn_enter_qa a.btn_enter span{ display: block; background: url(../../../images/shop/store/function_btn.gif) right -25px no-repeat; padding: 0 25px 0 25px; line-height: 25px; text-decoration: none;}
+
+/*== 問答刪除、回覆 ==*/
+.question_event_box .sort_ItemsListQA .reply_box{ padding:15px 0 0 0;}
+.question_event_box .sort_ItemsListQA .reply_box a.reply_deals { display:block; font-size:12px;color:#666666; float:left; text-decoration:none; display:inline; height: 25px; background: url(../../../images/shop/store/function_btn.gif) no-repeat left top ;}
+.question_event_box .sort_ItemsListQA .reply_box a.reply_deals span{display:block; background: url(../../../images/shop/store/function_btn.gif) no-repeat right -25px; padding:0 40px 0 40px; line-height:25px; text-decoration:none;}
+.question_event_box .sort_ItemsListQA .reply_box a.reply_deals:hover {	color:#353a3b; text-decoration:none; background: url(../../../images/shop/store/function_btn.gif) no-repeat left -50px ;}
+.question_event_box .sort_ItemsListQA .reply_box a.reply_deals:hover span {color:#353a3b; text-decoration:none; background: url(../../../images/shop/store/function_btn.gif) no-repeat right -75px;}
+.question_event_box .sort_ItemsListQA .reply_box a.reply_deals:active {background: url(../../../images/shop/store/function_btn.gif) no-repeat left -100px;}
+.question_event_box .sort_ItemsListQA .reply_box a.reply_deals:active span {background: url(../../../images/shop/store/function_btn.gif) no-repeat right -125px ;}
+
+.question_event_box .reply_word_box_manger{width:100%; padding:15px 0 0 0;}
+.question_event_box .reply_word_box_manger .word_content{width:100%;}
+.question_event_box .reply_word_box_manger .word_content .reply_word{width:100%; margin:0px 0 0 0;}
+.question_event_box .reply_word_box_manger .word_content .reply_word .keyword_input{width:842px;height:100px;color: #666666; font-size:13px; letter-spacing:1px;	line-height:24px;	padding:5px 8px 5px 8px;	resize: none;}
+.question_event_box .reply_word_box_manger .word_content .wordbox_Below{ width:100%; padding:10px 0 0 0;}
+.question_event_box .reply_word_box_manger .word_content .wordbox_Below p{ font-size:12px; color:#666666; letter-spacing:1px; float:left;}
+.question_event_box .reply_word_box_manger .word_content .wordbox_Below .reply_wordbox { float:right;}
+.question_event_box .reply_word_box_manger .word_content .wordbox_Below .reply_wordbox a.reply_deals  {display:block;font-size:12px;color:#666666;background:url(../../../images/shop/store/function_btn.gif) left top no-repeat;float:left;text-decoration:none;display:inline;}
+.question_event_box .reply_word_box_manger .word_content .wordbox_Below .reply_wordbox a.reply_deals span{display:block;background:url(../../../images/shop/store/function_btn.gif) right -25px no-repeat;	padding:0 40px 0 40px;line-height:25px;text-decoration:none;}
+.question_event_box .reply_word_box_manger .word_content .wordbox_Below .reply_wordbox a.reply_deals:hover {	color:#353a3b;text-decoration:none;background:url(../../../images/shop/store/function_btn.gif) left -50px no-repeat;}
+.question_event_box .reply_word_box_manger .word_content .wordbox_Below .reply_wordbox a.reply_deals:hover span {color:#353a3b;text-decoration:none;background:url(../../../images/shop/store/function_btn.gif) right -75px no-repeat;}
+.question_event_box .reply_word_box_manger .word_content .wordbox_Below .reply_wordbox a.reply_deals:active {background:url(../../../images/shop/store/function_btn.gif) left -100px no-repeat;}
+.question_event_box .reply_word_box_manger .word_content .wordbox_Below .reply_wordbox a.reply_deals:active span {background:url(../../../images/shop/store/function_btn.gif) right -125px no-repeat;}
+
+.question_event_box .reply_word_box .word_content .submit_box{ float:left; width:220px;}
+.question_event_box .reply_word_box .word_content .submit_box .code_box{ width:210px; padding-left:10px; margin-bottom:15px;}
+.question_event_box .reply_word_box .word_content .submit_box .code_box a.textbt{display:block;line-height:25px;font-size:12px;color:#666;letter-spacing:1px;padding: 6px 0px 0px 18px;background:url(../../../images/shop/store/test_icon.gif) no-repeat left -4px; letter-spacing:0; display: inline-block;}
+.question_event_box .reply_word_box .word_content .submit_box .code_box p{ font-size:12px; font-weight:bold; color:#666; letter-spacing:1px;}
+.question_event_box .reply_word_box .word_content .submit_box .code_box p span{ font-weight:normal;}
+.question_event_box .reply_word_box .word_content .submit_box .enter_box{ width:210px; padding-left:10px;}
+.question_event_box .reply_word_box .word_content .submit_box .enter_box .enter_code{float:left; width:110px; color:#666; font-size:15px; height: 23px; letter-spacing: 2px; line-height: 23px; padding: 0 6px;}
+
+.question_event_box .reply_word_box .word_content .submit_box .enter_box .btn_enter_qa{ float:left; height:25px; margin-left:6px; *width:75px;}
+.question_event_box .reply_word_box .word_content .submit_box .enter_box .btn_enter_qa a.btn_enter{display:block;font-size:12px;color:#666666;background:url(../../../images/shop/store/function_btn.gif) left top no-repeat;float:left;text-decoration:none;display:inline;}
+.question_event_box .reply_word_box .word_content .submit_box .enter_box .btn_enter_qa a.btn_enter span{display:block;background:url(../../../images/shop/store/function_btn.gif) right -25px no-repeat;	padding:0 25px 0 25px;line-height:25px;text-decoration:none;}
+.question_event_box .reply_word_box .word_content .submit_box .enter_box .btn_enter_qa a.btn_enter:hover {	color:#353a3b;text-decoration:none;background:url(../../../images/shop/store/function_btn.gif) left -50px no-repeat;}
+.question_event_box .reply_word_box .word_content .submit_box .enter_box .btn_enter_qa a.btn_enter:hover span {color:#353a3b;text-decoration:none;background:url(../../../images/shop/store/function_btn.gif) right -75px no-repeat;}
+.question_event_box .reply_word_box .word_content .submit_box .enter_box .btn_enter_qa a.btn_enter:active {background:url(../../../images/shop/store/function_btn.gif) left -100px no-repeat;}
+.question_event_box .reply_word_box .word_content .submit_box .enter_box .btn_enter_qa a.btn_enter:active span {background:url(../../../images/shop/store/function_btn.gif) right -125px no-repeat;}
+
+/*== 目前尚無問答 ==*/
+.question_event_box .error_wap { padding: 25px 30px; width: 730px;}
+.question_event_box .error_wap p.alert { color: #666; font-size: 15px; font-weight: bold; letter-spacing: 1px;}
+
+/*問與答_看更多*/
+.question_event_box .more_QA_wrp{ margin:10px; text-align: right;}
+.question_event_box .more_QA_wrp a{ font-size:13px;}

@@ -1,0 +1,587 @@
+@charset "utf-8";
+
+/* 導入思源黑體 
+Font Weight : 300 / 400 / 500 / 700
+			  Light / Regular / Medium / Bold
+*/
+@import url("web_fonts/noto.css");
+.registration_wrp.small_width div, .registration_wrp.small_width span, .registration_wrp.small_width a, .registration_wrp.small_width ul, .registration_wrp.small_width li { font-family: 'Noto Sans TC', '微軟正黑體', 'Microsoft Jhenghei', Arial; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* CSS Document */
+h1, h2, h3, h4, h5, h6, p { color: #454545; font-weight: normal; letter-spacing: 1px; }
+#wrapper_register { width: 980px; margin: 0 auto; padding: 10px 0 20px 0; margin-bottom: 20px; }
+#register_title { /*float:left;*/ width: 896px; height: 38px; /*border-bottom: 1px solid #ebebeb;*/  /* margin:0 0 15px 42px;*/ margin: 0 auto; background-color: #f7f7f7; }
+#register_title h1 { float: left; font-size: 13px; width: 96px; border-left: 2px solid #3da4e0; line-height: 38px; background: url(../images/register/icon_r_arrow_38.gif) no-repeat left top; padding-left: 38px; /*margin:0px 0px 0px 19px;*/ }
+#register_con { width: 980px; margin-top: 15px; /*background:url(../images/register/register_bg.jpg) no-repeat;*/ /*padding-top:30px;*/ }
+#register_con .reg_float { float: left; border-right: 1px #e7e7e7 solid; }
+#register_con .register_ihergo { width: 680px; margin: 0 auto; }
+#register_con .step_bonus { width: 790px; }
+#wrapper_register .step_content { float: left; width: 760px; height: 38px; }
+#wrapper_register .step_content .step_box { width: 190px; height: 100%; float: left; position: relative; }
+#wrapper_register .step_content .step_box span.arrow_pic { display: block; width: 12px; height: 38px; position: absolute; right: 0px; top: 0px; }
+#wrapper_register .step_content .step_box p.number { display: inline-block; vertical-align: middle; padding: 0 0 0 15px; }
+#wrapper_register .step_content .step_box p.number span { display: block; width: 16px; height: 16px; border-radius: 50%; line-height: 16px; text-align: center; font-size: 11px; }
+#wrapper_register .step_content .step_box h3 { display: inline-block; vertical-align: middle; font-size: 16px; line-height: 38px; font-weight: normal; padding: 0 0 0 7px; }
+#wrapper_register .step_content .step_done { background: #454545; }
+#wrapper_register .step_content .step_done span.arrow_pic { background: url(../images/register/register_step_arrow_done.jpg) no-repeat; }
+#wrapper_register .step_content .step_done p.number span { text-indent: -9999px; background: url(../images/register/register_target.jpg) no-repeat center center; }
+#wrapper_register .step_content .step_done h3 { color: #a3a3a3; }
+#wrapper_register .step_content .step_done_2 { background: #454545; }
+#wrapper_register .step_content .step_done_2 span.arrow_pic { background: url(../images/register/register_step_arrow_done_2.jpg) no-repeat; }
+#wrapper_register .step_content .step_done_2 p.number span { text-indent: -9999px; background: url(../images/register/register_target.jpg) no-repeat center center; }
+#wrapper_register .step_content .step_done_2 h3 { color: #a3a3a3; }
+#wrapper_register .step_content .step_target { background: #3da4df; }
+#wrapper_register .step_content .step_target span.arrow_pic { background: url(../images/register/register_step_arrow_target.jpg) no-repeat; }
+#wrapper_register .step_content .step_target p.number span { background: #fcd702; color: #3da4df }
+#wrapper_register .step_content .step_target h3 { color: #ffffff; }
+#wrapper_register .step_content .step_none { background: #ebebeb; }
+#wrapper_register .step_content .step_none span.arrow_pic { background: url(../images/register/register_step_arrow_none.jpg) no-repeat; }
+#wrapper_register .step_content .step_none p.number span { background: #fff; color: #8a8a8a; }
+#wrapper_register .step_content .step_none h3 { color: #8a8a8a; }
+#register_con .write_box { width: 596px; margin: 0 auto; border-top: 1px #e7e7e7 solid; border-bottom: 1px solid #E7E7E7; padding-bottom: 30px; }
+#register_con .step_bonus .write_box { width: 790px; }
+#register_con .write_box .write_row { width: 596px; background-color: #f7f7f7; border: 1px #fff solid; border-width: 1px 0; }
+#register_con .write_box .write_row .map_content { width: 596px; height: 300px; float: left; background-color: #999; position: relative; }
+#register_con .step_bonus .write_row { width: 100%; }
+#register_con .write_box .write_row .left_row { float: left; width: 134px; height: 47px; line-height: 47px; }
+#register_con .step_bonus .write_row .left_row { width: 210px; }
+#register_con .write_box .write_row .right_row { float: right; width: 460px; line-height: 47px; height: 47px; border-left: 2px #fff solid; }
+#register_con .write_box .write_row .right_row .right_row_box { width: 460px; height: 34px; float: left; overflow: hidden; }
+#register_con .write_box .write_row .right_row .right_row_box img.global { float: left; margin: 13px 0px 0px 5px; }
+#register_con .write_box .write_row .right_row .right_row_box img.private { float: left; margin: 10px 2px 0px 8px; }
+#register_con .step_bonus .write_row .right_row p.mobile_code_text { font-size: 12px; color: 666px; letter-spacing: 1px; line-height: 20px; padding: 0 0 10px 15px; }
+#register_con .step_bonus .write_row .right_row p.mobile_code_text.margin_50 { margin-top: 50px; }
+#register_con .step_bonus .write_row .right_row .lock { opacity: 0.4; filter: alpha(opacity=40); }
+#register_con .write_box .write_row .center_row { width: 596px; height: 65px; padding: 10px 0px 0px 10px; /*line-height:47px;*/ }
+#register_con .write_box .write_row .agree_row { width: 596px; height: 30px; padding: 10px 0px 0px 155px; }
+#register_con .step_bonus .write_row .center_row { width: 100%; }
+#register_con .step_bonus .write_row .center_row a.send_btn { }
+#register_con .step_bonus .write_row .center_row a.send_btn { color: #454545; font-size: 13px; line-height: 28px; display: inline-block; margin: 10px 0 0 245px; padding: 0px 30px; background: url(../images/register/btn_enter.jpg) repeat-x left -128px; border: 1px solid #b6b6b6; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); letter-spacing: 1px; border-radius: 2px 2px 2px 2px; }
+#register_con .step_bonus .write_row .center_row a.send_btn:hover { text-decoration: none; background: url(../images/register/btn_enter.jpg) repeat-x left -156px; border: 1px solid #858585; box-shadow: 0 1px 0 rgba(0, 0, 0, 0); }
+#register_con .step_bonus .write_row .center_row a.send_btn:active { text-decoration: none; background: url(../images/register/btn_enter.jpg) repeat-x left -128px; border: 1px solid #858585; box-shadow: 0 1px 0 rgba(0, 0, 0, 0); }
+.row_float { float: left; }
+#register_con .write_box .write_row .right_row p.txt_mail { font-size: 12px; color: #888; line-height: 18px; padding: 4px 0 2px 15px; }
+#register_con .write_box .write_row .row_h80 { height: 80px; }
+#register_con .write_box .write_row .row_h80 input { float: left; margin: 17px 0 0 15px; }
+#register_con .write_box .write_row .row_h77 { height: 77px; line-height: 77px; }
+#register_con .write_box .write_row .row_h70 { height: 70px; line-height: 70px; }
+#register_con .write_box .write_row .row_h60 { height: 64px; line-height: 64px; }
+#register_con .write_box .write_row .row_h80 { height: 80px; }
+#register_con .write_box .write_row .row_h100 { height: 100px; }
+#register_con .check_edm { width: 400px; height: 30px; }
+#register_con .write_box .write_row .left_row h3 { font-size: 13px; padding-left: 38px; *background-position: 18px 16px; }
+#register_con .step_bonus .write_row .left_row h3 { margin: 0 0 0 70px; }
+#register_con .write_box .write_row .left_row h3.h3_code { font-size: 13px; background: url(../images/register/icon_r_arrow.gif) no-repeat 18px 33px; padding-left: 38px; *background-position: 18px 31px; text-align: justify; width: 80px; }
+#register_con .write_box .write_row .left_row h3.h3_code.bg { background-position: 17px 17px; }
+#register_con .write_box .write_row .left_row h3.h3_code:after { content: ''; display: inline-block; width: 100%; }
+#register_con .write_box .write_row .left_row h3.h3_mail { font-size: 13px; background: url(../images/register/icon_r_arrow.gif) no-repeat 18px 29px; padding-left: 38px; *background-position: 18px 27px; }
+#register_con .write_box .write_row .right_row .btn_check { float: left; width: 128px; height: 26px; background: url(../images/register/btn_check.jpg) no-repeat; margin: 10px 0 0 10px; _display: inline; line-height: 26px; }
+#register_con .write_box .write_row .right_row .btn_check a { display: block; color: #666; text-decoration: none; }
+#register_con .write_box .write_row .right_row .btn_check a:hover { color: #999; }
+#register_con .write_box .code_pic { float: left; width: 150px; height: auto; margin: 8px 5px 0 0; _display: inline; }
+#register_con .write_box .write_row a.renew_code { font-size: 12px; letter-spacing: 1px; color: #00479d; text-decoration: underline; }
+#register_con .write_box .write_row a:hover.renew_code { text-decoration: none; }
+.write_row a.agree_list { color: #105CB6; text-decoration: underline; }
+.write_row a:hover.agree_list { text-decoration: none; }
+#register_con .btn_fb01 { width: 183px; height: 37px; margin: 15px auto; }
+#register_con .btn_fb01 a { display: block; width: 183px; height: 37px; background: url(../images/register/btn_fb.jpg) no-repeat -586px 0; text-indent: -9999px; }
+#register_con .btn_fb01 a:hover { background-position: -586px -37px; }
+#register_con .btn_fb02 { width: 283px; height: 37px; margin: 15px 0 0 75px; }
+#register_con .btn_fb02 a { display: block; width: 283px; height: 37px; background: url(../images/register/btn_fb.jpg) no-repeat 0 0; text-indent: -9999px; }
+#register_con .btn_fb02 a:hover { background-position: 0 -37px; }
+#register_con .btn_fb03 { width: 303px; height: 37px; margin: 15px 0 0 60px; }
+#register_con .btn_fb03 a { display: block; width: 303x; height: 37px; background: url(../images/register/btn_fb.jpg) no-repeat -283px 0; text-indent: -9999px; }
+#register_con .btn_fb03 a:hover { background-position: -283px -37px; }
+#register_con .re_title01 { width: 596px; height: 35px; background: url(../images/register/process.jpg) no-repeat 0 -223px; text-indent: -9999px; margin: 0 auto; border-bottom: 1px #e7e7e7 solid; }
+#register_con .re_title02 { width: 596px; height: 35px; background: url(../images/register/process.jpg) no-repeat 0 -258px; text-indent: -9999px; margin: 0 auto; border-bottom: 1px #e7e7e7 solid; }
+#register_con .re_title03 { width: 596px; height: 35px; background: url(../images/register/process.jpg) no-repeat 0 -293px; text-indent: -9999px; margin: 0 auto; border-bottom: 1px #e7e7e7 solid; }
+#register_con .re_title04 { width: 596px; height: 35px; background: url(../images/register/process.jpg) no-repeat 0 -328px; text-indent: -9999px; margin: 0 auto; border-bottom: 1px #e7e7e7 solid; }
+#register_con .re_title05 { width: 596px; height: 35px; background: url(../images/register/process.jpg) no-repeat 0 -363px; text-indent: -9999px; margin: 0 auto; border-bottom: 1px #e7e7e7 solid; }
+#register_con p.p_box { font-size: 15px;/* font-size:13px;*/ color: #454545; line-height: 30px; margin: 0 auto; /*padding:15px 0 0 80px;*/ }
+#register_con .skip_box { width: 596px; height: 24px; border-top: 1px #e7e7e7 solid; margin: 15px auto; }
+#register_con .skip_box a.skip { display: block; width: 50px; height: 24px; font-size: 12px; color: #666; background: url(../images/register/btn_enter.jpg) no-repeat -120px 0; text-align: center; margin-top: 10px; line-height: 24px; float: right; margin-right: 10px; _display: inline; }
+#register_con .skip_box a:hover.skip { background-position: -120px -24px; text-decoration: none; }
+
+/*前往區塊*/
+#register_con .goto_box { width: 602px; height: 90px; margin: 0 auto; margin-top: 20px; margin-bottom: 30px; }
+#register_con .goto_box .goto_a { float: left; width: 290px; height: 90px; }
+#register_con .goto_box .goto_a a { display: block; width: 290px; height: 90px; background: url(../images/register/btn_end.jpg) no-repeat -290px 0; text-indent: -9999px; }
+#register_con .goto_box .goto_a a:hover { background-position: -290px -90px; }
+#register_con .goto_box .goto_b { float: left; width: 310px; height: 90px; }
+#register_con .goto_box .goto_b a { display: block; width: 310px; height: 90px; background: url(../images/register/btn_end.jpg) no-repeat -580px 0; text-indent: -9999px; }
+#register_con .goto_box .goto_b a:hover { background-position: -580px -90px; }
+#register_con .goto_box .goto_c { float: left; width: 290px; height: 90px; }
+#register_con .goto_box .goto_c a { display: block; width: 290px; height: 90px; background: url(../images/register/btn_end.jpg) no-repeat 0 0; text-indent: -9999px; }
+#register_con .goto_box .goto_c a:hover { background-position: 0 -90px; }
+#register_con .re_footer { width: 600px; margin: 0 auto; }
+#register_con .re_footer .re_line { width: 600px; height: 9px; background: url(../images/register/line_footer.jpg) repeat-x; margin-bottom: 10px; _margin-bottom: 0; }
+#register_con .re_footer a { color: #1a356e; }
+#register_con .re_footer a:hover { text-decoration: underline; }
+
+/*popup_邀請朋友*/
+.friend_box { width: 565px; margin: 0 auto; }
+.friend_box h2 { height: 24px; line-height: 24px; font-size: 13px; color: #666; border-bottom: 1px #e7e7e7 solid; padding-left: 15px; }
+.friend_box .select_all { height: 24px; border-bottom: 1px #e7e7e7 dotted; padding-left: 15px; background-color: #f7f7f7; margin-bottom: 5px; }
+.friend_box .select_all p { float: left; height: 24px; line-height: 24px; font-size: 12px; color: #454545; letter-spacing: 2px; }
+.friend_box .input_all { float: left; margin: 5px 8px 0 0; _display: inline; }
+.friend_box .user_area { width: 100%; height: auto; padding-bottom: 10px; border-bottom: 1px #e7e7e7 solid; }
+.friend_box .user_row { float: left; width: 185px; height: 64px; border-radius: 3px; margin: 5px 5px 0 0; position: relative; cursor: pointer; }
+.friend_box .user_row:hover { background-color: #e4e9f3; }
+.friend_box .user_row_active { background-color: #e4e9f3; }
+.friend_box .user_row .l_row { float: left; width: 60px; position: relative; }
+.friend_box .user_row .r_row { float: right; width: 115px; padding: 8px 5px 0 5px; }
+.friend_box .user_row .l_row .friend_pic { width: 50px; height: 50px; padding: 2px; background-color: #fff; border: 1px #e7e7e7 solid; margin: 4px 0 0 4px; }
+.friend_box .user_row .l_row .select_one { width: 22px; height: 22px; position: absolute; left: 42px; top: 39px; z-index: 1; }
+h3.fb_account { font-size: 13px; color: #1a356e; font-weight: bold; line-height: 16px; height: auto !important; height: 34px; max-height: 34px; overflow: hidden; }
+h4.ihergo_account { font-size: 12px; color: #666; letter-spacing: 0; line-height: 16px; }
+.friend_box .MarR0 { margin-right: 0; }
+.btn_friend { width: 85px; margin: 10px auto; }
+.btn_friend a { display: block; background-color: #4e69a2; border-radius: 3px; font-size: 12px; color: #fff; height: 24px; line-height: 24px; text-align: center; }
+.btn_friend a:hover { color: #e7e7e7; text-decoration: none; }
+.btn_friend a span { padding: 0 15px; }
+
+/*FB登入*/
+.loginFB_box { width: 500px; margin: 0 auto; }
+.loginFB_box .l_FBpic { float: left; width: 50px; height: 50px; padding: 2px; border: 1px #e7e7e7 solid; }
+.loginFB_box .r_FBlogin { float: left; padding-left: 15px; _width: 385px; }
+.loginFB_box .r_FBlogin .layer01 { width: 385px; border-bottom: 1px #e7e7e7 dotted; padding: 7px 0; }
+.loginFB_box .r_FBlogin .layer02 { width: 385px; padding: 10px 0; }
+.loginFB_box .r_FBlogin .layer03 { width: 385px; border-top: 1px #e7e7e7 solid; }
+.loginFB_box .r_FBlogin .layer03_w420 { width: 420px; }
+.loginFB_box .txt_box { width: 380px; padding: 2px 0; _padding: 5px 0; }
+.loginFB_box p.l_radio { float: left; width: 20px; height: 20px; padding-top: 3px; _padding-top: 0; }
+.loginFB_box p.r_txt { float: left; letter-spacing: 1px; }
+.loginFB_box .r_FBlogin p.txt13 { font-size: 13px; line-height: 20px; }
+.loginFB_box .r_FBlogin p span.user_name { color: #1a356e; font-weight: bold; padding-left: 5px; }
+.loginFB_box .r_FBlogin p.ls2 { letter-spacing: 2px; }
+.loginFB_box .write_row { width: 385px; background-color: #f7f7f7; border: 1px #fff solid; border-width: 1px 0; }
+.loginFB_box .w420 { width: 420px; }
+.loginFB_box .write_row .left_row { float: left; width: 115px; height: 47px; line-height: 47px; border-right: 2px #FFF solid; }
+.loginFB_box .write_row .right_row { float: right; width: 268px; height: 47px; line-height: 47px; }
+.loginFB_box .write_row .right_row_w303 { width: 303px; }
+.loginFB_box .write_row .center_row { height: 47px; line-height: 47px; }
+.loginFB_box .write_row .left_row h3 { font-size: 13px; padding-left: 28px; background: url(../images/register/icon_r_arrow.gif) no-repeat 12px 18px; _background-position: 12px 16px; }
+
+/*按鈕BTN*/
+#register_con .btn_box { height: 32px; margin: 0 auto; margin: 20px 0 0 260px; }
+#register_con .reg_submit { float: left; width: 148px; height: 32px; }
+#register_con .reg_submit a { display: block; width: 148px; height: 32px; font-size: 13px; color: #666; text-align: center; line-height: 32px; background: url(../images/register/btn_enter.jpg) no-repeat left -64px; letter-spacing: 2px; }
+#register_con .reg_submit a:hover { background-position: left -96px; text-decoration: none; }
+#register_con .reg_cancel { float: left; width: 40px; height: 20px; margin: 7px 0 0 20px; _display: inline; }
+#register_con .reg_cancel a { display: block; width: 40px; height: 20px; font-size: 12px; color: #105CB6; letter-spacing: 2px; text-decoration: underline; }
+#register_con .reg_cancel a:hover { text-decoration: none; }
+
+/*表單元件效果*/
+.input_css { color: #454545; font-size: 12px; height: 22px; letter-spacing: 1px; line-height: 22px; margin: 9px 10px 0 15px; padding: 2px 5px; border: 1px solid #CFCFCF; font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif; resize: none; }
+.input_css.margin { color: #454545; font-size: 12px; height: 22px; letter-spacing: 1px; line-height: 22px; margin: 9px 10px 0 15px; padding: 2px 5px; border: 1px solid #CFCFCF; font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif; resize: none; margin: 2px 0px 0px 5px; }
+.w_130 { width: 130px; }
+.w_220 { width: 220px; }
+.MarT20 { margin-top: 24px; }
+#register_con .w_390 { width: 390px; }
+#register_con .w_400 { width: 400px; }
+#register_con .w_305 { width: 305px; }
+.write_row .select_box { height: 26px; margin-top: 10px; *margin-top: 0; }
+.write_row .select_box.NOmargin { float: left; }
+.write_row .select_box.width { height: 26px; margin-top: 10px; *margin-top: 0; width: 220px; }
+.write_row .select_box.margin { margin: 0; }
+.write_row .right_row select { color: #666; height: 30px; padding: 2px; border: 1px solid #CFCFCF; margin: 0 0 0 15px; line-height: 26px; _margin-top: 12px; vertical-align: top; float: left; }
+.write_row .right_row select.select_MGL5 { margin-left: 5px; float: left; }
+.input_agree { margin: 2px 8px 0 152px; _margin-top: 12px; }
+.input_agree_FB { margin: 16px 8px 0 20px; _margin: 12px 0 0 60px; }
+.input_agree_edm { margin: 8px 8px 0 16px; _margin-top: 4px; }
+
+/*文字效果*/
+p.account_text { font-size: 13px; letter-spacing: 1px; padding: 0 0 0 17px; }
+p.txt12_6 { font-size: 12px; color: #666; }
+p.txt12_6.paddingL { font-size: 12px; color: #666; padding-left: 15px; }
+p.txt12_6.paddingL5 { font-size: 12px; color: #666; padding-left: 5px; }
+p.txt12_6.paddingL5 span { font-size: 12px; color: #999; padding-left: 5px; }
+p.txt12_6.paddingL.marginTOP { font-size: 12px; color: #666; padding-left: 15px; margin-top: -20px; }
+#register_con p.txt12_45 { font-size: 12px; color: #454545; }
+#register_con p.txt12_9 { font-size: 12px; color: #999; }
+#register_con p.txt_left { text-align: left; }
+#register_con p.txt_center { text-align: center; }
+
+/*#register_con p.w_530{ width:530px;}
+#register_con p.w_580{ width:580px;}*/
+p.agree { font-size: 12px; color: #666; text-align: left; }
+p.agree span.f85 { color: #858585; }
+p.edm { float: left; font-size: 12px; color: #666; text-align: center; line-height: 30px; }
+#register_con p.paddL0 { padding-left: 0; }
+span.txt_redB { color: #c10b0a; font-weight: bold; font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif; }
+span.txt_red { color: #c10b0a; }
+
+/*右邊其它登入方式*/
+#register_con .other_login { float: left; width: 240px; padding-left: 25px; }
+#register_con .other_login p.other_manner { font-size: 15px; line-height: 22px; color: #2d5684; font-weight: bold; text-align: center; padding: 15px 0 8px 0; }
+#register_con .other_login p.remark { width: 220px; margin: 0 auto; color: #454545; font-size: 13px; line-height: 24px; text-align: justify; letter-spacing: 1px; padding-bottom: 15px; }
+#register_con .other_login p.choose { width: 194px; height: 32px; line-height: 32px; margin: 0 auto; padding-bottom: 8px; font-size: 12px; text-indent: 48px; letter-spacing: 1px; }
+#register_con .other_login p.choose a { width: 194px; height: 32px; display: block; color: #FFF; text-decoration: none; }
+#register_con .other_login p.choose a.FB { background: url(../images/register/btn_other_login.gif) 0 0 no-repeat; }
+#register_con .other_login p.choose a.Google { background: url(../images/register/btn_other_login.gif) -194px 0 no-repeat; }
+#register_con .other_login p.choose a.Yahoo { background: url(../images/register/btn_other_login.gif) -388px 0 no-repeat; }
+#register_con .other_login p.choose a.FB:hover { background: url(../images/register/btn_other_login.gif) 0 -32px no-repeat; }
+#register_con .other_login p.choose a.Google:hover { background: url(../images/register/btn_other_login.gif) -194px -32px no-repeat; }
+#register_con .other_login p.choose a.Yahoo:hover { background: url(../images/register/btn_other_login.gif) -388px -32px no-repeat; }
+
+/*右邊其它登入方式_結束*/
+
+/*被推薦人註冊可獲得紅利*/
+#wrapper_register .FreeBonus { width: 896px; height: 80px; margin: 10px auto; background-color: #3DA4DF; }
+#wrapper_register .FreeBonus .FreeBonus_con { width: 886px; height: 70px; padding: 5px; }
+#wrapper_register .FreeBonus .FreeBonus_con .recommend { font-size: 20px; color: #fff; font-weight: bold; margin: 28px 0 0 35px; letter-spacing: 3px; float: left; }
+#wrapper_register .FreeBonus .FreeBonus_con .white { text-indent: -9999px; width: 10px; height: 54px; margin: 7px 0 0 120px; border-right: 2px solid #fff; }
+#wrapper_register .FreeBonus .FreeBonus_con img { width: 50px; height: 50px; float: left; margin: -54px 0 0 146px; border: 2px solid #fff; border-radius: 2px; }
+#wrapper_register .FreeBonus .FreeBonus_con .name { float: left; color: #fff; font-size: 20px; font-weight: bold; margin: -33px 0 0 210px; letter-spacing: 1px; width: 180px; height: 20px; overflow: hidden; }
+#wrapper_register .FreeBonus .FreeBonus_con .FreeGet { float: left; color: #fff; margin: -46px 0 0 398px; letter-spacing: 2px; }
+#wrapper_register .FreeBonus .FreeBonus_con .FreeGet span.yellow { color: #fff400; }
+#wrapper_register .FreeBonus .FreeBonus_con .FreeGet span.yellow span.big { font-size: 20px; }
+
+/*================2016.1.18 New Register =================*/
+@charset "UTF-8";
+body, html { background: #f7f7f7 !important; }
+input:focus { outline: none; }
+input::-moz-focus-inner { outline: none; }
+.registration_wrp { width: 960px; background: #ffffff; border-radius: 15px; border: 1px solid #f2f2f2; margin: 50px auto 0 auto; }
+.registration_wrp.h1350 { width: 960px; height: 1350px; background: #ffffff; border-radius: 15px; border: 1px solid #f2f2f2; margin: 50px auto 0 auto; }
+.registration_wrp .registration_container { width: 862px; margin: 0 auto; }
+.registration_wrp .registration_container input.reg_form_input { font-family: Arial; font-size: 14px; color: #888888; width: calc(100% - 20px); border-radius: 10px; border: 1px solid #e5e5e5; background: #ffffff; padding: 17px 10px; }
+
+/* Logo */
+.registration_wrp .registration_container .reg_header { text-align: center; margin: 38px auto; }
+.registration_wrp .registration_container .reg_header a.ihergo_logo { display: inline-block; width: 187px; height: 46px; background: url(../images/login_page/ihergo_logo.png) no-repeat; }
+
+/* 註冊流程 */
+.registration_wrp .registration_container .reg_steps_wrp { width: 100%; height: 50px; line-height: 50px; }
+.registration_wrp .registration_container .reg_steps_wrp li.reg_step { font-family: Arial, Helvetica; width: 55px; height: 50px; list-style: none; display: block; float: left; z-index: 2; position: relative; top: -14px; text-align: center; margin-left: calc((100% - 220px)/3); }
+.registration_wrp .registration_container .reg_steps_wrp li.reg_step.three { font-family: Arial, Helvetica; width: 55px; height: 50px; list-style: none; display: block; float: left; z-index: 2; position: relative; top: -14px; text-align: center; margin-left: calc((120% - 0px)/3); }
+.registration_wrp .registration_container .reg_steps_wrp.two_steps li.reg_step { font-family: Arial, Helvetica; width: 55px; height: 50px; list-style: none; display: block; float: left; z-index: 2; position: relative; top: -14px; text-align: center; margin-left: calc((100% - 353px)/2); }
+.registration_wrp .registration_container .reg_steps_wrp .step_no_margin { margin-left: 0 !important; }
+.registration_wrp .registration_container .reg_steps_wrp li.reg_step span.step_circle { width: 22px; height: 22px; border-radius: 50%; border: 1px solid #cac8c8; background: #ffffff; display: inline-block; text-align: center; line-height: 22px; font-size: 12px; color: #d9d9d9; }
+
+/* Step Current */
+.registration_wrp .registration_container .reg_steps_wrp .step_current span.step_circle { border: 1px solid transparent !important; background: #57c2e9 !important; color: #ffffff !important; }
+
+/* Step Checked */
+.registration_wrp .registration_container .reg_steps_wrp .step_checked span.step_circle { background: url('../images/register/step_checked.png') no-repeat !important; color: transparent !important; }
+.registration_wrp .registration_container .reg_steps_wrp li.reg_step span.step_info { font-size: 11px; color: #d9d9d9; display: block; margin-top: -13px; letter-spacing: 0px; }
+
+/* Step Current */
+.registration_wrp .registration_container .reg_steps_wrp .step_current span.step_info { color: #57c2e9 !important; }
+.registration_wrp .registration_container .reg_steps_wrp .reg_dash { width: calc(100% - 100px + 28px); height: 1px !important; background: #e5e5e5; z-index: 1 !important; list-style: none; display: block; margin: 0 auto; }
+.registration_wrp .registration_container .reg_steps_wrp.two_steps .reg_dash { width: calc(108% - 100px + 28px); height: 1px !important; background: #e5e5e5; z-index: 1 !important; list-style: none; display: block; margin: 0 auto; }
+
+/* Firefox */
+@-moz-document url-prefix() {
+	.registration_wrp .registration_container .reg_steps_wrp .reg_dash { width: calc(100% - 100px + 28px); height: 1px !important; background: #e5e5e5; z-index: 1 !important; list-style: none; display: block; margin: 0 auto; position: relative; top: 13px; }
+}
+.registration_wrp .registration_container #wrapper_register { width: 100%; padding: 0; }
+@-moz-document url-prefix() {
+	.registration_wrp .registration_container #wrapper_register { width: 100%; padding: 0; margin-top: 25px; }
+}
+.registration_wrp .registration_container #wrapper_register .FreeBonus { width: 100% !important; }
+.registration_wrp .registration_container #wrapper_register #register_con { width: 100%; }
+.registration_wrp .registration_container #wrapper_register #register_con .register_ihergo { width: 631px; }
+.registration_wrp .registration_container #wrapper_register #register_con .write_box { margin: 0; border-top: 0; }
+.registration_wrp .registration_container #wrapper_register #register_con .btn_box { margin: 20px 0 0 150px; }
+.registration_wrp .registration_container #wrapper_register #register_con .btn_box.margin { margin: 20px 0 0 180px; }
+.registration_wrp .registration_container #wrapper_register #register_con .btn_box.margin_310 { margin: 20px 0 70px 310px; }
+.registration_wrp .registration_container #wrapper_register #register_con .submit_btn_wrp { width: 100%; border-top: 1px solid #E7E7E7; }
+.registration_wrp .registration_container #wrapper_register #register_con .submit_btn_con { width: 334px; margin: 30px auto 0 auto; }
+.registration_wrp .registration_container #wrapper_register #register_con .other_login { width: 194px; padding: 0; margin-left: 20px; }
+.registration_wrp .registration_container #wrapper_register #register_con .other_login p.other_login_title { font-size: 14px; font-weight: bold; color: #454545; margin-top: 12px; }
+.registration_wrp .registration_container #wrapper_register #register_con .other_login .why_group { margin-top: 20px; }
+.registration_wrp .registration_container #wrapper_register #register_con .other_login .why_group p.number { font-weight: bold; width: 14px; height: 18px; color: #ffd700; float: left; }
+.registration_wrp .registration_container #wrapper_register #register_con .other_login .why_group p.word { margin-left: 16px; width: 170px; margin-bottom: 20px; }
+.registration_wrp .registration_container #wrapper_register #register_con .other_login .why_group p.word span { font-weight: bold; }
+.registration_wrp .registration_container #wrapper_register #register_con .other_login .why_group_remind p.number { float: left; color: #ffd700; font-weight: bold; font-size: 22px; }
+.registration_wrp .registration_container #wrapper_register #register_con .other_login .why_group_remind p.word { margin-left: 16px; width: 170px; }
+.registration_wrp .registration_container #wrapper_register #register_con .other_login p.remark { width: 100%; font-size: 12px; color: #666666; margin-top: 8px; }
+.registration_wrp .registration_container #wrapper_register #register_con .other_login p.remark span.circle { color: #fed700; margin-right: 5px; }
+.registration_wrp .registration_container #wrapper_register #register_con .other_login .remark span { width: 100%; font-size: 12px; color: #666666; margin-top: 8px; font-weight: bold; }
+.registration_wrp .registration_container #wrapper_register #register_con .other_login .remark span.word { width: 100%; font-size: 12px; color: #666666; font-weight: normal; margin-left: 12px; display: block; margin-top: 0; }
+.registration_wrp .registration_container #wrapper_register #register_con .reg_submit { width: 216px; height: 37px; line-height: 37px; }
+.registration_wrp .registration_container #wrapper_register #register_con .reg_submit a { background: #fabe00; color: #ffffff; border-radius: 8px; width: 216px; height: 37px; line-height: 37px; text-align: center; font-size: 13px; }
+.registration_wrp .registration_container #wrapper_register #register_con .reg_submit a:hover { background: #fab000; }
+.registration_wrp .registration_container #wrapper_register #register_con .reg_cancel { display: inline-block; float: none; margin: 0; height: 37px; line-height: 37px; }
+.registration_wrp .registration_container #wrapper_register #register_con .reg_cancel a { color: #999999; text-decoration: none; font-size: 13px; }
+.registration_wrp .registration_container #wrapper_register #register_con .reg_cancel a:hover { color: #5a696a; text-decoration: none; }
+.registration_wrp .registration_container #wrapper_register #register_con .btn_divider { width: 1px; height: 15px; background: #e5e5e5; margin: 0 36px; display: inline-block; line-height: 37px; position: relative; top: 4px; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con { width: 596px; height: 180px; margin: 50px auto 0 auto; text-align: center; border-bottom: 1px solid #E7E7E7; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con p.p_box { font-size: 18px; font-weight: bold; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con p.p_small { font-size: 12px; font-weight: bold; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con .invite_btn { width: 596px; height: 60px; margin: 25px auto 0 auto; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con .invite_btn a.invite_btn_email { float: left; width: 200px; height: 40px; border: 1px solid #eb6667; border-radius: 8px; display: block; background: transparent url("../images/club/email_icon.png") no-repeat scroll 0 px; margin: 0 20px 0 80px; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con .invite_btn a.invite_btn_email:hover { background-color: #eb6667; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con .invite_btn a.invite_btn_email:hover p { color: #fff; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con .invite_btn p.email { width: 200px; height: 40px; color: #eb6667; font-size: 14px; text-align: center; float: left; line-height: 40px; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con .invite_btn a.invite_btn_email p.email_icon { display: block; float: left; width: 18px; height: 13px; background: transparent url("../images/club/email_icon.png") no-repeat scroll 0 -13px; margin: -27px 0 0 165px; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con .invite_btn a.invite_btn_email p.email_icon:hover { background: transparent url("../images/club/email_icon.png") no-repeat scroll 0 0px; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con .invite_btn a.invite_btn_fb { float: left; width: 200px; height: 40px; border: 1px solid #4577ce; border-radius: 8px; display: block; background: transparent url("../images/club/fb_icon.png") no-repeat scroll 0 px; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con .invite_btn a.invite_btn_fb:hover { background-color: #4577ce; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con .invite_btn a.invite_btn_fb:hover p { color: #fff; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con .invite_btn p.fb { width: 200px; height: 40px; color: #4577ce; font-size: 14px; text-align: center; float: left; line-height: 40px; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con .invite_btn a.invite_btn_fb p.fb_icon { display: block; float: left; width: 18px; height: 18px; background: transparent url("../images/club/fb_icon.png") no-repeat scroll 0 -20px; margin: -27px 0 0 165px; }
+.registration_wrp .registration_container #wrapper_register #register_con .invite_friend_con .invite_btn a.invite_btn_fb p.fb_icon:hover { background: transparent url("../images/club/fb_icon.png") no-repeat scroll 0 -2px; }
+.registration_wrp .registration_container #wrapper_register #register_con .write_box .gMap { width: 596px; height: 360px; background-color: #E5E3DF; overflow: hidden; }
+
+/* Step1 一般註冊 */
+.registration_wrp.small_width { width: 540px !important; height: 580px; position: absolute; top: 0; right: 0; bottom: 0; left: 0; margin: auto; }
+.registration_wrp.small_width .registration_container { width: 100%; }
+.registration_wrp.small_width .registration_container .reg_header { margin: 36px auto 24px auto; }
+.registration_wrp.small_width .registration_container .reg_list { width: 380px; margin: 0 auto; border-top: 1px solid #e5e5e5; }
+.registration_wrp.small_width .registration_container .reg_list .reg_info { font-weight: 400; font-size: 14px; text-align: center; line-height: 28px; color: #888888; margin: 36px 0 0 0 !important; }
+.registration_wrp.small_width .registration_container .reg_list .reg_info b.highlight { font-size: 16px; font-weight: bold; color: #666666; }
+.registration_wrp.small_width .registration_container .reg_list ul.list_con { padding: 0 !important; margin: 32px 0 !important; }
+.registration_wrp.small_width .registration_container .reg_list ul.list_con a { text-decoration: none; color: #ffffff; }
+.registration_wrp.small_width .registration_container .reg_list ul.list_con a:hover { text-decoration: none; }
+.registration_wrp.small_width .registration_container .reg_list ul.list_con li { list-style: none; font-weight: 400; font-size: 14px; color: #ffffff; text-align: center; border-radius: 10px; display: block; width: 300px; height: 48px; line-height: 48px; margin: 0 auto 18px auto; }
+.registration_wrp.small_width .registration_container .reg_list ul.list_con li:hover { opacity: .8; }
+.registration_wrp.small_width .registration_container .reg_list ul.list_con li.facebook_reg { background: url('../images/register/oauth_facebook@2x.png') #466199 no-repeat; background-size: 7px 15px; background-position: 32px 50%; }
+.registration_wrp.small_width .registration_container .reg_list ul.list_con li.google_reg { background: url('../images/register/oauth_google@2x.png') #dc4e41 no-repeat; background-size: 24px 15px; background-position: 24px 50%; }
+.registration_wrp.small_width .registration_container .reg_list ul.list_con li.yahoo_reg { background: url('../images/register/oauth_yahoo@1x.png') #913f88 no-repeat; background-size: 23px 15px; background-position: 21px 50%; }
+.registration_wrp.small_width .registration_container .reg_list ul.list_con li.divider { margin-top: 38px; margin-bottom: 38px; height: 1px; background: #e5e5e5; }
+.registration_wrp.small_width .registration_container .reg_list ul.list_con li.divider .divider_text { font-size: 12px; color: #999999; background: #ffffff; padding: 0 20px; position: relative; top: -24px; }
+.registration_wrp.small_width .registration_container .reg_list ul.list_con li.email_reg { background: url('../images/register/email_reg@2x.png') #ffffff no-repeat; background-size: 19px 15px; background-position: 22px 50%; border: 1px solid #e5e5e5; color: #666666; }
+
+/*Step1 : 推薦碼*/
+.registration_wrp.user_promo { height: 655px; }
+.registration_wrp.user_promo .registration_container .reg_list .reg_info { margin-top: 26px; }
+.registration_wrp.user_promo .registration_container .reg_list .reg_info .re_avatar { width: 60px; height: 60px; overflow: hidden; margin-bottom: 26px; }
+.registration_wrp.user_promo .registration_container .reg_list .reg_info .re_avatar img { width: 60px; height: 60px; overflow: hidden; border-radius: 50%; border: 1px solid #e5e5e5; }
+
+/*Step1 : 第三方導回*/
+.registration_wrp.oauth_info { height: 577px; }
+.registration_wrp.oauth_info .reg_list .oauth_con { width: 336px; margin: 36px auto 30px auto; }
+.registration_wrp.oauth_info .reg_list .oauth_con span.user_avatar { width: 82px; height: 82px; text-align: center; display: block; float: left; }
+.registration_wrp.oauth_info .reg_list .oauth_con .user_avatar img { width: 79px; height: 79px; border-radius: 50%; border: 1px solid #e5e5e5; }
+.registration_wrp.oauth_info .reg_list .oauth_con .welcome_msg { font-weight: 400; font-size: 16px; color: #888888; line-height: 24px; float: left; margin-left: 24px; position: relative; top: 15px; }
+.registration_wrp.oauth_info .reg_list .oauth_con .welcome_msg .user_name { font-family: Arial; font-weight: bold; color: #c10b0a; }
+.registration_wrp.oauth_info .reg_list .creat_new_user_con { width: 336px; margin: 0 auto 36px auto; padding: 15px 18px; background: #f6f6f6; }
+.registration_wrp.oauth_info .reg_list .creat_new_user_con .info_txt { font-size: 12px; font-weight: 400; color: #555555; display: block; margin-bottom: 10px; text-indent: 8px; }
+.registration_wrp .reg_list .reg_footer { width: 100%; margin: 0 auto; }
+.registration_wrp .reg_list .reg_footer .reg_caution { font-size: 13px; color: #888888; margin-bottom: 30px; padding: 20px 5px; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5; display: block; }
+.registration_wrp .reg_list .reg_footer .reg_caution a { font-weight: 500; margin: 0 5px; color: #666666; }
+.registration_wrp .reg_list .reg_footer .reg_caution a:hover { color: #666666; text-decoration: none; }
+.registration_wrp .reg_list .reg_footer .action_btn_con { margin-left: 25px; }
+.registration_wrp .reg_list .reg_footer .action_btn_con a.reg_btn { color: #ffffff; border-radius: 8px; width: 188px; height: 37px; line-height: 37px; text-align: center; font-size: 13px; background: #fabe00; display: inline-block; }
+.registration_wrp .reg_list .reg_footer .action_btn_con a:hover.reg_btn { text-decoration: none; background: #fab000; }
+.registration_wrp .reg_list .reg_footer .action_btn_con a.cancel_btn { color: #999999; width: 142px; height: 37px; line-height: 37px; text-align: center; font-size: 13px; display: inline-block; }
+.registration_wrp .reg_list .reg_footer .action_btn_con a.cancel_btn:hover { text-decoration: none; color: #555555; }
+.registration_wrp.oauth_info .reg_list .creat_new_user_con.error_msg .info_txt { color: #ff0000; }
+.registration_wrp.oauth_info .reg_list .creat_new_user_con.error_msg input { border: 1px solid #ff274e; background: #eeeeee; }
+
+/* Step1 : Email註冊 */
+.registration_wrp.mail_reg { height: 744px !important; }
+.registration_wrp.mail_reg.verify { height: 844px !important; }
+.registration_wrp.mail_reg .registration_container .reg_list .mail_reg_form { width: 100%; margin: 36px auto; }
+.registration_wrp.mail_reg .registration_container .reg_list .mail_reg_form ul { padding: 0; margin: 0; }
+.registration_wrp.mail_reg .registration_container .reg_list .mail_reg_form ul li.form_list { list-style: none; margin-bottom: 24px; }
+.registration_wrp.mail_reg .registration_container .reg_list .mail_reg_form .info_txt { font-size: 12px; font-weight: 400; color: #555555; display: block; margin-bottom: 10px; text-indent: 8px; }
+.registration_wrp.mail_reg .registration_container .reg_list .mail_reg_form .info_txt b.remark { display: inline-block; font-size: 12px; font-weight: normal; color: #888888; margin-left: -10px; }
+.registration_wrp.mail_reg .registration_container .reg_list .mail_reg_form .info_txt b.remark:before { content: ''; width: 15px; height: 1px; background: #d8d8d8; margin: 0 5px; display: inline-block; position: relative; top: -3px; }
+.registration_wrp.mail_reg .registration_container .reg_list .mail_reg_form ul li.form_list.error_msg { }
+.registration_wrp.mail_reg .registration_container .reg_list .mail_reg_form ul li.form_list.error_msg .info_txt { color: #ff0000; }
+.registration_wrp.mail_reg .registration_container .reg_list .mail_reg_form ul li.form_list.error_msg input { border: 1px solid #ff274e; background: #eeeeee; }
+.registration_wrp.mail_reg .registration_container .reg_list .mail_reg_form ul li.form_list .input.half_input input { width: calc(100% - 175px); float: left; margin-right: 20px; }
+.registration_wrp.mail_reg .registration_container .reg_list .mail_reg_form ul li.form_list .input.half_input img { height: 52px; width: auto; }
+
+/* Step2 領取紅利 */
+.registration_wrp .registration_container #wrapper_register.steps .ClubSet_con { width: 100%; padding: 0; }
+.registration_wrp .registration_container #wrapper_register .ClubSet_con_box .titleboxH2 h2.titlefont_6 { color: #FFF; font-size: 28px; font-weight: normal; line-height: 60px; padding: 0px 0px 0px 70px; background: url(../images/register/titlefont_h2_icon.png) left -60px; font-family: "Microsoft Jhenghei", "微軟正黑體", Arial, Helvetica, sans-serif; display: inline-block; vertical-align: middle; }
+.registration_wrp .registration_container #wrapper_register.steps .ClubSet_con_box .shop_con { width: 100%; border-top: 1px solid #e7e7e7; }
+.registration_wrp .registration_container #wrapper_register.steps .ClubSet_con_box .shop_con.stepfour { border-top: 1px solid #eeeeee; }
+.registration_wrp .registration_container #wrapper_register.steps .ClubSet_con .ClubSet_con_box .titleboxH2 { width: auto; }
+.registration_wrp .registration_container #wrapper_register.steps #register_con .register_ihergo { width: 750px; }
+.registration_wrp .registration_container #wrapper_register.steps #register_con .register_ihergo.width { width: 630px; }
+.registration_wrp .registration_container #wrapper_register.steps #register_con .register_ihergo .alert { margin-left: -10px; }
+.registration_wrp .registration_container #wrapper_register.steps #register_con .step_bonus .write_box { width: 750px; margin: 0 auto !important; border-bottom: 1px solid #E7E7E7; padding-bottom: 30px; }
+.registration_wrp .registration_container #wrapper_register.steps #register_con .step_bonus .write_row .right_row { width: calc(100% - 210px - 2px); /* 2px - border */ }
+.registration_wrp .registration_container #wrapper_register.steps #register_con .step_bonus .write_row .left_row h3 { margin: 0; }
+.registration_wrp .registration_container #wrapper_register.steps .ClubSet_con_box.step_bonus { width: 100% !important; }
+.registration_wrp .registration_container #wrapper_register.steps .ClubSet_con_box .mobile_code_text { width: 450px; display: block; float: left; padding: 29px 0; }
+.registration_wrp .registration_container #wrapper_register.steps .ClubSet_con_box .font_box_R { float: right; }
+.registration_wrp .registration_container #wrapper_register.steps .ClubSet_con_box .font_box_R .font_R a.clubbtn_y { background: #fabe00; color: #ffffff; border-radius: 8px; width: 216px; height: 37px; line-height: 37px; text-align: center; font-size: 13px; padding: 0; box-shadow: none; border: 0; }
+.registration_wrp .registration_container #wrapper_register.steps .ClubSet_con_box .font_box_R .font_R a:hover.clubbtn_y { background: #fab000; border: 0; }
+.registration_wrp .registration_container #wrapper_register.steps .ClubSet_con_box .font_box_R .font_R a.clubbtn_y.btn_disable { background: #e0e0e0; cursor: default; }
+.registration_wrp .registration_container #wrapper_register.steps .ClubSet_con_box .font_box_L { float: left; }
+.registration_wrp .registration_container #wrapper_register.steps .ClubSet_con_box .font_box_L .font_L a.prev_btn { background: transparent; color: #999999; border-radius: 8px; border: 1px solid #e0e0e0; width: 216px; height: 37px; line-height: 37px; text-align: center; font-size: 13px; }
+.registration_wrp .registration_container #wrapper_register.steps .ClubSet_con_box .font_box_L .font_L a.prev_btn:hover { background: transparent; text-decoration: none; color: #555555; }
+.registration_wrp .registration_container #wrapper_register.steps .ClubSet_con_box .shop_con a.shopbtn_goto1 { background: url(../images/register/shopbtn_goto_1.png) no-repeat 0 0; font-size: 13px; color: #888888; height: 30px; line-height: 33px; display: block; }
+.registration_wrp .registration_container #wrapper_register.steps .ClubSet_con_box .shop_con a:hover.shopbtn_goto1 { }
+
+/* 加入家族－地圖 */
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp { width: 100%; height: 507px; margin-bottom: 20px; position: relative; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_content { width: 568px; height: 100%; float: left; background: url('../images/register/map_demo1.png') no-repeat; position: relative; overflow: hidden; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_content:after { content: ''; width: 32px; height: 507px; background: #000000; position: absolute; right: 0; display: block; background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.12) 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.12) 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.12) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#26000000', GradientType=1); /* IE6-9 */ }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .current_pin { position: absolute; bottom: 200px; left: 300px; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .current_pin img { cursor: url('https://maps.gstatic.com/mapfiles/openhand_8_8.cur'), pointer; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_content .form_floating_text_field { width: 400px; height: 36px; line-height: 36px; border-radius: 4px; background-color: #ffffff; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15); position: absolute; top: 10px; left: 116px; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_content .form_floating_text_field input.search_address { width: calc(100% - 48px); height: 30px; display: inline-block; float: left; font-size: 12px; line-height: 1.8; background: transparent; border: 0; padding: 0 0 0 17px; position: relative; top: 3px; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_content .form_floating_text_field a.search_btn { width: 24px; height: 24px; display: inline-block; float: right; position: relative; top: calc((100% - 24px)/2); margin-right: 7px; -webkit-transition: all .2s; -moz-transition: all .2s; -ms-transition: all .2s; -o-transition: all .2s; transition: all .2s; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_content .form_floating_text_field a:active.search_btn { opacity: .15; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_content .form_floating_text_field a.search_btn i.ic_form_floating_text_field_search { width: 24px; height: 24px; background: url('../images/register/ic-form-floating-text-field-search@2x.png') no-repeat; background-size: 17px auto; background-position: 50%; display: block; }
+
+/*搜尋結果*/
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation { width: 294px; height: 100%; float: left; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .search_setting { display: none; /*width: 100%; height: 145px; background: #f0f1f1;*/ }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .search_setting .search_setting_head { text-indent: 23px; font-size: 14px; font-weight: bold; color: #32616e; display: inline-block; height: 43px; line-height: 43px; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .search_setting .select_city { margin-left: 23px; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .search_setting .select_box select { display: inline-block; border: 1px solid #e0e1e1; color: #7d9da2; font-size: 13px; height: 35px; border-radius: 4px; padding: 5px 5px; width: calc((100% - 46px)/2); background: url(../images/club/select_icon.png) no-repeat 90% center / 8px 4px #fff; -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .search_setting .go_search_box { margin-top: 10px; margin-left: 23px; border: 1px solid #e0e1e1; position: relative; width: calc(100% - 46px); }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .search_setting .go_search_box input.address { border: 0px; color: #7d9da2; font-size: 13px; line-height: 25px; height: 25px; border-radius: 4px; padding: 5px 10px; width: calc(100% - 40px); }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .search_setting .go_search_box a.go_search_btn { background: url(../images/club/s_search_icon.png) no-repeat center center / 20px 20px #57c2e9; height: 37px; width: 40px; display: block; position: absolute; top: -1px; right: -1px; border-radius: 0 4px 4px 0; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp { width: 100%; height: 100%; background: #f8f9f9; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_header { width: 100%; height: 48px; line-height: 48px; border-bottom: 1px dashed #aebdbd; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_header p { text-indent: 23px; font-size: 14px; font-weight: bold; color: #32616e; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .club_notfound { text-align: center; margin-top: 86px; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .club_notfound img:hover { opacity: 1; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .club_notfound span.notfound_info { font-size: 15px; font-weight: bold; color: #888888; line-height: 25px; margin-top: 20px; display: inline-block; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .map_uncheck { text-align: center; margin-top: 86px; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .map_uncheck img:hover { opacity: 1; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .map_uncheck span.uncheck_info { font-size: 15px; font-weight: bold; color: #888888; line-height: 25px; margin-top: 20px; display: inline-block; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .map_uncheck span.current_pin_img { background: url('../images/register/current_pin_info.png') no-repeat; background-size: 65px 68px; width: 65px; height: 68px; display: block; margin: 0 auto; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .map_uncheck span.confirm_img { background: url('../images/register/confirm_pin_info.png') no-repeat; background-size: 58px 38px; width: 58px; height: 38px; display: block; margin: 0 auto; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content { width: 100%; height: calc(100% - 48px); overflow: hidden; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content::-webkit-scrollbar { width: 2px; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content::-webkit-scrollbar-track { background-color: transparent; border-left: 1px solid transparent; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content::-webkit-scrollbar-thumb { background-color: transparent; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content::-webkit-scrollbar-thumb:hover { background-color: transparent; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con { height: 314px; overflow: auto; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con { padding: 15px 20px; border-bottom: 1px dashed #aebdbd; position: relative; cursor: pointer; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .active_club { background-color: #F0F3F3; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .active_club p.club_title { background: url(../images/club/focus_s_pint_icon.png) no-repeat left center / 17px 24px transparent !important; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .active_club.not_select { background-color: #F0F3F3; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .active_club.not_select p.club_title { background: url(../images/club/nofocus_s_pint_icon.png) no-repeat left center / 17px 24px transparent !important; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con p.club_title { background: url(../images/club/nofocus_s_pint_icon.png) no-repeat left center / 17px 24px transparent; height: 24px; line-height: 24px; font-size: 13px; font-weight: bold; color: #3e6c7a; padding-left: 22px; margin-bottom: 5px; letter-spacing: 1px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con .text_box p.where { font-size: 12px; color: #7d9da2; line-height: 20px; padding-left: 22px; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con .text_box p.howmany { font-size: 12px; color: #7d9da2; line-height: 20px; padding-left: 22px; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con a.join_btn { background-color: #F7CB00; color: #fff; font-size: 13px; margin: 5px 0 0 22px; padding: 5px 10px; display: block; text-align: center; width: 130px; border-radius: 4px; text-decoration: none; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con a:hover.join_btn { opacity: .8; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con a.joined_btn { background-color: transparent; color: #ecc22c; font-size: 13px; margin: 5px 0 0 22px; padding: 5px 10px; display: block; text-align: center; width: 130px; border: 1px solid #ecc22c; border-radius: 4px; text-decoration: none; font-weight: bold; cursor: default; }
+
+/*生活圈*/
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con p.circle_title { background: url('../images/register/social_c_pin_s.png') no-repeat left center / 17px 23px transparent; height: 24px; line-height: 24px; font-size: 13px; font-weight: bold; color: #3e6c7a; padding-left: 22px; margin-bottom: 5px; letter-spacing: 1px; text-indent: 5px; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con .pin_address { font-size: 12px; color: #7d9da2; margin-left: 28px; width: calc(100% - 27px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con a.remove_btn { width: 15px; height: 15px; background: url('../images/register/remove_btn.png') no-repeat; background-size: 15px 15px; position: absolute; top: calc((100% - 15px)/2); right: 16px; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content a.add_more_circle { font-size: 13px; color: #fe7390; width: 202px; height: 40px; line-height: 42px; border: 1px solid #fe7390; border-radius: 5px; text-align: center; display: block; text-indent: 20px; margin: 20px auto 0 auto; background: url('../images/register/add_social_btn.png')no-repeat; background-size: 14px 14px; background-position: 40px 50%; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content a.add_more_circle:hover { text-decoration: none; color: #e16680; }
+
+/*刪除生活圈*/
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con.remove { background: #efefef !important; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con.remove p.circle_title { background: url('../images/register/social_c_pin_s_delete.png') no-repeat left center / 17px 23px transparent !important; height: 24px; line-height: 24px; font-size: 13px; font-weight: bold; color: #858585 !important; padding-left: 22px; margin-bottom: 5px; letter-spacing: 1px; text-indent: 5px; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con.remove .pin_address { font-size: 12px; color: #a0a0a0 !important; margin-left: 28px; width: calc(100% - 27px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con.remove a.remove_btn { width: 15px; height: 15px; background: url('../images/register/remove_btn_delete.png') no-repeat !important; background-size: 15px 15px !important; position: absolute; top: calc((100% - 15px)/2); right: 16px; }
+
+/*目前狀態*/
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con.current { background: #fe7390; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con.current p.circle_title { background: url('../images/register/social_c_pin_s_current.png') no-repeat left center / 17px 23px transparent; height: 24px; line-height: 24px; font-size: 13px; font-weight: bold; color: #ffffff; padding-left: 22px; margin-bottom: 5px; letter-spacing: 1px; text-indent: 5px; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con.current .pin_address { font-size: 12px; color: #ffffff; margin-left: 28px; width: calc(100% - 27px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con.current a.remove_btn { width: 15px; height: 15px; background: url('../images/register/remove_btn_hover.png') no-repeat; background-size: 15px 15px; position: absolute; top: calc((100% - 15px)/2); right: 16px; }
+
+/*碰觸*/
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con:hover { background: #fe7390; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con:hover p.circle_title { background: url('../images/register/social_c_pin_s_current.png') no-repeat left center / 17px 23px transparent; height: 24px; line-height: 24px; font-size: 13px; font-weight: bold; color: #ffffff; padding-left: 22px; margin-bottom: 5px; letter-spacing: 1px; text-indent: 5px; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con:hover .pin_address { font-size: 12px; color: #ffffff; margin-left: 28px; width: calc(100% - 27px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; }
+.registration_wrp .registration_container #wrapper_register #register_con .club_map_wrp .map_navigation .found_clubs_wrp .found_c_content .all_club_con .one_club_con:hover a.remove_btn { width: 15px; height: 15px; background: url('../images/register/remove_btn_hover.png') no-repeat; background-size: 15px 15px; position: absolute; top: calc((100% - 15px)/2); right: 16px; }
+
+/* Google Maps Pin點內容 */
+.map_pin_content { padding: 0px; font-size: 12px; z-index: 8; background: #ffffff; max-width: 240px; }
+.map_pin_content p.circle_title { background: url('../images/register/social_c_pin_s.png') no-repeat left center / 17px 24px transparent; height: 24px; line-height: 24px; font-size: 13px; font-weight: bold; color: #3e6c7a; padding-left: 22px; margin-bottom: 5px; letter-spacing: 1px; text-indent: 5px; }
+.map_pin_content .pin_address { font-size: 12px; color: #7d9da2; margin-left: 28px; width: calc(100% - 27px); display: block; }
+
+/* 加入家族－已選取家族 */
+
+/*.registration_wrp .registration_container #wrapper_register #register_con .added_club_wrp { width: 770px; margin: 22px auto; border-top: 1px solid #E7E7E7; border-bottom: 1px solid #E7E7E7; }
+.registration_wrp .registration_container #wrapper_register #register_con .added_club_wrp .added_club_container { margin: 32px auto; }
+.registration_wrp .registration_container #wrapper_register #register_con .added_club_wrp .added_club_container h3 { font-size: 15px; font-weight: bold; color: #656565; line-height: 35px; }
+.registration_wrp .registration_container #wrapper_register #register_con .added_club_wrp .added_club_container aside { font-size: 12px; font-weight: normal; color: #656565; text-indent: -6px; }
+.registration_wrp .registration_container #wrapper_register #register_con .added_club_wrp .added_club_container .my_added_club_con { width: 730px; margin: 27px auto; display: none; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club { width: 206px; height: 188px; border-radius: 5px; border: 2px solid #87ccf5; background: #f9f9f9; list-style: none; display: block; float: left; margin-left: calc((100% - 210px - 210px - 210px)/2); margin-right: 0; margin-bottom: 30px; position: relative; text-align: center; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club.creat_new_club { height: 242px !important; border: 1px dashed #dcdcdc; background: #ffffff; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club.creat_new_club .creat_new_club_container { height: 109px; margin-top: 67px; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club.creat_new_club .creat_new_club_container a:hover { text-decoration: none; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club.creat_new_club .creat_new_club_container img { margin: 0 auto; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); filter: gray; opacity: .6; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club.creat_new_club .creat_new_club_container .club_name { font-size: 16px; text-align: center; line-height: 25px; color: #999999; margin-top: 17px; }
+.registration_wrp .registration_container #wrapper_register #register_con .go_club_con .go_club_container li.my_added_club { margin-bottom: 15px; height: auto; }
+.registration_wrp .registration_container #wrapper_register #register_con .go_club_con .go_club_container li.my_added_club a.go_club_btn { width: 178px; height: 37px; line-height: 37px; background: #f7cb00; border-radius: 8px; font-size: 13px; color: #ffffff; text-align: center; display: block; margin: 15px auto; }
+.registration_wrp .registration_container #wrapper_register #register_con .go_club_con .go_club_container li.my_added_club a:hover.go_club_btn { text-decoration: none; opacity: .8; }
+
+/*刪除警告
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club.my_added_club_delete_alert { border: 2px solid #e3e0e0; opacity: .8; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club.my_added_club_delete_alert img { -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); filter: gray; }
+
+/*空白警告
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club.my_added_club_empty_alert { animation: empty_alert .1s 2; -webkit-animation: empty_alert .1s 2; -moz-animation-duration: .1s;	/* Firefox不支援關鍵影格 -moz-animation-name: mozilla_empty_alert; -moz-animation-iteration-count: 3; }
+
+/*@keyframes mozilla_empty_alert {
+	from { left: 15px; }
+	to { left: 0px; }
+}
+@keyframes empty_alert {
+	0% { left: 15px; }
+	25% { left: 0; }
+	50% { left: 0; }
+	75% { right: 15px; }
+	100% { right: 0; }
+}
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club:nth-child(3n+1) { margin-left: 0; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club img { margin: 17px auto; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club img:hover { opacity: 1; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club p.added { width: 16px; height: 16px; border-radius: 50%; background: url('../images/register/my_added_club_added_icon.png'); position: absolute; top: 6px; right: 9px; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club p.added_hover { background: url('../images/register/my_added_club_cancel_icon_blue.png'); }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club p.added:hover { background: url('../images/register/my_added_club_cancel_icon.png'); cursor: pointer; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club .about_club { width: 274px; max-height: 176px; background: #ffffff; border-radius: 10px; margin-left: -32px; -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08); -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08); box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08); position: absolute; top: 130px; z-index: 9; display: none; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club .about_club:before { content: ''; width: 0; height: 0; border-style: solid; border-width: 0 4px 7px 4px; border-color: transparent transparent #ffffff transparent; position: absolute; top: 0; margin-top: -7px; margin-left: -6px; -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08); -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08); box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08); }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club .about_club .about_club_con { padding: 11px; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club .about_club .about_club_con p.club_owner { height: 15px; line-height: 15px; text-align: left; text-indent: 4px; font-size: 13px; color: #999999; margin: 5px 0 16px 0; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club .about_club .about_club_info { display: block; border-top: 1px solid #e5e5e5; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club .about_club .about_club_info p { width: 95%; max-height: calc(176px - 43px - 15px - 16px); margin: 16px auto 0 auto; overflow-y: scroll; display: block; text-align: left; margin-top: 12px; word-break: break-all; color: #999999; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club .about_club .about_club_info p::-webkit-scrollbar { width: 2px; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club .about_club .about_club_info p::-webkit-scrollbar-track { background-color: #fff; border-left: 1px solid #fff; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club .about_club .about_club_info p::-webkit-scrollbar-thumb { background-color: #fff; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club .about_club .about_club_info p::-webkit-scrollbar-thumb:hover { background-color: #fff; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club .club_name { display: block; color: #666666; font-size: 14px; font-weight: bold; margin-bottom: 10px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club .club_info { display: block; width: 90%; margin: 0 auto; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club .club_info p { font-size: 12px; color: #888888; line-height: 22px; letter-spacing: 0.5px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.registration_wrp .registration_container #wrapper_register #register_con li.my_added_club .club_info p > clubaddress { display: block; max-width: 100%; height: 22px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.registration_wrp .registration_container #wrapper_register #register_con .go_club_con { width: 770px; margin: 26px auto 0 auto; border-top: 1px solid #eeeeee; border-bottom: 1px solid #eeeeee; }
+.registration_wrp .registration_container #wrapper_register #register_con .go_club_con .go_club_container { width: 665px; margin: 40px auto; }
+.registration_wrp .registration_container #wrapper_register #register_con .go_club_con .go_club_container h3 { font-size: 15px; font-weight: bold; color: #656565; line-height: 35px; }
+.registration_wrp .registration_container #wrapper_register #register_con .go_club_con .go_club_container .my_added_club_con { margin: 32px auto; }
+.registration_wrp .registration_container #wrapper_register .FreeBonus .FreeBonus_con { width: 100%; }
+.registration_wrp .registration_container #wrapper_register .FreeBonus .FreeBonus_con .FreeGet { float: right; color: #fff; margin: -50px 50px 0 0; line-height: 24px; font-size: 14px; }*/
+
+/* 地圖－生活圈確認 */
+.location_confirm { background: #ffffff; line-height: 24px; z-index: 8; }
+.location_confirm:after { content: url(../images/register/location_confirm_arrow.png); position: absolute; top: 38px; left: calc((100% - 8px)/2); display: inline-block; }
+.location_confirm .description { display: inline-block; font-size: 13px; font-weight: bold; color: #888888; }
+.location_confirm a.confirm_btn { display: inline-block; font-size: 12px; color: #FFFFFF; background: #298cb0; border-radius: 5px; padding: 1px 10px; position: relative; top: -1px; cursor: pointer; }
+.location_confirm a:hover.confirm_btn { text-decoration: none; opacity: .85; }
+
+/* 地圖－點開家族 */
+.club_short_content { background: #ffffff; z-index: 8; max-width: 240px; letter-spacing: 0.5px; }
+.club_short_content .club_title { display: block; font-size: 13px; font-weight: bold; height: 25px; line-height: 25px; margin-bottom: 5px; color: #32616e; }
+.club_short_content .club_address { display: block; font-size: 12px; color: #7d9da2; line-height: 20px; letter-spacing: 0.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.club_short_content .club_status { display: block; font-size: 12px; color: #7d9da2; line-height: 20px; letter-spacing: 0.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.club_short_content a.select_club_btn { display: block; font-size: 12px; font-weight: bold; color: #fff; background-color: #F7CB00; line-height: 25px; text-align: center; text-decoration: none; border-radius: 4px; margin-top: 5px; }
+.club_short_content a.selected_club_btn { display: block; font-size: 12px; font-weight: bold; color: #ecc22c; background-color: #FFFFFF; line-height: 25px; text-align: center; text-decoration: none; border-radius: 4px; border: 1px solid #ecc22c; margin-top: 5px; cursor: default; }
+
+/* 註冊完成－前往動態頁 */
+.registration_wrp .registration_container #wrapper_register #register_con .go_dynamic_page { width: 100%; margin: 72px auto 52px auto; text-align: center; }
+.registration_wrp .registration_container #wrapper_register #register_con .go_dynamic_page a.go_dynamic_page_btn { width: 177px; height: 50px; display: inline-block; background: #f7cb00 url('../images/register/go_dynamic_page.png') no-repeat 17px center; color: #ffffff; line-height: 50px; border-radius: 10px; text-indent: 33px; text-align: center; font-weight: bold; }
+.registration_wrp .registration_container #wrapper_register #register_con .go_dynamic_page a.go_dynamic_page_btn:hover { text-decoration: none; opacity: .8; }
+.registration_wrp .registration_container #wrapper_register #register_con .go_dynamic_page span.go_dynamic_page_btn_aside { font-size: 13px; margin-top: 12px; display: block; color: #777777; }
+
+/* ==================== 20160302新增重新設定密碼頁_開始 ==================== */
+.ClubSet_con_box .write_row .center_row a.send_btn { color: #454545; font-size: 13px; line-height: 28px; display: inline-block; margin: 10px 0 0 245px; padding: 0px 30px; background: url(../images/register/btn_enter.jpg) repeat-x left -128px; border: 1px solid #b6b6b6; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); letter-spacing: 1px; border-radius: 2px 2px 2px 2px; }
+.ClubSet_con_box .write_row .center_row a.send_btn:hover { text-decoration: none; background: url(../images/register/btn_enter.jpg) repeat-x left -156px; border: 1px solid #858585; box-shadow: 0 1px 0 rgba(0, 0, 0, 0); }
+.ClubSet_con_box .write_row .center_row a.send_btn:active { text-decoration: none; background: url(../images/register/btn_enter.jpg) repeat-x left -128px; border: 1px solid #858585; box-shadow: 0 1px 0 rgba(0, 0, 0, 0); }
+#register_con .resetPW_war790 .write_box { border: 0px; }
+
+/* ==================== 20160302新增重新設定密碼頁_結束 ==================== */
+
+/*螢幕過短時*/
+@media screen and (max-height:856px) {
+	.registration_wrp.small_width { position: relative !important; margin: 50px auto !important; }
+}

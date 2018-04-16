@@ -1,0 +1,88 @@
+@import url("reset.css");
+
+/*===品牌商店vipshop===*/
+.SUB_vipshop {
+  float:left;
+  width: 300px;
+  position: relative;
+}
+.SUB_vipshop_topbox {
+  width:300px;
+  height:45px;
+  background: url(../../images/shop/store_inedx/temp_brand_img/vipshop_top_bg300.gif) no-repeat left top;
+}
+.SUB_vipshop_center {
+  width:235px;
+  background: url(../../images/shop/store_inedx/temp_brand_img/vipshop_center_bg300.gif) repeat-y left top;
+  padding:0px 0px 0px 65px;
+}
+.SUB_vipshop_bottom {
+  width:300px;
+  height:10px;
+  line-height:1px; /*解除IE六問題*/
+  font-size:1px;/*解除IE六問題*/
+  background: url(../../images/shop/store_inedx/temp_brand_img/vipshop_bottom_bg300.gif) no-repeat left top;
+}
+/* =====我要曝光_UL===== */
+.SUB_vipshop ul.SUB_vipshop_top {
+  position:absolute;
+  width:55px;
+  height:28px;
+  left: 220px;
+  top: 15px;
+}
+.SUB_vipshop ul.SUB_vipshop_top li {
+}
+.SUB_vipshop ul.SUB_vipshop_top li a {
+  display:block;
+  line-height:28px;
+  font-family:Arial, 新細明體;
+  font-size:12px;
+  /**text-indent:-9999px;*/
+  background: url(../../images/shop/store_inedx/temp_brand_img/push_i_exposure.gif) no-repeat left top;
+}
+.SUB_vipshop ul.SUB_vipshop_top a:hover {
+  background: url(../../images/shop/store_inedx/temp_brand_img/push_i_exposure.gif) no-repeat left bottom;
+}
+/* =====我要曝光_UL_end===== */
+.SUB_vipshop_center_box{
+  display:block;
+  width:160px;
+  padding:3px 0px 3px 0px;
+  }
+.SUB_vipshop_center .BrandSotre_box_j {
+  display:block;
+  width:160px;
+  height: 55px;
+  background-color:#FFFFFF;
+  border:1px solid #BBBBBB;
+  font-size:0;
+  padding:1px;
+  overflow: hidden;
+}
+.SUB_vipshop_center .BrandSotre_box h1 a {
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  width:150px;
+  height:17px;
+  _height:16px;
+  height:18px \9; /*==hack_IE8==*/
+  overflow: hidden;
+  /*==2011_0309新增height與overflow=*/
+  font-size:12px;
+  line-height:17px;
+  _line-height:16px;
+  line-height:18px \9; /*==hack_IE8==*/
+  /*==2011_0224修改成18px==*/
+  color: #595757;
+  padding:5px 0px 0px 17px;
+  _padding:5px 0px 0px 17px;
+  text-decoration:none;
+  background: url(../../images/shop/store_inedx/vipshop/store-small.png) no-repeat left top;
+}
+.SUB_vipshop_center .BrandSotre_box h1 a:hover {
+  color: #ec4e2f;
+  text-decoration:underline;
+  background:url(../../images/shop/store_inedx/vipshop/store-small_hover.png) no-repeat left top;
+}
+/*===品牌商店vipshopEND===*/

@@ -1,0 +1,310 @@
+﻿
+#secure {
+	background: url(/design/images/secure/points_bg.gif);
+	font-size:13px;
+	color:#5c5b5c;
+	font-family:"Arial","新細明體";
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a {color:#666666; text-decoration:none}
+a:hover {color:#666666; text-decoration:underline}
+img {border:0px}
+.both{clear:both}
+
+div.ph3 {font-size:0px; line-height:3px; clear:both; height:3px}
+div.ph5 {font-size:0px; line-height:5px; clear:both; height:5px}
+div.ph10 {font-size:0px; line-height:10px; clear:both; height:10px}
+div.ph20 {font-size:0px; line-height:20px; clear:both; height:20px}
+div.ph23 {font-size:0px; line-height:23px; clear:both; height:23px}
+div.ph30 {font-size:0px; line-height:30px; clear:both; height:30px}
+div.ph35 {font-size:0px; line-height:35px; clear:both; height:35px}
+div.phx {font-size:0px; line-height:40px; clear:both; height:40px}
+
+
+.points_900 { width:900px;  margin: 0 auto}
+.points_top { width:900px; height:88px;background: url(/design/images/secure/points_topbg.gif); float:left}
+
+
+.points_copyright { width:900px; ; height:75px;background: url(/design/images/secure/copyright_bg.gif) ; float:left}
+
+.points_copyright_font { width:490px; height:20px; float:left; text-align:right; padding:10px 0 0 150px}
+
+
+
+.points_out_box { width:220px;line-height:21px; height:21px; float:right; background:#8cbfe6 ; text-align:center}
+.points_out_boxl { width:15px;line-height:21px;  height:21px; float:left ; background-image:url(/design/images/secure/points_out_l.gif)}
+.points_out_boxc { width:190px;line-height:21px; height:21px; float:left;}
+.points_out_boxr { width:15px;line-height:21px; height:21px; float:right;background-image:url(/design/images/secure/points_out_r.gif)}
+
+.points_logo { width:395px; float:left}
+
+.points_right { width:324px; height:27px ;float:right}
+.points_right_top{ width:400px;line-height:21px; height:21px; float:right; padding-right:20px}
+
+.points_bady { width:900px; float:left; background:#FFF}
+.points_bady_top { width:900px; height:98px; float:left;background: url(/design/images/secure/points_barbg.gif)}
+
+.points_bar_270 { width:280px;height:98px; float: left}
+.points_bar_box {  height:98px; float: left}
+.points_bar_boxl { width:50px; height:98px; float:left}
+.points_bar_boxc {  width:190px;height:98px; float:left;background: url(/design/images/secure/points_barc.gif)}
+.points_bar_boxfont{ height:21px; float:left; padding-left:10px}
+.points_bar_boxr { width:36px; height:98px; float:left}
+.points_bar_photo { width:40px; height:40px; float:left;border: 1px solid #d7d7d7}
+
+.points_bar_600 { width:600px;height:98px; float: right}
+.points_bar_number{ width:460px;height:25px;margin: 0 auto; background:#FFF; text-align:center }
+.points_bar_number_font{ width:460px;height:20px; text-align:center; padding-top:2px}
+
+.points_bar_750 { width:750px; margin: 0 auto; background:#f4f4f4;border: 1px solid #e5e5e5 }
+.points_bar_700 { width:750px; margin: 0 auto }
+.points_bar_700a { width:750px; height:70px; margin: 0 auto }
+.points_bar_500 { width:500px; margin: 0 auto }
+.points_bar_650 { width:650px; height:35px; margin: 0 auto }
+.points_search_font {font-size: 13px;height: 18px;line-height: 18px;color: #282828; background:#e5e5e5;border: 1px solid #858585 }
+
+.points_titbox { width:800px;height:30px; float: left; padding:10px 0 0 36px}
+.points_tit { width:39px;height:30px; float: left;background: url(/design/images/secure/point_tit.gif)}
+.points_titfont { width:500px;height:30px; float: left; padding-left:5px}
+
+.points_bar_tit{ width:600px;height:30px;margin: 0 auto}
+.points_bar_titc{ width:600px;height:70px;margin: 0 auto}
+.points_bar_tita{ width:150px;height:30px; float:left; text-align:right}
+.points_bar_titb{ width:430px;height:30px; float:left; text-align:left; padding-left:20px}
+
+div.points_send{background:url(/design/images/secure/point_send.gif) repeat-y;width:100px;height:30px;float:left}
+div.points_send a{background:url(/design/images/secure/point_send.gif) repeat-y;width:100px;height:30px;float:left}
+div.points_send a:hover{background:url(/design/images/secure/point_sendm.gif) repeat-y;width:100px;height:30px;float:left}
+
+div.points_del{background:url(/design/images/secure/point_del.gif) repeat-y;width:100px;height:30px;float:left}
+div.points_del a{background:url(/design/images/secure/point_del.gif) repeat-y;width:100px;height:30px;float:left}
+div.points_del a:hover{background:url(/design/images/secure/point_delm.gif) repeat-y;width:100px;height:30px;float:left}
+
+div.points_delbuy{background:url(/design/images/secure/point_delbuy.gif) repeat-y;width:100px;height:30px;float:left}
+div.points_delbuy a{background:url(/design/images/secure/point_delbuy.gif) repeat-y;width:100px;height:30px;float:left}
+div.points_delbuy a:hover{background:url(/design/images/secure/point_delbuym.gif) repeat-y;width:100px;height:30px;float:left}
+
+div.points_atm{background:url(/design/images/secure/atm.gif) repeat-y;width:133px;height:30px;float:left}
+div.points_atm a{background:url(/design/images/secure/atm.gif) repeat-y;width:133px;height:30px;float:left}
+div.points_atm a:hover{background:url(/design/images/secure/atmm.gif) repeat-y;width:133px;height:30px;float:left}
+
+div.points_button_a{background:url(/design/images/secure/points_button_a.gif) repeat-y;width:107px;height:27px;float:left}
+div.points_button_a a{background:url(/design/images/secure/points_button_a.gif) repeat-y;width:107px;height:27px;float:left}
+div.points_button_a a:hover{background:url(/design/images/secure/points_button_am.gif) repeat-y;width:107px;height:27px;float:left}
+div.points_button_a_active{background:url(/design/images/secure/points_button_am.gif) repeat-y;width:107px;height:27px;float:left}
+div.points_button_a_active a{background:url(/design/images/secure/points_button_am.gif) repeat-y;width:107px;height:27px;float:left}
+div.points_button_a_active a:hover{background:url(/design/images/secure/points_button_am.gif) repeat-y;width:107px;height:27px;float:left}
+
+div.points_button_b {background:url(/design/images/secure/points_button_b.gif) repeat-y;width:107px;height:27px;float:left}
+div.points_button_b a{background:url(/design/images/secure/points_button_b.gif) repeat-y;width:107px;height:27px;float:left}
+div.points_button_b a:hover{background:url(/design/images/secure/points_button_bm.gif) repeat-y;width:107px;height:27px;float:left}
+div.points_button_b_active {background:url(/design/images/secure/points_button_bm.gif) repeat-y;width:107px;height:27px;float:left}
+div.points_button_b_active a{background:url(/design/images/secure/points_button_bm.gif) repeat-y;width:107px;height:27px;float:left}
+div.points_button_b_active a:hover{background:url(/design/images/secure/points_button_bm.gif) repeat-y;width:107px;height:27px;float:left}
+
+div.points_button_c{background:url(/design/images/secure/points_button_c.gif) repeat-y;width:110px;height:27px;float:left}
+div.points_button_c a{background:url(/design/images/secure/points_button_c.gif) repeat-y;width:110px;height:27px;float:left}
+div.points_button_c a:hover{background:url(/design/images/secure/points_button_cm.gif) repeat-y;width:110px;height:27px;float:left}
+div.points_button_c_active{background:url(/design/images/secure/points_button_cm.gif) repeat-y;width:110px;height:27px;float:left}
+div.points_button_c_active a{background:url(/design/images/secure/points_button_cm.gif) repeat-y;width:110px;height:27px;float:left}
+div.points_button_c_active a:hover{background:url(/design/images/secure/points_button_cm.gif) repeat-y;width:110px;height:27px;float:left}
+
+.points_bar_send{ width:230px;height:30px;margin: 0 auto}
+.points_t11{font-size:13px;color:#888888}
+.points_t11k{font-size:11px;color:#777777}
+.points_t12w{font-size:12px;color:#ffffff; padding-top:3px;line-height:16px }
+.points_t12w a:hover{color:#ffffff;text-decoration:underline;}
+.points_t12w a{color:#ffffff;text-decoration: none;}
+
+.points_t13{font-size:13px;color:#0099cc}
+
+.points_t13k{font-size:13px;color:#777777;font-weight: bold; line-height:30px}
+
+.points_t15b{font-size:15px;color:#777777;font-weight: bold;line-height:15px}
+.points_t15k{font-size:15px;color:#777777;font-weight: bold; line-height:30px}
+.points_t15{font-size:15px;color:#777777; line-height:30px}
+.points_t15r{font-size:15px;color:#ff0042;font-weight: bold}
+
+
+.points_red{font-size:18px;color:#ff0042;font-weight: bold}
+
+
+.points_t16{font-size:16px;color:#0099cc; line-height:25px}
+.points_t16 a:hover{color:#17b3e7;text-decoration:underline;}
+.points_t16 a{color:#0099cc;text-decoration: none;}
+
+
+/*----------------------------------------------- */
+
+div.points_bady table {border-collapse: collapse;border: 1px solid #999999;font: normal 80%/140%, arial,新細明體;color: #555;background: #fff;}
+div.points_bady td,th {border: 1px dotted #bbb; padding: .5em;}
+div.points_bady caption {padding: 0 0 5 0; text-align:center;font-size: 13px;font-weight: bold;text-transform: uppercase;color: #666666;background: transparent;}
+
+div.points_bady table.noline {border-collapse: collapse;border: 0px solid #999999;font: normal 80%/140%, arial,新細明體;color: #555;background: #fff;}
+div.points_bady table.noline td,th {border: 0px dotted #bbb; padding: .5em;}
+/* =links
+----------------------------------------------- 
+
+div.points_bady table a {padding: 1px;text-decoration: none;font-weight: bold;background: transparent;}
+div.points_bady table a:link {border-bottom: 1px dashed #ddd;color: #5c5b5c;}
+div.points_bady table a:visited {border-bottom: 1px dashed #ccc;text-decoration: line-through;color: #5c5b5c;}
+div.points_bady table a:hover {border-bottom: 1px dashed #bbb;color: #ffa600;}
+*/
+/* =head =foot
+----------------------------------------------- */
+
+div.points_bady thead th, tfoot th {border: 1px solid #999999;text-align:center;font-size: 13px;font-weight: bold;color: #666666; background:url(/design/images/secure/points_tbg.gif)}
+div.points_bady tfoot td {border: 1px solid #999999;}
+
+/* =body
+----------------------------------------------- */
+
+div.points_bady table.lighting tbody th, tbody td {vertical-align: top;}
+div.points_bady table.lighting tbody th {white-space: nowrap;}
+div.points_bady table.lighting .odd {background: #fcfcfc;}
+div.points_bady table.lighting tbody tr:hover {background: #fafafa;}
+
+.ihergologo_box {float: right;height: 29px;padding: 0px 28px 0 0;width: 68px;}
+.ihergologo_in{float: right;height: 30px;width: 500px;}
+
+.points_bar_title { width:150px; height:30px;float:left; text-align:right; padding-right:20px }
+.points_bar_Content { width:550px; float:left; text-align:left }
+
+.money_explain_tit_box { width:823px; margin:0 auto}
+.money_explain_ask_fontbox { width:823px; float:left; padding-top:10px;}
+.money_explain_ask_fonta { width:20px; float:left; height:20px; padding-left:40px;}
+.money_explain_ask_font { width:720px; float:left;}
+.money_explain_qa_box { width:100px;float:left; }
+.money_explain_qa_icon { width:20px; height:20px;float:left; padding-left:5px }
+.money_explain_qa_font { width:55px; height:20px;float:left; text-align:center ; line-height:20px}
+.money_explain_qafont{font-size:12px;font-family: 新細明體;color:#0090b1; line-height:20px;}
+.money_explain_qafont a:hover{color:#1cafd1;text-decoration:underline;}
+.money_explain_qafont a{color:#0090b1;text-decoration: none;}
+.money_explain_fontbar{font-size:16px;font-family:新細明體;color:#666666; line-height:20px; font-weight: bold }
+.money_explain_font{font-size:16px;font-family:新細明體;color:#666666; line-height:20px; font-weight: bold }
+.money_explain_tit01{background:url(../images/secure/money_explain_tit01.gif) repeat-y;width:206px;height:45px;float:left}
+.money_explain_tit01 a{background:url(../images/secure/money_explain_tit01.gif) repeat-y;width:206px;height:45px;float:left}
+.money_explain_tit01 a:hover{background:url(../images/secure/money_explain_tit01m.gif) repeat-y;width:206px;height:45px;float:left}
+.money_explain_tit02{background:url(../images/secure/money_explain_tit02.gif) repeat-y;width:206px;height:45px;float:left}
+.money_explain_tit02 a{background:url(../images/secure/money_explain_tit02.gif) repeat-y;width:206px;height:45px;float:left}
+.money_explain_tit02 a:hover{background:url(../images/secure/money_explain_tit02m.gif) repeat-y;width:206px;height:45px;float:left}
+.money_explain_tit03{background:url(../images/secure/money_explain_tit03.gif) repeat-y;width:206px;height:45px;float:left}
+.money_explain_tit03 a{background:url(../images/secure/money_explain_tit03.gif) repeat-y;width:206px;height:45px;float:left}
+.money_explain_tit03 a:hover{background:url(../images/secure/money_explain_tit03m.gif) repeat-y;width:206px;height:45px;float:left}
+.money_explain_tit04{background:url(../images/secure/money_explain_tit04.gif) repeat-y;width:205px;height:45px;float:left}
+.money_explain_tit04 a{background: url("../images/secure/money_explain_tit04.gif") repeat-y scroll 0 0 transparent;float: left;height: 45px;width: 205px;}
+.money_explain_tit04 a:hover{background: url("../images/secure/money_explain_tit04m.gif") repeat-y scroll 0 0 transparent;float: left;height: 45px;width: 205px;}
+.money_explain_stit01 a{background:url(../images/secure/money_explain_stit01.gif) repeat-y;width:176px;height:60px;float:left}
+.money_explain_stit01 a:hover{background:url(../images/secure/money_explain_stit01m.gif) repeat-y;width:176px;height:60px;float:left}
+.money_explain_stit02{background:url(../images/secure/money_explain_stit02.gif) repeat-y;width:140px;height:60px;float:left}
+.money_explain_stit02 a{background:url(../images/secure/money_explain_stit02.gif) repeat-y;width:140px;height:60px;float:left}
+.money_explain_stit02 a:hover{background:url(../images/secure/money_explain_stit02m.gif) repeat-y;width:140px;height:60px;float:left}
+.money_explain_stit03{background:url(../images/secure/money_explain_stit03.gif) repeat-y;width:135px;height:60px;float:left}
+.money_explain_stit03 a{background:url(../images/secure/money_explain_stit03.gif) repeat-y;width:135px;height:60px;float:left}
+.money_explain_stit03 a:hover{background:url(../images/secure/money_explain_stit03m.gif) repeat-y;width:135px;height:60px;float:left}
+.money_explain_stit04{background:url(../images/secure/money_explain_stit04.gif) repeat-y;width:167px;height:60px;float:left}
+.money_explain_stit04 a{background:url(../images/secure/money_explain_stit04.gif) repeat-y;width:167px;height:60px;float:left}
+.money_explain_stit04 a:hover{background:url(../images/secure/money_explain_stit04m.gif) repeat-y;width:167px;height:60px;float:left}
+.money_explain_go{background:url(../images/secure/money_explain_go.jpg) repeat-y;width:185px;height:35px;float:left}
+.money_explain_go a{background:url(../images/secure/money_explain_go.jpg) repeat-y;width:185px;height:35px;float:left}
+.money_explain_go a:hover{background:url(../images/secure/money_explain_gom.jpg) repeat-y;width:185px;height:35px;float:left}
+.money_explain_tit_leftbox { width:823px; height:45px; float:left; padding-top:20px}
+.money_explain_tit_sleftbox { width:823px; height:60px; float:left}
+.money_explain_ask_box { width:823px; height:65px; float:left; padding-top:10px}
+ol, ul {
+	list-style:none;
+}
+.points_right_btnBox{
+    float: right;
+    height: 30px;
+    width: 500px;  
+	}
+
+.points_right_btnBox ul{
+	padding-right:20px;
+	}
+
+.points_right_btnBox ul li{
+    float: right;
+	padding-left: 10px;	
+	}
+
+.points_right_btnBox ul li a{
+	display:block;
+	font-size:15px;
+	letter-spacing:1px;
+	width:96px;
+	height:30px;
+	line-height:30px;
+	font-weight:bold;
+    line-height:34px \9; /*IE8*/
+	_line-height:33px; /*IE6 */
+	color:#006ab8;
+	text-decoration:none;
+	text-align:center;
+	background: url(../images/secure/points_right_btnbg.gif) no-repeat left top; 
+	}
+
+.points_right_btnBox ul li a:hover{
+	background-position: -96px top;
+	color: #0c4979;
+	text-decoration:none;
+	}
+.points_right_btnBox ul li a:active{
+	background-position: -192px top;
+	color: #0c4979;
+	text-decoration:none;
+	}	
+.points_right_btnBox ul li.activeBnt a{
+	display:block;
+	font-size:15px;
+	letter-spacing:1px;
+	width:96px;
+	height:30px;
+	line-height:30px;
+	font-weight:bold;
+    line-height:34px \9; /*IE8*/
+	_line-height:33px; /*IE6 */
+	color:#FFFFFF;
+	text-decoration:none;
+	text-align:center;
+	background: url(../images/secure/points_right_btnbg.gif) no-repeat  right top;	
+	}
+.points_right_btnBox ul li.activeBnt a:hover{
+	color:#FFFFFF;
+	background-position:right top;
+	}
+	
+h1, h2, h3, h4, h5, h6, p, a{ font-family:Arial, Helvetica, sans-serif;}
+a{ outline: none;  behavior:expression(this.onFocus=this.blur());}
+#opening_wrapper{ width:970px; height:600px; margin: 0 auto;}
+
+.opening_header{ width:970px; height:120px; background:url(../images/secure/opening_title.jpg) no-repeat;}
+.opening_con{width:970px; height:250px; background:url(../images/secure/opening_bgcon.jpg) no-repeat;}
+.opening_ps{width:970px; height:102px; background:url(../images/secure/opening_ps.jpg) no-repeat;}
+.opening_explain{width:970px; height:20px; background:url(../images/secure/opening_bgcon.jpg) no-repeat;}
+.opening_go{ width:970px; height:108px; background:url(../images/secure/opening_bgcon.jpg) no-repeat;}
+
+.opening_header h2{ text-indent:-9999px;}
+.opening_use{ width:570px; height:250px; margin: 0 auto;}
+.opening_use ul li{ text-indent:-9999px;}
+.opening_use ul li.use01{ width:570px; height:95px; background:url(../images/secure/opening_use01.jpg) no-repeat;}
+.opening_use ul li.use02{ width:570px; height:72px; background:url(../images/secure/opening_use02.jpg) no-repeat;}
+.opening_use ul li.use03{ width:570px; height:83px; background:url(../images/secure/opening_use03.jpg) no-repeat;}
+
+.opening_ps p{ width:680px; font-size:13px; color:#454545; letter-spacing:2px; line-height:20px;}
+.opening_ps p span.red{font-size:15px; font-weight:bold; color:#bc2e2e; padding-left:5px;}
+.opening_ps p span.gopay{text-indent:-9999px;width:54px; height:24px; padding-right:2px;}
+.opening_ps p span.gopay img{ vertical-align:middle;}
+.opening_ps p.ps01{padding:18px 0 0 160px;}
+.opening_ps p.ps02{padding:5px 0 0 160px;}
+
+.opening_explain p{ text-align:right; font-size:12px; color:#8e5820; letter-spacing:1px; padding-right:120px;}
+.opening_explain p a{color:#8e5820; text-decoration:underline;}
+.opening_explain p a:hover{ text-decoration:none;}
+
+.opening_go a{ display:block; width:200px; height:80px; background:url(../images/secure/opening_btn.jpg) no-repeat; margin: 0 auto; text-indent:-9999px;}
+.opening_go a:hover{ background-position: 0 -2px;}

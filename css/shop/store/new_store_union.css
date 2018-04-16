@@ -1,0 +1,42 @@
+/*== 大合購主視覺 ==*/
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box { width: 978px; margin: 0 auto; border: 1px #BDC1C5 solid; position: relative; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .main_box { float: left !important; width: 765px !important; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor { float: left; width: 213px; height: 338px; background: url(../../../images/union/bg_mainbox_infor.gif) no-repeat; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .main_box .union_IMG { width: 765px; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .main_box .union_IMG img { display: block; width: 765px; height: 280px; overflow: hidden; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .main_box .copywriter_box { padding: 0 15px; height: 58px; background-color: #fff; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .main_box .copywriter_box h2 { width: 735px !important; height: 40px !important; overflow: hidden !important; font-size: 18px !important; font-family: "微軟正黑體" !important; letter-spacing: 1px !important; line-height: 20px !important; padding-top: 8px !important; color: #FF6600 !important; text-align: left; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .point_banner { width: 228px; height: 61px; background: url(../../../images/union/point_banner1.png) no-repeat; position: absolute; right: -15px; top: 0; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .point_banner p { font-size: 12px; color: #fff; letter-spacing: 1px; margin: 35px 0 0 14px; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .point_banner p span { font-family: "Century Gothic"; font-size: 15px; font-weight: bold; padding: 0 2px; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .hostgift_wrapper { width: 213px; border-bottom: 1px #BDC1C5 dotted; background: url(../../../images/union/bg_giftbox.gif) no-repeat; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .hostgift_wrapper .hostgift_box { margin-top: 74px; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .hostgift_wrapper .hostgift_box .icon_gift { float: left; width: 26px; height: 74px; background: url(../../../images/union/icon_gift.gif) no-repeat; margin-left: 20px; text-indent: -9999px; _display: inline; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .hostgift_wrapper .hostgift_box .pic_gift { float: left; width: 126px; height: 126px; margin-left: 20px; _display: inline; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .hostgift_wrapper .hostgift_box .pic_gift img { display: block; width: 126px; height: 126px; overflow: hidden; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .hostgift_wrapper a.txt_gift { display: block; font-size: 12px; line-height: 16px; color: #454545; width: 188px; height: 32px; padding: 10px 10px 10px 15px; letter-spacing: 1px; text-decoration: none; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .hostgift_wrapper a.txt_gift:hover { color: #105cb6; text-decoration: underline; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .amount_box { width: 183px; padding: 12px 15px 0 15px; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .amount_box p { color: #454545; font-size: 13px; line-height: 20px; letter-spacing: 0; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .amount_box p.left_amount { float: left; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .amount_box p.left_amount span { color: #F36167; font-weight: bold; padding-right: 3px; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .amount_box p.right_amount { float: right; *width: 55px; text-align: right; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .amount_box p.right_amount a { color: #F36167; font-weight: bold; font-size: 22px; padding-right: 2px; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .time_box { width: 173px; padding: 12px 20px; padding-top\9:8px; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .time_box p { float: left; height: 24px; line-height: 24px; font-size: 12px; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .time_box p.timefont { width: 17px; font-size: 13px; color: #fff; text-align: center; font-weight: bold; background: url(../../../images/union/time_bg.gif) no-repeat; margin: 0 1px; }
+#store_wrapper .about_store_compact.store_union .about_store_top_banner_con .union_mainIMG_box .union_infor .time_box p.font { color: #454545; }
+/*== 大合購主視覺 End ==*/
+
+/*== 看看其他大合購 ==*/
+#store_wrapper .right_function_block .other_event{ width:173px; border:1px #e3e3e3 solid;}
+#store_wrapper .right_function_block .other_event h3{ height:38px; line-height:38px; text-align:center; font-size:13px; color:#666; letter-spacing:1px;}
+#store_wrapper .right_function_block .other_event .one_event_box{ width:173px; margin: 0 auto; padding:15px 0; border-top:1px #e3e3e3 solid;}
+#store_wrapper .right_function_block .other_event .noBorder{ border:none; padding-top:0;}
+#store_wrapper .right_function_block .other_event .one_event_box a.store_img{ display:block; width:130px; height:130px; overflow:hidden; padding-left:22px;}
+#store_wrapper .right_function_block .other_event .one_event_box a.store_img img{ width:130px; height:130px;}
+#store_wrapper .right_function_block .other_event .one_event_box h4.store_name{ width:140px; height:36px; line-height:18px; overflow:hidden; margin:5px 0 0 0; padding-left:18px; *height:40px;}
+#store_wrapper .right_function_block .other_event .one_event_box h4.store_name a{ font-size:12px; color:#454545; font-weight:normal; letter-spacing:1px;}
+#store_wrapper .right_function_block .other_event .one_event_box h4.store_name img{ vertical-align:middle;}
+#store_wrapper .right_function_block .other_event a.more_event{ display:block; width:173px; height:32px; line-height:32px; border-top:1px #e3e3e3 dotted; background-color:#f5f5f5; text-align:center; font-size:12px; color:#666; letter-spacing:1px;}
+/*== 看看其他大合購 End ==*/

@@ -1,0 +1,441 @@
+/*===搜尋全部商品===*/
+#search_all_Store {
+  width:790px;
+  float:right;
+/*  background-color: #fff;*/
+}
+/*===搜尋全部商品_top+選單===*/
+#search_all_Store .AllGoods_box_top {
+  width:790px;
+  height:30px;
+  padding: 0px 0px 0px 0px;
+  background: url(../../images/shop/shop_search/allstore_topbox_bg.gif) no-repeat left top;
+  position: relative;/*===2011修改===*/
+}
+
+/*===滿意度列表===*/
+#search_all_Store .AllGoods_box_top .Sort_menu1link{
+  width:117px;
+  height:24px;
+  position:absolute;
+  background-color: #FFF;
+  border:1px solid #fc5956;
+  top: 30px;
+  right:167px;
+  z-index: 1000;
+
+  }
+#search_all_Store .AllGoods_box_top .Sort_menu1link ul{
+  }
+#search_all_Store .AllGoods_box_top .Sort_menu1link li{
+  padding:2px 2px 2px 2px;
+  }
+#search_all_Store .AllGoods_box_top .Sort_menu1link li a{
+  display: block;
+  width:35px;
+  height:20px;
+  line-height:20px;
+  color: #FFF;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size: 12px;
+  background-color: #fc5956;
+  text-align: center;
+  font-weight:bold;
+  text-decoration:none; 
+  }
+#search_all_Store .AllGoods_box_top .Sort_menu1link li a:hover{
+  color: #ffe02f; 
+  background-color: #fc5956;
+  } 
+#search_all_Store .AllGoods_box_top .Sort_menu1link li a:hover{}
+/*===滿意度列表END===*/
+
+/*==圖文並排_顯示圖文並排_顯示_按鈕==*/
+/* =====UL===== */
+#search_all_Store .AllGoods_box_top ul.viewtype {
+  position:absolute;
+  right:487px;
+  top:10px;
+  width: 170px;
+}
+#search_all_Store .AllGoods_box_top li {
+  float:left;
+  padding-left: 5px;
+}
+/*==圖文並排_顯示==*/
+#search_all_Store .AllGoods_box_top li.Model_menu1 a {
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  width:135px;
+  font-size:12px;
+  line-height:25px;
+  color:  #fff;
+  text-decoration:none;
+  width:54px;
+  height:25px;
+  padding-left: 20px;
+  background: url(../../images/shop/shop_search/allgoods_menu.gif) no-repeat left top;
+}
+#search_all_Store .AllGoods_box_top li.Model_menu1 a:hover {
+  color:#ff392f;
+  background-position:left bottom;
+}
+#search_all_Store .AllGoods_box_top li.Model_menu1_active a {
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  width:135px;
+  font-size:12px;
+  line-height:25px;
+  color:#ff392f;
+  text-decoration:none;
+  width:54px;
+  height:25px;
+  padding-left: 20px;
+  background: url(../../images/shop/shop_search/allgoods_menu.gif) no-repeat left bottom;
+}
+/*==圖片顯示_END==*/
+/*=圖文並排_顯示==*/
+#search_all_Store .AllGoods_box_top li.Model_menu2 a {
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  width:135px;
+  font-size:12px;
+  line-height:25px;
+  color:  #fff;
+  text-decoration:none;
+  width:54px;
+  height:25px;
+  padding-left: 20px;
+  background: url(../../images/shop/shop_search/allgoods_menu.gif) no-repeat -79px top;
+}
+#search_all_Store .AllGoods_box_top li.Model_menu2 a:hover {
+  color:#ff392f;
+  background-position:-79px bottom;
+}
+#search_all_Store .AllGoods_box_top li.Model_menu2_active a {
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  width:135px;
+  font-size:12px;
+  line-height:25px;
+  color:#ff392f;
+  text-decoration:none;
+  width:54px;
+  height:25px;
+  padding-left: 20px;
+  background: url(../../images/shop/shop_search/allgoods_menu.gif) no-repeat -79px bottom;
+}
+/*==圖文並排_顯示_END==*/
+/* =====圖文並排_顯示圖文並排_顯示_按鈕UL_END===== */
+
+/*==排列按鈕_按鈕==*/
+/* =====UL===== */
+#search_all_Store .AllGoods_box_top ul.sort{
+  position:absolute;
+  left: 410px;
+  top:1px;
+  width: 370px;
+}
+#search_all_Store .AllGoods_box_top li {
+  float:left;
+  padding-left: 5px;
+}
+/*==排序_標題==*/
+#search_all_Store .AllGoods_box_top li.Sort_menutext a {
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  width:135px;
+  font-size:12px;
+  line-height:25px;
+  color:#ff392f;
+  text-align: right;
+  font-weight: bold;
+  text-decoration:none;
+  width:55px;
+  height:25px;
+}
+/*==排序_按鈕==*/
+#search_all_Store .AllGoods_box_top li.Sort_menu1 a {
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  width:135px;
+  font-size:12px;
+  line-height:25px;
+  color:#ff392f;
+  text-align:center;
+  text-decoration:none;
+  width:55px;
+  height:28px;
+  background: url(../../images/shop/shop_search/sort_menu1.gif) no-repeat left top;
+
+}
+#search_all_Store .AllGoods_box_top li.Sort_menu1 a:hover {
+  color: #ffe02f;
+  background: url(../../images/shop/shop_search/sort_menu1.gif) no-repeat left bottom;
+  font-weight: bold;
+}
+
+#search_all_Store .AllGoods_box_top li.Sort_menu1_active a {
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  width:135px;
+  font-size:12px;
+  line-height:25px;
+  color: #ffe02f;
+  text-align:center;
+  font-weight: bold;
+  text-decoration:none;
+  width:55px;
+  height:28px;
+  background: url(../../images/shop/shop_search/sort_menu1.gif) no-repeat left bottom;
+}
+/*==排列按鈕_END==*/
+/*=====排列按鈕UL_END=====*/
+
+
+
+
+/*===搜尋全部商品_中間===*/
+#search_all_Store .AllStore_box_center {
+    width:790px;
+  }
+#search_all_Store .AllStore_box_center .searchStore_box_left_Y{
+  width:750px;
+  height:132px;
+  background-color: #fdfad2;
+  border-bottom: 1px dashed #f4e1a8;
+  padding: 20px 20px 0px 20px;
+  position: relative;
+/*=== background-color:#CCC; ===一組底色*/
+  }
+#search_all_Store .AllStore_box_center .searchStore_box_left{
+  width:750px;
+  height:132px;
+  border-bottom: 1px dashed #cccccc;
+  padding: 20px 20px 0px 20px;
+  position: relative;
+/*=== background-color:#CCC; ===一組底色*/
+  }
+/*==搜尋全部商品_左邊_圖==*/
+#img_searchStore_box{
+  display:block;
+  font-size:0;
+  width:160px;
+  height:55px;
+  padding: 1px;
+  background-color:#FFFFFF;
+  border:1px solid #BBBBBB;
+  overflow:hidden;
+}
+
+#img_searchStore_box a img{
+  margin: 0 auto;
+  display:block;
+  font-size:0;
+  height:55px;/*修改商品圖145*109-2=107*/
+}
+
+/*==左邊ad_標題_定位==*/
+#search_all_Store .AllStore_box_Left{
+  width: 570px;
+  height:110px;
+  float:left;
+  position:absolute;
+  top: 20px;
+  left: 199px;
+  }
+#search_all_Store .AllStore_box_Left .shop_star_mini{
+  display:block;
+  width:100px;
+  height:20px;
+  line-height:20px;
+  position:absolute;
+  top: 0px;
+  right: 0px;
+  width: 110px;
+  float: right;
+  }
+
+#search_all_Store .AllStore_box_Left h1 a{
+  width: 300px;
+  height:20px;
+  text-indent:0px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  font-size:13px;
+  line-height:20px;
+  color:  #105CB6;
+  text-decoration:none;
+  overflow: hidden;
+  }
+/*===.SearchWord搜尋結果顯示出_搜尋文字===*/
+#search_all_Store .AllStore_box_Left h1 a .SearchWord{
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:13px;
+  line-height:20px;
+  color:  #ec4e2f;
+  text-decoration:none;
+  overflow: hidden; 
+  }
+
+
+#search_all_Store .AllStore_box_Left h1 a:hover{
+  text-decoration:underline;
+  color:#ec4e2f;
+  } 
+/*==顯示ICON==*/
+#search_all_Store .AllStore_goodIcon_BOX{
+  display:block;
+  width: 570px;
+  height:20px;  
+  float:left;
+  }
+#search_all_Store .AllStore_goodIcon{
+  display: block;
+  height: 17px;
+  line-height:17px;
+  padding: 3px 5px 0px 0px;
+  position: absolute;
+  top: 87px;
+  left:-179px;
+  width: 160px;
+  }
+#search_all_Store .AllStore_goodIcon a img{
+  margin: 0px 5px 0px 3px; 
+  opacity: 1;/* 透明度60% FireFox 的寫法 */ 
+  filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */ 
+  }
+#search_all_Store .AllStore_goodIcon a:hover img{ 
+  opacity: 0.7;/* 透明度60% FireFox 的寫法 */ 
+  filter: Alpha(Opacity=70); /* 透明度60% IE 的寫法 */
+   }
+/*==顯示ICON_END==*/
+
+/*==左邊ad_內文==*/
+#search_all_Store .AllStore_box_Left p {
+  float:left;
+  width:570px;
+  height: 77px;
+  text-indent:0px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  font-size:12px;
+  line-height:18px;
+  color: #595757;
+  padding: 5px 0px 10px 0px;
+  text-decoration:none;
+  overflow: hidden;
+  }   
+/*==ID小圖===*/
+#search_all_Store .AllStore_box_Left .ihergoShop_IDimg{
+  float:left;
+  width:16px;
+  height:16px;
+  position:absolute;
+  top:64px;
+  left:-178px;
+
+  }
+#search_all_Store .AllStore_box_Left .ihergoShop_IDimg .ID_img a img{
+  display:block;
+  width:16px;
+  height:16px;
+  line-height:18px;
+  }
+/*==ID小圖_END===*/
+
+/*==ID帳號===*/
+#search_all_Store .AllStore_box_Left .ihergoShop_IDName{
+  float:left;
+  width:95px;
+  height:18px;
+  line-height: 18px;
+  overflow:hidden;
+  position:absolute;
+  top:62px;
+  left:-161px;
+  }
+#search_all_Store .AllStore_box_Left .ihergoShop_IDName a {
+  height:18px;
+  padding: 0px 5px 0px 5px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  font-size:12px;
+  line-height:18px;
+  color:  #105CB6;
+  text-decoration:none;
+  }
+#search_all_Store .AllStore_box_Left .ihergoShop_IDName a:hover{
+  text-decoration: underline;
+}
+/*==ID帳號_END===*/
+
+/*==ID帳號_後數字===*/
+#search_all_Store .AllStore_box_Left .ihergoShop_IDNameNumber{
+  width:45px;
+  height:18px;
+  line-height: 18px;
+  overflow:hidden;
+  position:absolute;
+  top:62px;
+  left:-61px;
+  }
+#search_all_Store .AllStore_box_Left .ihergoShop_IDNameNumber a {
+  height:18px;
+  padding: 0px 0px 0px 0px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  font-size:12px;
+  line-height:18px;
+  color:  #105CB6;
+  text-align: right;
+  text-decoration:none;
+  }
+#search_all_Store .AllStore_box_Left .ihergoShop_IDNameNumber a:hover{
+  text-decoration: underline;
+}
+/*==ID帳號_後數字_END===*/
+
+
+
+
+/*===搜尋到關鍵字===*/
+#search_all_Store .AllStore_box_Left .searchText_box {
+    width:540px;
+  height:18px;
+  line-height:18px;
+  float: left;
+  padding: 5px 10px 0px 15px;
+  background-image:url(../../images/shop/shop_search/TextSortp_icon.gif);
+  background-repeat:no-repeat;
+  background-position: left top;
+  overflow:hidden;
+}
+#search_all_Store .AllStore_box_Left .searchText_box ul.t12{
+  }
+#search_all_Store .AllStore_box_Left .searchText_box ul.t12 li{
+  float:left;
+  }
+#search_all_Store .AllStore_box_Left .searchText_box ul.t12 li a{
+  display:block;
+  line-height:18px;
+  padding:0 2px;
+  color:#333;
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform:uppercase;
+  font-size:12px;
+  text-decoration:none;
+  }
+#search_all_Store .AllStore_box_Left .searchText_box ul.t12 li a:hover{
+  color:#ec4e2f;
+  text-decoration: underline;
+  }
+#search_all_Store .AllStore_box_Left .searchText_box ul.t12 li .searchT{
+  line-height:18px;
+  color:#D23E3E;  
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform:uppercase;
+  font-size:12px;
+  text-decoration:none;
+  }
+/*===搜尋到關鍵字===_END*/

@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.EventTrack_box h1, .EventTrack_box h2, .EventTrack_box h3, .EventTrack_box h4, .EventTrack_box h5, .EventTrack_box h6, .EventTrack_box p{ font-size:12px; letter-spacing:1px; color:#666; font-family:Arial, Helvetica, sans-serif;}
+.EventTrack_box{width:92%; margin: 0 auto; }
+
+.EventTrack_box .EventTrack_header{ width:100%; height:31px; border:1px #e7e7e7 solid; border-width:1px 0; background:url(../../images/event/bg_EventTrack_header.jpg) repeat-x;}
+.EventTrack_box .EventTrack_header h3{ font-size:13px; letter-spacing:3px; line-height:30px; *line-height:31px; text-indent:15px;}
+.EventTrack_box .MarTop{ margin-top:15px;}
+
+.EventTrack_box .EventTrack_con{ padding:15px; border-bottom:1px #ccc dotted;}
+.EventTrack_box .noBorder{ border-bottom:none;}
+.EventTrack_box h4{font-size:13px; letter-spacing:2px; font-weight:normal; margin-bottom:2px;}
+.EventTrack_box h4 span{ font-size:12px; color:#999; letter-spacing:1px; padding-left:5px;}
+
+.EventTrack_box .check_row{ width:100%; padding: 5px 0;}
+.EventTrack_box .check_row .ck_box{ float:left; padding:3px 8px 0 0; *padding:0 8px 0 0;}
+.EventTrack_box .check_row p.txt_track{ float:left; color:#105cb6; letter-spacing:2px;}
+.EventTrack_box .check_row p.txt_track span{font-weight:bold; padding: 0 5px;}
+.EventTrack_box .check_row a{ float:left; display:block; font-size:12px; color:#105cb6; text-decoration:none; letter-spacing:2px; padding-left:25px; *padding-left:20px;}
+.EventTrack_box .check_row a:hover{ text-decoration:underline;}
+.EventTrack_box .check_row a.private{ background: url(../../images/club/icon_private.gif) no-repeat 5px 2px; *background-position:0px 2px;}
+.EventTrack_box .check_row a.semi_closed{ background: url(../../images/club/icon_private.gif) no-repeat 5px -47px; *background-position:0px 2px;}
+
+.EventTrack_box a.more_family{ display:block; font-size:12px; color:#666; letter-spacing:2px; text-decoration:underline; padding:10px 0 5px 5px;}
+.EventTrack_box a.more_family:hover{ text-decoration:none;}
+
+.alert_box{ padding-top:10px;}
+
+/*--分享商店未更新商店-店名顏色--*/
+.noframe .noframe_box .noframe_con span.share_store_name{ color:#105cb6;}
+
+
+
+
+
+
+.good_store_box{ width:92%; margin: 0px 0 0px 180px;}
+.good_store_box .EventTrack_header{ width:160px; height:31px; border:1px #e7e7e7 solid; border-width:1px 0; background:url(../../images/event/bg_EventTrack_header.jpg) repeat-x; margin-left:-58px;}
+.good_store_box .EventTrack_header img{ margin:-15px 0 0 -30px;}
+.good_store_box .EventTrack_header h3{ font-size:15px; letter-spacing:3px; line-height:30px; text-indent:6px; text-align:center; color:#666; margin-top:-44px; margin-left:8px;}
+.good_store_box .MarTop{ float:left; margin-top:-16px;}	
+.good_store_box .EventTrack_con{ padding:15px; border-bottom:1px #ccc dotted;}
+.good_store_box .noBorder{ border-bottom:none;}
+.good_store_box h4{font-size:13px; letter-spacing:2px; font-weight:normal; margin-bottom:5px; margin-top:-35px; margin-left:25px; display:block; float:left;}
+.good_store_box h4 span{ font-size:13px; color:#f64949; letter-spacing:1px; padding-left:5px; font-weight:bold;}
+.good_store_box a.more_family{ display:block; font-size:11px; color:#666; letter-spacing:2px; text-decoration:underline; width:100px; float:left; margin:-32px 0 0 560px;}
+.good_store_box a.more_family:hover{ text-decoration:none;}
+
+
+

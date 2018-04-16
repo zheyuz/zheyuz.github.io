@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+table.print {border:3px solid black; border-collapse:collapse; font-family:arial, helvetica, sans-serif, "�s�ө���"}
+th.print {font-size:14pt; border:1px solid black; word-break:break-all; padding:5px 5px; text-align:left}
+td.print {border:1px solid black; word-break:break-all; padding:3px 5px}
+table.list {border:1px dashed black; border-collapse:collapse;}
+th.list {font-size:10pt; border-bottom:1px solid black; word-break:break-all;}
+td.list {font-size:10pt; border-bottom:1px dashed black; word-break:break-all;}
+td.list_upper {border-top:1px dashed black}
+td.no_bottom {border-bottom:0}
+
+td.w50, td.w80, td.w100, td.w120, td.w150 {font-size:11pt;padding-right:5px}
+td.data {font-size:11pt}
+span.text9 {font-size:9pt}
+span.text10 {font-size:10pt}
+span.text14 {font-size:14pt}
+span.textB {font-weight:700}
+
+div.h5 {font-size:0px; line-height:5px; clear:both; height:5px}
+div.line {font-size:0px; line-height:0px; clear:both; height:1px; border-bottom:1px dashed black; margin:5px 0}
+
+a,
+a:visited {color:black; text-decoration:none}
+a:active,
+a:hover {color:black; text-decoration:none}
+
+img {display:none}

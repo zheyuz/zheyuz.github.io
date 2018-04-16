@@ -1,0 +1,395 @@
+@charset "utf-8";
+/* CSS Document */
+
+.status_wrapper .status_content{ background: url(../../images/status/img_shadow.png) repeat-y #f7f7f7; max-width: 620px; min-width: 490px;}
+.status_wrapper .union-slider-wrapper .union-slider-wrapper2{ box-shadow: 2px 1px 3px rgba(20%, 20%, 40%, 0.18);}
+.status_wrapper .status_content .loading_box{ padding: 40px 0;}
+.status_wrapper .status_content .loading_box img{ width:100px; position:relative; left: calc((100% - 100px) / 2);}
+/* 一則合購動態 */
+.status_wrapper .status_content .one_event_status{ background: url(../../images/status/img_shadow_right.png) repeat-y right top; border-top: 1px #fff solid; border-bottom: 1px #dbdbdb solid;}
+.status_wrapper .status_content .first_status{ border-top:0px;}
+.status_wrapper .status_content .PluralBox{ }
+
+.status_wrapper .status_content .club_event_box { padding: 20px 20px 25px; max-width: 580px;}
+.status_wrapper .status_content .club_event_box .member_icon { float: left; margin-right: 10px; }
+.status_wrapper .status_content .club_event_box .member_icon img { width: 54px; height: 54px; border-radius: 50%; margin-top: 15px; border: 1px solid #ececec;}
+.status_wrapper .status_content .club_event_box .event_content { float: left; width: calc(100% - 71px); margin: 0 0 30px 0; }
+.status_wrapper .status_content .club_event_box .event_content .member_info { height:30px; line-height: 30px;}
+.status_wrapper .status_content .club_event_box .event_content .member_info a.user_name { font-size: 13px; font-weight: bold; color: #3b5998; padding-right: 1px; }
+.status_wrapper .status_content .club_event_box .event_content .member_info small.user_rating { color: #666666; font-size: 11px; margin-right: 4px;}
+.status_wrapper .status_content .club_event_box .event_content .member_info .due_date { display: inline-block; font-size:12px; color:#666666;}
+.status_wrapper .status_content .club_event_box .event_content .member_info .due_date hour { padding:0 5px; }
+.status_wrapper .status_content .club_event_box .event_content .event_description { width: 100%; min-height:200px; border: 1px solid #d6d6d6; border-radius: 5px; position: relative; }
+.status_wrapper .status_content .club_event_box .event_content .event_description:before{ border-bottom: 5px solid rgba(0, 0, 0, 0); border-top: 5px solid rgba(0, 0, 0, 0); border-right: 7px solid #faf9f9; position: absolute; left: 0; top: 15px; width: 0; height: 0; content: ""; margin-left: -6px; display: block; z-index: 2;}
+.status_wrapper .status_content .club_event_box .event_content .event_description:after{  border-bottom: 5px solid rgba(0, 0, 0, 0); border-top: 5px solid rgba(0, 0, 0, 0); border-right: 7px solid #c9c9c9; position: absolute; left: 0; top: 15px; width: 0; height: 0; content: ""; margin-left: -7px; display: block; z-index: 1;}
+
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title { padding: 12px 20px; background: #faf9f9; border-radius: 2px 2px 0 0; border-bottom: 1px solid #e8e8e8; line-height: 24px; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title a { font-size: 15px; font-weight: bold; color: #105cb6; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title .event_target { display: inline-block; width: calc(100% - 198px); max-height: 50px; overflow: hidden; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title a:hover { text-decoration: none; opacity: .8; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title span.target_store { width: calc(100% - 220px); display: block; background: url(../../images/find_event/icon_store_normal.gif) no-repeat 0 3px; padding-left: 20px; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title span.target_self_store { width: calc(100% - 220px); display: block; background: url(../../images/find_event/icon_store_self.gif) no-repeat 0 3px; padding-left: 20px; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title span.target_store a { font-size: 13px; color: #555555; font-weight: bold; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title a img { width: 145px; height: 145px; border: 1px solid #dad7d7; box-shadow: 5px 5px 0px #d4d0d0; position: absolute; right: 22px; top: -18px; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title a:hover img { opacity: 1; box-shadow: 7px 7px 0px #dad7d7; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info { padding: 12px 20px; background: #ffffff; border-radius: 0 0 2px 2px; color: #7f7d7d; font-size: 12px; line-height: 25px; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .summary { width: calc(100% - 198px); color:#555555; font-size:13px;  }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .summary span { font-size:14px; padding:0 5px;}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .summary .quantity_count { }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .summary .quantity_count_10_above { color:#f64949; font-size:14px; font-weight: bold; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .meeting_place { width: 100%; height: auto; color: #666666; position:relative;}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .meeting_place .meeting_place_tag { width: 36px; display: inline-block; vertical-align: top; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .meeting_place .meeting_place_address { width: calc(100% - 198px - 36px); display: inline-block;}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .meeting_place .meeting_place_address p { display: block; height: 25px; overflow: hidden; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .meeting_place .meeting_place_address p.small_font { display: block; height: 25px; overflow: hidden; font-size:12px; letter-spacing:1px;}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .meeting_place .meeting_place_address p a { color: #666666; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info a.meeting_place_readmore { color: #bbbb96 !important; position: relative; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info a.meeting_place_readmore:after { content: ''; width: 0; height: 0; border-style: solid; border-width: 6px 4.5px 0 4.5px; border-color: #baba95 transparent transparent transparent; margin-left: 6px; position: absolute; bottom: 4px; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info a.meeting_place_readless { color: #bbbb96 !important; position: relative; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info a.meeting_place_readless:after { content: ''; width: 0; height: 0; border-style: solid; border-width: 0 4.5px 6px 4.5px; border-color: transparent transparent #baba95 transparent; margin-left: 6px; position: absolute; bottom: 4px; }
+
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .icon_box{ width: 14px; display: inline-block; vertical-align: top;}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .icon_box .location_icon{ height: 25px; width: 14px; display:block;}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .icon_box .location_icon img{ height: 15px; position: relative; top: 5px; vertical-align: middle;}
+
+/* ---------- 20160203修改面交地點 _ 開始 ---------- */
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title{ min-height:70px;}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title .event_target{ width: calc(100% - 178px);}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title span.target_store{ width: calc(100% - 200px);}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .meeting_place .meeting_place_address { width: calc(100% - 24px - 36px);}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info{ min-height:60px;}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .meeting_place p.fir_place{ max-width: 60%;}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_info .meeting_place p.fir_club_place{ max-width: 55%;}
+.status_wrapper .status_content .club_event_box .event_content .event_description{ min-height:180px;}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title a img{ top:-24px;}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title span.target_store{ width: 290px; overflow: hidden; white-space:nowrap; position:relative;}
+/* ---------- 20160203修改面交地點 _ 結束 ---------- */
+
+/* ---------- 20160215商店VIP _ 開始 ---------- */
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title span.target_store a{ display:inline-block; max-width:270px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; height:24px;}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title a.vip{ position:absolute; top:4px;margin-left:3px;}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title a.vip img.middle{ width: 15px; height: 15px; border: 0; box-shadow: 0 0 0 #fff; position: relative; right: -1px; top: 0;}
+/* ---------- 20160215商店VIP _ 結束 ---------- */
+
+/* ---------- 20160216動態最小限制 _ 開始 ---------- */
+.status_wrapper .status_content .club_event_box{ min-width:560px;}
+/* ---------- 20160216動態最小限制 _ 結束 ---------- */
+
+
+
+/* ---------- 20160216動態底色改版 _ 開始 ---------- */
+.status_wrapper table td.left_wrp{ background-color:#fafafa;}
+.status_wrapper table .nav_box{ background-color:#fafafa;}
+.status_wrapper .nav_box .filter_box ul li a{ border-left: 3px solid #fafafa;}
+
+.status_wrapper .status_content{ background: #fff; border-left:1px solid #f5f5f5; padding-bottom: 1px; box-sizing: border-box;}
+.status_wrapper .status_content.no_border{ background: #fff; border-left:none; padding-bottom: 1px; box-sizing: border-box;}
+.status_wrapper .status_content .StoreStatus_search{ background:none; padding: 3px 20px 10px;}
+.status_wrapper .status_content .searching_box{ background:none; padding: 1px 20px 10px;}
+.status_wrapper .status_content .searching_box ul{ background-color: #f5f5f5; padding: 5px 8px;}
+.status_wrapper .status_content .union-slider-wrapper{ background:none; padding: 3px 0 30px;}
+.status_wrapper .union-slider-wrapper .union-slider-wrapper2{ box-shadow: 1px 1px 3px rgba(20%, 20%, 40%, 0);}
+.status_wrapper .union-slider-wrapper .swiper-container{ border-radius:4px;}
+.status_wrapper .union-slider-wrapper .swiper-container .swiper-wrapper{ border-radius:4px;}
+/* 一則合購動態 */
+.status_wrapper .status_content .one_event_status{ background:none; border-top: 0px #fff solid; border-bottom: 0px #eee solid;}
+.status_wrapper .status_content .club_event_box{ padding: 10px 20px 30px;}
+.status_wrapper .status_content .club_event_box .event_content{ margin-bottom:0px;}
+.status_wrapper .status_content .club_event_box .event_content .event_description { width: 100%; min-height:180px; border: 1px solid #e6e6e6; }
+.status_wrapper .status_content .club_event_box .event_content .event_description:before{ border-bottom: 5px solid rgba(0, 0, 0, 0); border-top: 5px solid rgba(0, 0, 0, 0); border-right: 7px solid #f6f5f5;}
+.status_wrapper .status_content .club_event_box .event_content .event_description:after{  border-bottom: 5px solid rgba(0, 0, 0, 0); border-top: 5px solid rgba(0, 0, 0, 0); border-right: 7px solid #e1e1e1;}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title { background: #f6f5f5; border-bottom: 1px solid #eee; }
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title a img{ border: 1px solid #dad7d7; box-shadow: 5px 5px 0px #dad7d7;}
+.status_wrapper .status_content .club_event_box .event_content .event_description .event_title a:hover img{ box-shadow: 6px 6px 0px #dad7d7;}
+
+/*動態底層文字*/
+.status_wrapper .status_content .more_status{ background: #fcfcfc; border: 1px #e6e6e6 solid; min-width:560px; margin:15px 25px; border-radius:4px; padding: 0;}
+.status_wrapper .status_content .more_status:hover{ border: 1px #ddd solid;}
+.status_wrapper .status_content .more_status a{ padding:8px 0px;}
+.status_wrapper .status_content .end_box{ background: none; border: 1px #ddd dotted; margin:15px 25px; min-width:400px; border-radius:4px;}
+.status_wrapper .status_content .loading_box{  background: none; border-top:0px;}
+
+/* ---------- 20160216動態底色改版 _ 結束 ---------- */
+
+
+
+/* ------------------------------ 20160219動態改版(增加商店區塊) _ 開始 ------------------------------ */
+
+/*-----商店Banner區塊_開始-----*/
+.storeBanner_wrapper{ background-color:#edeeef; width:100%; margin:0 auto 20px; text-align: center; min-width: 1080px;}
+.storeBanner_wrapper .storeBanner_content{ max-width:1080px; min-width:980px; margin: 0 auto; padding:15px 0;}
+/*商店區-左欄*/
+.storeBanner_wrapper .storeB_left{ float: left; background-color:#fff; width:170px;}
+.storeBanner_wrapper .storeB_left h2.hotSale_title{ font-size:15px; color: #fff; line-height:35px; background-color:#fc6362; text-align:center; display:block; letter-spacing:1px;}
+.storeBanner_wrapper .storeB_left .hotSale_content{ padding:9px 10px 11px; position:relative; height: 285px; width: 150px; overflow: hidden;}
+.storeBanner_wrapper .storeB_left .hotSale_content .list_box{ display: block; height:280px;}
+.storeBanner_wrapper .storeB_left .hotSale_content ul.hotSale_ul{ width:1000%; position: absolute; top:10; left: 0;}
+.storeBanner_wrapper .storeB_left .hotSale_content ul.hotSale_ul li{ float: left; display:inline-block; padding:1px 0; margin: 0 20px}
+.storeBanner_wrapper .storeB_left .hotSale_content ul.hotSale_ul li .hotSale_item{ width:128px; text-align:center; margin:0 auto 10px; overflow:hidden; position: relative; border: 1px solid #ececec;}
+.storeBanner_wrapper .storeB_left .hotSale_content ul.hotSale_ul li .hotSale_item .item_img img{ width:128px;}
+.storeBanner_wrapper .storeB_left .hotSale_content ul.hotSale_ul li .hotSale_item .item_img img:hover{ opacity:0.9;}
+.storeBanner_wrapper .storeB_left .hotSale_content ul.hotSale_ul li .hotSale_item p.item_name{ font-size:12px; position: absolute; left: 0; bottom: 0; width: 100%; background: rgba(0,0,0,0.3); line-height: 30px; height: 30px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #fff;}
+.storeBanner_wrapper .storeB_left .hotSale_content ul.hotSale_ul li .hotSale_item p.item_name a{ color:#fff; text-decoration:none; letter-spacing:1px; padding: 0;}
+.storeBanner_wrapper .storeB_left .hotSale_content ul.hotSale_ul li .hotSale_item p.item_name:hover{ background: rgba(0,0,0,0.6);}
+
+.storeBanner_wrapper .storeB_left ul.hotSale_nav{ height:10px; display:inline; position: relative; top: -8px;}
+.storeBanner_wrapper .storeB_left ul.hotSale_nav li{ width:8px; height: 8px;  display:inline-block; border-radius:50%; margin:0 1px; }
+.storeBanner_wrapper .storeB_left ul.hotSale_nav li a{ display:block; width:8px; height:8px; border-radius:50%; -webkit-transition: all 0.3s ease-in-out 0s; -moz-transition: all 0.2s ease-in-out 0s; -o-transition: all 0.2s ease-in-out 0s; transition: all 0.2s ease-in-out 0s; -webkit-transform: translate3d(0, 0, 0); background-color:#fff; border:1px solid #bbb; box-sizing:border-box;}
+.storeBanner_wrapper .storeB_left ul.hotSale_nav li a:hover{ background-color:#bbb;}
+.storeBanner_wrapper .storeB_left ul.hotSale_nav li.target a{ background-color:#bbb;}
+
+/*商店區-右欄*/
+.storeBanner_wrapper .storeB_right{ float:right; background-color:#fff; width:280px;}
+.storeBanner_wrapper .storeB_right h2.rankList_title{ font-size:15px; color: #fff; line-height:35px; background-color:#fc6362; text-align:left; display:block; letter-spacing:1px; padding:0 10px; position:relative;}
+.storeBanner_wrapper .storeB_right h2.rankList_title p.rank_rules_box{ float: right; font-size:12px; letter-spacing:0px;}
+.storeBanner_wrapper .storeB_right h2.rankList_title p.rank_rules_box a{ color:rgba(255,255,255,0.8); text-decoration: none; font-weight: normal; line-height:36px;}
+.storeBanner_wrapper .storeB_right h2.rankList_title p.rank_rules_box a:hover{ color:rgba(255,255,255,0.95);}
+.storeBanner_wrapper .storeB_right h2.rankList_title p.rules_text{ font-size:11px; font-weight:normal; line-height:18px; color:#fff; letter-spacing: 1px; background-color:rgba(60,60,60,0.9); padding: 8px 10px; border-radius: 3px; position: absolute; top: 35px; right: 0px; z-index: 2; max-width: 180px; margin-top: 1px;}
+.storeBanner_wrapper .storeB_right h2.rankList_title p.rules_text:before{ border-left: 6px solid rgba(0, 0, 0, 0); border-right: 6px solid rgba(0, 0, 0, 0); border-bottom: 5px solid rgba(60,60,60,0.9); position: absolute; left: 80%; top: 0px; width: 0; height: 0; content: ""; margin-top: -5px; display: block; z-index: 2;}
+.storeBanner_wrapper .storeB_right h2.rankList_title a.more_store_btn{ float: right; font-size:12px; letter-spacing:0px; color:rgba(255,255,255,0.8); text-decoration: none; font-weight: normal; line-height:36px;}
+.storeBanner_wrapper .storeB_right h2.rankList_title a.more_store_btn:hover{ color:rgba(255,255,255,0.95);}
+
+.storeBanner_wrapper .storeB_right .rankList_form{ padding:6px 10px 5px;}
+.storeBanner_wrapper .storeB_right .rankList_form .rank_pic{ border-top:1px dotted #ddd; padding:8px 0;}
+.storeBanner_wrapper .storeB_right .rankList_form .rank_first{ border-top: 0px;}
+.storeBanner_wrapper .storeB_right .rankList_form .rank_pic .img_box{ float: left; width: 40px; margin-right:8px; position:relative; overflow: hidden;}
+.storeBanner_wrapper .storeB_right .rankList_form .rank_pic .img_box .top_rank{ width: 18px; height: 21px; background: url(../../images/status/the_top_tag.png) no-repeat left top / 18px 21px; position: absolute; left: 0px; top: 0px; z-index: 1;}
+.storeBanner_wrapper .storeB_right .rankList_form .rank_pic .img_box .top_rank p.number{ font-size: 12px; font-weight: bold; color: #cc001d; line-height: 18px; text-align: center; text-shadow: 1px 1px 0 #fff;}
+.storeBanner_wrapper .storeB_right .rankList_form .rank_pic .img_box img{ width:40px; height: 40px; border: 1px solid #eee; box-sizing: border-box;}
+.storeBanner_wrapper .storeB_right .rankList_form .rank_pic .text_box{ float: left; text-align:left; position:relative; width:200px}
+.storeBanner_wrapper .storeB_right .rankList_form .rank_pic .text_box h3 a{ display: block; font-size: 12px; color: #555; font-weight: normal; height: 40px; line-height: 18px; overflow: hidden; max-width:170px; text-decoration:none;}
+.storeBanner_wrapper .storeB_right .rankList_form .rank_pic .text_box h3 a:hover{ color:#888;}
+.storeBanner_wrapper .storeB_right .rankList_form .rank_pic .text_box p.place_move{ position: absolute; right:0; top:13px; font-size:12px; line-height:20px; padding-left:10px;}
+
+.storeBanner_wrapper .storeB_right .rankList_form .rank_txt{ border-top:1px dotted #ddd; padding:5px 0; height:20px; position:relative;}
+.storeBanner_wrapper .storeB_right .rankList_form .rank_txt p.place_no{ float: left; border-right: 2px solid #ffd800; font-size: 12px; font-weight: bold; letter-spacing: 0; width: 20px; height: 14px; text-align: center; line-height: 16px; margin: 3px 8px 0 0;}
+.storeBanner_wrapper .storeB_right .rankList_form .rank_txt h3 a{ display: block; font-size: 12px; color: #555; font-weight: normal; height: 20px; line-height: 20px; max-width:200px; text-align: left; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; text-decoration:none;}
+.storeBanner_wrapper .storeB_right .rankList_form .rank_txt h3 a:hover{ color:#888;}
+.storeBanner_wrapper .storeB_right .rankList_form .rank_txt p.place_move{ position: absolute; right:3px; top:5px; font-size:12px; line-height:20px; padding-left:10px;}
+.storeBanner_wrapper .storeB_right .rankList_form p.place_up{ background: url(../../images/status/icon_place_up.png) no-repeat left 6px / 8px 8px transparent; color:#fc456c;}
+.storeBanner_wrapper .storeB_right .rankList_form p.place_down{ background: url(../../images/status/icon_place_down.png) no-repeat left 6px / 8px 8px transparent; color:#39b54a;}
+.storeBanner_wrapper .storeB_right .rankList_form p.place_fair{ background: url(../../images/status/icon_place_fair.png) no-repeat center center / 8px 8px transparent; color:#555; width:7px; height: 20px;}
+
+/*商店區-大合購廣告*/
+.storeBanner_wrapper .union-slider-wrapper{ background:none; padding:0; float:left; width:600px; margin:0 15px;}
+.storeBanner_wrapper .union-slider-wrapper .union-slider-wrapper2{ background-color:#fff; border-radius:0px; border:0px; box-shadow:0 0 0 #fff; margin:0;}
+.storeBanner_wrapper .swiper-button-next, .storeBanner_wrapper .swiper-button-prev{ position: absolute; top: 40%; width: 30px; height: 60px; margin-top: -27px; z-index: 10; cursor: pointer; background-repeat: no-repeat; background-color: rgba(255, 255, 255, 0.8); background-size: 16px auto; -webkit-transition: all 0.3s ease-in-out 0s; -moz-transition: all 0.2s ease-in-out 0s; -o-transition: all 0.2s ease-in-out 0s; transition: all 0.2s ease-in-out 0s; -webkit-transform: translate3d(0, 0, 0);}
+.storeBanner_wrapper .swiper-button-next{ background-image: url(../../images/status/icon_go_next.png); background-position: 10px center; right: 0; border-radius: 50px 0 0 50px;}
+.storeBanner_wrapper .swiper-button-prev{ background-image: url(../../images/status/icon_go_back.png); background-position: 5px center; left: 0; border-radius: 0 50px 50px 0; }
+.storeBanner_wrapper .swiper-button-next:hover, .storeBanner_wrapper .swiper-button-prev:hover{ background-color: rgba(255, 255, 255, 0.9);}
+.storeBanner_wrapper .swiper-button-disabled{ opacity: 0.5; cursor: auto; pointer-events: none}
+
+.storeBanner_wrapper .union-slider-wrapper .union_detail{ background-color:#ffe557; padding: 11px 0 8px 15px; position: relative;}
+.storeBanner_wrapper .union-slider-wrapper .union_detail .union_info{ float: left; width: 98%; padding: 3px 0; overflow: hidden;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-slide .union_info .slideTitle{ background:none; padding:0; margin:0; text-align:left;}
+.storeBanner_wrapper .union-slider-wrapper .union_detail .union_info .slideTitle a.union_title{ color:#333; font-family: 'Noto Sans TC', Arial; font-size: 18px; font-weight:600;}
+.storeBanner_wrapper .union-slider-wrapper .union_detail .union_info .slideTitle a.union_title:hover{ text-decoration:none; opacity:0.9;}
+.storeBanner_wrapper .union-slider-wrapper .union_detail .union_info p.sell_results_box{ font-size: 15px; font-family: 'Noto Sans TC', Arial; margin: 5px 0 0 0; padding: 0px; background: none; text-align: left;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-slide .union_info p.sell_results_box span{ font-family: 'Noto Sans TC', Arial; font-size: 15px; color: #e52626; padding: 0 4px; font-weight: bold;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-slide .union_detail .union_timer{ float: right; background-color:#707070; width: 132px; height: 30px; text-align: right; padding: 3px 10px 1px 25px; border-left: 0px; border-radius: 40px 0 0 0; position: absolute; right: 0; bottom: 0;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-slide .union_detail .union_timer .union_time_title{ float:left; background: url(../../images/status/icon_timer.png) no-repeat left 9px / 14px 14px transparent; margin:0; font-family: 'Noto Sans TC', Arial; font-size: 15px; color:#fff; line-height:30px; width:30px; text-align:left; padding-left: 20px; position: relative; top: -1px;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-slide .union_detail .union_timer .union_time_box{ float: right; height: 25px; margin: 0;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-slide .union_detail .union_timer .union_time_box ul li{ line-height:30px;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-slide .union_detail .union_timer .union_time_box ul li p.txt_num{ font-family: 'Noto Sans TC', Arial; color:#fff; font-size: 15px;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-slide .union_detail .union_timer .union_time_box ul li p.txt_font{ font-family: 'Noto Sans TC', Arial; color: #fff; font-size: 15px; padding: 0 3px; text-align:center;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-slide .union_timer .union_time_box ul li p.w10{ text-indent: -3px;}
+
+.storeBanner_wrapper .union-slider-wrapper .swiper-footer{ background-color: #fff; padding: 10px 15px 8px; border-top: 0px;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-footer a.apply_union{ float: left; display: block; color: #105cb6; font-size: 12px; line-height: 30px; padding-top: 2px;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-footer .slide_number_button{float:right;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-footer .slide_number_button a{ -webkit-transition: all 0.3s ease-in-out 0s; -moz-transition: all 0.2s ease-in-out 0s; -o-transition: all 0.2s ease-in-out 0s; transition: all 0.2s ease-in-out 0s; -webkit-transform: translate3d(0, 0, 0);}
+.storeBanner_wrapper .union-slider-wrapper .swiper-footer .slide_number_button a.btn_prev{ float: left; width: 25px; height: 25px; background: url(../../images/status/icon_slide_prev.png) no-repeat center center / 11px 11px #bbb; display: block; margin: 2px 3px 0 0;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-footer .slide_number_button a.btn_next{ float: left; width: 25px; height: 25px; background: url(../../images/status/icon_slide_next.png) no-repeat center center / 11px 11px #bbb; display: block; margin: 2px 0 0 3px;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-footer .slide_number_button a.btn_prev:hover{ background-color:#999}
+.storeBanner_wrapper .union-slider-wrapper .swiper-footer .slide_number_button a.btn_next:hover{ background-color:#999;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-footer .slide_number_button a.btn_none{ background-color:#e5e5e5;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-footer .slide_number_button a.btn_none:hover{ background-color:#e5e5e5;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-footer .slide_number_button ul{ display: inline-block; float: left;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-footer .slide_number_button li.no_item{ float:left;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-footer .slide_number_button li.no_item a{ font-size: 12px; color: #777; background-color: #f5f5f5; line-height: 26px; height: 25px; width: 25px; text-align: center; margin: 0 3px; display: block; position: relative; top: 2px; -webkit-transition: all 0.3s ease-in-out 0s; -moz-transition: all 0.2s ease-in-out 0s; -o-transition: all 0.2s ease-in-out 0s; transition: all 0.2s ease-in-out 0s; -webkit-transform: translate3d(0, 0, 0);}
+.storeBanner_wrapper .union-slider-wrapper .swiper-footer .slide_number_button li.no_item a:hover{ background-color:#888; color:#fff; font-weight: normal; text-decoration: none;}
+.storeBanner_wrapper .union-slider-wrapper .swiper-footer .slide_number_button li.active a{ background-color:#999; color:#fff; text-decoration: none;}
+
+/*-----商店Banner區塊_結束-----*/
+
+/*右欄*/
+.status_wrapper .other_box .start_group_box{ padding: 10px 0 10px; text-align: center; width: 280px; }
+.status_wrapper .other_box .start_group_box .hergo_btn{ background-color: #f5f5f5; padding: 13px 25px; border: 1px solid #e6e6e6;}
+.status_wrapper .other_box .start_group_box a{ display: block; height: 34px; line-height: 34px; text-align: center; background-color: #4cbce5; border-radius: 4px; color: #fff; font-size: 13px; font-weight: bold; margin: 0 auto; width: 170px;}
+
+.status_wrapper .other_box .ihergo_ad_box{ background-color: #f6f5f5; margin-bottom:10px; border: 1px solid #e6e6e6;}
+.status_wrapper .other_box .ihergo_ad_box .ad_img_box{ width: 278px; height: 188px; overflow: hidden;}
+.status_wrapper .other_box .ihergo_ad_box .ad_img_box img{ height:100%; width: 100%;}
+.status_wrapper .other_box .ihergo_ad_box .ad_title{ margin: 0px; padding: 8px 10px 10px; border-top: 1px solid #e6e6e6;}
+.status_wrapper .other_box .ihergo_ad_box .ad_title a{ font-family: 'Noto Sans TC', Arial; font-size: 15px; color: #444; font-weight: bold; line-height: 18px;}
+.status_wrapper .other_box .ihergo_ad_box .moreInfo_box{ font-size: 12px; height: 20px; padding: 0px 10px 10px; display: block;}
+
+
+.status_wrapper .other_box .union_box{ margin-bottom: 10px;}
+.status_wrapper .other_box .union_box ul li{ margin: 0 0 10px;}
+.status_wrapper .other_box .union_box ul li .unionInfo_box{ display: block; height: 150px; border: 1px solid #e6e6e6;}
+.status_wrapper .other_box .union_box ul li .info_box{ height: 150px; width: 128px; float: left; position: relative; background-color: #f6f6f6;}
+.status_wrapper .other_box .union_box ul li .img_box p{ top:1px; left: 1px;}
+.status_wrapper .other_box .store_union_box{ margin-bottom: 10px;}
+.status_wrapper .other_box .store_union_box ul li{ margin: 0 0 10px;}
+.status_wrapper .other_box .store_union_box ul li .storeInfo_box{ display: block; height: 150px; border: 1px solid #e6e6e6;}
+.status_wrapper .other_box .store_union_box ul li .info_box{ height: 150px; width: 128px; float: left; position: relative; background-color: #f6f6f6;}
+
+/* ------------------------------ 20160219動態改版(增加商店區塊) _ 結束 ------------------------------ */
+
+
+
+/* --------------- 20160226 動態新增家族標誌、左欄連結修改、動態底部文字說明修改 _ 開始 --------------- */
+
+/*動態新增家族icon＋家族名稱*/
+.status_wrapper .one_event_status .club_event_box .member_info .family_infor{ position: relative; display: inline;}
+.status_wrapper .one_event_status .club_event_box .member_info .family_infor a.family_tag{ width:15px; height:15px; background:url(../../images/status/icon_family_tag.png) no-repeat center center / 15px 15px; display:inline-block; position: relative; top: 3px; margin-left:3px;}
+.status_wrapper .one_event_status .club_event_box .member_info .family_infor a.family_tag:hover{ opacity:0.9;}
+.status_wrapper .one_event_status .club_event_box .member_info .family_infor .name_list{ background-color:#454545; padding:4px 10px 7px; position: absolute; bottom:22px; left: -65px; border-radius:2px; z-index:1; width:120px;}
+.status_wrapper .one_event_status .club_event_box .member_info .family_infor .name_list:after{ border-right: 5px solid rgba(0, 0, 0, 0); border-left: 5px solid rgba(0, 0, 0, 0); border-top: 5px solid #454545; position: absolute; left: 50%; bottom: -5px; width: 0; height: 0; content: ""; display: block; z-index: 2;}
+.status_wrapper .one_event_status .club_event_box .member_info .family_infor .name_list p.title{ font-size:12px; color: #63d5ff; line-height:22px; text-align: center; font-weight: bold; letter-spacing:0px;}
+.status_wrapper .one_event_status .club_event_box .member_info .family_infor .name_list a.family_link{ font-size:12px; color:#f3f3f3; line-height:18px; display:block; white-space: nowrap; overflow: hidden; text-overflow:ellipsis; letter-spacing:0px; font-weight:normal;}
+.status_wrapper .one_event_status .club_event_box .member_info .family_infor .name_list a.family_link:hover{ text-decoration: underline;}
+
+/*動態底部說明*/
+.status_wrapper .status_content .end_box{ background-color:#fdfcfc; border: 1px dotted #ddd; margin: 15px 25px; padding: 30px 22px; min-width: 520px; border-radius: 5px;}
+.status_wrapper .status_content .end_box .end_box2{ width: 470px;}
+.status_wrapper .status_content .end_box .icon_smile{ float: left; width: 62px; height: 62px; background: url(../../images/status/icon_endbox_smiling.png) no-repeat center center / 60px auto;}
+.status_wrapper .status_content .end_box .icon_surprise{ float: left; width: 62px; height: 62px; background: url(../../images/status/icon_endbox_wink.png) no-repeat center center / 60px auto;}
+.status_wrapper .status_content .end_box h5{ float: left; font-size:16px; color:#777; font-weight: bold; padding-left: 13px; margin-top:6px;}
+.status_wrapper .status_content .end_box h5 span{ padding-right: 4px;}
+.status_wrapper .status_content .end_box p{ float: left; font-family: 'Noto Sans TC', Arial; line-height: 22px; margin-top:5px; color:#888;}
+.status_wrapper .status_content .end_box a{ font-family: 'Noto Sans TC', Arial;}
+.status_wrapper .status_content .end_box a.addm_family_btn{ background-color: #57c2e9; color: #fff; text-align: center; font-size: 12px; padding: 2px 5px; text-decoration: none; border-radius: 5px; margin-top:5px; display:block; width:100px;}
+.status_wrapper .status_content .end_box a.addm_family_btn:hover{ opacity:0.85;}
+.status_wrapper .status_content .end_box p.endbox_note{ background-color:#f7f6f6; line-height:20px; color:#888; padding:15px; margin-top: 15px; font-size:13px; width: 95%; border-radius:3px;}
+.status_wrapper .status_content .end_box p.endbox_note span.union_no{ padding:0 4px;}
+
+/*左欄*/
+.status_wrapper .nav_box .filter_box ul li ul.my_join_box li a.more{ text-align: left;}
+.status_wrapper .nav_box .filter_box ul li ul.my_join_box li a.addMore_btn{ background: url(../../images/status/icon_addmore.png) no-repeat 25px center / 15px 15px transparent; padding: 15px 15px 15px 45px; color:#3daad3; text-decoration: none; border-bottom: 1px #eee solid;}
+
+.status_wrapper .StoreFilter_box select{ font-size: 12px; font-family: 'Noto Sans TC', Arial; background: url(../../images/status/icon_select_arrow.png) no-repeat 93% 12px / 6px auto #fff; -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; padding: 2px 10px;}
+
+/* --------------- 20160226 動態新增家族標誌、左欄連結修改、動態底部文字說明修改 _ 結束 --------------- */
+
+/* --------------- 20160308 新增主購的“所有合購”連結 _ 開始 --------------- */
+.status_wrapper .status_content .club_event_box .member_icon{ position:relative;}
+.status_wrapper .status_content .club_event_box .member_icon a.all_union_btn{ color:#777; font-size: 12px; width: 56px; letter-spacing: 0px; text-align: center; position: absolute; left: -2px; bottom: -20px;}
+.status_wrapper .status_content .club_event_box .member_icon a.all_union_btn:hover{ color:#999;}
+/* --------------- 20160308 新增主購的“所有合購”連結 _ 結束 --------------- */
+
+/* --------------- 20160424 左欄新增常用地點/進階篩選 _ 開始 --------------- */
+/*動態查詢標籤*/
+.status_content .searching_box ul li a.txt_condition{ background: url(../../images/status/btn_condition.gif) no-repeat right center #fff; border: 1px dotted #bbb;}
+/*左欄 常用地點/進階篩選*/
+.status_wrapper .nav_box .StoreFilter_box h2{ font-weight: 600; font-family: 'Noto Sans TC', Arial; background-color: #ffe557; color: #444; font-size: 16px; line-height: 40px; height: 40px; padding-left: 10px; width: 160px;}
+.StoreFilter_box .search_filter{ padding: 0; margin: 10px 0 30px}
+.StoreFilter_box .search_filter p.search_s_title{ font-weight: 600; font-family: 'Noto Sans TC', Arial; line-height: 20px; padding: 0 10px; background-color: transparent; color: #444; letter-spacing: 0;}
+.StoreFilter_box .search_select{ padding: 0 10px;}
+.search_filter p{ background-color: #f0f0f0; margin: 0 0 5px; padding: 7px; line-height: 18px; color: #444;}
+.search_filter .pickup_checkbox{ display: inline-block; margin-left: 10px;}
+.search_filter .pickup_checkbox p{ float: left; font-weight: normal; font-family: Arial, "新細明體-ExtB"; border: 0; margin: 0; padding: 0 2px; line-height: 20px; background-color: transparent;}
+.search_filter .pickup_checkbox p.c_box{ width: 16px; height: 16px; padding: 0; margin: 3px 0 0;}
+.search_filter .pickup_checkbox p.txt_G12{ float: left; font-size: 12px; color: #666;}
+
+.status_wrapper .nav_box .filter_box ul li span.new{ font-weight: normal;}
+.search_filter a.add_common_btn{ display: inline-block; font-size: 12px; color: #3daad3; background: url(../../images/status/icon_addmore.png) no-repeat 0 center / 13px 13px transparent; padding: 0 2px 0 18px; text-decoration: none; margin: 0 5px 0 0; text-align: center;}
+.search_filter a.add_common_btn:hover{ text-decoration: underline;}
+.search_filter .common_use{ margin: 0 0 0 18px; padding-top: 5px; clear: both;}
+.search_filter .common_use p.common_use_title{ font-size: 12px; color: #b5b5b5; line-height: 17px; background-color: transparent; padding: 0; margin: 0; font-family: 'Noto Sans TC', Arial;}
+.search_filter .common_use .clearfix{ height: 20px; overflow: hidden; display: inline-block;}
+.search_filter .common_use .clearfix:after{ content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+.search_filter .common_use .clearfix p{ float: left; font-weight: normal; font-family: Arial, "新細明體-ExtB"; border: 0; margin: 0; padding: 0 2px; line-height: 20px; background-color: transparent;}
+.search_filter .common_use .clearfix p.c_box{ width: 16px; height: 16px; padding: 0; margin: 4px 0 0;}
+.search_filter .common_use .clearfix p.txt_G12{ float: left; font-size: 12px; color: #888;}
+.search_filter .common_use .clearfix a.delete_use{ float: left; display: block; width: 12px; height: 16px; background: url(../../images/status/icon_close01.png) no-repeat center center / 8px auto; margin-top: 2px;}
+
+.search_filter .advanced_search{ margin: 0 0 0 10px; clear: both;}
+.search_filter .advanced_search .clearfix{ float: left; height: 20px; overflow: hidden;}
+.search_filter .advanced_search .clearfix:after{ content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+.search_filter .advanced_search .clearfix p{ float: left; font-weight: normal; font-family: Arial, "新細明體-ExtB"; border: 0; margin: 0; padding: 0 2px; line-height: 20px; background-color: transparent;}
+.search_filter .advanced_search .clearfix p.c_box{ width: 16px; height: 16px; padding: 0; margin: 4px 0 0;}
+.search_filter .advanced_search .clearfix p.txt_G12{ float: left; font-size: 12px; color: #888;}
+/*動態合購排序*/
+.status_wrapper .status_content .searching_box{ padding-bottom: 0px;}
+.status_wrapper .status_content .event_order_box{ border-bottom: 1px solid #e9e9e9; margin: 1px 20px 10px; max-width: 580px;}
+.status_wrapper .status_content .event_order_box p.all_event{ float: left; color: #666; font-size: 12px; line-height: 30px; padding-left: 8px;}
+.status_wrapper .status_content .event_order_box p.all_event span{ color: #e55555; padding: 0 4px; font-weight: bold;}
+.status_wrapper .status_content .event_order_box ul{ float: right;}
+.status_wrapper .status_content .event_order_box ul li{ float: left; font-size: 12px; line-height: 30px; text-align: center;}
+.status_wrapper .status_content .event_order_box ul li a{ color: #888; border-bottom: 2px solid transparent; padding: 8px 10px 7px; position: relative;}
+.status_wrapper .status_content .event_order_box ul li a:hover{ color: #f4a10d;}
+.status_wrapper .status_content .event_order_box ul li a.active{ color: #f4a10d; border-bottom: 2px solid #ffb200;}
+.status_wrapper .status_content .event_order_box ul li a.active:after{ border-right: 6px solid rgba(0, 0, 0, 0); border-left: 6px solid rgba(0, 0, 0, 0); border-top: 6px solid #ffb200; position: absolute; left: 40%; bottom: -6px; width: 0; height: 0; content: ""; display: block; z-index: 2;}
+.status_wrapper .status_content .event_order_box ul li.textG12{ padding: 0 5px; color: #666;}
+
+/*右欄_合購總數、廣告*/
+.status_wrapper .other_box{ background: #fafafa; padding: 0 0 10px; margin-left: 10px; width: 280px; height: 100%; border: 1px solid #f5f5f5; border-top: 0;}
+.status_wrapper .other_box .today_group{ width: 280px; height: 40px; background: #ffe557;}
+.status_wrapper .other_box .today_group p{ font-family: 'Noto Sans TC', Arial; font-size: 16px; font-weight: 600; color: #444; text-align: center; padding: 0; line-height: 40px;}
+.status_wrapper .other_box .today_group span{ color: #e1262c; font-size: 17px;}
+.status_wrapper .other_box p.ihergoAD_title15{ font-family: 'Noto Sans TC', Arial; font-size: 15px; font-weight: 600; color: #666; line-height: 15px; text-align: center; padding-bottom: 10px;}
+
+.status_wrapper .other_box .ihergoAD_small_box{ position: relative; margin: 15px 0 0; padding: 0 20px 25px; border-bottom: 1px dashed #e3e3e3;}
+.status_wrapper .other_box .ihergoAD_small_box p.ihergoAD_title15{ text-align: left; }
+.status_wrapper .other_box .ihergoAD_small_box .ad_img_box a{ display: inline-block; width: 115px; height: 115px; overflow: hidden; margin-left: 2px;}
+.status_wrapper .other_box .ihergoAD_small_box .ad_img_box a:first-of-type{ margin-left: 0;}
+.status_wrapper .other_box .ihergoAD_small_box .ad_img_box img{ width: 100%; min-height: 115px; border: 1px solid #eee; box-sizing:border-box;}
+.status_wrapper .other_box .ihergoAD_small_box .ad_title{ font-family: 'Noto Sans TC', Arial; text-align: left; overflow: hidden; display: block;}
+.status_wrapper .other_box .ihergoAD_small_box .ad_title a{ font-weight: 200; color: #888; font-size: 13px; line-height: 18px; max-height: 54px; margin: 0; overflow: hidden; letter-spacing: 1px;}
+.status_wrapper .other_box .ihergoAD_small_box .ad_title a:hover{ opacity: 0.8;}
+
+.status_wrapper .other_box .ihergoAD_big_box{ margin: 25px 20px 20px;}
+.status_wrapper .other_box .ihergoAD_big_item{ position: relative; width: 240px; overflow: hidden; border: 1px solid #eee; margin-bottom: 15px;}
+.status_wrapper .other_box .ihergoAD_big_box .ad_img_box a{ display: block;}
+.status_wrapper .other_box .ihergoAD_big_box .ad_img_box img{ width: 100%; min-height: 180px;}
+.status_wrapper .other_box .ihergoAD_big_box .ad_title{ font-family: 'Noto Sans TC', Arial; position: absolute; left: 0; bottom: 0; text-align: left; background-color: rgba(0,0,0,0.3); overflow: hidden;}
+.status_wrapper .other_box .ihergoAD_big_box .ad_title:hover{ background-color: rgba(0,0,0,0.5);}
+.status_wrapper .other_box .ihergoAD_big_box .ad_title p{ font-family: 'Noto Sans TC', Arial; max-height: 40px; margin: 8px 10px; overflow: hidden;}
+.status_wrapper .other_box .ihergoAD_big_box .ad_title a{ color: #fff; font-size: 13px; line-height: 20px;}
+/* --------------- 20160424 左欄新增常用地點/進階篩選 _ 結束 --------------- */
+
+
+/* --------------- 20160510 搜尋地區無合購_開始 --------------- */
+.status_wrapper .status_content p.other_status_remind{ background-color: #f5f5f5; padding: 6px 10px; margin: 40px 25px 10px; color: #555; font-weight: bold; font-size: 13px;}
+/* --------------- 20160510 搜尋地區無合購_結束 --------------- */
+
+/* 20160909 中間動態篩選、排序 */
+.status_wrapper .status_content .searching_box{ padding-top: 0;}
+.status_wrapper .status_content .searching_box ul{ background-color: transparent; border-bottom: 2px solid #ececec; padding: 0 0 5px;}
+.status_wrapper .status_content .searching_box li{ }
+.status_wrapper .status_content .searching_box li a.txt_condition{ font-size: 11px; color: #888; background: url(../../images/status/btn_condition.png) no-repeat right center / auto 8px #fff; border: 0px; background-color: #f3f3f3; border-radius: 15px; height: 22px;}
+.status_wrapper .status_content .searching_box li a.txt_condition span{ padding: 0 20px 1px 9px;}
+
+.status_wrapper .status_content .event_order_box{ border-bottom: 1px dashed #ddd; margin: 1px 20px 10px; max-width: 580px;}
+.status_wrapper .status_content .event_order_box p.all_event{ line-height: 40px;}
+.status_wrapper .status_content .event_order_box .right_array_box{ float: right; height: 40px;}
+.status_wrapper .status_content .event_order_box .right_array_box .event_order_select{ font-size: 12px; position: relative; top: 10px; display: inline-block;}
+.status_wrapper .status_content .event_order_box .right_array_box .event_order_select span{ color: #777;}
+.status_wrapper .status_content .event_order_box .right_array_box .event_order_select select{ font-size: 12px; font-family: 'Noto Sans TC', Arial; border: solid 1px #e6e6e6; color: #777; padding: 0 42px 0 8px; background: url(../../images/status/icon_select_arrow.png) no-repeat 92% 9px / 6px auto #fff; border-radius: 3px; border-color: #e6e6e6; -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none;}
+.status_wrapper .status_content .event_order_box .right_array_box .status_mode_box{ display: inline-block; position: relative; top: 10px; margin-left: 10px;}
+.status_wrapper .status_content .event_order_box .right_array_box a{ line-height: 19px; font-size: 13px; color: #aaa; padding: 3px 0 3px 22px; margin-left: 3px;}
+.status_wrapper .status_content .event_order_box .right_array_box a.grid_mode_btn{ background: url(../../images/status/gray_grid_icon.png) no-repeat left center / 17px auto;}
+.status_wrapper .status_content .event_order_box .right_array_box a.map_mode_btn{ background: url(../../images/status/gray_map_icon.png) no-repeat left center / 20px auto;}
+.status_wrapper .status_content .event_order_box .right_array_box a.grid_mode_btn{ background: url(../../images/status/gray_grid_icon.png) no-repeat left center / 17px auto;}
+.status_wrapper .status_content .event_order_box .right_array_box a.map_mode_btn{ background: url(../../images/status/gray_map_icon.png) no-repeat left center / 20px auto;}
+.status_wrapper .status_content .event_order_box .right_array_box a.grid_mode_btn:hover{ background: url(../../images/status/blue_grid_icon.png) no-repeat left center / 17px auto; color: #57c2e9;}
+.status_wrapper .status_content .event_order_box .right_array_box a.map_mode_btn:hover{ background: url(../../images/status/blue_map_icon.png) no-repeat left center / 20px auto; color: #57c2e9;}
+.status_wrapper .status_content .event_order_box .right_array_box a.grid_active{ background: url(../../images/status/blue_grid_icon.png) no-repeat left center / 17px auto; color: #57c2e9;}
+.status_wrapper .status_content .event_order_box .right_array_box a.map_active{ background: url(../../images/status/blue_map_icon.png) no-repeat left center / 20px auto; color: #57c2e9;}
+
+/* 20160909 popup_新增生活圈 */
+.setting_area_box{}
+.setting_area_box .setting_area_con{ height: 80px; text-align: center;}
+.setting_area_box .setting_area_con .item_box{ display: block; height: 35px; margin: 5px 0 6px;}
+.setting_area_box .setting_area_con .item_box .left_box{ display: inline-block; line-height: 28px; }
+.setting_area_box .setting_area_con .item_box .left_box p{ position: relative; top: 1px;}
+.setting_area_box .setting_area_con .item_box .right_box{ display: inline-block;}
+.setting_area_box .setting_area_con .item_box .right_box select{ width: 150px; height: 30px; margin: 0;}
+.pop_con .submit_box { width: 100%; border-top: 1px #e7e7e7 solid; margin-top: 10px; }
+.pop_con .submit_box a.btn_submit { display: block; height: 28px; line-height: 28px; font-size: 12px; color: #454545; float: left; letter-spacing: 2px; background: url(../../images/images/btn_pop.gif) no-repeat left 0; text-decoration: none; margin: 12px 0 0px 95px; _display: inline;}
+.pop_con .submit_box a.btn_submit:hover { color: #666; background: url(../../images/images/btn_pop.gif) no-repeat left -56px;}
+.pop_con .submit_box a.btn_submit span { display: block; padding: 0 15px; line-height: 28px; background: url(../../images/images/btn_pop.gif) no-repeat right -28px;}
+.pop_con .submit_box a.btn_submit:hover span {background: url(../../images/images/btn_pop.gif) no-repeat right -84px;}
+.pop_con .submit_box a.btn_cancel {margin-left: 10px;}

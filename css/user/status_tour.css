@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+body.start_tour{ position: fixed;}
+
+.tour_mask_transparent { width: 100%; height: 100%; background: transparent; z-index: 104; position: fixed; top: 0; left: 0; display: none; }
+.tour_mask_black { width: 100%; height: 100%; background: rgba(0, 0, 0, .85); z-index: 102; position: fixed; top: 0; left: 0; display: none; }
+
+.status_tour_wrapper{ position: fixed; top: 0; left: 0; z-index: 105; width: 100%; height: 100%; color: #fff; display: none;}
+.status_tour_wrapper a.close_tour{ width: 16px; height: 16px; display: block; position: absolute; top: 25px; right: 25px; background: url(../../images/status/web_tour/close_tour.png) no-repeat; z-index: 1;}
+.status_tour_wrapper .status_tour_con{ width: 1080px; height: 100%; margin: 0 auto; position: relative; }
+.status_tour_wrapper .status_tour_con .info_text{ width: 318px; border-radius: 5px; background: #9c9b99; color: #fff; position: relative;}
+.status_tour_wrapper .status_tour_con .info_text:before{ content: url(../../images/status/web_tour/arrow.png); position: absolute; top: -7px; left: calc((100% - 14px)/2);}
+.status_tour_wrapper .status_tour_con .info_text span.text_con{ display: block; padding: 15px; text-align: center; font-size: 13px; font-weight: 500; font-family: 'Noto Sans TC', Arial; line-height: 28px;}
+.status_tour_wrapper .status_tour_con .info_text .text_con a.next_tour_btn{ width: 144px; height: 35px; display: block; margin: 11px auto 5px auto; border-radius: 5px; line-height: 35px; background: #254a55; font-size: 13px; font-weight: bold; font-family: Arial !important; color: #fff;}
+.status_tour_wrapper .status_tour_con .info_text .text_con a.next_tour_btn:hover{ background: #516e77; text-decoration: none;}
+
+.status_tour_wrapper .status_tour_con .tour_con_welcome{ width: 1080px; height: 100%; margin: 0 auto; background: url(../../images/status/status_tour/tour_step1.png) no-repeat center top / 1080px auto #262626; position: absolute; top:0; }
+.status_tour_wrapper .status_tour_con .tour_con_search{ width: 1080px; height: 100%; margin: 0 auto; background: url(../../images/status/status_tour/tour_step2.png) no-repeat center top / 1080px auto #262626; position: absolute; top:0; display: none;}
+.status_tour_wrapper .status_tour_con .tour_con_groupEvent{ width: 1080px; height: 100%; margin: 0 auto; background: url(../../images/status/status_tour/tour_step3.png) no-repeat center top / 1080px auto #262626; position: absolute; top:0; display: none;}
+.status_tour_wrapper .status_tour_con .tour_con_eventHolder{ width: 1080px; height: 100%; margin: 0 auto; background: url(../../images/status/status_tour/tour_step4.png) no-repeat center top / 1080px auto #262626; position: absolute; top:0; display: none;}
+.status_tour_wrapper .status_tour_con .tour_con_eventTarget{ width: 1080px; height: 100%; margin: 0 auto; background: url(../../images/status/status_tour/tour_step5.png) no-repeat center top / 1080px auto #262626; position: absolute; top:0; display: none;}
+.status_tour_wrapper .status_tour_con .tour_con_meetingPlace{ width: 1080px; height: 100%; margin: 0 auto; background: url(../../images/status/status_tour/tour_step6.png) no-repeat center top / 1080px auto #262626; position: absolute; top:0; display: none;}
+.status_tour_wrapper .status_tour_con .tour_con_areaSelect{ width: 1080px; height: 100%; margin: 0 auto; background: url(../../images/status/status_tour/tour_step7.png) no-repeat center top / 1080px auto #262626; position: absolute; top:0; display: none;}
+.status_tour_wrapper .status_tour_con .tour_con_done{ width: 1080px; height: 100%; margin: 0 auto; background: url(../../images/status/status_tour/tour_step1.png) no-repeat center top / 1080px auto #262626; position: absolute; top:0; display: none;}
+
+/*歡迎訊息*/
+.status_tour_wrapper .status_tour_con .welcome_message{ width: 400px; margin: 0 auto; text-align: center; position: relative; top: calc((100% - 240px)/2);}
+.status_tour_wrapper .status_tour_con .welcome_message .logo{ width: 269px; height: 66px; background: url(../../images/status/web_tour/logo.png); display: block; margin: 0 auto;}
+.status_tour_wrapper .status_tour_con .welcome_message .info_text{ width: 100%; margin: 30px 0; font-size: 15px; font-weight: 500; line-height: 200%; font-family: 'Noto Sans TC', Arial; display: block; color: #ffffff; -webkit-font-smoothing: always; background: transparent !important;}
+.status_tour_wrapper .status_tour_con .welcome_message .info_text:before{ content: '';}
+.status_tour_wrapper .status_tour_con .welcome_message a.start_tour_btn{ width: 158px; height: 50px; display: block; margin: 0 auto; border-radius: 10px; line-height: 50px; background: #254a55; font-size: 14px; font-weight: bold; font-family: Arial; color: #fff; -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);}
+.status_tour_wrapper .status_tour_con .welcome_message a.start_tour_btn:hover{ background: #516e77; text-decoration: none;}
+
+/*介紹搜尋*/
+.status_tour_wrapper .status_tour_con .search_tour{ position: absolute; right: 168px; top: 68px; display: none;}
+.status_tour_wrapper .status_tour_con .search_tour .info_text{ margin: 15px auto 0;}
+.status_tour_wrapper .status_tour_con .search_tour .dashed_block{ width: 373px; height: 48px; border: 1px dashed #fff; border-radius: 10px;}
+
+/*介紹合購*/
+.status_tour_wrapper .status_tour_con .group_event{ position: absolute; left: 330px; top: 155px; display: none;}
+.status_tour_wrapper .status_tour_con .group_event .info_text{ margin: 15px auto 0; }
+.status_tour_wrapper .status_tour_con .group_event span.text_con{ padding: 10px;}
+.status_tour_wrapper .status_tour_con .group_event .text_con a.next_tour_btn{ margin: 6px auto 5px;}
+.status_tour_wrapper .status_tour_con .group_event .info_text:before { display: none; }
+.status_tour_wrapper .status_tour_con .group_event .info_text:after { content: url(../../images/status/web_tour/arrow.png); position: absolute; left: calc((100% - 14px)/2); 
+-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+     -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+         transform: rotate(180deg); }
+/*介紹主購*/
+.status_tour_wrapper .status_tour_con .event_holder{ position: absolute; left: 185px; top: 285px; display: none;}
+.status_tour_wrapper .status_tour_con .event_holder .dashed_block{ width: 315px; height: 110px; border: 1px dashed #fff; border-radius: 10px;}
+.status_tour_wrapper .status_tour_con .event_holder .info_text{ margin-top: 15px; }
+
+/*介紹合購目標*/
+.status_tour_wrapper .status_tour_con .event_target{ position: absolute; left: 365px; top: 415px; display: none;}
+.status_tour_wrapper .status_tour_con .event_target .info_text{ margin: 15px auto 0;}
+.status_tour_wrapper .status_tour_con .event_target span.text_con{ padding: 10px;}
+.status_tour_wrapper .status_tour_con .event_target .text_con a.next_tour_btn{ margin: 6px auto 5px;}
+
+/*介紹面交地點*/
+.status_tour_wrapper .status_tour_con .meeting_place{ position: absolute; left: 335px; top: 255px; display: none;}
+.status_tour_wrapper .status_tour_con .meeting_place .info_text{ margin: 15px auto 0; width: 338px;}
+.status_tour_wrapper .status_tour_con .meeting_place span.text_con{ padding: 10px;}
+.status_tour_wrapper .status_tour_con .meeting_place .text_con a.next_tour_btn{ margin: 6px auto 5px;}
+.status_tour_wrapper .status_tour_con .meeting_place .info_text:before { display: none; }
+.status_tour_wrapper .status_tour_con .meeting_place .info_text:after { content: url(../../images/status/web_tour/arrow.png); position: absolute; left: calc((100% - 14px)/2); 
+-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+     -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+         transform: rotate(180deg); }
+
+/*介紹合購篩選*/
+.status_tour_wrapper .status_tour_con .area_select{ position: absolute; left: 0px; top: 295px; display: none;}
+.status_tour_wrapper .status_tour_con .area_select .dashed_block{ width: 164px; height: 125px; border: 1px dashed #fff; border-radius: 10px;}
+.status_tour_wrapper .status_tour_con .area_select .info_text{ margin-top: 15px; width: 174px; position: relative; left: -5px;}
+
+/*結束導覽*/
+.status_tour_wrapper .status_tour_con .done_message{ width: 400px; margin: 0 auto; text-align: center; position: relative; top: calc((100% - 240px)/2); display: none;}
+.status_tour_wrapper .status_tour_con .done_message .icon{ width: 141px; height: 141px; background: url(../../images/status/web_tour/done.png); display: block; margin: 0 auto;}
+.status_tour_wrapper .status_tour_con .done_message .info_text{ width: 100%; margin: 30px 0; font-size: 15px; font-weight: 500; line-height: 200%; font-family: 'Noto Sans TC', Arial; display: block; color: #ffffff; -webkit-font-smoothing: always; background: transparent !important;}
+.status_tour_wrapper .status_tour_con .done_message .info_text:before{ content: '';}
+.status_tour_wrapper .status_tour_con .done_message a.start_tour_btn{ width: 158px; height: 50px; display: block; margin: 0 auto; border-radius: 10px; line-height: 50px; background: #254a55; font-size: 14px; font-weight: bold; font-family: Arial; color: #fff; -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);}
+.status_tour_wrapper .status_tour_con .done_message a.start_tour_btn:hover{ background: #516e77; text-decoration: none;}

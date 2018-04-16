@@ -1,0 +1,21 @@
+body {
+	font-size: 12px;
+	font-family: courier new;
+}
+
+.title_red {
+	color: red;
+	font-weight: bold;
+	height: 30px;
+}
+
+.admin_h30 {
+	height: 30px;
+	line-height: 30px;
+}
+
+.sendInput {
+  font-family: courier new;
+  border:1px solid #000;
+}
+

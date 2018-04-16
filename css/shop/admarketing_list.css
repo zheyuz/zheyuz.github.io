@@ -1,0 +1,321 @@
+@charset "utf-8";
+/* CSS Document */
+
+.AD_WRAPPER{ margin:0 auto; } 
+/*--最上面ihergo--*/
+
+.AD_MARKETING_BOX_top_br{ height:142px; background:url(../../images/shop/cooperation/ad_top_br.jpg) left top repeat-x; }
+.AD_MARKETING_BOX_top{ margin:0 auto; width:1000px; height:142px; display:block; background:url(../../images/shop/cooperation/ad_top.jpg) left top no-repeat; }
+
+
+/*--最下面ihergo--*/
+.AD_MARKETING_BOX_bottom_br{ height:71px; background: url(../../images/shop/cooperation/ad_bottom_br.jpg) left top repeat-x; }
+.AD_MARKETING_BOX_bottom{ margin:0 auto; width:1000px; height:71px; display:block; background:url(../../images/shop/cooperation/ad_bottom.jpg) left top no-repeat; }  
+/*-- 中間區塊--*/ 
+.AD_MARKETING_BOX{ margin:0 auto; background:url(../../images/shop/cooperation/ad_marketing_homelist_br.jpg) left top repeat-x;} 
+/*--首頁--*/
+/*---主標-*/
+.adm_box_homelist_title{ margin:0 auto; width:1000px; height:170px; background:url(../../images/shop/cooperation/ad_marketing_homelist_br_01.jpg); }
+.adm_box_homelist_title h1{ float:left; display:block; width:585px; height:170px; background:url(../../images/shop/cooperation/ad_marketing_homelist_01.jpg) left top no-repeat; text-indent:-9999px; }
+/*--首頁副標--*/  
+.adm_power{ float:left; padding-top:33px; }
+.adm_power li.adm_power1{ width:215px; height:41px; display:block; text-indent:-9999px; background:url(../../images/shop/cooperation/ad_marketing_homelist_02-1.jpg); }
+.adm_power li.adm_power2{ width:215px; height:41px; display:block; text-indent:-9999px; background:url(../../images/shop/cooperation/ad_marketing_homelist_02-2.jpg); }
+.adm_power li.adm_power3{ width:215px; height:41px; display:block; text-indent:-9999px; background:url(../../images/shop/cooperation/ad_marketing_homelist_02-3.jpg); } 
+/*--中間內容--*/  
+.adm_box_homelist_content{ margin:0 auto; width:1000px; height:274px; background:url(../../images/shop/cooperation/ad_marketing_homelist_br_02.jpg); position:relative; }
+.adm_box_homelist_content h3{ width:440px; height:22px; position:absolute; font-size:15px; line-height:22px; line-height:22px \9; /*==hack_IE8==*/ *line-height:22px;   /*hack_IE7*/ _line-height:22px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; font-weight: bold; text-align:justify; color:#0095d9; left:94px; top:74px; display:block; }
+.adm_box_homelist_content p{ width:440px; height:125px; display:block; position:absolute; font-size:13px; line-height:28px; line-height:28px \9; /*==hack_IE8==*/ *line-height:28px;   /*hack_IE7*/ _line-height:28px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; color:#515151; left:95px; top:98px; }
+
+
+
+/*--給力優勢的頁面--*/
+/*--給力優勢主標--*/
+.adm_box_sup_title{ margin:0 auto; width:1000px; height:170px; background:url(../../images/shop/cooperation/ad_marketing_superiority_01.jpg); }
+.adm_box_sup_title h1{ float:left; display:block; width:1000px; height:170px; text-indent:-9999px; }
+
+/*--給力優勢副標--*/  
+.adm_sup{ float:left; position:relative; }
+.adm_sup li.adm_sup1{ float:left; width:102px; height:30px; display:block; text-indent:-9999px; background:url(../../images/shop/cooperation/ad_marketing_superiority_02-1.jpg); position:absolute; top:136px; right:1564px; }
+.adm_sup li.adm_sup2{ float:left; width:102px; height:30px; display:block; text-indent:-9999px; background:url(../../images/shop/cooperation/ad_marketing_superiority_02-2.jpg); position:absolute; top:136px; right:1460px; }
+.adm_sup li.adm_sup3{ float:left; width:102px; height:30px; display:block; text-indent:-9999px; background:url(../../images/shop/cooperation/ad_marketing_superiority_02-3.jpg); position:absolute; top:136px; right:1357px; } 
+/*--給力優勢中間內容--*/  
+.adm_box_sup_content{ margin:0 auto; width:1000px; height:1299px; background:url(../../images/shop/cooperation/ad_marketing_superiority_03.jpg); position:relative; } 
+.adm_box_sup_content h3{ display:block; position:absolute; left:98px; top:128px; }
+.adm_sup_con li.adm_supc1 h3{ float:left; width:80px; height:30px; display:block; text-indent:-9999px; background:url(../../images/shop/cooperation/ad_marketing_superiority_4-1.jpg); position:absolute; top:86px; left:100px; }
+.adm_sup_con li.adm_supc2 p{ width:380px; height:58px; display:block; position:absolute; font-size:13px; line-height:28px; line-height:28px \9; /*==hack_IE8==*/ *line-height:28px;   /*hack_IE7*/ _line-height:28px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; color:#515151; top:116px; left:104px; }
+.adm_sup_con li.adm_supc3 h3{ float:left; width:80px; height:30px; display:block; text-indent:-9999px; background:url(../../images/shop/cooperation/ad_marketing_superiority_4-2.jpg); position:absolute; top:719px; left:100px; }
+.adm_sup_con li.adm_supc4 p{ width:380px; height:250px; display:block; position:absolute; font-size:13px; line-height:28px; line-height:28px \9; /*==hack_IE8==*/ *line-height:28px;   /*hack_IE7*/ _line-height:28px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; color:#515151; top:750px; left:104px; } 
+
+.adm_sup_con li.adm_supc5 h3{ float:left; width:80px; height:30px; display:block; text-indent:-9999px; background:url(../../images/shop/cooperation/ad_marketing_superiority_4-3.jpg); position:absolute; top:1045px; left:580px; }
+.adm_sup_con li.adm_supc6 p{ width:299px; height:100px; display:block; position:absolute; font-size:13px; line-height:28px; line-height:28px \9; /*==hack_IE8==*/ *line-height:28px;   /*hack_IE7*/ _line-height:28px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; color:#515151; top:1076px; left:584px; }  
+/*--給力優勢的頁面 END--*/
+
+
+
+
+
+/*--優質服務的頁面 --*/
+/*--優質服務主標--*/
+.adm_box_ser_title{ margin:0 auto; width:1000px; height:170px; background:url(../../images/shop/cooperation/ad_marketing_service_01.jpg); }
+.adm_box_ser_title h1{ float:left; display:block; width:1000px; height:170px; text-indent:-9999px; } 
+/*--優質服務副標--*/  
+.adm_ser{ float:left; position:relative; }
+.adm_ser li.adm_ser1{ float:left; width:102px; height:30px; display:block; position:absolute; text-indent:-9999px; background:url(../../images/shop/cooperation/ad_marketing_service_02-1.jpg); top:136px; right:559px; }
+.adm_ser li.adm_ser2{ float:left; width:102px; height:30px; display:block; position:absolute; text-indent:-9999px; background:url(../../images/shop/cooperation/ad_marketing_service_02-2.jpg); top:136px; right:456px; } 
+.adm_ser li.adm_ser3{ float:left; width:102px; height:30px; display:block; position:absolute; text-indent:-9999px; background:url(../../images/shop/cooperation/ad_marketing_service_02-3.jpg); top:136px; right:353px; }
+
+ 
+/*--優質服務中間內容--*/  
+.adm_box_ser_content{ margin:0 auto; width:1000px; height:376px; background:url(../../images/shop/cooperation/ad_marketing_service_03.jpg); position:relative; } 
+.adm_ser_con li.adm_ser-left h3{ width:390px; height:245px; background:url(../../images/shop/cooperation/ad_marketing_service_04.jpg) left top no-repeat; display:block; text-indent:-9999px; position:absolute; top:73px; left:84px; }
+.adm_ser_con li.adm_ser-left h3 a{ width:390px; height:245px; background:url(../../images/shop/cooperation/ad_marketing_service_04.jpg) left top no-repeat; display:block; }
+.adm_ser_con li.adm_ser-left h3 a:hover{ background:url(../../images/shop/cooperation/ad_marketing_service_04.jpg) left bottom no-repeat; }
+.adm_ser_con li.adm_ser-right h3{ width:390px; height:245px; background:url(../../images/shop/cooperation/ad_marketing_service_05.jpg)  left top no-repeat; display:block; text-indent:-9999px; position:absolute; top:73px; left:526px; }
+.adm_ser_con li.adm_ser-right h3 a{ width:390px; height:245px; background:url(../../images/shop/cooperation/ad_marketing_service_05.jpg) left top no-repeat; display:block; }
+.adm_ser_con li.adm_ser-right h3 a:hover{ background:url(../../images/shop/cooperation/ad_marketing_service_05.jpg) left bottom no-repeat; }
+/*--優質服務的頁面 END--*/
+
+
+/*--優質服務的頁面 - 給廣告商 --*/
+.adm_box_ser_content_forad{ margin:0 auto; width:1000px; height:1755px; background:url(../../images/shop/cooperation/ad_marketing_service_br01.jpg) left top no-repeat; }
+.adm_box_ser_conforad_top{ float:left; width:840px; height:108px; margin:0 auto; padding:83px 80px 0px 80px; }
+
+.adm_box_ser_conforad_top h2{ float:left; display:block; width:180px; height:80px; background:url(../../images/shop/cooperation/ad_marketing_service_06-1.jpg) left top no-repeat; text-indent:-9999px; }
+.adm_box_ser_conforad_top h3{ float:left; display:block; width:350px; height:80px; background:url(../../images/shop/cooperation/ad_marketing_service_06-2.jpg) left top no-repeat; text-indent:-9999px; }
+
+.adm_box_ser_conforad_center{ float:left; width:815px; height:609px; padding:15px 80px 0px 105px; } 
+/*--給廣告商 的 中間規格--*/ 
+.adm_ser_forad_a{ width:150px; height:40px; } 
+.adm_ser_forad_a p{ font-size:15px; font-family:"Arial","新細明體"; color:#0095d9; line-height:38px; line-height:42px \9; /*==hack_IE8==*/ *line-height:42px;   /*hack_IE7*/ _line-height:42px;  /*==hack_IE6==*/ font-weight:bold; } 
+.adm_ser_forad_a1 { float:left; width:800px; height:39px; }  
+
+.adm_ser_forad_a1-felt1{ float:left; width:115px; height:38px; }
+.adm_ser_forad_a1-felt2{ float:left; width:118px; height:38px; }
+.adm_ser_forad_a1-felt3{ float:left; width:565px; height:38px; } 
+.adm_ser_forad_a2{ float:left; width:150px; height:45px; } 
+.adm_ser_forad_a2 p{ font-size:15px; font-family:"Arial","新細明體"; color:#0095d9; line-height:42px; line-height:45px \9; /*==hack_IE8==*/ *line-height:45px;   /*hack_IE7*/ _line-height:45px;  /*==hack_IE6==*/ font-weight:bold; }    
+
+.adm_ser_forad_a3{ float:left; width:150px; height:38px; } 
+.adm_ser_forad_a3 p{ font-size:15px; font-family:"Arial","新細明體"; color:#0095d9; line-height:35px; line-height:39px \9; /*==hack_IE8==*/ *line-height:39px;   /*hack_IE7*/ _line-height:39px;  /*==hack_IE6==*/ font-weight:bold; } 
+
+
+.adm_ser_forstore_a2{ float:left; width:200px; height:40px; } 
+.adm_ser_forstore_a2 p{ font-size:15px; font-family:"Arial","新細明體"; color:#0095d9; line-height:40px; line-height:45px \9; /*==hack_IE8==*/ *line-height:45px;   /*hack_IE7*/ _line-height:45px;  /*==hack_IE6==*/ font-weight:bold; } 
+
+/*--優質服務 - 藍色字型 > 變粉紅 13粗--*/
+.adm_ser_blue13b p{ }
+.adm_ser_blue13b p a{ color:#2065a6; font-size:13px; line-height:35px; line-height:40px \9; /*==hack_IE8==*/ *line-height:40px;   /*hack_IE7*/ _line-height:40px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; font-weight:bold; display:block; background:url(../../images/shop/cooperation/ad_marketing_news_03a.gif) right top no-repeat; }
+.adm_ser_blue13b p a:hover{ color:#e4006b; background:url(../../images/shop/cooperation/ad_marketing_news_03a_in.gif) right top no-repeat; }  
+/*--優質服務 - 灰色字型 12 置中--*/
+.adm_ser_gary12c p{ color:#515151; font-size:12px; line-height:37px; line-height:39px \9; /*==hack_IE8==*/ *line-height:39px;   /*hack_IE7*/ _line-height:39px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align: center; } 
+/*--優質服務 - 灰色字型 12 靠左--*/
+.adm_ser_gary12 p{ color:#515151; font-size:12px; line-height:34px; line-height:39px \9; /*==hack_IE8==*/ *line-height:39px;   /*hack_IE7*/ _line-height:39px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; }     
+/*--下面圖片點選的區塊--*/ 
+.adm_box_ser_conforad_bottom{ float:left; width:840px; height:681px; padding:0px 80px 0px 80px; }  
+.adm_ser_pbox{ float:left; width:202px; height:227px; padding:0px 39px 0px 39px; }
+.adm_ser_pbox_a{ float:left; width:202px; height:25px; }
+.adm_ser_pbox_a1{ float:left; width:124px; height:25px; }  
+.adm_ser_pbox_a1 p{ color:#2065a6; font-size:15px; line-height:25px; line-height:25px \9; /*==hack_IE8==*/ *line-height:25px;   /*hack_IE7*/ _line-height:25px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; font-weight:bold; } 
+.adm_ser_pbox_a2{ float:left; width:72px; height:18px; padding-top:2px; }
+.adm_ser_pbox_a2 p{ float:left; }
+.adm_ser_pbox_a2 p a{ display:block; font-size:12px; color:#515151;   width:78px; height:18px; background:url(../../images/shop/cooperation/ad_marketing_news_03b.jpg) left top no-repeat ; text-indent:23px; }
+.adm_ser_pbox_a2 p a:hover{ color:#105cb6; background:url(../../images/shop/cooperation/ad_marketing_news_03b_in.jpg) left top no-repeat ; }
+.adm_ser_pbox_b{ float:left; width:202px; height:152px; } 
+
+.adm_ser_pbox_b a img{ margin: 0 auto; width:202px; height:152px; opacity: 1;/* 透明度60% FireFox 的寫法 */ filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */ } 
+
+.adm_ser_pbox_b a:hover img{ width:202px; height:152px; opacity: 0.9; filter: Alpha(Opacity=90); }      
+
+.adm_ser_pbox_c{ float:left; width:200px; height:25px; padding-left:2px; }  
+.adm_ser_adtobuy{/*--我要購買的字樣連結--*/   float:left; width:102px; height:77px; padding:150px 39px 0px 139px; }
+.adm_ser_adtobuy p a{ display:block; width:100px; height:28px; background:url(../../images/shop/cooperation/ad_marketing_tobuy.jpg) left top no-repeat; text-indent:-9999px; } 
+.adm_ser_adtobuy p a:hover{ background:url(../../images/shop/cooperation/ad_marketing_tobuy_in.jpg) left top no-repeat;  } /*--我要購買的字樣連END 結--*/ 
+
+/*2012.03.20 新增.*/
+.adm_ser_adtobuy2{/*--我要購買的字樣連結--*/  float:left; width:102px; height:35px; padding:0px 39px 0px 699px; }
+.adm_ser_adtobuy2 p a{ display:block; width:100px; height:28px; background:url(../../images/shop/cooperation/ad_marketing_tobuy.jpg) left top no-repeat; text-indent:-9999px; } 
+.adm_ser_adtobuy2 p a:hover{ background:url(../../images/shop/cooperation/ad_marketing_tobuy_in.jpg) left top no-repeat;  } /*--我要購買的字樣連END 結--*/    
+/*--優質服務的頁面 - 給廣告商 END---------------------*/
+
+
+
+
+
+/*--優質服務的頁面 - 給站上商店 ------------------------*/
+
+/*2012.03.20 修改*/ 
+.adm_box_ser_content_store{ margin:0 auto; width:1000px; height:1758px; background:url(../../images/shop/cooperation/ad_marketing_service_br02.jpg) left top no-repeat; }
+.adm_box_ser_constore_top{ float:left; width:840px; height:108px; margin:0 auto; padding:83px 80px 0px 80px; } 
+.adm_box_ser_constore_center{ float:left; width:815px; height:534px; /*只改高度*/ padding:15px 80px 0px 105px; } 
+.adm_box_ser_constore_bottom{/*--下面圖片點選的區塊--*/   float:left; width:840px; height:965px;/*只改高度*/ padding:0px 80px 0px 80px; }
+/*2012.03.20 修改 END*/   
+
+.adm_box_ser_constore_top h2{ float:left; display:block; width:180px; height:80px; background:url(../../images/shop/cooperation/ad_marketing_service_07-1.jpg) left top no-repeat; text-indent:-9999px; }
+.adm_box_ser_constore_top h3{ float:left; display:block; width:330px; height:80px; background:url(../../images/shop/cooperation/ad_marketing_service_07-2.jpg) left top no-repeat; text-indent:-9999px; }  
+/*--優質服務的頁面 - 給站上商店 END --*/
+
+/*--合作廠商的頁面--*/
+/*--合作廠商主標--*/
+.adm_box_shop_title{ margin:0 auto; width:1000px; height:170px; background:url(../../images/shop/cooperation/ad_marketing_shop_01.jpg); }
+.adm_box_shop_title h1{ float:left; display:block; width:1000px; height:170px; text-indent:-9999px; }
+/*--合作廠商副標--*/  
+.adm_shop{ float:left; position:relative; }
+.adm_shop li.adm_shop1{ float:left; display:block; width:102px; height:30px; background: url(../../images/shop/cooperation/ad_marketing_superiority_02-1.jpg) left top no-repeat; text-indent:-9999px; position:absolute; top:133px; right:559px; }
+.adm_shop li.adm_shop2{ float:left; display:block; width:102px; height:30px; background: url(../../images/shop/cooperation/ad_marketing_superiority_02-2.jpg) left top no-repeat; text-indent:-9999px; position:absolute; top:133px; right:457px; }
+.adm_shop li.adm_shop3{ float:left; display:block; width:102px; height:30px; background: url(../../images/shop/cooperation/ad_marketing_superiority_02-3.jpg) left top no-repeat; text-indent:-9999px; position:absolute; top:133px; right:355px; } 
+/*--合作廠商中間內容--*/  
+.adm_box_shop_content{ margin:0 auto; width:1000px; height:5866px; position:relative; background:url(../../images/shop/cooperation/ad_marketing_shop_02.jpg) left top no-repeat; }
+.adm_box_shop_con_top{ width:921px; height:85px; padding:95px 0px 0px 79px;   }
+.adm_box_shop_con_top h2{ width:337px; height:39px; display:block; background:url(../../images/shop/cooperation/ad_marketing_shop_03-1.jpg); text-indent:-9999px; }
+.adm_box_shop_con_top h3{ width:337px; height:18px; display:block; background:url(../../images/shop/cooperation/ad_marketing_shop_03-2.jpg); text-indent:-9999px; }
+
+/*--中間店家--*/
+.adm_box_shop_center_shop_1{ width:802px; height:735px; padding:120px 81px 0px 117px; background:url(../../images/shop/cooperation/ad_marketing_shop_02-1.jpg) left top no-repeat; }
+.adm_box_shop_center_shop_1t{ width:190px; height:480px; }
+.adm_box_shop_center_shop_1b{ width:190px; height:210px; background:url(../../images/shop/cooperation/ad_marketing_shop_4.jpg) left top no-repeat; }  
+.adm_box_shop_center_shop_2{ width:802px; height:769px; padding:120px 81px 0px 117px; background:url(../../images/shop/cooperation/ad_marketing_shop_02-2.jpg) left top no-repeat; }
+.adm_box_shop_center_shop_2t{ width:190px; height:482px; }
+.adm_box_shop_center_shop_2b{ width:190px; height:240px; background:url(../../images/shop/cooperation/ad_marketing_shop_4.jpg) left top no-repeat; }  
+.adm_box_shop_center_shop_3{ width:802px; height:346px; padding:110px 81px 0px 117px; background:url(../../images/shop/cooperation/ad_marketing_shop_02-3.jpg) left top no-repeat; }
+.adm_box_shop_center_shop_3t{ width:190px; height:150px; }
+.adm_box_shop_center_shop_3b{ width:190px; height:150px; background:url(../../images/shop/cooperation/ad_marketing_shop_4.jpg) left top no-repeat; } 
+
+.adm_box_shop_center_shop_4{ width:802px; height:1067px; padding:120px 81px 0px 117px; background:url(../../images/shop/cooperation/ad_marketing_shop_02-4.jpg) left top no-repeat; }
+.adm_box_shop_center_shop_4t{ width:190px; height:786px; }
+.adm_box_shop_center_shop_4b{ width:190px; height:245px; background:url(../../images/shop/cooperation/ad_marketing_shop_4.jpg) left top no-repeat; }    
+.adm_box_shop_center_shop_5{ width:802px; height:704px; padding:120px 81px 0px 117px; background:url(../../images/shop/cooperation/ad_marketing_shop_02-5.jpg) left top no-repeat; }
+.adm_box_shop_center_shop_5t{ width:190px; height:503px; }
+.adm_box_shop_center_shop_5b{ width:190px; height:155px; background:url(../../images/shop/cooperation/ad_marketing_shop_4.jpg) left top no-repeat; }      
+.adm_box_shop_center_shop_6{ width:802px; height:625px; padding:120px 81px 0px 117px; background:url(../../images/shop/cooperation/ad_marketing_shop_02-6.jpg) left top no-repeat; }
+.adm_box_shop_center_shop_6t{ width:190px; height:485px; }
+.adm_box_shop_center_shop_6b{ width:190px; height:94px; background:url(../../images/shop/cooperation/ad_marketing_shop_4.jpg) left top no-repeat; }      
+.adm_box_shop_center_shop_7{ width:802px; height:620px; padding:110px 81px 0px 117px; background:url(../../images/shop/cooperation/ad_marketing_shop_02-7.jpg) left top no-repeat; }
+.adm_box_shop_center_shop_7t{ width:190px; height:362px; }
+.adm_box_shop_center_shop_7b{ width:190px; height:153px; background:url(../../images/shop/cooperation/ad_marketing_shop_4.jpg) left top no-repeat; }           
+/*--合作廠商的頁面 END--*/
+
+
+.adm_shopnb_box{ width:190px; height:28px; }
+.adm_shopnb_box_1 p{ float:left; color:#515151; font-size:12px; line-height:26px; line-height:26px \9; /*==hack_IE8==*/ *line-height:28px;   /*hack_IE7*/ _line-height:28px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; }
+/*--行銷廣告頁面-字型設定----------*/
+/*--合作廠商-灰色名稱15--*/
+.adm_font_gary15b h2{  color:#515151; font-size:15px; line-height:26px; line-height:26px \9; /*==hack_IE8==*/ *line-height:28px;   /*hack_IE7*/ _line-height:28px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; font-weight:bold; }
+/*--合作廠商介紹12--*/
+.adm_font_gary12 p{ color:#515151; font-size:12px; line-height:26px; line-height:26px \9; /*==hack_IE8==*/ *line-height:28px;   /*hack_IE7*/ _line-height:28px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; }
+/*--合作模式13--*/
+.adm_font_gary13{ width:190px; color:#515151; font-size:13px; line-height:24px; line-height:24px \9; /*==hack_IE8==*/ *line-height:26px;   /*hack_IE7*/ _line-height:26px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; }
+/*--模式項目-藍色13粗--*/
+.adm_font_blue13b p{ color:#2065a6; font-size:13px; line-height:26px; line-height:30px \9; /*==hack_IE8==*/ *line-height:30px;   /*hack_IE7*/ _line-height:30px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; font-weight:bold; } 
+/*--數字-紅色細--*/
+.adm_font_rad12 p{ color:#ff0000; font-size:12px; line-height:24px; line-height:24px \9; /*==hack_IE8==*/ *line-height:26px;   /*hack_IE7*/ _line-height:26px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; }  
+/*--數字-紅色粗--*/
+.adm_font_rad12b p{ float:left; color:#ff0000; font-size:13px; line-height:24px; line-height:24px \9; /*==hack_IE8==*/ *line-height:26px;   /*hack_IE7*/ _line-height:26px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; font-weight:bold; } 
+
+/*--行銷廣告頁面-字型設定 END----------*/
+
+/*---媒體新聞的字型-藍色15粗--*/
+.adm_font_blue15b p{ color:#2065a6; font-size:15px; line-height:26px; line-height:30px \9; /*==hack_IE8==*/ *line-height:30px;   /*hack_IE7*/ _line-height:30px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; font-weight:bold; }
+/*---媒體新聞的字型-灰色> 變粉色13--*/
+.adm_font_gary13a{ color:#515151; font-size:13px; line-height:32px; line-height:34px \9; /*==hack_IE8==*/ *line-height:36px;   /*hack_IE7*/ _line-height:36px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; }
+.adm_font_gary13a a{ display:block; color:#515151; font-size:13px; line-height:34px; line-height:36px \9; /*==hack_IE8==*/ *line-height:36px;   /*hack_IE7*/ _line-height:36px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; background:url(../../images/shop/cooperation/ad_marketing_news_03.jpg) left top no-repeat; text-indent:20px; }
+.adm_font_gary13a a:hover{ color:#e4006b; background:url(../../images/shop/cooperation/ad_marketing_news_03_in.jpg) left  top no-repeat; }
+
+
+/*--媒體報導的頁面--*/
+/*--媒體報導主標--*/
+.adm_box_news_title{ margin:0 auto; width:1000px; height:170px; background:url(../../images/shop/cooperation/ad_marketing_news_01.jpg); }
+.adm_box_news_title h1{ float:left; display:block; width:1000px; height:170px; text-indent:-9999px; }
+/*--媒體報導副標--*/  
+
+.adm_box_news_title{ }
+.adm_box_news_content{ width:802px; height:1353px; padding:145px 81px 0px 117px; margin:0 auto; background:url(../../images/shop/cooperation/ad_marketing_news_02.jpg) left top no-repeat; }
+.adm_box_news_center_left{ float:left; width:250px; height:1000px; padding-top:65px; }
+.adm_box_news_center_left h2{ width:190px; color:#515151; font-size:15px; line-height:26px; line-height:26px \9; /*==hack_IE8==*/ *line-height:28px;   /*hack_IE7*/ _line-height:28px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; font-weight:bold; }
+.adm_box_news_center_left p{ width:190px; color:#2065a6; font-size:12px; line-height:28px; line-height:29px \9; /*==hack_IE8==*/ *line-height:31px;   /*hack_IE7*/ _line-height:31px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-align:justify; }
+.adm_box_news_center_right{ float:left; width:500px; height:1250px; }
+/*--媒體報導END--*/
+
+
+
+/*--聯絡我們--*/  
+/*--聯絡我們主標--*/
+.adm_box_contact_title{ margin:0 auto; width:1000px; height:170px; background: url(../../images/shop/cooperation/ad_marketing_contact_01.jpg); }
+.adm_box_contact_title h1{ float:left; display:block; width:1000px; height:170px; text-indent:-9999px; } 
+/*--優質服務副標--*/  
+.adm_con{ float:left; position:relative; }
+.adm_con li.adm_con1{ float:left; width:102px; height:30px; display:block; position:absolute; text-indent:-9999px; background:url(../../images/shop/cooperation/ad_marketing_contact_02-1.jpg); top:134px; right:554px; }
+.adm_con li.adm_con2{ float:left; width:102px; height:30px; display:block; position:absolute; text-indent:-9999px; background:url(../../images/shop/cooperation/ad_marketing_contact_02-2.jpg); top:134px; right:451px; }
+.adm_con li.adm_con3{ float:left; width:102px; height:30px; display:block; position:absolute; text-indent:-9999px; background:url(../../images/shop/cooperation/ad_marketing_contact_02-3.jpg); top:134px; right:347px; }
+
+/*--聯絡我們-中間內容--*/
+.adm_box_contact_content{ margin:0 auto; width:1000px; overflow:hidden; background:url(../../images/shop/cooperation/ad_marketing_contact_02.jpg) 0 0 no-repeat; margin:0 auto; }
+.adm_box_contact_content .contact { width:100%; overflow:hidden; padding:46px 0px 0px 140px; } 
+.adm_box_contact_content .contact h3{ width:640px; height:100px; display:block; background:url(../../images/shop/cooperation/ad_marketing_contact_03.jpg) left top no-repeat; text-indent:-9999px; padding-left:40px;} 
+
+.adm_box_contact_content .contact .box{ width:730px; height:327px; background:url(../../images/shop/cooperation/ad_marketing_contact_02_sought.jpg) 0 0 no-repeat;}
+.adm_box_contact_content .contact .box .shop{ float:left; width:380px; height:327px;}
+.adm_box_contact_content .contact .box .hot{ float:left; width:350px; height:327px;}
+.adm_box_contact_content .contact .box h4{ text-indent:-9999px; height:270px;}
+.adm_box_contact_content .contact .box p{ font-size:13px; letter-spacing:1px; line-height:32px;}
+.adm_box_contact_content .contact .box p a{ float:left;}
+.adm_box_contact_content p a.btm{  font-size:13px; letter-spacing:1px; line-height:32px; width:126px; height:32px; text-align:center; color:#000; display:block; background:url(../../images/shop/cooperation/yel_btm.gif) 0 0 no-repeat; margin:0 10px 0 95px;}
+.adm_box_contact_content p a.btm:hover{ background-position: 0 -32px; text-decoration:none;}
+
+.adm_box_contact_content .contact_br{width:860px; overflow:hidden; background:url(../../images/shop/cooperation/ad_marketing_contact_02_min.jpg) 0 0 repeat-y; padding:5px 0 10px 140px;}
+.adm_box_contact_content .contact_br .blue_box{ width:680px; overflow:hidden; border:3px solid #89b5dc; background-color:#f2f7fd; border-radius:10px; padding:13px 35px}
+.adm_box_contact_content .contact_br .blue_box .table_title{ width:100%; letter-spacing:1px; font-size:13px; }
+.adm_box_contact_content .contact_br .blue_box .table_title p{ float:left; width:486px; color:#008cc6;line-height:23px;}
+.adm_box_contact_content .contact_br .blue_box .table_title a{ float:right; width:125px; height:31px; display:block; background-color:#5c9dd7; border-top:#426e98 solid 1px; border-left:#426e98 solid 1px; color:#FFF; text-align:center; line-height:31px; margin-top:7px;}
+.adm_box_contact_content .contact_br .blue_box .table_title a:hover{ text-decoration:none; background-color:#2f84d0;}
+
+.adm_box_contact_content .contact_br .blue_box table{ background-color:#FFF; border:1px #dddddd solid; font-size:13px; letter-spacing:1px; margin:10px 0;}
+.adm_box_contact_content .contact_br .blue_box .none_line{ border-bottom:none;}
+.adm_box_contact_content .contact_br .blue_box table tr td{ border-bottom:1px #dddddd solid; padding:10px;}
+.adm_box_contact_content .contact_br .blue_box table tr td.gray_br{ border-right:1px #dddddd solid; background-color:#f6f6f6; width:115px;}
+.adm_box_contact_content .contact_br .blue_box table tr td.gray_br p{ text-align:right;}
+.adm_box_contact_content .contact_br .blue_box table tr td.gray_br p span{ color:#F00;}
+.adm_box_contact_content .contact_br .blue_box table input{ width:165px; border: 1px solid #CFCFCF; line-height:26px; height:26px; padding:0 6px;}
+.adm_box_contact_content .contact_br .blue_box table textarea{ width:505px; border: 1px solid #CFCFCF; height:135px; padding:6px;}
+
+.adm_box_contact_content .contact_edn{ width:1000px; height:60px; background:url(../../images/shop/cooperation/ad_marketing_contact_02_btottom.jpg) 0 0 no-repeat;}
+
+.adm_contact_con_c1{ width:820px; height:64px; }
+.adm_contact_con_c1 p{ font-size:13px; color:#008bca; line-height:64px; line-height:64px \9; /*==hack_IE8==*/ *line-height:64px;   /*hack_IE7*/ _line-height:64px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-indent:25px; }  
+.adm_contact_con_c2{ float:left; width:820px; height:39px;   } 
+
+.adm_contact_con_c2left{ float:left; width:122px; height:39px; } 
+.adm_contact_con_c2left p{ font-size:13px; color:#333333; line-height:39px; line-height:42px \9; /*==hack_IE8==*/ *line-height:42px;   /*hack_IE7*/ _line-height:42px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-indent:25px;  } 
+.adm_contact_con_c2right{ float:left; width:450px; height:29px; padding-top:10px; } 
+.adm_contact_con_c2right .ad_enter_box{ height:20px; width:165px; font-family:"Arial","新細明體";  font-size: 13px; }  
+.adm_contact_con_c3{ float:left; width:820px; height:187px;  } 
+
+.adm_contact_con_c3left{ float:left; width:122px; height:50px; } 
+.adm_contact_con_c3left p{ font-size:13px; color:#333333; line-height:39px; line-height:42px \9; /*==hack_IE8==*/ *line-height:42px;   /*hack_IE7*/ _line-height:42px;  /*==hack_IE6==*/ font-family:"Arial","新細明體"; text-indent:25px;  } 
+.adm_contact_con_c3right{ float:left; width:450px; height:150px; padding-top:10px; }   
+.adm_contact_con_c3right .ad_enter_box{ width:480px; height:150px; font-family:"Arial","新細明體";  font-size:13px; line-height:20px; }      
+.adm_contact_con_enter{ width:300px; height:40px; margin:0 auto;}  
+
+/*--聯絡我們 END--*/  
+
+
+
+
+
+/*--下面選單按鈕部分--*/
+.adm_box_homelist_type{ width:883px; height:93px; margin:0 auto; padding-left:117px; }
+.adm_type{ float:left; }
+.adm_type li{ float:left; }
+.adm_type li.ad_air { width:117px; height:30px; display:block; }
+.adm_type li.ad_home a{ width:117px; height:30px; display:block; text-indent:-9999px; background:url(../../images/shop/cooperation/adm_type_01.jpg) left bottom no-repeat; }
+.adm_type li.ad_home a:hover{ background:url(../../images/shop/cooperation/adm_type_01.jpg) left top no-repeat; }
+.adm_type li.ad_sup a{ width:117px; height:30px; display:block; text-indent:-9999px; background:url(../../images/shop/cooperation/adm_type_02.jpg) left bottom no-repeat; }
+.adm_type li.ad_sup a:hover{ background:url(../../images/shop/cooperation/adm_type_02.jpg) left top no-repeat; }
+.adm_type li.ad_ser a{ width:117px; height:30px; display:block; text-indent:-9999px; background:url(../../images/shop/cooperation/adm_type_03.jpg) left bottom no-repeat; }
+.adm_type li.ad_ser a:hover{ background:url(../../images/shop/cooperation/adm_type_03.jpg) left top no-repeat; }
+.adm_type li.ad_shop a{ width:117px; height:30px; display:block; text-indent:-9999px; background:url(../../images/shop/cooperation/adm_type_04.jpg) left bottom no-repeat; }
+.adm_type li.ad_shop a:hover{ background:url(../../images/shop/cooperation/adm_type_04.jpg) left top no-repeat; }
+.adm_type li.ad_news a{ width:117px; height:30px; display:block; text-indent:-9999px; background:url(../../images/shop/cooperation/adm_type_05.jpg) left bottom no-repeat; }
+.adm_type li.ad_news a:hover{ background:url(../../images/shop/cooperation/adm_type_05.jpg) left top no-repeat; }
+.adm_type li.ad_contact a{ width:117px; height:30px; display:block; text-indent:-9999px; background:url(../../images/shop/cooperation/adm_type_06.gif) left bottom no-repeat; }
+.adm_type li.ad_contact a:hover{ background:url(../../images/shop/cooperation/adm_type_06.gif) left top no-repeat; }

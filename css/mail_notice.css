@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset, img {
+	border:0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol, ul {
+	list-style:none;
+}
+caption, th {
+	text-align:left;
+}
+/*h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+}*/
+q:before, q:after {
+	content:'';
+}
+abbr, acronym {
+	border:0;
+}
+.CLEAR {
+	clear:both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0;
+}
+#mail_notice_wrapper {
+	width:780px;
+	height:29px;
+	background:url(../images/images/mail_notice_bg.jpg) no-repeat;
+	margin:0 0 9px 0;
+}
+p.mail_notice_img {
+	display:block;
+	float:left;
+	margin:5px 0 0 5px;
+	width:39px;
+	height:19px;
+	background:url(../images/images/notice_img.jpg) no-repeat;
+	text-indent:-9999px;
+}
+p.mail_notice_content {
+	margin:2px 0 0 10px;
+	display:block;
+	width:720px;
+	height:27px;
+	float:left;
+}
+
+p.mail_notice_content a{
+	color:#ff4a6c;
+	font-weight:bold;
+	font-size:13px;
+	line-height:26px;
+	text-decoration:none;
+}
+
+p.mail_notice_content a:hover{
+	color:#fa768f;
+	line-height:28px;
+	text-decoration:underline;
+}
+

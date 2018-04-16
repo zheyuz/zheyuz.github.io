@@ -1,0 +1,201 @@
+/*===搜尋全部商品_中間===*/
+#search_all_Goods .AllGoods_box_center {
+    width:790px;
+  }
+
+#search_all_Goods .AllGoods_box_center .searchGoods_viewtype-img_Y{
+  float:left;
+  width:210px;
+  height:331px;
+  background-color:#FFC;
+  background:url(../../images/shop/shop_search/viewtype-img_y_bg.gif) repeat-x left top;
+/*  border-bottom: 1px dashed #cccccc;*/
+  padding: 15px 26px 0px 26px;
+  position: relative;
+/*=== background-color:#CCC; ===一組底色*/
+  }
+#search_all_Goods .AllGoods_box_center .searchGoods_viewtype-img{
+  float:left;
+  width:210px;
+  height:330px;
+  border-bottom: 1px dashed #cccccc;
+  padding: 15px 26px 0px 26px;
+  position: relative;
+/*=== background-color:#CCC; ===一組底色*/
+  } 
+/*==搜尋全部商品_左邊_圖==*/
+#img_AllGoods_box_viewtype-img{
+  background-color: #FFF;
+  display:block;
+  font-size:0;
+  width:200px;
+  height:150px;
+  padding: 1px;
+  background-color:#FFFFFF;
+  border:1px solid #BBBBBB;
+  overflow:hidden;
+}
+
+#img_AllGoods_box_viewtype-img a img{
+  background-color:#fff;
+  margin: 0 auto;
+  display:block;
+  font-size:0;
+  height:150px;/*修改商品圖145*109-2=107*/
+}
+
+/*==左邊ad_標題_定位==*/
+#search_all_Goods .AllGoods_box_Left_viewtype-img{
+  width: 200px;
+  height:139px;
+  position:absolute;
+  top: 174px;
+  left: 26px;
+  }
+#search_all_Goods .AllGoods_box_Left_viewtype-img h1 a{
+  width: 205px;
+  height:40px;
+  text-indent:0px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  font-size:13px;
+  line-height:20px;
+  color:  #105CB6;
+  text-decoration:none;
+  padding-left: 3px;
+  overflow: hidden;
+  }
+/*===.SearchWord搜尋結果顯示出_搜尋文字===*/
+#search_all_Goods .AllGoods_box_Left_viewtype-img h1 a .SearchWord{
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:13px;
+  line-height:20px;
+  color:  #ec4e2f;
+  text-decoration:none;
+  overflow: hidden; 
+  }
+#search_all_Goods .AllGoods_box_Left_viewtype-img h1 a:hover{
+  text-decoration:underline;
+  color:#ec4e2f;
+  } 
+/*==左邊ad_內文==*/
+/*#search_all_Goods .AllGoods_box_H1_Left p{
+  height: 55px;
+  text-indent:0px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  font-size:12px;
+  line-height:18px;
+  color: #595757;
+  text-decoration:none;
+  overflow: hidden;
+  } */    
+/*==左邊ad_商店==*/
+#search_all_Goods .AllGoods_box_Left_viewtype-img p.GoodsShop a{
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  width:200px;
+  font-size:12px;
+  line-height:18px;
+  _line-height:18px;/*==hack_IE6==*/
+  line-height:20px \9; /*==hack_IE8==*/
+  color: #ec4e2f;
+  text-decoration:none;
+  margin: 5px 0px 0px 0px;
+  padding: 0px 0px 0px 16px;
+    background: url(../../images/shop/shop_search/shop_icon_a_g.gif) no-repeat left top;
+  height: 18px;
+  overflow: hidden;
+  }
+#search_all_Goods .AllGoods_box_Left_viewtype-img p.GoodsShop a:hover{
+  color: #ec4e2f;
+  text-decoration: underline; 
+  }
+
+/*==左邊ad_評價數字==*/
+#search_all_Goods .AllGoods_box_Left_viewtype-img h2.GoodsBuy a{
+
+  font-family: Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  background: url(../../images/shop/shop_search/buy_icon_h25.gif) no-repeat left top;
+  font-size:12px;
+  line-height:20px;
+  padding: 5px 10px 0px 18px;
+  color: #595757;
+  text-decoration:none;
+  overflow: hidden;
+  }
+
+/*==左邊ad_價錢==*/
+#search_all_Goods .AllGoods_box_Left_viewtype-img h3.GoodsMoney a{
+  margin-bottom:10px;
+  font-family: Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  background: url(../../images/shop/shop_search/blck_icon_h25.gif) no-repeat left top;
+  font-size:12px;
+  line-height:20px;
+  padding: 5px 0px 0px 18px;
+  color: #595757;
+  text-decoration:none;
+  overflow: hidden;
+  }
+/*==顯示ICON==*/
+#search_all_Goods .AllGoods_box_Left_viewtype-img .goodIcon{
+  float: left;
+  display: block; 
+  width: 125px;
+  height: 20px;
+  line-height:20px;
+  padding: 5px 0px 0px 0px;
+  overflow: hidden;
+  }
+#search_all_Goods .AllGoods_box_Left_viewtype-img .goodIcon a img{
+  margin: 0px 5px 0px 5px; 
+  opacity: 1;/* 透明度60% FireFox 的寫法 */ 
+  filter: Alpha(Opacity=100); /* 透明度60% IE 的寫法 */ 
+  }
+#search_all_Goods .AllGoods_box_Left_viewtype-img .goodIcon a:hover img{  
+  opacity: 0.7;/* 透明度60% FireFox 的寫法 */ 
+  filter: Alpha(Opacity=70); /* 透明度60% IE 的寫法 */
+   }
+/*==顯示ICON_END==*/
+
+/*==左邊ad_購買按鈕==*/
+#search_all_Goods .AllGoods_box_Left_viewtype-img h4.GoodsBuyicon a{
+  float:right;
+  width: 70px;
+  height: 25px;
+  font-family: Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  font-size:12px;
+  line-height:25px;
+  text-align:center;
+  color: #7c4c1b;
+  background: url(../../images/shop/shop_search/goodsbuy_icon_25.gif) no-repeat left top;
+  text-decoration:none;
+  overflow: hidden;
+  }
+#search_all_Goods .AllGoods_box_Left_viewtype-img h4.GoodsBuyicon a:hover{
+  background-position: left bottom;
+  color: #6f3f0e;
+  text-decoration: underline;   
+  }
+
+/*==左邊ad_價錢[數字100]==*/
+#search_all_Goods .AllGoods_box_Left_viewtype-img .price_left{  
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:14px;
+  line-height:20px;
+  color:  #ec4e2f;
+  text-decoration:none;
+  overflow: hidden;
+}
+/*==左邊ad_買氣[數字]==*/
+#search_all_Goods .AllGoods_box_Left_viewtype-img .Buy_left{  
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:18px;
+  line-height:20px;
+  color: #595757;
+  text-decoration:none;
+  overflow: hidden;
+}

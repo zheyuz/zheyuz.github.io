@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+.personal_wrapper{ width:560px; padding:10px 5px; margin: 0 auto;}
+
+.personal_wrapper .myinfor_box{ width:100%; margin: 0 auto; margin-bottom:20px;}
+.personal_wrapper .mydata_box{ width:100%; margin: 0 auto;}
+
+.personal_wrapper .myinfor_box .l_infor{ float:left; width:130px;}
+.personal_wrapper .myinfor_box .r_infor{ float:right; width:400px;}
+
+.personal_wrapper .myinfor_box .l_infor .pic_box{ width:100px; height:100px; padding:1px; border:1px #cbcbcb solid; margin: 0 auto;}
+.personal_wrapper .myinfor_box .l_infor .pic_box a{ display:block;}
+.personal_wrapper .myinfor_box .l_infor .pic_box a:hover{ opacity:0.8;}
+
+.personal_wrapper .myinfor_box .r_infor .item_box{ width:100%; padding:3px 0;}
+.personal_wrapper .myinfor_box .r_infor .item_box .lh30{ height:30px; line-height:30px;}
+.personal_wrapper .myinfor_box .r_infor .item_box .left_box{ float:left; width:90px; text-align:left; color:#454545; font-size:13px; letter-spacing:2px; font-weight:bold; margin-right:0;}
+
+.personal_wrapper .myinfor_box .r_infor .item_box .w100all{ width:100%; padding:0px 0px 5px 0px; margin:0px 0px 5px 0px;  border:1px solid #e0e0e0; border-width: 0px 0px 1px 0px;}
+.personal_wrapper .myinfor_box .r_infor .item_box .left_box p.font12{ font-size:13px; line-height:20px;}
+.personal_wrapper .myinfor_box .r_infor .item_box .left_box p.font12 a.fontlink{ color:#105CB6; display:block; padding:0px 0px 0px 25px; background:url(../images/images/personal/fontlink_icon12.gif) no-repeat left top; font-weight:normal;}
+.personal_wrapper .myinfor_box .r_infor .item_box .left_box p.font12 a.fontlink:hover{ text-decoration:underline; color:#105CB6;}
+
+.personal_wrapper .myinfor_box .r_infor .item_box .right_box{ float:left; width:310px;}
+.personal_wrapper .myinfor_box .r_infor .item_box .right_box p.txt13{ font-size:13px; color:#454545; letter-spacing:2px; padding: 0 7px;}
+.personal_wrapper .myinfor_box .r_infor .item_box .right_box p.describe{ font-size:12px; color:#666; letter-spacing:1px; padding: 0 7px; width:auto; height:20px; border:1px #ccc solid; background-color:#fff;}
+.personal_wrapper .myinfor_box .r_infor .item_box .right_box .honor_icon{ float:left; height:30px;}
+
+.personal_wrapper .myinfor_box .evaluate_box{ float:left; font-size:13px; font-weight:bold; color:#666; letter-spacing:2px; padding: 0 7px;font-family: Verdana, Geneva, sans-serif;}
+.personal_wrapper .myinfor_box .evaluate_box p{ float:left; font-family: Verdana, Geneva, sans-serif;}
+.personal_wrapper .myinfor_box .evaluate_box p.positive{ color:#f64949;}
+.personal_wrapper .myinfor_box .evaluate_box p.negative{ color:#6d9b00;}
+.personal_wrapper .myinfor_box .evaluate_box p span{ padding-right:5px;}
+.personal_wrapper .myinfor_box img.phone_approve{ float:left;}
+
+.personal_wrapper .mydata_box .personal_tab{ height:34px; border-bottom:1px #bababa solid;}
+.personal_wrapper .mydata_box .personal_tab ul{ height:34px; padding-left:10px;}
+.personal_wrapper .mydata_box .personal_tab ul li{ float:left; height:34px; padding-right:5px;}
+
+.personal_wrapper .mydata_box .personal_tab ul li a{display:block; color:#454545; font-size:13px; letter-spacing:5px; text-decoration:none; float:left; height:30px; line-height:30px; border-color:#d2d2d2 #d2d2d2 #fff; border-style:solid; border-width:1px; background:url(../images/images/personal/bg_menu.gif) no-repeat left top;}
+ .personal_wrapper .mydata_box .personal_tab ul li a span{ padding: 0 35px;}
+.personal_wrapper .mydata_box .personal_tab ul li a:hover{color:#888; text-decoration:none;}
+.personal_wrapper .mydata_box .personal_tab ul li a span{ display:block; background:url(../images/images/personal/bg_menu.gif) no-repeat right -30px;}
+.personal_wrapper .mydata_box .personal_tab ul li.active{background-color:#fff; border-color:#bababa #bababa #fff;height:33px;}
+.personal_wrapper .mydata_box .personal_tab ul li.active a{display:block; font-weight:bold;  border-style:solid; border-width:1px; height:33px; line-height:33px; _width:108px; display:block; background:url(../images/images/personal/bg_menu.gif) no-repeat left -30px;}
+.personal_wrapper .mydata_box .personal_tab ul li.active a span{background:url(../images/images/personal/bg_menu.gif) no-repeat left -30px;}
+.personal_wrapper .mydata_box .personal_tab ul li.active a:hover{ color:#454545;}
+
+
+.personal_wrapper .mydata_box .per_mainBox{ width:550px; height:240px; background-color:#fff; padding: 5px; background-color:#fff;}
+.personal_wrapper .mydata_box .per_mainBox .event_tab{ width:100%; border-bottom:1px #ccc dotted; padding: 12px 0 8px 0; margin-bottom:10px; _padding-top:5px;}
+.personal_wrapper .mydata_box .per_mainBox .event_tab ul li{ float:left; padding-left:10px;}
+.personal_wrapper .mydata_box .per_mainBox .event_tab ul li a{ display:block; font-size:12px; color:#999; text-decoration:none; padding: 1px 15px; letter-spacing:1px; }
+.personal_wrapper .mydata_box .per_mainBox .event_tab ul li a:hover{ color:#666;}
+.personal_wrapper .mydata_box .per_mainBox .event_tab ul li a.active{background-color:#d4d4d4; border-radius:2px; color:#666;}
+.personal_wrapper .mydata_box .per_mainBox .event_tab ul li a span{ padding:0 5px; font-size:13px; font-family:Verdana, Geneva, sans-serif;}
+	
+.personal_wrapper .mydata_box .per_mainBox .one_eventBox { *height:16px; padding:0 0 10px 0; *padding: 4px 8px 8px 0; }
+.personal_wrapper .mydata_box .per_mainBox .one_eventBox a{ display: block; float:left; letter-spacing:1px; color:#105cb6; font-size:12px; text-decoration:none;}
+.personal_wrapper .mydata_box .per_mainBox .one_eventBox a:hover{ text-decoration:underline;}
+/*.personal_wrapper .mydata_box .per_mainBox .one_eventBox a.normal_store{ background:url(../images/images/personal/icon_store.gif) no-repeat 8px -1px; padding-left:34px;}
+.personal_wrapper .mydata_box .per_mainBox .one_eventBox a.set_store{ background:url(../images/images/personal/icon_store.gif) no-repeat 8px -52px; padding-left:34px;}*/
+.personal_wrapper .mydata_box .per_mainBox .one_eventBox p{ float:right; color:#666; letter-spacing:1px; font-size:12px;}
+.personal_wrapper .mydata_box .per_mainBox .one_eventBox p span{ letter-spacing:0px; padding-right:3px;}
+.personal_wrapper .mydata_box .per_mainBox .one_eventBox p span.highlight{ color:#F64949;}
+
+.personal_wrapper .mydata_box .per_mainBox .joint_eventBox{padding: 0 5px 10px 0; _padding: 8px;}
+.personal_wrapper .mydata_box .per_mainBox .list_box{ width:100%; height:20px;}
+.personal_wrapper .mydata_box .per_mainBox .list_box p{ font-size:12px; letter-spacing:1px;}
+
+.personal_wrapper .mydata_box .per_mainBox p.event_list{float:left; width:430px; height:20px; overflow:hidden;}
+.personal_wrapper .mydata_box .per_mainBox p.event_w390{ width:390px;}
+.personal_wrapper .mydata_box .per_mainBox p a.icon_event{ display:block; color:#105cb6; padding-left:28px;background:url(../images/event/icon_event.gif) no-repeat -3px 1px;}
+.personal_wrapper .mydata_box .per_mainBox p.paddL33{ padding-left:33px;}
+
+.personal_wrapper .mydata_box .per_mainBox p a.icon_order{ display:block; color:#105cb6; padding-left:28px;background:url(../images/event/icon_order.gif) no-repeat -3px 1px;}
+.personal_wrapper .mydata_box .per_mainBox p.time_box{ float:right; color:#999;}
+.personal_wrapper .mydata_box .per_mainBox p.padL{ padding-left:33px;}
+.personal_wrapper .mydata_box .per_mainBox p.floatL{ float:left;}
+.personal_wrapper .mydata_box .per_mainBox p.host_box{ height:20px; color:#999; font-size:12px;  letter-spacing:1px; line-height:20px;}
+
+.personal_wrapper .mydata_box .per_mainBox p.host_box a{ color:#105CB6; text-decoration:none; letter-spacing:0;}
+.personal_wrapper .mydata_box .per_mainBox p.host_box a:hover{ text-decoration:underline;}
+.personal_wrapper .mydata_box .per_mainBox p.host_box a.img_box{ width:18px; height:18px; margin-right:5px;}
+.personal_wrapper .mydata_box .per_mainBox p.host_box a.img_box img{ width:16px; height:16px; border:1px #ccc solid; vertical-align:middle;}
+.personal_wrapper .mydata_box .per_mainBox p.host_box a span.rating{ color:#666;}
+
+.personal_wrapper .mydata_box .per_mainBox .score_box{padding: 12px 5px 10px 0; _padding: 8px; border-top:1px #ccc dotted;}
+.personal_wrapper .mydata_box .per_mainBox .noBorTop{ border-top:none;}
+.personal_wrapper .mydata_box .per_mainBox .comment_box{ width:550px; height:20px; padding-bottom:5px; overflow:hidden;}
+.personal_wrapper .mydata_box .per_mainBox .score_box .comment_box p.score_positive{ float:left; width:34px; height:20px; background:url(../images/images/personal/icon_score.gif) no-repeat 8px 4px;}
+.personal_wrapper .mydata_box .per_mainBox .score_box .comment_box p.score_negative{ float:left; width:34px; height:20px; background:url(../images/images/personal/icon_score.gif) no-repeat 8px -42px;}
+
+.personal_wrapper .mydata_box .per_mainBox .score_box .comment_box p.comment{ float:left; color:#666; font-size:12px; letter-spacing:1px; width:330px; height:20px; overflow:hidden;}
+
+/*寄信_START*/
+.personal_wrapper .mydata_box .per_mainBox .mail_itemBox{ width:530px; padding: 12px 10px 5px 10px;}
+.personal_wrapper .mydata_box .per_mainBox .mail_itemBox .left_box{ float:left; width:60px;}
+.personal_wrapper .mydata_box .per_mainBox .mail_itemBox .right_box{ float:left; width:460px;}
+.personal_wrapper .mydata_box .per_mainBox .mail_itemBox .left_box p{ font-size:13px; font-weight:bold; letter-spacing:3px; line-height:24px;}
+.personal_wrapper .mydata_box .per_mainBox p span.highlight{ color:#F64949;}
+.personal_wrapper .mydata_box .per_mainBox .mail_itemBox .right_box p.ps{ text-align:right; color:#999; font-size:12px; letter-spacing:2px; padding:3px 0;}
+
+/*回饋*/
+.personal_wrapper .mydata_box .per_mainBox .reward_itemBox{ width:530px; padding: 12px 10px 3px 10px; _padding-bottom:0;}
+.personal_wrapper .mydata_box .per_mainBox .reward_itemBox .left_box{float:left; width:95px;}
+.personal_wrapper .mydata_box .per_mainBox .reward_itemBox .right_box{ float:left; width:425px;}
+.personal_wrapper .mydata_box .per_mainBox .reward_itemBox .w150{ width:150px; font-size:13px; color:#666; line-height:28px;}
+.personal_wrapper .mydata_box .per_mainBox .reward_itemBox .right_box .date_box{ float:left; width: auto; padding-right:10px;}
+.personal_wrapper .mydata_box .per_mainBox .reward_itemBox .right_box .date_box a:hover{ text-decoration:none;}
+.personal_wrapper .mydata_box .per_mainBox .reward_itemBox .right_box .time_box{ float:left; width: auto; font-size:13px; color:#666;padding-right:10px;}
+.personal_wrapper .mydata_box .per_mainBox .reward_itemBox .left_box p{ font-size:13px; font-weight:bold; letter-spacing:3px; line-height:28px;}
+.personal_wrapper .mydata_box .per_mainBox p.write_more{ width:530px; font-size:12px; color:#666; letter-spacing:1px; padding: 10px 0 10px 18px;}
+.personal_wrapper .mydata_box .per_mainBox p.write_more a{color:#f64949; text-decoration:underline;}
+.personal_wrapper .mydata_box .per_mainBox p.write_more a:hover{ text-decoration:none;}
+
+
+/*input*/
+.personal_wrapper .mydata_box .per_mainBox input{ font-size:13px; color:#454545; letter-spacing:1px; font-family:Arial, Helvetica, sans-serif;}
+.personal_wrapper .mydata_box .per_mainBox input.input_w450{ width:450px; height:24px; line-height:24px; padding: 0 8px; border:1px #e3e3e3 solid;}
+.personal_wrapper .mydata_box .per_mainBox input.input_w415{ width:415px; height:28px; line-height:28px; padding: 0 8px; border:1px #e3e3e3 solid;}
+.personal_wrapper .mydata_box .per_mainBox .mail_input{background-color: #FFFFFF; border: 1px solid #DEDEDE; color: #454545; font-size: 13px; letter-spacing: 1px; line-height: 20px; padding: 4px 8px; resize: none;   width: 450px; height:75px; }
+.personal_wrapper .mydata_box .per_mainBox input.input_w80{ width:80px; height:30px; line-height:30px; padding: 0 8px; border:1px #e3e3e3 solid; text-align:center; margin-right:5px;}
+.personal_wrapper .mydata_box .per_mainBox input.input_w50{ width:50px; height:30px; line-height:30px; padding: 0 8px; border:1px #e3e3e3 solid; text-align:center; margin-right:5px;}
+.personal_wrapper .myinfor_box input.input_w120{ width:220px; height:20px; line-height:20px; padding: 0 8px; border:1px #e3e3e3 solid; text-align:left; letter-spacing:1px; color:#454545; margin-right:5px; float:left;}
+
+.personal_wrapper .mydata_box .per_mainBox .right_box select{height:32px; line-height:32px; color:#454545; padding: 4px 6px; border:1px #e3e3e3 solid; margin-right:10px;}
+
+
+
+/*btn_enter*/
+.personal_wrapper .btn_submitBox{ border-top:1px #ccc dotted; padding-top:20px;}
+
+.personal_wrapper .btn_submitBox a.enter{ float:left; display:block; font-size:13px; color:#454545; line-height:32px; letter-spacing:2px; background:url(../images/images/personal/admin_btn.gif) no-repeat left -128px; margin: 0 0 0 205px; _display:inline;}
+.personal_wrapper .btn_submitBox a.ML190{ margin-left:190px;}
+.personal_wrapper .btn_submitBox a.enter span{ display:block; line-height:32px; background:url(../images/images/personal/admin_btn.gif) no-repeat right -160px; padding: 0 40px;}
+.personal_wrapper .btn_submitBox a.enter:hover{background:url(../images/images/personal/admin_btn.gif) no-repeat left -192px; text-decoration:none;}
+.personal_wrapper .btn_submitBox a.enter:hover span{background:url(../images/images/personal/admin_btn.gif) no-repeat right -224px;}
+.personal_wrapper .btn_submitBox a.link_reward{ color:#105cb6; font-size:12px; line-height:42px; letter-spacing:1px; text-decoration:underline; padding: 0 10px;}
+.personal_wrapper .btn_submitBox a:hover.link_reward{ text-decoration:none;}
+
+
+/*more*/
+.personal_wrapper .mydata_box .per_mainBox .link_more{ text-align:right; border-top:1px #ccc dotted; padding:10px 5px 5px 0; letter-spacing:2px;}
+.personal_wrapper .mydata_box .per_mainBox .link_more a{ font-size:12px; color:#105cb6; text-decoration:none;}
+.personal_wrapper .mydata_box .per_mainBox .link_more a:hover{ color:#ff9933;}
+	
+/*==20140605_前往個人頁面==*/
+.personal_wrapper .goto_mypage{ width:100px; margin:0 auto; margin-top:5px;}
+.personal_wrapper .goto_mypage a{display:block; font-size:12px; color:#105cb6; padding:0px 0px 0px 23px; background:url(../images/images/personal/fontlink_icon12.gif) no-repeat -1px top; font-weight:normal; letter-spacing:0;}
+.personal_wrapper .per_BtnBox_Left{ float:left; margin:0 auto; margin-top:2px; text-align:left;}
+
+/*==加入追蹤==*/
+.personal_wrapper .myinfor_box .r_infor .follow_box{ width:100%; border-bottom:1px #e0e0e0 solid; margin-bottom:5px; padding-bottom:5px;}
+.personal_wrapper .myinfor_box .r_infor .follow_box a{ float:right; display:block; font-size:12px; color:#666; padding-left:18px; text-decoration:none; padding-right:15px;}
+.personal_wrapper .myinfor_box .r_infor .follow_box a.followme{ background:url(../images/user/icon_follow.gif) no-repeat 0 2px;}
+.personal_wrapper .myinfor_box .r_infor .follow_box a.blacklist{background:url(../images/user/icon_follow.gif) no-repeat 0 -18px;}
+.personal_wrapper .myinfor_box .r_infor .follow_box a:hover{ text-decoration: underline;}
+
+
+
+

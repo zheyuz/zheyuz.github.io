@@ -1,0 +1,347 @@
+
+span.UserNumber{ font-size:12px; color: #E84C1F; letter-spacing:1px; font-weight:bold; }
+span.fontbold{ font-weight:bold;}
+span.Black {color: #524D4D;font-weight: bold;}
+span.redfont{color: #E84C1F; font-weight:bold; }
+
+#foodevents_wrapper790 { width:790px; margin:0 auto; position:relative;}
+#foodevents_wrapper570 { width:570px; margin:0 auto; position:relative;}
+
+.main_content .tabicon_B{ position:absolute; left:0px; top:27px; width:15px; height:10px; background:url(../images/user/usermain_icon.png) no-repeat left -500px;}
+
+.main_content .leftcontent .left_box{float:left; /*width:638px;*/ width:608px;  padding:0px 15px 15px 15px; border:1px solid #bbbbbb; border-width: 0px 0px 1px 0px; z-index:1px; }
+
+.main_content .leftcontent .left_box15px{float:left; /*width:638px;*/ width:608px;  padding:10px 15px 10px 15px; border:1px solid #cbcbcb; border-width: 0px 0px 1px 0px; z-index:1px;}
+
+.main_content .leftcontent .left_eventsbox{float:left; /*width:638px;*/ width:608px;  padding:15px 15px 10px 15px; border:1px solid #e0e0e0; border-width: 0px 0px 1px 0px; z-index:1px; background-color: #FBFBFB; margin-top:1px;}
+.main_content .leftcontent .Noborder{ border-bottom:none;}
+
+
+
+.main_content{float:left; /*width:790px;*/ width:788px; /*border:1px solid #E0E0E0; border-width: 1px 1px 1px 1px;*/ background:url(../images/user/main_notice_bg.gif) repeat-y left top; padding:0px 0px 0px 0px;}
+.m_c_border{border:1px solid #E0E0E0; border-width: 1px 1px 1px 1px;}
+
+.main_w570{ /*width:570px;*/ width:568px; /*減去左右2條邊框*/}
+
+.main_c_Mb_15{ margin-bottom:15px;}
+.events_bg{ background-image:none;}
+
+
+/*更多_文字居中*/
+.main_content .leftcontent .user_box{float:left; width:788px; background-color:#Fff;}
+.main_content .leftcontent .user_box p.moerfont{ font-size:12px; line-height:32px; text-align:center; letter-spacing:1px; background-color:#F9F7F7; border:1px solid #cbcbcb; border-width: 1px 0px 0px 0px;}
+.main_content .leftcontent .user_box p.moerfont a.moerbtn{ display:block; color:#3B5998;  text-decoration:none;}
+.main_content .leftcontent .user_box p.moerfont a.moerbtn:hover{ display:block; color:#3B5998;  text-decoration: underline; background-color:#F9F9F9;}
+
+
+
+/*==改變底色==*/
+.main_content .leftcontent .UFnotice_C_in{ background-color: #FFEDBE;   border-bottom:1px solid #eeddb1; margin:0px;}
+
+/*==input開始==*/
+.inf_font_box .inf_top .floatbox .chat_input { float:left; width:305px; height:28px;line-height:28px; font-size: 12px; color: #454545; padding: 0px 6px;  border:1px #D2D2D2 solid; background:#FBFBFB; letter-spacing: 1px;}
+.inf_font_box .inf_top .floatbox .chat_input:hover{border:1px solid #909090;}
+.inf_font_box .inf_top .floatbox .chat_input:focus{border:1px solid #D2D2D2;}
+
+.inf_font_box .inf_top .floatbox .pencil_input{ float:left; width:341px; height:28px;line-height:28px; font-size: 12px; color: #454545; padding: 0px 6px;  border:1px #D2D2D2 solid; background:#FBFBFB; letter-spacing: 1px;}
+.inf_font_box .inf_top .floatbox .pencil_input:hover{border:1px solid #909090;}
+.inf_font_box .inf_top .floatbox .pencil_input:focus{border:1px solid #D2D2D2;}
+
+.inf_font_box .inf_top .floatbox .pencil_input430{ float:left; width:430px; height:28px;line-height:28px; font-size: 12px; color: #454545; padding: 0px 6px;  border:1px #D2D2D2 solid; background:#FBFBFB; letter-spacing: 1px;}
+.inf_font_box .inf_top .floatbox .pencil_input430:hover{border:1px solid #909090;}
+.inf_font_box .inf_top .floatbox .pencil_input430:focus{border:1px solid #D2D2D2;}
+
+.inf_font_box .inf_top .floatbox .chat_input400 { margin:4px 0px 0px 0px; float:left; width:400px; height:21px; line-height: 21px; font-size: 12px; color: #454545; padding: 2px 6px 2px 6px;  border:1px #D2D2D2 solid; /*background:#FBFBFB;*/ letter-spacing: 1px; font-family:Arial, Helvetica, sans-serif, "新細明體-ExtB";}
+.inf_font_box .inf_top .floatbox .chat_input400:hover{border:1px solid #909090;}
+.inf_font_box .inf_top .floatbox .chat_input400:focus{border:1px solid #D2D2D2;}
+
+.inf_font_box .inf_top .floatbox .chat_input552 { margin:4px 0px 0px 0px; float:left; width:552px; height:21px; line-height: 21px; font-size: 12px; color: #454545; padding: 2px 6px 2px 6px;  border:1px #D2D2D2 solid; /*background:#FBFBFB;*/ letter-spacing: 1px; font-family:Arial, Helvetica, sans-serif, "新細明體-ExtB";}
+.inf_font_box .inf_top .floatbox .chat_input552:hover{border:1px solid #909090;}
+.inf_font_box .inf_top .floatbox .chat_input552:focus{border:1px solid #D2D2D2;}
+
+.inf_font_box .inf_top .floatbox .chat_input324 { margin:4px 0px 0px 0px; float:left; width:324px; height:21px; line-height: 21px; font-size: 12px; color: #454545; padding: 2px 6px 2px 6px;  border:1px #D2D2D2 solid; /*background:#FBFBFB;*/ letter-spacing: 1px; font-family:Arial, Helvetica, sans-serif, "新細明體-ExtB";}
+.inf_font_box .inf_top .floatbox .chat_input324:hover{border:1px solid #909090;}
+.inf_font_box .inf_top .floatbox .chat_input324:focus{border:1px solid #D2D2D2;}
+
+.inf_font_box .inf_top .floatbox .chat_input540 { margin:4px 0px 0px 0px; float:left; width:540px; height:21px; line-height: 21px; font-size: 12px; color: #454545; padding: 2px 6px 2px 6px;  border:1px #D2D2D2 solid; /*background:#FBFBFB;*/ letter-spacing: 1px; font-family:Arial, Helvetica, sans-serif, "新細明體-ExtB";}
+.inf_font_box .inf_top .floatbox .chat_input540:hover{border:1px solid #909090;}
+.inf_font_box .inf_top .floatbox .chat_input540:focus{border:1px solid #D2D2D2;}
+
+/*==input結束==*/
+
+/*==文字圖片_開始==*/
+.inf_font_box{ float:left; /*width:518px;*/}
+.inf_font_box .inf_top{float:left; width:100%; }
+.inf_font_box .inf_top p{font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;}
+.inf_font_box .inf_top .imgID{float:left; width:40px; height:40px;}
+.inf_font_box .inf_top .imgID img{ width:40px; height:40px; display:block; overflow: hidden;}
+.inf_font_box .inf_top .imgID_16{float:left; width:16px; height:16px; margin:5px 0px;}
+.inf_font_box .inf_top .imgID_16 img_16{ width:16px; height:16px; display:block; overflow: hidden;}
+.inf_font_box .inf_top .imgID img.idimg16{ float:left; width:16px; height:16px; display:block; overflow: hidden; margin:2px 2px 2px 2px;}
+
+/*==文字圖片_結束==*/
+
+.inf_Bottom{float:left; width:100%; background-color:#999; position:relative; }
+.inf_Bottom .icon_box{ position:absolute; top:-12px; left:65px; width:24px; height:12px; background:url(../images/user/inf_bottomicon.gif) no-repeat left top;}
+.inf_Bottom .icon_box_B{ position:absolute; top:-12px; left:65px; width:24px; height:12px; background:url(../images/user/inf_bottomicon.gif) no-repeat left -12px;}
+
+.inf_font_box .inf_top .userfont{float: right; font-size:12px; /*width:466px;*/ width:452px; display:block; overflow:hidden; padding:0px 10px 0px 10px; }
+.inf_font_box .inf_top .width_L{ width:547px;}
+.inf_font_box .inf_top .userfont_2{float: right; font-size:12px; /*width:466px;*/ width:452px; display:block; overflow:hidden; padding:1px 0px 0px 5px; }
+.inf_font_box .inf_top .width_L2{ width:560px;/* width:586px;*/}
+.inf_font_box .inf_top .width_L3{ width:500px; float:left;}
+
+
+.inf_font_box .inf_top .width_697{ width:697px;}
+.inf_font_box .inf_top .width_478{ width:478px;}
+.inf_font_box .inf_top .width_518{ width:518px;}
+
+.inf_font_box .inf_top .boximg{ float: right; width:60px; height:60px; background:#333;}
+.inf_font_box .inf_top .boximg img.g_img{ width:60px; height:60px; display: block; overflow:hidden; }
+
+.inf_font_box .inf_top .margin{ margin:0px 0px 5px 0px;}
+.inf_font_box .inf_top .margin_b3px{ margin:0px 0px 3px 0px;}
+
+.inf_font_box .inf_top p.left_row{ color:#666666; float:left; line-height:20px; /*line-height:23px;*/ text-decoration:none; }
+.inf_font_box .inf_top p.left_row a:hover{ text-decoration:underline;}
+
+/*追蹤通知icon*/
+.inf_font_box .inf_top p.Peopleicon {background: url("../images/home/notice_box/icon_p.gif") no-repeat scroll left -2px;color:#858585;display: block;float: left;font-size: 11px;height: 18px;line-height: 18px;overflow: hidden;text-indent: 16px;width: 100px;}
+/*家族通知icon*/
+.inf_font_box .inf_top p.clubicon {font-size:11px; color:#858585; width:100px; overflow:hidden; height:18px; display:block; float:left; line-height:18px; text-indent:16px; background: url("../images/home/notice_box/icon_p.gif") no-repeat left -20px;}
+/*邀請通知icon*/
+.inf_font_box .inf_top p.plusicon {font-size:11px; color:#858585; width:100px; overflow:hidden; height:18px; display:block; float:left; line-height:18px; text-indent:16px; background: url("../images/home/notice_box/icon_p.gif") no-repeat left -38px;}
+/*商店通知icon*/
+.inf_font_box .inf_top p.stoericon {font-size:11px; color:#858585; width:100px; overflow:hidden; height:18px; display:block; float:left; line-height:18px; text-indent:16px; background: url("../images/home/notice_box/icon_p.gif") no-repeat left -56px;}
+/*留言通知icon*/
+.inf_font_box .inf_top p.infonticon {font-size:11px; color:#858585; width:100px; overflow:hidden; height:18px; display:block; float:left; line-height:18px; text-indent:16px; background: url("../images/home/notice_box/icon_p.gif") no-repeat left -72px;}
+/*推薦通知icon*/
+.inf_font_box .inf_top p.recommendicon{font-size:11px; color:#858585; width:100px; overflow:hidden; height:18px; display:block; float:left; line-height:18px; text-indent:16px; background: url("../images/home/notice_box/icon_p.gif") no-repeat left -93px;}
+
+.inf_font_box .inf_top p.left_row_w{ /*width:555px;右邊有下拉按鈕*/ font-size:13px; width:560px; color:#454545; float:left; line-height:20px; letter-spacing:1px; /*line-height:23px;*/ text-decoration:none;}
+.inf_font_box .inf_top p.left_row_w a:hover{ text-decoration:underline;}
+.inf_font_box .inf_top p.left_row_w span.fontblue_B {color: #3B5998;font-size: 12px;font-weight: bold;padding-right: 3px;}
+
+.inf_font_box .inf_top p.w_516{ width:490px; }
+
+.inf_font_box .inf_top .userfont .imgbox_S{ float:left; width:450px; height:160px; padding:5px 0px 0px 0px;}
+.inf_font_box .inf_top .userfont .width_495{ width:495px;}
+.inf_font_box .inf_top .userfont .imgbox_S a.imgbtn{float:left; display:block;  width:160px; height:160px; overflow:hidden; margin:0px 5px 0px 0px;}
+.inf_font_box .inf_top .userfont .imgbox_S a.imgbtn img.photo_s{  width:160px; height:160px;}
+
+.inf_font_box .inf_top .userfont p.left_title{ color:#666666; float:left; line-height:20px; /*line-height:23px;*/ text-decoration:none; padding:0px 20px 0px 0px; letter-spacing: 1px; }
+.inf_font_box .inf_top .userfont p.padding_r_35{ padding:0px 40px 2px 0px;}
+.inf_font_box .inf_top .userfont p.left_title a:hover{ text-decoration:underline;}
+.inf_font_box .inf_top p.left_title a.boardfont{color: #3B5998; font-size: 13px; font-weight: bold; }
+
+
+.inf_font_box .inf_top .userfont_po{float: right; font-size:13px; /*width:466px;*/ width:465px; display:block; overflow:hidden; padding:0px 0px 0px 0px; position:relative;}
+.inf_font_box .inf_top .width_po_L{/* width:567px;*/ width:556px; padding:0px 0px 0px 10px; }
+
+.inf_font_box .inf_top .w_697{ width:697px;}
+.inf_font_box .inf_top .w_478{ width:478px;}
+
+
+.inf_font_box .inf_top .width_poimg_L{ width:545px;}
+.inf_font_box .inf_top .width_poimg_697{ width:697px;}
+.inf_font_box .inf_top .width_poimg_478{ width:478px;}
+
+.inf_font_box .inf_top .userfont_po p.left_font{ color:#454545; float:left; font-size: 13px; line-height: 1.28; letter-spacing:1px; text-decoration:none; padding:0px 24px 0px 0px;  }
+.inf_font_box .inf_top .userfont_po p.padding_r_45{ padding:5px 45px 0px 0px;}
+
+.inf_font_box .inf_top .userfont_po p.padding_r_40{padding:0px 55px 0px 0px;}
+.inf_font_box .inf_top .userfont_po p.left_font a{color: #3B5998; font-size: 12px; }
+.inf_font_box .inf_top .userfont_po p.left_font a:hover{ text-decoration:underline;}
+.inf_font_box .inf_top .userfont_po p.left_font a.moerfont{color: #3B5998; font-size: 12px; }
+.inf_font_box .inf_top .userfont_po p.left_font span.M5px{ margin:0px 8px 0px 5px;}
+
+.inf_font_box .inf_top .userfont_po .pencil_box{ position:absolute; top:0px; right:15px; width:16px; height:16px; background-color:#CCC;}
+.inf_font_box .inf_top .userfont_po a.pencilfont { float:right; background:url(../images/user/iconbtn.gif) no-repeat left -1600px; display: inline-block; float: right; width: 16px;  height: 16px; text-indent: -9999px; vertical-align: middle; }
+.inf_font_box .inf_top .userfont_po a.pencilfont:hover{ background-position: left -1632px;}
+
+.inf_font_box .inf_top a.host_account{color: #3B5998; font-size: 12px; font-weight: bold;  padding:0px 3px 0px 0px; line-height: 23px;}
+.inf_font_box .inf_top a.boardfont{color: #3B5998; font-size: 13px; font-weight: bold; letter-spacing: 1px;}
+
+.inf_font_box .inf_top p.left_row_icon{ color:#fbfbfb; float:left; line-height:20px; padding:0px 5px; margin:0px 0px 0px 5px; text-decoration:none; background-color:#454545; }
+<!--.inf_font_box .inf_top .userfont_2 p.left_row_icon{ color:#fbfbfb; float:left; line-height:20px; padding:0px 5px; margin:0px 0px 0px 5px; text-decoration:none; background-color:#454545; }
+-->
+
+/*.inf_font_box .inf_top .userfont p.right_row { color: #6E6E6E; float: right; font-size: 11px; height: 20px;  line-height: 20px; padding:0px 15px 0px 0px; }*/
+.inf_font_box .inf_top p.right_row { color: #999999; float: right; font-size: 11px; height: 20px;  line-height: 20px; padding:0px 10px 0px 0px; }   
+.inf_font_box .inf_top p.pad_2{ padding:0px;}                                 
+.inf_font_box .inf_top p.right_ICON{ float: right; font-size:11px; height:23px; line-height:23px; margin:0px 0px 0px 5px;}
+.inf_font_box .inf_top p.right_ICON a.iconbtn{ display:block; width:36px; height:19px; text-indent:-999px; background: url(../images/user/btm_unsubscribe.gif) no-repeat left 0px;}
+.inf_font_box .inf_top p.right_ICON a.iconbtn:hover{ background-position: -36px 0px;}
+.inf_font_box .inf_top p.right_ICON a.iconbtn:active{ background-position: -36px 0px;}
+.inf_font_box .inf_top p.right_ICON a.focusbtn{ display:block; width:36px; height:20px; text-indent:-999px; background: url(../images/user/btm_unsubscribe.gif) no-repeat -36px 0px;}
+
+/*==文字_開始==*/ 
+.inf_font_box .inf_top .fontbox{float:left; display: block;  width:430px; /*height:*/ margin:1px 0px 0px 0px; padding: 3px 0px 3px 0px; background-color:#f5f5f5; /*background-color:#fafafa;*/}
+.inf_font_box .inf_top .f_b_cnomo{ background:none;}
+/*30X30頭像*/
+.inf_font_box .inf_top .fontbox .userimgbox{float:left; width:30px; height:30px; margin:5px 6px 5px 6px; background-color:#fff;}
+.inf_font_box .inf_top .fontbox .userimgbox img_U30 a.img_ubtn{ display:block; width:30px; height:30px; overflow:hidden;}
+.inf_font_box .inf_top .fontbox .userimgbox img_U30 a.img_ubtn img_U30{ width:30px; height:30px; }
+
+.inf_font_box .inf_top .fontbox .userimgbox16{float:left; width:16px; height:16px; margin:8px 0px 0px 12px; background-color:#fff;}
+.inf_font_box .inf_top .fontbox .userimgbox img_U16 a.img_ubtn{ display:block; width:30px; height:30px; overflow:hidden;}
+.inf_font_box .inf_top .fontbox .userimgbox img_U16 a.img_ubtn img_U16{ width:30px; height:30px; }
+
+/*留言輸入_按鈕*/
+.inf_font_box .inf_top .floatbox{ float:left;}
+.inf_font_box .inf_top .floatbox_W{ float:left; width:440px;}
+.inf_font_box .inf_top .floatbox_W590{ float:left; width:590px;}
+.inf_font_box .inf_top .floatbox_W360{ float:left; width:360px;}
+.inf_font_box .inf_top .floatbox_W580{ float:left; width:580px;}
+
+/*==icon式留言==*/
+.inf_font_box .inf_top .floatbox .uiMentionsInput{display:block; position:relative; }
+.inf_font_box .inf_top .floatbox .uiMentionsInput .highlighter{ display:block; left: 0; top:4px; line-height: 21px; padding:2px 6px 2px 6px; overflow: hidden; position: absolute; font-size:13px; }
+
+.uiMentionsInput .highlighterContent { display: inline-block; max-width: 100%; }
+.metadataFragment { color:#656565; font-size:12px;}
+
+.metadataFragment a{ font-size:12px; color:#777; text-decoration: none; line-height:16px; margin:0px 5px 0px 0px;}
+.metadataFragment a:hover{ color:#3B5998; text-decoration:none;}
+.metadataFragment a span.fontbold{color: #656565;font-family: Century Gothic; font-size: 15px; font-weight: bold;  height: 16px; line-height: 6px; padding: 0 0 0 2px; vertical-align: -1px;}
+.metadataFragment a span.fontbtn{ height:16px; line-height:16px; padding:1px 4px 0px 3px; background-color:#454545; color:#FFF; border-radius: 2px 2px 2px 2px; margin:0px 0px 0px 2px;}
+
+.metadataFragment_R { float:right;}
+.metadataFragment_R a.fontright{text-align:right; font-size:12px; color:#3B5998; text-decoration: none; line-height:21px; margin:0px 5px 0px 0px; font-weight:bold;}
+.metadataFragment_R a.fontright:hover{ color:#3B5998; text-decoration:underline;}
+
+.metadataFragment .img{ width:16px; height:16px; }
+.metadataFragment .agk{ margin:0px 2px;vertical-align: -4px;}
+.uiTypeahead{ border-width: 1px 0; cursor: default; /*position: relative; z-index:2;*/}
+
+
+.inf_font_box .inf_top .floatbox .uiMentions{display:block; float:left; width:100%; color:#656565;  }
+.inf_font_box .inf_top .floatbox .uiMentions .highlighter{ display:block;  line-height: 21px; padding:2px 6px 2px 6px; overflow: hidden; font-size:13px; }
+
+
+/*==icon式留言_結束==*/
+
+.inf_font_box .inf_top .width_514{ width:514px;}
+.inf_font_box .inf_top .width_438{ width:438px;}
+.inf_font_box .inf_top .width_350{ width:350px;}
+.inf_font_box .inf_top .width_666{ width:666px;}
+.inf_font_box .inf_top .width_658{ width:658px;}
+
+.inf_font_box .inf_top .BG_color{ background-color:#fff; }
+.inf_font_box .inf_top .BG_color_b{ background-color:#fff; /*border-bottom:1px solid #CBCBCB;*/ padding:0px 0px 10px 0px; }
+.inf_font_box .inf_top .UFnotice_c {  background-color: #FFF6DD; /* background-color:#FFEDBE;*/  /* background-color: #EDF7FD;*/}
+
+.inf_font_box .inf_top .font_C{ float:left; }
+.inf_font_box .inf_top .floatbox_R{ float:right;}
+.inf_font_box .inf_top .margin_T {margin:3px 0px 0px 0px; *margin:2px 0px 0px 0px; margin:2px 0px 0px 0px\0; /* ie 8/9*/ }
+.inf_font_box .inf_top .margin_T_b {margin:3px 0px 3px 0px; *margin:2px 0px 2px 0px; margin:2px 0px 2px 0px\0; /* ie 8/9*/ }
+
+.inf_font_box .inf_top .floatbox a.fontbtn{ float:left; display:block; font-size:13px; color: #555555; line-height:22px; padding:2px 10px 1px 10px; margin:4px 0px 0px 3px; background:url("../images/user/us_mails_btn.gif") repeat-x left -256px #f0f0ef; border: 1px solid #b6b6b6; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); font-weight: bold; border-radius: 2px 2px 2px 2px;}
+.inf_font_box .inf_top .floatbox a.fontbtn:hover{color: #454545; text-decoration: none;  background:url(../images/user/us_mails_btn.gif) repeat-x left -298px; border: 1px solid #858585; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);}
+.inf_font_box .inf_top .floatbox a.fontbtn:active{color: #454545; text-decoration: none;  background:url(../images/user/us_mails_btn.gif) repeat-x left -256px; border: 1px solid #858585; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);}
+.inf_font_box .inf_top .floatbox p.fontbtn{ float:left; display:block; font-size:13px; color: #C8C8C8; line-height:22px; padding:2px 10px 1px 10px; margin:4px 0px 0px 3px; background:url("../images/user/us_mails_btn.gif") repeat-x left -256px #f0f0ef; border: 1px solid #ebebeb; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1); font-weight: bold; border-radius: 2px 2px 2px 2px;}
+/*.inf_font_box .inf_top .floatbox a.f_c85{ color:#858585;}*/
+
+.inf_font_box .inf_top p.fonechat { float:left; width:350px;/*height:20px;*/ margin:2px 0px 0px 0px; line-height: 1.28; font-size:13px; color: #454545;/* padding: 5px 0px;*/  /*letter-spacing: 1px;*/;word-break: break-all;}
+.inf_font_box .inf_top p.fonechat span.fone_11{ font-size:11px;}
+.inf_font_box .inf_top p.fonechat a.fontuser{ color: #3B5998; height:20px; line-height:20px; font-size: 12px; font-weight:bold; padding:0px 2px 0px 0px; letter-spacing: 0px;}
+.inf_font_box .inf_top p.foneC85 { float:left; width:350px; /*height:20px;*/ line-height:12px; font-size:11px; color: #858585; margin:2px 0px 3px 0px;}
+.inf_font_box .inf_top  p.width_all{ width:440px;}
+.inf_font_box .inf_top  p.width_360{ width:360px;}
+.inf_font_box .inf_top  p.width_590{ width:590px;}
+.inf_font_box .inf_top  p.width_590{ width:590px;}
+.inf_font_box .inf_top  p.width_580{ width:580px;}
+/*.inf_font_box .inf_top .font_C p.width_300{ width:300px;}*/
+
+/*==X 刪除按鈕 _ 靠右靠左==*/
+.inf_font_box .inf_top .fontbox .floatbox p.fonedelete { float: right; width:31px; height:31px; line-height:34px; font-size:10px; color:#454545; }
+.inf_font_box .inf_top .fontbox .floatbox p.fonedelete .deletebtn{ display:block; width:31px; height:31px; background: url(../images/user/user2012/fonedelete_icon.gif) no-repeat left top; text-indent:-9999px;}
+.inf_font_box .inf_top .fontbox .floatbox p.fonedelete .deletebtn:hover{ background-position: -31px top;}
+.inf_font_box .inf_top .fontbox .floatbox_R p.fonedelete { float: right; width:31px; height:31px; line-height:34px; font-size:10px; color:#454545; }
+.inf_font_box .inf_top .fontbox .floatbox_R p.fonedelete .deletebtn{ display:block; width:31px; height:20px; background: url("../images/user/user2012/fonedelete_icon.gif") no-repeat left top; text-indent:-9999px;}
+.inf_font_box .inf_top .fontbox .floatbox_R p.fonedelete .deletebtn:hover{ background-position: -31px top;}
+
+/*==店家-連結==*/
+.inf_font_box .inf_top .fontbox h3.noteRed{ display:block; float:left;  width:380px;  padding:0px 0px 0px 20px; }
+
+.inf_font_box .inf_top .fontbox h3.w_all{ width:464px;}
+.inf_font_box .inf_top .fontbox h3.w_388{ width:388px;}
+.inf_font_box .inf_top .fontbox h3.w_600{ width:600px;}
+/*.inf_font_box .inf_top .fontbox h3.w_476{ width:476px; padding:0px 0px 0px 38px; background-color:#999;}*/
+
+.inf_font_box .inf_top .fontbox h3.noteRed a.ShortName{ width:356px; height:20px; display:block; overflow:hidden; float:left; font-size:12px; color:#3B5998; line-height:20px; letter-spacing:1px; font-weight:normal;}
+.inf_font_box .inf_top .fontbox h3.noteRed a.ShortName:hover{ color:#3B5998; text-decoration:underline;}
+.inf_font_box .inf_top .fontbox h3.noteRed img{ float:left; padding: 0px 6px 0px 0px;}
+
+/*.inf_font_box .inf_top .fontbox a.opnebtn, .closebtn{ display:block; float: right; width:23px; height:20px; line-height:20px; font-size:12px; text-indent:-9999px; padding:0px 5px 0px 0px; }
+*/
+/*.inf_font_box .inf_top .fontbox a.closebtn{ display:block; float: right; width:23px; height:30px; line-height:30px; font-size:12px; text-indent:-999px; padding:0px 5px 0px 0px; }*/
+.inf_font_box .inf_top .fontbox a.opnebtn{display:block; float: right; width:23px; height:20px; line-height:20px; font-size:12px; text-indent:-9999px; padding:0px 5px 0px 0px;  background: url("../images/user/iconbtn.gif") no-repeat -70px top;  }
+.inf_font_box .inf_top .fontbox a.opnebtn:hover{ background-position: -93px top;}
+.inf_font_box .inf_top .fontbox a.closebtn{display:block; float: right; width:23px; height:20px; line-height:20px; font-size:12px; text-indent:-9999px; padding:0px 5px 0px 0px; background: url("../images/user/iconbtn.gif") no-repeat -116px top; }
+.inf_font_box .inf_top .fontbox a.closebtn:hover{ background-position: -139px top;}
+
+/*==文字==*/
+.inf_font_box .inf_top .fontbox h4{color:#858585; display:block; float:left; font-size:12px; padding:0px 0px 0px 5px; height:20px; /*letter-spacing: 1px;*/ line-height:24px;}
+
+.inf_font_box .inf_top .fontbox p.numberfont{color:#454545; display:block; float: right;  font-size:12px; width:380px; padding:1px 0px 0px 0px; line-height:20px; letter-spacing: 1px;}
+
+.inf_font_box .inf_top .fontbox p.w_all{ width:470px;}
+.inf_font_box .inf_top .fontbox p.w_434{ width:440px;}
+.inf_font_box .inf_top .fontbox p.w_394{ width:394px;}
+.inf_font_box .inf_top .fontbox p.w_617{ width:617px; /*width:623px;*/}
+
+
+.inf_font_box .inf_top .fontbox p.numberfont a.moerPlaces{ float:right; color:#3B5998; /*color:#FF9933;*/ padding:0px 5px 0px 0px; text-decoration:none; }
+.inf_font_box .inf_top .fontbox p.numberfont a.moerPlaces:hover{ text-decoration:underline;}
+
+/*==文字_結束==*/
+
+
+/*===========動態_一則資訊_開始=============*/
+/*動態*/
+.inf_content{float:left; width:790px; /*border:1px solid #cbcbcb; border-width: 1px 1px 1px 1px;*/  padding:0px 0px 20px 0px; }
+.inf_content .leftcontent{ width:554px; border:1px solid #cbcbcb; float:left;}
+.inf_content .leftcontent .left_box{float:left; width:518px;  padding:15px 18px 15px 18px;  border:1px solid #e9e9e9; border-width: 0px 0px 1px 0px; z-index:1px;}
+
+.inf_content .fontWra{ float:left; padding:0px 0px 0px 47px; }
+.inf_top .fontWra    { float:left; padding:0px 0px 0px 47px; }
+.inf_top .fontWra_w83{ float:left; padding:0px 0px 0px 83px; }
+.inf_top .fontWra_w12{ float:left; padding:0px 0px 0px 12px; }
+.inf_top .fontWra_w50{ float:left; padding:0px 0px 0px 50px; }
+
+.main_content .leftcontent .w758{width:758px;}
+.main_content .leftcontent .w540{width:538px;}
+
+/*標題_個人*/
+.main_content .Uititle{float:left; width:758px;  padding:15px 15px 5px 15px; border:1px solid #cbcbcb; border-width: 0px 0px 1px 0px; z-index:1px; background-color:#F9F7F7;}
+.main_content .Uititle .UititleBOX{ float: left; width:758px; padding:0px 0px 5px 0px; position:relative;}
+.main_content .Uititle .UititleBOX h3.leftfont{ float:left; /*width:400px;*/ color:#454545;  font-size:26px; line-height:30px; font-family: "Helvetica Neue","微軟正黑體","Microsoft Jhenghei",Helvetica,Arial,sans-serif;}
+.main_content .Uititle .UititleBOX h3.leftfont a.btnfont{ float:left; display:block; color:#3B5998; font-size:26px; line-height:30px; text-decoration:none;}
+.main_content .Uititle .UititleBOX h3.leftfont a.btnfont:hover{ text-decoration:underline; color:#3B5998;}
+
+
+.main_content .leftcontent{ width:638px; float:left; margin:0px 0px 0px 0px;}
+.main_content .w568{ width:568px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1728 @@
+@charset "utf-8";
+/* CSS Document */
+
+#family_wrapper h1, #family_wrapper h2, #family_wrapper h3, #family_wrapper h4, #family_wrapper h5, #family_wrapper h6, #family_wrapper p, #family_wrapper a {
+  color: #454545;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif, "新細明體-ExtB";
+  letter-spacing: 1px;
+}
+#family_wrapper {
+  width: 980px;
+  margin: 30px auto 0 auto;
+}
+#family_wrapper .family_header {
+  width: 980px
+}
+#family_wrapper .family_header .floatL {
+  float: left;
+}
+#family_wrapper .family_header .family_main {
+  width: 790px;
+}
+#family_wrapper .family_header .family_Rbox {
+  float: right;
+  width: 175px;
+  height: 79px;
+  background-color: #f4f4f4;
+}
+#family_wrapper .family_header .family_pic {
+  float: left;
+  text-align: center;
+}
+.family_pic img.pic_h75 {
+  height: 75px;
+  padding: 1px;
+  border: 1px #e3e3e3 solid;
+}
+.family_pic img.pic_h100 {
+  height: 100px;
+  padding: 1px;
+  border: 1px #e3e3e3 solid;
+}
+#family_wrapper .family_header .family_infor {
+  float: right;
+  width: 663px;
+  height: 79px;
+}
+#family_wrapper .family_header .family_infor .family_tab {
+  height: 34px;
+  border-bottom: 1px #bababa solid;
+}
+#family_wrapper .family_header .family_infor h3.family_name {
+  float: left;
+  width: 300px;
+  overflow: hidden
+}
+#family_wrapper .family_header .family_infor ul.family_menu {
+  float: right;
+  width: 360px;
+  height: 34px;
+}
+#family_wrapper .family_header .family_infor h3.family_name a {
+  display: block;
+  color: #454545;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  height: 34px;
+  line-height: 34px;
+  padding-left: 5px;
+  overflow: hidden;
+}
+#family_wrapper .family_header .family_infor h3.family_name a.private {
+  background: url(../images/club/icon_private.gif) no-repeat 2px 10px;
+  padding-left: 22px;
+}
+#family_wrapper .family_header .family_infor h3.family_name a.semi_closed {
+  background: url(../images/club/icon_private.gif) no-repeat 2px -39px;
+  padding-left: 22px;
+}
+#family_wrapper .family_header .family_infor .family_tab ul.family_menu li {
+  float: right;
+  height: 34px;
+  padding-left: 5px;
+}
+#family_wrapper .family_header .family_infor .family_tab ul.family_menu li a {
+  color: #454545;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+#family_wrapper .family_header .family_infor .family_tab ul.family_menu li a span {
+  padding: 0 20px;
+  _padding: 0 15px;
+}
+#family_wrapper .family_header .family_infor .family_tab ul.family_menu li a.active {
+  display: block;
+  height: 33px;
+  line-height: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-color: #bababa #bababa #fff;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #fff;
+  _width: 115px;
+  _height: 31px;
+}
+#family_wrapper .family_header .family_infor .family_tab ul.family_menu li a:hover.active {
+  text-decoration: none;
+}
+#family_wrapper .family_header .family_infor .family_tab ul.family_menu li a.non {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  border-color: #d2d2d2 #d2d2d2 #fff;
+  border-style: solid;
+  border-width: 1px;
+  background: url(../images/club/bg_menu.gif) no-repeat left top;
+}
+#family_wrapper .family_header .family_infor .family_tab ul.family_menu li a:hover.non {
+  color: #888;
+  text-decoration: none;
+}
+#family_wrapper .family_header .family_infor .family_tab ul.family_menu li a.non span {
+  display: block;
+  background: url(../images/club/bg_menu.gif) no-repeat right -30px;
+}
+#family_wrapper .family_header .family_infor .family_master {
+  width: 660px;
+  overflow: hidden;
+}
+#family_wrapper .family_header .family_infor .family_master p.master_box {
+  padding: 15px 0 0 5px;
+  width: 660px;
+  height: 23px;
+  overflow: hidden;
+}
+#family_wrapper .family_header .family_infor .family_master p.master_box a.user {
+  font-family: arial;
+  font-size: 11pt;
+  color: #105CB6;
+  text-decoration: none;
+  letter-spacing: 0px
+}
+#family_wrapper .family_header .family_infor .family_master p.master_box a.user:hover {
+  color: #ff9933;
+  text-decoration: underline
+}
+#family_wrapper .family_header .family_infor .family_master p.master_box span.text9 a.origin {
+  font-size: 9pt;
+  color: #666;
+}
+#family_wrapper .family_header .family_infor .family_master p.master_box span.text9 a:hover.origin {
+  text-decoration: underline;
+  color: #ff9933
+}
+#family_wrapper .family_header .family_Rbox a.join_family {
+  color: #F64949;
+  display: block;
+  font-size: 12px;
+  width: 86px;
+  height: 28px;
+  line-height: 28px;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  background: url(../images/club/btn_join.jpg) no-repeat 0 0;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+#family_wrapper .family_header .family_Rbox a:hover.join_family {
+  color: #931D1D;
+  text-decoration: none;
+  background: url(../images/club/btn_join.jpg) no-repeat 0 -28px;
+}
+#family_wrapper .family_header .family_Rbox a:active.join_family {
+  color: #931D1D;
+  text-decoration: none;
+  background: url(../images/club/btn_join.jpg) no-repeat 0 -56px;
+}
+#family_wrapper .family_header .family_Rbox a.quit_family {
+  color: #999;
+  display: block;
+  font-size: 12px;
+  width: 86px;
+  height: 28px;
+  line-height: 28px;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  background: url(../images/club/btn_join.jpg) no-repeat -86px 0;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+#family_wrapper .family_header .family_Rbox a:hover.quit_family {
+  color: #777;
+  text-decoration: none;
+  background: url(../images/club/btn_join.jpg) no-repeat -86px -28px;
+}
+#family_wrapper .family_header .family_Rbox a:active.quit_family {
+  color: #777;
+  text-decoration: none;
+  background: url(../images/club/btn_join.jpg) no-repeat -86px -56px;
+}
+#family_wrapper .family_header .family_Rbox p {
+  color: #888;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+#family_wrapper .family_header .family_Rbox p span {
+  padding: 0 4px;
+}
+/*家族頁_左分類*/
+#family_wrapper .family_sub {
+  float: left;
+  width: 175px;
+}
+#family_wrapper .family_sub .sub_box {
+  width: 173px;
+  border: 1px #e3e3e3 solid;
+  margin-bottom: 15px;
+}
+#family_wrapper .family_sub .sub_title {
+  height: 34px;
+  background-color: #ffd543;
+  border: 1px #fff solid;
+  border-width: 1px 1px 0 1px;
+}
+#family_wrapper .family_sub .sub_title h3 {
+  color: #666;
+  font-size: 15px;
+  line-height: 34px;
+  padding-left: 12px;
+}
+#family_wrapper .family_sub .sub_title h4 {
+  color: #666;
+  font-size: 13px;
+  line-height: 34px;
+  padding-left: 12px;
+}
+#family_wrapper .family_sub .sub_content {
+  background-color: #fff;
+  padding: 10px 0;
+}
+#family_wrapper .family_sub .sub_content ul.sort {
+  padding: 0 15px;
+}
+#family_wrapper .family_sub .sub_content ul.sort li {
+  padding: 2px 0;
+}
+#family_wrapper .family_sub .sub_content ul.sort li a {
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+#family_wrapper .family_sub .sub_content ul.sort li a span {
+  color: #888;
+  font-size: 12px;
+  padding-left: 3px;
+  letter-spacing: 1px;
+}
+#family_wrapper .family_sub .sub_content ul.sort li a:hover {
+  color: #999;
+  text-decoration: underline;
+}
+#family_wrapper .family_sub .sub_content ul.sort li a.sort_on {
+  color: #f00;
+  font-weight: bold;
+  text-decoration: none;
+}
+#family_wrapper .family_sub .sub_content p.txt12 {
+  padding-left: 10px;
+  line-height: 24px;
+}
+#family_wrapper .family_sub .sub_content p.padL20 {
+  padding-left: 22px;
+}
+#family_wrapper .family_sub .sub_content p.padL20 a {
+  color: #105cb6;
+  text-decoration: none;
+}
+#family_wrapper .family_sub .sub_content p.padL20 a:hover {
+  text-decoration: underline;
+}
+#family_wrapper .family_sub .sub_content ul.hot_search {
+  padding: 0 6px 0 10px;
+}
+#family_wrapper .family_sub .sub_content ul.hot_search li {
+  float: left;
+  width: 78px;
+  height: 20px;
+  overflow: hidden;
+  padding: 1px 0;
+}
+#family_wrapper .family_sub .sub_content ul.hot_search li a {
+  font-size: 12px;
+  text-decoration: none;
+}
+#family_wrapper .family_sub .sub_content ul.hot_search li a:hover {
+  color: #888;
+  text-decoration: underline;
+}
+/*家族頁_右列表*/
+#family_wrapper .family_list {
+  float: right;
+  width: 790px;
+}
+#family_wrapper .family_list .list_title {
+  position: relative;
+  width: 790px;
+  height: 34px;
+  background: url(../images/club/css_family.jpg) no-repeat -7px 0;
+}
+#family_wrapper .family_list .list_title h2 {
+  font-size: 15px;
+  color: #666;
+  background: url(../images/club/icon_family.gif) no-repeat 14px 7px;
+  padding-left: 40px;
+  line-height: 34px;
+  _line-height: 36px;
+  letter-spacing: 2px;
+}
+#family_wrapper .family_list .list_title ul.list_order {
+  position: absolute;
+  right: 18px;
+  top: 0;
+  _height: 37px;
+}
+#family_wrapper .family_list .list_title ul.list_order li {
+  float: left;
+  font-size: 12px;
+  color: #666;
+  line-height: 34px;
+  padding-left: 2px;
+}
+#family_wrapper .family_list .list_title ul.list_order li a {
+  display: block;
+  color: #fff;
+  line-height: 34px;
+  padding: 0 10px;
+  text-align: center;
+  background: url(../images/club/css_family.jpg) no-repeat -130px -41px;
+}
+#family_wrapper .family_list .list_title ul.list_order li a:hover {
+  text-decoration: none;
+  background: url(../images/club/css_family.jpg) no-repeat -250px -41px;
+}
+#family_wrapper .family_list .list_title ul.list_order li a.order_active2 {
+  display: block;
+  _width: 30px;
+  height: 37px;
+  background: url(../images/club/css_family.jpg) no-repeat -41px -41px;
+}
+#family_wrapper .family_list .list_title ul.list_order li a.order_active4 {
+  display: block;
+  _width: 62px;
+  height: 37px;
+  background: url(../images/club/css_family.jpg) no-repeat -29px -41px;
+}
+#family_wrapper .family_list .list_title ul.list_order li a.order_active5 {
+  display: block;
+  _width: 72px;
+  height: 37px;
+  background: url(../images/club/css_family.jpg) no-repeat -22px -41px;
+}
+#family_wrapper .family_list .list_title ul.list_order li a.order_active6 {
+  display: block;
+  _width: 84px;
+  height: 37px;
+  background: url(../images/club/css_family.jpg) no-repeat -16px -41px;
+}
+#family_wrapper .family_list .family_tool {
+  width: 760px;
+  padding: 20px 15px 15px 15px;
+  border-bottom: 1px #e5e5e5 solid;
+}
+#family_wrapper .family_list .family_tool input.input_keyword {
+  float: left;
+  width: 250px;
+  height: 26px;
+  color: #666;
+  line-height: 24px;
+  border: 1px #d2d2d2 solid;
+  padding-left: 10px;
+}
+#family_wrapper .family_list .family_tool .search_btn {
+  float: left;
+  width: 90px;
+  height: 28px;
+  line-height: 28px;
+  margin-left: -1px;
+}
+#family_wrapper .family_list .family_tool .search_btn a {
+  display: block;
+  color: #666;
+  text-decoration: none;
+  text-align: center;
+  background: url(../images/club/css_family.jpg) no-repeat -91px -100px;
+}
+#family_wrapper .family_list .family_tool .search_btn a:hover {
+  color: #454545;
+  background-position: -181px -100px;
+  text-decoration: none;
+}
+#family_wrapper .family_list .family_tool .create_family {
+  float: right;
+  padding-right: 5px;
+}
+#family_wrapper .family_list .family_tool .create_family a {
+  display: block;
+  width: 76px;
+  height: 32px;
+  background: url(../images/club/css_family.jpg) no-repeat -7px -100px;
+  text-indent: -9999px;
+}
+#family_wrapper .family_list .family_tool .create_family a:hover {
+  background-position: -7px -140px;
+}
+#family_wrapper .family_list .family_tool .create_family a:active {
+  background-position: -7px -180px;
+}
+#family_wrapper .family_list .Fbox_content {
+  width: 760px;
+  margin: 0;
+  padding: 15px 15px;
+  border-bottom: 1px #ccc dotted;
+}
+#family_wrapper .family_list .unread {
+  background-color: #fefede
+}
+#family_wrapper .family_list .Fbox_content .family_pic {
+  float: left;
+  text-align: center;
+}
+#family_wrapper .family_list .Fbox_content .family_infor {
+  float: right;
+  height: 104px;
+  width: 596px;
+}
+#family_wrapper .family_list .Fbox_content .family_infor h3.family_name {
+  width: 596px;
+  height: 30px;
+  overflow: hidden;
+}
+#family_wrapper .family_list .Fbox_content .family_infor h3.family_name a {
+  float: left;
+  display: block;
+  color: #454545;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 5px;
+  overflow: hidden;
+}
+#family_wrapper .family_list .Fbox_content .family_infor h3.family_name a:hover {
+  color: #999;
+  text-decoration: underline;
+}
+#family_wrapper .family_list .Fbox_content .family_infor h3.family_name a.private {
+  background: url(../images/club/icon_private.gif) no-repeat 3px 7px;
+  padding-left: 22px;
+}
+#family_wrapper .family_list .Fbox_content .family_infor h3.family_name a.semi_closed {
+  background: url(../images/club/icon_private.gif) no-repeat 3px -42px;
+  padding-left: 22px;
+}
+#family_wrapper .family_list .Fbox_content .family_infor p.tag_con {
+  float: left;
+  height: 30px;
+  background: url(../images/club/icon_tag.gif) no-repeat 10px 6px;
+  margin-left: 20px;
+  padding-left: 25px;
+  word-break: break-all;
+}
+#family_wrapper .family_list .Fbox_content .family_infor p.tag_con a {
+  color: #999;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 30px;
+  word-break: break-all;
+}
+#family_wrapper .family_list .Fbox_content .family_infor .family_master {
+  width: 596px;
+  overflow: hidden;
+}
+#family_wrapper .family_list .Fbox_content .family_infor .family_master p.master_box {
+  font-size: 12px;
+  color: #454545;
+  padding: 0 0 0 5px;
+  width: 596px;
+  height: 24px;
+  overflow: hidden;
+  line-height: 21px
+}
+#family_wrapper .family_list .Fbox_content .family_infor .family_master p.master_box a.user {
+  font-family: arial;
+  font-size: 11pt;
+  color: #105CB6;
+  text-decoration: none;
+  letter-spacing: 0px
+}
+#family_wrapper .family_list .Fbox_content .family_infor .family_master p.master_box a.user:hover {
+  color: #ff9933;
+  text-decoration: underline
+}
+#family_wrapper .family_list .Fbox_content .family_infor .family_master p.master_box span.text9 a.origin {
+  font-size: 9pt;
+  color: #666;
+}
+#family_wrapper .family_list .Fbox_content .family_infor .family_master p.master_box span.text9 a:hover.origin {
+  text-decoration: underline;
+  color: #ff9933
+}
+#family_wrapper .family_list .Fbox_content .family_infor p.summary {
+  padding: 1px 0 6px 5px;
+  padding: 2px 0 5px 5px\9\0;
+  width: 590px;
+  height: 17px;
+  overflow: hidden;
+}
+#family_wrapper .family_list .Fbox_content .family_infor p.summary span {
+  color: #999;
+}
+#family_wrapper .family_list .Fbox_content .family_infor .family_databox {
+  width: 580px;
+  height: 22px;
+  background-color: #fffef1;
+  border: 1px #ffd555 solid;
+  padding: 0 0 0 5px;
+}
+#family_wrapper .family_list .Fbox_content .family_infor .family_databox p.txt_data {
+  float: left;
+  color: #454545;
+  padding-left: 10px;
+  line-height: 22px;
+}
+#family_wrapper .family_list .Fbox_content .family_infor .family_databox p.txt_data span.data_red {
+  font-size: 12px;
+  color: #ef4457;
+  font-weight: bold;
+  padding: 0 3px 0 2px;
+}
+#family_wrapper .family_list .Fbox_content .family_infor .family_databox p.txt_data span.line {
+  width: 10px;
+  height: 22px;
+  color: #bbb;
+  font-size: 12px;
+  text-indent: -9999px;
+  padding-left: 10px;
+  line-height: 22px;
+}
+#family_wrapper .family_list .Fbox_content .family_infor .family_databox a.btn_FamEvent {
+  float: right;
+  display: block;
+  width: 125px;
+  height: 22px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  line-height: 24px;
+  line-height: 28px\9\0;
+  _line-height: 22px;
+  padding-left: 10px;
+  background: url(../images/club/css_family.jpg) no-repeat -90px -140px;
+}
+#family_wrapper .family_list .Fbox_content .family_infor .family_databox a:hover.btn_FamEvent {
+  text-decoration: none;
+  background-position: -225px -140px;
+}
+/*家族頁_關於家族_家族管理*/
+.box .box_content form table tbody tr td a.add_place_btn {
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+  color: #454545;
+  float: left;
+  letter-spacing: 1px;
+  background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll left 0px;
+  text-decoration: none;
+}
+.box .box_content form table tbody tr td a.add_place_btn span {
+  display: block;
+  padding: 0px 24px;
+  line-height: 32px;
+  background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll right -32px;
+}
+.box .box_content form table tbody tr td a.add_place_btn:hover {
+  background: url(../images/shop/store/admin/admin_btn.gif) no-repeat left -64px;
+}
+.box .box_content form table tbody tr td a.add_place_btn span:hover {
+  background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll right -96px;
+}
+.box .box_content form table tbody tr td span.textb_1 {
+  font-size: 14px;
+  display: block;
+  margin-top: 15px;
+}
+.box .box_content form table tbody tr td a.change_place_btn {
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  color: #666;
+  float: left;
+  letter-spacing: 1px;
+  background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll left 0px;
+  text-decoration: none;
+}
+.box .box_content form table tbody tr td a.change_place_btn span {
+  display: block;
+  padding: 0px 10px;
+  line-height: 32px;
+  background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll right -32px;
+}
+.box .box_content form table tbody tr td a.change_place_btn:hover {
+  background: url(../images/shop/store/admin/admin_btn.gif) no-repeat left -64px;
+}
+.box .box_content form table tbody tr td a.change_place_btn span:hover {
+  background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll right -96px;
+}
+
+
+
+/*家族頁_新成立家族_填寫基本資料*/
+.wrapper_create_club {
+  width: 780px;
+  margin: 15px auto;
+  padding: 10px 0px 20px;
+}
+.wrapper_create_club .create_club_title {
+  width: 780px;
+  height: 38px;
+  margin: 0px auto;
+  border: 1px solid #CCC;
+
+}
+.wrapper_create_club .create_club_title h1 {
+  float: left;
+  font-size: 18px;
+  width: 165px;
+  line-height: 38px;
+  background-color: #4a7cc9;
+  padding-left: 65px;
+  color: #FFF;
+  letter-spacing: 6px;
+}
+.wrapper_create_club .create_club_title .step_content {
+  float: left;
+  width: 550px;
+  height: 38px;
+}
+.wrapper_create_club .create_club_title .step_content .step_box {
+  width: 220px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.wrapper_create_club .create_club_title .step_content .step_box h3 {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  line-height: 38px;
+  font-weight: normal;
+  padding: 0px 0px 0px 7px;
+  color:#fff;
+  margin-left: -5px;
+}
+.wrapper_create_club .create_club_title .step_content .step_box p.number {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 0px 0px 15px;
+}
+.wrapper_create_club .create_club_title .step_content .step_box p.number span {
+  background: #FFF none repeat scroll 0% 0%;  
+  color: #888;
+  display: block;
+  width: 16px;
+  height: 16px;
+  line-height:16px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 11px;
+  margin-left: 14px;
+}
+.wrapper_create_club .create_club_title .step_content .step_box.step_target {
+  background: #f3a223 none repeat scroll 0% 0%;
+}
+.wrapper_create_club .create_club_title .step_content .step_box.step_none {
+  background: #bbbbbb none repeat scroll 0% 0%;
+}
+.wrapper_create_club .create_club_title .step_content .step_box.step_done {
+  background: #bbbbbb none repeat scroll 0% 0%;
+}
+.wrapper_create_club .create_club_title .step_content .step_box span.arrow_pic {
+  background: transparent url("../images/club/step_arrow_target.png") no-repeat scroll 0% 0%;
+  display: block;
+  width: 25px;
+  height: 38px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.wrapper_create_club .create_club_title .step_content .step_none span.arrow_pic {
+  background: transparent url("../images/club/step_arrow_none.png") no-repeat scroll 0% 0%;
+}
+.wrapper_create_club .create_club_title .step_content .step_done span.arrow_pic {
+  background: transparent url("../images/club/step_arrow_done.png") no-repeat scroll 0% 0%;
+}
+
+
+/*家族頁_新成立家族_填寫基本資料_表格*/
+.wrapper_create_club .create_club_con {
+  width: 740px;
+  margin: 0px auto;
+  padding: 30px 20px;
+  border: 1px solid #CCC;
+  margin-top: -2px;
+  background-color: #FBFBFB;
+}
+.wrapper_create_club .create_club_con .write_box .write_row {
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  border-image: none;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .left_row {
+  float: left;
+  width: 100px;
+  height: 47px;
+  line-height: 47px;
+  text-align: right;
+  margin-right: 5px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .left_row h3 {
+  font-size: 15px;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif, "新細明體-ExtB";
+  font-weight: bold;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .left_row h3 span {
+  color: #ff0606;
+  font-size: 15px;
+  margin-left: -10px;
+  margin-right: 5px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row {
+  float: left;
+  width: 610px;
+  height: 47px;
+  font-size: 12px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .w_130 {
+  width: 130px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .input_css {
+  color: #454545;
+  font-size: 12px;
+  height: 30px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin: 8px 10px 0px 0px;
+  padding: 0px 8px;
+  border: 1px solid #e3e3e3;
+  font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .row_float {
+  float: left;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row p.txt12_6 {
+  font-size: 13px;
+  color: #888;
+  line-height: 38px;
+  padding: 4px 0px 2px 0px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box {
+  width: 742px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box table#storeDesp_tbl.mceLayout {
+  border-width: 0px 1px;
+  border-style: none solid;
+  border-color: -moz-use-text-color #CCC;
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  border-image: none;
+  margin-top: 15px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box td.mceToolbar.mceLeft.mceFirst.mceLast {
+  border-top: 1px solid #CCC;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box td.mceToolbar {
+  background: #F0F0EE none repeat scroll 0% 0%;
+  padding-top: 5px;
+  padding-bottom:5px;
+  vertical-align: top;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box table#storeDesp_toolbar1.mceToolbar {
+  margin-left: 3px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mceButton {
+  width: 20px;
+  height: 20px;
+  margin-right: 1px;
+  border: 1px solid #F0F0EE;
+  display: block;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box span.mce_fullscreen {
+  background-position: -100px -20px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box span.mceIcon, .defaultSkin img.mceIcon {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mceIcon {
+  background: transparent url("../images/club/icons.gif") no-repeat scroll 20px 20px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mceSeparator {
+  display: block;
+  background: transparent url("../images/club/icons.gif") repeat scroll -180px 0px;
+  width: 2px;
+  height: 20px;
+  margin: 2px 2px 0px 4px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mceButtonDisabled .mceIcon {
+  opacity: 0.3;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box span.mce_unlink {
+  background-position: -640px 0px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box span.mce_bold {
+  background-position: 0px 0px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box span.mce_italic {
+  background-position: -60px 0px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box span.mce_underline {
+  background-position: -140px 0px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box span.mce_strikethrough {
+  background-position: -120px 0px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box span.mce_justifyleft {
+  background-position: -460px 0px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box span.mce_justifycenter {
+  background-position: -420px 0px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box span.mce_justifyright {
+  background-position: -480px 0px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box span.mce_justifyfull {
+  background-position: -440px 0px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mce_forecolor span.mceAction {
+  background-position: -720px 0px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mce_forecolor span.mceAction, .defaultSkin .mce_backcolor span.mceAction {
+  overflow: hidden;
+  height: 16px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mceSplitButton span.mceAction {
+  width: 20px;
+  background-image: url("../images/club/icons.gif");
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mceSplitButton span {
+  display: block;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mceColorPreview {
+    margin-left: 2px;
+    width: 16px;
+    height: 4px;
+    overflow: hidden;
+    background: #9A9B9A none repeat scroll 0% 0%;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mceSplitButton a.mceOpen {
+    width: 9px;
+    background: transparent url("../images/club/icons.gif") repeat scroll -741px 0px;
+    border: 1px solid #F0F0EE;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mceSplitButton a, .defaultSkin .mceSplitButton span {
+    height: 20px;
+    display: block;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mce_backcolor span.mceAction {
+    background-position: -760px 0px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mceButtonDisabled .mceIcon {
+    opacity: 0.3;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box span.mce_undo {
+    background-position: -160px 0px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box span.mce_redo {
+    background-position: -100px 0px;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mceListBox .mceText {
+    padding-left: 4px;
+    width: 70px;
+    text-align: left;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid none solid solid;
+    border-color: #CCC -moz-use-text-color #CCC #CCC;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    background: #FFF none repeat scroll 0% 0%;
+    font-family: Tahoma,Verdana,Arial,Helvetica;
+    font-size: 11px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mceListBox .mceOpen {
+    width: 9px;
+    height: 20px;
+    background: transparent url("../images/club/icons.gif") repeat scroll -741px 0px;
+    margin-right: 2px;
+    border: 1px solid #CCC;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mceListBox a {
+    display: block;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box table.mceLayout tr.mceLast td {
+    border-bottom: 1px solid #CCC;
+}
+.wrapper_create_club .create_club_con .write_box .write_row .right_row .editor_box .mceIframeContainer {
+    border-top: 1px solid #CCC;
+}
+
+/*家族頁_新成立家族_填寫基本資料_btn*/
+.wrapper_create_club .create_club_con .write_box .write_row .enter_box{ width:790px; margin: 0 auto; text-align:center; padding: 5px 0 25px 0;}
+.wrapper_create_club .create_club_con .write_box .write_row .enter_box_w720{ width:720px; padding:25px 0 0 0; border-top:1px #ccc solid;}
+.wrapper_create_club .create_club_con .write_box .write_row .enter_box a.enter{ float:left; display:block; font-size:13px; color:#454545; line-height:32px; letter-spacing:2px; background:url(../images/event/insert/admin_btn.gif) no-repeat left -128px; margin: 0 0 0 280px; _display:inline;}
+.wrapper_create_club .create_club_con .write_box .write_row .enter_box a.enter span{ display:block; line-height:32px; background:url(../images/event/insert/admin_btn.gif) no-repeat right -160px; padding: 0 40px;}
+.wrapper_create_club .create_club_con .write_box .write_row .enter_box a.enter:hover{background:url(../images/event/insert/admin_btn.gif) no-repeat left -192px; text-decoration:none;}
+.wrapper_create_club .create_club_con .write_box .write_row .enter_box a.enter:hover span{background:url(../images/event/insert/admin_btn.gif) no-repeat right -224px;}
+.wrapper_create_club .create_club_con .write_box .write_row .enter_box a.cancel{ float:left; color:#105CB6; font-size:12px; text-decoration:underline; line-height:32px; letter-spacing:2px; margin: 0 0 0 20px; _display:inline;}
+.wrapper_create_club .create_club_con .write_box .write_row .enter_box a.cancel:hover{text-decoration:none;}
+
+/*家族頁_新成立家族_設定家族面交點*/
+.wrapper_create_club .create_club_con .txt_box{
+    font-size: 18px;
+    font-weight: 800;
+    display: block;
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 22px;
+}
+.wrapper_create_club .create_club_con .address_box{ 
+  margin:30px auto;
+  width:500px;
+}
+.wrapper_create_club .create_club_con .select_box #area1{
+    visibility: visible;
+    color: #454545;
+    font-size: 13px;
+    height: 26px;
+    padding: 3px;
+    width: 105px;
+    border: 1px solid #CFCFCF;
+    line-height: 17px;
+    vertical-align: middle;
+    float: left;
+    margin-left: 10px;
+}
+.wrapper_create_club .create_club_con .select_box #area2{
+    visibility: visible;
+    color: #454545;
+    font-size: 13px;
+    height: 26px;
+    padding: 3px;
+    width: 105px;
+    border: 1px solid #CFCFCF;
+    line-height: 17px;
+    vertical-align: middle;
+    float: left;
+    margin-left: 5px;
+}
+.wrapper_create_club .create_club_con input.address {
+    width: 240px;
+    height: 24px;
+    font-size: 10pt;
+    line-height: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-color: #7F7F7F #D7D7D7 #D7D7D7 #7F7F7F;
+    vertical-align: middle;
+    margin-left: 5px;
+    padding-left: 5px;
+    color: #454545;
+}
+.wrapper_create_club .create_club_con .gMap {
+    width: 570px;
+    height: 360px;
+    background-color: #E5E3DF;
+    overflow: hidden;
+    margin: 10px 0px 0px -60px;
+  border:1px solid #ccc;
+}
+.wrapper_create_club .create_club_con .notice_MovePin {
+    width: 520px;
+    font-size: 9px;
+    margin: 5px 0px 0px 70px;
+}
+.wrapper_create_club .create_club_con .notice_MovePin span{
+    background: transparent url("../images/club/icon_notice.png") no-repeat scroll 0px 2px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.wrapper_create_club .create_club_con .btn_box .btn{
+    margin: 30px auto 0 auto;
+    width: 120px;
+}
+.wrapper_create_club .create_club_con .btn_box .btn .popbtn{
+    height: 28px;
+    line-height: 28px;
+    font-weight: normal;
+    font-size: 12px;
+    color: #454545;
+    letter-spacing: 2px;
+    text-align: center;
+    background: transparent url("../images/images/btn_pop.gif") repeat-x scroll 0px 0px;
+    padding: 7px 0px;
+}
+.wrapper_create_club .create_club_con .btn_box .btn .popbtn span{
+    line-height: 28px;
+    padding: 7px 10px 6px 12px;
+    background: transparent url("../images/images/btn_pop.gif") no-repeat scroll right -28px;
+}
+.wrapper_create_club .create_club_con .btn_box .btn a.popbtn:hover{
+  color: #666;
+  text-decoration: none;
+  background: url(../images/images/btn_pop.gif) repeat-x 0 -56px;
+}
+.wrapper_create_club .create_club_con .btn_box .btn a.popbtn span:hover{
+  background-position: right -84px;
+}
+.wrapper_create_club .create_club_con .btn_box .btn a.txt_btn{
+  color:#666;
+  font-size:11px;
+  text-decoration:underline;
+  margin-left:5px;
+}
+.wrapper_create_club .create_club_con .btn_box .btn a.txt_btn:hover{
+  text-decoration:none;
+}
+/*新成立家族_完成_邀請朋友*/
+.wrapper_create_club .create_club_con .invite_box{
+  width:360px;
+  height:78px;
+  margin:20px auto;
+  border-bottom:2px solid #999;
+}
+.wrapper_create_club .create_club_con .invite_box img{
+  float:left;
+  margin-left:90px;
+}
+.wrapper_create_club .create_club_con .invite_box p.invite_friend{
+  float:left;
+  margin:54px 0 0 10px;
+  color:#999999;
+  font-size:22px;
+  font-weight:bold;
+}
+.wrapper_create_club .create_club_con .invite_btn{
+  width:200px;
+  height:120px;
+  margin:25px auto 0 auto;
+}
+.wrapper_create_club .create_club_con .invite_btn .invite_btn_email{
+  width:200px;
+  height:40px;
+}
+.wrapper_create_club .create_club_con .invite_btn .invite_btn_email:hover{
+  opacity:0.9;
+}
+.wrapper_create_club .create_club_con .invite_btn .invite_btn_email p.email{
+    background-color: #F3A223;
+    width: 200px;
+    height: 40px;
+    color: #FFF;
+    font-size: 14px;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    text-align: center;
+    float: left;
+    margin-top: 6px;
+    line-height: 40px;
+}
+.wrapper_create_club .create_club_con .invite_btn .invite_btn_email p.email_icon{
+  display:block;
+  float:left;
+  width:18px;
+  height:13px;
+    background: transparent url("../images/club/email_icon.png") no-repeat scroll 0 0 ;
+  margin: -27px 0 0 165px;
+}
+.wrapper_create_club .create_club_con .invite_btn .invite_btn_fb {
+  width:200px;
+  height:40px;
+}
+.wrapper_create_club .create_club_con .invite_btn .invite_btn_fb:hover{
+  opacity:0.9;
+}
+.wrapper_create_club .create_club_con .invite_btn .invite_btn_fb p.fb{
+  background-color:#4477cd;
+  width:200px;
+  height:40px;
+  color:#fff;
+  font-size:14px;
+  border:1px solid #fff;
+  border-radius:8px;
+  text-align:center;
+  float:left;
+  margin-top:6px;
+  line-height: 40px;
+}
+.wrapper_create_club .create_club_con .invite_btn p.fb_icon{
+  display:block;
+  float:left;
+  width:17px;
+  height:18px;
+    background: transparent url("../images/club/fb_icon.png") no-repeat scroll 0 0 ;
+  margin: -30px 0 0 166px;
+}
+/* email邀請朋友輸入框_調整文字顏色&透明度 */
+/* WebKit browsers */
+::-webkit-input-placeholder {
+  color: #fff;
+}
+/* Mozilla Firefox 4 to 18 */
+:-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+/* Mozilla Firefox 19+ */
+::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+/* Internet Explorer 10+ */
+:-ms-input-placeholder {
+  color: #fff;
+}
+/* 輸入框點選時隱藏 */
+input:focus::-webkit-input-placeholder { color:transparent; } input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */ input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+.wrapper_create_club .create_club_con .used_to{
+  width:500px;
+  height:150px;
+  margin:5px auto 0 180px;
+}
+.wrapper_create_club .create_club_con .used_to p{
+  font-size:18px;
+  font-weight:bold;
+}
+.wrapper_create_club .create_club_con .used_to span{
+  color:#888;
+  font-size:13px;
+  display:block;
+  margin: 10px 0 5px 0;
+}
+.wrapper_create_club .create_club_con .used_to textarea.used_to_box{
+  width:360px;
+  height:80px;
+  border:1px solid #ccc;
+  resize: none;
+  padding: 5px;
+  color:#454545;
+  font-size:13px;
+  float:left;
+}
+.wrapper_create_club .create_club_con .used_to a.enter{
+  display:block;
+  width:80px;
+  height:26px;
+  font-size:12px;
+  background-color:#999;
+  float:left;
+  margin: 66px 0 0 5px;
+  border-radius: 3px;
+  color: #fff;
+  line-height: 27px;
+  text-align: center;
+}
+
+
+/* 以地圖模式搜尋加入家族 */
+.wrapper_club_MapSearch{
+    width: 700px;
+    margin: 0px auto;
+    padding:10px 0px 20px;
+}
+.wrapper_club_MapSearch .club_MapSearch_title{
+    width: 700px;
+    height: 55px;
+    margin: 0px auto;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  background-color:#f4f4f4;
+}
+.wrapper_club_MapSearch .club_MapSearch_title h1{
+  font-size:15px;
+  color:#454545;
+  text-align:center;
+  margin-top:8px;
+}
+.wrapper_club_MapSearch .gMap{
+    margin: 8px 0px 0px 0px;
+    width: 405px;
+  height: 500px;
+  overflow: hidden;
+  padding:8px;
+  border: 1px solid #ccc;
+  float:left;
+}
+.wrapper_club_MapSearch .search_result{
+  width:250px;
+  height:340px;
+  padding:8px;
+  border: 1px solid #ccc;
+  margin:8px 0 0 8px;
+  float:left;
+}
+.wrapper_club_MapSearch .setting{
+  height:150px;
+  width:268px;
+  width: 266px;
+  margin: 8px 0px 0px 431px;
+  border: 1px solid #ccc;
+}
+.wrapper_club_MapSearch .setting .title{
+  height:30px;
+  background-color:#f4f4f4;
+  font-size:14px;
+  color:#666;
+  line-height:30px;
+  text-align:center;
+  border-bottom: 1px dotted #ddd;
+}
+.wrapper_club_MapSearch .setting .select_con{
+  margin:10px auto;
+}
+.wrapper_club_MapSearch .setting .select_con .select_box{
+  margin-left:25px;
+}
+.wrapper_club_MapSearch .setting .select_con .btn{
+  margin:10px 0 0 95px;
+}
+.wrapper_club_MapSearch .setting .select_con .btn a.popbtn{
+    height: 28px;
+    line-height: 28px;
+    font-weight: normal;
+    font-size: 12px;
+    color: #454545;
+    letter-spacing: 2px;
+    text-align: center;
+    background: transparent url("../images/images/btn_pop.gif") repeat-x scroll 0px 0px;
+    padding: 7px 0px;
+}
+.wrapper_club_MapSearch .setting .select_con .btn a.popbtn span{
+    line-height: 28px;
+    padding: 7px 10px 6px 12px;
+    background: transparent url("../images/images/btn_pop.gif") no-repeat scroll right -28px;
+}
+.wrapper_club_MapSearch .setting .select_con .btn a.popbtn:hover {
+  color: #666;
+  text-decoration: none;
+  background: url(../images/images/btn_pop.gif) repeat-x 0 -56px;
+}
+.wrapper_club_MapSearch .setting .select_con .btn a.popbtn span:hover {
+  background-position: right -84px;
+}
+.wrapper_club_MapSearch .search_result .title{
+    height: 30px;
+    background-color: #F4F4F4;
+    font-size: 14px;
+    color: #666;
+    line-height: 30px;
+    text-align: center;
+  width: 266px;
+  margin: -8px 0 0 -8px;
+  border-bottom: 1px dotted #ddd;
+}
+.wrapper_club_MapSearch .search_result .all_club_con{
+  height:308px;
+  overflow-y: scroll;
+  padding-right:8px;
+  margin-top:10px;
+}
+.wrapper_club_MapSearch .search_result .all_club_con .club_title{
+  margin:18px 15px 15px 15px;
+  width:190px;
+  height:20px;
+  border-bottom:1px solid #ccc;
+}
+.wrapper_club_MapSearch .search_result .all_club_con .club_box_active .img{
+  width:18px;
+  height:18px;
+  float:left;
+}
+.wrapper_club_MapSearch .search_result .all_club_con .club_box_active .img img{
+    width: 100%;
+    height: 100%;
+}
+.wrapper_club_MapSearch .search_result .all_club_con .club_box .img{
+  width:18px;
+  height:18px;
+  float:left;
+}
+.wrapper_club_MapSearch .search_result .all_club_con .club_box .img img{
+    width: 100%;
+    height: 100%;
+}
+.wrapper_club_MapSearch .search_result .all_club_con .club_title p{
+  font-size:14px;
+  color:#666;
+  float:left;
+  display:block;
+  font-weight:600;
+  letter-spacing:1px;
+  margin: -20px 0 0 25px;
+  width:165px;
+  height:20px;
+  overflow:hidden;
+  text-align:center;
+}
+.wrapper_club_MapSearch .search_result .all_club_con .text_box{
+  width:200px;
+  height:60px;
+  margin:-5px 0 0 14px;
+  overflow:hidden;
+  font-size:14px;
+  color:#666;
+}
+.wrapper_club_MapSearch .search_result .all_club_con .text_box .where{
+  overflow:hidden;
+  height:40px;
+}
+.wrapper_club_MapSearch .search_result .all_club_con .text_box span{
+  font-weight:bold;
+}
+.wrapper_club_MapSearch .search_result .all_club_con .text_box .howmany{
+  font-size:12px;
+  float:left;
+  color:#999;
+  margin-top:3px;
+}
+.wrapper_club_MapSearch .search_result .all_club_con a.join_btn{
+  background-color:#f3a223;
+  border-radius:5px;
+  width:60px;
+  height:28px;
+  margin:10px 0 0 84px;
+  text-align:center;
+  line-height:28px;
+  display:block;
+  color:#fff;
+  font-size: 13px;
+}
+.wrapper_club_MapSearch .search_result .all_club_con a.join_btn:hover{
+  background-color:#35495d;
+  text-decoration:none;
+}
+.wrapper_club_MapSearch .search_result .all_club_con .club_box_active{
+  display:block;
+  border:2px solid #35495d;
+  display:block;
+  background-color:#f4f4f4;
+  height:160px;
+  border-radius:3px;
+}
+.wrapper_club_MapSearch .search_result .all_club_con .club_box_active:hover{
+  text-decoration:none;
+}
+.wrapper_club_MapSearch .search_result .all_club_con .club_box{
+  display:block;
+  border-top:1px solid #ccc;
+  display:block;
+  background-color:#f4f4f4;
+  height:160px;
+  border-radius:3px;
+  margin-top:10px;
+}
+.wrapper_club_MapSearch .search_result .all_club_con .club_box:hover{
+  text-decoration:none;
+  background-color:#efefef;
+}
+.wrapper_club_MapSearch .other_service{
+  float:left;
+    width: 700px;
+    height: 40px;
+    margin: 8px auto;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    background-color: #F4F4F4;
+  line-height:40px;
+}
+.wrapper_club_MapSearch .other_service h1{
+    font-size: 13px;
+    color: #454545;
+    text-align: center;
+}
+.wrapper_club_MapSearch .other_service h1 a{
+  margin:0 5px;
+  color:#4a7cc9;
+}
+.wrapper_club_MapSearch .other_service h1 a:hover{
+  color:#f3a223;
+  text-decoration:none;
+}
+.wrapper_club_MapSearch .search_result .NotFound_box{
+  height:320px;
+}
+.wrapper_club_MapSearch .search_result .NotFound_box .NotFound img{
+  margin:65px 0 0 70px;
+}
+.wrapper_club_MapSearch .search_result .NotFound_box .NotFound p{
+  font-size:14px;
+  font-weight:bold;
+  text-align:center;
+  color:#666;
+  margin-top:10px;
+}
+
+/* loading搜尋結果 */
+.wrapper_club_MapSearch .search_result .loading_box{
+  margin: 20px 0 0 80px;
+}
+
+/* 地圖小框框資訊 */
+.name_address_btn{
+  float:left;
+  padding:8px;
+}
+.name_address_btn p{
+  color:#666;
+  font-size:13px;
+  float:left;
+}
+.name_address_btn a{
+  float:left;
+  background-color: #F3A223;
+  border-radius: 5px;
+  width: 50px;
+  height: 22px;
+  margin: -1px 0px 0px 6px;
+  text-align: center;
+  line-height: 22px;
+  display: block;
+  color: #FFF;
+  font-size: 12px;
+}
+.name_address_btn a:hover{
+    background-color: #35495D;
+    text-decoration: none;
+}
+
+
+
+
+/*======================================== 20151107 家族首頁改版_開始 ========================================*/
+.new_wrapper_club_MapSearch{ margin: 0 auto; padding: 10px 0 20px; min-width: 900px; max-width:1080px; width: 100%;}
+
+/*家族頁說明banner*/
+.new_wrapper_club_MapSearch .club_family_title{ height:140px; background:url(../images/club/banner_bg.jpg) repeat center center;}
+.new_wrapper_club_MapSearch .club_family_title .family_banner_box{ height:60px; padding:40px 0; background:url(../images/club/FamilyPint_icon.png) no-repeat left center / 67px 100px transparent; width:700px; margin:0 auto;}
+.new_wrapper_club_MapSearch .club_family_title .family_banner_box h1.family_banner_h1{ margin-left:85px; color:#32616e; font-size:36px; line-height:40px; font-family:"微軟正黑體",sans-serif; letter-spacing:1px; position: relative;}
+.new_wrapper_club_MapSearch .club_family_title .family_banner_box h1.family_banner_h1 span.word_comma{ padding:0 3px;}
+.new_wrapper_club_MapSearch .club_family_title .family_banner_box h1.family_banner_h1 span.all_family{ font-size:20px; line-height:20px; background-color:#57c2e9; color:#fff; padding:10px 15px; position:absolute; top: -3px; margin-left:15px; border-radius:5px;}
+.new_wrapper_club_MapSearch .club_family_title .family_banner_box h1.family_banner_h1 span.all_family:before{ display:block; content: ""; border-right:9px solid #57c2e9; border-top:6px solid rgba(0, 0, 0, 0); border-bottom: 6px solid rgba(0, 0, 0, 0); height: 0; position:absolute; left:-9px; top:14px;}
+.new_wrapper_club_MapSearch .club_family_title .family_banner_box h1.family_banner_h1 span.all_family span.family_no{ padding:0 3px;}
+.new_wrapper_club_MapSearch .club_family_title .family_banner_box h2.family_banner_h2{ margin:10px 0 0 85px; font-family: "微軟正黑體", sans-serif; font-size:18px; line-height:20px; color:#7d9da2; letter-spacing:2px; }
+
+/*user位置搜尋說明*/
+.new_wrapper_club_MapSearch .club_family_explain{ background-color:#57c2e9; color:#fff; height:50px; padding:0 10px;}
+.new_wrapper_club_MapSearch .club_family_explain p.location_remind{ color:#fff; line-height:50px; font-size:15px; font-weight:bold; display:inline-block;}
+.new_wrapper_club_MapSearch .club_family_explain a.create_family{ float:right; color:#fff; font-weight:bold; line-height:32px; padding:0 5px 0 0; background:url(../images/club/right_arrow_icon.png) no-repeat 137px center / 10px 10px #32616e; border-radius:5px; margin-top:9px; text-decoration:none; text-align:center; width:150px;}
+.new_wrapper_club_MapSearch .club_family_explain a.create_family:hover{ background-color:#42717e;}
+.new_wrapper_club_MapSearch .club_family_explain a.mail_notice{ float: right; line-height:50px; margin-right:20px; background:url(../images/club/icon_email.png) no-repeat left center / 16px 16px transparent; color:#fff; text-decoration:underline; padding-left:22px; margin-left:10px;}
+.new_wrapper_club_MapSearch .club_family_explain a.mail_notice:hover{ font-weight:bold;}
+
+/*google地圖_家族位置*/
+.new_wrapper_club_MapSearch .new_familyMap_content .family_gMap{ float:left; margin:0; padding:0; overflow:hidden; border:0px; width:70%; height:600px; position:relative;}
+
+/*google地圖_地標資訊*/
+.gmap_print_info{ float:left; padding:10px 0px 10px 18px; max-width:240px;}
+.gmap_print_info p.info_familyName{ font-size:13px; color:#32616e; line-height:25px; font-weight:bold; letter-spacing:0.5px; margin-bottom:5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.gmap_print_info p.info_familyAddress{ font-size:12px; color:#7d9da2; line-height:20px; letter-spacing:0.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.gmap_print_info p.info_familyOther{ font-size:12px; color:#7d9da2; line-height:20px; letter-spacing:0.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.gmap_print_info a.join_btn{ display:block; font-size:12px; font-weight:bold; color:#fff; background-color:#F7CB00; line-height:25px; text-align:center; text-decoration:none; border-radius:4px; margin-top:5px;}
+.gmap_print_info a.join_btn:hover{ opacity:0.8;}
+
+/*搜尋家族位置_設定*/
+.new_wrapper_club_MapSearch .new_familyMap_content .family_searchBox{ float:right; width:30%}
+.new_wrapper_club_MapSearch .new_familyMap_content .family_searchBox .search_setting_box{ background-color:#F0F1F1; padding:20px 0;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_setting_box h4.title_h4{ color:#32616e; font-size:15px; line-height:20px; margin:0 20px;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_setting_box .select_con{ margin:10px 20px 0;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_setting_box .select_con .select_box{}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_setting_box .select_con .select_box select{ border:1px solid #e0e1e1; color:#7d9da2; font-size:13px; height:35px; border-radius:4px; padding:5px 10px; width:48%; background:url(../images/club/select_icon.png) no-repeat 90% center / 8px 4px #fff; -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_setting_box .select_con .select_box select.select_district{ float:right;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_setting_box .select_con .go_search_box{ margin-top:10px; border:1px solid #e0e1e1; border-radius:4px; height:35px; background-color:#fff; position:relative;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_setting_box .select_con .go_search_box input.address{ border:0px; color:#7d9da2; font-size:13px; line-height:25px; height:25px; border-radius:4px; padding:5px 10px; width:80%;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_setting_box .select_con .go_search_box *::-moz-placeholder{ color:#becdcd;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_setting_box .select_con .go_search_box a.go_search_btn{ background:url(../images/club/s_search_icon.png) no-repeat center center / 20px 20px #57c2e9; height:37px; width:40px; display:block; position:absolute; top:-1px; right:-1px; border-radius:0 4px 4px 0}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_setting_box .select_con .go_search_box a.go_search_btn:hover{ background-color:#47b2d9;}
+
+/*搜尋家族位置_結果列表*/
+.new_wrapper_club_MapSearch .new_familyMap_content .family_searchBox .search_result_box{ background-color:#F8F9F9; padding:15px 0 0; }
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box h4.title_h4{ color:#32616e; font-size:15px; line-height:20px; padding:0 20px 15px; border-bottom:1px dashed #aebdbd;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box .all_club_con{ height:397px; overflow:auto;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box .one_club_con{ padding:15px 20px; border-bottom:1px dashed #aebdbd;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box .one_club_con p.club_title{ font-size:13px; font-weight:bold; color:#3e6c7a; line-height:24px; background:url(../images/club/nofocus_s_pint_icon.png) no-repeat left center / 17px 24px transparent; padding-left:22px; margin-bottom:5px; letter-spacing:1px; overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box .one_club_con .text_box p.where{ font-size:12px; color:#7d9da2; line-height:20px; padding-left:22px;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box .one_club_con .text_box p.howmany{ font-size:12px; color:#7d9da2; line-height:20px; padding-left:22px;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box .one_club_con .text_box span{ font-weight:bold;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box .one_club_con a.join_btn{ background-color:#F7CB00; color:#fff; font-size:13px; margin:5px 0 0 22px; padding:5px 10px; display: block; text-align:center; width:130px; border-radius:4px; text-decoration:none;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box .one_club_con a.join_btn:hover{ opacity:0.8;}
+
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box .active_club{ background-color:#F0F3F3;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box .active_club p.club_title{ background:url(../images/club/focus_s_pint_icon.png) no-repeat left center / 17px 24px transparent;}
+
+/*搜尋家族位置_無搜尋結果*/
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box p.noSearch_remind{ color:#52818e; font-size:15px; font-weight:bold; line-height:25px; text-align:center; margin-top:25px;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box p.or_remind { color:#52818e; font-size:13px; font-weight:bold; line-height:30px; text-align:center;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box a.go_create_btn{ display:block; background-color:#57c2e9; color:#fff; font-size:13px; line-height:30px; margin:10px auto 0; width:180px; text-align:center; border-radius:15px; text-decoration:none;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box a.go_create_btn:hover{ background-color:#4fb9e0;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box a.go_notice_btn{ display:block; background-color:#37a2c9; color:#fff; font-size:13px; line-height:30px; margin:0 auto 10px; width:180px; text-align:center; border-radius:15px; text-decoration:none;}
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box a.go_notice_btn:hover{ background-color:#2f99c0;}
+
+/*搜尋家族位置_loading*/
+.new_wrapper_club_MapSearch .new_familyMap_content .search_result_box .loading_box{ margin:20px auto; text-align:center;}
+
+/*社區合購Banner*/
+.new_wrapper_club_MapSearch .community_block{ background-color: #52818e; padding:28px; text-align:center; margin:0 auto;}
+.new_wrapper_club_MapSearch .community_block h2.community_title_h2{ font-family:"微軟正黑體", sans-serif; color:#fff; font-size:28px; line-height:40px;}
+.new_wrapper_club_MapSearch .community_block p.community_text{ font-family:"微軟正黑體", sans-serif; color:rgba(255,255,255,0.8); font-size:16px; line-height:30px;}
+.new_wrapper_club_MapSearch .community_block a.community_create_btn{ display:block; color:#52818e; background:url(../images/club/icon_arrow_right.png) no-repeat 155px center / 6px 12px rgba(255,255,255,0.8); line-height:35px; padding-right:10px; width:170px; margin:10px auto 0; border-radius:5px; font-family:"微軟正黑體", sans-serif;}
+.new_wrapper_club_MapSearch .community_block a.community_create_btn:hover{ background-color:#fff; text-decoration:none;}
+/*======================================== 20151107 家族首頁改版_結束 ========================================*/
+
+
+
+
+
+
+/* 家族管理後台_成員自動審核 */
+#admin_wrapper .admin_main .content .auto_check_notyet{ width:600px; height:150px; margin: 20px auto 0 auto;}
+#admin_wrapper .admin_main .content .auto_check_notyet .remind_img{ float:left; width:53px; height:53px; background: transparent url("../images/image/green_remind_icon.png") no-repeat scroll;}
+#admin_wrapper .admin_main .content .auto_check_notyet p.notyet{float: left;margin: 15px;color: #6D9B00;font-size: 15px;font-weight: 700; margin-left: 10px;}
+#admin_wrapper .admin_main .content .auto_check_notyet p.little_txt{ float:left; font-size:12px; color:#888; margin: 20px 0 0 -50px;}
+#admin_wrapper .admin_main .content .auto_check p.little_txt{ float:left; font-size:12px; color:#888; margin: 20px 0 0 95px;}
+#admin_wrapper .admin_main .content .auto_check_notyet a.set_btn{margin-top: 10px;font-size: 13px;display: block;color: #454545;float: left;letter-spacing: 1px;background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll left 0px;text-decoration: none;}
+#admin_wrapper .admin_main .content .auto_check_notyet a.set_btn span{display: block;padding: 0px 24px;line-height: 32px;background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll right -32px;}
+#admin_wrapper .admin_main .content .auto_check_notyet a.set_btn:hover{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat left -64px;}
+#admin_wrapper .admin_main .content .auto_check_notyet a.set_btn:hover span{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat right -96px;}
+#admin_wrapper .admin_main .content .auto_check{margin: 5px auto 20px; height:140px;}
+#admin_wrapper .admin_main .content .auto_check a.popbtn_s{width: 80px;font-size: 13px;display: block;color: #454545;float: left;letter-spacing: 1px;background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll left 0px;text-decoration: none;}
+#admin_wrapper .admin_main .content .auto_check a.popbtn_s span{display: block;padding: 0px 10px;line-height: 32px;background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll right -32px;}
+#admin_wrapper .admin_main .content .auto_check a.popbtn_s:hover{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat left -64px;}
+#admin_wrapper .admin_main .content .auto_check a.popbtn_s:hover span{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat right -96px;}
+
+/* 家族管理後台_申請加入家族 */
+#admin_wrapper .admin_main .content .ask_for_join a.popbtn_s{width: 80px;font-size: 13px;display: block;color: #454545;float: left;letter-spacing: 1px;background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll left 0px;text-decoration: none;}
+#admin_wrapper .admin_main .content .ask_for_join a.popbtn_s span{display: block;padding: 0px 10px;line-height: 32px;background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll right -32px;}
+#admin_wrapper .admin_main .content .ask_for_join a.popbtn_s:hover{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat left -64px;}
+#admin_wrapper .admin_main .content .ask_for_join a.popbtn_s:hover span{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat right -96px;}
+#admin_wrapper .admin_main .content .ask_for_join a.byebye{ color:#454545; font-size:12px; text-decoration:underline;}
+#admin_wrapper .admin_main .content .ask_for_join a.byebye:hover{ text-decoration:none;}
+#admin_wrapper .admin_main .content .ask_for_join .triangle{ width:15px; height:14px;background:url(../images/image/triangle_icon.png) no-repeat ;}
+
+/* 家族管理後台_設定家長 */
+#admin_wrapper .admin_main .content .set_host{ width:660px; height:130px; margin:25px auto -25px auto;}
+#admin_wrapper .admin_main .content .set_host a.set_btn{margin-top: 10px;font-size: 13px;display: block;color: #454545;float: left;letter-spacing: 1px;background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll left 0px;text-decoration: none;}
+#admin_wrapper .admin_main .content .set_host a.set_btn span{display: block;padding: 0px 24px;line-height: 32px;background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll right -32px;}
+#admin_wrapper .admin_main .content .set_host a.set_btn:hover{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat left -64px;}
+#admin_wrapper .admin_main .content .set_host a.set_btn:hover span{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat right -96px;}
+#admin_wrapper .admin_main .content .set_host .which_one_box{ width:460px; height:60px; float:left; margin:0 0 0 20px; border-left:1px dotted #DBD4D4;}
+#admin_wrapper .admin_main .content .set_host .which_one_box .which_one{ margin:10px 0 0 15px;}
+#admin_wrapper .admin_main .content .set_host .which_one_box .which_one span.bold{ font-weight:bold;}
+#admin_wrapper .admin_main .content .set_host .which_one_box .which_one span.red{ color:#F64949; margin-left:15px;}
+#admin_wrapper .admin_main .content .set_host .which_one_box .which_one .input{font-size: 13px;color: #454545;letter-spacing: 1px;width: 225px;height: 30px;padding: 0px 0px 0px 8px;line-height: 30px;margin-bottom: 10px;}
+#admin_wrapper .admin_main .content .set_host .which_one_box p.little_txt{ float: left;font-size: 12px;color: #888;margin: -5px 0px 0px 135px;}
+
+/* 家族管理後台_成員名單 */
+#admin_wrapper .admin_main .content .search_member{ width:560px; height:60px; margin:25px auto 25px auto; border-bottom:1px dotted #DBD4D4;}
+#admin_wrapper .admin_main .content .search_member .search_member_box{ float:left;width:400px; padding-left:6px;}
+#admin_wrapper .admin_main .content .search_member .search_member_box .bold{ font-weight:bold;}
+#admin_wrapper .admin_main .content .search_member .search_member_box .input{font-size: 13px;color: #454545;letter-spacing: 1px;width: 225px;height: 30px;padding: 0px 0px 0px 8px;line-height: 30px;margin-bottom: 10px;}
+#admin_wrapper .admin_main .content .search_member a.set_btn{ float:left;margin-top: 10px;font-size: 13px;display: block;color: #454545;float: left;letter-spacing: 1px;
+background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll left 0px;text-decoration: none;}
+#admin_wrapper .admin_main .content .search_member a.set_btn span{display: block;padding: 0px 24px;line-height: 32px;
+background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll right -32px;}
+#admin_wrapper .admin_main .content .search_member a.set_btn:hover{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat left -64px;}
+#admin_wrapper .admin_main .content .search_member a.set_btn:hover span{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat right -96px;}
+#admin_wrapper .admin_main .content .search_member p.little_txt{ float: left;font-size: 12px;color: #888; margin: -35px 0px 0px 403px;}
+#admin_wrapper .admin_main .content .member_list a.popbtn_s{width: 80px;font-size: 13px;display: block;color: #454545;float: left;letter-spacing: 1px;
+background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll left 0px;text-decoration: none;}
+#admin_wrapper .admin_main .content .member_list a.popbtn_s span{display: block;padding: 0px 10px;line-height: 32px;
+background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll right -32px;}
+#admin_wrapper .admin_main .content .member_list a.popbtn_s:hover{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat left -64px;}
+#admin_wrapper .admin_main .content .member_list a.popbtn_s:hover span{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat right -96px;}
+#admin_wrapper .admin_main .content .member_list a.byebye{ color:#454545; font-size:12px; text-decoration:underline;}
+#admin_wrapper .admin_main .content .member_list a.byebye:hover{ text-decoration:none;}
+#admin_wrapper .admin_main .content .member_list .crown{ width:15px; height:14px;background:url(../images/image/crown_icon.png) no-repeat ;}
+#admin_wrapper .admin_main .content .member_list .list_host{ background-color:#FFF6D3;}
+#admin_wrapper .admin_main .content .member_list .box_content .page_wrp .page_box{width: 180px;height: 50px;float: left; margin: -35px 0px 0px 380px;}
+#admin_wrapper .admin_main .content .member_list .box_content .page_wrp .page_box .prev{float: left;display: block;width: 22px;height: 22px;
+background: transparent url("../images/shop/store/store_pic.jpg") no-repeat scroll -169px -104px;margin: 9px 0px 0px 83px;text-indent: -9999px;}
+#admin_wrapper .admin_main .content .member_list .box_content .page_wrp .page_box .prev:hover{background-position: -169px -126px;}
+#admin_wrapper .admin_main .content .member_list .box_content .page_wrp .page_box .next{float: left;display: block;width: 22px;height: 22px;
+background: transparent url("../images/shop/store/store_pic.jpg") no-repeat scroll -191px -104px;margin-top: 9px;text-indent: -9999px;}
+#admin_wrapper .admin_main .content .member_list .box_content .page_wrp .page_box .next:hover{background-position:-191px -126px;}
+#admin_wrapper .admin_main .content .member_list .box_content .page_wrp .page_box .page{float: left;font-size: 13px;font-weight: bold;letter-spacing: 1px;padding: 0px 10px;line-height: 40px;}
+
+/* 家族管理後台_寄公告信 */
+#admin_wrapper .admin_main .content .upperLine .popbtn{margin: -20px 0px 0px 320px;font-size: 13px;display: block;color: #454545;float: left;letter-spacing: 1px;
+background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll left -128px;text-decoration: none;}
+#admin_wrapper .admin_main .content .upperLine .popbtn span{display:block;  padding:0 60px; line-height:32px;background:url(../images/shop/store/admin/admin_btn.gif) no-repeat right -160px;}
+#admin_wrapper .admin_main .content .upperLine .popbtn:hover{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat left -192px;}
+#admin_wrapper .admin_main .content .upperLine .popbtn:hover span{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat right -224px;}
+
+/* 家族管理後台_家族設定_設定家族面交點 */
+#admin_wrapper .admin_main .content .address_box { width:600px; height:60px; margin:30px 0 0 95px;}
+#admin_wrapper .admin_main .content .address_box p.address{font-size: 14px;display: block;float: left;}
+#admin_wrapper .admin_main .content .address_box a.change_place_btn{font-size: 13px;display: block;color: #454545;float: left;letter-spacing: 1px;
+background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll left 0px;text-decoration: none;}
+#admin_wrapper .admin_main .content .address_box a.change_place_btn span{display: block;padding: 0px 10px;line-height: 32px;
+background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll right -32px;}
+#admin_wrapper .admin_main .content .address_box a.change_place_btn:hover{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat left -64px;}
+#admin_wrapper .admin_main .content .address_box a.change_place_btn:hover span{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat right -96px;}
+/* 家族管理後台_家族設定_修改資料 */
+#admin_wrapper .admin_main .content .item_line_box .right_box .club_id{ margin-top:3px;}
+#admin_wrapper .admin_main .content .item_line_box .right_box .upload_160x55_box{width: 167px;height: 64px;overflow: hidden;}
+#admin_wrapper .admin_main .content .item_line_box .right_box .upload_160x55_box a.upload_160x55{ margin-top:-3px;width: 167px;height: 64px;
+background: transparent url("../images/shop/store/admin/160x55_upload_img.jpg") no-repeat;overflow: hidden;display: block;}
+#admin_wrapper .admin_main .content .item_line_box .right_box .upload_980x200_box{width: 236px;height: 64px;overflow: hidden;}
+#admin_wrapper .admin_main .content .item_line_box .right_box .upload_980x200_box a.upload_980x200{ margin-top:-3px;width: 236px;height: 64px;
+background: transparent url("../images/shop/store/admin/980x200_upload_img.jpg") no-repeat;overflow: hidden;display: block;}
+#admin_wrapper .admin_main .content .item_line_box .right_box .editor_box .mceLayout{width: 540px;height: 250px;border-width: 0px 1px;
+border-style: none solid;border-color: -moz-use-text-color #CCC;-moz-border-top-colors: none;
+-moz-border-right-colors: none;-moz-border-bottom-colors: none;-moz-border-left-colors: none;border-image: none;}
+
+
+
+/*註冊流程_step3_您看過的家族*/
+.new_wrapper_club_MapSearch .all_club_con1{overflow: auto; border:1px solid #AEBDBD; height:170px;}
+.new_wrapper_club_MapSearch .all_club_con1 .one_club_con{padding: 30px 0 55px 50px;background-color: #F8F9F9; border-bottom:1px dashed #AEBDBD;}
+.new_wrapper_club_MapSearch .all_club_con1 .one_club_con .family_pic{
+width: 96px;
+overflow: hidden;
+float: left;
+border: 1px solid #E3E3E3;
+height: 59px;
+margin: -17px 20px 0px -33px;
+}
+.new_wrapper_club_MapSearch .all_club_con1 .one_club_con .family_pic img{ width:100%; height:100%; border:none;}
+.new_wrapper_club_MapSearch .all_club_con1 .one_club_con .club_title{
+font-size: 13px;
+font-weight: bold;
+color: #3E6C7A;
+line-height: 23px;
+background: transparent url("../images/club/black_s_pint_icon.png") no-repeat scroll left center / 15px 23px;
+padding-left: 22px;
+margin-top:3px;
+margin-bottom: 5px;
+letter-spacing: 1px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+float:left;
+width:120px;
+}
+.new_wrapper_club_MapSearch .all_club_con1 .one_club_con .text_box .where{
+font-size: 12px;
+color: #7D9DA2;
+line-height: 20px;
+padding-left: 22px;
+float:left;
+width:255px;
+height:40px;
+overflow: hidden;
+}
+.new_wrapper_club_MapSearch .all_club_con1 .one_club_con .text_box .howmany{
+font-size: 12px;
+color: #7D9DA2;
+line-height: 20px;
+padding-left: 22px;
+float:left;
+}
+.new_wrapper_club_MapSearch .all_club_con1 .one_club_con a.join_btn{
+background-color: #F7CB00;
+color: #FFF;
+font-size: 13px;
+margin: 0px 0px 0px 22px;
+padding: 5px 10px;
+display: block;
+text-align: center;
+width: 130px;
+border-radius: 4px;
+text-decoration: none;
+float:left;
+}
+.new_wrapper_club_MapSearch .all_club_con1 .one_club_con a.join_btn:hover{ opacity:0.8;}
+
+
+
+/* -------------------- 20160218增加“無進行合購家族“checkbox_開始 -------------------- */
+.new_wrapper_club_MapSearch .new_familyMap_content .family_searchBox .search_result_box{ position:relative;}
+.new_wrapper_club_MapSearch p.noUnion_checkbox{ color:#aaa; font-size:11px; font-weight:normal; position: absolute; right:15px; display:inline-block;}
+.new_wrapper_club_MapSearch p.noUnion_checkbox span{ padding-left:3px;}
+
+/* -------------------- 20160218增加“無進行合購家族“checkbox_開始 -------------------- */
+

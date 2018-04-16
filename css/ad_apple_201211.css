@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+#TopAD_apple_nov{ width:980px; margin: 0 auto; }
+
+#TopAD_apple_nov .open_box{ width:980px; height:375px; background:url(../images/2011/ad_apple_201211/apple_bg.jpg) no-repeat;margin-bottom:15px;}
+#TopAD_apple_nov .open_box .header{ width:980px; height:105px; margin: 0 auto;}
+#TopAD_apple_nov .open_box .header h2{ text-indent:-9999px;}
+#TopAD_apple_nov .open_box .header p{ text-indent:-9999px;}
+
+#TopAD_apple_nov .content{ height:240px;}
+#TopAD_apple_nov .left{float:left; width:62px; height:240px;text-indent:-9999px;}
+#TopAD_apple_nov .left a{ display:block; width:62px; height:240px; background:url(../images/2011/ad_apple_201211/next.jpg) no-repeat 0 0; }
+#TopAD_apple_nov .left a:hover{ background-position: -62px 0;}
+#TopAD_apple_nov .right{float:left; width:62px; height:240px;text-indent:-9999px;}
+#TopAD_apple_nov .right a{ display:block; width:62px; height:240px; background:url(../images/2011/ad_apple_201211/next.jpg) no-repeat -124px 0; }
+#TopAD_apple_nov .right a:hover{ background-position: -186px 0;}
+
+#TopAD_apple_nov .product{ float:left; width:856px; height:240px;}
+#TopAD_apple_nov .product ul{width:1710px;height:240px;}
+#TopAD_apple_nov .product ul li{ float:left; width:280px; height:240px; margin-right:5px; _display:inline;}
+#TopAD_apple_nov .product ul li h3 { text-indent:-9999px;}
+#TopAD_apple_nov .product ul li h3 a{ display:block; width:280px; height:240px; background:url(../images/2011/ad_apple_201211/product.jpg) no-repeat;}
+#TopAD_apple_nov .product ul li h3 a.pro_a{ background-position: 0 0;}
+#TopAD_apple_nov .product ul li h3 a.pro_a:hover{ background-position: 0 -240px;}
+#TopAD_apple_nov .product ul li h3 a.pro_b{ background-position: -280px 0;}
+#TopAD_apple_nov .product ul li h3 a.pro_b:hover{ background-position: -280px -240px;}
+#TopAD_apple_nov .product ul li h3 a.pro_c{ background-position: -560px 0;}
+#TopAD_apple_nov .product ul li h3 a.pro_c:hover{ background-position: -560px -240px;}
+#TopAD_apple_nov .product ul li h3 a.pro_d{ background-position: -840px 0;}
+#TopAD_apple_nov .product ul li h3 a.pro_d:hover{ background-position: -840px -240px;}
+#TopAD_apple_nov .product ul li h3 a.pro_e{ background-position: -1120px 0;}
+#TopAD_apple_nov .product ul li h3 a.pro_e:hover{ background-position: -1120px -240px;}
+#TopAD_apple_nov .product ul li h3 a.pro_f{ background-position: -1400px 0;}
+#TopAD_apple_nov .product ul li h3 a.pro_f:hover{ background-position: -1400px -240px;}
+
+#TopAD_apple_nov .footer{ width:980px; height:30px; text-indent:-9999px;}
+#TopAD_apple_nov .footer a{ display:block; width:980px; height:30px; background:url(../images/2011/ad_apple_201211/footer.jpg) no-repeat left top;}
+#TopAD_apple_nov .footer a:hover{ background-position: left bottom;}
+
+
+#TopAD_apple_nov a.close_box{ width:980px; height:65px; margin: 0 auto;margin-bottom:20px;}
+#TopAD_apple_nov a.close_box{ display:block;width:980px; height:65px; background:url(../images/2011/ad_apple_201211/close01.gif) no-repeat;}
+#TopAD_apple_nov a:hover.close_box{background:url(../images/2011/ad_apple_201211/close02.gif) no-repeat;} 
+#TopAD_apple_nov a.close_box p{ text-indent:-9999px;}
+
+
+
+
+
+
+
+
+
+
+
+

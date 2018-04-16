@@ -1,0 +1,1199 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*有標題*/
+.popup_box {
+	position: absolute; /*border:1px #ffd200 solid;*/
+	box-shadow: 0 0 10px rgba(20%,20%,40%,0.6);
+	z-index: 101;
+	padding: 4px;
+	background-color: #fbfbfb;
+}
+.popup_box .pop_title {
+	width: 100%;
+	height: 31px;
+	background: url(../images/images/bg_popup.jpg) repeat-x;
+}
+.popup_box .pop_con {
+	height: auto;
+	padding: 15px 11px;
+	background-color: #fff;
+}
+.popup_box .pop_title h2.pop_name {
+	float: left;
+	font-size: 13px;
+	font-weight: bold;
+	color: #645447;
+	height: 20px;
+	line-height: 20px;
+	letter-spacing: 1px;
+	margin: 5px 0 0 15px;
+	_display: inline;
+}
+.popup_box .pop_title .close_box {
+	float: right;
+	width: 17px;
+	height: 17px;
+	margin: 7px 10px 0 0;
+	_display: inline;
+}
+.popup_box .pop_title .close_box a.pop_close {
+	display: block;
+	width: 17px;
+	height: 17px;
+	background: url(../images/images/icon_close.gif) no-repeat left top;
+	text-indent: -9999px;
+}
+.popup_box .pop_title .close_box a:hover.pop_close {
+	background-position: 0 -20px;
+}
+.bg_black {
+	width: 3000px;
+	height: 1000px;
+	background-color: #000;
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 50;
+	zoom: 1;
+	position: fixed;
+}
+.popup_box_notyet {
+	background-color: #fbfbfb;
+	box-shadow: 0 0 10px rgba(20%, 20%, 40%, 0.6);
+	padding: 4px;
+	position: absolute;
+}
+.popup_box_notyet .noframe_box {
+	border: 4px solid #ebeff1;
+}
+.popup_box_notyet .noframe_box .noframe_con .alert_1 {
+	height: 50px;
+	padding: 20px 0 0 90px;
+}
+.popup_box_notyet .noframe_box .noframe_con .alert_1 p {
+	color: #f64949;
+	font-size: 15px;
+	font-weight: 700;
+	margin: -40px 0 0 70px;
+}
+.popup_box_notyet .noframe_box .noframe_con .c_btn_box {
+	margin: 10px auto;
+	width: 53px;
+}
+/*發起合購可選擇「家族面交點」*/
+.popup_club_StartEvent {
+	background-color: #fbfbfb;
+	box-shadow: 0 0 10px rgba(20%, 20%, 40%, 0.6);
+	padding: 4px;
+	position: absolute;
+}
+.popup_club_StartEvent .noframe_box {
+	border: 4px solid #ebeff1;
+}
+.popup_club_StartEvent .noframe_box .noframe_con .alert_1 {
+	height: 50px;
+	width: 350px;
+	padding: 40px 0 0 45px;
+}
+.popup_club_StartEvent .noframe_box .noframe_con .alert_1 p {
+	color: #454545;
+	font-size: 15px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 22px;
+}
+.popup_club_StartEvent .noframe_box .noframe_con .c_btn_box {
+	width:150px; 
+	height:32px; 
+	margin:15px 0 25px 150px;
+}
+.popup_club_StartEvent a.popbtn {
+	color: #454545;
+	line-height: 32px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	margin: 0 0 10px 10px;
+}
+.popup_club_StartEvent a.popbtn span {
+	text-align: center;
+}
+
+
+
+
+/*無標題*/
+.noframe {
+	border: none;
+}
+.noframe .noframe_box {
+	border: 4px #ebeff1 solid;
+}
+.noframe .noframe_box .noframe_con {
+	padding: 10px;
+}
+.noframe .noframe_box .noframe_con.no_padding {padding: 0px;}
+.noframe_btn {
+	width: 90%;
+	height: 52px;
+	border-top: 1px #e7e7e7 solid;
+	margin: 0 auto;
+}
+.noframe_btn .two_btnbox {
+	width: 120px;
+	height: 28px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.c_btn_box {
+	width: 53px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.word_1 {
+	width: 100px;
+}
+.word_2 {
+	width: 125px;
+}
+a.popbtn {
+	height: 28px;
+	line-height: 28px;
+	font-weight: normal;
+	font-size: 12px;
+	color: #454545;
+	letter-spacing: 2px;
+	text-align: center;
+	background: url(../images/images/btn_pop.gif) repeat-x 0 0;
+	padding: 7px 0;
+*background-position:0 7px;
+*padding:7px 0
+}
+a:hover.popbtn {
+	color: #666;
+	text-decoration: none;
+	background: url(../images/images/btn_pop.gif) repeat-x 0 -56px;
+*background-position: left -49px;
+}
+a.popbtn span {
+	line-height: 28px;
+	padding: 7px 10px 6px 12px;
+*padding: 7px 10px 6px 12px;
+	background: url(../images/images/btn_pop.gif) no-repeat right -28px;
+*background-position: right -28px;
+}
+a:hover.popbtn span {
+	background-position: right -84px;
+}
+a.popbtn_s { /*float:left; display:block;*/
+	height: 18px;
+	line-height: 18px;
+	font-weight: normal;
+	font-size: 12px;
+	color: #454545;
+	letter-spacing: 0;
+	text-align: center;
+	background: url(../images/images/btn_pop.gif) repeat-x 0 -112px;
+	padding: 2px 0;
+*padding:1px 0;
+}
+a:hover.popbtn_s {
+	background-position: left -148px;
+	color: #666;
+	text-decoration: none;
+}
+a.popbtn_s span {/* display:block;*/
+	line-height: 18px;
+	padding: 2px 6px 1px 8px;
+*padding: 2px 6px 0px 8px;
+	background: url(../images/images/btn_pop.gif) no-repeat right -130px;
+*background-position: right -131px;
+}
+a:hover.popbtn_s span {
+	background-position: right -166px;
+*background-position:right -167px;
+}
+/*回饋商店頁說明_btn_關閉*/
+.noframe_box .close_box {
+	float: right;
+	height: 17px;
+	margin: 5px 6px 0 0;
+	width: 17px;
+}
+.noframe_box .close_box a {
+	background: rgba(0, 0, 0, 0) url("../images/images/icon_close_1.gif") no-repeat scroll left top;
+	display: block;
+	height: 17px;
+	text-indent: -9999px;
+	width: 17px;
+}
+.noframe_box .close_box a:hover {
+	opacity: 0.6;
+}
+/*活動推廣版位_活動型_btn_關閉*/
+.ad_event_close_box {
+	height: 17px;
+	width: 17px;
+	position: absolute;
+	z-index: 80;
+	top: 10px;
+	right: 10px;
+}
+.ad_event_close_box a {
+	background: rgba(0, 0, 0, 0) url("../images/images/icon_close_1.gif") no-repeat scroll left top;
+	display: block;
+	height: 17px;
+	text-indent: -9999px;
+	width: 17px;
+}
+.ad_event_close_box a:hover {
+	opacity: 0.6;
+}
+/*畫面閒置廣告*/
+.popup_idle_ad {
+	width: 700px;
+	height: 480px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px rgba(51, 51, 102, 0.6);
+	z-index: 101;
+	padding: 40px;
+	background-color: #FBFBFB;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -280px;
+	margin-left: -390px;
+}
+.popup_idle_ad .popupContainer {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+/*畫面閒置廣告_關閉X*/
+.popup_idle_ad .popupContainer .close_box {
+	float: right;
+	height: 17px;
+	margin: -18px -25px 0 0;
+	width: 17px;
+}
+.popup_idle_ad .popupContainer .close_box a {
+	background: rgba(0, 0, 0, 0) url("../images/images/icon_close_1.gif") no-repeat scroll left top;
+	display: block;
+	height: 17px;
+	text-indent: -9999px;
+	width: 17px;
+}
+.popup_idle_ad .popupContainer .close_box a:hover {
+	opacity: 0.6;
+}
+/*畫面閒置廣告_說明文字*/
+.popup_idle_ad .popupContainer .title_text_box {
+	width: 760px;
+	margin: -10px 0 0 10px;
+}
+.popup_idle_ad .popupContainer .title_text_box h5 {
+	float: left;
+	text-indent: -9999px;
+	border-bottom: 1px solid #ccc;
+	width: 100px;
+	margin-top: -11px;
+}
+.popup_idle_ad .popupContainer .title_text_box h3 {
+	float: left;
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: normal;
+	margin-bottom: 2px;
+	color: #999;
+	margin: 0 20px;
+}
+/*畫面閒置廣告_大合購部分*/
+.popup_idle_ad .popupContainer .union_box {
+	width: 500px;
+	border: 1px #ccc solid;
+	margin-top: 20px;
+	margin-bottom: -5px;
+	float: left;
+}
+.popup_idle_ad .popupContainer .union_box .img_union_box {
+	width: 500px;
+	height: 170px;
+}
+.popup_idle_ad .popupContainer .union_box .img_union_box a {
+	display: block;
+	width: 500px;
+	height: 170px;
+	overflow: hidden;
+}
+.popup_idle_ad .popupContainer .union_box .img_union_box a img {
+	width: 100%;
+}
+.popup_idle_ad .popupContainer .union_box .img_union_box a:hover {
+	opacity: 0.9;
+}
+.popup_idle_ad .popupContainer .union_box .union_infor_box {
+	background-color: #fff;
+	padding: 14px 10px 4px 10px;
+}
+.popup_idle_ad .popupContainer .union_box .union_infor_box .union_time_box {
+	float: left;
+	height: 24px;
+	_display: inline;
+	letter-spacing: -1px;
+}
+.popup_idle_ad .popupContainer .union_box .union_infor_box .union_time_box ul li {
+	float: left;
+	margin: 0 1px;
+	_display: inline;
+}
+.popup_idle_ad .popupContainer .union_box .union_infor_box .union_time_box ul li p {
+	font-size: 8px;
+	height: 16px;
+	line-height: 16px;
+}
+.popup_idle_ad .popupContainer .union_box .union_infor_box .union_time_box ul li p.txt_num {
+	color: #fff;
+	font-weight: bold;
+	background-color: #373741;
+	border-radius: 2px;
+	padding: 0 4px;
+*width:16px;
+*padding:0;
+	text-align: center;
+}
+.popup_idle_ad .popupContainer .union_box .union_infor_box .union_time_box ul li p.txt_font {
+	color: #454545;
+	font-size: 10px;
+*width:15px;
+}
+.popup_idle_ad .popupContainer .union_box .union_infor_box .union_time_box ul li p.w10 {
+	width: 10px;
+	padding: 0;
+	margin: 0 -3px;
+}
+.popup_idle_ad .popupContainer .union_box .union_infor_box a.union_title {
+	float: left;
+	width: 220px;
+	height: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #454545;
+	line-height: 20px;
+	margin: -1px 0 0 5px;
+	_display: inline;
+	overflow: hidden;
+}
+.popup_idle_ad .popupContainer .union_box .union_infor_box a.union_title:hover {
+	color: #888;
+	text-decoration: none;
+}
+.popup_idle_ad .popupContainer .union_box .union_infor_box .sell_results_box {
+	float: right;
+	width: 115px;
+	_display: inline;
+	height: 26px;
+	margin-top: -5px;
+}
+.popup_idle_ad .popupContainer .union_box .union_infor_box .sell_results_box p {
+	font-size: 10px;
+	color: #666;
+	text-align: right;
+	line-height: 13px;
+}
+.popup_idle_ad .popupContainer .union_box .union_infor_box .sell_results_box p span.txt_R13 {
+	color: #f64949;
+	font-size: 11px;
+	padding: 0 2px;
+}
+.popup_idle_ad .popupContainer .union_box .union_infor_box .sell_results_box p span.txt_R18 {
+	color: #f64949;
+	font-size: 13px;
+	padding: 0 4px 0 0;
+}
+.popup_idle_ad .popupContainer .union_box .schedule_box {
+	width: 765px;
+	height: 30px;
+	background-color: #f8f8f8;
+	border-top: 1px #ddd dotted;
+}
+.popup_idle_ad .popupContainer .union_box .schedule_box a.apply_union {
+	float: left;
+	display: block;
+	color: #105cb6;
+	font-size: 12px;
+	line-height: 30px;
+	padding-left: 15px;
+}
+.popup_idle_ad .popupContainer .union_box .schedule_box .union_num {
+	float: right;
+	height: 30px;
+	line-height: 30px;
+}
+.popup_idle_ad .popupContainer .union_box .schedule_box .union_num ul li {
+	float: left;
+	border-left: 1px #e3e3e3 solid;
+}
+.popup_idle_ad .popupContainer .union_box .schedule_box .union_num ul li a {
+	display: block;
+	font-weight: bold;
+	font-size: 12px;
+	color: #666;
+	letter-spacing: 0;
+	width: 26px;
+	text-align: center;
+}
+.popup_idle_ad .popupContainer .union_box .schedule_box .union_num ul li a:hover {
+	text-decoration: none;
+	color: #454545;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #fff;
+}
+.popup_idle_ad .popupContainer .union_box .schedule_box .union_num ul li a.active {
+	color: #454545;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #fff;
+}
+.popup_idle_ad .popupContainer .union_box .schedule_box .union_num ul li a.prew {
+	text-indent: -9999px;
+	background: url(../../images/home/ihergo_index/icon_arrow.gif) no-repeat 0 0;
+}
+.popup_idle_ad .popupContainer .union_box .schedule_box .union_num ul li a.prew:hover {
+	background-position: -26px 0;
+}
+.popup_idle_ad .popupContainer .union_box .schedule_box .union_num ul li a.next {
+	text-indent: -9999px;
+	background: url(../../images/home/ihergo_index/icon_arrow.gif) no-repeat -52px 0;
+}
+.popup_idle_ad .popupContainer .union_box .schedule_box .union_num ul li a.next:hover {
+	background-position: -78px 0;
+}
+
+
+
+
+/*畫面閒置廣告_合購好文部分*/
+.popup_idle_ad .popupContainer .article_box {
+	width: 500px;
+	border: 1px #ccc solid;
+	margin-top: 20px;
+	margin-bottom: -5px;
+	float: left;
+	height:440px;
+}
+.popup_idle_ad .popupContainer .article_box .h2_box{
+	width: 496px;
+	height: 32px;
+	background: #F5F5F5 none repeat scroll 0% 0%;
+	border: 1px solid #FFF;
+	margin: 1px;
+}
+.popup_idle_ad .popupContainer .article_box .h2_box img{
+	margin: 7px 5px 0px 90px;
+}
+.popup_idle_ad .popupContainer .article_box .h2_box h2{
+	font-size: 15px;
+	font-weight: bold;
+	color: #666;
+	letter-spacing: 1px;
+	line-height: 32px;
+	text-align: center;
+	width: 496px;
+	margin: -24px 0px 0px 20px;
+}
+.popup_idle_ad .popupContainer .article_box .content_box{
+	padding: 10px 0px 0px;
+}
+.popup_idle_ad .popupContainer .article_box .content_box .item{
+	padding: 3px 15px;
+}
+.popup_idle_ad .popupContainer .article_box .content_box .item a{
+	opacity: 1;
+	transition: all 0.2s ease 0s;
+}
+.popup_idle_ad .popupContainer .article_box .content_box .item a:hover{ text-decoration: none; opacity: 0.8; filter: alpha(opacity=80); transition: 0.2s; -webkit-transition: 0.2s; }
+.popup_idle_ad .popupContainer .article_box .content_box .item .img_box{
+	display: inline-block;
+	vertical-align: middle;
+	width: 155px;
+	height: 115px;
+	border: 3px solid #E9EEEF;
+	overflow: hidden;
+}
+.popup_idle_ad .popupContainer .article_box .content_box .item .img_box img{
+	width:155px;
+	height:100%;
+}
+.popup_idle_ad .popupContainer .article_box .content_box .item .text_box{
+	display: inline-block;
+	vertical-align: middle;
+	width: 290px;
+	padding: 0px 0px 0px 12px;
+}
+.popup_idle_ad .popupContainer .article_box .content_box .item .text_box h3{
+	font-size: 15px;
+	color: #32616E;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	margin: 0px 0px 8px;
+}
+.popup_idle_ad .popupContainer .article_box .content_box .item .text_box p{
+	font-size: 14px;
+	color: #7D9DA2;
+	width: 100%;
+	height: 60px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+
+/*畫面閒置廣告_免費索取部分*/
+.popup_idle_ad .popupContainer .get_free {
+	float: right;
+	width: 185px;
+	height: 440px;
+	border: 1px solid #CCC;
+	margin-top: -209px;
+	background-color: #fff;
+}
+.popup_idle_ad .popupContainer .get_free .img_free_box {
+	width: 185px;
+}
+.popup_idle_ad .popupContainer .get_free .img_free_box p {
+	background-color: #ffcc00;
+	color: #FFF;
+	padding: 5px 0 3px 8px;
+	display: block;
+	margin: 60px 8px 0 7px;
+	font-size: 20px;
+}
+.popup_idle_ad .popupContainer .get_free .img_free_box a {
+	display: block;
+	width: 170px;
+	height: 150px;
+	overflow: hidden;
+	margin: 0 0 0 7px;
+}
+.popup_idle_ad .popupContainer .get_free .img_free_box a:hover {
+	opacity: 0.9;
+}
+.popup_idle_ad .popupContainer .get_free h5 {
+	text-indent: -9999px;
+	border-bottom: 1px dotted #ccc;
+	width: 170px;
+	margin-top: -22px;
+	margin-left: 7px;
+}
+.popup_idle_ad .popupContainer .get_free .title_free_box {
+	width: 160px;
+	margin: 15px auto;
+	text-align: center;
+}
+.popup_idle_ad .popupContainer .get_free .title_free_box a {
+	display: block;
+	width: 160px;
+	height: 15px;
+	font-size: 12px;
+	color: #454545;
+	font-weight: bold;
+	overflow: hidden;
+}
+.popup_idle_ad .popupContainer .get_free .title_free_box a:hover {
+	color: #888;
+	text-decoration: none;
+}
+.popup_idle_ad .popupContainer .get_free .price_free_box {
+	width: 160px;
+	margin: 15px auto;
+	text-align: center;
+}
+.popup_idle_ad .popupContainer .get_free .price_free_box p {
+	display: block;
+	width: 160px;
+	height: 20px;
+	font-size: 12px;
+	color: #454545;
+	overflow: hidden;
+}
+.popup_idle_ad .popupContainer .get_free .price_free_box p span {
+	color: #F00;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 5px;
+	overflow: hidden;
+}
+.popup_idle_ad .popupContainer .get_free .button_free_box {
+	width: 150px;
+	height: 50px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.popup_idle_ad .popupContainer .get_free .button_free_box a img {
+	width: 100%;
+}
+.popup_idle_ad .popupContainer .get_free .button_free_box a img:hover {
+	opacity: 0.9;
+}
+/*畫面閒置廣告_人氣必敗商店部分*/
+.popup_idle_ad .popupContainer .must_buy {
+	float: right;
+	width: 185px;
+	height: 440px;
+	border: 1px solid #CCC;
+	margin-top: -209px;
+	background-color: #fff;
+}
+.popup_idle_ad .popupContainer .must_buy .h2_box {
+	width: 180px;
+	height: 32px;
+	background: #F5F5F5 none repeat scroll 0% 0%;
+	border: 1px solid #FFF;
+	margin: 1px;
+}
+.popup_idle_ad .popupContainer .must_buy .h2_box h2 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #666;
+	letter-spacing: 1px;
+	line-height: 32px;
+	text-align: center;
+	width: 180px;
+}
+.popup_idle_ad .popupContainer .must_buy .event_ad_content {
+	width: 100%;
+	border-top: 1px solid #E3E3E3;
+	padding: 10px 0px 15px;
+}
+.popup_idle_ad .popupContainer .must_buy .event_ad_content .focus_box {
+	padding: 15px 0 0;
+}
+.popup_idle_ad .popupContainer .must_buy .event_ad_content .focus_box a.img {
+	display: block;
+	width: 140px;
+	margin: 0px auto;
+}
+.popup_idle_ad .popupContainer .must_buy .event_ad_content .focus_box a.img img {
+	width: 140px;
+}
+.popup_idle_ad .popupContainer .must_buy .event_ad_content .focus_box a.img img:hover {
+	opacity: 0.9;
+}
+.popup_idle_ad .popupContainer .must_buy .event_ad_content .focus_box h3 {
+	width: 145px;
+	margin: 4px auto 0px;
+	height: 20px;
+	overflow: hidden;
+}
+.popup_idle_ad .popupContainer .must_buy .event_ad_content .focus_box h3 a {
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+	color: #454545;
+	background: transparent url("../images/shop/search/store_icon_small.gif") no-repeat scroll -2px 2px;
+	padding-left: 16px;
+	letter-spacing: 1px;
+}
+.popup_idle_ad .popupContainer .must_buy .event_ad_content .focus_box h3 a:hover {
+	color: #888;
+	text-decoration: none;
+}
+/*關於家族_家族管理_設定家族面交點 - 點選[+家族面交點]後出現的pop-up視窗*/
+.popup_setting_ClubPlace {
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	height: 560px;
+	position: fixed;
+	box-shadow: 0px 0px 10px rgba(51, 51, 102, 0.6);
+	z-index: 101;
+	padding: 5px;
+	background-color: #FBFBFB;
+	margin-left: -305px;
+	margin-top: -285px;
+}
+.popup_setting_ClubPlace .pop_title {
+	width: 100%;
+	height: 31px;
+	background: transparent url("../images/images/bg_popup.jpg") repeat-x scroll 0% 0%;
+}
+.popup_setting_ClubPlace .pop_title .pop_name {
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	color: #454545;
+	height: 22px;
+	line-height: 22px;
+	letter-spacing: 1px;
+	margin: 5px 0px 0px 15px;
+}
+.popup_setting_ClubPlace .pop_title .close_box {
+	float: right;
+	width: 17px;
+	height: 17px;
+	margin: 7px 10px 0px 0px;
+}
+.popup_setting_ClubPlace .pop_title .close_box a.pop_close {
+	display: block;
+	width: 17px;
+	height: 17px;
+	background: transparent url("../images/images/icon_close.gif") no-repeat scroll left top;
+	text-indent: -9999px;
+}
+.popup_setting_ClubPlace .pop_con {
+	width: 450px;
+	margin: 10px auto;
+	height: 10px;
+	background-color:#FBFBFB;
+}
+.popup_setting_ClubPlace .pop_con .pop_con_box {
+	margin: 0 auto;
+}
+.popup_setting_ClubPlace .pop_con .h3_box {
+	width: 150px;
+	height: 20px;
+	margin: 0 auto;
+}
+.popup_setting_ClubPlace .pop_con .h3_box h5.left {
+	width: 20px;
+	height: 10px;
+	background: transparent url("../images/club/decorate.png") no-repeat scroll left top;
+	text-indent: -9999px;
+	float: left;
+	margin-top: 4px;
+	margin-right: 3px;
+}
+.popup_setting_ClubPlace .pop_con .h3_box h3 {
+	font-size: 19px;
+	font-weight: bold;
+	display: block;
+	float: left;
+}
+.popup_setting_ClubPlace .pop_con .h3_box h5.right {
+	width: 20px;
+	height: 10px;
+	background: transparent url("../images/club/decorate.png") no-repeat scroll right top;
+	text-indent: -9999px;
+	float: left;
+	margin-top: 4px;
+	margin-left: 3px;
+	float: left;
+}
+.popup_setting_ClubPlace .pop_con .text_box {
+	font-size: 13px;
+	font-weight: 800;
+	display: block;
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 17px;
+	margin-top: 15px;
+}
+.popup_setting_ClubPlace .pop_con .pop_notice_box {
+	width: 520px;
+	font-size: 10px;
+	margin-left: -10px;
+}
+.popup_setting_ClubPlace .pop_con .pop_notice_box h3 {
+	background: transparent url("../images/club/icon_notice.png") no-repeat scroll 0px 2px;
+	padding-left: 20px;
+}
+/*關於家族_家族管理_設定家族面交點 - 點選[設定]後出現地圖頁*/
+.popup_setting_ClubPlace .pop_con .pop_con_box .select_box #area1 {
+	visibility: visible;
+	color: #454545;
+	font-size: 13px;
+	height: 26px;
+	padding: 3px;
+	width: 85px;
+	border: 1px solid #CFCFCF;
+	line-height: 17px;
+	vertical-align: middle;
+	float: left;
+	margin-left: 10px;
+}
+.popup_setting_ClubPlace .pop_con .pop_con_box .select_box #area2 {
+	visibility: visible;
+	color: #454545;
+	font-size: 13px;
+	height: 26px;
+	padding: 3px;
+	width: 85px;
+	border: 1px solid #CFCFCF;
+	line-height: 17px;
+	vertical-align: middle;
+	float: left;
+	margin-left: 5px;
+}
+.popup_setting_ClubPlace .pop_con input.address {
+	width: 240px;
+	height: 24px;
+	font-size: 10pt;
+	line-height: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	border-color: #7F7F7F #D7D7D7 #D7D7D7 #7F7F7F;
+	vertical-align: middle;
+	margin-left: 5px;
+	padding-left: 5px;
+	color: #454545;
+}
+.popup_setting_ClubPlace .gMap {
+	width: 570px;
+	height: 360px;
+	background-color: #E5E3DF;
+	overflow: hidden;
+	margin: 10px 0 0 -60px;
+}
+.popup_setting_ClubPlace .pop_con .notice_MovePin {
+	width: 520px;
+	font-size: 9px;
+	margin: 5px 0 0 70px;
+}
+.popup_setting_ClubPlace .pop_con .notice_MovePin h3 {
+	background: transparent url("../images/club/icon_notice.png") no-repeat scroll 0px 2px;
+	padding-left: 20px;
+}
+.popup_setting_ClubPlace .pop_con .remind_save{
+    float: left;
+    height: 25px;
+    border: 1px solid #F64949;
+    font-size: 13px;
+    letter-spacing: 1px;
+    width: 220px;
+	margin: 28px 0 0 -60px;
+}
+.popup_setting_ClubPlace .pop_con .remind_save p.text{
+    color: #F64949;
+    letter-spacing: 1px;
+    padding-left: 14px;
+    line-height: 25px;
+	text-align:center;
+}
+.popup_setting_ClubPlace .pop_con .remind_save p.icon{
+    color: #F64949;
+	margin: -22px 0 0 219px;
+}
+.popup_setting_ClubPlace .pop_con .btn a.delete {
+	font-size: 11px;
+	color: #666;
+	text-decoration: underline;
+	margin-left: 10px;
+}
+.popup_setting_ClubPlace .pop_con .btn a.delete:hover {
+	text-decoration: none;
+}
+/*關於家族_家族管理_設定家族面交點 - 點選[刪除]後出現刪除頁*/
+.popup_setting_ClubPlace .pop_con .pop_con_box p.AreYouSure {
+	font-size: 15px;
+	font-weight: 900;
+	display: block;
+	width: 400px;
+	margin: 110px auto 0px;
+	text-align: center;
+	line-height: 20px;
+}
+/*新成立家族_設定家族面交點_略過*/
+.popup_create_club {
+	top: 50%;
+	left: 50%;
+	width: 540px;
+	height: 250px;
+	position: fixed;
+	box-shadow: 0px 0px 10px rgba(51, 51, 102, 0.6);
+	z-index: 101;
+	padding: 5px;
+	background-color: #FBFBFB;
+	margin-left: -275px;
+	margin-top: -130px;
+}
+.popup_create_club .pop_title {
+	width: 100%;
+	height: 31px;
+	background: transparent url("../images/images/bg_popup.jpg") repeat-x scroll 0% 0%;
+}
+.popup_create_club .pop_title .pop_name {
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	color: #454545;
+	height: 22px;
+	line-height: 22px;
+	letter-spacing: 1px;
+	margin: 5px 0px 0px 15px;
+}
+.popup_create_club .pop_title .close_box {
+	float: right;
+	width: 17px;
+	height: 17px;
+	margin: 7px 10px 0px 0px;
+}
+.popup_create_club .pop_title .close_box a.pop_close {
+	display: block;
+	width: 17px;
+	height: 17px;
+	background: transparent url("../images/images/icon_close.gif") no-repeat scroll left top;
+	text-indent: -9999px;
+}
+.popup_create_club .pop_con {
+	width: 450px;
+	margin: 20px auto;
+	height: 10px;
+	background-color:#fbfbfb;
+}
+.popup_create_club .pop_con .pop_con_box {
+	margin: 0 auto;
+}
+.popup_create_club .pop_con .text_box {
+	font-size: 15px;
+	font-weight: 800;
+	display: block;
+	width: 400px;
+	margin: 10px auto 0;
+	text-align: center;
+	line-height: 22px;
+}
+.popup_create_club .pop_con .pop_notice_box {
+	width: 200px;
+	font-size: 10px;
+	margin: 25px auto;
+}
+.popup_create_club .pop_con .pop_notice_box h3 {
+	background: transparent url("../images/club/icon_notice.png") no-repeat scroll 0px 2px;
+	padding-left: 20px;
+	color: #888;
+}
+.popup_create_club a.popbtn {
+	height: 28px;
+	line-height: 28px;
+	font-weight: normal;
+	font-size: 12px;
+	color: #454545;
+	letter-spacing: 2px;
+	text-align: center;
+	background: transparent url("../images/images/btn_pop.gif") repeat-x scroll 0px 0px;
+	padding: 7px 0px;
+}
+.popup_create_club a:hover.popbtn {
+	color: #666;
+	text-decoration: none;
+	background: url(../images/images/btn_pop.gif) repeat-x 0 -56px;
+*background-position: left -49px;
+}
+.popup_create_club a.popbtn span {
+	line-height: 28px;
+	padding: 7px 10px 6px 12px;
+*padding: 7px 10px 6px 12px;
+	background: url(../images/images/btn_pop.gif) no-repeat right -28px;
+*background-position: right -28px;
+}
+.popup_create_club a:hover.popbtn span {
+	background-position: right -84px;
+}
+.popup_create_club .txt_btn {
+	color: #666;
+	font-size: 11px;
+	text-decoration: underline;
+	margin-left: 5px;
+}
+.popup_create_club .txt_btn:hover {
+	text-decoration: none;
+}
+/*popup視窗_Email邀請朋友*/
+.popup_setting_ClubPlace .pop_con .pop_con_box .email_box{
+    width: 437px;
+    padding: 5px 0px 15px 20px;
+}
+.popup_setting_ClubPlace .pop_con .pop_con_box .email_box p{
+    font-size: 15px;
+    color: #616161;
+    line-height: 38px;
+	font-weight:bold;
+}
+.popup_setting_ClubPlace .pop_con .pop_con_box .email_box p span{
+	font-size:13px;
+	color:#888;
+}
+.popup_setting_ClubPlace .pop_con .pop_con_box .email_box input.full_in_mail {
+    width: 404px;
+    height: 33px;
+    line-height: 33px;
+    padding: 0px 10px;
+    border: 1px solid #BBB;
+    font-size: 13px;
+	color:#454545;
+    font-family: Arial,Helvetica,sans-serif,"新細明體-ExtB";
+    letter-spacing: 1px;
+    margin:-5px 0 30px 0;
+}
+.popup_setting_ClubPlace .pop_con .pop_con_box .email_box input.full_in_mail:hover{ 
+	width:402px; 
+	height:31px; 
+	line-height:31px; 
+	border:2px #bbbbbb solid;
+}
+.popup_setting_ClubPlace .pop_con .pop_con_box .email_box textarea {
+    width: 404px;
+    height: 120px;
+    border: 1px solid #BBB;
+    margin-top: -5px;
+    padding: 5px 10px;
+    font-size: 13px;
+    color: #454545;
+    letter-spacing: 1px;
+    font-family: Arial,Helvetica,sans-serif,"新細明體-ExtB";
+}
+
+/*popup視窗_地圖模式加入家族*/
+.popup_club_MapSearch{
+    top: 50%;
+    left: 50%;
+    width: 550px;
+    position: fixed;
+    box-shadow: 0px 0px 10px rgba(51, 51, 102, 0.6);
+    z-index: 101;
+    padding: 5px;
+    background-color: #FBFBFB;
+    margin-left: -285px;
+    margin-top: -160px;
+}
+
+.popup_club_MapSearch .pop_con .pop_con_box p.AreYouSure{
+    font-size: 15px;
+    font-weight: 900;
+    display: block;
+    width: 400px;
+    margin: 40px auto 0px;
+    text-align: center;
+    line-height: 20px;
+}
+.popup_club_MapSearch .pop_con .select_con{
+	margin:30px 0px;
+	padding:0 0 0 20px;
+}
+.popup_club_MapSearch .pop_con .select_con p{
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+	margin-top:5px;
+	margin-right:5px;
+}
+.popup_club_MapSearch .pop_con .remind_save{
+    float: left;
+    height: 25px;
+    border: 1px solid #F64949;
+    font-size: 13px;
+    letter-spacing: 1px;
+    width: 220px;
+} 
+.popup_club_MapSearch .pop_con .remind_save p.text{
+    color: #F64949;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-align: center;
+	display: block;
+	overflow: hidden;
+	width: 220px;
+	height: 27px;
+}
+.popup_club_MapSearch .pop_con .remind_save p.icon{
+    color: #F64949;
+    margin: -22px 0px 0px 219px;
+}
+.popup_club_MapSearch .pop_con .pop_con_box p.welcome{
+	font-size:20px;
+	color:#454545;
+	font-weight:bold;
+	display:block;
+	margin:30px 0 0 -5px;
+	letter-spacing:1px;
+}
+.popup_club_MapSearch .pop_con .pop_con_box p.welcome span{
+	color:#f3a223;
+	letter-spacing:1px;
+}
+.popup_club_MapSearch .pop_con .pop_con_box p{
+	font-size:13px;
+	font-weight:bold;
+	line-height:15px;
+	margin:10px 0 0 0px;
+	text-align:center;
+}
+.popup_club_MapSearch .pop_con .pop_con_box .notice{
+    width: 520px;
+    font-size: 10px;
+    margin:35px 0 0 170px;
+}
+.popup_club_MapSearch .pop_con .pop_con_box .notice h3{
+    background: transparent url("../images/club/icon_notice.png") no-repeat scroll 0px 2px;
+    padding-left: 20px;
+}
+.popup_club_MapSearch .pop_con .pop_con_box img{
+	margin-left:17px;
+}
+
+
+/* ============================== 20151126_附近有新家族通知(家族首頁)＿開始 ============================== */
+.popup_club_EmailClub{ }
+.popup_club_EmailClub .pop_con p.AreYouSure{ display: block; font-size: 15px; font-weight: 900; width: 400px; margin: 15px auto 20px; text-align:center; line-height:20px;}
+.popup_club_EmailClub .pop_con p.select_con_title{ float:left; font-size:12px; line-height:30px;}
+.popup_club_EmailClub .pop_con .select_box p.select_con_title{ margin-right:6px;}
+.popup_club_EmailClub .pop_con .email_box{ margin:0 20px 15px;}
+.popup_club_EmailClub .pop_con .email_box input.email_address{ float:left; width:440px; font-size:13px; line-height:20px; padding:5px; font-size:13px; border:1px solid #ccc; border-radius:5px;}
+.popup_club_EmailClub .pop_con .select_box{ margin:0 20px 15px;}
+.popup_club_EmailClub .pop_con .select_box select.location_select{ float:left; width:100px; height:30px; font-size:13px; margin-right:5px;}
+.popup_club_EmailClub .pop_con .select_box input.address{ width:230px; line-height:20px; padding:5px; float:left; font-size:13px; border:1px solid #ccc; border-radius:5px;}
+.popup_club_EmailClub .gMap{ width: 520px; height: 360px; background-color:#E5E3DF; overflow: hidden; margin: 10px 20px;}
+.popup_club_EmailClub .btn{ margin:10px auto; text-align:center;}
+.popup_club_EmailClub .btn a.popbtn{ padding:7px 0;}
+.popup_club_EmailClub .btn a.popbtn span{ padding:7px 40px 7px 40px;}
+
+.popup_club_EmailClub .pop_con .remind_save{ height: 25px; border: 1px solid #F64949; font-size: 13px; letter-spacing: 1px; width: 220px; position:absolute; margin-left:-7px;} 
+.popup_club_EmailClub .pop_con .remind_save p.text{ color: #F64949; letter-spacing: 1px; line-height: 25px; text-align: center; display: block; overflow: hidden; width: 220px; height: 27px;}
+.popup_club_EmailClub .pop_con .remind_save p.icon{ color: #F64949; margin: -24px 0px 0px 219px;}
+/* ============================== 20151126_附近有新家族通知(家族首頁)＿結束 ============================== */
+
+/* ============================== 20151222_確認所有收款(主購合購單)＿開始 ============================== */
+.popup_box .agree_allPay_box{ min-width:350px; text-align:center;}
+.popup_box .agree_allPay_box h5{ font-size:13px; line-height:30px;}
+.popup_box .agree_allPay_box .submit_box { width: 100%; margin-top: 15px; padding-bottom: 10px; text-align: center;}
+.popup_box .agree_allPay_box .submit_btns{ display: inline-block; margin-top: 5px;}
+.popup_box .agree_allPay_box .submit_box a.btn_submit { display: block; height: 28px; line-height: 28px;  font-size: 12px;color: #454545; float: left; letter-spacing: 2px; background: url(../images/images/btn_pop.gif) no-repeat left 0; text-decoration: none; _display: inline;}
+.popup_box .agree_allPay_box .submit_box a.btn_cancel { margin-left: 10px;}
+.popup_box .agree_allPay_box .submit_box a.btn_submit span { display: block; padding: 0 15px; line-height: 28px; background: url(../images/images/btn_pop.gif) no-repeat right -28px;}
+/* ============================== 20151222_確認所有收款(主購合購單)＿開始 ============================== */
+
+
+/* ============================== 確認商店公司資訊_開始 ============================== */
+.pop_con .company_box{ margin-top:-10px; margin-left:20px;}
+.pop_con .company_box .item_box{ margin:25px 0; border-bottom: 1px #cccccc dotted; padding-bottom: 20px; width: 500px;}
+.pop_con .company_box .left_box{ float: left; width: 150px; margin: 0px 4px 0px 0px;}
+.pop_con .company_box .left_box p{ font-size: 13px; color: rgb(69, 69, 69); font-weight: bold; line-height: 30px; text-indent: 6px;}
+.pop_con .company_box .right_box input{ float: left; font-size: 13px; color: rgb(69, 69, 69); letter-spacing: 1px; height: 30px; width: 150px; padding: 0px 0px 0px 8px; border: 1px solid rgb(207, 207, 207);}
+.pop_con .company_box .right_box .remind{width: 250px;min-height: 20px;line-height: 20px;padding: 5px 0 0 0;font-size: 12px;color: #888888; margin-left:150px;}
+.pop_con .company_box .right_box .place_select{width: 120px;padding: 4px;height: 28px;border: 1px solid #CFCFCF;margin: 0 10px 0 0;}
+.pop_con .company_box .right_box .location_input{margin-top: 10px;width: 243px;}
+.pop_con .company_box .btn_box{ width:100%; height:60px;}
+.pop_con .company_box .btn_sent{margin: 0px 0px 0px 175px;font-size: 13px;display: block;color: rgb(69, 69, 69);float: left;letter-spacing: 1px;background: transparent url("../images/shop/store/admin/admin_btn.gif") no-repeat scroll left -128px;text-decoration: none;}
+.pop_con .company_box .btn_sent span{display: block;padding: 0 60px;line-height: 32px;background: url(../images/shop/store/admin/admin_btn.gif) no-repeat right -160px;}
+.pop_con .company_box .btn_sent:hover{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat left -192px;}
+.pop_con .company_box .btn_sent:hover span{background:url(../images/shop/store/admin/admin_btn.gif) no-repeat right -224px;}/* ============================== 確認商店公司資訊_結束 ============================== */
+
+/* ============================== 20160503_家族面交點設定增加checkbox＿開始 ============================== */
+.popup_setting_ClubPlace .pop_con .remind_save{ margin-top: 21px;}
+.popup_setting_ClubPlace .pop_con .notice_MovePin{ margin: 5px 0 0 -60px;}
+.pop_con .parent_checkbox{ margin: 5px 0 0 -57px; font-weight: bold; }
+.pop_con .parent_checkbox p.c_box{ font-size: 13px;}
+.pop_con .parent_checkbox p.c_box span{ padding: 0 5px;}
+/* ============================== 20160503_家族面交點設定增加checkbox＿結束 ============================== */
+

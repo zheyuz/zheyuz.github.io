@@ -1,0 +1,578 @@
+#HEADER {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#HEADER .center {
+	width: 900px;
+}
+
+/*==活動廣告標題==*/
+#HEADER .center .header {
+	width: 900px;
+	height: 112px;
+	margin-bottom: 10px;
+	background:
+		url(../../images/shop/ad_role/header_bg.jpg)
+		no-repeat left top;
+}
+/*==活動廣告標題_NED==*/
+
+/*==中間攔位==*/
+#HEADER .center .box {
+	width: 900px;
+}
+
+#HEADER .center .box .marknewbox_L445 {
+	float: left;
+	width: 445px;
+	height: 220px;
+	margin: 0px 0px 10px 0px;
+	background:
+		url(../../images/shop/ad_role/marknewbox_bg.gif)
+		no-repeat left top;
+	_display: inline;
+}
+
+/*==置頂欄位標題_點數_標籤==*/
+#HEADER .center .box .marknewbox_L445 .TOPBox {
+	width: 445px;
+	height: 36px;
+	line-height: 36px;
+}
+
+#HEADER .center .box .marknewbox_L445 .TOPBox h1 {
+	float: left;
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	text-indent: 0px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 16px;
+	color: #105CB6;
+	background:
+		url(../../images/shop/ad_role/topbox_h1logo.gif)
+		no-repeat left top;
+	padding: 0px 0px 0px 40px;
+	overflow: hidden;
+}
+
+#HEADER .center .box .marknewbox_L445 .TOPBox h2 {
+	float: right;
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	text-indent: 0px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 16px;
+	text-align: right;
+	color: #74C7EE;
+	overflow: hidden;
+}
+
+#HEADER .center .box .marknewbox_L445 .TOPBox .hoticon {
+	float: right;
+	width: 40px;
+	height: 37px;
+	line-height: 37px;
+}
+/*==置頂欄位標題_點數_標籤_END==*/
+#HEADER .center .box .marknewbox_L445 .CenterBox {
+	width: 405px;
+	height: 150px;
+	padding: 13px 20px 15px 20px;
+}
+/*===購買圖片顯示===*/
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Left {
+	float: left;
+	width: 200px;
+	height: 150px;
+}
+
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Left a img {
+	border: 1px solid #BBBBBB;
+	opacity: 1; /* 透明度60% FireFox 的寫法 */
+	filter: Alpha(Opacity =   100); /* 透明度60% IE 的寫法 */
+}
+
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Left a:hover img {
+	border: 1px solid #CCC;
+	opacity: 0.9; /* 透明度60% FireFox 的寫法 */
+	filter: Alpha(Opacity =   90); /* 透明度60% IE 的寫法 */
+}
+/*===購買圖片顯示_NED===*/
+
+/*===文案說明_放大_購買按鈕_===*/
+/*===文案說明===*/
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Right {
+	float: right;
+	width: 185px;
+	height: 150px;
+	position: relative;
+}
+
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Right h1 {
+	float: left;
+	width: 155px;
+	height: 18px;
+	line-height: 19px;
+	text-indent: 0px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #105CB6;
+	padding: 0px 0px 0px 25px;
+	background:
+		url(../../images/shop/ad_role/hot_w25.gif)
+		no-repeat left top;
+	overflow: hidden;
+}
+
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Right h1.NEWICON {
+	float: left;
+	width: 155px;
+	height: 18px;
+	line-height: 19px;
+	text-indent: 0px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #105CB6;
+	padding: 0px 0px 0px 25px;
+	background:
+		url(../../images/shop/ad_role/new_w25.gif)
+		no-repeat left top;
+	overflow: hidden;
+}
+
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Right h1.TOPICON {
+	float: left;
+	width: 155px;
+	height: 18px;
+	line-height: 19px;
+	text-indent: 0px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #105CB6;
+	padding: 0px 0px 0px 25px;
+	background:
+		url(../../images/shop/ad_role/top_w25.gif)
+		no-repeat left top;
+	overflow: hidden;
+}
+
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Right p {
+	float: left;
+	width: 180px;
+	height: 115px;
+	line-height: 19px;
+	text-indent: 0px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #454545;
+	overflow: hidden;
+}
+/*===文案說明_END===*/
+/*===放大圖片===*/
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Right .CB_LeftICON
+	{
+	float: left;
+	width: 65px;
+	height: 18px;
+	line-height: 18px;
+	overflow: hidden;
+}
+
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Right .CB_LeftICON .ICON_Zoom
+	{
+	float: left;
+	width: 65px;
+	height: 18px;
+}
+
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Right .CB_LeftICON .ICON_L_Zoom p a
+	{
+	float: left;
+	width: 60px;
+	height: 18px;
+	line-height: 18px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #454545;
+	background:
+		url(../../images/shop/ad_role/zoom_icon.gif)
+		no-repeat left top;
+	padding: 0px 0px 0px 18px;
+	overflow: hidden;
+	_display: inline;
+}
+
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Right .CB_LeftICON .ICON_L_Zoom p a:hover
+	{
+	color: #105CB6;
+	background:
+		url(../../images/shop/ad_role/zoom_icon.gif)
+		no-repeat left bottom;
+}
+/*===放大圖片_===*/
+
+/*===我要購買===*/
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Right .CB_rightICON
+	{
+	width: 73px;
+	height: 28px;
+	line-height: 28px;
+	overflow: hidden;
+	position: absolute;
+	top: 123px;
+	right: 0px;
+}
+
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Right .CB_rightICON .ICON_R_buy
+	{
+	float: left;
+	width: 72px;
+	height: 28px;
+}
+
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Right .CB_rightICON .ICON_R_buy p a
+	{
+	float: left;
+	width: 72px;
+	height: 28px;
+	line-height: 28px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	text-align: center;
+	color: #454545;
+	background:
+		url(../../images/shop/ad_role/icon_marknewbuy.gif)
+		no-repeat left top;
+	text-decoration: none;
+	overflow: hidden;
+	_display: inline;
+}
+
+#HEADER .center .box .marknewbox_L445 .CenterBox .CB_Right .CB_rightICON .ICON_R_buy p a:hover
+	{
+	color: #FFF;
+	text-decoration: none;
+	background:
+		url(../../images/shop/ad_role/icon_marknewbuy.gif)
+		no-repeat left bottom;
+}
+/*===我要購買_END===*/
+
+/*===文案說明_放大_購買按鈕_NED===*/
+#HEADER .center .box .marknewbox_R445 {
+	float: left;
+	width: 445px;
+	height: 220px;
+	line-height: 220px;
+	margin: 0px 0px 10px 10px;
+	background:
+		url(../../images/shop/ad_role/marknewbox_bg.gif)
+		no-repeat left top;
+	_display: inline;
+}
+/*==置頂欄位標題_點數_標籤==*/
+#HEADER .center .box .marknewbox_R445 .TOPBox {
+	width: 445px;
+	height: 36px;
+	line-height: 36px;
+}
+
+#HEADER .center .box .marknewbox_R445 .TOPBox h1 {
+	float: left;
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	text-indent: 0px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 16px;
+	color: #105CB6;
+	background:
+		url(../../images/shop/ad_role/topbox_h1logo.gif)
+		no-repeat left top;
+	padding: 0px 0px 0px 40px;
+	overflow: hidden;
+}
+
+#HEADER .center .box .marknewbox_R445 .TOPBox h2 {
+	float: right;
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	text-indent: 0px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 16px;
+	text-align: right;
+	color: #74C7EE;
+	overflow: hidden;
+}
+
+#HEADER .center .box .marknewbox_R445 .TOPBox .hoticon {
+	float: right;
+	width: 40px;
+	height: 37px;
+	line-height: 37px;
+}
+/*==置頂欄位標題_點數_標籤_END==*/
+#HEADER .center .box .marknewbox_R445 .CenterBox {
+	width: 405px;
+	height: 150px;
+	padding: 13px 20px 15px 20px;
+}
+/*===購買圖片顯示===*/
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Left {
+	float: left;
+	width: 200px;
+	height: 150px;
+}
+
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Left a img {
+	border: 1px solid #BBBBBB;
+	opacity: 1; /* 透明度60% FireFox 的寫法 */
+	filter: Alpha(Opacity =   100); /* 透明度60% IE 的寫法 */
+}
+
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Left a:hover img {
+	border: 1px solid #CCC;
+	opacity: 0.9; /* 透明度60% FireFox 的寫法 */
+	filter: Alpha(Opacity =   90); /* 透明度60% IE 的寫法 */
+}
+/*===購買圖片顯示_NED===*/
+
+/*===文案說明_放大_購買按鈕_===*/
+/*===文案說明===*/
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Right {
+	float: right;
+	width: 185px;
+	height: 150px;
+	position: relative;
+}
+
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Right h1 {
+	float: left;
+	width: 155px;
+	height: 18px;
+	line-height: 19px;
+	text-indent: 0px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #105CB6;
+	padding: 0px 0px 0px 25px;
+	background:
+		url(../../images/shop/ad_role/hot_w25.gif)
+		no-repeat left top;
+	overflow: hidden;
+}
+
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Right h1.NEWICON {
+	float: left;
+	width: 155px;
+	height: 18px;
+	line-height: 19px;
+	text-indent: 0px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #105CB6;
+	padding: 0px 0px 0px 25px;
+	background:
+		url(../../images/shop/ad_role/new_w25.gif)
+		no-repeat left top;
+	overflow: hidden;
+}
+
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Right h1.TOPCON {
+	float: left;
+	width: 155px;
+	height: 18px;
+	line-height: 19px;
+	text-indent: 0px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #105CB6;
+	padding: 0px 0px 0px 25px;
+	background:
+		url(../../images/shop/ad_role/top_w25.gif)
+		no-repeat left top;
+	overflow: hidden;
+}
+
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Right p {
+	float: left;
+	width: 180px;
+	height: 115px;
+	line-height: 19px;
+	text-indent: 0px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #454545;
+	overflow: hidden;
+}
+/*===文案說明_END===*/
+/*===放大圖片===*/
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Right .CB_LeftICON
+	{
+	float: left;
+	width: 65px;
+	height: 18px;
+	line-height: 18px;
+	overflow: hidden;
+}
+
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Right .CB_LeftICON .ICON_Zoom
+	{
+	float: left;
+	width: 65px;
+	height: 18px;
+}
+
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Right .CB_LeftICON .ICON_L_Zoom p a
+	{
+	float: left;
+	width: 60px;
+	height: 18px;
+	line-height: 18px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #454545;
+	background:
+		url(../../images/shop/ad_role/zoom_icon.gif)
+		no-repeat left top;
+	padding: 0px 0px 0px 18px;
+	overflow: hidden;
+	_display: inline;
+}
+
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Right .CB_LeftICON .ICON_L_Zoom p a:hover
+	{
+	color: #105CB6;
+	background:
+		url(../../images/shop/ad_role/zoom_icon.gif)
+		no-repeat left bottom;
+}
+/*===放大圖片_===*/
+
+/*===我要購買===*/
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Right .CB_rightICON
+	{
+	width: 73px;
+	height: 28px;
+	line-height: 28px;
+	overflow: hidden;
+	position: absolute;
+	top: 123px;
+	right: 0px;
+}
+
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Right .CB_rightICON .ICON_R_buy
+	{
+	float: left;
+	width: 72px;
+	height: 28px;
+}
+
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Right .CB_rightICON .ICON_R_buy p a
+	{
+	float: left;
+	width: 72px;
+	height: 28px;
+	line-height: 28px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	text-align: center;
+	color: #454545;
+	background:
+		url(../../images/shop/ad_role/icon_marknewbuy.gif)
+		no-repeat left top;
+	text-decoration: none;
+	overflow: hidden;
+	_display: inline;
+}
+
+#HEADER .center .box .marknewbox_R445 .CenterBox .CB_Right .CB_rightICON .ICON_R_buy p a:hover
+	{
+	color: #FFF;
+	text-decoration: none;
+	background:
+		url(../../images/shop/ad_role/icon_marknewbuy.gif)
+		no-repeat left bottom;
+}
+/*===我要購買_END===*/
+/*===文案說明_放大_購買按鈕_NED===*/
+/*==中間攔位_NED==*/
+#HEADER .center .footer {
+	margin-bottom: 10px;
+	width: 880px;
+	height: 35px;
+	background:
+		url(../../images/shop/ad_role/footer.gif)
+		no-repeat left top;
+	padding: 20px 20px 0px 0px;
+}
+
+#HEADER .center .footer ul {
+	width: 600px;
+	float: right;
+}
+
+#HEADER .center .footer li {
+	float: right;
+	padding: 0px 10px 0px 10px;
+}
+
+#HEADER .center .footer li a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	line-height: 18px;
+	color: #105CB6;
+	text-decoration: none;
+	_display: inline-block;
+}
+
+#HEADER .center .footer li a:hover {
+	color: #105CB6;
+	text-decoration: underline;
+}
+
+/* the overlayed element */
+.simple_overlay { /* must be initially hidden */
+	/* must be initially hidden */
+	display: none;
+	/* place overlay on top of other elements */
+	z-index: 10000;
+	/* styling */
+	background-color: #fff;
+	width: 620px;
+	min-height: 290px;
+	border: 1px solid #666;
+	/* CSS3 styling for latest browsers */
+	-moz-box-shadow: 0 0 90px 5px #000;
+	-webkit-box-shadow: 0 0 90px #000;
+}
+
+.simple_overlay .close {
+	background-image:
+		url(../../images/shop/ad_role/close_ad_tmp.png);
+	position: absolute;
+	right: -3px;
+	top: -3px;
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+}
+
+.simple_overlay img {
+	border: 0px;
+}
+
+.simple_overlay1 { /* must be initially hidden */
+	background-color: #333;
+	width: 625px;
+	height: 210px; border : 1px solid #666;
+	/* CSS3 styling for latest browsers */
+	-moz-box-shadow: 0 0 90px 5px #000;
+	-webkit-box-shadow: 0 0 90px #000;
+	border: 1px solid #666;
+}

@@ -1,0 +1,2763 @@
+@import url("reset.css");
+
+body {
+	background-color: #fff;
+}
+
+div.w5 {
+	float: left;
+	font-size: 0;
+	line-height: 5px;
+	width: 5px;
+	height: 5px;
+}
+
+div.w8 {
+	float: left;
+	font-size: 0;
+	line-height: 8px;
+	width: 8px;
+	height: 8px;
+}
+
+div.w10 {
+	float: left;
+	font-size: 0;
+	line-height: 10px;
+	width: 10px;
+	height: 10px;
+}
+
+#WRAPPER {
+	width: 980px;
+	margin: 0 auto;
+}
+
+/* =====頁首===== */
+#HEADER {
+	width: 1000px;
+	height:110px;
+	margin: 0 auto;
+	background-image:
+		url(../../images/shop/header_ppt.jpg);
+}
+
+/* =====目前網頁所再位置_背景PX===== */
+#marker {
+	width: 100%;
+	height:40px;/*==原本20PX==*/
+	margin: 0 auto;
+	padding-bottom: 10px;
+	background:
+		url(../../images/shop/store_inedx/marker_bg.gif)
+		repeat-x left top;
+}
+
+#marker .markerTop {
+	width: 980px;
+	margin: 0 auto;
+	height:40px; /*==原本20PX==*/
+	position: relative;
+}
+/*==目前網頁所再位置==*/
+#marker ul.topicPath {
+	width: 626px;
+	position: absolute;
+	top: 16px;
+	left: 3px;
+}
+
+#marker li {
+	color: #900;
+	font-size:13px;
+	line-height:22px;
+	background:
+		url(../../images/shop/store_inedx/markerli_in.gif)
+		no-repeat left top;
+	float: left;
+}
+
+#marker li a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size:13px;
+	line-height:22px;
+	color: #333;
+	/*  text-decoration:none;*/
+	padding-left: 15px;
+	_display: inline-block;
+}
+#marker li a:hover {
+	color:#ec4e2f;
+}
+#marker li.activeT a {
+    color: #EC4E2F;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif,新細明體;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 22px;
+    padding-left: 15px;
+}
+
+.markerTop_hd {
+	float:left;
+	background:url(../../images/shop/store_inedx/markerli_16_icon.gif) no-repeat left top;
+	line-height:22px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:16px;
+	color:#653e15;
+	text-decoration:none;
+	padding: 0px 5px 0px 20px;
+	_display:inline-block;
+}
+
+/* =====目前網頁所再位置_背景PX_END===== */
+/*==我要開店按==*/
+#marker ul.topIOPENshop {
+	width: 98px;
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+
+.markerTop_OPENshop a {
+	float: left;
+	width: 82px;
+	background:
+		url(../../images/shop/store_inedx/i-open-shop_bg.gif)
+		no-repeat left top;
+	line-height: 19px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+	padding: 0px 0px 0px 16px;
+	_display: inline-block;
+}
+
+.markerTop_OPENshop a:hover {
+	color: #ec4e2f;
+	text-decoration: underline;
+}
+
+/*==我要開店按鈕_END==*/
+/*==我要分享好店家Share_按==*/
+#marker ul.topShareshop {
+  width: 85px;
+  position:absolute;
+  top: 20px;
+  right:110px;
+}
+.markerTop_Shareshop a {
+  float:left;
+  width: 69px;
+  background: url(../../images/shop/store_inedx/i-share-shop_bg.gif) no-repeat left top;
+  line-height:19px; 
+  line-height: 22px \9; /*==hack_IE8==*/
+  *line-height: 22px;   /*hack_IE7*/
+  _line-height:22px;  /*==hack_IE6==*/
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:12px;
+  color:#666666;
+  text-decoration:none;
+  padding: 0px 0px 0px 16px;
+  _display:inline-block;
+}
+.markerTop_Shareshop a:hover {
+  color:#ec4e2f;
+  text-decoration:underline;
+}
+/*==我要分享好店家Share按鈕_END==*/
+/*左區塊*/
+#SUB {
+	clear: both;
+	width: 190px;
+	float: left;
+	_display: inline-block;
+	_height: 1%;
+}
+
+
+
+/*====商店分類===*/
+.SUB_store_sort {
+  float:left;
+  width: 180px;
+  height:327px;
+  background:url(../../images/shop/store_inedx/store_sort_bg.gif) no-repeat left top;
+  position: relative;
+}
+/* =====全商品_按鈕===== */
+.SUB_store_sort .ALL_Goods{
+  width: 110px;
+  height:16px;
+  position: absolute;
+  top: 306px;
+  left: 17px;
+}
+.SUB_store_sort .ALL_Goods a {
+  float:left;
+  background:url(../../images/shop/store_inedx/markerli_in.gif) no-repeat left top;
+  line-height:16px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:12px;
+  color:#ec4e2f;
+  text-decoration:none;
+  padding: 0px 0px 0px 18px;
+  _display:inline-block;
+  }
+.SUB_store_sort .ALL_Goods a:hover {
+  background-position: left bottom;
+  color:#ec4e2f;
+  text-decoration:underline;
+}
+
+/* =====全商品_按鈕END===== */
+
+/* =====全商店_按鈕===== */
+.SUB_store_sort .ALL_store{
+  width: 110px;
+  height:16px;
+  position: absolute;
+  top: 306px;
+  left: 17px;
+}
+.SUB_store_sort .ALL_store a {
+  float:left;
+  background:url(../../images/shop/store_inedx/markerli_in.gif) no-repeat left top;
+  line-height:16px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:12px;
+  color:#653e15;
+  text-decoration:none;
+  padding: 0px 0px 0px 18px;
+  _display:inline-block;
+  }
+.SUB_store_sort .ALL_store a:hover {
+  background-position: left bottom;
+  color:#ec4e2f;
+  text-decoration:underline;
+}
+
+/* =====全商品_按鈕END===== */
+/* =====商品_店家分類_選單===== */
+.SUB_store_sort .topbutton_store{
+  position: absolute;
+  top: 2px;
+  left: 15px;
+}
+.SUB_store_sort .topbutton_store ul{
+  width:160px;
+  }
+.SUB_store_sort .topbutton_store li{
+  float:left;
+  padding-left:2px;
+  }
+/*==商品分類==*/  
+.SUB_store_sort .topbutton_store li.menuGoods h1 a {
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  width: 74px;
+  height: 30px; 
+  font-size: 13px;
+  line-height: 25px;
+  line-height: 30px \9; /*==hack_IE8==*/
+  *line-height: 30px;   /*hack_IE7*/
+    _line-height: 30px;   /*hack_IE6 */
+  color: #ff392f; 
+  text-decoration: none;
+  background-image: url(../../images/shop/store_inedx/menugoods_store_bt_l.gif);
+  text-align: center;
+}
+.SUB_store_sort .topbutton_store li.menuGoods h1 a:hover {
+  color:#653e15;
+  background-position:left bottom;
+} 
+.SUB_store_sort .topbutton_store li.menuGoods_active h1 a {
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  width: 74px;
+  height: 30px; 
+  font-size: 13px;
+  line-height: 25px;
+  line-height: 30px \9; /*==hack_IE8==*/
+  *line-height: 30px;   /*hack_IE7*/
+    _line-height: 30px;   /*hack_IE6 */
+  color: #ff392f; 
+  text-decoration: none;
+  background-image: url(../../images/shop/store_inedx/menugoods_store_bt_l.gif);
+  background-position: bottom;
+  text-align: center; 
+  }
+
+/*==商品分類_END==*/
+/*==商店分類_選單==*/
+.SUB_store_sort .topbutton_store li.menuSort h1 a {
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  width: 74px;
+  height: 30px; 
+  font-size: 13px;
+  line-height: 25px;
+  line-height: 30px \9; /*==hack_IE8==*/
+  *line-height: 30px;   /*hack_IE7*/
+    _line-height: 30px;   /*hack_IE6 */
+  color:#653e15;
+  text-decoration: none;
+  background-image: url(../../images/shop/store_inedx/menugoods_store_bt_r.gif);
+  text-align: center;
+
+}
+.SUB_store_sort .topbutton_store li.menuSort h1 a:hover {
+  color:#653e15;
+  background-position:left bottom;
+}
+.SUB_store_sort .topbutton_store li.menuSort_active h1 a {
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  width: 74px;
+  height: 30px; 
+  font-size: 13px;
+  line-height: 25px;
+  line-height: 30px \9; /*==hack_IE8==*/
+  *line-height: 30px;   /*hack_IE7*/
+    _line-height: 30px;   /*hack_IE6 */
+  color:#653e15;
+  text-decoration: none;
+  background-image: url(../../images/shop/store_inedx/menugoods_store_bt_r.gif);
+  background-position: bottom;
+  text-align: center; 
+  }
+/*==商店分類_選單==*/
+/* =====商品_店家分類_選單_END===== */
+
+/* ======商品分類_UL[紅色系列]===== */
+.SUB_store_sort ul.Goods_menu {
+  position:absolute;
+  width:180px;
+  height: 40px;
+  left: 0px;
+  top: 30px;
+  _top: 34px;/*==調整IE6的位子==*/
+}
+.SUB_store_sort ul.Goods_menu li.food {
+  width:143px;
+  height: 38px;
+  margin-top: 6px;
+  _margin-top: 2px;
+  padding: 2px 0px 0px 37px;
+  background: url(../../images/shop/store_inedx/store_goods_menu.gif) no-repeat left top;
+}
+.SUB_store_sort ul.Goods_menu li.maintenance {
+  width:143px;
+  height: 38px;
+  margin-top: 6px;
+  _margin-top: 2px;
+  padding: 2px 0px 0px 37px;
+  background: url(../../images/shop/store_inedx/store_goods_menu.gif) no-repeat left -40px;
+}
+.SUB_store_sort ul.Goods_menu li.finery {
+  width:143px;
+  height: 38px;
+  margin-top: 6px;
+  _margin-top: 2px;
+  padding: 2px 0px 0px 37px;
+  background: url(../../images/shop/store_inedx/store_goods_menu.gif) no-repeat left -80px;
+}
+.SUB_store_sort ul.Goods_menu li.Family {
+  width:143px;
+  height: 38px;
+  margin-top: 6px;
+  _margin-top: 2px;
+  padding: 2px 0px 0px 37px;
+  background: url(../../images/shop/store_inedx/store_goods_menu.gif) no-repeat left -120px;
+}
+.SUB_store_sort ul.Goods_menu li.home {
+  width:143px;
+  height: 38px;
+  margin-top: 6px;
+  _margin-top: 2px;
+  padding: 2px 0px 0px 37px;
+  background: url(../../images/shop/store_inedx/store_goods_menu.gif) no-repeat left -160px;
+}
+.SUB_store_sort ul.Goods_menu li.game {
+  width:143px;
+  height: 38px;
+  margin-top: 6px;
+  _margin-top: 2px;
+  padding: 2px 0px 0px 37px;
+  background: url(../../images/shop/store_inedx/store_goods_menu.gif) no-repeat left -200px;
+}
+.SUB_store_sort ul.Goods_menu li h1.dd a {
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:13px;
+  /*==↑20110222_修改為文字原12改13==*/
+  line-height:17px;
+  _line-height:17px; /*==hack_IE6==*/   
+  line-height:20px \9; /*==hack_IE8==*/
+  text-decoration: blink;
+  color:#ec4e2f;
+  text-decoration:none;
+  _display:inline-block;
+}
+.da {
+  display:block;
+  width:130px;
+  _display:inline-block;
+}
+.SUB_store_sort ul.Goods_menu li p a {
+  float:left;
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:13px;
+  /*==↑20110222_修改為文字原12改13==*/
+  line-height:14px; 
+  _font-size:12px;   /*ie6_讀取*/
+  _line-height:16px; /*ie6_讀取*/
+  *ine-height:15px;  /*ie7_讀取*/
+    line-height:14px \9; /*==hack_IE8==*/
+  color: #333;
+  text-decoration:none;
+  _display:inline-block;
+}
+.SUB_store_sort ul.Goods_menu li a:hover {
+  color:#ec4e2f;
+  text-decoration: underline;
+}
+/*==商品分類_UL[紅色系列]_END==*/
+
+/* ======商店分類_UL[咖啡色系列]===== */
+.SUB_store_sort ul.shop_menu {
+  position:absolute;
+  width:180px;
+  height: 40px;
+  left: 0px;
+  top: 30px;
+  _top: 34px;/*==調整IE6的位子==*/
+}
+.SUB_store_sort ul.shop_menu li.food {
+  width:143px;
+  height: 38px;
+  margin-top: 6px;
+  _margin-top: 2px;
+  padding: 2px 0px 0px 37px;
+  background: url(../../images/shop/store_inedx/store_sort_menu.gif) no-repeat left top;
+}
+.SUB_store_sort ul.shop_menu li.maintenance {
+  width:143px;
+  height: 38px;
+  margin-top: 6px;
+  _margin-top: 2px;
+  padding: 2px 0px 0px 37px;
+  background: url(../../images/shop/store_inedx/store_sort_menu.gif) no-repeat left -40px;
+}
+.SUB_store_sort ul.shop_menu li.finery {
+  width:143px;
+  height: 38px;
+  margin-top: 6px;
+  _margin-top: 2px;
+  padding: 2px 0px 0px 37px;
+  background: url(../../images/shop/store_inedx/store_sort_menu.gif) no-repeat left -80px;
+}
+.SUB_store_sort ul.shop_menu li.Family {
+  width:143px;
+  height: 38px;
+  margin-top: 6px;
+  _margin-top: 2px;
+  padding: 2px 0px 0px 37px;
+  background: url(../../images/shop/store_inedx/store_sort_menu.gif) no-repeat left -120px;
+}
+.SUB_store_sort ul.shop_menu li.home {
+  width:143px;
+  height: 38px;
+  margin-top: 6px;
+  _margin-top: 2px;
+  padding: 2px 0px 0px 37px;
+  background: url(../../images/shop/store_inedx/store_sort_menu.gif) no-repeat left -160px;
+}
+.SUB_store_sort ul.shop_menu li.game {
+  width:143px;
+  height: 38px;
+  margin-top: 6px;
+  _margin-top: 2px;
+  padding: 2px 0px 0px 37px;
+  background: url(../../images/shop/store_inedx/store_sort_menu.gif) no-repeat left -200px;
+}
+.SUB_store_sort ul.shop_menu li h1.dd a {
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:13px;
+  /*==↑20110222_修改為文字原12改13==*/
+  line-height:17px;
+  _line-height:17px; /*==hack_IE6==*/   
+  line-height:20px \9; /*==hack_IE8==*/
+  text-decoration: blink;
+  color:#653e15;
+  text-decoration:none;
+  _display:inline-block;
+}
+.da {
+  display:block;
+  width:130px;
+  _display:inline-block;
+}
+.SUB_store_sort ul.shop_menu li p a {
+  float:left;
+  display:block;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:13px;
+  /*==↑20110222_修改為文字原12改13==*/
+  line-height:14px; 
+  _font-size:12px;   /*ie6_讀取*/
+  _line-height:16px; /*ie6_讀取*/
+  *ine-height:15px;  /*ie7_讀取*/
+    line-height:14px \9; /*==hack_IE8==*/
+  color: #333;
+  text-decoration:none;
+  _display:inline-block;
+}
+.SUB_store_sort ul.shop_menu li a:hover {
+  color:#ec4e2f;
+  text-decoration: underline;
+}
+/*==商店分類_UL[咖啡色系列]_END==*/
+/*===商店分類_END===*/
+@import url("reset.css");
+
+/*===商品分類_紅色===*/
+.Goods_list {
+  float:left;
+  width: 140px;
+     } 
+.Goods_list_top{
+  display:block;
+  width:140px;
+  height:37px;
+  border:1px solid #fc5956;
+  background-color: #fc5956;
+
+  } 
+.Goods_list_top .top_dd{
+  display:block;
+  line-height:37px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:16px;
+  font-weight: 900;
+  color: #FFF;
+  padding-left:20px;
+  }
+
+.Goods_list_center{
+  display:block;
+  width:140px;
+  background-color:#FFFFFF;
+  border:1px solid #fc5956;
+  font-size:0;
+  padding:1px;
+  padding:0px 0px 5px 0px;
+  }
+.Goods_list_bottom{
+  width:140px;
+  height:2px;
+  background-color:#fc5956;
+  border:1px solid #fc5956;
+  line-height:1px; /*解除IE六問題*/
+  font-size:1px;/*解除IE六問題*/
+  }
+  
+
+/* =====商品分類_紅色_UL===== */
+.Goods_list ul.Goods_list_ad {
+  width:140px;
+}
+.Goods_list ul.Goods_list_ad li {
+}
+.Goods_list ul.Goods_list_ad li a {
+  display:block;
+  width:120px;
+  line-height:24px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:12px;
+  color:#333;
+  text-decoration:none;
+  padding-left: 20px;
+  border-bottom: 1px dashed #cccccc;
+  _display:inline-block;
+}
+.Goods_list ul.Goods_list_ad li a:hover {
+  color:#ec4e2f;
+  text-decoration: underline;
+}
+/* =====商品分類_紅色_UL_end===== */
+/*===商品分類_紅色END===*/
+
+
+/*===商店分類_咖啡色===*/
+.Sort_list {
+  float:left;
+  width: 140px;
+     } 
+.Sort_list_top{
+  display:block;
+  width:140px;
+  height:37px;
+  border:1px solid #d5a05a;
+  background-color: #d5a05a;
+
+  } 
+.Sort_list_top h1.top_dd{
+  display:block;
+  line-height:37px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:16px;
+  font-weight: 900;
+  color:#fff;
+  padding-left:20px;
+  }
+
+.Sort_list_center{
+  display:block;
+  width:140px;
+  background-color:#FFFFFF;
+  border:1px solid #d5a05a;
+  font-size:0;
+  padding:1px;
+  padding:0px 0px 5px 0px;
+  }
+.Sort_list_bottom{
+  width:140px;
+  height:2px;
+  background-color: #d5a05a;
+  border: 1px solid #d5a05a;
+  line-height:1px; /*解除IE六問題*/
+  font-size:1px;/*解除IE六問題*/
+  }
+  
+
+/* =====商店分類_咖啡色_UL===== */
+.Sort_list ul.Sort_list_ad {
+  width:140px;
+}
+.Sort_list ul.Sort_list_ad li {
+}
+.Sort_list ul.Sort_list_ad li a {
+  display:block;
+  width:120px;
+  line-height:24px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:12px;
+  color:#333;
+  text-decoration:none;
+  padding-left: 20px;
+  border-bottom: 1px dashed #cccccc;
+  _display:inline-block;
+}
+.Sort_list ul.Sort_list_ad li a:hover {
+  color: #d5a05a;
+  text-decoration: underline;
+}
+/* =====商店分類_咖啡色_UL_end===== */
+/*===商店分類_咖啡色END===*/
+
+
+
+
+
+/*===搶先推薦===*/
+.SUB_push {
+	float: left;
+	width: 180px;
+	position: relative;
+}
+
+.SUB_push_top {
+	width: 180px;
+	height: 45px;
+	background:
+		url(../../images/shop/store_inedx/push_top_bg.gif)
+		no-repeat left top;
+}
+
+.SUB_push_center {
+	width: 165px;
+	background:
+		url(../../images/shop/store_inedx/push_center_bg.gif)
+		repeat-y left top;
+	padding: 0px 0px 10px 15px;
+}
+
+.SUB_push_bottom {
+	width: 180px;
+	height: 10px;
+	line-height: 1px; /*解除IE六問題*/
+	font-size: 1px; /*解除IE六問題*/
+	background:
+		url(../../images/shop/store_inedx/box_bottom_bg.gif)
+		no-repeat left top;
+}
+
+/* =====我要曝光_UL===== */
+.SUB_push ul.push_top {
+	position: absolute;
+	width: 55px;
+	height: 28px;
+	left: 107px;
+	top: 15px;
+}
+
+.SUB_push ul.push_top li {
+	
+}
+
+.SUB_push ul.push_top li a {
+	display: block;
+	line-height: 28px;
+	font-family: Arial, 新細明體;
+	font-size: 12px;
+	text-indent: -9999px;
+	background:
+		url(../../images/shop/store_inedx/push_i_exposure.gif)
+		no-repeat left top;
+}
+
+.SUB_push ul.push_top li a:hover {
+	background:
+		url(../../images/shop/store_inedx/push_i_exposure.gif)
+		no-repeat left bottom;
+}
+
+/* =====我要曝光_UL_end===== */
+/* =====搶先推薦_UL===== */
+.SUB_push ul.push_ad {
+	width: 155px;
+}
+
+.SUB_push ul.push_ad li {
+	background:
+		url(../../images/shop/store_inedx/icon_push.jpg)
+		no-repeat left center;
+}
+
+.SUB_push ul.push_ad li a {
+  display:block;
+  line-height:28px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:12px;
+  color:#333;
+  text-decoration:none;
+  padding-left: 15px;
+  border-bottom: 1px dashed #cccccc;
+  _display:inline-block;  
+  overflow:hidden;
+  height: 28px;
+}
+
+.SUB_push ul.push_ad li a:hover {
+	color: #ec4e2f;
+	background:
+		url(../../images/shop/store_inedx/icon_push_hover.jpg)
+		no-repeat left center;
+	text-decoration: underline;
+}
+
+/* =====搶先推薦_UL_end===== */
+/*===搶先推薦END===*/
+/*===關鍵熱字Keyword===*/
+#SUB_Keyword {
+	clear: both;
+	float: left;
+	width: 180px;
+}
+
+.SUB_Keyword_top {
+	width: 180px;
+	height: 45px;
+	background:
+		url(../../images/shop/store_inedx/Keyword_top_bg.gif)
+		no-repeat left top;
+		
+}
+
+#SUB_Keyword_center {
+  width:150px;
+  background: url(../../images/shop/store_inedx/push_center_bg.gif) repeat-y left top;
+  padding:0px 15px 0px 15px;  
+  
+  /*  20110224原本padding:0px 10px 0px 10px;修正為padding:0px 15px 0px 15px;*/
+}
+
+#SUB_Keyword_bottom {
+	width: 180px;
+	height: 10px;
+	line-height: 10px; /*解除IE六問題*/
+	font-size: 0; /*解除IE六問題*/
+	background:
+		url(../../images/shop/store_inedx/box_bottom_bg.gif)
+		no-repeat left top;
+}
+
+/*一組關鍵熱字Keyword*/
+.Keyword_box {
+  width:160px;
+  height:22px;
+  float:left;
+}
+.Keyword_box ul.t12{}
+.Keyword_box ul.t12 li{
+  float:left;
+  }
+.Keyword_box ul.t12 li a{
+  display:block;
+  line-height:20px;
+  padding:0 2px;
+  color:#333;
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform:uppercase;
+  font-size:12px;
+  text-decoration:none;
+  }
+.Keyword_box ul.t12 li.D23E3E_12 a{
+  display:block;
+  line-height:20px;
+  padding:0 2px;
+  color:#D23E3E;  
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform:uppercase;
+  font-size:12px;
+  text-decoration:none;
+  }
+.Keyword_box ul.t12 li a:hover{
+  color:#ec4e2f;
+  text-decoration: underline;
+  }
+/*一組關鍵熱字Keyword_END*/
+
+/*===關鍵熱字Keyword_END===*/
+/*===品牌商店vipshop===*/
+.SUB_vipshop {
+	float: left;
+	width: 180px;
+	position: relative;
+}
+
+.SUB_vipshop_topbox {
+	width: 180px;
+	height: 45px;
+	background:
+		url(../../images/shop/store_inedx/vipshop_top_bg.gif)
+		no-repeat left top;
+}
+
+.SUB_vipshop_center {
+	width: 170px;
+	background:
+		url(../../images/shop/store_inedx/push_center_bg.gif)
+		repeat-y left top;
+	padding: 0px 0px 0px 10px;
+}
+
+.SUB_vipshop_bottom {
+	width: 180px;
+	height: 10px;
+	line-height: 1px; /*解除IE六問題*/
+	font-size: 1px; /*解除IE六問題*/
+	background:
+		url(../../images/shop/store_inedx/box_bottom_bg.gif)
+		no-repeat left top;
+}
+
+/* =====我要曝光_UL===== */
+.SUB_vipshop ul.SUB_vipshop_top {
+	position: absolute;
+	width: 55px;
+	height: 28px;
+	left: 107px;
+	top: 15px;
+}
+
+.SUB_vipshop ul.SUB_vipshop_top li {
+	
+}
+
+.SUB_vipshop ul.SUB_vipshop_top li a {
+	display: block;
+	line-height: 28px;
+	font-family: Arial, 新細明體;
+	font-size: 12px;
+	text-indent: -9999px;
+	background:
+		url(../../images/shop/store_inedx/push_i_exposure.gif)
+		no-repeat left top;
+}
+
+.SUB_vipshop ul.SUB_vipshop_top a:hover {
+	background:
+		url(../../images/shop/store_inedx/push_i_exposure.gif)
+		no-repeat left bottom;
+}
+
+/* =====我要曝光_UL_end===== */
+.SUB_vipshop_center_box{
+  display:block;
+  width:160px;
+  padding:3px 0px 3px 0px;
+  }
+.SUB_vipshop_center .BrandSotre_box_j {
+  display:block;
+  width:160px;
+  height: 55px;
+  background-color:#FFFFFF;
+  border:1px solid #BBBBBB;
+  font-size:0;
+  padding:1px;
+  overflow: hidden;
+}
+.SUB_vipshop_center .BrandSotre_box h1 a {
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  width:150px;
+  height:17px;
+  _height:16px;
+  height:18px \9; /*==hack_IE8==*/
+  overflow: hidden;
+  /*==2011_0309新增height與overflow=*/
+  font-size:12px;
+  line-height:17px;
+  _line-height:16px;
+  line-height:18px \9; /*==hack_IE8==*/
+  /*==2011_0224修改成18px==*/
+  color: #595757;
+  padding:5px 0px 0px 17px;
+  _padding:5px 0px 0px 17px;
+  text-decoration:none;
+  background: url(../../images/shop/store_inedx/vipshop/store-small.png) no-repeat left top;
+}
+.SUB_vipshop_center .BrandSotre_box h1 a:hover {
+  color: #ec4e2f;
+  text-decoration:underline;
+  background:url(../../images/shop/store_inedx/vipshop/store-small_hover.png) no-repeat left top;
+}
+/*===品牌商店vipshopEND===*/
+/*===右區塊====*/
+/*===搜尋吧===*/
+#CONTENT_One {
+	width: 790px;
+	float: right;
+	background-color: #333;
+}
+
+/*==搜尋選單按鈕_nav_商品==*/
+#CONTENT_One .search_box {
+	width:768px;
+	height: 39px;
+	background:
+		url(../../images/shop/store_inedx/search_bg.gif)
+		no-repeat left top;
+	padding: 6px 10px 5px 12px;
+	position: relative;
+	z-index: 10;
+}
+
+#CONTENT_One .search_box .iad_nav {
+	position: absolute;
+	width: 85px;
+	height: 22px;
+	left: 289px;
+	top: 8px;
+}
+
+#CONTENT_One .search_box .iad_nav .iad_nav_res a {
+	display: block;
+	line-height: 22px;
+	font-family: Arial, 新細明體;
+	font-size: 12px;
+	/**text-indent: -9999px;*/
+	background:
+		url(../../images/shop/store_inedx/search_iad_nav.gif)
+		no-repeat left top;
+}
+
+#CONTENT_One .search_box .iad_nav .iad_nav_res a:hover {
+	background:
+		url(../../images/shop/store_inedx/search_iad_nav.gif)
+		no-repeat left bottom;
+}
+
+/*==搜尋選單按鈕_nav_商品_END==*/
+/*==搜尋選單按鈕_商店==*/
+#CONTENT_One .search_box .iad_nav .iad_nav_shop a {
+	display: block;
+	line-height: 22px;
+	font-family: Arial, 新細明體;
+	font-size: 12px;
+	/**text-indent: -9999px;*/
+	background:
+		url(../../images/shop/store_inedx/search_iad_shop.gif)
+		no-repeat left top;
+}
+
+#CONTENT_One .search_box .iad_nav .iad_nav_shop a:hover {
+	background:
+		url(../../images/shop/store_inedx/search_iad_shop.gif)
+		no-repeat left bottom;
+}
+
+#CONTENT_One .search_box .iad_nav .iad_nav_res1 a {
+	display: block;
+	line-height: 22px;
+	font-family: Arial, 新細明體;
+	font-size: 12px;
+	/**text-indent: -9999px;*/
+	background:
+		url(../../images/shop/store_inedx/search_iad_nav_hover.gif)
+		no-repeat left top;
+}
+
+#CONTENT_One .search_box .iad_nav .iad_nav_res1 a:hover {
+	background:
+		url(../../images/shop/store_inedx/search_iad_nav_hover.gif)
+		no-repeat left bottom;
+}
+
+/*==搜尋選單按鈕_nav_商品_END==*/
+#CONTENT_One .search_box .iad_nav .iad_nav_shop1 a {
+	display: block;
+	line-height: 22px;
+	font-family: Arial, 新細明體;
+	font-size: 12px;
+	/**text-indent: -9999px;*/
+	background:
+		url(../../images/shop/store_inedx/search_iad_shop_hover.gif)
+		no-repeat left top;
+}
+
+#CONTENT_One .search_box .iad_nav .iad_nav_shop1 a:hover {
+	background:
+		url(../../images/shop/store_inedx/search_iad_shop_hover.gif)
+		no-repeat left bottom;
+}
+
+/*==搜尋選單按鈕_商店_END==
+
+
+/*==搜尋按鈕_nav==*/
+#CONTENT_One .search_box ul.search {
+	width: 60px;
+	height: 34px;
+	position: absolute;
+	left: 378px;
+	top: 3px;
+}
+
+#CONTENT_One .search_box ul.search {
+	
+}
+
+#CONTENT_One .search_box ul.search li a {
+	display: block;
+	line-height: 34px;
+	font-family: Arial, 新細明體;
+	font-size: 12px;
+	/**text-indent: -9999px;*/
+	background:
+		url(../../images/shop/store_inedx/search_nev.gif)
+		no-repeat left top;
+}
+
+#CONTENT_One .search_box ul.search li a:hover {
+	background:
+		url(../../images/shop/store_inedx/search_nev.gif)
+		no-repeat left bottom;
+}
+
+/*==搜尋按鈕_nav_END==*/
+/*==輸入字框==*/
+#CONTENT_One .search_box .in {
+	background:
+		url(../../images/shop/store_inedx/contact_input.gif)
+		no-repeat 0 0 #FFF;
+	padding: 1px;
+	display: block;
+	width: 260px;
+	font-size: 12px;
+	font-family: Arial, 新細明體;
+	height: 26px;
+	line-height: 24px;
+	padding-left: 10px;
+	border: none;
+	float: left;
+	color: #000000;
+}
+
+/*==輸入字框_END==*/
+/*==熱門搜尋關鍵字==*/
+#CONTENT_One .hotk {
+	display: block;
+	width: 295px;
+	_width: 305px;
+	height: 26px;
+	float: right;
+	background:
+		url(../../images/shop/store_inedx/hotk.gif)
+		no-repeat left top;
+	overflow: hidden;
+	white-space:nowrap;
+	padding-left: 30px;
+	/*==修改為20110216==*/
+}
+
+/*一組熱字*/
+.hotk h1 {
+	color: #333;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	line-height: 18px;
+	float: left;
+	padding: 3px 0px 6px 5px;
+	_padding: 3px 0px 6px 0px;
+	/*==修改為20110216==*/
+}
+
+.hotkey_12 a {
+	color: #333;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	line-height: 18px;
+	float: left;
+	padding: 3px 2px 6px 2px;
+}
+
+.hotkey_12 a:hover {
+	color: #ec4e2f;
+}
+
+/*一組字熱_END*/
+/*==熱門搜尋關鍵字_END==*/
+/*===搜尋吧_NED===*/
+/*===大合購與免費索取===*/
+#CONTENT_Two {
+	width: 790px;
+	float: right;
+}
+
+/*===大合購===*/
+#CONTENT_Two .Special {
+	width: 415px;
+	height: 297px;
+	padding: 33px 0px 0px 15px;
+	float: left;
+	background:
+		url(../../images/shop/store_inedx/special_bg.gif)
+		no-repeat left top;
+	position: relative;
+}
+
+/*=====UL=====*/
+#CONTENT_Two .Special ul.Special_icom {
+	position: absolute;
+	right: 5px;
+	top: 1px;
+	width: 125px;
+}
+
+#CONTENT_Two li {
+	float: left;
+}
+
+/*==我要曝光==*/
+#CONTENT_Two .Special li.Special-exposure a {
+	display: block;
+	width: 55px;
+	height: 28px;
+	background:
+		url(../../images/shop/store_inedx/i_exposure.gif)
+		no-repeat left top;
+	text-indent: -9999px;
+	padding-left: 3px;
+}
+
+#CONTENT_Two .Special li.Special-exposure a:hover {
+	background:
+		url(../../images/shop/store_inedx/i_exposure.gif)
+		no-repeat left bottom;
+}
+
+/*===我要曝光_END==*/
+/*==更多MORE==*/
+#CONTENT_Two .Special li.Special-moer a {
+	display: block;
+	width: 55px;
+	height: 28px;
+	background:
+		url(../../images/shop/store_inedx/i_more.gif)
+		no-repeat left top;
+	text-indent: -9999px;
+	padding-left: 3px;
+}
+
+#CONTENT_Two .Special li.Special-moer a:hover {
+	background:
+		url(../../images/shop/store_inedx/i_more.gif)
+		no-repeat left bottom;
+}
+
+/*==圖片邊角_左角==*/
+.Cnnter_R img {
+	position: absolute;
+	top: 201px;
+	left: 379px;
+}
+
+/*==圖片邊角_右角==*/
+.Cnnter_L img {
+	position: absolute;
+	top: 31px;
+	left: 13px;
+}
+
+/*===換頁數字===*/
+.shoplist_page1 {
+	position: absolute;
+	width:304px;
+	float: left;
+	left: 17px;
+	top: 280px;
+}
+
+.shoplist_page a,.pageList .this-page {
+	padding: 2px 6px 2px 6px;
+	margin: 1px 1px 1px 1px;
+	color: #ffffff;
+	background-color: #eaeaea;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "Arial", "新細明體";
+	color: #777777;
+}
+
+.shoplist_page a:visited:hover,.shoplist_page a:hover,.shoplist_page a:active
+	{
+	color: #ffffff;
+	background-color: #ff9d7f;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+}
+
+/*===換頁數字_END===*/
+.Special h1 a {
+	width: 205px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	display: block;
+	font-size: 16px;
+	color: #595757;
+	background: url(../../images/shop/store_inedx/bullet_star.gif) no-repeat left top;
+	padding: 13px 0px 0px 20px;
+	text-decoration: none;
+	position: absolute;
+	top: 240px;
+	left: 15px;
+}
+
+.Special h1 a:hover {
+	text-decoration: underline;
+	color: #ec4e2f;
+}
+
+/*===份數===*/
+.Special ul.Special_in {
+	position: absolute;
+	width: 170px;
+	left: 243px;
+	top: 251px;
+}
+
+.Special_in li {
+	background:
+		url(../../images/shop/store_inedx/icon_special_in.jpg)
+		no-repeat left center;
+}
+
+.Special ul.Special_in li a {
+  display:block;
+  line-height:20px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:12px;
+  color:#333;
+  text-decoration:none;
+  padding-left: 20px;
+  border-bottom: 1px dashed #cccccc;
+}
+
+.Special ul.Special_in li a .int {
+  line-height:20px;
+  font-family:Arial;
+  font-size:12px;
+  color:#bb3404;
+  font-weight:bold;
+  text-decoration:none;
+  _display:inline-block;
+}
+
+.Special ul.Special_in li a:hover {
+	color: #ec4e2f;
+}
+
+/*===份數_END===*/
+/*===倒數時間===*/
+.Special_in_time {
+	position: absolute;
+	width: 170px;
+	left: 243px;
+	top: 264px;
+}
+
+.Special_in_time li {
+	background:
+		url(../../images/shop/store_inedx/icon_special_time.gif)
+		no-repeat left center;
+}
+
+.Special ul.Special_in_time li a {
+	display: block;
+	line-height: 20px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+	padding-left: 20px;
+	border-bottom: 1px dashed #cccccc;
+}
+
+.Special ul.Special_in_time li a .int {
+	line-height: 20px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #bb3404;
+	font-weight: bold;
+	text-decoration: none;
+	_display: inline-block;
+}
+
+.Special ul.Special_in_time li a:hover {
+	color: #ec4e2f;
+}
+
+/*===倒數時間_END===*/
+/*===我要購買===*/
+.Special_go {
+  position:absolute;
+  width: 85px;
+  left: 329px;
+  top: 279px;
+}
+.Special_go li {
+  background: url(../../images/shop/store_inedx/go_special.gif) no-repeat left top;
+  width: 85px;
+  height:30px;
+}
+.Special_go li a {
+  display:block;
+  width: 55px;
+  padding-left:30px;
+  line-height:30px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:12px;
+  font-weight:bold;
+  color: #7c4c1b;
+  text-decoration:none;
+}
+.Special_go li a:hover {
+    background: url(../../images/shop/store_inedx/go_special.gif) no-repeat left bottom;
+  color: #6f3f0e;
+}
+/*===我要購買_20110223_按鈕修改END===*/
+
+
+/*===大合購_END===*/
+/*===家族區塊===*/
+#CONTENT_Two .familyBox{
+	float: right;
+	width: 350px;
+	height: 115px;
+	padding: 0px 0px 0px 0px;
+	/*==我的家族
+	background: url(../../images/shop/store_inedx/myfamilybox_bg.gif) no-repeat left top;
+	==*/
+	/*==熱門家族==
+	background: url(../../images/shop/store_inedx/hotfamilybox_bg.gif) no-repeat left top; */
+	position: relative;
+	}
+#CONTENT_Two .familyBox p{
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	width: 350px;
+	height: 24px;	
+	font-size: 12px;
+	line-height: 24px;
+	color:#653e15;
+	text-indent:75px;
+	text-indent:-9999px;
+	}
+#CONTENT_Two .familyBox p span.Show{
+	font-weight:bold;
+	letter-spacing:1px;
+	}	
+#CONTENT_Two .familyBox .familylist{
+	width: 335px;
+	height: 86px;
+	padding: 5px 0px 0px 15px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	}
+#CONTENT_Two .familyBox .familylist ul.listbox{
+	width: 335px;
+	}
+#CONTENT_Two .familyBox .familylist li{
+	float: left;
+	width: 140px;
+	height:26px;
+	margin-left:5px;
+	_display:inline;
+		}
+#CONTENT_Two .familyBox .familylist li:hover{
+    background:#fffee8;
+	}	
+#CONTENT_Two .familyBox .familylist li a{	
+	display:block;
+	width: 122px;
+	padding-left:18px;
+	height:26px;
+	line-height:26px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	color:#005599;
+	text-decoration:none;
+	background: url(../../images/shop/store_inedx/private.gif) no-repeat left top;
+	overflow:hidden;
+	}
+
+#CONTENT_Two .familyBox .familylist li a.Go_in{	
+	display:block;
+	width: 122px;
+	padding-left:18px;
+	height:26px;
+	line-height:26px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	color:#005599;
+	text-decoration:none;
+	background: url(../../images/shop/store_inedx/private.gif) no-repeat left bottom;	
+	overflow:hidden;
+	}
+#CONTENT_Two .familyBox .familylist li a.No_open{	
+	display:block;
+	width: 122px;
+	padding-left:18px;
+	height:26px;
+	line-height:26px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	color:#005599;
+	text-decoration:none;
+	background: url(../../images/shop/store_inedx/private.gif) no-repeat left top;
+	overflow:hidden;
+	}
+#CONTENT_Two .familyBox .familylist li a.open{	
+	display:block;
+	width: 122px;
+	padding-left:18px;
+	height:26px;
+	line-height:26px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	color:#005599;
+	text-decoration:none;
+	background: url(../../images/shop/store_inedx/private.gif) no-repeat left -26px;
+	overflow:hidden;
+	}	
+	
+#CONTENT_Two .familyBox .familylist li a:hover{
+	text-decoration:underline;
+	color:#ff9933;
+	}
+
+/*==more_bnt==*/
+#CONTENT_Two .familyBox .more_btn{
+	width:55px;
+	height:28px;
+	position:absolute;
+	right:5px;
+	top:1px;
+	}
+#CONTENT_Two .familyBox .more_btn a.familymore{
+	display:block;
+	width:55px;
+	height:28px;
+	background: url(../../images/shop/store_inedx/i_more.gif) no-repeat left top;
+    text-indent:-9999px;
+	}
+#CONTENT_Two .familyBox .more_btn a:hover.familymore{
+	background: url(../../images/shop/store_inedx/i_more.gif) no-repeat left bottom;
+	}	
+/*==more_bnt結束==*/	
+/*===家族區塊結束===*/	
+/*===與免費索取===*/
+#CONTENT_Two .Free {
+	float:right;
+	width: 320px;
+	height: 177px;
+	background: url(../../images/shop/store_inedx/free_imgbg_h210.gif) no-repeat left top;
+	padding: 33px 15px 0px 15px;
+	position: relative;/*20110221_新增訂位position*/
+}
+
+/*=====UL=====*/
+#CONTENT_Two .Free ul.Free_icom {
+	position: absolute;
+	right: 5px;
+	top: 1px;
+	width: 125px;
+}
+
+#CONTENT_Two li {
+	float: right;
+}
+
+/*==我要曝光==*/
+#CONTENT_Two .Free li.Free-exposure a {
+	display: block;
+	width: 55px;
+	height: 28px;
+	background:
+		url(../../images/shop/store_inedx/i_exposure.gif)
+		no-repeat left top;
+	text-indent: -9999px;
+	padding-left: 3px;
+}
+
+#CONTENT_Two .Free li.Free-exposure a:hover {
+	background:
+		url(../../images/shop/store_inedx/i_exposure.gif)
+		no-repeat left bottom;
+}
+
+/*===我要曝光_END==*/
+/*==更多MORE==*/
+#CONTENT_Two .Free li.Free-moer a {
+	display: block;
+	width: 55px;
+	height: 28px;
+	background:
+		url(../../images/shop/store_inedx/i_more.gif)
+		no-repeat left top;
+	text-indent: -9999px;
+	padding-left: 3px;
+}
+
+#CONTENT_Two .Free li.Free-moer a:hover {
+	background:
+		url(../../images/shop/store_inedx/i_more.gif)
+		no-repeat left bottom;
+}
+
+/*==更多MORE_END==*/
+/*==左邊索取==*/
+/*==20110221-沒有免費索取==*/
+.free_box_left_NOfree_left {
+	float: left;
+	width: 145px;
+	height:160px;
+	padding: 5px 0px 5px 10px;
+	background: url(../../images/shop/store_inedx/free_box_bg-nofree_h170.gif) no-repeat left top;
+}
+
+.free_box_left_NOfree_right {
+	float: right;
+	width: 145px;
+	height:160px;
+	padding: 5px 0px 5px 10px;
+	background: url(../../images/shop/store_inedx/free_box_bg-nofree_h170.gif) no-repeat left top;
+}
+
+.free_box_left {
+	float: left;
+	width: 145px;
+	height:165px;
+	padding: 5px 0px 0px 10px;
+	background:url(../../images/shop/store_inedx/free_box_bg_h169.gif) no-repeat left top;
+}
+
+.free_box_left .free_img {
+	display: block;
+	width: 131px;
+	height: 98px;
+	background-color: #fef69d;
+	overflow: hidden;
+}
+.free_box_left .free_img a img{
+	margin: 0 auto;
+	display:block;
+	font-size:0;
+	height:98px;/*修改商品圖145*109-2=107*/
+}
+.free_box_left h1 a {
+	display:block;
+	width: 131px;
+	height:18px;
+	line-height:16px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-weight:bold;
+	font-size:12px;
+	line-height:18px;
+	color:#333;
+	text-decoration:none;		
+	padding: 10px 0px 0px 0px;
+	overflow:hidden;
+}
+
+.free_box_left h1 a:hover {	
+	text-decoration: underline;
+	color: #ec4e2f;
+}
+/*===提供份數_左邊===*/
+/*.free_box_left h2 {
+	display: block;
+	width: 115px;
+	line-height: 16px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+	background:
+		url(../../images/shop/store_inedx/icon_a_g.gif)
+		no-repeat left top;
+	padding: 3px 0px 2px 15px;
+	border-bottom: 1px dashed #ffd93a;
+}*/
+
+.free_box_left h3 {
+	display: block;
+	width: 115px;
+	line-height: 16px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	line-height:16px;
+	color: #ec4e2f;
+	text-decoration: none;
+	background:
+		url(../../images/shop/store_inedx/icon_a_g.gif)
+		no-repeat left top;
+	padding: 3px 0px 2px 15px;
+	border-bottom: 1px dashed #ffd93a;
+}
+/*==右邊索取==*/
+.free_box_right {
+	float: right;
+	width: 145px;
+	height:165px;
+	padding: 5px 0px 0px 10px;
+	background:url(../../images/shop/store_inedx/free_box_bg_h169.gif) no-repeat left top;
+}
+
+.free_box_right .free_img {
+	display: block;
+	width: 131px;
+	height: 98px;
+	background-color: #fef69d;
+	overflow: hidden;
+}
+.free_box_right .free_img a img{
+	margin: 0 auto;
+	display:block;
+	font-size:0;
+	height:98px;/*修改商品圖145*109-2=107*/
+}
+.free_box_right h1 a {
+	display: block;
+	width: 131px;
+	height:18px;
+	line-height:16px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	font-weight:bold;
+	font-size:12px;
+	line-height:18px;
+	color:#333;
+	text-decoration:none;	
+	padding: 10px 0px 0px 0px;
+	overflow:hidden;
+}
+
+.free_box_right h1 a:hover {	
+	text-decoration: underline;
+	color: #ec4e2f;
+}
+/*===提供份數_右邊===*/
+/*.free_box_right h2 {
+	display: block;
+	width: 115px;
+	line-height: 16px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+	background:
+		url(../../images/shop/store_inedx/icon_a_g.gif)
+		no-repeat left top;
+	padding: 3px 0px 2px 15px;
+	border-bottom: 1px dashed #ffd93a;
+}*/
+
+.free_box_right h3 {
+	display: block;
+	width: 115px;
+	line-height: 16px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size:12px;
+	line-height:16px;
+	color: #ec4e2f;
+	text-decoration: none;
+	background:
+		url(../../images/shop/store_inedx/icon_a_g.gif)
+		no-repeat left top;
+	padding: 3px 0px 2px 15px;
+	border-bottom: 1px dashed #ffd93a;
+}
+
+/*==我要索取按鈕==*/
+.free_go {
+	width: 33px;
+	height:32px;
+	position:absolute;
+	top:170px;
+	right:180px;
+}
+
+.free_go li {
+	
+}
+
+.free_go li a {
+	display:block;
+	width: 33px;
+	height:32px;
+	line-height:32px;
+	font-family:Arial, Helvetica, sans-serif, 新細明體;
+	background:url(../../images/shop/store_inedx/go_freeh32.gif) no-repeat left top;
+	text-indent: -9999px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #7c4c1b;
+	text-decoration: none;
+}
+
+.free_go li a:hover {
+	background: url(../../images/shop/store_inedx/go_freeh32.gif) no-repeat left bottom;
+	color: #6f3f0e;
+}
+
+/*==我要索取按鈕_END==*/
+/*===與免費索取_END===*
+
+/*===發燒話題===*/
+#CONTENT_Two .Topic {
+	width: 430px;
+	height: 335px;
+	/*==2011修改height:335px;==*/
+	float: left;
+	background:
+		url(../../images/shop/store_inedx/topics_bg.gif)
+		no-repeat left top;
+	position: relative;
+}
+
+/*==發燒話題_links_1連結==*/
+#CONTENT_Two .Topic ul.in_link_1 {
+	position: absolute;
+	right: 16px;
+	top: 251px;
+	width: 200px;
+	border-bottom: 1px dashed #cccccc;
+}
+
+#CONTENT_Two .Topic ul.in_link_1 li {
+	float: left;
+	background:
+		url(../../images/shop/store_inedx/icon_link_1.gif)
+		no-repeat left top;
+}
+
+#CONTENT_Two .Topic ul.in_link_1 li a {
+	display: block;
+	line-height: 18px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	text-align: center;
+	color: #333;
+	text-decoration: none;
+	padding-left: 15px;
+	_display: inline-block;
+}
+
+#CONTENT_Two .Topic ul.in_link_1 li a:hover {
+	color: #ec4e2f;
+	text-decoration: underline;
+}
+
+/*==發燒話題_links_2連結==*/
+#CONTENT_Two .Topic ul.in_link_2 {
+	position: absolute;
+	right: 17px;
+	top: 274px;
+	width: 200px;
+	border-bottom: 1px dashed #cccccc;
+}
+
+#CONTENT_Two .Topic ul.in_link_2 li {
+	float: left;
+	background:
+		url(../../images/shop/store_inedx/icon_link_2.gif)
+		no-repeat left top;
+}
+
+#CONTENT_Two .Topic ul.in_link_2 li a {
+	display: block;
+	line-height: 18px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+	padding-left: 15px;
+	_display: inline-block;
+}
+
+#CONTENT_Two .Topic ul.in_link_2 li a:hover {
+	color: #ec4e2f;
+	text-decoration: underline;
+}
+
+/*==發燒話題_links_3連結==*/
+#CONTENT_Two .Topic ul.in_link_3 {
+	position: absolute;
+	right: 17px;
+	top: 295px;
+	width: 200px;
+	border-bottom: 1px dashed #cccccc;
+}
+
+#CONTENT_Two .Topic ul.in_link_3 li {
+	float: left;
+	background:
+		url(../../images/shop/store_inedx/icon_link_3.gif)
+		no-repeat left top;
+}
+
+#CONTENT_Two .Topic ul.in_link_3 li a {
+	display: block;
+	line-height: 18px;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+	padding-left: 15px;
+	_display: inline-block;
+}
+
+#CONTENT_Two .Topic ul.in_link_3 li a:hover {
+	color: #ec4e2f;
+	text-decoration: underline;
+}
+
+/*==menu==*/
+#CONTENT_Two .Topic ul.in_icom {
+	position: absolute;
+	right: 7px;
+	top: 9px;
+	width: 178px;
+}
+
+#CONTENT_Two .Topic ul.in_icom li {
+	float: left;
+}
+
+/*==menu_1==*/
+#CONTENT_Two .Topic ul.in_icom li.menu_1 a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #ff392f;
+	text-decoration: none;
+	width: 55px;
+	height: 28px;
+	background:
+		url(../../images/shop/store_inedx/topic_menu_1.gif)
+		no-repeat left top;
+	padding-left: 3px;
+}
+
+#CONTENT_Two .Topic ul.in_icom li.menu_1 a:hover {
+	color: #ffe02f;
+	background:
+		url(../../images/shop/store_inedx/topic_menu_1.gif)
+		no-repeat left bottom;
+}
+
+#CONTENT_Two .Topic ul.in_icom li.menu_1_active a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #ffe02f;
+	text-decoration: none;
+	width: 55px;
+	height: 28px;
+	background:
+		url(../../images/shop/store_inedx/topic_menu_1.gif)
+		no-repeat left bottom;
+	padding-left: 3px;
+}
+
+/*===menu_1_END==*/
+/*==menu_2==*/
+#CONTENT_Two .Topic ul.in_icom li.menu_2 a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #ff392f;
+	text-decoration: none;
+	width: 55px;
+	height: 28px;
+	background:
+		url(../../images/shop/store_inedx/topic_menu_1.gif)
+		no-repeat left top;
+	padding-left: 3px;
+}
+
+#CONTENT_Two .Topic ul.in_icom li.menu_2 a:hover {
+	color: #ffe02f;
+	background:
+		url(../../images/shop/store_inedx/topic_menu_1.gif)
+		no-repeat left bottom;
+}
+
+#CONTENT_Two .Topic ul.in_icom li.menu_2_active a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #ffe02f;
+	text-decoration: none;
+	width: 55px;
+	height: 28px;
+	background:
+		url(../../images/shop/store_inedx/topic_menu_1.gif)
+		no-repeat left bottom;
+	padding-left: 3px;
+}
+
+/*===menu_2_END==*/
+/*==menu_3==*/
+#CONTENT_Two .Topic ul.in_icom li.menu_3 a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #ff392f;
+	text-decoration: none;
+	width: 55px;
+	height: 28px;
+	background:
+		url(../../images/shop/store_inedx/topic_menu_1.gif)
+		no-repeat left top;
+	padding-left: 3px;
+}
+
+#CONTENT_Two .Topic ul.in_icom li.menu_3 a:hover {
+	color: #ffe02f;
+	background:
+		url(../../images/shop/store_inedx/topic_menu_1.gif)
+		no-repeat left bottom;
+}
+
+#CONTENT_Two .Topic ul.in_icom li.menu_3_active a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #ffe02f;
+	text-decoration: none;
+	width: 55px;
+	height: 28px;
+	background:
+		url(../../images/shop/store_inedx/topic_menu_1.gif)
+		no-repeat left bottom;
+	padding-left: 3px;
+}
+
+/*===menu_3_END==*/
+/*==發燒話題_大圖==*/
+#CONTENT_Two .Topic .left_img_Topic a img {
+	float: left;
+	width: 175px;
+	height: 265px;
+	display: block;
+	background-color: #FFFFFF;
+	border: 1px solid #BBBBBB;
+	font-size: 0;
+	padding: 1px;
+	position: absolute;
+	top: 46px;
+	left: 15px;
+}
+
+/*==發燒話題_文案==*/
+.Topic_focus {
+	float: left;
+	width: 200px;
+	height: 160px;
+	position: absolute;
+	top: 46px;
+	left: 213px;
+}
+
+.Topic_focus h1 a {
+	text-indent: 20px;
+	background:
+		url(../../images/shop/store_inedx/icon_a_g.gif)
+		no-repeat left top;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	display: block;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 0px 0px 5px 0px;
+	color: #595757;
+	border-bottom: 1px dashed #cccccc;
+	text-decoration: none;
+	top: 185px;
+	left: 20px;
+}
+
+.Topic_focus h1 a:hover {
+	background:
+		url(../../images/shop/store_inedx/icon_a_g_hover.gif)
+		no-repeat left top;
+	text-decoration: underline;
+	color: #ec4e2f;
+}
+
+.Topic_focus p a {
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 140px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #595757;
+	text-decoration: none;
+	text-align: justify;
+	text-decoration: none;
+	border-bottom: 1px dashed #cccccc;
+}
+
+.Topic_focus p a:hover {
+	color: #ec4e2f;
+}
+
+/*===活動快訊_AD廣告[區塊]===*/
+#CONTENT_Two .box2 {
+	width: 350px;
+	height: 335px;
+	float: right;
+	/*==2011修改  height: 335px;==*/
+}
+
+/*===活動快訊_AD廣告[區塊]_NED===*/
+/*===活動快訊===*/
+#CONTENT_Two .box2 .doing {
+	width: 339px;
+	height: 92px;
+	padding: 35px 0px 0px 11px;
+	background:
+		url(../../images/shop/store_inedx/doing_bg.gif)
+		no-repeat left top;
+}
+
+#CONTENT_Two .box2 .doing .doing_box a {
+	float: left;
+	width: 100px;
+	height: 75px;
+	display: block;
+	background-color: #FFFFFF;
+	border: 1px solid #BBBBBB;
+	font-size: 0;
+	padding: 2px;
+}
+
+/*===AD廣告===*/
+#CONTENT_Two .box2 .doing_ad {
+	width: 350px;
+	height: 200px;
+	line-height: 200px;
+	display: block;
+	background-color: #999;
+	margin-top: 7px;
+	/*==2011修改margin-top: 7px;==*/
+}
+
+#CONTENT_Two .box2 .doing_ad a img {
+	width: 350px;
+	height: 200px;
+	line-height: 200px;
+	display: block;
+	/*==2011修改_新增==*/
+}
+
+/*===Focus焦點商品===*/
+#focus {
+	width: 788px;
+	height: 345px;
+	/*==2011修改_340改為345==*/
+	padding: 30px 0px 0px 2px;
+	/*==2011修改_35px改為30px==*/
+	float: right;
+	background:
+		url(../../images/shop/store_inedx/focus_bg.gif)
+		no-repeat left top;
+	position: relative; /*===2011修改===*/
+	background-image:
+		url(../../images/shop/store_inedx/focus_bg.gif);
+}
+
+/*==UL==*/
+#focus ul.focus_icom {
+	position: absolute;
+	right: 4px;
+	top: 7px;
+	/*  20110222修改原12px_改為7px */
+	width: 125px;
+}
+
+#focus li {
+	float: right;
+}
+
+/*==我要曝光==*/
+#focus li.focus-exposure a {
+	display: block;
+	width: 55px;
+	height: 28px;
+	background:
+		url(../../images/shop/store_inedx/i_exposure.gif)
+		no-repeat left top;
+	text-indent: -9999px;
+	padding-left: 3px;
+}
+
+#focus li.focus-exposure a:hover {
+	background:
+		url(../../images/shop/store_inedx/i_exposure.gif)
+		no-repeat left bottom;
+}
+
+/*===我要曝光_END==*/
+/*==更多MORE==*/
+#focus li.focus-more a {
+	display: block;
+	width: 55px;
+	height: 28px;
+	background:
+		url(../../images/shop/store_inedx/i_more.gif)
+		no-repeat left top;
+	text-indent: -9999px;
+	padding-left: 3px;
+}
+
+#focus li.focus-more a:hover {
+	background:
+		url(../../images/shop/store_inedx/i_more.gif)
+		no-repeat left bottom;
+}
+
+/*===更多MORE_END==*/
+/*==UL_END==*/
+#focus .focus_box .img_focus .img_focus_box {
+	background-color: #FFF;
+	display: block;
+	font-size: 0;
+	width: 145px;
+	height: 109px;
+	padding: 1px;
+	background-color: #FFFFFF;
+	border: 1px solid #BBBBBB;
+	overflow: hidden;
+}
+
+/*↑2011新增CSS ↑*/
+#focus .focus_box .img_focus {
+	float: left;
+	width: 145x;
+	padding-top: 12px;
+}
+
+#focus .focus_box .img_focus a img {
+	display: block;
+	font-size: 0;
+	height: 109px;
+	margin: 0 auto;
+	/*修改商品圖145*109-2=107*/
+}
+
+#focus .focus_box .img_focus .ppp a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ec4e2f;
+	/*==↑20110222_修改為文字紅色==*/
+	text-decoration: none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 1px solid #ec4e2f;
+	/*==↑20110221_修改為文字左邊1PX==*/
+	padding-left: 5px;
+	text-decoration: none;
+	height: 20px;
+	overflow: hidden;
+}
+
+#focus .focus_box .img_focus .ppp a:hover {
+	color: #ec4e2f;
+	text-decoration: underline;
+}
+
+#focus .focus_box .img_focus .p_blck a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 1px solid #ec4e2f;
+	/*==↑20110221_修改為文字左邊1PX==*/
+	padding-left: 5px;
+	text-decoration: none;
+	height: 20px;
+	overflow: hidden;
+}
+
+#focus .focus_box .img_focus .p_blck a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+#focus .focus_box .img_focus .p_blck .FontBold {
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:12px;
+  line-height:20px;
+  font-weight:bold;
+  color: #ec4e2f;
+}
+/*===焦點商品_NED===*/
+/*===人氣金榜===*/
+#hotranking {
+	width: 790px;
+	float: right;
+	background-color: #333;
+}
+
+#hotranking .hotranking_box {
+	width:788px;
+	height: 180px;
+	padding: 35px 0px 0px 2px;
+	background:
+		url(../../images/shop/store_inedx/bg_105.gif)
+		no-repeat left top;
+	position: relative;
+	/*===2011修改===*/
+}
+
+/* =====UL===== */
+#hotranking .hotranking_box ul {
+	position: absolute;
+	right: 319px;
+	top: 10px;
+	width: 330px;
+}
+
+#hotranking .hotranking_box li {
+	float: left;
+	padding-left: 5px;
+}
+
+/*==人氣111==*/
+#hotranking .hotranking_box li.menu1 a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #fff;
+	text-decoration: none;
+	width: 54px;
+	height: 25px;
+	padding-left: 20px;
+	background:
+		url(../../images/shop/store_inedx/hotranking_menu.gif)
+		no-repeat left top;
+}
+
+#hotranking .hotranking_box li.menu1 a:hover {
+	color: #ff392f;
+	background-position: left bottom;
+}
+
+#hotranking .hotranking_box li.menu1_active a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #ff392f;
+	text-decoration: none;
+	width: 54px;
+	height: 25px;
+	padding-left: 20px;
+	background:
+		url(../../images/shop/store_inedx/hotranking_menu.gif)
+		no-repeat left bottom;
+}
+
+/*==人氣111_END==*/
+/*=222==*/
+#hotranking .hotranking_box li.menu2 a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #fff;
+	text-decoration: none;
+	width: 54px;
+	height: 25px;
+	padding-left: 20px;
+	background:
+		url(../../images/shop/store_inedx/hotranking_menu.gif)
+		no-repeat -79px top;
+}
+
+#hotranking .hotranking_box li.menu2 a:hover {
+	color: #ff392f;
+	background-position: -159px bottom;
+}
+
+#hotranking .hotranking_box li.menu2_active a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #ff392f;
+	text-decoration: none;
+	width: 54px;
+	height: 25px;
+	padding-left: 20px;
+	background:
+		url(../../images/shop/store_inedx/hotranking_menu.gif)
+		no-repeat -79px bottom;
+}
+
+/*==222_END==*/
+/*=333==*/
+#hotranking .hotranking_box li.menu3 a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #fff;
+	text-decoration: none;
+	width: 54px;
+	height: 25px;
+	padding-left: 20px;
+	background:
+		url(../../images/shop/store_inedx/hotranking_menu.gif)
+		no-repeat -159px top;
+}
+
+#hotranking .hotranking_box li.menu3 a:hover {
+	color: #ff392f;
+	background-position: -159px bottom;
+}
+
+#hotranking .hotranking_box li.menu3_active a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #ff392f;
+	text-decoration: none;
+	width: 54px;
+	height: 25px;
+	padding-left: 20px;
+	background:
+		url(../../images/shop/store_inedx/hotranking_menu.gif)
+		no-repeat -159px bottom;
+}
+
+/*==333_END==*/
+/*==444==*/
+#hotranking .hotranking_box li.menu4 a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #fff;
+	text-decoration: none;
+	width: 54px;
+	height: 25px;
+	padding-left: 20px;
+	background:
+		url(../../images/shop/store_inedx/hotranking_menu.gif)
+		no-repeat -239px top;
+}
+
+#hotranking .hotranking_box li.menu4 a:hover {
+	color: #ff392f;
+	background-position: -239px bottom;
+}
+
+#hotranking .hotranking_box li.menu4_active a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #ff392f;
+	text-decoration: none;
+	width: 54px;
+	height: 25px;
+	padding-left: 20px;
+	background:
+		url(../../images/shop/store_inedx/hotranking_menu.gif)
+		no-repeat -239px bottom;
+}
+
+/*==444_END==*/
+/* =====UL_END===== */
+#hotranking .hotranking_box .hotran_box .img_hotran {
+	float: left;
+	width: 145x;
+	padding-top: 12px;
+}
+
+#hotranking .hotranking_box .hotran_box .img_hotran .img_hotranking_box
+	{
+	background-color: #FFF;
+	display: block;
+	font-size: 0;
+	width: 145px;
+	height: 109px;
+	padding: 1px;
+	background-color: #FFFFFF;
+	border: 1px solid #BBBBBB;
+	overflow: hidden;
+}
+
+/*===↑2011新增CSS ↑===*/
+#hotranking .hotranking_box .hotran_box .img_hotran a img {
+	display: block;
+	font-size: 0;
+	height: 109px;
+	/*修改商品圖145*109-2=107*/
+}
+
+#hotranking .hotranking_box .hotran_box .img_hotran .ppp a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ec4e2f;
+	/*==↑20110222_修改為文字紅色==*/
+	text-decoration: none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 1px solid #ec4e2f;
+	/*==↑20110221_修改為文字左邊1PX==*/
+	padding-left: 5px;
+	text-decoration: none;
+	height: 20px;
+	overflow: hidden;
+}
+
+#hotranking .hotranking_box .hotran_box .img_hotran .ppp a:hover {
+	color: #ec4e2f;
+	text-decoration: underline;
+}
+
+#hotranking .hotranking_box .hotran_box .img_hotran .p_blck a {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif, 新細明體;
+	width: 135px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px dashed #cccccc;
+	border-left: 1px solid #ec4e2f;
+	/*==↑20110221_修改為文字左邊1PX==*/
+	padding-left: 5px;
+	text-decoration: none;
+	height: 20px;
+	overflow: hidden;
+}
+
+#hotranking .hotranking_box .hotran_box .img_hotran .p_blck a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+/*===人氣金榜_NED===*/
+
+
+
+/*==下方廣告版位*2==*/
+#shopBottomAd {
+  width:980px;
+  float: left;
+  padding: 10px 0px 20px 0px;
+}
+#shopBottomAd .shopBottomAd_box {
+  width:865px;
+  height:130px;
+  padding: 10px 40px 0px 75px ;
+  background: url(../../images/shop/store_inedx/shopbottom_ad/shopbottom_ad_box_bg.gif) no-repeat left  top;
+
+}
+/*==下方廣告版位*2_[左邊ad}==*/
+#shopBottomAd .shopBottomAd_box .shopBottomAd_box_left{
+  width:410px;
+  height: 113px;
+  float: left;
+  position:relative;
+  }
+/*==下方廣告版位*2_左邊ad_圖==*/
+#shopBottomAd .shopBottomAd_box .shopBottomAd_box_left .img_shopBottomAd_box {
+  background-color: #FFF;
+  display:block;
+  font-size:0;
+  width:109px;
+  height:109px;
+  padding: 1px;
+  background-color:#FFFFFF;
+  border:1px solid #BBBBBB;
+  overflow:hidden;
+}
+/*==左邊ad_標題_定位==*/
+#shopBottomAd .shopBottomAd_box_H1_Left{
+  width: 290px;
+  float:left;
+  position:absolute;
+  top: 1px;
+  left: 118px;
+  }
+#shopBottomAd .shopBottomAd_box_H1_Left h1 a{
+  text-indent:0px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  font-size:15px;
+  line-height:24px;
+  color:  #ec4e2f;
+  text-decoration:none;
+  overflow: hidden;
+  }
+#shopBottomAd .shopBottomAd_box_H1_Left h1 a:hover{
+  text-decoration:underline;
+  color:#ec4e2f;
+  } 
+/*==左邊ad_內文==*/
+#shopBottomAd .shopBottomAd_box_H1_Left p{
+  text-indent:0px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  font-size:12px;
+  line-height:18px;
+  color: #595757;
+  text-decoration:none;
+  overflow: hidden;
+  }     
+/*==左邊ad_價錢==*/
+#shopBottomAd .shopBottomAd_box_H1_Left h2 a{
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  background:url(../../images/shop/store_inedx/price_icon_g.gif) no-repeat left top;
+  font-size:12px;
+  line-height:24px;
+  padding: 10px 0px 0px 18px;
+  color: #595757;
+  text-decoration:none;
+  overflow: hidden;
+  }
+/*==左邊ad_價錢[數字100]==*/
+#shopBottomAd .shopBottomAd_box_H1_Left .price_left{  
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:22px;
+  line-height:24px;
+  color:  #ec4e2f;
+  text-decoration:none;
+  overflow: hidden;
+}
+
+/*===我要購買===*/
+.shopBottomAd_go_Left {
+  position:absolute;
+  width: 85px;
+  left: 321px;
+  top: 80px;
+}
+.shopBottomAd_go_Left li {
+  background: url(../../images/shop/store_inedx/go_special_sale.gif) no-repeat left top;
+  /*==2011_0224修改按鈕_SALE專用==*/
+  width: 85px;
+  height:30px;
+}
+.shopBottomAd_go_Left li a {
+  display:block;
+  width: 55px;
+  padding-left:30px;
+  line-height:30px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:12px;
+  font-weight:bold;
+  color: #FFF;
+  text-decoration:none;
+}
+.shopBottomAd_go_Left a:hover {
+    background: url(../../images/shop/store_inedx/go_special_sale.gif) no-repeat left bottom;  
+  color: #FFF;
+  /*==2011_0224修改按鈕_SALE專用==*/  
+}
+/*===我要購買_END===*/
+
+/*==下方廣告版位*2_[左邊ad]END==*/
+
+
+
+/*==下方廣告版位*2_[右邊ad]==*/
+#shopBottomAd .shopBottomAd_box .shopBottomAd_box_right{
+  width:410px;
+  height: 113px;
+  float: right; 
+  position:relative;
+  }
+/*==下方廣告版位*2_右邊ad_圖==*/
+#shopBottomAd .shopBottomAd_box .shopBottomAd_box_right .img_shopBottomAd_box {
+  background-color: #FFF;
+  display:block;
+  font-size:0;
+  width:109px;
+  height:109px;
+  padding: 1px;
+  background-color:#FFFFFF;
+  border:1px solid #BBBBBB;
+  overflow:hidden;
+}
+/*==右邊ad_標題_定位==*/
+#shopBottomAd .shopBottomAd_box_H1_right{
+  width: 290px;
+  float:left;
+  position:absolute;
+  top: 1px;
+  left: 122px;
+  }
+#shopBottomAd .shopBottomAd_box_H1_right h1 a{
+  text-indent:0px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  font-size:15px;
+  line-height:24px;
+  color:  #ec4e2f;
+  text-decoration:none;
+  overflow: hidden;
+  }
+#shopBottomAd .shopBottomAd_box_H1_right h1 a:hover{
+  text-decoration:underline;
+  color:#ec4e2f;
+  }
+
+/*==左邊ad_內文==*/
+#shopBottomAd .shopBottomAd_box_H1_right p{
+  text-indent:0px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  font-size:12px;
+  line-height:18px;
+  color: #595757;
+  text-decoration:none;
+  overflow: hidden;
+  } 
+/*==左邊ad_價錢==*/
+#shopBottomAd .shopBottomAd_box_H1_right h2 a{
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  display: block;
+  background:url(../../images/shop/store_inedx/price_icon_g.gif) no-repeat left top;
+  font-size:12px;
+  line-height:24px;
+  padding: 10px 0px 0px 18px;
+  color: #595757;
+  text-decoration:none;
+  overflow: hidden;
+  }
+/*==左邊ad_價錢[數字100]==*/
+#shopBottomAd .shopBottomAd_box_H1_right .price_right{  
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:22px;
+  line-height:24px;
+  color:  #ec4e2f;
+  text-decoration:none;
+  overflow: hidden;
+}
+/*===我要購買===*/
+.shopBottomAd_go_right {
+  position:absolute;
+  width: 85px;
+  left: 323px;
+  top: 80px;
+}
+.shopBottomAd_go_right li {
+  background: url(../../images/shop/store_inedx/go_special_sale.gif) no-repeat left top;
+  width: 85px;
+  height:30px;
+}
+.shopBottomAd_go_right li a {
+  display:block;
+  width: 55px;
+  padding-left:30px;
+  line-height:30px;
+  font-family:Arial, Helvetica, sans-serif, 新細明體;
+  font-size:12px;
+  font-weight:bold;
+  color: #FFF;
+  text-decoration:none;
+}
+.shopBottomAd_go_right a:hover {
+    background: url(../../images/shop/store_inedx/go_special_sale.gif) no-repeat left bottom;
+  color: #FFF;
+}
+/*===我要購買_END===*/
+
+/*==下方廣告版位*2_END==*/

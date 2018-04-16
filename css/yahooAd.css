@@ -1,0 +1,52 @@
+/* yahoo的廣告 目前用在找合購和個人頁左邊 */
+div.ad_header{font-size:12px; color:#333333; font-weight:bold;padding:0 0 2px 10px; background-color:#f9f9f9; border-top:1px solid #e3e3e3;border-left:1px solid #e3e3e3;border-right:1px solid #e3e3e3;}
+div.title {background:none; margin: 0; padding: 0;}
+div.title span {background:none;  color: #666;   font-family:none;  font-size: 13px; font-weight:none;  line-height: none;  padding:0;}
+ul#yad{
+	background-color:#f9f9f9;
+	border:1px #e3e3e3 solid;
+	padding-bottom:20px;}
+
+.ad{
+	list-style-type:none;
+	width:178px;
+	margin:0 auto;
+	margin-top:20px;
+}
+.ad a{
+	text-decoration:none;
+}
+.ad img{
+	padding:2px;
+	border:1px #ccc solid;
+	margin-left:27px;
+}
+.con_r{
+	width:180px;
+	height:auto;	
+}
+.con_r .title{
+	width:170px;
+	height:25px;
+	overflow:hidden;
+	font-size:13px;
+	font-weight: bold;
+	color: #666;
+	text-decoration:none;
+	text-align:center;
+	margin:0 auto;
+	margin-top:3px;
+}
+.con_r .content{
+	width:160px;
+	font-size:12px;
+	margin: 0 auto;
+	margin-top:4px;
+	color:#666;
+	text-decoration:none;
+	text-align:left;
+}
+.con_r .link{
+	display:none;
+	
+}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*===ihergo形象影片欄_開始===*/
+#WRAPPER_event .CONTENT_videos {float: left; width:940px; height:365px; padding:20px; margin-bottom:10px; _display:inline; background: url(../images/2011/videos/videos_bg.gif) no-repeat left top;}
+#WRAPPER_event .CONTENT_videos .videos_left{ float:left; width:640px; height:360px;}
+
+/*==標題與關閉==*/
+#WRAPPER_event .CONTENT_videos .videos_right{ float:right; width:282px; height:360px; background: url(../images/2011/videos/videos_right_bg.gif) no-repeat right top;}
+#WRAPPER_event .CONTENT_videos .videos_right .VRtopbox{ float: left; width:282px; height:35px; padding-top:10px; position:relative;}
+#WRAPPER_event .CONTENT_videos .videos_right .VRtopbox h3{float: left; width:180px; height:20px; padding:15px 0px 0px 10px; line-height:20px; font-size:16px;letter-spacing:1px; overflow:hidden; text-align: left;}
+#WRAPPER_event .CONTENT_videos .videos_right .VRtopbox a.CloseBtn{float: right; display:block; width:75px;height:35px; line-height:35px; font-size:12px; color:#999999; text-decoration:none; background:url(../images/2011/videos/closebtn_vd.gif) no-repeat right top;}
+#WRAPPER_event .CONTENT_videos .videos_right .VRtopbox a.CloseBtn:hover{ background-position: right bottom;}
+
+/*==關閉_提示==*/
+#WRAPPER_event .CONTENT_videos .videos_right .closebtn_Msg{ display:block; width:76px; height:39px; text-indent:-9999px; position:absolute; top:43px; right:-10px; background:url(../images/2011/videos/closebtn_hoverbox.gif) no-repeat left top;}
+
+/*==內文==*/
+#WRAPPER_event .CONTENT_videos .videos_right .VRTextbox{ float: left; width:262px; height:110px; padding:10px 10px 0px 10px;}
+#WRAPPER_event .CONTENT_videos .videos_right .VRTextbox p{ font-size:13px; line-height:22px; color:#767676; letter-spacing:1px; text-align:justify;}
+
+/*==Bannerbox==*/
+#WRAPPER_event .CONTENT_videos .videos_right .VRBannerbox{ float: left; width:282px;}
+
+/*==串接FB_開始==*/
+#WRAPPER_event .CONTENT_videos .videos_right .VR_FBbox{ float: left; width:282px; height:50px; overflow:hidden;}
+#WRAPPER_event .CONTENT_videos .videos_right .VR_FBbox a.FBbtn{ display:block; width:200px; height:50px; background:url(../images/2011/videos/vr_fbbox_bg.gif) no-repeat left top; text-indent:-9999px;}
+#WRAPPER_event .CONTENT_videos .videos_right .VR_FBbox a.FBbtn:hover{ background-position:left bottom;}
+/*===ihergo形象影片欄_結束===*/

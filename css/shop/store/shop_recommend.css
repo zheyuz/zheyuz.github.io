@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==============================商品列表_圖片排列開始==============================*/
+#store_wrapper .main_wrp .list_content{ width:788px; margin:0 auto;}
+#store_wrapper .main_wrp .list_content .title_wrp{ width:788px; height:32px; border:1px #e3e3e3 solid;}
+#store_wrapper .main_wrp .list_content .title_wrp .title_content{ width:786px; height:30px; margin:1px; background:#f5f5f5;}
+#store_wrapper .main_wrp .list_content .title_wrp .title_content h2{ color:#666; font-size:15px; font-weight:bold; letter-spacing:1px; line-height:30px; float:left; padding:0 0 0 15px;}
+
+#store_wrapper .main_wrp .list_content .content{ width:100%;}
+
+/*--推薦店家列表--*/
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp{padding: 10px 15px 0; width: 760px;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li{border-bottom: 1px solid #E5E5E5; float:left;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box{ width:760px; margin:1px 0;*margin:1px 0 0 0;_margin:1px 0; padding:30px 0; position:relative; z-index:5;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .box_hover{ background:#f5f5f5;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content{ width:164px; float:left; padding:0 0 0 32px;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content .store_img_box{ padding:1px; border:1px solid #e3e3e3; width:160px; height:55px;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content .store_img_box a{width:160px; height:55px; display:block; background:#fff; overflow:hidden;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content .store_img_box a:hover img{/*opacity: 0.9;filter:alpha(opacity=90);zoom:1;*/}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content h3.store_name{ width:164px; height:40px; overflow:hidden; padding:12px 0 0 0; text-align:center;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content h3.store_name a.name{padding:0px 0 0 0; color:#666; font-size:13px;width:164px; line-height:20px;overflow:hidden; text-align:center;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content h3.store_name a.name:hover{ color:#454545; text-decoration:underline;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content h3.store_name img{margin:0 0 0 3px; vertical-align:middle; }
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content .satisfaction_box{ width:160px; margin:11px 0 0 0; position:relative; z-index:3; cursor:pointer;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content .satisfaction_box p.fraction{float:left; color:#f64949; font-size:13px; padding:0 4px 0 32px; font-weight:bold; font-family:"AR Gothic1 Medium";}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content .satisfaction_box a.star_img{float:left; width:75px; height:15px; display:block;}
+
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content p.store_fans{ color:#666; font-size:12px;letter-spacing:1px; text-align:center; width:160px; height:20px; line-height:20px; overflow:hidden; color:#666; padding:4px 0 0 0;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content p.store_fans span.highlight{ font-family:"Century Gothic"; font-size:15px; padding:0 3px 0 0;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content p.rank{ color:#666; font-size:12px;letter-spacing:1px; text-align:center; width:160px; height:20px; line-height:20px; overflow:hidden; padding:4px 0 0 0;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content p.rank a{ color:#666; text-decoration:underline; padding:0 6px 0 0;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content p.rank a:hover{ text-decoration:none; color:#454545;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .store_content p.rank span.highlight{ font-family:"Century Gothic"; font-size:15px; padding:0 3px 0 0;}
+
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .goods_content{ width:530px; float:left; padding:0 0 0 30px;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .goods_content .goods_wrp{ float:left;width:120px; padding:0 12px 0 0; position:relative; z-index:2;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .goods_content .goods_wrp a.goods_btn { width:120px; display:block; text-decoration:none; }
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .goods_content .goods_wrp a.goods_btn .img_box{ width:116px; height:116px; padding:1px; border:1px solid #e3e3e3;cursor:pointer; background:#fff;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .goods_content .goods_wrp a.goods_btn .img_box img{ width:116px;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .goods_content .goods_wrp a.goods_btn:hover .img_box img {/*opacity: 0.9;filter:alpha(opacity=90);zoom:1;*/}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .goods_content .goods_wrp a.goods_btn h4{ font-size:13px;color:#666; font-weight:normal; font-size:12px; width:120px; height:20px; line-height:20px; letter-spacing:1px; text-align:center; overflow:hidden;padding: 6px 0 0;cursor:pointer; }
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .goods_content .goods_wrp a.goods_btn:hover h4 { color:#666; text-decoration:underline;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .goods_content .goods_wrp a.goods_btn p.popular{ font-size:12px;color:#666;width:120px; text-align:center; letter-spacing:1px; }
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .goods_content .goods_wrp a.goods_btn p.popular span.highlight{ padding:0 3px 0 0;letter-spacing:0px; }
+
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .discount_wrp{position:absolute; top:-25px; left:-25px; width:55px; height:55px; background:url(../../../images/shop/search/discount_img.png) no-repeat center center; _background:url(../../../images/shop/search/discount_img_ie6.gif) no-repeat center center;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .discount_wrp p.number{ color:#fff; font-weight:bold; font-size:20px; width:26px; text-align:center; padding:11px 0 0 9px;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .bonuses_wrp p.number{ color:#fff; font-weight:bold; font-size:20px; width:26px; text-align:center; padding:11px 0 0 9px;}
+#store_wrapper .main_wrp .list_content .content ul.store_list_wrp li .store_box .bonuses_wrp p.text{ text-indent:-9999px;}
+/*--推薦店家列表_結束--*/
+
+/*--看更多按鈕--*/
+#store_wrapper .main_wrp .list_content .content .page_wrp{ width:760px; margin:0 auto;}
+#store_wrapper .main_wrp .list_content .content .page_wrp p.more_goods {float:right; padding:12px 0; _display:inline; }
+#store_wrapper .main_wrp .list_content .content .page_wrp p.more_goods a{ padding:3px 7px; border:1px solid #e1e0e0; background:#FFF; font-size:12px; color:#666666;line-height:28px;}
+#store_wrapper .main_wrp .list_content .content .page_wrp p.more_goods a:hover{text-decoration:none;background:#9b9b9b; border:1px solid #9b9b9b; color:#FFF;}
+/*--看更多按鈕_結束--*/

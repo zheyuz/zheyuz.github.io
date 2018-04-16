@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+.point_wrapper ul, .point_wrapper li, .point_wrapper h1, .point_wrapper h2, .point_wrapper h3, .point_wrapper h4, .point_wrapper h5, .point_wrapper h6, .point_wrapper a, .point_wrapper p{ color:#454545; font-size:12px; letter-spacing:1px;}
+
+.point_wrapper{ float:left; width:790px; padding-bottom:40px; margin: 0 auto; _display:inline;}
+.wrapper_open{ float:none;}
+.point_wrapper_popup{ width:610px; margin: 0 auto; float:none; padding-bottom:25px;}
+.point_wrapper_popup p.have_point{ font-size:13px; text-align:right; height:40px; line-height:40px; padding-right:10px; letter-spacing:2px;}
+.point_wrapper_popup p.have_point span{ font-size:15px; color:#f64949; font-weight:bold; letter-spacing:1px; padding:0 3px;}
+
+.point_wrapper .point_menu{ width:790px; height:85px; background:url(../images/point/point_menu.jpg) no-repeat left -170px;}
+.point_wrapper .point_title{ width:788px; border:1px #cbcbcb solid; border-width:0 1px; padding:14px 0 20px 0; background-color:#fff;}
+.point_wrapper .point_content{ width:748px; border:1px #cbcbcb solid; border-width:0 1px 1px 1px; background-color:#fbfbfb; padding:35px 20px 40px 20px;}
+.point_wrapper .title_open{ border:1px #cbcbcb solid; border-width:1px 1px 0 1px;}
+.point_wrapper .paddBot{ padding-bottom:20px;}
+
+.point_wrapper .point_menu ul{ padding-left:462px; /*width:339px;*/}
+.point_wrapper .point_menu ul li{ float:left; }
+.point_wrapper .point_menu ul li a{ display:block; width:109px; height:85px; text-indent:-9999px;}
+.point_wrapper .point_menu ul li a.point_a{ background:url(../images/point/point_menu.jpg) no-repeat -352px top;}
+.point_wrapper .point_menu ul li a.point_b{ background:url(../images/point/point_menu.jpg) no-repeat -462px top;}
+.point_wrapper .point_menu ul li a.point_c{ background:url(../images/point/point_menu.jpg) no-repeat -571px top;}
+.point_wrapper .point_menu ul li a.point_d{ background:url(../images/point/point_menu.jpg) no-repeat -680px top;}
+.point_wrapper .point_menu ul li a:hover.point_a{ background:url(../images/point/point_menu.jpg) no-repeat -352px -85px}
+.point_wrapper .point_menu ul li a:hover.point_b{ background:url(../images/point/point_menu.jpg) no-repeat -462px -85px}
+.point_wrapper .point_menu ul li a:hover.point_c{ background:url(../images/point/point_menu.jpg) no-repeat -571px -85px}
+.point_wrapper .point_menu ul li a:hover.point_d{ background:url(../images/point/point_menu.jpg) no-repeat -680px -85px}
+.point_wrapper .point_menu ul li.active a.point_a{ background:url(../images/point/point_menu.jpg) no-repeat -352px -85px}
+.point_wrapper .point_menu ul li.active a.point_b{ background:url(../images/point/point_menu.jpg) no-repeat -462px -85px}
+.point_wrapper .point_menu ul li.active a.point_c{ background:url(../images/point/point_menu.jpg) no-repeat -571px -85px}
+.point_wrapper .point_menu ul li.active a.point_d{ background:url(../images/point/point_menu.jpg) no-repeat -680px -85px}
+
+.point_wrapper .point_title h3{ float:left; height:34px; line-height:34px; color:#666; font-size:15px; font-weight:bold; letter-spacing:2px; background:url(../images/point/icon_point.jpg) no-repeat 24px 7px; padding-left:40px;}
+.point_wrapper .point_title h3 span.txt12{ font-size:12px; padding: 0 5px; font-weight:normal;}
+.point_wrapper .point_title h3 span.txtR13{font-size:13px; color:#f64949;}
+.point_wrapper .point_title .have_point{ float:right; width:376px; height:34px; background:url(../images/point/bk_point.jpg) no-repeat;}
+.point_wrapper .point_title .have_point p{ font-size:13px; letter-spacing:2px; color:#333; line-height:30px; text-align:center;}
+.point_wrapper .point_title .have_point p span{ font-size:18px; font-weight:bold; color:#f64949; letter-spacing:1px; padding: 0 3px;}
+
+.point_wrapper input{ border:1px #e3e3e3 solid; padding: 0 10px; height:27px; line-height:27px; font-size:15px; color:#666; font-family: Arial, Helvetica, sans-serif;}
+.point_wrapper input.input_w80{ width:80px;}
+.point_wrapper .check_box{width:788px; border:1px #cbcbcb solid; border-width:0 1px; padding:8px 0; background-color:#f4f4f4;}
+.point_wrapper .check_box .check_date{ float:left; font-size:15px; color:#666; font-weight:bold; padding-left:150px;}
+.point_wrapper .check_box .check_date span{ font-weight:normal; padding: 0 10px;}
+
+.point_wrapper .check_box a.btn_date{float:left; display:block; background:url(../images/point/function_btn.gif) no-repeat left top; color:#666; font-size:12px; text-decoration: none; margin:2px 0 0 10px; _display:inline;}
+.point_wrapper .check_box a.btn_date span {display: block; background: url(../images/point/function_btn.gif) no-repeat right -25px; color:#666; line-height: 25px;padding: 0 10px;}
+.point_wrapper .check_box a.btn_date:hover {background: url(../images/point/function_btn.gif) no-repeat left -50px;text-decoration: none;}
+.point_wrapper .check_box a.btn_date:hover span {background: url(../images/point/function_btn.gif) no-repeat right -75px;}
+.point_wrapper .check_box a.foruse{ float:right; color:#7d3d0e; padding: 0 18px 0 22px; line-height:28px; background:url(../images/point/icon_use.gif) no-repeat 0 5px; text-decoration:none;}
+.point_wrapper .check_box a:hover.foruse{ text-decoration:underline;}
+
+.point_wrapper .point_content .course_title{ background-color:#ebebeb;}
+.point_wrapper .point_content .course_con{ background-color:#fff;}
+.point_wrapper .point_content .course_con td{ border-bottom:1px #ccc dotted; padding:2px 0 8px 0;}
+.point_wrapper .point_content .course_end{ background-color:#ebebeb; padding: 8px 0;}
+.point_wrapper .point_content .course_end p{ font-size:13px; color:#666; text-align:center;}
+.point_wrapper .point_content .course_end p span{ color:#F64949; font-size:15px; font-weight:bold; padding: 0 5px;}
+.point_wrapper .point_content .course_end p span.txt12{ color:#666; font-size:12px; padding: 0 5px; font-weight:normal;}
+.point_wrapper .point_content .course_end p span.txtR13{font-size:13px; color:#f64949;}
+
+.point_wrapper .point_content p.txtB13{ font-size:13px; color:#666; font-weight:bold; text-align:center;}
+.point_wrapper .point_content p.txt12{ font-size:12px; color:#666; text-align:center;}
+.point_wrapper .point_content p.txt12L{ font-size:12px; color:#666; text-align:left; letter-spacing:0;}
+.point_wrapper .point_content p.txtR15{ font-size:15px; color:#f64949; text-align:center;}
+.point_wrapper .point_content p.txtBL15{ font-size:15px; color:#105cb6; text-align:center;}
+.point_wrapper .point_content p.txt15{ font-size:15px; color:#666; text-align:center;}
+.point_wrapper .point_content p.txtG12{ font-size:12px; color:#44a205; text-align:center;}
+.point_wrapper .point_content a.txtBL12{ display:block; font-size:12px; color:#105cb6; text-align:left; line-height:16px; max-height:32px; /*_height:32px;*/ overflow:hidden;}
+
+.point_wrapper .point_content .withdraw_title{ padding: 0 20px 10px 20px;}
+.point_wrapper .point_content .withdraw_title p{ font-size:13px; padding: 0 0 5px 0;}
+.point_wrapper .point_content .withdraw_title p span.txtR13{color:#f64949; padding-right:5px;}
+.point_wrapper .point_content .withdraw_title p span.txtR13B{color:#f64949; font-weight:bold;}
+
+.point_wrapper .withdraw_con{ width:708px; border:1px #ddd solid; background-color:#fff; margin: 0 auto;}
+/*.point_wrapper .withdraw_con_popup{ width:600px; border:1px #ddd solid; background-color:#fff; margin: 0 auto;}*/
+.point_wrapper .withdraw_con td.leftWD{ background-color:#ececec; border:1px #ddd solid; border-color:#ececec #ececec #ddd #fff; padding:10px 0; text-align:right;}
+.point_wrapper .withdraw_con td.leftWD h3{ font-weight:normal; padding-right:5px;}
+.point_wrapper .withdraw_con td.leftWD h3 span.highlight{color:#f64949; font-weight:700; font-size:15px;}
+.point_wrapper .withdraw_con td.rightWD{ border-bottom:1px #ddd solid; padding:10px 0 10px 15px;}
+.point_wrapper .withdraw_con td.rightWD p{ font-size:13px; line-height:26px;}
+.point_wrapper .withdraw_con .code_pic{ float:left; width:150px; margin: 8px 5px 0 10px;}
+.point_wrapper .withdraw_con a.renew_code{color:#105CB6; text-decoration:underline; line-height:77px;}
+.point_wrapper .withdraw_con a:hover.renew_code{ text-decoration:none;}
+.point_wrapper .withdraw_con td.rightWD p.event_name{ width:530px; line-height:20px;}
+.point_wrapper .withdraw_con td.rightWD p span.txtR13B{font-size:13px; color:#f64949; font-weight:bold;}
+.point_wrapper .withdraw_con td.rightWD p a.mybank{ font-size:13px; color:#105CB6; text-decoration:none;}
+.point_wrapper .withdraw_con td.rightWD p a:hover.mybank{ text-decoration:underline;}
+.point_wrapper .withdraw_con td.rightWD p span.txt15B{ font-size:15px; font-weight:bold;}
+.point_wrapper .withdraw_con td.rightWD p.txt_price span{ font-size:15px; padding-right:5px; font-family:Verdana, Geneva, sans-serif;}
+.point_wrapper .withdraw_con td.rightWD p.txt_price span.txtR12{ font-size:12px; color:#f64949; padding-left:10px;}
+.point_wrapper .withdraw_con td.rightWD p.txtGR13{ font-size:13px; color:#44A205;}
+.point_wrapper .withdraw_con td.rightWD span.txtB13{ font-size:13px; padding-left:5px;}
+
+.point_wrapper .withdraw_con td.BorTop{ border-top:1px #fff solid;}
+.point_wrapper .withdraw_con td.BorBot{ border-bottom:1px #fff solid;}
+
+.point_wrapper .point_content .info{ background:url(../images/image/info.gif) no-repeat 15px -4px; padding:0 0 16px 90px;}
+
+.point_wrapper select{border: 1px solid #CFCFCF; color: #666666; height: 26px; line-height: 26px; padding:2px; vertical-align: top; margin:0 5px 10px 10px;}
+.point_wrapper .withdraw_con input{ border:1px #CFCFCF solid; padding: 0 6px; height:24px; line-height:24px; font-size:13px; color:#666; font-family: Arial, Helvetica, sans-serif;}
+.point_wrapper .withdraw_con input.input_w80{ width:80px;}
+.point_wrapper .withdraw_con input.input_w100{ width:100px;}
+.point_wrapper .withdraw_con input.input_w120{ width:118px; margin: 0 0 0 10px;}
+.point_wrapper .withdraw_con input.input_w130{ width:130px;}
+.point_wrapper .withdraw_con input.input_code{ width:130px; float:left; margin-top:24px; _display:inline;}
+.point_wrapper .withdraw_con span.txtGr12{ color:#999; font-size:12px; padding-left:10px; letter-spacing:1px;}
+
+.point_wrapper .point_content .value_con{ width:708px; border:1px #ddd solid; background-color:#fff; margin: 0 auto;}
+.point_wrapper .point_content .value_con td{ border-bottom:1px #ccc dotted; padding-bottom:10px;}
+.point_wrapper .point_content p.txt_value{ font-size:13px; padding:0 0 8px 30px;}
+
+.point_wrapper .point_content .value_con input{ border:none;}
+.point_wrapper .point_content .ntd_box{ width:280px; margin: 0 auto;}
+.point_wrapper .point_content .ntd_box .input_ntd{ float:left; width:16px; height:20px; margin-right:5px; margin-right:15px\9; }
+.point_wrapper .point_content .ntd_box p{ float:left; font-size:13px; text-align:center; line-height:26px; text-align:center;}
+
+.point_wrapper .point_content input.input_agree{ float:left; margin: 0 10px 0 190px; _margin-right:0; _display:inline;}
+.point_wrapper .point_content p.agree{ font-size:13px; line-height:28px; letter-spacing:2px;}
+.point_wrapper .point_content a.agree_list{color:#105CB6; text-decoration:none;}
+.point_wrapper .point_content a:hover.agree_list{ text-decoration:none; color:#999;}
+
+/*確定BTN加取消*/
+.point_wrapper .enter_box{ width:100%; padding:25px 0 0 0; margin: 0 auto; text-align:center;}
+.point_wrapper .enter_box a.enter{ float:left; display:block; font-size:13px; color:#454545; line-height:32px; letter-spacing:2px; background:url(../images/point/admin_btn.gif) no-repeat left -128px; margin: 0 0 0 285px; _display:inline;}
+.point_wrapper .enter_box a.enter span{ display:block; line-height:32px; background:url(../images/point/admin_btn.gif) no-repeat right -160px; padding: 0 40px;}
+.point_wrapper .enter_box a.enter:hover{background:url(../images/point/admin_btn.gif) no-repeat left -192px; text-decoration:none;}
+.point_wrapper .enter_box a.enter:hover span{background:url(../images/point/admin_btn.gif) no-repeat right -224px;}
+.point_wrapper .enter_box a.cancel{float:left; font-size:12px; color:#999; text-decoration:underline; line-height:32px; letter-spacing:3px; margin: 0 0 0 20px; _display:inline;}
+.point_wrapper .enter_box a.cancel:hover{text-decoration:none;}
+.point_wrapper .enter_box a.MarL{ margin-left:220px;}
+
+/*取消BTN*/
+.point_wrapper .enter_box a.can_value{ float:left; display:block; font-size:13px; color:#454545; line-height:32px; letter-spacing:2px; background:url(../images/point/admin_btn.gif) no-repeat left top; margin: 0 0 0 304px; _display:inline;}
+.point_wrapper .enter_box a.can_value span{ display:block; line-height:32px; background:url(../images/point/admin_btn.gif) no-repeat right -32px; padding: 0 40px;}
+.point_wrapper .enter_box a.can_value:hover{background:url(../images/point/admin_btn.gif) no-repeat left -64px; text-decoration:none;}
+.point_wrapper .enter_box a.can_value:hover span{background:url(../images/point/admin_btn.gif) no-repeat right -96px;}
+
+
+/*安全性欄位*/
+.point_wrapper .security_box{ width:728px; border-top:1px #ccc dotted; padding:15px 0 0 0; margin: 0 auto; margin-top:20px;}
+.point_wrapper .security_box p{ float:left; height:40px; line-height:40px; background:url(../images/point/icon_security.jpg) no-repeat 5px 12px; padding-left:25px; color:#999;}
+.point_wrapper .security_box a{ float:right; padding-right:5px;}
+
+
+
+
